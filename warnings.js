@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zm7h4vqn.js";
+} from "./chunk-dhekbjme.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,6 +39,19 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                audio_for_web_games: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -906,6 +919,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            itu: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ITU",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
+                    401
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1455,6 +1481,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://get.foundation/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2220,7 +2253,21 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "https://guides.emberjs.com/release/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         }
@@ -2243,6 +2290,19 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4298,6 +4358,19 @@ body {
                 },
                 scripting: {
                   children: {
+                    debugging_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/play/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -4411,21 +4484,7 @@ button {
                   }
                 },
                 structuring_content: {
-                  children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
                   messages: [
                     {
@@ -5202,14 +5261,14 @@ h2 {
                           message: "Broken external link",
                           data: [
                             "https://www.fontsquirrel.com/",
-                            502
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.fontsquirrel.com/",
-                            502
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -5223,7 +5282,7 @@ h2 {
                           message: "Broken external link",
                           data: [
                             "https://www.fontsquirrel.com/",
-                            502
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5577,6 +5636,19 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/cli/",
                             "The operation timed out."
                           ]
                         }
@@ -11086,13 +11158,6 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/tools/webfont-generator",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -11100,19 +11165,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11153,27 +11205,6 @@ textarea:focus {
 </picture>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11930,33 +11961,6 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -11964,32 +11968,6 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://dotclear.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -12101,7 +12079,7 @@ padding-left: 20px;
                       message: "Broken external link",
                       data: [
                         "https://phauer.com/2018/code-review-guidelines/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -12208,258 +12186,6 @@ color: rgb(31 41 59 / 26%);
                           ]
                         }
                       }
-                    },
-                    page_types: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#creating-a-new-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#how-to-use-the-templates"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#old-style-page-layouts"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#the-page-type-front-matter-key"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#page-templates"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#api-landing-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#api-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#example-1"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-1"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#api-reference-subpage"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-2"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#html-element-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#example-2"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-3"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#html-attribute-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#example-3"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-4"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#svg-element-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#example-4"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-5"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#css-module-landing-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-1"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-6"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#css-feature-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-2"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-7"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#http-header-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#example-5"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-8"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#aria-reference-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-3"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-9"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#conceptual-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-4"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#glossary-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-5"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#templates-10"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#landing-page"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#learn-web-development-pages"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#examples-6"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#see-also"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -12579,6 +12305,20 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -12599,10 +12339,34 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -13217,19 +12981,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        browser_specific_settings: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings",
-                          messages: [
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-For more information, see the Extension Workshop `
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -13624,65 +13375,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "125": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/125",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=125",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://extensionworkshop.com/documentation/develop/firefox-builtin-data-consent/",
-                            "has HTTPS alternative"
-                          ]
-                        }
-                      ]
-                    },
-                    "142": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Selectors/:heading_function",
-                            "#functional_notation"
-                          ]
-                        },
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://extensionworkshop.com/documentation/develop/firefox-builtin-data-consent/",
-                            "has HTTPS alternative"
-                          ]
-                        }
-                      ]
-                    },
                     "145": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
@@ -13838,17 +13530,7 @@ webextensions.manifest.options_ui`,
                     }
                   }
                 }
-              },
-              slug: "/en-US/docs/Mozilla/Firefox",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://hg-edge.mozilla.org/mozilla-central/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
+              }
             }
           },
           slug: "/en-US/docs/Mozilla",
@@ -14943,22 +14625,6 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
-                },
-                document: {
-                  children: {
-                    startviewtransition: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/startViewTransition",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/:active-view-transition-type"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 fetchevent: {
                   children: {
@@ -17159,18 +16825,6 @@ html {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
-                      ]
-                    }
-                  ]
-                },
-                view_transition_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/View_Transition_API",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:active-view-transition-type"
                       ]
                     }
                   ]
@@ -29767,34 +29421,6 @@ article.snapDisabled ul {
                       slug: "/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines",
                       messages: [
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#named_timelines"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#scroll-progress_timelines"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#view-progress_timelines"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#animation-timeline-and-the-animation-shorthand"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         },
@@ -30429,7 +30055,21 @@ div::after {
                   }
                 },
                 css_text: {
-                  children: {},
+                  children: {
+                    wrapping_breaking_text: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/CSS/CSS_text",
                   messages: [
                     {
@@ -31707,18 +31347,6 @@ p {
                     }
                   }
                 },
-                css_view_transitions: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_view_transitions",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:active-view-transition-type"
-                      ]
-                    }
-                  ]
-                },
                 css_writing_modes: {
                   children: {
                     vertical_controls: {
@@ -31759,16 +31387,7 @@ input[type="range"] {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_writing_modes",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/glyph-orientation-vertical"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 cssom_view: {
                   children: {
@@ -31790,19 +31409,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        grid_wrapper: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-irl.info/more-flexibility-with-minmax/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -32245,17 +31851,7 @@ p {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.fontsquirrel.com/tools/webfont-generator",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@font-feature-values": {
                           children: {
@@ -32290,12 +31886,6 @@ p {
                                   ]
                                 },
                                 {
-                                  message: "Broken link",
-                                  data: [
-                                    "/en-US/docs/Web/CSS/@font-palette-values/"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -32305,12 +31895,6 @@ p {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/font-family",
                               messages: [
-                                {
-                                  message: "Broken link",
-                                  data: [
-                                    "/en-US/docs/Web/CSS/@font-palette-values/"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -32325,12 +31909,6 @@ p {
                                   message: "Missing data",
                                   data: [
                                     "CSS info"
-                                  ]
-                                },
-                                {
-                                  message: "Broken link",
-                                  data: [
-                                    "/en-US/docs/Web/CSS/@font-palette-values/"
                                   ]
                                 },
                                 {
@@ -32444,21 +32022,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.At-rules/@import/layer"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.at-rules.import.layer",
-                                    "Expected:",
-                                    "css.types.Reference.At-rules/@import/layer"
-                                  ]
                                 }
                               ]
                             }
@@ -33077,16 +32640,7 @@ so specify a standalone starting-style block. */
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/At-rules",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#index-of-media-features-used-in-at-rules"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     mozilla_extensions: {
                       children: {},
@@ -39159,18 +38713,6 @@ div {
                             }
                           ]
                         },
-                        "_colon_active-view-transition": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:active-view-transition",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/:active-view-transition-type"
-                              ]
-                            }
-                          ]
-                        },
                         _colon_blank: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:blank",
@@ -40071,18 +39613,6 @@ ul::scroll-button(right) {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/:active-view-transition-type"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/:active-view-transition-type"
-                              ]
-                            },
-                            {
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-window-inactive"
@@ -40365,81 +39895,6 @@ ul::scroll-button(right) {
                     },
                     values: {
                       children: {
-                        "-moz-image-rect": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/-moz-image-rect",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/-moz-image-rect"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.-moz-image-rect",
-                                "Expected:",
-                                "css.types.Reference.Values/-moz-image-rect"
-                              ]
-                            }
-                          ]
-                        },
-                        abs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/abs",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/abs"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.abs",
-                                "Expected:",
-                                "css.types.Reference.Values/abs"
-                              ]
-                            }
-                          ]
-                        },
-                        "absolute-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/absolute-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        acos: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/acos",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/acos"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.acos",
-                                "Expected:",
-                                "css.types.Reference.Values/acos"
-                              ]
-                            }
-                          ]
-                        },
                         "alpha-value": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/alpha-value",
@@ -40479,12 +39934,6 @@ shape-image-threshold: 70%;
 shape-image-threshold: 0.7;
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -40558,129 +40007,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/anchor"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.anchor",
-                                "Expected:",
-                                "css.types.Reference.Values/anchor"
-                              ]
-                            }
-                          ]
-                        },
-                        "anchor-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/anchor-size",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/anchor-size"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.anchor-size",
-                                "Expected:",
-                                "css.types.Reference.Values/anchor-size"
-                              ]
-                            }
-                          ]
-                        },
-                        angle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/angle",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "angle-percentage": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/angle-percentage",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        asin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/asin",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/asin"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.asin",
-                                "Expected:",
-                                "css.types.Reference.Values/asin"
-                              ]
-                            }
-                          ]
-                        },
-                        atan: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/atan",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/atan"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.atan",
-                                "Expected:",
-                                "css.types.Reference.Values/atan"
-                              ]
-                            }
-                          ]
-                        },
-                        atan2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/atan2",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/atan2"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.atan2",
-                                "Expected:",
-                                "css.types.Reference.Values/atan2"
-                              ]
                             }
                           ]
                         },
@@ -40716,60 +40042,6 @@ attr(data-name raw-string, "stranger")
 attr(data-size rem)
 attr(data-width px, inherit)
 attr(data-rotation deg)
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)',
-                                "  background-image: url(attr(data-icon));",
-                                "2:21 - 2:41",
-                                `/en-US/docs/Web/CSS/Reference/Values/attr
-[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-span[data-icon] {
-  background-image: url(attr(data-icon));
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-url-quotes",
-                                'Expected quotes around "url" function argument (function-url-quotes)',
-                                "  background-image: url(attr(data-icon));",
-                                "2:25 - 2:40",
-                                `/en-US/docs/Web/CSS/Reference/Values/attr
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-span[data-icon] {
-  background-image: url(attr(data-icon));
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)',
-                                "  content: attr(text) 1px;",
-                                "5:23 - 5:26",
-                                `/en-US/docs/Web/CSS/Reference/Values/attr
-[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
-~~~
-div::before {
-  content: attr(text) " World";
-}
-div::before {
-  content: attr(text) 1px;
-}
 ~~~
 `
                               ]
@@ -40914,304 +40186,6 @@ div {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/attr"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.attr",
-                                "Expected:",
-                                "css.types.Reference.Values/attr"
-                              ]
-                            }
-                          ]
-                        },
-                        "baseline-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/baseline-position",
-                          messages: [
-                            {
-                              message: "Code with space",
-                              data: [
-                                "first baseline"
-                              ]
-                            },
-                            {
-                              message: "Code with space",
-                              data: [
-                                "last baseline"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "basic-shape": {
-                          children: {
-                            circle: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/circle",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/circle"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.circle",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/circle"
-                                  ]
-                                }
-                              ]
-                            },
-                            ellipse: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/ellipse"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.ellipse",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/ellipse"
-                                  ]
-                                }
-                              ]
-                            },
-                            inset: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/inset",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/inset"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.inset",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/inset"
-                                  ]
-                                }
-                              ]
-                            },
-                            path: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/path",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/path"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.path",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/path"
-                                  ]
-                                }
-                              ]
-                            },
-                            polygon: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/polygon",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/polygon"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.polygon",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/polygon"
-                                  ]
-                                }
-                              ]
-                            },
-                            rect: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/rect",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/rect"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.rect",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/rect"
-                                  ]
-                                }
-                              ]
-                            },
-                            shape: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/shape",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/shape"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.shape",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/shape"
-                                  ]
-                                }
-                              ]
-                            },
-                            xywh: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/xywh",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/basic-shape/xywh"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.basic-shape.xywh",
-                                    "Expected:",
-                                    "css.types.Reference.Values/basic-shape/xywh"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "blend-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/blend-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-edge": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/box-edge",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        calc: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/calc"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.calc",
-                                "Expected:",
-                                "css.types.Reference.Values/calc"
-                              ]
-                            }
-                          ]
-                        },
-                        "calc-keyword": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc-keyword",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "calc-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc-size",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/calc-size"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.calc-size",
-                                "Expected:",
-                                "css.types.Reference.Values/calc-size"
-                              ]
                             }
                           ]
                         },
@@ -41222,33 +40196,6 @@ div {
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        clamp: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/clamp",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/clamp"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.clamp",
-                                "Expected:",
-                                "css.types.Reference.Values/clamp"
-                              ]
                             }
                           ]
                         },
@@ -41349,63 +40296,6 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/color"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.color",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/color"
-                                  ]
-                                }
-                              ]
-                            },
-                            "color-mix": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/color-mix"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.color-mix",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/color-mix"
-                                  ]
-                                }
-                              ]
-                            },
-                            "contrast-color": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/contrast-color",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/contrast-color"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.contrast-color",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/contrast-color"
-                                  ]
                                 }
                               ]
                             },
@@ -41416,7 +40306,7 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
                                 {
                                   message: "Not in BCD",
                                   data: [
-                                    "css.types.Reference.Values/color/device-cmyk"
+                                    "css.types.color.device-cmyk"
                                   ]
                                 }
                               ]
@@ -41535,96 +40425,6 @@ hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha 
                                   ]
                                 },
                                 {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "hsl(360 100% 50%)" to be "red" (color-named)',
-                                    "    hsl(360 100% 50%),",
-                                    "5:5 - 5:22",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-named] Expected "hsl(360 100% 50%)" to be "red" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-  background: conic-gradient(
-    hsl(360 100% 50%),
-    hsl(315 100% 50%),
-    hsl(270 100% 50%),
-    hsl(225 100% 50%),
-    hsl(180 100% 50%),
-    hsl(135 100% 50%),
-    hsl(90 100% 50%),
-    hsl(45 100% 50%),
-    hsl(0 100% 50%)
-  );
-  clip-path: circle(closest-side);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "hsl(180 100% 50%)" to be "cyan" (color-named)',
-                                    "    hsl(180 100% 50%),",
-                                    "9:5 - 9:22",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-named] Expected "hsl(180 100% 50%)" to be "cyan" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-  background: conic-gradient(
-    hsl(360 100% 50%),
-    hsl(315 100% 50%),
-    hsl(270 100% 50%),
-    hsl(225 100% 50%),
-    hsl(180 100% 50%),
-    hsl(135 100% 50%),
-    hsl(90 100% 50%),
-    hsl(45 100% 50%),
-    hsl(0 100% 50%)
-  );
-  clip-path: circle(closest-side);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                    "    hsl(0 100% 50%)",
-                                    "13:5 - 13:20",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-  background: conic-gradient(
-    hsl(360 100% 50%),
-    hsl(315 100% 50%),
-    hsl(270 100% 50%),
-    hsl(225 100% 50%),
-    hsl(180 100% 50%),
-    hsl(135 100% 50%),
-    hsl(90 100% 50%),
-    hsl(45 100% 50%),
-    hsl(0 100% 50%)
-  );
-  clip-path: circle(closest-side);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "alpha-value-notation",
@@ -41633,33 +40433,6 @@ div {
                                     "8:38 - 8:41",
                                     `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 100px;
-  height: 50px;
-  margin: 1rem;
-}
-
-div.space-separated {
-  background-color: hsl(0 100% 50% / 50%);
-}
-
-div.comma-separated {
-  background-color: hsl(0, 100%, 50%, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-notation",
-                                    "Expected modern color-function notation (color-function-notation)",
-                                    "  background-color: hsl(0, 100%, 50%, 0.5);",
-                                    "12:21 - 12:43",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
 ~~~
 div {
   width: 100px;
@@ -41768,205 +40541,6 @@ div.legacyHSLA {
 }
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-alias-notation",
-                                    'Expected "hsla" to be "hsl" (color-function-alias-notation)',
-                                    "  background-color: hsla(90 80% 50% / 50%);",
-                                    "27:21 - 27:25",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
-~~~
-div {
-  width: 100px;
-  min-height: 50px;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body {
-  display: flex;
-  gap: 20px;
-}
-
-div.modern {
-  background-color: hsl(90 80% 50%);
-}
-
-div.legacy {
-  background-color: hsl(90, 80%, 50%);
-}
-
-div.modernWithAlpha {
-  background-color: hsl(90 80% 50% / 50%);
-}
-
-div.modernHSLA {
-  background-color: hsla(90 80% 50% / 50%);
-}
-
-div.legacyHSLA {
-  background-color: hsla(90, 80%, 50%, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-alias-notation",
-                                    'Expected "hsla" to be "hsl" (color-function-alias-notation)',
-                                    "  background-color: hsla(90, 80%, 50%, 0.5);",
-                                    "31:21 - 31:25",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
-~~~
-div {
-  width: 100px;
-  min-height: 50px;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body {
-  display: flex;
-  gap: 20px;
-}
-
-div.modern {
-  background-color: hsl(90 80% 50%);
-}
-
-div.legacy {
-  background-color: hsl(90, 80%, 50%);
-}
-
-div.modernWithAlpha {
-  background-color: hsl(90 80% 50% / 50%);
-}
-
-div.modernHSLA {
-  background-color: hsla(90 80% 50% / 50%);
-}
-
-div.legacyHSLA {
-  background-color: hsla(90, 80%, 50%, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-notation",
-                                    "Expected modern color-function notation (color-function-notation)",
-                                    "  background-color: hsl(90, 80%, 50%);",
-                                    "19:21 - 19:38",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-div {
-  width: 100px;
-  min-height: 50px;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body {
-  display: flex;
-  gap: 20px;
-}
-
-div.modern {
-  background-color: hsl(90 80% 50%);
-}
-
-div.legacy {
-  background-color: hsl(90, 80%, 50%);
-}
-
-div.modernWithAlpha {
-  background-color: hsl(90 80% 50% / 50%);
-}
-
-div.modernHSLA {
-  background-color: hsla(90 80% 50% / 50%);
-}
-
-div.legacyHSLA {
-  background-color: hsla(90, 80%, 50%, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-notation",
-                                    "Expected modern color-function notation (color-function-notation)",
-                                    "  background-color: hsla(90, 80%, 50%, 0.5);",
-                                    "31:21 - 31:44",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-div {
-  width: 100px;
-  min-height: 50px;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body {
-  display: flex;
-  gap: 20px;
-}
-
-div.modern {
-  background-color: hsl(90 80% 50%);
-}
-
-div.legacy {
-  background-color: hsl(90, 80%, 50%);
-}
-
-div.modernWithAlpha {
-  background-color: hsl(90 80% 50% / 50%);
-}
-
-div.modernHSLA {
-  background-color: hsla(90 80% 50% / 50%);
-}
-
-div.legacyHSLA {
-  background-color: hsla(90, 80%, 50%, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/hsl"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.hsl",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/hsl"
                                   ]
                                 }
                               ]
@@ -42083,21 +40657,6 @@ hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/hwb"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.hwb",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/hwb"
-                                  ]
                                 }
                               ]
                             },
@@ -42105,12 +40664,6 @@ hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/lab",
                               messages: [
-                                {
-                                  message: "Possibly unrendered Markdown",
-                                  data: [
-                                    " functional notation expresses a given color in the CIE L*a*b* "
-                                  ]
-                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -42351,21 +40904,6 @@ div {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/lab"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.lab",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/lab"
-                                  ]
                                 }
                               ]
                             },
@@ -42448,112 +40986,6 @@ lch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
 [CssSyntaxError] Unknown word lch (CssSyntaxError)
 ~~~
 lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "lch(90% 100 240)" to be "cyan" (color-named)',
-                                    "  background-color: lch(90% 100 240);",
-                                    "18:21 - 18:37",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/lch
-[color-named] Expected "lch(90% 100 240)" to be "cyan" (color-named)
-~~~
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-div {
-  height: 50px;
-  border: 1px solid black;
-}
-
-[data-color="blue-dark"] {
-  background-color: lch(10% 100 240);
-}
-[data-color="blue"] {
-  background-color: lch(50% 100 240);
-}
-[data-color="blue-light"] {
-  background-color: lch(90% 100 240);
-}
-
-[data-color="red-dark"] {
-  background-color: lch(10% 130 20);
-}
-[data-color="red"] {
-  background-color: lch(50% 130 20);
-}
-[data-color="red-light"] {
-  background-color: lch(90% 130 20);
-}
-
-[data-color="green-dark"] {
-  background-color: lch(10% 132 130);
-}
-[data-color="green"] {
-  background-color: lch(50% 132 130);
-}
-[data-color="green-light"] {
-  background-color: lch(90% 132 130);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "lch(90% 132 130)" to be "lime" (color-named)',
-                                    "  background-color: lch(90% 132 130);",
-                                    "38:21 - 38:37",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/lch
-[color-named] Expected "lch(90% 132 130)" to be "lime" (color-named)
-~~~
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-div {
-  height: 50px;
-  border: 1px solid black;
-}
-
-[data-color="blue-dark"] {
-  background-color: lch(10% 100 240);
-}
-[data-color="blue"] {
-  background-color: lch(50% 100 240);
-}
-[data-color="blue-light"] {
-  background-color: lch(90% 100 240);
-}
-
-[data-color="red-dark"] {
-  background-color: lch(10% 130 20);
-}
-[data-color="red"] {
-  background-color: lch(50% 130 20);
-}
-[data-color="red-light"] {
-  background-color: lch(90% 130 20);
-}
-
-[data-color="green-dark"] {
-  background-color: lch(10% 132 130);
-}
-[data-color="green"] {
-  background-color: lch(50% 132 130);
-}
-[data-color="green-light"] {
-  background-color: lch(90% 132 130);
-}
 ~~~
 `
                                   ]
@@ -44022,93 +42454,6 @@ div {
 }
 [data-color="green-chroma3"] {
   background-color: lch(50% 3 130);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "lch(50% 150 40deg)" to be "red" (color-named)',
-                                    "  background-color: lch(50% 150 40deg);",
-                                    "23:21 - 23:39",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/lch
-[color-named] Expected "lch(50% 150 40deg)" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3px;
-}
-div {
-  flex: 0 0 4em;
-  text-align: center;
-  line-height: 4em;
-  display: inline-block;
-  border: 1px solid black;
-  color: white;
-  font-family: monospace;
-}
-
-[data-color="0"] {
-  background-color: lch(50% 150 0deg);
-}
-[data-color="20"] {
-  background-color: lch(50% 150 20deg);
-}
-[data-color="40"] {
-  background-color: lch(50% 150 40deg);
-}
-[data-color="60"] {
-  background-color: lch(50% 150 60deg);
-}
-
-[data-color="80"] {
-  background-color: lch(50% 150 80deg);
-}
-[data-color="100"] {
-  background-color: lch(50% 150 100deg);
-}
-[data-color="120"] {
-  background-color: lch(50% 150 120deg);
-}
-[data-color="140"] {
-  background-color: lch(50% 150 140deg);
-}
-[data-color="160"] {
-  background-color: lch(50% 150 160deg);
-}
-[data-color="180"] {
-  background-color: lch(50% 150 180deg);
-}
-[data-color="200"] {
-  background-color: lch(50% 150 200deg);
-}
-[data-color="220"] {
-  background-color: lch(50% 150 220deg);
-}
-[data-color="240"] {
-  background-color: lch(50% 150 240deg);
-}
-[data-color="260"] {
-  background-color: lch(50% 150 260deg);
-}
-[data-color="280"] {
-  background-color: lch(50% 150 280deg);
-}
-[data-color="300"] {
-  background-color: lch(50% 150 300deg);
-}
-[data-color="320"] {
-  background-color: lch(50% 150 320deg);
-}
-[data-color="340"] {
-  background-color: lch(50% 150 340deg);
-}
-[data-color="360"] {
-  background-color: lch(50% 150 360deg);
 }
 ~~~
 `
@@ -47421,40 +45766,6 @@ div {
                                   ]
                                 },
                                 {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-named",
-                                    'Expected "lch(100% 100 240)" to be "cyan" (color-named)',
-                                    "  background-color: lch(100% 100 240);",
-                                    "10:21 - 10:38",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/lch
-[color-named] Expected "lch(100% 100 240)" to be "cyan" (color-named)
-~~~
-div {
-  width: 50px;
-  height: 50px;
-  padding: 5px;
-  margin: 5px;
-  display: inline-block;
-  border: 1px solid black;
-}
-#background-div {
-  background-color: lch(100% 100 240);
-  width: 150px;
-  height: 40px;
-}
-
-[data-color="red"] {
-  background-color: lch(50% 130 20);
-}
-[data-color="red-alpha"] {
-  background-color: lch(50% 130 20 / 0.4);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "lightness-notation",
@@ -47554,42 +45865,6 @@ div {
 }
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/lch"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.lch",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/lch"
-                                  ]
-                                }
-                              ]
-                            },
-                            "light-dark": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/light-dark"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.light-dark",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/light-dark"
                                   ]
                                 }
                               ]
@@ -48425,21 +46700,6 @@ span {
 }
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/oklab"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.oklab",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/oklab"
                                   ]
                                 }
                               ]
@@ -53403,21 +51663,6 @@ div {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/oklch"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.oklch",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/oklch"
-                                  ]
                                 }
                               ]
                             },
@@ -53545,48 +51790,6 @@ div.comma-separated {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "color-function-notation",
-                                    "Expected modern color-function notation (color-function-notation)",
-                                    "  background-color: rgb(255, 0, 0, 0.5);",
-                                    "12:21 - 12:40",
-                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/rgb
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-div {
-  width: 100px;
-  height: 50px;
-  margin: 1rem;
-}
-
-div.space-separated {
-  background-color: rgb(255 0 0 / 50%);
-}
-
-div.comma-separated {
-  background-color: rgb(255, 0, 0, 0.5);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/color/rgb"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.color.rgb",
-                                    "Expected:",
-                                    "css.types.Reference.Values/color/rgb"
-                                  ]
                                 }
                               ]
                             }
@@ -53650,27 +51853,6 @@ lch(from blue calc(l + 20) c h)
 /* light-dark */
 light-dark(white, black)
 light-dark(rgb(255 255 255), rgb(0 0 0))
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0deg 100% 50%)" to be "red" (color-named)',
-                                "background-color: hsl(0deg 100% 50%);",
-                                "7:19 - 7:37",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0deg 100% 50%)" to be "red" (color-named)
-~~~
-/* These are equivalent */
-color: oklab(50% none -0.25);
-color: oklab(50% 0 -0.25);
-
-/* These are equivalent */
-background-color: hsl(none 100% 50%);
-background-color: hsl(0deg 100% 50%);
 ~~~
 `
                               ]
@@ -53833,544 +52015,6 @@ oklch(63.612% 0.1522 78.748)
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                "  background-color: hsl(0 100% 50%);",
-                                "12:21 - 12:36",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(60 100% 50%)" to be "yellow" (color-named)',
-                                "  background-color: hsl(60 100% 50%);",
-                                "18:21 - 18:37",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(60 100% 50%)" to be "yellow" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(120 100% 50%)" to be "lime" (color-named)',
-                                "  background-color: hsl(120 100% 50%);",
-                                "24:21 - 24:38",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(120 100% 50%)" to be "lime" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(180 100% 50%)" to be "cyan" (color-named)',
-                                "  background-color: hsl(180 100% 50%);",
-                                "30:21 - 30:38",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(180 100% 50%)" to be "cyan" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(240 100% 50%)" to be "blue" (color-named)',
-                                "  background-color: hsl(240 100% 50%);",
-                                "36:21 - 36:38",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(240 100% 50%)" to be "blue" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)',
-                                "  background-color: hsl(300 100% 50%);",
-                                "42:21 - 42:38",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(30 100% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(60 100% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(90 100% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(120 100% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(150 100% 50%);
-}
-div:nth-child(7) {
-  background-color: hsl(180 100% 50%);
-}
-div:nth-child(8) {
-  background-color: hsl(210 100% 50%);
-}
-div:nth-child(9) {
-  background-color: hsl(240 100% 50%);
-}
-div:nth-child(10) {
-  background-color: hsl(270 100% 50%);
-}
-div:nth-child(11) {
-  background-color: hsl(300 100% 50%);
-}
-div:nth-child(12) {
-  background-color: hsl(330 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 0%)" to be "black" (color-named)',
-                                "  background-color: hsl(0 100% 0%);",
-                                "13:21 - 13:35",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0 100% 0%)" to be "black" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  box-sizing: border-box;
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 0%);
-}
-div:nth-child(2) {
-  background-color: hsl(0 100% 20%);
-}
-div:nth-child(3) {
-  background-color: hsl(0 100% 40%);
-}
-div:nth-child(4) {
-  background-color: hsl(0 100% 60%);
-}
-div:nth-child(5) {
-  background-color: hsl(0 100% 80%);
-}
-div:nth-child(6) {
-  background-color: hsl(0 100% 100%);
-  border: solid;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 100%)" to be "white" (color-named)',
-                                "  background-color: hsl(0 100% 100%);",
-                                "28:21 - 28:37",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0 100% 100%)" to be "white" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  box-sizing: border-box;
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 100% 0%);
-}
-div:nth-child(2) {
-  background-color: hsl(0 100% 20%);
-}
-div:nth-child(3) {
-  background-color: hsl(0 100% 40%);
-}
-div:nth-child(4) {
-  background-color: hsl(0 100% 60%);
-}
-div:nth-child(5) {
-  background-color: hsl(0 100% 80%);
-}
-div:nth-child(6) {
-  background-color: hsl(0 100% 100%);
-  border: solid;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 0% 50%)" to be "grey" (color-named)',
-                                "  background-color: hsl(0 0% 50%);",
-                                "12:21 - 12:34",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0 0% 50%)" to be "grey" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 0% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(0 20% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(0 40% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(0 60% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(0 80% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(0 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                "  background-color: hsl(0 100% 50%);",
-                                "27:21 - 27:36",
-                                `/en-US/docs/Web/CSS/Reference/Values/color_value
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-div {
-  height: 80px;
-  margin: 10px;
-  width: 80px;
-}
-
-div:nth-child(1) {
-  background-color: hsl(0 0% 50%);
-}
-div:nth-child(2) {
-  background-color: hsl(0 20% 50%);
-}
-div:nth-child(3) {
-  background-color: hsl(0 40% 50%);
-}
-div:nth-child(4) {
-  background-color: hsl(0 60% 50%);
-}
-div:nth-child(5) {
-  background-color: hsl(0 80% 50%);
-}
-div:nth-child(6) {
-  background-color: hsl(0 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
@@ -54379,108 +52023,12 @@ div:nth-child(6) {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/color-interpolation-method",
                           messages: [
                             {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-distribution": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/content-distribution",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/content-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-shape-value": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/corner-shape-value",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        cos: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/cos",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/cos"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "css.types.cos",
+                                "css.types.color.color-mix",
                                 "Expected:",
-                                "css.types.Reference.Values/cos"
-                              ]
-                            }
-                          ]
-                        },
-                        counter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/counter",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/counter"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.counter",
-                                "Expected:",
-                                "css.types.Reference.Values/counter"
-                              ]
-                            }
-                          ]
-                        },
-                        counters: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/counters",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/counters"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.counters",
-                                "Expected:",
-                                "css.types.Reference.Values/counters"
+                                "[None]"
                               ]
                             }
                           ]
@@ -54489,10 +52037,6 @@ div:nth-child(6) {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/cross-fade",
                           messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54582,65 +52126,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)',
-                                '  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);',
-                                "4:3 - 4:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/cross-fade
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
-~~~
-.cross-fade {
-  width: 300px;
-  height: 300px;
-  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);
-  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/cross-fade"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.image.cross-fade",
-                                "Expected:",
-                                "css.types.Reference.Values/cross-fade"
-                              ]
-                            }
-                          ]
-                        },
-                        "custom-ident": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/custom-ident",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "dashed-function": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/dashed-function",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
@@ -54667,106 +52152,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        data_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/Data_types",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        dimension: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/dimension",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-box": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-box",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-inside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-inside",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-internal": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-internal",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-legacy": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-legacy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-listitem": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-listitem",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "display-outside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-outside",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -54877,21 +52262,6 @@ dynamic-range-limit-mix(standard 10%, constrained 40%, no-limit 50%)
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/dynamic-range-limit-mix"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.dynamic-range-limit-mix",
-                                "Expected:",
-                                "css.types.Reference.Values/dynamic-range-limit-mix"
-                              ]
                             }
                           ]
                         },
@@ -54950,21 +52320,6 @@ cubic-bezier(-1.9, 0.3, -0.2, 2.1)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/easing-function/cubic-bezier"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.easing-function.cubic-bezier",
-                                    "Expected:",
-                                    "css.types.Reference.Values/easing-function/cubic-bezier"
-                                  ]
                                 }
                               ]
                             },
@@ -55011,21 +52366,6 @@ linear(0, 0.25 80%, 0.5 60%, 1)
 linear(start, middle, end)
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/easing-function/linear"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.easing-function.linear-function",
-                                    "Expected:",
-                                    "css.types.Reference.Values/easing-function/linear"
                                   ]
                                 }
                               ]
@@ -55094,21 +52434,6 @@ steps(-3, start)
 steps(0, jump-none)
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/easing-function/steps"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.easing-function.steps",
-                                    "Expected:",
-                                    "css.types.Reference.Values/easing-function/steps"
                                   ]
                                 }
                               ]
@@ -55252,90 +52577,6 @@ li {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        element: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/element",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-no-invalid-hex",
-                                'Unexpected invalid hex color "#my" (color-no-invalid-hex)',
-                                "  background: -moz-element(#my-background) no-repeat;",
-                                "4:28 - 4:31",
-                                `/en-US/docs/Web/CSS/Reference/Values/element
-[color-no-invalid-hex] Unexpected invalid hex color "#my" (color-no-invalid-hex)
-~~~
-#target-box {
-  width: 400px;
-  height: 400px;
-  background: -moz-element(#my-background) no-repeat;
-}
-
-#background-container {
-  overflow: hidden;
-  height: 0;
-}
-
-#my-background {
-  width: 1024px;
-  height: 1024px;
-  background-image: linear-gradient(to right, red, orange, yellow, white);
-}
-
-#my-background p {
-  transform-origin: 0 0;
-  rotate: 45deg;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-no-invalid-hex",
-                                'Unexpected invalid hex color "#css" (color-no-invalid-hex)',
-                                "  background: -moz-element(#css-source) no-repeat;",
-                                "2:28 - 2:32",
-                                `/en-US/docs/Web/CSS/Reference/Values/element
-[color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
-~~~
-#css-result {
-  background: -moz-element(#css-source) no-repeat;
-  width: 256px;
-  height: 32px;
-  background-size: 80%;
-  border: dashed;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/element"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.image.element",
-                                "Expected:",
-                                "css.types.Reference.Values/element"
-                              ]
                             }
                           ]
                         },
@@ -55357,88 +52598,11 @@ env(viewport-segment-width 1 0)
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "SAFE-AREA-INSET-LEFT" to be "safe-area-inset-left" (value-keyword-case)',
-                                "    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);",
-                                "5:43 - 5:63",
-                                `/en-US/docs/Web/CSS/Reference/Values/env
-[value-keyword-case] Expected "SAFE-AREA-INSET-LEFT" to be "safe-area-inset-left" (value-keyword-case)
-~~~
-p {
-  width: 300px;
-  border: 2px solid red;
-  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px)
-    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/env"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.env",
-                                "Expected:",
-                                "css.types.Reference.Values/env"
-                              ]
-                            }
-                          ]
-                        },
-                        exp: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/exp",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/exp"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.exp",
-                                "Expected:",
-                                "css.types.Reference.Values/exp"
-                              ]
                             }
                           ]
                         },
                         "filter-function": {
                           children: {
-                            blur: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/blur",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/blur"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.blur",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/blur"
-                                  ]
-                                }
-                              ]
-                            },
                             brightness: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness",
@@ -55467,21 +52631,6 @@ brightness(2)   /* Brightness of input is doubled */
 brightness(200%)
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/brightness"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.brightness",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/brightness"
                                   ]
                                 }
                               ]
@@ -55515,42 +52664,6 @@ contrast(200%)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/contrast"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.contrast",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/contrast"
-                                  ]
-                                }
-                              ]
-                            },
-                            "drop-shadow": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/drop-shadow",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/drop-shadow"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.drop-shadow",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/drop-shadow"
-                                  ]
                                 }
                               ]
                             },
@@ -55577,21 +52690,6 @@ grayscale(100%)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/grayscale"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.grayscale",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/grayscale"
-                                  ]
                                 }
                               ]
                             },
@@ -55616,42 +52714,6 @@ hue-rotate(3.14159rad)
 hue-rotate(0.5turn)
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/hue-rotate"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.hue-rotate",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/hue-rotate"
-                                  ]
-                                }
-                              ]
-                            },
-                            invert: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/invert",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/invert"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.invert",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/invert"
                                   ]
                                 }
                               ]
@@ -55678,21 +52740,6 @@ opacity(1)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/opacity"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.opacity",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/opacity"
-                                  ]
                                 }
                               ]
                             },
@@ -55717,21 +52764,6 @@ saturate(100%)  /* No effect */
 saturate(200%)  /* Double saturation */
 ~~~
 `
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/saturate"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.saturate",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/saturate"
                                   ]
                                 }
                               ]
@@ -55758,45 +52790,15 @@ sepia(100%)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/filter-function/sepia"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.filter-function.sepia",
-                                    "Expected:",
-                                    "css.types.Reference.Values/filter-function/sepia"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "fit-content_function": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/fit-content_function",
                           messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/fit-content"
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -55804,19 +52806,22 @@ sepia(100%)
                                 `css.properties.grid-template-columns.fit-content
 css.properties.width.fit-content_function`,
                                 "Expected:",
-                                "css.types.Reference.Values/fit-content"
-                              ]
-                            }
-                          ]
-                        },
-                        flex_value: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/flex_value",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
+                                `css.properties.block-size.fit-content_function
+css.properties.flex.fit-content
+css.properties.flex-basis.fit-content
+css.properties.grid-template-columns.fit-content
+css.properties.grid-template-rows.fit-content
+css.properties.height.fit-content_function
+css.properties.inline-size.fit-content_function
+css.properties.max-block-size.fit-content_function
+css.properties.max-height.fit-content_function
+css.properties.max-inline-size.fit-content_function
+css.properties.max-width.fit-content_function
+css.properties.min-block-size.fit-content_function
+css.properties.min-height.fit-content_function
+css.properties.min-inline-size.fit-content_function
+css.properties.min-width.fit-content_function
+css.properties.width.fit-content_function`
                               ]
                             }
                           ]
@@ -55826,9 +52831,9 @@ css.properties.width.fit-content_function`,
                           slug: "/en-US/docs/Web/CSS/Reference/Values/frequency",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-type"
+                                "css.types.frequency"
                               ]
                             }
                           ]
@@ -55838,40 +52843,9 @@ css.properties.width.fit-content_function`,
                           slug: "/en-US/docs/Web/CSS/Reference/Values/frequency-percentage",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        functions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
-                          messages: [
-                            {
-                              message: "Code with underscore",
-                              data: [
-                                "fit-content_function()"
-                              ]
-                            },
-                            {
-                              message: "Code with space",
-                              data: [
-                                `repeating-radial-gradient())}}
-- {{cssxref(`
-                              ]
-                            }
-                          ]
-                        },
-                        "generic-family": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/generic-family",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
+                                "css.types.frequency-percentage"
                               ]
                             }
                           ]
@@ -55959,21 +52933,6 @@ background-size: 25% 25%;
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/conic-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.conic-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/conic-gradient"
-                                  ]
                                 }
                               ]
                             },
@@ -56043,42 +53002,6 @@ linear-gradient(red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/linear-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.linear-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/linear-gradient"
-                                  ]
-                                }
-                              ]
-                            },
-                            "radial-gradient": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/radial-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.radial-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/radial-gradient"
-                                  ]
                                 }
                               ]
                             },
@@ -56122,239 +53045,10 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/repeating-conic-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.repeating-conic-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/repeating-conic-gradient"
-                                  ]
-                                }
-                              ]
-                            },
-                            "repeating-linear-gradient": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient",
-                              messages: [
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "declaration-block-no-duplicate-properties",
-                                    'Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)',
-                                    "  background-image: repeating-linear-gradient(",
-                                    "7:3 - 7:19",
-                                    `/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
-~~~
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
-body {
-  background-image: repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 20px,
-    black 20px,
-    black 40px
-  );
-  /* with multiple color stop lengths */
-  background-image: repeating-linear-gradient(
-    -45deg,
-    transparent 0 20px,
-    black 20px 40px
-  );
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/repeating-linear-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.repeating-linear-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/repeating-linear-gradient"
-                                  ]
-                                }
-                              ]
-                            },
-                            "repeating-radial-gradient": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient",
-                              messages: [
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "declaration-block-no-duplicate-properties",
-                                    'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
-                                    "  background: repeating-radial-gradient(",
-                                    "7:3 - 7:13",
-                                    `/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
-~~~
-.radial-gradient {
-  width: 240px;
-  height: 120px;
-}
-
-.radial-gradient {
-  background: repeating-radial-gradient(
-    ellipse farthest-corner at 20% 20%,
-    red,
-    black 5%,
-    blue 5%,
-    green 10%
-  );
-  background: repeating-radial-gradient(
-    ellipse farthest-corner at 20% 20%,
-    red 0 5%,
-    green 5% 10%
-  );
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/gradient/repeating-radial-gradient"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.gradient.repeating-radial-gradient",
-                                    "Expected:",
-                                    "css.types.Reference.Values/gradient/repeating-radial-gradient"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/gradient",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "hex-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/hex-color",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#f09" to be "#ff0099" (color-hex-length)',
-                                "  background: #f09;",
-                                "18:15 - 18:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/hex-color
-[color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: monospace;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-[class] {
-  width: 40px;
-  height: 40px;
-}
-.c1 {
-  background: #f09;
-}
-.c2 {
-  background: #f09a;
-}
-.c3 {
-  background: #ff0099;
-}
-.c4 {
-  background: #ff0099aa;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#f09a" to be "#ff0099aa" (color-hex-length)',
-                                "  background: #f09a;",
-                                "21:15 - 21:20",
-                                `/en-US/docs/Web/CSS/Reference/Values/hex-color
-[color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: monospace;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-[class] {
-  width: 40px;
-  height: 40px;
-}
-.c1 {
-  background: #f09;
-}
-.c2 {
-  background: #f09a;
-}
-.c3 {
-  background: #ff0099;
-}
-.c4 {
-  background: #ff0099aa;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         hue: {
                           children: {},
@@ -56393,125 +53087,6 @@ span {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                "  background-color: hsl(0 100% 50%);",
-                                "20:21 - 20:36",
-                                `/en-US/docs/Web/CSS/Reference/Values/hue
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border: 1px solid black;
-}
-p {
-  font-family: sans-serif;
-}
-span {
-  font-family: monospace;
-  background: rgb(0 0 0 / 10%);
-  padding: 3px;
-}
-#hue-slider {
-  width: 90%;
-}
-
-#box {
-  background-color: hsl(0 100% 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                "  background-color: hsl(0 100% 50%);",
-                                "3:21 - 3:36",
-                                `/en-US/docs/Web/CSS/Reference/Values/hue
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-[data-color="hsl-red"] {
-  /* hsl(<hue> <saturation> <lightness>) */
-  background-color: hsl(0 100% 50%);
-}
-[data-color="hwb-red"] {
-  /* hwb(<hue> <whiteness> <blackness>) */
-  background-color: hwb(0 0% 0%);
-}
-[data-color="lch-red"] {
-  /* lch(<lightness> <chroma> <hue>) */
-  background-color: lch(50 150 40);
-}
-[data-color="oklch-red"] {
-  /* oklch(<lightness> <chroma> <hue>) */
-  background-color: oklch(0.6 0.4 20);
-}
-
-div {
-  font-family: monospace;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border: 1px solid black;
-  display: inline-block;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hwb(0 0% 0%)" to be "red" (color-named)',
-                                "  background-color: hwb(0 0% 0%);",
-                                "7:21 - 7:33",
-                                `/en-US/docs/Web/CSS/Reference/Values/hue
-[color-named] Expected "hwb(0 0% 0%)" to be "red" (color-named)
-~~~
-[data-color="hsl-red"] {
-  /* hsl(<hue> <saturation> <lightness>) */
-  background-color: hsl(0 100% 50%);
-}
-[data-color="hwb-red"] {
-  /* hwb(<hue> <whiteness> <blackness>) */
-  background-color: hwb(0 0% 0%);
-}
-[data-color="lch-red"] {
-  /* lch(<lightness> <chroma> <hue>) */
-  background-color: lch(50 150 40);
-}
-[data-color="oklch-red"] {
-  /* oklch(<lightness> <chroma> <hue>) */
-  background-color: oklch(0.6 0.4 20);
-}
-
-div {
-  font-family: monospace;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border: 1px solid black;
-  display: inline-block;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -58573,42 +55148,12 @@ p {
                               ]
                             },
                             {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        hypot: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/hypot",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/hypot"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "css.types.hypot",
+                                "css.types.gradient.conic-gradient.hue_interpolation_method",
                                 "Expected:",
-                                "css.types.Reference.Values/hypot"
-                              ]
-                            }
-                          ]
-                        },
-                        ident: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/ident",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
+                                "[None]"
                               ]
                             }
                           ]
@@ -59757,24 +56302,6 @@ h2 {
                               ]
                             },
                             {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--show-apple:true"',
-                                "1:10",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[no-inline-style] Inline style is not allowed
-~~~
-<section style="--show-apple:true">
-  <article><h2>First article</h2></article>
-  <article><h2>Second article</h2></article>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "custom-property-no-missing-var-function",
@@ -60667,21 +57194,6 @@ h1::before {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/if"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.if",
-                                "Expected:",
-                                "css.types.Reference.Values/if"
-                              ]
                             }
                           ]
                         },
@@ -60736,28 +57248,7 @@ h1::before {
                                 {
                                   message: "Not in BCD",
                                   data: [
-                                    "css.types.Reference.Values/image/image"
-                                  ]
-                                }
-                              ]
-                            },
-                            "image-set": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/image/image-set",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/image/image-set"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.image.image-set",
-                                    "Expected:",
-                                    "css.types.Reference.Values/image/image-set"
+                                    "css.types.image.image"
                                   ]
                                 }
                               ]
@@ -60861,21 +57352,6 @@ li:nth-of-type(3n + 1) {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/image/paint"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.image.paint",
-                                    "Expected:",
-                                    "css.types.Reference.Values/image/paint"
-                                  ]
                                 }
                               ]
                             }
@@ -60927,12 +57403,6 @@ image-set("cat.jpg" 1x, "dog.jpg" 1x) /* every image in an image set must have a
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
@@ -60940,44 +57410,6 @@ image-set("cat.jpg" 1x, "dog.jpg" 1x) /* every image in an image set must have a
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/important",
                           messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "property" (declaration-block-no-duplicate-properties)',
-                                "  property: value; /* normal declaration */",
-                                "2:3 - 2:11",
-                                `/en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
-~~~
-selector {
-  property: value; /* normal declaration */
-  property: value !important; /* important declaration (preferred) */
-  property: value ! important; /* important declaration (not preferred) */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "property" (declaration-block-no-duplicate-properties)',
-                                "  property: value !important; /* important declaration (preferred) */",
-                                "3:3 - 3:11",
-                                `/en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
-~~~
-selector {
-  property: value; /* normal declaration */
-  property: value !important; /* important declaration (preferred) */
-  property: value ! important; /* important declaration (not preferred) */
-}
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -61004,68 +57436,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-custom-properties",
-                                'Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)',
-                                "  --my-color: blue;",
-                                "3:3 - 3:13",
-                                `/en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)
-~~~
-:root {
-  --my-color: red !important;
-  --my-color: blue;
-}
-p {
-  color: var(--my-color);
-}
-blockquote {
-  color: var(--my-color);
-  color: purple;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "color" (declaration-block-no-duplicate-properties)',
-                                "  color: var(--my-color);",
-                                "9:3 - 9:8",
-                                `/en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
-~~~
-:root {
-  --my-color: red !important;
-  --my-color: blue;
-}
-p {
-  color: var(--my-color);
-}
-blockquote {
-  color: var(--my-color);
-  color: purple;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        integer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/integer",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -61337,194 +57707,6 @@ label {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "length-percentage": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/length-percentage",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "line-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/line-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        log: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/log",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--value: 50"',
-                                "1:18",
-                                `/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--value: 100"',
-                                "2:18",
-                                `/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--value: 500"',
-                                "3:18",
-                                `/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--value: 10000"',
-                                "4:18",
-                                `/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="--value: 2000000"',
-                                "5:18",
-                                `/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/log"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.log",
-                                "Expected:",
-                                "css.types.Reference.Values/log"
-                              ]
-                            }
-                          ]
-                        },
-                        max: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/max",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/max"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.max",
-                                "Expected:",
-                                "css.types.Reference.Values/max"
-                              ]
-                            }
-                          ]
-                        },
-                        min: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/min",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/min"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.min",
-                                "Expected:",
-                                "css.types.Reference.Values/min"
-                              ]
                             }
                           ]
                         },
@@ -61533,273 +57715,13 @@ label {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/minmax",
                           messages: [
                             {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/minmax"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
                                 "css.properties.grid-template-columns.minmax",
                                 "Expected:",
-                                "css.types.Reference.Values/minmax"
-                              ]
-                            }
-                          ]
-                        },
-                        mod: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/mod",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/mod"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.mod",
-                                "Expected:",
-                                "css.types.Reference.Values/mod"
-                              ]
-                            }
-                          ]
-                        },
-                        "named-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/named-color",
-                          messages: [
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/CSS1/#color-units"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/CSS2/syndata.html#value-def-color"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG11/types.html#DataTypeColor"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        number: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/number",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        overflow_value: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/overflow_value",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "overflow" (declaration-block-no-duplicate-properties)',
-                                "  overflow: clip;",
-                                "51:3 - 51:11",
-                                `/en-US/docs/Web/CSS/Reference/Values/overflow_value
-[declaration-block-no-duplicate-properties] Unexpected duplicate "overflow" (declaration-block-no-duplicate-properties)
-~~~
-pre {
-  border: 2px dashed red;
-  margin-bottom: 3em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  width: 100%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-pre {
-  block-size: 100px;
-  inline-size: 295px;
-}
-
-pre:nth-of-type(1) {
-  overflow: hidden;
-}
-pre:nth-of-type(1)::before {
-  content: "hidden: ";
-}
-
-pre:nth-of-type(2) {
-  overflow: clip;
-  overflow-clip-margin: 1em;
-}
-pre:nth-of-type(2)::before {
-  content: "clip: ";
-}
-
-pre:nth-of-type(3) {
-  overflow: scroll;
-}
-pre:nth-of-type(3)::before {
-  content: "scroll: ";
-}
-
-pre:nth-of-type(4) {
-  overflow: auto;
-}
-pre:nth-of-type(4)::before {
-  content: "auto: ";
-}
-
-pre:nth-of-type(5) {
-  overflow: clip;
-  overflow: overlay;
-  overflow-clip-margin: 3em;
-}
-pre:nth-of-type(5)::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-pre:nth-of-type(6) {
-  overflow: visible;
-}
-pre:nth-of-type(6)::before {
-  content: "visible: ";
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
-                                "  overflow: overlay;",
-                                "52:13 - 52:20",
-                                `/en-US/docs/Web/CSS/Reference/Values/overflow_value
-[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
-~~~
-pre {
-  border: 2px dashed red;
-  margin-bottom: 3em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  width: 100%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-pre {
-  block-size: 100px;
-  inline-size: 295px;
-}
-
-pre:nth-of-type(1) {
-  overflow: hidden;
-}
-pre:nth-of-type(1)::before {
-  content: "hidden: ";
-}
-
-pre:nth-of-type(2) {
-  overflow: clip;
-  overflow-clip-margin: 1em;
-}
-pre:nth-of-type(2)::before {
-  content: "clip: ";
-}
-
-pre:nth-of-type(3) {
-  overflow: scroll;
-}
-pre:nth-of-type(3)::before {
-  content: "scroll: ";
-}
-
-pre:nth-of-type(4) {
-  overflow: auto;
-}
-pre:nth-of-type(4)::before {
-  content: "auto: ";
-}
-
-pre:nth-of-type(5) {
-  overflow: clip;
-  overflow: overlay;
-  overflow-clip-margin: 3em;
-}
-pre:nth-of-type(5)::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-pre:nth-of-type(6) {
-  overflow: visible;
-}
-pre:nth-of-type(6)::before {
-  content: "visible: ";
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/overflow-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        percentage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/percentage",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
+                                `css.properties.grid-template-columns.minmax
+css.properties.grid-template-rows.minmax`
                               ]
                             }
                           ]
@@ -61832,12 +57754,6 @@ value value              /* A value for each direction (horizontal then vertical
 keyword value keyword value /* Each value is an offset from the keyword that precedes it */
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -61931,33 +57847,6 @@ position-area: end; /* equiv: end end */
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        pow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/pow",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/pow"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.pow",
-                                "Expected:",
-                                "css.types.Reference.Values/pow"
-                              ]
                             }
                           ]
                         },
@@ -62024,33 +57913,6 @@ progress(3s, 0px, 100px)
 progress(3em, 0, 100)
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/progress"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.progress",
-                                "Expected:",
-                                "css.types.Reference.Values/progress"
-                              ]
-                            }
-                          ]
-                        },
-                        ratio: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/ratio",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
                               ]
                             }
                           ]
@@ -62136,54 +57998,6 @@ pre {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/ray"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.ray",
-                                "Expected:",
-                                "css.types.Reference.Values/ray"
-                              ]
-                            }
-                          ]
-                        },
-                        "relative-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/relative-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        rem: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/rem",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/rem"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.rem",
-                                "Expected:",
-                                "css.types.Reference.Values/rem"
-                              ]
                             }
                           ]
                         },
@@ -62192,37 +58006,17 @@ pre {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/repeat",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)',
-                                "    repeat(2, minmax(min-content, max-content));",
-                                "4:5 - 4:48",
-                                `/en-US/docs/Web/CSS/Reference/Values/repeat
-[declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)
-~~~
-.wrapper {
-  grid-template-columns:
-    repeat(auto-fill, 10px)
-    repeat(2, minmax(min-content, max-content));
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/repeat"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
                                 "css.properties.grid-template-columns.repeat",
                                 "Expected:",
-                                "css.types.Reference.Values/repeat"
+                                `css.properties.background.repeat
+css.properties.background-repeat.repeat
+css.properties.border-image.repeat
+css.properties.border-image-repeat.repeat
+css.properties.grid-template-columns.repeat
+css.properties.grid-template-rows.repeat`
                               ]
                             }
                           ]
@@ -62288,113 +58082,6 @@ pre {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        revert: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/revert",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="font-weight: revert; color: revert;"',
-                                "1:5",
-                                `/en-US/docs/Web/CSS/Reference/Values/revert
-[no-inline-style] Inline style is not allowed
-~~~
-<h3 style="font-weight: revert; color: revert;">
-  This should have its original font-weight (bold) and color: black
-</h3>
-<p>Just some text</p>
-<h3 style="font-weight: unset; color: unset;">
-  This will still have font-weight: normal, but color: black
-</h3>
-<p>Just some text</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="font-weight: unset; color: unset;"',
-                                "5:5",
-                                `/en-US/docs/Web/CSS/Reference/Values/revert
-[no-inline-style] Inline style is not allowed
-~~~
-<h3 style="font-weight: revert; color: revert;">
-  This should have its original font-weight (bold) and color: black
-</h3>
-<p>Just some text</p>
-<h3 style="font-weight: unset; color: unset;">
-  This will still have font-weight: normal, but color: black
-</h3>
-<p>Just some text</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-style",
-                                "Inline style is not allowed",
-                                'style="all: revert"',
-                                "3:5",
-                                `/en-US/docs/Web/CSS/Reference/Values/revert
-[no-inline-style] Inline style is not allowed
-~~~
-<h3>This will have custom styles</h3>
-<p>Just some text</p>
-<h3 style="all: revert">This should be reverted to browser/user defaults.</h3>
-<p>Just some text</p>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        round: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/round",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/round"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.round",
-                                "Expected:",
-                                "css.types.Reference.Values/round"
-                              ]
-                            }
-                          ]
-                        },
-                        "self-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/self-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
@@ -62415,117 +58102,6 @@ pre {
 rect(top, right, bottom, left)
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        "sibling-count": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-count",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/sibling-count"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.sibling-count",
-                                "Expected:",
-                                "css.types.Reference.Values/sibling-count"
-                              ]
-                            }
-                          ]
-                        },
-                        "sibling-index": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-index",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/sibling-index"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.sibling-index",
-                                "Expected:",
-                                "css.types.Reference.Values/sibling-index"
-                              ]
-                            }
-                          ]
-                        },
-                        sign: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/sign",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/sign"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.sign",
-                                "Expected:",
-                                "css.types.Reference.Values/sign"
-                              ]
-                            }
-                          ]
-                        },
-                        sin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/sin",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/sin"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.sin",
-                                "Expected:",
-                                "css.types.Reference.Values/sin"
-                              ]
-                            }
-                          ]
-                        },
-                        sqrt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/sqrt",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/sqrt"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.sqrt",
-                                "Expected:",
-                                "css.types.Reference.Values/sqrt"
                               ]
                             }
                           ]
@@ -62565,33 +58141,6 @@ awesome string"
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        superellipse: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/superellipse",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/superellipse"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.superellipse",
-                                "Expected:",
-                                "css.types.Reference.Values/superellipse"
-                              ]
                             }
                           ]
                         },
@@ -62600,75 +58149,13 @@ awesome string"
                           slug: "/en-US/docs/Web/CSS/Reference/Values/symbols",
                           messages: [
                             {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/symbols"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
                                 "css.properties.list-style-type.symbols",
                                 "Expected:",
-                                "css.types.Reference.Values/symbols"
-                              ]
-                            }
-                          ]
-                        },
-                        "system-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/system-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        tan: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/tan",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/tan"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.tan",
-                                "Expected:",
-                                "css.types.Reference.Values/tan"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-edge": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/text-edge",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        time: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/time",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
+                                `css.properties.list-style.symbols
+css.properties.list-style-type.symbols`
                               ]
                             }
                           ]
@@ -62680,38 +58167,11 @@ awesome string"
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
                         "transform-function": {
                           children: {
-                            matrix: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/matrix"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.matrix",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/matrix"
-                                  ]
-                                }
-                              ]
-                            },
                             matrix3d: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix3d",
@@ -63211,420 +58671,6 @@ body {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/matrix3d"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.matrix3d",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/matrix3d"
-                                  ]
-                                }
-                              ]
-                            },
-                            perspective: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/perspective",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/perspective"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.perspective",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/perspective"
-                                  ]
-                                }
-                              ]
-                            },
-                            rotate: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/rotate"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.rotate",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/rotate"
-                                  ]
-                                }
-                              ]
-                            },
-                            rotate3d: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate3d",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/rotate3d"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.rotate3d",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/rotate3d"
-                                  ]
-                                }
-                              ]
-                            },
-                            rotatex: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateX",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/rotateX"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.rotateX",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/rotateX"
-                                  ]
-                                }
-                              ]
-                            },
-                            rotatey: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateY",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/rotateY"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.rotateY",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/rotateY"
-                                  ]
-                                }
-                              ]
-                            },
-                            rotatez: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/rotateZ",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/rotateZ"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.rotateZ",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/rotateZ"
-                                  ]
-                                }
-                              ]
-                            },
-                            scale: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/scale",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/scale"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.scale",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/scale"
-                                  ]
-                                }
-                              ]
-                            },
-                            scale3d: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/scale3d",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/scale3d"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.scale3d",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/scale3d"
-                                  ]
-                                }
-                              ]
-                            },
-                            scalex: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleX",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/scaleX"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.scaleX",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/scaleX"
-                                  ]
-                                }
-                              ]
-                            },
-                            scaley: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleY",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/scaleY"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.scaleY",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/scaleY"
-                                  ]
-                                }
-                              ]
-                            },
-                            scalez: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/scaleZ",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/scaleZ"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.scaleZ",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/scaleZ"
-                                  ]
-                                }
-                              ]
-                            },
-                            skew: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/skew",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/skew"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.skew",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/skew"
-                                  ]
-                                }
-                              ]
-                            },
-                            skewx: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/skewX",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/skewX"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.skewX",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/skewX"
-                                  ]
-                                }
-                              ]
-                            },
-                            skewy: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/skewY",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/skewY"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.skewY",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/skewY"
-                                  ]
-                                }
-                              ]
-                            },
-                            translate: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/translate",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/translate"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.translate",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/translate"
-                                  ]
-                                }
-                              ]
-                            },
-                            translate3d: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/translate3d",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/translate3d"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.translate3d",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/translate3d"
-                                  ]
-                                }
-                              ]
-                            },
-                            translatex: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/translateX",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/translateX"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.translateX",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/translateX"
-                                  ]
-                                }
-                              ]
-                            },
-                            translatey: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/translateY",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/translateY"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.translateY",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/translateY"
-                                  ]
-                                }
-                              ]
-                            },
-                            translatez: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/translateZ",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "css.types.Reference.Values/transform-function/translateZ"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "css.types.transform-function.translateZ",
-                                    "Expected:",
-                                    "css.types.Reference.Values/transform-function/translateZ"
-                                  ]
                                 }
                               ]
                             }
@@ -64074,12 +59120,6 @@ main {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
                             }
                           ]
                         },
@@ -64128,42 +59168,6 @@ section::after {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/type"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.type",
-                                "Expected:",
-                                "css.types.Reference.Values/type"
-                              ]
-                            }
-                          ]
-                        },
-                        url_function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/url_function",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/url"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "css.types.url",
-                                "Expected:",
-                                "css.types.Reference.Values/url"
-                              ]
                             }
                           ]
                         },
@@ -64172,60 +59176,12 @@ section::after {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/url_value",
                           messages: [
                             {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-type"
-                              ]
-                            }
-                          ]
-                        },
-                        var: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/var",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "20px" for property "color" (declaration-property-value-no-unknown)',
-                                "  color: 20px;",
-                                "15:10 - 15:14",
-                                `/en-US/docs/Web/CSS/Reference/Values/var
-[declaration-property-value-no-unknown] Unexpected unknown value "20px" for property "color" (declaration-property-value-no-unknown)
-~~~
-p {
-  color: red;
-}
-
-.p1 {
-  color: var(--invalid-color);
-}
-
-.p2 {
-  --invalid-color: 20px;
-  color: var(--invalid-color);
-}
-
-.p3 {
-  color: 20px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.Reference.Values/var"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "css.types.var",
+                                "[None]",
                                 "Expected:",
-                                "css.types.Reference.Values/var"
+                                "css.types.url"
                               ]
                             }
                           ]
@@ -64233,636 +59189,6 @@ p {
                       },
                       slug: "/en-US/docs/Web/CSS/Reference/Values",
                       messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/string"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/url_function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/gradient"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/minmax"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/corner-shape-value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/hex-color"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/custom-ident"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/relative-size"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/shape"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/time-percentage"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/sin"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/env"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/repeat"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/generic-family"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/acos"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/cos"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/dashed-function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/fit-content_function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/calc-size"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/named-color"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/overflow-position"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/ident"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/pow"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/transform-function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/clamp"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/anchor"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/superellipse"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/absolute-size"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/counter"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/sign"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-listitem"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/line-style"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-box"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/url_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-inside"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-outside"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/sibling-count"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/easing-function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/hue"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/sqrt"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/blend-mode"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/angle-percentage"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/symbols"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/round"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/calc-keyword"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/basic-shape"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/integer"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/baseline-position"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/abs"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/exp"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/length"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/flex_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/sibling-index"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/frequency"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/calc"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/content-position"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/asin"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/calc-sum"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/cross-fade"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/atan2"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/position_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/if"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/system-color"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/max"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/dimension"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/min"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/position-area_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/counters"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/text-edge"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/frequency-percentage"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/element"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/mod"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/filter-function"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/image"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/tan"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/self-position"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/content-distribution"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-internal"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/anchor-size"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/time"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/box-edge"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/log"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/type"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/-moz-image-rect"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/number"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/ratio"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/overflow_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/hypot"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/alpha-value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/color-interpolation-method"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/length-percentage"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/resolution"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/attr"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/var"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/display-legacy"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/dashed-ident"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/ray"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/color_value"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/percentage"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/atan"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/rem"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/progress"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/angle"
-                          ]
-                        },
                         {
                           message: "Unreachable via page",
                           data: []
@@ -64890,18 +59216,6 @@ p {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/:active-view-transition-type()"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/anchor-scope"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/baseline-shift"
                       ]
                     },
                     {
@@ -65008,12 +59322,6 @@ p {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/ex"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/font-width"
                       ]
                     },
                     {
@@ -65250,12 +59558,6 @@ p {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/CSS/scroll-initial-target"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
                         "/en-US/docs/Web/CSS/scroll-state"
                       ]
                     },
@@ -65282,12 +59584,6 @@ p {
                       data: [
                         "/en-US/docs/Web/CSS/Reference/Values/easing-function",
                         "#steps_easing_function"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/stroke-color"
                       ]
                     },
                     {
@@ -65403,12 +59699,6 @@ p {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/CSS/:xr-overlay"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
                         "/en-US/docs/Web/CSS/xywh"
                       ]
                     },
@@ -65456,79 +59746,6 @@ p {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    content_categories: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Content_categories",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<del> element is not permitted as content under <ul>",
-                            "del",
-                            "2:4",
-                            `/en-US/docs/Web/HTML/Guides/Content_categories
-[element-permitted-content] <del> element is not permitted as content under <ul>
-~~~
-<ul>
-  <del>
-    <li>Oranges</li>
-    <li>Toilet paper</li>
-  </del>
-  <li>Toothpaste</li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-parent",
-                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
-                            "li",
-                            "3:6",
-                            `/en-US/docs/Web/HTML/Guides/Content_categories
-[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
-~~~
-<ul>
-  <del>
-    <li>Oranges</li>
-    <li>Toilet paper</li>
-  </del>
-  <li>Toothpaste</li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-parent",
-                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
-                            "li",
-                            "4:6",
-                            `/en-US/docs/Web/HTML/Guides/Content_categories
-[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
-~~~
-<ul>
-  <del>
-    <li>Oranges</li>
-    <li>Toilet paper</li>
-  </del>
-  <li>Toothpaste</li>
-</ul>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -66576,19 +60793,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -66650,13 +60854,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://hg-edge.mozilla.org/releases",
-                                    "The operation timed out."
-                                  ]
                                 }
                               ]
                             }
@@ -66670,18 +60867,6 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
-                guide: {
-                  children: {},
-                  slug: "/en-US/docs/Web/JavaScript/Guide",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/JavaScript/Guide/Resource_management"
-                      ]
-                    }
-                  ]
-                },
                 reference: {
                   children: {
                     classes: {
@@ -66851,77 +61036,15 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/aac/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                "https://via-la.com/licensing-programs/avc-h-264/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                "https://via-la.com/licensing-programs/avc-h-264/"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.via-la.com/",
-                                "https://via-la.com/"
-                              ]
-                            },
-                            {
                               message: "Broken external link",
                               data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-2/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -67212,18 +61335,6 @@ html.elements.script.integrity`,
                             }
                           ]
                         },
-                        "baseline-shift": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseline-shift",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/baseline-shift"
-                              ]
-                            }
-                          ]
-                        },
                         calcmode: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
@@ -67333,18 +61444,6 @@ svg.elements.feGaussianBlur.edgeMode`
                                 "Expected:",
                                 `svg.elements.animate.from
 svg.elements.animateTransform.from`
-                              ]
-                            }
-                          ]
-                        },
-                        "glyph-orientation-vertical": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-orientation-vertical",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/glyph-orientation-vertical"
                               ]
                             }
                           ]
