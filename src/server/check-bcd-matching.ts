@@ -289,7 +289,10 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${combinatorName.toLowerCase()}`];
     }
     case "css-function": {
-      if (node.id === "/en-US/docs/Web/CSS/Reference/At-rules/@import/layer_function") {
+      if (
+        node.id ===
+        "/en-US/docs/Web/CSS/Reference/At-rules/@import/layer_function"
+      ) {
         return ["css.at-rules.import.layer"];
       }
       const match = node.id.match(
@@ -363,7 +366,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${pseudoName}`];
     }
     case "css-type": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/Values\/([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/Values\/([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const typeName = match[1].replace(/_type$/, "").replace(/_value$/, "");
       if (["custom-ident", "dashed-ident", "ident"].includes(typeName)) {

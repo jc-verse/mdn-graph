@@ -444,7 +444,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: [
           "Web/CSS/Reference/At-rules/@container/*",
-          "Web/CSS/CSS_containment/Container_size_and_style_queries/*",
+          "Web/CSS/Guides/Containment/Container_size_and_style_queries/*",
         ],
         rules: { "at-rule-prelude-no-invalid": null },
       },
@@ -514,7 +514,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: [
           "Web/CSS/::scroll-button/*",
-          "Web/CSS/CSS_overflow/CSS_carousels/*",
+          "Web/CSS/Guides/Overflow/CSS_carousels/*",
         ],
         rules: {
           "selector-type-no-unknown": [
@@ -561,7 +561,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/CSS_images/Using_CSS_gradients/*",
+          "Web/CSS/Guides/Images/Using_CSS_gradients/*",
           "Web/CSS/Reference/Values/gradient/repeating-radial-gradient/*",
         ],
         rules: {
@@ -572,17 +572,17 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/CSS_syntax/At-rule/*"],
+        files: ["Web/CSS/Guides/Syntax/At-rules/*"],
         rules: {
           "at-rule-no-unknown": [true, { ignoreAtRules: ["identifier"] }],
         },
       },
       {
-        files: ["Web/CSS/CSS_syntax/Error_handling/*"],
+        files: ["Web/CSS/Guides/Syntax/Error_handling/*"],
         rules: { "declaration-block-no-duplicate-properties": null },
       },
       {
-        files: ["Web/CSS/CSS_Values_and_Units/CSS_Value_Functions/*"],
+        files: ["Web/CSS/Guides/Values_and_Units/CSS_Value_Functions/*"],
         rules: {
           "function-no-unknown": [true, { ignoreFunctions: ["function"] }],
         },
@@ -628,7 +628,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/CSS_overflow/*",
+          "Web/CSS/Guides/Overflow/*",
           "Web/CSS/Reference/Properties/overflow/*",
           "Web/CSS/Reference/Values/overflow_value/*",
         ],
@@ -645,7 +645,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/CSS_text_decoration/*",
+          "Web/CSS/Guides/Text_decoration/*",
           "Web/CSS/Reference/Properties/text-decoration/*",
         ],
         rules: {

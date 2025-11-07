@@ -5,7 +5,7 @@
 /en-US/docs/Glossary/Color_space	The CIELAB (or CIELab) color space, also referred to as L*a*b* (or Lab* for short), represents the entire range of color that humans can see. This color space was defined by International Commission on Illumination (CIE). It expresses color as three values: L* for perceptual lightness, and a* and b* for the four unique colors of human vision: red, green, blue, and yellow.
 /en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web	The order that matrices are multiplied in matters. When multiplying numbers, a * b = c, and b * a = c are both true. For example 3 * 4 = 12, and 4 * 3 = 12. In math, these numbers would be described as
 /en-US/docs/Web/CSS/Reference/Values/color_value/lab	functional notation expresses a given color in the CIE L*a*b*
-/en-US/docs/Web/CSS/CSS_colors/Color_values	functional notation expresses a given color in the CIE L*a*b* color space. The
+/en-US/docs/Web/CSS/Guides/Colors/Color_values	functional notation expresses a given color in the CIE L*a*b* color space. The
 /en-US/docs/Web/API/KeyboardEvent/keyCode	Back tick ("`") key.
 /en-US/docs/Web/API/UI_Events/Keyboard_event_key_values	`
   The error message actually contains backticks

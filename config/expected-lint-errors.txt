@@ -2612,18 +2612,6 @@ window.requestFileSystem(
 <div id="output"></div>
 ~~~
 
-/en-US/docs/Web/API/HTMLImageElement/border
-[no-inline-style] Inline style is not allowed
-~~~
-<img src="image.png" style="border: 2px;" />
-~~~
-
-/en-US/docs/Web/API/HTMLImageElement/border
-[no-inline-style] Inline style is not allowed
-~~~
-<img src="image.png" style="border: dashed 2px #333388;" />
-~~~
-
 /en-US/docs/Web/API/HTMLTableElement/tBodies
 [prefer-tbody] Prefer to wrap <tr> elements in <tbody>
 ~~~
@@ -3180,6 +3168,13 @@ window.addEventListener("message", (event) => {
 });
 ~~~
 
+/en-US/docs/Web/API/Window/setInterval
+[no-implied-eval] Implied eval. Consider passing a function instead of a string.
+~~~
+const untrustedCode = "alert('Potentially evil code!');";
+const id = setInterval(untrustedCode, 1000);
+~~~
+
 /en-US/docs/Web/API/Window/setTimeout
 [prefer-arrow-callback] Unexpected function expression.
 ~~~
@@ -3244,7 +3239,7 @@ var global = { data: 0 };
 alert(global === window.global); // displays "true"
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascade/Cascade
+/en-US/docs/Web/CSS/Guides/Cascade/Introduction
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
@@ -3260,71 +3255,13 @@ alert(global === window.global); // displays "true"
 </style>
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascade/Cascade
+/en-US/docs/Web/CSS/Guides/Cascade/Introduction
 [no-inline-style] Inline style is not allowed
 ~~~
 <p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)
-~~~
-top: 0;
-right: 20px;
-bottom: 0;
-left: 20px;
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
-~~~
-margin-top: 10px;
-margin-right: 5px;
-margin-bottom: 10px;
-margin-left: 5px;
-~~~
-
-/en-US/docs/Web/HTML/Guides/Content_categories
-[element-permitted-content] <del> element is not permitted as content under <ul>
-[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
-~~~
-<ul>
-  <del>
-    <li>Oranges</li>
-    <li>Toilet paper</li>
-  </del>
-  <li>Toothpaste</li>
-</ul>
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
-~~~
-p {
-  background-color: red;
-  background: url("images/bg.gif") no-repeat left top;
-}
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[shorthand-property-no-redundant-values] Expected "0 20px 0 20px" to be "0 20px" (shorthand-property-no-redundant-values)
-~~~
-inset: 0 20px 0 20px;
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[shorthand-property-no-redundant-values] Expected "10px 5px 10px 5px" to be "10px 5px" (shorthand-property-no-redundant-values)
-~~~
-margin: 10px 5px 10px 5px;
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[no-inline-style] Inline style is not allowed
-~~~
-<p style="color: purple">…</p>
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Value_processing
+/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing
 [property-no-unknown] Unexpected unknown property "colr" (property-no-unknown)
 ~~~
 p {
@@ -3334,7 +3271,52 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)
+~~~
+top: 0;
+right: 20px;
+bottom: 0;
+left: 20px;
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
+~~~
+margin-top: 10px;
+margin-right: 5px;
+margin-bottom: 10px;
+margin-left: 5px;
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
+~~~
+p {
+  background-color: red;
+  background: url("images/bg.gif") no-repeat left top;
+}
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
+[shorthand-property-no-redundant-values] Expected "0 20px 0 20px" to be "0 20px" (shorthand-property-no-redundant-values)
+~~~
+inset: 0 20px 0 20px;
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
+[shorthand-property-no-redundant-values] Expected "10px 5px 10px 5px" to be "10px 5px" (shorthand-property-no-redundant-values)
+~~~
+margin: 10px 5px 10px 5px;
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascade/Specificity
+[no-inline-style] Inline style is not allowed
+~~~
+<p style="color: purple">…</p>
+~~~
+
+/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
 [declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)
 ~~~
 @property --text-color {
@@ -3357,7 +3339,7 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
 [declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)
 ~~~
 p {
@@ -3371,7 +3353,7 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
 [declaration-property-value-no-unknown] Unexpected unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
 ~~~
@@ -3412,7 +3394,7 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_colors/Applying_color
+/en-US/docs/Web/CSS/Guides/Colors/Applying_color
 [color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
 ~~~
 .wrapper {
@@ -3449,7 +3431,7 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_colors/Applying_color
+/en-US/docs/Web/CSS/Guides/Colors/Applying_color
 [color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)
@@ -3489,7 +3471,7 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_colors/Color_values
+/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
 [color-named] Expected "#ff0000" to be "red" (color-named)
 [color-named] Expected "#f00" to be "red" (color-named)
@@ -3498,14 +3480,14 @@ color: #ff0000;
 color: #f00;
 ~~~
 
-/en-US/docs/Web/CSS/CSS_colors/Color_values
+/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [color-hex-length] Expected "#f004" to be "#ff000044" (color-hex-length)
 ~~~
 color: #ff000044;
 color: #f004;
 ~~~
 
-/en-US/docs/Web/CSS/CSS_colors/Color_values
+/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [color-named] Expected "hsl(0deg 100% 50%)" to be "red" (color-named)
 [color-named] Expected "hsl(180deg 100% 50%)" to be "cyan" (color-named)
 [color-named] Expected "hsl(360deg 100% 50%)" to be "red" (color-named)
@@ -3552,7 +3534,7 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries
 [no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
 ~~~
 /* `@supports` at-rule */
@@ -3564,7 +3546,7 @@ div {
 @import "/css/styles.css" supports(color: red);
 ~~~
 
-/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries
 [no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
 ~~~
 /* `@supports` at-rule */
@@ -3576,7 +3558,7 @@ div {
 @import "/css/styles.css" supports(color: AccentColor);
 ~~~
 
-/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries
 [color-named] Expected "#0000ff" to be "blue" (color-named)
 ~~~
 @property --accent-color {
@@ -3586,14 +3568,14 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
+/en-US/docs/Web/CSS/Guides/Filter_effects/Using
 [no-redundant-role] Redundant role "img" on <img>
 ~~~
 <img src="mandala.svg" alt="Colorful mandala" role="img" />
 <img src="mandala.svg" alt="Plain mandala" role="img" />
 ~~~
 
-/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
+/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks
 [declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
@@ -3603,7 +3585,7 @@ mask: url("star.svg") 10px 10px cover;
 mask: url("star.svg") top right 100px 100px;
 ~~~
 
-/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+/en-US/docs/Web/CSS/Guides/Media_queries/Using
 [media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
 ~~~
 @media (max-width: 1250px) {
@@ -3611,7 +3593,7 @@ mask: url("star.svg") top right 100px 100px;
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+/en-US/docs/Web/CSS/Guides/Media_queries/Using
 [media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
 ~~~
 @media (min-width: 30em) and (max-width: 50em) {
@@ -3627,7 +3609,7 @@ mask: url("star.svg") top right 100px 100px;
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+/en-US/docs/Web/CSS/Guides/Nesting/Using
 [selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
 ~~~
 .my-class {
@@ -3642,7 +3624,7 @@ element.my-class {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+/en-US/docs/Web/CSS/Guides/Syntax/Error_handling
 [CssSyntaxError] Missed semicolon (CssSyntaxError)
 ~~~
 p {
@@ -3655,7 +3637,7 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+/en-US/docs/Web/CSS/Guides/Syntax/Error_handling
 [CssSyntaxError] Unclosed block (CssSyntaxError)
 ~~~
 <style>
@@ -3665,7 +3647,7 @@ p {
 </style>
 ~~~
 
-/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+/en-US/docs/Web/CSS/Guides/Syntax/Error_handling
 [CssSyntaxError] Unclosed comment (CssSyntaxError)
 ~~~
 <style>
@@ -3678,7 +3660,7 @@ p {
 <p style="/* another unclosed comment">Parsed as HTML.</p>
 ~~~
 
-/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+/en-US/docs/Web/CSS/Guides/Syntax/Error_handling
 [declaration-property-value-no-unknown] Unexpected unknown value "-ms-flexbox" for property "display" (declaration-property-value-no-unknown)
 ~~~
 /* Prefixed values */
@@ -3699,7 +3681,7 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/CSS_text_decoration/Text_shadows
+/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows
 [color-named] Expected "#0000cd" to be "mediumblue" (color-named)
 [color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
 [color-named] Expected "#663399" to be "rebeccapurple" (color-named)
@@ -4525,6 +4507,19 @@ p {
 .p3 {
   color: 20px;
 }
+~~~
+
+/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-content] <del> element is not permitted as content under <ul>
+[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
+~~~
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Attributes

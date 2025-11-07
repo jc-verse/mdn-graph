@@ -12,6 +12,5 @@
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/*
 /en-US/docs/Web/API/WebGL_API/By_example/*
 /en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/**
-/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_*
 /en-US/docs/Web/JavaScript/Guide/Regular_expressions/*
 /en-US/docs/Web/SVG/Guides/Namespaces_crash_course/Example

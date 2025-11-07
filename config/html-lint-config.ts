@@ -154,7 +154,7 @@ export const ignore = [
     rules: { "no-inline-style": "off" },
   },
   {
-    files: ["Web/CSS/CSS_syntax/Error_handling"],
+    files: ["Web/CSS/Guides/Syntax/Error_handling"],
     rules: {
       "no-inline-style": "off",
       "mdn-graph/no-style-tag": "off",

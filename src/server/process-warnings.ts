@@ -27,8 +27,7 @@ const webDocsBacklog = new Set(
         return `/en-US/docs/Web/API/${interfac}/${member}`;
       case "css":
         // TODO: this needs to be fixed in cssxref
-        if (interfac === "selectors")
-          return `/en-US/docs/Web/CSS/:${member}`;
+        if (interfac === "selectors") return `/en-US/docs/Web/CSS/:${member}`;
         return `/en-US/docs/Web/CSS/${member}`;
       case "html":
         if (interfac === "elements") {
