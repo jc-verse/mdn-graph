@@ -687,6 +687,8 @@ export default async function createContentGraph() {
       parentId = "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes";
     } else if (node.data.metadata.pageType === "css-pseudo-element") {
       parentId = "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements";
+    } else if (node.data.metadata.pageType === "css-combinator") {
+      parentId = "/en-US/docs/Web/CSS/Reference/Selectors/Combinators";
     } else if (node.data.metadata.pageType === "css-function") {
       parentId = "/en-US/docs/Web/CSS/Reference/Values/Functions";
     } else if (node.data.metadata.pageType === "css-type") {
