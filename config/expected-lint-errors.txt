@@ -3244,100 +3244,6 @@ var global = { data: 0 };
 alert(global === window.global); // displays "true"
 ~~~
 
-/en-US/docs/Web/CSS/attr
-[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-span[data-icon] {
-  background-image: url(attr(data-icon));
-}
-~~~
-
-/en-US/docs/Web/CSS/attr
-[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
-~~~
-div::before {
-  content: attr(text) " World";
-}
-div::before {
-  content: attr(text) 1px;
-}
-~~~
-
-/en-US/docs/Web/CSS/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-div {
-  width: 100px;
-  height: 50px;
-  margin: 1rem;
-}
-
-div.space-separated {
-  background-color: hsl(0 100% 50% / 50%);
-}
-
-div.comma-separated {
-  background-color: hsl(0, 100%, 50%, 0.5);
-}
-~~~
-
-/en-US/docs/Web/CSS/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
-~~~
-div {
-  width: 100px;
-  min-height: 50px;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-body {
-  display: flex;
-  gap: 20px;
-}
-
-div.modern {
-  background-color: hsl(90 80% 50%);
-}
-
-div.legacy {
-  background-color: hsl(90, 80%, 50%);
-}
-
-div.modernWithAlpha {
-  background-color: hsl(90 80% 50% / 50%);
-}
-
-div.modernHSLA {
-  background-color: hsla(90 80% 50% / 50%);
-}
-
-div.legacyHSLA {
-  background-color: hsla(90, 80%, 50%, 0.5);
-}
-~~~
-
-/en-US/docs/Web/CSS/color_value/rgb
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-div {
-  width: 100px;
-  height: 50px;
-  margin: 1rem;
-}
-
-div.space-separated {
-  background-color: rgb(255 0 0 / 50%);
-}
-
-div.comma-separated {
-  background-color: rgb(255, 0, 0, 0.5);
-}
-~~~
-
 /en-US/docs/Web/CSS/CSS_cascade/Cascade
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
@@ -3376,6 +3282,19 @@ margin-top: 10px;
 margin-right: 5px;
 margin-bottom: 10px;
 margin-left: 5px;
+~~~
+
+/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-content] <del> element is not permitted as content under <ul>
+[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
+~~~
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
@@ -3808,136 +3727,6 @@ p {
     10px 10px rgb(255 0 255),
     15px 15px rgb(102 51 153);
 }
-~~~
-
-/en-US/docs/Web/CSS/element
-[color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
-~~~
-#css-result {
-  background: -moz-element(#css-source) no-repeat;
-  width: 256px;
-  height: 32px;
-  background-size: 80%;
-  border: dashed;
-}
-~~~
-
-/en-US/docs/Web/CSS/element
-[color-no-invalid-hex] Unexpected invalid hex color "#my" (color-no-invalid-hex)
-~~~
-#target-box {
-  width: 400px;
-  height: 400px;
-  background: -moz-element(#my-background) no-repeat;
-}
-
-#background-container {
-  overflow: hidden;
-  height: 0;
-}
-
-#my-background {
-  width: 1024px;
-  height: 1024px;
-  background-image: linear-gradient(to right, red, orange, yellow, white);
-}
-
-#my-background p {
-  transform-origin: 0 0;
-  rotate: 45deg;
-  color: white;
-}
-~~~
-
-/en-US/docs/Web/CSS/env
-[value-keyword-case] Expected "SAFE-AREA-INSET-LEFT" to be "safe-area-inset-left" (value-keyword-case)
-~~~
-p {
-  width: 300px;
-  border: 2px solid red;
-  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px)
-    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);
-}
-~~~
-
-/en-US/docs/Web/CSS/hex-color
-[color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
-[color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: monospace;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-[class] {
-  width: 40px;
-  height: 40px;
-}
-.c1 {
-  background: #f09;
-}
-.c2 {
-  background: #f09a;
-}
-.c3 {
-  background: #ff0099;
-}
-.c4 {
-  background: #ff0099aa;
-}
-~~~
-
-/en-US/docs/Web/CSS/if
-[no-inline-style] Inline style is not allowed
-~~~
-<section style="--show-apple:true">
-  <article><h2>First article</h2></article>
-  <article><h2>Second article</h2></article>
-</section>
-~~~
-
-/en-US/docs/Web/CSS/important
-[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)
-[declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
-~~~
-:root {
-  --my-color: red !important;
-  --my-color: blue;
-}
-p {
-  color: var(--my-color);
-}
-blockquote {
-  color: var(--my-color);
-  color: purple;
-}
-~~~
-
-/en-US/docs/Web/CSS/important
-[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
-~~~
-selector {
-  property: value; /* normal declaration */
-  property: value !important; /* important declaration (preferred) */
-  property: value ! important; /* important declaration (not preferred) */
-}
-~~~
-
-/en-US/docs/Web/CSS/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
 ~~~
 
 /en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
@@ -4461,7 +4250,231 @@ that contain characters which must be escaped in CSS -->
 <p id="123item">This paragraph has a yellow background.</p>
 ~~~
 
-/en-US/docs/Web/CSS/repeat
+/en-US/docs/Web/CSS/Reference/Values/attr
+[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
+[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
+~~~
+span[data-icon] {
+  background-image: url(attr(data-icon));
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/attr
+[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
+~~~
+div::before {
+  content: attr(text) " World";
+}
+div::before {
+  content: attr(text) 1px;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  height: 50px;
+  margin: 1rem;
+}
+
+div.space-separated {
+  background-color: hsl(0 100% 50% / 50%);
+}
+
+div.comma-separated {
+  background-color: hsl(0, 100%, 50%, 0.5);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
+~~~
+div {
+  width: 100px;
+  min-height: 50px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  gap: 20px;
+}
+
+div.modern {
+  background-color: hsl(90 80% 50%);
+}
+
+div.legacy {
+  background-color: hsl(90, 80%, 50%);
+}
+
+div.modernWithAlpha {
+  background-color: hsl(90 80% 50% / 50%);
+}
+
+div.modernHSLA {
+  background-color: hsla(90 80% 50% / 50%);
+}
+
+div.legacyHSLA {
+  background-color: hsla(90, 80%, 50%, 0.5);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/color_value/rgb
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  height: 50px;
+  margin: 1rem;
+}
+
+div.space-separated {
+  background-color: rgb(255 0 0 / 50%);
+}
+
+div.comma-separated {
+  background-color: rgb(255, 0, 0, 0.5);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/element
+[color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
+~~~
+#css-result {
+  background: -moz-element(#css-source) no-repeat;
+  width: 256px;
+  height: 32px;
+  background-size: 80%;
+  border: dashed;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/element
+[color-no-invalid-hex] Unexpected invalid hex color "#my" (color-no-invalid-hex)
+~~~
+#target-box {
+  width: 400px;
+  height: 400px;
+  background: -moz-element(#my-background) no-repeat;
+}
+
+#background-container {
+  overflow: hidden;
+  height: 0;
+}
+
+#my-background {
+  width: 1024px;
+  height: 1024px;
+  background-image: linear-gradient(to right, red, orange, yellow, white);
+}
+
+#my-background p {
+  transform-origin: 0 0;
+  rotate: 45deg;
+  color: white;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/env
+[value-keyword-case] Expected "SAFE-AREA-INSET-LEFT" to be "safe-area-inset-left" (value-keyword-case)
+~~~
+p {
+  width: 300px;
+  border: 2px solid red;
+  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px)
+    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/hex-color
+[color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
+[color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
+~~~
+body {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+[class] {
+  width: 40px;
+  height: 40px;
+}
+.c1 {
+  background: #f09;
+}
+.c2 {
+  background: #f09a;
+}
+.c3 {
+  background: #ff0099;
+}
+.c4 {
+  background: #ff0099aa;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/if
+[no-inline-style] Inline style is not allowed
+~~~
+<section style="--show-apple:true">
+  <article><h2>First article</h2></article>
+  <article><h2>Second article</h2></article>
+</section>
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/important
+[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)
+[declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
+~~~
+:root {
+  --my-color: red !important;
+  --my-color: blue;
+}
+p {
+  color: var(--my-color);
+}
+blockquote {
+  color: var(--my-color);
+  color: purple;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/important
+[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
+~~~
+selector {
+  property: value; /* normal declaration */
+  property: value !important; /* important declaration (preferred) */
+  property: value ! important; /* important declaration (not preferred) */
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/log
+[no-inline-style] Inline style is not allowed
+~~~
+<div class="bar" style="--value: 50">50</div>
+<div class="bar" style="--value: 100">100</div>
+<div class="bar" style="--value: 500">500</div>
+<div class="bar" style="--value: 10000">10,000</div>
+<div class="bar" style="--value: 2000000">2,000,000</div>
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/repeat
 [declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)
 ~~~
 .wrapper {
@@ -4471,7 +4484,7 @@ that contain characters which must be escaped in CSS -->
 }
 ~~~
 
-/en-US/docs/Web/CSS/revert
+/en-US/docs/Web/CSS/Reference/Values/revert
 [no-inline-style] Inline style is not allowed
 ~~~
 <h3 style="font-weight: revert; color: revert;">
@@ -4484,7 +4497,7 @@ that contain characters which must be escaped in CSS -->
 <p>Just some text</p>
 ~~~
 
-/en-US/docs/Web/CSS/revert
+/en-US/docs/Web/CSS/Reference/Values/revert
 [no-inline-style] Inline style is not allowed
 ~~~
 <h3>This will have custom styles</h3>
@@ -4493,7 +4506,7 @@ that contain characters which must be escaped in CSS -->
 <p>Just some text</p>
 ~~~
 
-/en-US/docs/Web/CSS/var
+/en-US/docs/Web/CSS/Reference/Values/var
 [declaration-property-value-no-unknown] Unexpected unknown value "20px" for property "color" (declaration-property-value-no-unknown)
 ~~~
 p {

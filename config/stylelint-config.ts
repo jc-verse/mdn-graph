@@ -541,16 +541,16 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/color_value/**",
-          "Web/CSS/hue/*",
+          "Web/CSS/Reference/Values/color_value/**",
+          "Web/CSS/Reference/Values/hue/*",
           "Web/CSS/Reference/Properties/hue-interpolation-method/*",
         ],
         rules: { "color-named": null },
       },
       {
         files: [
-          "Web/CSS/cross-fade/*",
-          "Web/CSS/gradient/repeating-linear-gradient/*",
+          "Web/CSS/Reference/Values/cross-fade/*",
+          "Web/CSS/Reference/Values/gradient/repeating-linear-gradient/*",
         ],
         rules: {
           "declaration-block-no-duplicate-properties": [
@@ -562,7 +562,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: [
           "Web/CSS/CSS_images/Using_CSS_gradients/*",
-          "Web/CSS/gradient/repeating-radial-gradient/*",
+          "Web/CSS/Reference/Values/gradient/repeating-radial-gradient/*",
         ],
         rules: {
           "declaration-block-no-duplicate-properties": [
@@ -630,7 +630,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         files: [
           "Web/CSS/CSS_overflow/*",
           "Web/CSS/Reference/Properties/overflow/*",
-          "Web/CSS/overflow_value/*",
+          "Web/CSS/Reference/Values/overflow_value/*",
         ],
         rules: {
           "declaration-property-value-keyword-no-deprecated": [

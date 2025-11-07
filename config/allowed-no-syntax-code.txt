@@ -2,7 +2,8 @@
 
 /en-US/docs/Web/CSS/Reference/At-rules/@scope
 /en-US/docs/Web/CSS/Reference/At-rules/@starting-style
-/en-US/docs/Web/CSS/cross-fade
+/en-US/docs/Web/CSS/Reference/Values/Data_types
+/en-US/docs/Web/CSS/Reference/Values/cross-fade
 /en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition
 /en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Version
 /en-US/docs/WebAssembly/Reference/Memory/Copy

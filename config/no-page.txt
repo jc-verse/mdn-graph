@@ -83,6 +83,7 @@
 /en-US/docs/Web/API/window/scroll_event
 /en-US/docs/Web/API/XRPermissionStatus
 
+  TODO: this needs to be fixed in cssxref
 /en-US/docs/Web/CSS/::-webkit-color-swatch
 /en-US/docs/Web/CSS/::-webkit-textfield-decoration-container
 /en-US/docs/Web/CSS/@page/marks

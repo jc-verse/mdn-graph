@@ -259,7 +259,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     // Web/CSS/
     case "css-at-rule": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const ruleName = match[1];
       return [`css.at-rules.${ruleName}`];
@@ -287,8 +289,11 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${combinatorName.toLowerCase()}`];
     }
     case "css-function": {
+      if (node.id === "/en-US/docs/Web/CSS/Reference/At-rules/@import/layer_function") {
+        return ["css.at-rules.import.layer"];
+      }
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/CSS\/(?:Reference\/(?:Properties)\/)?(.+)$/,
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/(?:Properties|Values)\/(.+)$/,
       );
       if (!match) return "Unexpected page type";
       const functionName = match[1]
@@ -329,7 +334,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "css-keyword":
       return "ignore";
     case "css-media-feature": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@media\/([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@media\/([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const featureName = match[1];
       return [`css.at-rules.media.${featureName}`];
@@ -356,7 +363,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${pseudoName}`];
     }
     case "css-type": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/([^/]+)$/);
+      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/Values\/([^/]+)$/);
       if (!match) return "Unexpected page type";
       const typeName = match[1].replace(/_type$/, "").replace(/_value$/, "");
       if (["custom-ident", "dashed-ident", "ident"].includes(typeName)) {

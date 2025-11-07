@@ -36,9 +36,9 @@ xslt-30
   https://www.w3.org/TR/SOAP redirects here
 2000/NOTE-SOAP-20000508
 
-CSS1	/en-US/docs/Web/CSS/named-color
-CSS2	/en-US/docs/Web/CSS/named-color
-SVG11	/en-US/docs/Web/CSS/named-color
+CSS1	/en-US/docs/Web/CSS/Reference/Values/named-color
+CSS2	/en-US/docs/Web/CSS/Reference/Values/named-color
+SVG11	/en-US/docs/Web/CSS/Reference/Values/named-color
 CSS2	/en-US/docs/Web/CSS/CSS_cascade/Value_processing
 CSS2	/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow
 CSS1	/en-US/docs/Mozilla/Firefox/Releases/1.5
