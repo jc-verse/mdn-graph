@@ -351,6 +351,7 @@ function displayWarnings() {
         "Possibly unrendered Markdown",
         "Quoted code",
         "Text stuck to code/link",
+        "Try it should not have content",
       ].includes(message[0])
     ) {
       badContent.append(option);

@@ -292,6 +292,24 @@ export default async function createContentGraph() {
       const partContent = part.value.content;
       const $ = load(partContent);
       checkContent(partContent, $, report.bind(null, node), { slug: node.id });
+      if (part.value.id === "try_it") {
+        const elements = $("body").children();
+        if (
+          !(
+            elements.length >= 2 &&
+            elements[0].type === "tag" &&
+            (elements[0] as Element).tagName === "interactive-example" &&
+            [...elements.slice(1)].every(
+              (x) =>
+                x.type === "tag" &&
+                (x as Element).tagName === "div" &&
+                (x as Element).attribs.class === "code-example",
+            )
+          )
+        ) {
+          report(node, "Try it should not have content");
+        }
+      }
       $("[id]").each((i, el) => {
         const id = $(el).attr("id")!;
         if (ids.includes(id)) report(node, "Duplicate ID", id);
