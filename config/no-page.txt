@@ -107,6 +107,12 @@
 /en-US/docs/Web/MathML/Reference/Global_attributes/style
 /en-US/docs/Web/MathML/Reference/Global_attributes/tabindex
 
+/en-US/docs/Glossary/JWT
+/en-US/docs/Web/Security/Authentication/Federated_identity
+/en-US/docs/Web/Security/Authentication/OTP
+/en-US/docs/Web/Security/Authentication/Passkeys
+/en-US/docs/Web/Security/Authentication/Session_management
+
   These are defined in https://svgwg.org/svg2-draft/attindex.html
 /en-US/docs/Web/SVG/Reference/Attribute/hreflang
 /en-US/docs/Web/SVG/Reference/Attribute/offset

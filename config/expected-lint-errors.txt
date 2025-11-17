@@ -980,6 +980,8 @@ tfoot {
 <h1>Basic image embed</h1>
 
 <img />
+
+<p>You should see a picture of some blueberries above.</p>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links

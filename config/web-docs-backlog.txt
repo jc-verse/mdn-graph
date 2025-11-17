@@ -102,7 +102,6 @@ api.Directory.getFiles
 api.Directory.getFilesAndDirectories
 api.Directory.name
 api.Directory.path
-api.Document.activeViewTransition
 api.Document.captureEvents
 api.Document.customElementRegistry
 api.Document.freeze_event
@@ -809,6 +808,10 @@ http.headers.Activate-Storage-Access
 http.headers.Attribution-Reporting-Support
 http.headers.Feature-Policy
 http.headers.Sec-Fetch-Storage-Access
+http.headers.Sec-Private-State-Token
+http.headers.Sec-Private-State-Token-Crypto-Version
+http.headers.Sec-Private-State-Token-Lifetime
+http.headers.Sec-Redemption-Record
 http.headers.Snapshot-Content-Location
 svg.global_attributes.font-width
 webassembly.BigInt-to-i64-integration

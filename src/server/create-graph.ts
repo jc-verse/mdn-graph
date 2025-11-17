@@ -18,6 +18,7 @@ import { checkContent, postCheckContent } from "./check-content.js";
 const nonContentPaths = [
   "/en-US/",
   "/en-US/about",
+  "/en-US/curriculum",
   "/en-US/curriculum/",
   "/en-US/observatory",
   "/en-US/observatory/",
