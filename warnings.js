@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-14amm2pz.js";
+} from "./chunk-2d6fq13x.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,19 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -1280,19 +1267,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            spa: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SPA",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://react.dev/",
-                    "unknown certificate verification error"
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1300,19 +1274,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            ssg: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SSG",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.11ty.dev/",
-                    "unknown certificate verification error"
-                  ]
                 }
               ]
             },
@@ -1466,17 +1427,21 @@ var warnings_processed_default = {
             core: {
               children: {
                 accessibility: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
-                        "unknown certificate verification error"
+                  children: {
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://humanrights.gov.au/our-work/disability-rights/publications/guidelines-equal-access-digital-goods-and-services",
+                            404
+                          ]
+                        }
                       ]
                     }
-                  ]
+                  }
                 },
                 css_layout: {
                   children: {
@@ -2292,21 +2257,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/",
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
                             "The operation timed out."
                           ]
                         }
@@ -2319,13 +2277,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2339,40 +2290,6 @@ ul li {
                         }
                       ]
                     },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nuxt.com/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.11ty.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.tatianamac.com/posts/beginner-eleventy-tutorial-parti/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2382,115 +2299,6 @@ ul li {
                           data: [
                             "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://legacy.reactjs.org/docs/faq-internals.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://legacy.reactjs.org/docs/hooks-faq.html",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://parceljs.org/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/reference/react-dom/client/createRoot",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/learn/react-developer-tools",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/learn/extracting-state-logic-into-a-reducer",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/reference/react/useContext",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/learn/synchronizing-with-effects",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://testingaccessibility.com/implications-of-client-side-routing",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -3435,41 +3243,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/99b9eb228b404a2f8c8959b22c0a40d3?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/logic-blocks",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-store",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/76cc90c43a37452e8c7f70521f88b698?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -3480,48 +3253,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://rollupjs.org/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vercel.com/home",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vercel.com/import/svelte",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/blog",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/welcome-to-svelte",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/examples/hello-world",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -3532,76 +3263,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/typescript",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://kit.svelte.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://rollupjs.org/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/378dd79e0dfe4486a8f10823f3813190?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/fc68b4f059d34b9c84fa042d1cce586c?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -3612,83 +3273,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/76cc90c43a37452e8c7f70521f88b698?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/special-elements",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/onmount",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/onmount",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/onmount",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/tick",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/tick",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/actions",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/d1fa84a5a4494366b179c87395940039?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -3699,111 +3283,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/writable-stores",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/d1fa84a5a4494366b179c87395940039?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-store",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-store",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-store",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/custom-stores",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/transition",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/animate",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/custom-css-transitions",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.svelte.dev/tutorial/custom-js-transitions",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/examples/easing",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/378dd79e0dfe4486a8f10823f3813190?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4759,20 +4238,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/basic-markup",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/c862d964d48d473ca63ab91709a0a5a0?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4783,27 +4248,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/blog/svelte-and-typescript",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/blog/svelte-and-typescript",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4814,34 +4258,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/c862d964d48d473ca63ab91709a0a5a0?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/logic-blocks",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/docs/svelte-components",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/repl/99b9eb228b404a2f8c8959b22c0a40d3?version=3.23.2",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4872,13 +4288,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/component-basics.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4936,20 +4345,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nuxt.com/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v3-migration.vuejs.org/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4963,24 +4358,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://svelte.dev/repl/378dd79e0dfe4486a8f10823f3813190?version=3.23.2",
-                        "unknown certificate verification error"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.svelte.dev/tutorial/writable-stores",
-                        "unknown certificate verification error"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 scripting: {
                   children: {
@@ -5000,45 +4378,6 @@ body {
                           data: [
                             "https://www.iconfinder.com/nazarr",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    event_bubbling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://domevents.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    json: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/JSON",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.json-validate.com/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -5157,19 +4496,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     planet_data_table: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Planet_data_table",
@@ -5985,19 +5311,6 @@ h2 {
                 },
                 text_styling: {
                   children: {
-                    styling_links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://icons8.com/icon/741/external-link",
-                            500
-                          ]
-                        }
-                      ]
-                    },
                     web_fonts: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
@@ -6005,8 +5318,29 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.fontsquirrel.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.fontsquirrel.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.exljbris.com/",
                             "unable to verify the first certificate"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.fontsquirrel.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6017,30 +5351,6 @@ h2 {
             },
             extensions: {
               children: {
-                async_js: {
-                  children: {
-                    promises: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Async_JS/Promises",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://thenewtoys.dev/blog/2021/02/08/lets-talk-about-how-to-talk-about-promises/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://thenewtoys.dev/blog/2021/02/08/lets-talk-about-how-to-talk-about-promises/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 "client-side_apis": {
                   children: {
                     video_and_audio_apis: {
@@ -6368,91 +5678,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://preset-env.cssdb.org/features/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://pnpm.io/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vercel.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -11939,19 +11164,6 @@ button:active {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nuxt.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     styling_web_forms: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
@@ -11981,19 +11193,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12037,27 +11236,6 @@ textarea:focus {
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        mongoose: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://graphql.org/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -12603,23 +11781,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://parceljs.org/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12835,22 +11996,15 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
+                            "https://help.gnome.org/users/gedit/stable/",
+                            404
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
+                            "https://help.gnome.org/users/gnome-help/stable/files-open.html.en",
+                            404
                           ]
                         }
                       ]
@@ -12862,19 +12016,6 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -14301,19 +13442,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "146": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/146",
@@ -15035,13 +14163,122 @@ api.MessagePort`,
                   ]
                 },
                 css_object_model: {
-                  children: {},
+                  children: {
+                    css_value_serialization: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hsl(240 100% 50%)" to be "blue" (color-named)',
+                            "  color: hsl(240 100% 50%); /* <color> */",
+                            "4:10 - 4:27",
+                            `/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization
+[color-named] Expected "hsl(240 100% 50%)" to be "blue" (color-named)
+~~~
+div {
+  position: absolute; /* keyword */
+  rotate: 1rad; /* <angle> */
+  color: hsl(240 100% 50%); /* <color> */
+  background-color: hsl(120 50% 50% / 0.3); /* <color> with alpha */
+  border-color: lab(10 -120 -120); /* <color> in non-sRGB space */
+  margin: 2em; /* relative <length> */
+  padding: 2cm; /* absolute <length> */
+  font-size: calc(1em + 2px); /* complex expression */
+  left: 50%; /* <percentage> */
+  animation-duration: 500ms; /* <time> */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hsl(240 100% 50%)" to be "blue" (color-named)',
+                            "  background-color: hsl(240 100% 50%);",
+                            "8:21 - 8:38",
+                            `/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization
+[color-named] Expected "hsl(240 100% 50%)" to be "blue" (color-named)
+~~~
+.example {
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.hsl {
+  background-color: hsl(240 100% 50%);
+}
+
+.lab {
+  background-color: lab(100% 0 0);
+}
+
+.named {
+  background-color: blue;
+}
+
+.alpha {
+  background-color: hsl(120 50% 50% / 0.3);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "lightness-notation",
+                            'Expected "100%" to be "100" (lightness-notation)',
+                            "  background-color: lab(100% 0 0);",
+                            "12:25 - 12:29",
+                            `/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization
+[lightness-notation] Expected "100%" to be "100" (lightness-notation)
+~~~
+.example {
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.hsl {
+  background-color: hsl(240 100% 50%);
+}
+
+.lab {
+  background-color: lab(100% 0 0);
+}
+
+.named {
+  background-color: blue;
+}
+
+.alpha {
+  background-color: hsl(120 50% 50% / 0.3);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
                   messages: [
                     {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization"
                       ]
                     },
                     {
@@ -18061,6 +17298,35 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                window: {
+                  children: {
+                    requestanimationframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/requestAnimationFrame",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.testufo.com/",
+                            "https://testufo.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    viewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/viewport",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Viewport_API"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 windowsharedstorage: {
                   children: {
                     run: {
@@ -18109,22 +17375,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
-                },
-                window: {
-                  children: {
-                    viewport: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/viewport",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/Viewport_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 workernavigator: {
                   children: {
@@ -20216,23 +19466,6 @@ rgb(from red r g b / alpha)
                         }
                       }
                     },
-                    containment: {
-                      children: {
-                        container_size_and_style_queries: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://una.im/style-queries/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     cssom_view: {
                       children: {
                         viewport_concepts: {
@@ -20483,13 +19716,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://una.im/5-css-functions/",
-                                "unknown certificate verification error"
                               ]
                             }
                           ]
@@ -36626,19 +35852,6 @@ p {
                               ]
                             }
                           }
-                        },
-                        "font-smooth": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-smooth",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.joshwcomeau.com/css/custom-css-reset/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
                         },
                         "font-style": {
                           children: {},
@@ -54599,13 +53812,6 @@ div {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://abhisaha.com/blog/interactive-post-oklch-color-space",
-                                    "unknown certificate verification error"
-                                  ]
                                 }
                               ]
                             },
@@ -63569,13 +62775,6 @@ html.elements.select.size`
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -63698,19 +62897,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        heading_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -64142,19 +63328,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           }
                         },
-                        ins: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         kbd: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
@@ -64162,19 +63335,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        label: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/label",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://react.dev/reference/react/useId",
-                                "unknown certificate verification error"
-                              ]
                             }
                           ]
                         },
@@ -64195,19 +63355,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -64258,19 +63405,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        s: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -64546,19 +63680,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -64633,54 +63754,10 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
-                guide: {
-                  children: {
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    regular_expressions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://regexr.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -64702,19 +63779,6 @@ http.headers.Use-As-Dictionary`,
                         },
                         function: {
                           children: {
-                            displayname: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://legacy.reactjs.org/docs/higher-order-components.html",
-                                    "unknown certificate verification error"
-                                  ]
-                                }
-                              ]
-                            },
                             prototype: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
@@ -64770,6 +63834,13 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
+                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
@@ -64782,6 +63853,23 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
+                    },
+                    regular_expressions: {
+                      children: {
+                        unicode_character_class_escape: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     statements: {
                       children: {
@@ -64859,26 +63947,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://voiceage.com/AMR-NB.AMR.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://voiceage.com/Overview-lic.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         containers: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
@@ -65027,23 +64095,6 @@ http.headers.Use-As-Dictionary`,
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    xss: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/XSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://react.dev/reference/react-dom/components/common",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 authentication: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Authentication",
