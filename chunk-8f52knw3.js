@@ -16935,6 +16935,7 @@ This article shows the syntax required to make a link, and discusses link best p
         "https://www.mozilla.org/en-US/",
         "https://scrimba.com/learn-html-and-css-c0p/~0a?via=mdn",
         "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/getting-started/index.html",
+        "https://github.com/slorber/trailing-slash-guide",
         "https://www.firefox.com/en-US/?redirect_source=firefox-com",
         "https://www.firefox.com/en-US/",
         "https://github.com/mdn/learning-area/tree/main/html/introduction-to-html/navigation-menu-start",
@@ -16967,8 +16968,15 @@ This article shows the syntax required to make a link, and discusses link best p
         "creating_your_own_example_links",
         "frame_links-1",
         "a_quick_primer_on_urls_and_paths",
+        "same_directory",
+        "moving_down_into_subdirectories",
+        "moving_back_up_into_parent_directories",
+        "linking_relative_to_the_root_directory",
+        "linking_with_full_urls",
+        "internal_and_external_links",
         "document_fragments",
-        "absolute_versus_relative_urls",
+        "how_do_urls_translate_into_file_paths",
+        "the_default_index.html_page",
         "link_best_practices",
         "use_clear_link_wording",
         "linking_to_non-html_resources_—_leave_clear_signposts",
@@ -107244,9 +107252,7 @@ and gives you the key in an external, portable format.`,
         browserCompat: [
           "api.SubtleCrypto.importKey"
         ],
-        summary: `The importKey() method of the SubtleCrypto
-interface imports a key: that is, it takes as input a key in an external, portable
-format and gives you a CryptoKey object that you can use in the Web Crypto API.`,
+        summary: "The importKey() method of the SubtleCrypto interface imports a key: that is, it takes as input a key in an external, portable format and gives you a CryptoKey object that you can use in the Web Crypto API.",
         popularity: 0.0015909300133420293,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -226027,11 +226033,11 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
@@ -287790,6 +287796,9 @@ It accepts a variety of different image sources, and returns a Promise which res
         "delay",
         "arg1",
         "return_value",
+        "exceptions",
+        "syntaxerror",
+        "typeerror",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -381278,107 +381287,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381386,7 +381295,39 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381394,7 +381335,147 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381406,79 +381487,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -387343,11 +387352,31 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387359,31 +387388,11 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -446902,23 +446911,27 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -446930,27 +446943,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -446958,27 +446955,35 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -446986,32 +446991,32 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
@@ -447022,15 +447027,19 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         }
       ],
@@ -458264,6 +458273,10 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
@@ -458272,7 +458285,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458280,11 +458293,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -483852,15 +483861,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -483868,23 +483869,27 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -483892,8 +483897,12 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -538192,19 +538201,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -538212,11 +538209,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -569503,6 +569512,7 @@ Firefox 146 is the current Beta version of Firefox and ships on December 9, 2025
         "https://bugzil.la/1988938",
         "https://bugzil.la/1789477",
         "https://bugzil.la/1966745",
+        "https://bugzil.la/1971499",
         "https://bugzil.la/1886894",
         "https://bugzil.la/1979288"
       ],
@@ -569511,6 +569521,7 @@ Firefox 146 is the current Beta version of Firefox and ships on December 9, 2025
         "changes_for_web_developers",
         "css",
         "javascript",
+        "apis",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
@@ -599950,135 +599961,31 @@ It is also designed to run alongside JavaScript, allowing both to work together.
       links: [],
       imgs: [],
       ids: [
-        "declare_local",
-        "get_local",
-        "set_local",
-        "tee_local",
-        "declare_global",
-        "get_global",
-        "set_global"
+        "local",
+        "local.get",
+        "local.set",
+        "local.tee",
+        "global",
+        "global.get",
+        "global.set"
       ]
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Local_tee",
+    id: "/en-US/docs/WebAssembly/Reference/Variables/local.get",
     links: {},
     data: {
       metadata: {
-        title: "Local tee",
-        pageType: "webassembly-instruction",
-        summary: "The local.tee instruction sets the value of a local variable and loads the value onto the stack.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/variables/local_tee",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Local tee",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Local",
-    links: {},
-    data: {
-      metadata: {
-        title: "Local",
-        pageType: "webassembly-instruction",
-        summary: "The local instruction declares a new local variable.",
-        popularity: 0.00009335530640637825,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/variables/local",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Local",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Global_get",
-    links: {},
-    data: {
-      metadata: {
-        title: "Global get",
-        pageType: "webassembly-instruction",
-        summary: "The global.get instruction loads the value of a global variable onto the stack.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/variables/global_get",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Global get",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Global_set",
-    links: {},
-    data: {
-      metadata: {
-        title: "Global set",
-        pageType: "webassembly-instruction",
-        summary: "The global.set instruction sets the values of a global variable.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/variables/global_set",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Global set",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Local_get",
-    links: {},
-    data: {
-      metadata: {
-        title: "Local get",
+        title: "local.get: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The local.get instruction loads the value of a local variable onto the stack.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/variables/local_get",
+          folder: "en-us/webassembly/reference/variables/local.get",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Local get",
+        short_title: "local.get",
         status: []
       },
       flaws: {},
@@ -600091,11 +599998,141 @@ It is also designed to run alongside JavaScript, allowing both to work together.
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Global",
+    id: "/en-US/docs/WebAssembly/Reference/Variables/local",
     links: {},
     data: {
       metadata: {
-        title: "Global",
+        title: "local: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The local instruction declares a new local variable.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/variables/local",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "local",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Variables/global.set",
+    links: {},
+    data: {
+      metadata: {
+        title: "global.set: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The global.set instruction sets the values of a global variable.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/variables/global.set",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "global.set",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Variables/global.get",
+    links: {},
+    data: {
+      metadata: {
+        title: "global.get: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The global.get instruction loads the value of a global variable onto the stack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/variables/global.get",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "global.get",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Variables/local.set",
+    links: {},
+    data: {
+      metadata: {
+        title: "local.set: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The local.set instruction sets the values of a local variable.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/variables/local.set",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "local.set",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Variables/local.tee",
+    links: {},
+    data: {
+      metadata: {
+        title: "local.tee: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The local.tee instruction sets the value of a local variable and loads the value onto the stack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/variables/local.tee",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "local.tee",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Variables/global",
+    links: {},
+    data: {
+      metadata: {
+        title: "global: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The global instruction declares a new global variable.",
         popularity: null,
@@ -600104,33 +600141,7 @@ It is also designed to run alongside JavaScript, allowing both to work together.
           folder: "en-us/webassembly/reference/variables/global",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Global",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Variables/Local_set",
-    links: {},
-    data: {
-      metadata: {
-        title: "Local set",
-        pageType: "webassembly-instruction",
-        summary: "The local.set instruction sets the values of a local variable.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/variables/local_set",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Local set",
+        short_title: "global",
         status: []
       },
       flaws: {},
@@ -602083,32 +602094,6 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Left_rotate",
-    links: {},
-    data: {
-      metadata: {
-        title: "Left rotate",
-        pageType: "webassembly-instruction",
-        summary: "The rotl instructions, short for rotate-left, are used for performing a bitwise left-rotate.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/left_rotate",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Left rotate",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/WebAssembly/Reference/Numeric",
     links: {},
     data: {
@@ -602132,25 +602117,25 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
         "constants",
         "const",
         "comparison",
-        "equal",
-        "not_equal",
-        "greater_than",
-        "less_than",
-        "greater_or_equal",
-        "less_or_equal",
+        "eq",
+        "ne",
+        "gt",
+        "lt",
+        "ge",
+        "le",
         "arithmetic",
-        "addition",
-        "subtraction",
-        "multiplication",
-        "division",
-        "remainder",
+        "add",
+        "sub",
+        "mul",
+        "div",
+        "rem",
         "conversion",
         "extend",
         "wrap",
         "promote",
         "demote",
         "convert",
-        "truncate_float_to_int",
+        "trunc_to_int",
         "reinterpret",
         "floating_point_specific_instructions",
         "min",
@@ -602158,40 +602143,40 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
         "nearest",
         "ceil",
         "floor",
-        "truncate_float_to_float",
-        "absolute",
-        "negate",
-        "square_root",
-        "copy_sign",
+        "trunc_to_float",
+        "abs",
+        "neg",
+        "sqrt",
+        "copysign",
         "bitwise",
         "and",
         "or",
         "xor",
-        "left_shift",
-        "right_shift",
-        "left_rotate",
-        "right_rotate",
-        "count_leading_zeros",
-        "count_trailing_zeros",
-        "population_count"
+        "shl",
+        "shr",
+        "rotl",
+        "rotr",
+        "clz",
+        "ctz",
+        "popcnt"
       ]
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Population_count",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/eq",
     links: {},
     data: {
       metadata: {
-        title: "Population count",
+        title: "eq: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The popcnt instructions, short for population count, are used to count the amount of 1s in a numbers binary representation.",
+        summary: "The eq instructions, short for equal, check if two numbers are equal. If both numbers are equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/population_count",
+          folder: "en-us/webassembly/reference/numeric/eq",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Population count",
+        short_title: "eq",
         status: []
       },
       flaws: {},
@@ -602204,20 +602189,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Right_rotate",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ne",
     links: {},
     data: {
       metadata: {
-        title: "Right rotate",
+        title: "ne: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The rotr instructions, short for rotate-right, are used for performing a bitwise right-rotate.",
+        summary: "The ne instructions, short for not equal, check if two numbers are not equal. If the numbers are not equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/right_rotate",
+          folder: "en-us/webassembly/reference/numeric/ne",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Right rotate",
+        short_title: "ne",
         status: []
       },
       flaws: {},
@@ -602230,98 +602215,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Negate",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/le",
     links: {},
     data: {
       metadata: {
-        title: "Negate",
-        pageType: "webassembly-instruction",
-        summary: "The neg instructions, short for negate, are used to negate a number. That is, turn a positive number into a negative number and a negative number into a positive number.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/negate",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Negate",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Right_shift",
-    links: {},
-    data: {
-      metadata: {
-        title: "Right shift",
-        pageType: "webassembly-instruction",
-        summary: "The shr instructions, short for shift-right, are used for performing a bitwise right-shift, similar to the >>> operator in other languages.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/right_shift",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Right shift",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Copy_sign",
-    links: {},
-    data: {
-      metadata: {
-        title: "Copy sign",
-        pageType: "webassembly-instruction",
-        summary: "The copysign instructions, are used to copy just the sign bit from one number to another.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/copy_sign",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Copy sign",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Less_or_equal",
-    links: {},
-    data: {
-      metadata: {
-        title: "Less or equal",
+        title: "le: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The le instructions, short for less or equal, check if a number is less than or equal to another number. If the first number is less than or equal to the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/less_or_equal",
+          folder: "en-us/webassembly/reference/numeric/le",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Less or equal",
+        short_title: "le",
         status: []
       },
       flaws: {},
@@ -602334,20 +602241,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Subtraction",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/shl",
     links: {},
     data: {
       metadata: {
-        title: "Subtraction",
+        title: "shl: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The sub instructions, short for subtraction, are used for subtracting one number from another number, similar to the - operator in other languages.",
+        summary: "The shl instructions, short for shift-left, are used for performing a bitwise left-shift, similar to the << operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/subtraction",
+          folder: "en-us/webassembly/reference/numeric/shl",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Subtraction",
+        short_title: "shl",
         status: []
       },
       flaws: {},
@@ -602360,46 +602267,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_than",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/nearest",
     links: {},
     data: {
       metadata: {
-        title: "Greater than",
+        title: "nearest: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The gt instructions, short for greater than, check if a number is greater than another number. If the first number is greater than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/greater_than",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Greater than",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Nearest",
-    links: {},
-    data: {
-      metadata: {
-        title: "Nearest",
-        pageType: "webassembly-instruction",
-        summary: "The nearest instructions, are used for getting the value of a number rounded to the nearest integer.",
+        summary: "The nearest instructions are used for getting the value of a number rounded to the nearest integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/nearest",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Nearest",
+        short_title: "nearest",
         status: []
       },
       flaws: {},
@@ -602412,20 +602293,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Reinterpret",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/reinterpret",
     links: {},
     data: {
       metadata: {
-        title: "Reinterpret",
+        title: "reinterpret: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The reinterpret instructions, are used to reinterpret the bits of a number as a different type.",
+        summary: "The reinterpret instructions are used to reinterpret the bits of a number as a different type.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/reinterpret",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Reinterpret",
+        short_title: "reinterpret",
         status: []
       },
       flaws: {},
@@ -602438,46 +602319,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Multiplication",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ceil",
     links: {},
     data: {
       metadata: {
-        title: "Multiplication",
+        title: "ceil: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The mul instructions, short for multiplication, are used for multiplying one number by another number, similar to the * operator in other languages.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/multiplication",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Multiplication",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Ceil",
-    links: {},
-    data: {
-      metadata: {
-        title: "Ceil",
-        pageType: "webassembly-instruction",
-        summary: "The ceil instructions, are used for getting the value of a number rounded up to the next integer.",
+        summary: "The ceil instructions are used for getting the value of a number rounded up to the next integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/ceil",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Ceil",
+        short_title: "ceil",
         status: []
       },
       flaws: {},
@@ -602490,20 +602345,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Not_equal",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_int",
     links: {},
     data: {
       metadata: {
-        title: "Not equal",
+        title: "trunc (to int): Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The ne instructions, short for not equal, check if two numbers are not equal. If the numbers are not equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The trunc instructions, short for truncate, are used for converting floating points to integers. It's named truncate since it truncates the fractional part of the number when doing the conversion. There are signed and unsigned versions of this instruction.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/not_equal",
+          folder: "en-us/webassembly/reference/numeric/trunc_int",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Not equal",
+        short_title: "trunc (to int)",
         status: []
       },
       flaws: {},
@@ -602516,20 +602371,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Left_shift",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/sub",
     links: {},
     data: {
       metadata: {
-        title: "Left shift",
+        title: "sub: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The shl instructions, short for shift-left, are used for performing a bitwise left-shift, similar to the << operator in other languages.",
+        summary: "The sub instructions, short for subtraction, are used for subtracting one number from another number, similar to the - operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/left_shift",
+          folder: "en-us/webassembly/reference/numeric/sub",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Left shift",
+        short_title: "sub",
         status: []
       },
       flaws: {},
@@ -602542,46 +602397,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Count_trailing_zeros",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/sqrt",
     links: {},
     data: {
       metadata: {
-        title: "Count trailing zeros",
-        pageType: "webassembly-instruction",
-        summary: "The ctz instructions, short for count trailing zeros, are used to count the amount of zeros at the end of the numbers binary representation.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/count_trailing_zeros",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Count trailing zeros",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Square_root",
-    links: {},
-    data: {
-      metadata: {
-        title: "Square root",
+        title: "sqrt: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The sqrt instructions, short for square root, are used to get the square root of a number.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/square_root",
+          folder: "en-us/webassembly/reference/numeric/sqrt",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Square root",
+        short_title: "sqrt",
         status: []
       },
       flaws: {},
@@ -602594,20 +602423,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Division",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/shr",
     links: {},
     data: {
       metadata: {
-        title: "Division",
+        title: "shr: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The div instructions, short for division, are used for dividing one number by another, similar to the / operator in other languages.",
+        summary: "The shr instructions, short for shift-right, are used for performing a bitwise right-shift, similar to the >>> operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/division",
+          folder: "en-us/webassembly/reference/numeric/shr",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Division",
+        short_title: "shr",
         status: []
       },
       flaws: {},
@@ -602620,20 +602449,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Count_leading_zeros",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_float",
     links: {},
     data: {
       metadata: {
-        title: "Count leading zeros",
+        title: "trunc (to float): Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The clz instructions, short for count leading zeros, are used to count the amount of zeros at the start of the numbers binary representation.",
+        summary: "The trunc instructions, short for truncate, are used for getting the value of a number without its fractional part.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/count_leading_zeros",
+          folder: "en-us/webassembly/reference/numeric/trunc_float",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Count leading zeros",
+        short_title: "trunc (to float)",
         status: []
       },
       flaws: {},
@@ -602646,20 +602475,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Const",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/const",
     links: {},
     data: {
       metadata: {
-        title: "Const",
+        title: "const: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The const instructions, are used to declare numbers.",
+        summary: "The const instructions are used to declare numbers.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/const",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Const",
+        short_title: "const",
         status: []
       },
       flaws: {},
@@ -602672,20 +602501,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Absolute",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/abs",
     links: {},
     data: {
       metadata: {
-        title: "Absolute",
+        title: "abs: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The abs instructions, short for absolute, are used to get the absolute value of a number. That is, it returns x if x is positive, and the negation of x if x is negative.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/absolute",
+          folder: "en-us/webassembly/reference/numeric/abs",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Absolute",
+        short_title: "abs",
         status: []
       },
       flaws: {},
@@ -602698,20 +602527,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Remainder",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/popcnt",
     links: {},
     data: {
       metadata: {
-        title: "Remainder",
+        title: "popcnt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The rem instructions, short for remainder, are used to calculate the remainder left over when one integer is divided by another integer, similar to the % operator in other languages. The rem instructions are only available for the integer types and not for the floating point types.",
+        summary: "The popcnt instructions, short for population count, are used to count the amount of 1s in a numbers binary representation.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/remainder",
+          folder: "en-us/webassembly/reference/numeric/popcnt",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Remainder",
+        short_title: "popcnt",
         status: []
       },
       flaws: {},
@@ -602724,20 +602553,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_float",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ctz",
     links: {},
     data: {
       metadata: {
-        title: "Truncate (float to float)",
+        title: "ctz: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc instructions, short for truncate, are used for getting the value of a number without its fractional part.",
+        summary: "The ctz instructions, short for count trailing zeros, are used to count the amount of zeros at the end of the numbers binary representation.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/truncate_float_to_float",
+          folder: "en-us/webassembly/reference/numeric/ctz",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Truncate (float to float)",
+        short_title: "ctz",
         status: []
       },
       flaws: {},
@@ -602750,20 +602579,72 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Floor",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/gt",
     links: {},
     data: {
       metadata: {
-        title: "Floor",
+        title: "gt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The floor instructions, are used for getting the value of a number rounded down to the next integer.",
+        summary: "The gt instructions, short for greater than, check if a number is greater than another number. If the first number is greater than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/gt",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "gt",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/neg",
+    links: {},
+    data: {
+      metadata: {
+        title: "neg: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The neg instructions, short for negate, are used to negate a number. That is, turn a positive number into a negative number and a negative number into a positive number.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/neg",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "neg",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/floor",
+    links: {},
+    data: {
+      metadata: {
+        title: "floor: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The floor instructions are used for getting the value of a number rounded down to the next integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/floor",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Floor",
+        short_title: "floor",
         status: []
       },
       flaws: {},
@@ -602776,20 +602657,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Less_than",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/div",
     links: {},
     data: {
       metadata: {
-        title: "Less than",
+        title: "div: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The lt instructions, short for less than, check if a number is less than another number. If the first number is less than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The div instructions, short for division, are used for dividing one number by another, similar to the / operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/less_than",
+          folder: "en-us/webassembly/reference/numeric/div",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Less than",
+        short_title: "div",
         status: []
       },
       flaws: {},
@@ -602802,20 +602683,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Extend",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/extend",
     links: {},
     data: {
       metadata: {
-        title: "Extend",
+        title: "extend: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The extend instructions, are used to convert (extend) numbers of type i32 to type i64. There are signed and unsigned versions of this instruction.",
+        summary: "The extend instructions are used to convert (extend) numbers of type i32 to type i64. There are signed and unsigned versions of this instruction.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/extend",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Extend",
+        short_title: "extend",
         status: []
       },
       flaws: {},
@@ -602828,20 +602709,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Max",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/max",
     links: {},
     data: {
       metadata: {
-        title: "Max",
+        title: "max: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The max instructions, are used for getting the higher of two numbers.",
+        summary: "The max instructions are used for getting the higher of two numbers.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/max",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Max",
+        short_title: "max",
         status: []
       },
       flaws: {},
@@ -602854,20 +602735,46 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Min",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/mul",
     links: {},
     data: {
       metadata: {
-        title: "Min",
+        title: "mul: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The min instructions, are used for getting the lower of two numbers.",
+        summary: "The mul instructions, short for multiplication, are used for multiplying one number by another number, similar to the * operator in other languages.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/mul",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "mul",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/min",
+    links: {},
+    data: {
+      metadata: {
+        title: "min: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The min instructions are used for getting the lower of two numbers.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/min",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Min",
+        short_title: "min",
         status: []
       },
       flaws: {},
@@ -602880,20 +602787,46 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Promote",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ge",
     links: {},
     data: {
       metadata: {
-        title: "Promote",
+        title: "ge: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The promote instruction, is used to convert (promote) numbers of type f32 to type f64.",
+        summary: "The ge instructions, short for greater or equal, check if a number is greater than or equal to another number. If the first number is greater than or equal to the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/ge",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ge",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/promote",
+    links: {},
+    data: {
+      metadata: {
+        title: "promote: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The promote instruction is used to convert (promote) numbers of type f32 to type f64.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/promote",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Promote",
+        short_title: "promote",
         status: []
       },
       flaws: {},
@@ -602906,20 +602839,98 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/AND",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/rotl",
     links: {},
     data: {
       metadata: {
-        title: "AND",
+        title: "rotl: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The and instructions, are used for performing a bitwise AND, similar to the & operator in other languages.",
+        summary: "The rotl instructions, short for rotate-left, are used for performing a bitwise left-rotate.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/rotl",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rotl",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/copysign",
+    links: {},
+    data: {
+      metadata: {
+        title: "copysign: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The copysign instructions are used to copy just the sign bit from one number to another.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/copysign",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "copysign",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/lt",
+    links: {},
+    data: {
+      metadata: {
+        title: "lt: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The lt instructions, short for less than, check if a number is less than another number. If the first number is less than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/lt",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "lt",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/and",
+    links: {},
+    data: {
+      metadata: {
+        title: "and: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The and instructions are used for performing a bitwise AND, similar to the & operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/and",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "AND",
+        short_title: "and",
         status: []
       },
       flaws: {},
@@ -602932,11 +602943,63 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/XOR",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/clz",
     links: {},
     data: {
       metadata: {
-        title: "XOR",
+        title: "clz: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The clz instructions, short for count leading zeros, are used to count the amount of zeros at the start of the numbers binary representation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/clz",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "clz",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/add",
+    links: {},
+    data: {
+      metadata: {
+        title: "add: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The add instructions are used for adding up two numbers, similar to the + operator in other languages.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/add",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "add",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/xor",
+    links: {},
+    data: {
+      metadata: {
+        title: "xor: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The xor instructions, are used for performing a bitwise XOR, similar to the ^ operator in other languages.",
         popularity: null,
@@ -602945,7 +603008,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
           folder: "en-us/webassembly/reference/numeric/xor",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "XOR",
+        short_title: "xor",
         status: []
       },
       flaws: {},
@@ -602958,89 +603021,11 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_or_equal",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/wrap",
     links: {},
     data: {
       metadata: {
-        title: "Greater or equal",
-        pageType: "webassembly-instruction",
-        summary: "The ge instructions, short for greater or equal, check if a number is greater than or equal to another number. If the first number is greater than or equal to the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/greater_or_equal",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Greater or equal",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Addition",
-    links: {},
-    data: {
-      metadata: {
-        title: "Addition",
-        pageType: "webassembly-instruction",
-        summary: "The add instructions, are used for adding up two numbers, similar to the + operator in other languages.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/addition",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Addition",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Equal",
-    links: {},
-    data: {
-      metadata: {
-        title: "Equal",
-        pageType: "webassembly-instruction",
-        summary: "The eq instructions, short for equal, check if two numbers are equal. If both numbers are equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/equal",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Equal",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Wrap",
-    links: {},
-    data: {
-      metadata: {
-        title: "Wrap",
+        title: "wrap: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The wrap instruction, is used to convert numbers of type i64 to type i32. If the number is larger than what an i32 can hold this operation will wrap, resulting in a different number.",
         popularity: null,
@@ -603049,7 +603034,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
           folder: "en-us/webassembly/reference/numeric/wrap",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Wrap",
+        short_title: "wrap",
         status: []
       },
       flaws: {},
@@ -603064,20 +603049,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Demote",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/demote",
     links: {},
     data: {
       metadata: {
-        title: "Demote",
+        title: "demote: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The demote instruction, is used to convert (demote) numbers of type f64 to type f32.",
+        summary: "The demote instructions are used to convert (demote) numbers of type f64 to type f32.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/demote",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Demote",
+        short_title: "demote",
         status: []
       },
       flaws: {},
@@ -603090,20 +603075,46 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/OR",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/rotr",
     links: {},
     data: {
       metadata: {
-        title: "OR",
+        title: "rotr: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The or instructions, are used for performing a bitwise OR, similar to the | operator in other languages.",
+        summary: "The rotr instructions, short for rotate-right, are used for performing a bitwise right-rotate.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/rotr",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rotr",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/or",
+    links: {},
+    data: {
+      metadata: {
+        title: "or: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The or instructions are used for performing a bitwise OR, similar to the | operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/or",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "OR",
+        short_title: "or",
         status: []
       },
       flaws: {},
@@ -603116,46 +603127,46 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Convert",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/rem",
     links: {},
     data: {
       metadata: {
-        title: "Convert",
+        title: "rem: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The convert instructions, are used for converting integer numbers to floating point numbers. There are signed and unsigned versions of this instruction.",
+        summary: "The rem instructions, short for remainder, are used to calculate the remainder left over when one integer is divided by another integer, similar to the % operator in other languages. The rem instructions are only available for the integer types and not for the floating point types.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/rem",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rem",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/convert",
+    links: {},
+    data: {
+      metadata: {
+        title: "convert: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The convert instructions are used for converting integer numbers to floating point numbers. There are signed and unsigned versions of this instruction.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/numeric/convert",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Convert",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_int",
-    links: {},
-    data: {
-      metadata: {
-        title: "Truncate (float to int)",
-        pageType: "webassembly-instruction",
-        summary: "The trunc instructions, are used for converting floating points to integers. It's named truncate since it truncates the fractional part of the number when doing the conversion. There are signed and unsigned versions of this instruction.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/truncate_float_to_int",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Truncate (float to int)",
+        short_title: "convert",
         status: []
       },
       flaws: {},
@@ -603209,7 +603220,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "if...else",
+        title: "if...else: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The if statement executes a statement if the last item on the stack is true (non-zero). If the condition is false (0), another statement can be executed.",
         popularity: 0.00015948198177756284,
@@ -603231,20 +603242,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Control_flow/Select",
+    id: "/en-US/docs/WebAssembly/Reference/Control_flow/select",
     links: {},
     data: {
       metadata: {
-        title: "Select",
+        title: "select: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The select instruction, selects one of its first two operands based on whether its third operand is zero or not. It shares some similarities with the ternary operator in other languages (e.g., false ? 10 : 20), but doesn't short-circuit. The instruction may be followed by an immediate value type: select (result T). select (result T) uses a different binary opcode, and allows types besides those introduced by the WebAssembly MVP (i32, i64, f32, f64), for example, it allows selection between two externref values.",
-        popularity: 0.00011150772709650734,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/control_flow/select",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Select",
+        short_title: "select",
         status: []
       },
       flaws: {},
@@ -603263,7 +603274,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "block",
+        title: "block: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The block statement creates a label that can later be branched out of with a br.",
         popularity: 0.00012641864409197054,
@@ -603289,7 +603300,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "unreachable",
+        title: "unreachable: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "unreachable is used to denote a point in code that should not be reachable. unreachable is an unconditional trap: in the case where an unreachable is reached and executed, the instruction traps.",
         popularity: null,
@@ -603315,7 +603326,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "return",
+        title: "return: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "return returns from a function.",
         popularity: null,
@@ -603341,7 +603352,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "br_table",
+        title: "br_table: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The br_table statement branches to different loop, block, or if statements, based on an argument.",
         popularity: null,
@@ -603367,7 +603378,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "end",
+        title: "end: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "end is used to end a block, loop, if, or else. In the other examples we used the s-expression syntax which doesn't require the end, so you won't find it in the other examples here. However, it's still useful to know about since this is what the browsers display in devtools.",
         popularity: null,
@@ -603393,7 +603404,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "nop",
+        title: "nop: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "nop stands for no-operation. It literally does nothing.",
         popularity: null,
@@ -603419,7 +603430,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "br",
+        title: "br: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The br statement branches to a loop, a block, or an if statement.",
         popularity: 0.00009141040418957868,
@@ -603445,7 +603456,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "loop",
+        title: "loop: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The loop statement creates a label that can later be branched to with a br. The loop instruction doesn't loop by itself; you need to branch to it to actually create a loop.",
         popularity: 0.00015299897438823102,
@@ -603471,7 +603482,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "call",
+        title: "call: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "call calls a function, return_call being the tail-call version of it. call_indirect calls a function in a table with the return_call_indirect tail-call version as well.",
         popularity: 0.0001354948544370351,
@@ -603503,7 +603514,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     links: {},
     data: {
       metadata: {
-        title: "br_if",
+        title: "br_if: Wasm text instruction",
         pageType: "webassembly-instruction",
         summary: "The br_if statement branches to a loop, a block, or an if statement, based on a boolean (0 or 1) condition.",
         popularity: 0.0000953002086231778,
@@ -603525,20 +603536,20 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Control_flow/Drop",
+    id: "/en-US/docs/WebAssembly/Reference/Control_flow/drop",
     links: {},
     data: {
       metadata: {
-        title: "Drop",
+        title: "drop: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The drop instruction, pops a value from the stack, and discards it.",
+        summary: "The drop instruction pops a value from the stack, and discards it.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/control_flow/drop",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Drop",
+        short_title: "drop",
         status: []
       },
       flaws: {},
@@ -603581,7 +603592,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Grow",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/grow",
     links: {},
     data: {
       metadata: {
@@ -603592,7 +603603,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
           "webassembly.multiMemory"
         ],
         summary: "The grow memory instruction increases the size of the memory instance by a specified number of pages.",
-        popularity: 0.00009141040418957868,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/memory/grow",
@@ -603625,7 +603636,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Load",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/load",
     links: {},
     data: {
       metadata: {
@@ -603636,7 +603647,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
           "webassembly.multiMemory"
         ],
         summary: "The load memory instructions are used to load a number from a memory onto the stack.",
-        popularity: 0.00014521936552103283,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/memory/load",
@@ -603669,7 +603680,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Store",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/store",
     links: {},
     data: {
       metadata: {
@@ -603680,7 +603691,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
           "webassembly.multiMemory"
         ],
         summary: "The store memory instructions, are used to store a number on the stack in a memory.",
-        popularity: 0.00016272348547222875,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/webassembly/reference/memory/store",
@@ -603710,7 +603721,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Fill",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/fill",
     links: {},
     data: {
       metadata: {
@@ -603750,7 +603761,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Size",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/size",
     links: {},
     data: {
       metadata: {
@@ -603794,7 +603805,7 @@ compile and instantiate WebAssembly code. This function has two overloads:`,
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Memory/Copy",
+    id: "/en-US/docs/WebAssembly/Reference/Memory/copy",
     links: {},
     data: {
       metadata: {
