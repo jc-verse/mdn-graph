@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-y58ejwt9.js";
+} from "./chunk-cbjx19zr.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -13,24 +13,10 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Introduction",
               messages: [
                 {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/opengles/",
-                    "The operation timed out."
-                  ]
-                },
-                {
                   message: "HTTP link",
                   data: [
                     "http://asmjs.org/spec/latest/",
                     ""
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/opengles/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -52,17 +38,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.khronos.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 control_mechanisms: {
                   children: {
@@ -109,24 +85,10 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Tools",
               messages: [
                 {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/opengles/",
-                    "The operation timed out."
-                  ]
-                },
-                {
                   message: "HTTP link",
                   data: [
                     "http://asmjs.org/spec/latest/",
                     ""
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/opengles/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -243,14 +205,7 @@ var warnings_processed_default = {
                 }
               }
             }
-          },
-          slug: "/en-US/docs/Games",
-          messages: [
-            {
-              message: "Unreachable via sidebar",
-              data: []
-            }
-          ]
+          }
         },
         glossary: {
           children: {
@@ -271,19 +226,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            brotli_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Brotli_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://rosettacode.org/wiki/Huffman_coding",
-                    502
-                  ]
                 }
               ]
             },
@@ -374,26 +316,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
                 }
               ]
             },
@@ -984,13 +906,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1235,19 +1150,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            "robots.txt": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Robots.txt",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
-                    "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec"
-                  ]
-                }
-              ]
-            },
             router: {
               children: {},
               slug: "/en-US/docs/Glossary/Router",
@@ -1358,19 +1260,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1458,19 +1347,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            webgl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/WebGL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.khronos.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1585,13 +1461,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2333,13 +2202,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2350,6 +2212,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2360,13 +2229,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2397,21 +2259,28 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://testing-library.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
                     },
-                    react_components: {
+                    react_resources: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
+                            "https://testing-library.com/docs/react-testing-library/intro/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -4411,20 +4280,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -4498,19 +4353,6 @@ body {
                           data: [
                             "https://www.iconfinder.com/nazarr",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5291,19 +5133,6 @@ span {
                         }
                       ]
                     },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5803,64 +5632,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11422,47 +11193,6 @@ textarea:focus {
                     }
                   }
                 },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -12005,47 +11735,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                web_standards: {
-                  children: {
-                    the_web_standards_model: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12376,6 +12065,19 @@ padding-left: 20px;
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12420,20 +12122,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -13345,16 +13033,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        content_scripts: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -14318,19 +13996,6 @@ body {
                               ]
                             }
                           ]
-                        },
-                        basic_usage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.khronos.org/opengles/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -15230,23 +14895,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlcanvaselement: {
-                  children: {
-                    getcontext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/getContext",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlimageelement: {
                   children: {
                     crossorigin: {
@@ -15286,57 +14934,6 @@ output {
   font-family: "Courier New", monospace;
   width: 95%;
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlscriptelement: {
-                  children: {
-                    src: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLScriptElement/src",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '/*' in comment.",
-                            "  /*Some list of allowed URLs */",
-                            "2:3 - 2:33",
-                            `/en-US/docs/Web/API/HTMLScriptElement/src
-[spaced-comment] Expected space or tab after '/*' in comment.
-~~~
-const scriptAllowList = [
-  /*Some list of allowed URLs */
-];
-const policy = trustedTypes.createPolicy("script-url-policy", {
-  createScriptURL(input) {
-    if (scriptAllowList.includes(input)) {
-      return input; // allow the script
-    }
-    console.log(\`Script not in scriptAllowList: \${input}\`);
-    return ""; // Block the script
-  },
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "script-type",
-                            '"type" attribute is unnecessary for javascript resources',
-                            "type",
-                            "1:17",
-                            `/en-US/docs/Web/API/HTMLScriptElement/src
-[script-type] "type" attribute is unnecessary for javascript resources
-~~~
-<script id="el" type="text/javascript"></script>
 ~~~
 `
                           ]
@@ -16340,23 +15937,6 @@ aside {
                     }
                   }
                 },
-                offscreencanvas: {
-                  children: {
-                    getcontext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/OffscreenCanvas/getContext",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -17144,37 +16724,6 @@ html {
                       slug: "/en-US/docs/Web/API/Viewport_segments_API/Using",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (vertical-viewport-segments: 2) {",
-                            "11:8 - 11:39",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* Segments are laid out horizontally. */
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: row;
-  }
-
-  /* ... */
-}
-
-/* Segments are laid out vertically. */
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: column;
-  }
-
-  /* ... */
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "CssSyntaxError",
@@ -17192,85 +16741,6 @@ env(viewport-segment-width 1 0)
 
 /* Return the width of the bottom segment */
 env(viewport-segment-width 0 1)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (vertical-viewport-segments: 2) {",
-                            "15:8 - 15:39",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template: "left fold right";
-    grid-column: env(viewport-segment-width 0 0) env(viewport-segment-width 1 0);
-  }
-  .firstSection {
-    grid-area: left;
-  }
-  .secondSection {
-    grid-area: right;
-  }
-}
-
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template:
-      "top"
-      "bottom";
-    grid-row: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
-  }
-  .firstSection {
-    grid-area: top;
-  }
-  .secondSection {
-    grid-area: bottom;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (vertical-viewport-segments: 2) {",
-                            "13:8 - 13:39",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    grid-template: "left fold right";
-    grid-column: env(viewport-segment-width 0 0)
-      calc(
-        100vw -
-          (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))
-      )
-      env(viewport-segment-width 1 0);
-  }
-}
-
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    grid-template:
-      "top"
-      "fold"
-      "bottom";
-    grid-row: env(viewport-segment-height 0 1) 1fr
-      env(viewport-segment-width 0 0);
-  }
-}
 ~~~
 `
                           ]
@@ -17552,54 +17022,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgl_api: {
-                  children: {
-                    tutorial: {
-                      children: {
-                        getting_started_with_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.khronos.org/opengles/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/API/WebGL_API/Tutorial",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/webgl/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khronos.org/opengles/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/WebGL_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.khronos.org/webgl/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -17670,6 +17092,19 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/blog/websocket-part2",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -17991,12 +17426,128 @@ api.Window.sessionStorage`,
               children: {
                 guides: {
                   children: {
+                    anchor_positioning: {
+                      children: {
+                        try_options_hiding: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    animations: {
+                      children: {
+                        animatable_properties: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Animations/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Animations",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
                     backgrounds_and_borders: {
                       children: {
+                        "border-image_generator": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-radius_generator": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-shadow_generator": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        resizing_background_images: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Resizing_background_images",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        scaling_svg_backgrounds: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Scaling_SVG_backgrounds",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         using_multiple_backgrounds: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -18025,14 +17576,55 @@ api.Window.sessionStorage`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    basic_user_interface: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Basic_user_interface",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    borders_and_box_decorations: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     box_alignment: {
                       children: {
+                        in_block_abspos_tables: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/In_block_abspos_tables",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         in_flexbox: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -18070,8 +17662,189 @@ body {
                               ]
                             }
                           ]
+                        },
+                        in_grid_layout: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/In_grid_layout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "in_multi-column_layout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/In_multi-column_layout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        overview: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/Overview",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Box_alignment",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    box_model: {
+                      children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_model/Introduction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        margin_collapsing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Box_model",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    box_sizing: {
+                      children: {
+                        aspect_ratios: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_sizing/Aspect_ratios",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Box_sizing",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    cascade: {
+                      children: {
+                        inheritance: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Inheritance",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        property_value_processing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        shorthand_properties: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        specificity: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Specificity",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Cascade",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    cascading_variables: {
+                      children: {
+                        using_custom_properties: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Cascading_variables",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    color_adjustment: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Color_adjustment",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     colors: {
                       children: {
@@ -18079,6 +17852,10 @@ body {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -18173,10 +17950,34 @@ div {
                             }
                           ]
                         },
+                        color_format_converter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        color_mixer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         color_values: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Colors/Color_values",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -19617,10 +19418,24 @@ div {
                             }
                           ]
                         },
+                        using_color_wisely: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         using_relative_colors: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -19787,7 +19602,138 @@ rgb(from red r g b / alpha)
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Colors",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    compositing_and_blending: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Compositing_and_blending",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    conditional_rules: {
+                      children: {
+                        "container_scroll-state_queries": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using_feature_queries: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Conditional_rules",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    containment: {
+                      children: {
+                        container_queries: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        container_size_and_style_queries: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Containment/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Containment",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    counter_styles: {
+                      children: {
+                        using_counters: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Counter_styles/Using_counters",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Counter_styles",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    cssom_view: {
+                      children: {
+                        viewport_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/CSSOM_view",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     custom_functions_and_mixins: {
                       children: {
@@ -19796,7 +19742,7 @@ rgb(from red r g b / alpha)
                           slug: "/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -20027,14 +19973,45 @@ p {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    custom_highlight_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Custom_highlight_API",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     display: {
                       children: {
+                        block_and_inline_layout: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         block_formatting_context: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -20113,8 +20090,105 @@ section {
                               ]
                             }
                           ]
+                        },
+                        containing_block: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Containing_block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        flow_layout: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Flow_layout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        flow_layout_and_overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_overflow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        flow_layout_and_writing_modes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        formatting_contexts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Formatting_contexts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        in_flow_and_out_of_flow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/In_flow_and_out_of_flow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "multi-keyword_syntax": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Multi-keyword_syntax",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        visual_formatting_model: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Visual_formatting_model",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Display",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    easing_functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Easing_functions",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     environment_variables: {
                       children: {
@@ -20123,7 +20197,7 @@ section {
                           slug: "/en-US/docs/Web/CSS/Guides/Environment_variables/Using",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -20144,7 +20218,14 @@ env( <environment-variable-name>, <fallback-value> )
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Environment_variables",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     filter_effects: {
                       children: {
@@ -20152,6 +20233,10 @@ env( <environment-variable-name>, <fallback-value> )
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Filter_effects/Using",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -20188,7 +20273,14 @@ p {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Filter_effects",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     flexible_box_layout: {
                       children: {
@@ -20196,6 +20288,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -20265,10 +20361,34 @@ p {
                             }
                           ]
                         },
+                        basic_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        controlling_flex_item_ratios: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         ordering_items: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Ordering_items",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -20308,10 +20428,34 @@ p {
                             }
                           ]
                         },
+                        relationship_with_other_layout_methods: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        use_cases: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Use_cases",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         wrapping_items: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Wrapping_items",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -20368,14 +20512,55 @@ p {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    font_loading: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Font_loading",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     fonts: {
                       children: {
+                        opentype_fonts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Fonts/OpenType_fonts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        variable_fonts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         woff: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Fonts/WOFF",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -20388,14 +20573,65 @@ css.at-rules.font-face.WOFF_2`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Fonts",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    fragmentation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Fragmentation",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    generated_content: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Generated_content",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     grid_layout: {
                       children: {
+                        accessibility: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "auto-placement": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         basic_concepts: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -21319,6 +21555,10 @@ css.at-rules.font-face.WOFF_2`,
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -21721,10 +21961,34 @@ css.at-rules.font-face.WOFF_2`,
                             }
                           ]
                         },
+                        common_grid_layouts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Common_grid_layouts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        grid_template_areas: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Grid_template_areas",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "line-based_placement": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -23831,6 +24095,10 @@ css.at-rules.font-face.WOFF_2`,
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -23893,6 +24161,10 @@ css.at-rules.font-face.WOFF_2`,
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -24086,6 +24358,10 @@ css.properties.grid-template-rows.masonry`,
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -24339,6 +24615,10 @@ css.properties.grid-template-rows.masonry`,
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -24855,6 +25135,10 @@ css.properties.grid-template-rows.masonry`,
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Subgrid",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -24868,6 +25152,10 @@ css.properties.grid-template-rows.masonry`,
                       },
                       slug: "/en-US/docs/Web/CSS/Guides/Grid_layout",
                       messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -24930,10 +25218,34 @@ css.properties.grid-template-rows.masonry`,
                     },
                     images: {
                       children: {
+                        implementing_image_sprites: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        replaced_element_properties: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Images/Replaced_element_properties",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         using_gradients: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Images/Using_gradients",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -28813,17 +29125,27 @@ div {
 ~~~
 `
                               ]
-                            },
+                            }
+                          ]
+                        },
+                        "using_object-view-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Images/Using_object-view-box",
+                          messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://gradient.style/",
-                                "The operation timed out."
-                              ]
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Images",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     inline_layout: {
                       children: {
@@ -28831,6 +29153,10 @@ div {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -28907,7 +29233,14 @@ span {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Inline_layout",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     lists: {
                       children: {
@@ -28915,6 +29248,10 @@ span {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Lists/Indenting",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -28986,14 +29323,45 @@ ul {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Lists",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     logical_properties_and_values: {
                       children: {
+                        basic_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Basic_concepts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        floating_and_positioning: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Floating_and_positioning",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         margins_borders_padding: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -29411,15 +29779,56 @@ body {
                               ]
                             }
                           ]
+                        },
+                        sizing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Sizing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     masking: {
                       children: {
+                        clipping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Masking/Clipping",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Masking/Introduction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         mask_properties: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Masking/Mask_properties",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -29447,15 +29856,46 @@ body {
                               ]
                             }
                           ]
+                        },
+                        multiple_masks: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Masking/Multiple_masks",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Masking",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     media_queries: {
                       children: {
+                        printing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Printing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         testing: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Testing",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -29466,8 +29906,45 @@ body {
                               ]
                             }
                           ]
+                        },
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using_for_accessibility: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Media_queries",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    motion_path: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Motion_path",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     multicol_layout: {
                       children: {
@@ -29475,6 +29952,10 @@ body {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -29499,10 +29980,44 @@ body {
                             }
                           ]
                         },
+                        handling_content_breaks: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_content_breaks",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        handling_overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Handling_overflow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        spanning_balancing_columns: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Spanning_balancing_columns",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         styling_columns: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Styling_columns",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -29528,10 +30043,24 @@ body {
                               ]
                             }
                           ]
+                        },
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout",
                       messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -29618,25 +30147,45 @@ blockquote p::after {
                         }
                       ]
                     },
+                    namespaces: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Namespaces",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
                     nesting: {
                       children: {
+                        "at-rules": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/At-rules",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        nesting_and_specificity: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Nesting_and_specificity",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         using: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -29644,11 +30193,8 @@ blockquote p::after {
                       slug: "/en-US/docs/Web/CSS/Guides/Nesting",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
+                          message: "Missing sidebar",
+                          data: []
                         }
                       ]
                     },
@@ -29658,6 +30204,10 @@ blockquote p::after {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Overflow/Carousels",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -31188,6 +31738,10 @@ ul::column::scroll-marker:target-current {
                       slug: "/en-US/docs/Web/CSS/Guides/Overflow",
                       messages: [
                         {
+                          message: "Missing sidebar",
+                          data: []
+                        },
+                        {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
@@ -31286,6 +31840,118 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         }
                       ]
                     },
+                    overscroll_behavior: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Overscroll_behavior",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    paged_media: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Paged_media",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    positioned_layout: {
+                      children: {
+                        stacking_context: {
+                          children: {
+                            example_1: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_1",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            example_2: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_2",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            example_3: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context/Example_3",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        stacking_floating_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_floating_elements",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stacking_without_z-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_without_z-index",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "understanding_z-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Understanding_z-index",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "using_z-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout/Using_z-index",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Positioned_layout",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
                     properties_and_values_api: {
                       children: {
                         houdini: {
@@ -31293,12 +31959,59 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                           slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Houdini",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    "pseudo-elements": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Pseudo-elements",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    round_display: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Round_display",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    ruby_layout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Ruby_layout",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    scoping: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Scoping",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     scroll_anchoring: {
                       children: {
@@ -31306,6 +32019,10 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Scroll_anchoring/Overview",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -31317,7 +32034,14 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Scroll_anchoring",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     scroll_snap: {
                       children: {
@@ -31326,17 +32050,28 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                           slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://12daysofweb.dev/2022/css-scroll-snap/",
-                                "The operation timed out."
-                              ]
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using_scroll_snap_events: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap/Using_scroll_snap_events",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         }
                       },
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap",
                       messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -31428,13 +32163,6 @@ article.snapDisabled ul {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://12daysofweb.dev/2022/css-scroll-snap/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -31445,7 +32173,7 @@ article.snapDisabled ul {
                           slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -31453,6 +32181,10 @@ article.snapDisabled ul {
                       },
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
                       messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -31551,12 +32283,261 @@ div::after {
                         }
                       ]
                     },
+                    scrollbars_styling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Scrollbars_styling",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    selectors: {
+                      children: {
+                        privacy_and__colon_visited: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Selectors/Privacy_and_:visited",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        selector_structure: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Selectors/Selector_structure",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        selectors_and_combinators: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Selectors/Selectors_and_combinators",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using__colon_target: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Selectors/Using_:target",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Selectors",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    shadow_parts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Shadow_parts",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    shapes: {
+                      children: {
+                        from_box_values: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/From_box_values",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        from_images: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/From_images",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        overview: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/Overview",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        shape_generator: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "using_shape-outside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Shapes",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    syntax: {
+                      children: {
+                        "at-rules": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Syntax/At-rules",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        comments: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Syntax/Comments",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        error_handling: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Syntax/Error_handling",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Syntax/Introduction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Syntax",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    table: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Table",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    text: {
+                      children: {
+                        whitespace: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Text/Whitespace",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        wrapping_breaking_text: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Text",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    text_decoration: {
+                      children: {
+                        text_shadows: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Text_decoration",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
                     transforms: {
                       children: {
                         using: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Transforms/Using",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -32649,14 +33630,76 @@ section {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Transforms",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    transitions: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Transitions/Using",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Transitions",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     values_and_units: {
                       children: {
+                        numeric_data_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        textual_data_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Textual_data_types",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        using_math_functions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Using_math_functions",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         using_typed_arithmetic: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -32811,8 +33854,45 @@ p {
                               ]
                             }
                           ]
+                        },
+                        value_definition_syntax: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Values_and_units",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    view_transitions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/View_transitions",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    viewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Viewport",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     writing_modes: {
                       children: {
@@ -32820,6 +33900,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Writing_modes/Vertical_controls",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -32839,8 +33923,25 @@ input[type="range"] {
                               ]
                             }
                           ]
+                        },
+                        writing_mode_systems: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Writing_modes",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/Guides",
@@ -32850,6 +33951,10 @@ input[type="range"] {
                       data: [
                         "#related_concepts"
                       ]
+                    },
+                    {
+                      message: "Missing sidebar",
+                      data: []
                     }
                   ]
                 },
@@ -32857,10 +33962,95 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
+                        breadcrumb_navigation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        card: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        center_an_element: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        column_layouts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        contribute_a_recipe: {
+                          children: {
+                            cookbook_template: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe/Cookbook_template",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        grid_wrapper: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        list_group_with_badges: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/List_group_with_badges",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -32919,12 +34109,53 @@ p {
                               ]
                             }
                           ]
+                        },
+                        pagination: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Pagination",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        split_navigation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Split_navigation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        sticky_footers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Sticky_footers",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/How_to",
                   messages: [
+                    {
+                      message: "Missing sidebar",
+                      data: []
+                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -32935,10 +34166,24 @@ p {
                   children: {
                     "at-rules": {
                       children: {
+                        "@charset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@charset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "@color-profile": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@color-profile",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -32967,6 +34212,16 @@ p {
                             }
                           ]
                         },
+                        "@container": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@container",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "@counter-style": {
                           children: {
                             "additive-symbols": {
@@ -32974,7 +34229,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/additive-symbols",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -32984,7 +34239,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/fallback",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -32994,7 +34249,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/negative",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33004,7 +34259,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/pad",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33014,7 +34269,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/prefix",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33024,7 +34279,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/range",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33034,7 +34289,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/speak-as",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33044,7 +34299,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/suffix",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33054,7 +34309,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/symbols",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33064,12 +34319,29 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/system",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@document": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@document",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@font-face": {
                           children: {
@@ -33078,7 +34350,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/ascent-override",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33088,7 +34360,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/descent-override",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33098,7 +34370,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-display",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33108,7 +34380,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-family",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33118,7 +34390,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-feature-settings",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33128,7 +34400,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33138,7 +34410,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-style",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33148,7 +34420,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-variation-settings",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33158,7 +34430,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33168,7 +34440,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/line-gap-override",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33178,7 +34450,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/size-adjust",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33188,7 +34460,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33198,12 +34470,19 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@font-feature-values": {
                           children: {
@@ -33212,7 +34491,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values/font-display",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -33223,7 +34502,14 @@ p {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@font-palette-values": {
                           children: {
@@ -33232,7 +34518,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/base-palette",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33242,7 +34528,7 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/font-family",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33252,17 +34538,28 @@ p {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/override-colors",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@function": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@function",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -33360,7 +34657,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@import/layer_function",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33369,20 +34666,28 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@import",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "import-notation",
-                                'Expected "url("chrome://communicator/skin/communicator.css")" to be ""chrome://communicator/skin/communicator.css"" (import-notation)',
-                                '@import url("chrome://communicator/skin/communicator.css");',
-                                "2:9 - 2:59",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@import
-[import-notation] Expected "url("chrome://communicator/skin/communicator.css")" to be ""chrome://communicator/skin/communicator.css"" (import-notation)
-~~~
-@import "custom.css";
-@import url("chrome://communicator/skin/communicator.css");
-~~~
-`
-                              ]
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@keyframes": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@keyframes",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@layer": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@layer",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -33393,7 +34698,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33403,7 +34708,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-animation",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33413,7 +34718,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33423,7 +34728,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-2d",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33433,7 +34738,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-3d",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33443,7 +34748,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transition",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33453,7 +34758,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/any-hover",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33463,7 +34768,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/any-pointer",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33473,7 +34778,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33483,7 +34788,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33493,7 +34798,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color-gamut",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33503,7 +34808,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color-index",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33513,7 +34818,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33523,7 +34828,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-height",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33533,7 +34838,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-posture",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33543,7 +34848,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-width",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33553,7 +34858,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/display-mode",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33563,7 +34868,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/dynamic-range",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33573,7 +34878,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33583,7 +34888,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/grid",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33593,7 +34898,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/height",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33603,7 +34908,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/horizontal-viewport-segments",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33613,7 +34918,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/hover",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33623,7 +34928,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/inverted-colors",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33633,7 +34938,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/monochrome",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33643,7 +34948,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/orientation",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33653,7 +34958,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/overflow-block",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33663,7 +34968,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/overflow-inline",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33673,7 +34978,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33683,7 +34988,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33693,7 +34998,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33703,7 +35008,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33713,7 +35018,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33723,7 +35028,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-transparency",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33733,7 +35038,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/resolution",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33743,7 +35048,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scan",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -33762,7 +35067,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scripting",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33772,7 +35077,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/shape",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -33788,7 +35093,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/update",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33798,7 +35103,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/vertical-viewport-segments",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33808,7 +35113,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/video-dynamic-range",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33818,12 +35123,29 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/width",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@namespace": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@namespace",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@page": {
                           children: {
@@ -33832,7 +35154,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page/page-orientation",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33842,12 +35164,29 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page/size",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@position-try": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@position-try",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@property": {
                           children: {
@@ -33856,7 +35195,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/inherits",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33866,7 +35205,7 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/initial-value",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -33876,17 +35215,38 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/syntax",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@scope": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "@starting-style": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@starting-style",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -33959,30 +35319,117 @@ so specify a standalone starting-style block. */
                             }
                           ]
                         },
+                        "@supports": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@supports",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "@view-transition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@view-transition",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "at-rule_functions": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/At-rule_functions",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/At-rules",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     mozilla_extensions: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/Reference/Mozilla_extensions",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
+                          message: "Missing sidebar",
                           data: []
                         }
                       ]
                     },
                     properties: {
                       children: {
+                        "--_star_": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/--*",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-moz-float-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-float-edge",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-moz-force-broken-image-icon": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-moz-orient": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-orient",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-moz-user-focus": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-focus",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-moz-user-input": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-input",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "-webkit-border-before": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-border-before",
@@ -34028,6 +35475,190 @@ so specify a standalone starting-style block. */
                               data: [
                                 "/en-US/docs/Web/CSS/-webkit-border-before-width"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-box-reflect": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-box-reflect",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-box-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-box-image",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-composite": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-composite",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-position-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-position-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-repeat-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-mask-repeat-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-tap-highlight-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-tap-highlight-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-text-fill-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-text-security": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-security",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "-webkit-touch-callout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-touch-callout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "accent-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/accent-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "align-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "align-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-items",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "align-self": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-self",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -34035,6 +35666,10 @@ so specify a standalone starting-style block. */
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -34079,6 +35714,146 @@ text:nth-of-type(8) {
                             }
                           ]
                         },
+                        all: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/all",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "anchor-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/anchor-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        animation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-composition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-composition",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-delay": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-delay",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-direction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-duration": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-duration",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-fill-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-fill-mode",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-iteration-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-iteration-count",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-play-state": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-play-state",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-range": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-range-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-range-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "animation-timeline": {
                           children: {
                             scroll: {
@@ -34086,7 +35861,7 @@ text:nth-of-type(8) {
                               slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/scroll",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -34096,17 +35871,58 @@ text:nth-of-type(8) {
                               slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/view",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "animation-timing-function": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        appearance: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/appearance",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "aspect-ratio": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "backdrop-filter": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34158,6 +35974,10 @@ body {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/backface-visibility",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34635,10 +36455,44 @@ td {
                             }
                           ]
                         },
+                        background: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-attachment": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-attachment",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-blend-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-blend-mode",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "background-clip": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/background-clip",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34684,10 +36538,34 @@ p {
                             }
                           ]
                         },
+                        "background-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-image",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "background-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/background-origin",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34783,10 +36661,524 @@ p {
                             }
                           ]
                         },
+                        "background-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-position-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-position-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-repeat",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "background-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/block-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        border: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-end-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-end-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-end-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-start-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-start-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-start-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-block-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom-left-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom-right-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-bottom-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-collapse": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-collapse",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-end-end-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-end-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-end-start-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-start-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image-outset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-outset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image-slice": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-slice",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-source",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-image-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-end-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-end-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-end-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-start-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-start-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-start-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-inline-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-left-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-left-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-left-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "border-radius": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -34828,10 +37220,164 @@ div {
                             }
                           ]
                         },
+                        "border-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-right-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-right-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-right-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-spacing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-start-end-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-end-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-start-start-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-start-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top-left-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top-right-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-top-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "border-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         bottom: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/bottom",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34871,10 +37417,104 @@ div {
                             }
                           ]
                         },
+                        "box-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-align",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-decoration-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-decoration-break",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-direction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-flex": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-flex-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex-group",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-lines": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-lines",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-ordinal-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-ordinal-group",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-orient": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-orient",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-pack": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-pack",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "box-shadow": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -34919,10 +37559,64 @@ blockquote {
                             }
                           ]
                         },
+                        "box-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-sizing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "caption-side": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caption-side",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         caret: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/caret",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -34940,6 +37634,70 @@ blockquote {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "caret-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "caret-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-shape",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        clear: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clear",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        clip: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "clip-path": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "clip-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-rule",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -34947,6 +37705,10 @@ blockquote {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/color",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35110,6 +37872,246 @@ p {
                             }
                           ]
                         },
+                        "color-interpolation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "color-interpolation-filters": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation-filters",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "color-scheme": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-scheme",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-count",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-fill": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-fill",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-gap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-gap",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-rule-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-rule-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-rule-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-span": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-span",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "column-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        columns: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        contain: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-block-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-height",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-inline-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        container: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "container-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "container-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        content: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "content-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content-visibility",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "corner-block-end-shape": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-block-end-shape",
@@ -35119,6 +38121,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35131,6 +38137,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35143,6 +38153,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35155,6 +38169,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35167,6 +38185,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35179,6 +38201,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35191,6 +38217,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35203,6 +38233,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35215,6 +38249,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35227,6 +38265,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35239,6 +38281,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35251,6 +38297,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35263,6 +38313,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35275,6 +38329,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35287,6 +38345,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35299,6 +38361,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35311,6 +38377,10 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35318,6 +38388,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-increment",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35357,6 +38431,96 @@ i {
                             }
                           ]
                         },
+                        "counter-reset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-reset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "counter-set": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-set",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        cursor: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cursor",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        cx: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cx",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        cy: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cy",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        d: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/d",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        direction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/direction",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        display: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "dominant-baseline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/dominant-baseline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "dynamic-range-limit": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/dynamic-range-limit",
@@ -35366,6 +38530,30 @@ i {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "empty-cells": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/empty-cells",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "field-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/field-sizing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35373,6 +38561,10 @@ i {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/fill",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35431,6 +38623,10 @@ polygon {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/fill-opacity",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35586,10 +38782,34 @@ ellipse {
                             }
                           ]
                         },
+                        "fill-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/fill-rule",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        filter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/filter",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         flex: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35635,6 +38855,10 @@ ellipse {
                               data: []
                             },
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -35672,6 +38896,20 @@ ellipse {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "flex-flow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-flow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35679,6 +38917,10 @@ ellipse {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-grow",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35821,6 +39063,10 @@ div > div {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-shrink",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -35858,6 +39104,10 @@ div > div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35868,6 +39118,20 @@ div > div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "flood-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flood-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35875,6 +39139,10 @@ div > div {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flood-opacity",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -35921,6 +39189,10 @@ rect {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35930,6 +39202,20 @@ rect {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-feature-settings": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -35941,6 +39227,30 @@ rect {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-language-override": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-language-override",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-optical-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-optical-sizing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -35951,7 +39261,7 @@ rect {
                               slug: "/en-US/docs/Web/CSS/Reference/Properties/font-palette/palette-mix",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -36000,18 +39310,52 @@ p {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-palette",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-size-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size-adjust",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "font-smooth": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/font-smooth",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.zachleat.com/web/font-smooth/",
-                                "The operation timed out."
-                              ]
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-stretch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-stretch",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -36021,6 +39365,180 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-synthesis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-synthesis-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-synthesis-small-caps": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-synthesis-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-synthesis-weight": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-alternates": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-alternates",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-caps": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-caps",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-east-asian": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-east-asian",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-emoji": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-emoji",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-ligatures": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-numeric": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variant-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-variation-settings": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "font-weight": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-weight",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "forced-color-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/forced-color-adjust",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        gap: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/gap",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -36032,6 +39550,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -36041,6 +39563,10 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -36088,6 +39614,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -36097,6 +39627,10 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -36108,6 +39642,20 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "grid-column": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -36115,6 +39663,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column-end",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -36350,6 +39902,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column-start",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -36579,10 +40135,24 @@ p {
                             }
                           ]
                         },
+                        "grid-row": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "grid-row-end": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row-end",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -36818,6 +40388,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row-start",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37047,12 +40621,26 @@ p {
                             }
                           ]
                         },
+                        "grid-template": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "grid-template-areas": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -37102,12 +40690,66 @@ p {
                             }
                           ]
                         },
+                        "grid-template-columns": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "grid-template-rows": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-rows",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "hanging-punctuation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hanging-punctuation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         height: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/height",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "hyphenate-character": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-character",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "hyphenate-limit-chars": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37119,6 +40761,20 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "image-orientation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-orientation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37129,6 +40785,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37137,10 +40797,34 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/image-resolution",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.properties.image-resolution"
                               ]
+                            }
+                          ]
+                        },
+                        "initial-letter": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/initial-letter",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inline-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37150,6 +40834,70 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "inset-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37163,6 +40911,20 @@ p {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "interpolate-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interpolate-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37172,6 +40934,20 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "justify-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37183,6 +40959,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37193,6 +40973,70 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        left: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/left",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "letter-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "lighting-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/lighting-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "line-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-break",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "line-clamp": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-clamp",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "line-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37200,6 +41044,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height-step",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -37215,6 +41063,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37224,6 +41076,20 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "list-style-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37235,6 +41101,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37242,6 +41112,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37283,6 +41157,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37326,6 +41204,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block-end",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37367,6 +41249,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block-start",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37414,6 +41300,10 @@ p {
                               data: []
                             },
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37454,6 +41344,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37496,6 +41390,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline-end",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37536,6 +41434,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline-start",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37582,6 +41484,10 @@ p {
                               data: []
                             },
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37622,6 +41528,10 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -37668,6 +41578,10 @@ p {
                               data: []
                             },
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -37704,10 +41618,64 @@ p {
                             }
                           ]
                         },
+                        "margin-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-trim",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        marker: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "marker-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "marker-mid": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-mid",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "marker-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         mask: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mask",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37736,6 +41704,10 @@ mask-composite: add;
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -37776,6 +41748,10 @@ mask-composite: add;
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-mode",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.properties.mask-border-mode"
@@ -37783,10 +41759,164 @@ mask-composite: add;
                             }
                           ]
                         },
+                        "mask-border-outset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-outset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-border-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-repeat",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-border-slice": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-slice",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-border-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-source",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-border-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-clip": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-clip",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-composite": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-composite",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-mode",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-origin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-origin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-repeat",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "mask-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "math-depth": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-depth",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "math-shift": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/math-shift",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Page status inconsistent with BCD",
                               data: [
@@ -37798,12 +41928,46 @@ mask-composite: add;
                             }
                           ]
                         },
+                        "math-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "max-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-block-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "max-height": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/max-height",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "max-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-inline-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37815,6 +41979,20 @@ mask-composite: add;
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "min-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-block-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37824,6 +42002,20 @@ mask-composite: add;
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "min-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-inline-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -37835,6 +42027,10 @@ mask-composite: add;
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -37842,6 +42038,10 @@ mask-composite: add;
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37993,10 +42193,84 @@ body {
                             }
                           ]
                         },
+                        "object-fit": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-fit",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "object-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "object-view-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-view-box",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        offset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "offset-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-anchor",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "offset-distance": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-distance",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "offset-path": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-path",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "offset-position": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-position",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38082,6 +42356,10 @@ pre {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38089,6 +42367,10 @@ pre {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/opacity",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38146,6 +42428,50 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        orphans: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/orphans",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        outline: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "outline-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "outline-offset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-offset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38155,6 +42481,10 @@ img.opacity:hover {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38166,6 +42496,60 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-anchor",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-clip-margin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-clip-margin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-inline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38176,6 +42560,30 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38183,6 +42591,10 @@ img.opacity:hover {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/overlay",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38258,10 +42670,24 @@ html {
                             }
                           ]
                         },
+                        "overscroll-behavior": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "overscroll-behavior-block": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38440,6 +42866,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "alpha-value-notation",
@@ -38612,12 +43042,66 @@ p {
                             }
                           ]
                         },
+                        "overscroll-behavior-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overscroll-behavior-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         padding: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/padding",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38629,6 +43113,40 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "padding-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38638,6 +43156,10 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38649,6 +43171,10 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38658,6 +43184,70 @@ p {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        page: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "page-break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-after",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "page-break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-before",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "page-break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-inside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "paint-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/paint-order",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        perspective: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38669,6 +43259,60 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "place-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "place-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-items",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "place-self": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-self",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "pointer-events": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/pointer-events",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        position: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38676,6 +43320,10 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/position-anchor",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38745,10 +43393,64 @@ body {
                             }
                           ]
                         },
+                        "position-area": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-area",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "position-try": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "position-try-fallbacks": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-fallbacks",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "position-try-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-order",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "position-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-visibility",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "print-color-adjust": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/print-color-adjust",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -38816,6 +43518,20 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        r: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/r",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38828,6 +43544,10 @@ body {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38840,6 +43560,10 @@ body {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38850,6 +43574,100 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        right: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/right",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        rotate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rotate",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "row-gap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/row-gap",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "ruby-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-align",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "ruby-overhang": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-overhang",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "ruby-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        rx: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rx",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        ry: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ry",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        scale: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scale",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38859,6 +43677,120 @@ body {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-bottom",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-left",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-right",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-margin-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-top",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38872,6 +43804,10 @@ body {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38881,6 +43817,10 @@ body {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38892,6 +43832,40 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-bottom",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38902,6 +43876,80 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-start",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-left",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-right",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-padding-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-top",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-snap-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-align",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-snap-stop": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-stop",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -38911,6 +43959,10 @@ body {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -38924,6 +43976,10 @@ body {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             },
                             {
                               message: "CSS code issue",
@@ -39499,12 +44555,76 @@ ol a:focus,
                             }
                           ]
                         },
+                        "scroll-timeline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-timeline-axis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scroll-timeline-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scrollbar-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scrollbar-gutter": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-gutter",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "scrollbar-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "shape-image-threshold": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-image-threshold",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -39516,6 +44636,40 @@ ol a:focus,
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "shape-outside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-outside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "shape-rendering": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-rendering",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "speak-as": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/speak-as",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -39523,6 +44677,10 @@ ol a:focus,
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/stop-color",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -39628,6 +44786,10 @@ rect {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/stop-opacity",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "alpha-value-notation",
@@ -39677,12 +44839,196 @@ polygon:nth-of-type(3) {
                             }
                           ]
                         },
+                        stroke: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-dasharray": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dasharray",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-dashoffset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dashoffset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-linecap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linecap",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-linejoin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linejoin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-miterlimit": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-miterlimit",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-opacity": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-opacity",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "stroke-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-width",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "tab-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/tab-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "table-layout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/table-layout",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-align-last": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align-last",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-anchor",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-autospace": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-autospace",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-box-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-edge",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-box-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-trim",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-combine-upright": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-combine-upright",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "text-decoration": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -39693,6 +45039,10 @@ polygon:nth-of-type(3) {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -39706,6 +45056,10 @@ polygon:nth-of-type(3) {
                               data: [
                                 "CSS info"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             },
                             {
                               message: "CSS code issue",
@@ -40010,6 +45364,20 @@ u {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-decoration-skip": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40019,6 +45387,10 @@ u {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40030,6 +45402,10 @@ u {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40037,6 +45413,10 @@ u {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -40108,6 +45488,10 @@ u {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40115,6 +45499,10 @@ u {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-color",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -40135,12 +45523,56 @@ em {
                             }
                           ]
                         },
+                        "text-emphasis-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-emphasis-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "text-indent": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-indent",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-justify": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-justify",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-orientation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-orientation",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40152,6 +45584,50 @@ em {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-rendering": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-rendering",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-shadow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-shadow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-size-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-size-adjust",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-spacing-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-spacing-trim",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40161,6 +45637,10 @@ em {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40172,6 +45652,60 @@ em {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-underline-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-wrap-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-wrap-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "timeline-scope": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/timeline-scope",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40181,6 +45715,10 @@ em {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -40212,12 +45750,46 @@ div {
                             }
                           ]
                         },
+                        "touch-action": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/touch-action",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "transform-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-box",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "transform-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -40313,6 +45885,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -40702,6 +46278,20 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "transition-behavior": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-behavior",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40711,6 +46301,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40722,6 +46316,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40731,6 +46329,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40742,6 +46344,20 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        translate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/translate",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40752,6 +46368,40 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "user-modify": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-modify",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "user-select": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-select",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "vector-effect": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vector-effect",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40761,6 +46411,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40774,6 +46428,60 @@ div {
                               data: [
                                 "/en-US/docs/Web/CSS/view"
                               ]
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "view-timeline-axis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "view-timeline-inset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-inset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "view-timeline-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "view-transition-class": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-class",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "view-transition-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-name",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40783,6 +46491,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40794,6 +46506,30 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "white-space-collapse": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space-collapse",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        widows: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/widows",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40803,6 +46539,40 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "will-change": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/will-change",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "word-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-break",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "word-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-spacing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40814,6 +46584,30 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        x: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/x",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        y: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/y",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40824,17 +46618,52 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        zoom: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/zoom",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     selectors: {
                       children: {
+                        "_colon_-moz-broken": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-broken",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_colon_-moz-drag-over": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-drag-over",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -40843,10 +46672,24 @@ div {
                             }
                           ]
                         },
+                        "_colon_-moz-first-node": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-first-node",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_colon_-moz-handler-blocked": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-blocked",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -40860,6 +46703,10 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-crashed",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.-moz-handler-crashed"
@@ -40872,6 +46719,10 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-disabled",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.-moz-handler-disabled"
@@ -40879,10 +46730,24 @@ div {
                             }
                           ]
                         },
+                        "_colon_-moz-last-node": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-last-node",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_colon_-moz-loading": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-loading",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -40896,6 +46761,10 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_ltr",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.-moz-locale-dir_ltr"
@@ -40908,6 +46777,10 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_rtl",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.-moz-locale-dir_rtl"
@@ -40915,10 +46788,34 @@ div {
                             }
                           ]
                         },
+                        "_colon_-moz-only-whitespace": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-only-whitespace",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_-moz-submit-invalid": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-submit-invalid",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_colon_-moz-suppressed": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-suppressed",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -40932,10 +46829,24 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-user-disabled",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.-moz-user-disabled"
                               ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-window-inactive": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-window-inactive",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40945,6 +46856,30 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_active-view-transition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:active-view-transition",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_any-link": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:any-link",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -40956,6 +46891,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40964,10 +46903,24 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:blank",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.selectors.blank"
                               ]
+                            }
+                          ]
+                        },
+                        _colon_buffering: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:buffering",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40978,6 +46931,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -40985,6 +46942,10 @@ div {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:current",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -41000,6 +46961,40 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_defined: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:defined",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_dir: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:dir",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_disabled: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:disabled",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41009,6 +47004,50 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_enabled: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:enabled",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_first: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:first",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_first-child": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:first-child",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_first-of-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:first-of-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41020,6 +47059,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41029,6 +47072,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41040,6 +47087,100 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_fullscreen: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:fullscreen",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_future: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:future",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_has: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:has",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_has-slotted": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:has-slotted",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_heading: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:heading",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_heading_function: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:heading_function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_host: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_host_function: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host_function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_host-context": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host-context",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41050,6 +47191,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41059,6 +47204,10 @@ div {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -41141,12 +47290,36 @@ input:out-of-range + label::after {
                             }
                           ]
                         },
+                        _colon_indeterminate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:indeterminate",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         _colon_invalid: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:invalid",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_is: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:is",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41158,6 +47331,40 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_last-child": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:last-child",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_last-of-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:last-of-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_left: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:left",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41168,6 +47375,10 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41175,6 +47386,10 @@ input:out-of-range + label::after {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:local-link",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -41187,6 +47402,10 @@ input:out-of-range + label::after {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:modal",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -41208,12 +47427,26 @@ input:out-of-range + label::after {
                             }
                           ]
                         },
+                        _colon_muted: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:muted",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         _colon_not: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:not",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41225,6 +47458,70 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_nth-last-child": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:nth-last-child",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_nth-last-of-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:nth-last-of-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_nth-of-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:nth-of-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_only-child": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:only-child",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_only-of-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:only-of-type",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_open: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:open",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41235,6 +47532,10 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41244,6 +47545,10 @@ input:out-of-range + label::after {
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -41326,12 +47631,196 @@ input:out-of-range + label::after {
                             }
                           ]
                         },
+                        _colon_past: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:past",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_paused: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:paused",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_picture-in-picture": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:picture-in-picture",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_placeholder-shown": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:placeholder-shown",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_playing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:playing",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_popover-open": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:popover-open",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_read-only": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:read-only",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_read-write": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:read-write",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         _colon_required: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:required",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_right: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:right",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_root: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:root",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_scope: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:scope",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_seeking: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:seeking",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_stalled: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:stalled",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_state: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:state",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_target: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:target",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_target-current": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:target-current",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_user-invalid": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:user-invalid",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_user-valid": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:user-valid",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41343,6 +47832,10 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41353,6 +47846,40 @@ input:out-of-range + label::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_colon_volume-locked": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:volume-locked",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _colon_where: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:where",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-color-swatch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-color-swatch",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41360,6 +47887,10 @@ input:out-of-range + label::after {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-focus-inner",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -41418,10 +47949,34 @@ input[type="submit"]::-moz-focus-inner {
                             }
                           ]
                         },
+                        "_doublecolon_-moz-list-bullet": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-list-bullet",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-list-number": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-list-number",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_doublecolon_-moz-meter-bar": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-meter-bar",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -41437,10 +47992,144 @@ input[type="submit"]::-moz-focus-inner {
                             }
                           ]
                         },
+                        "_doublecolon_-moz-progress-bar": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-progress-bar",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-range-progress": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-progress",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-range-thumb": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-thumb",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-range-track": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-track",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-inner-spin-button": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-inner-spin-button",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-meter-bar": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-bar",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-meter-even-less-good-value": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-even-less-good-value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-meter-inner-element": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-inner-element",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-meter-optimum-value": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-optimum-value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-meter-suboptimum-value": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-suboptimum-value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-progress-bar": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-bar",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-progress-inner-element": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-inner-element",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-progress-value": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_doublecolon_-webkit-scrollbar": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -41458,10 +48147,64 @@ css.selectors.-webkit-resizer`,
                             }
                           ]
                         },
+                        "_doublecolon_-webkit-search-cancel-button": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-search-cancel-button",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-search-results-button": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-search-results-button",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-slider-runnable-track": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-runnable-track",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-slider-thumb": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-thumb",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_after: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::after",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         _doublecolon_backdrop: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::backdrop",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -41482,12 +48225,46 @@ dialog::backdrop {
                             }
                           ]
                         },
+                        _doublecolon_before: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::before",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_checkmark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::checkmark",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_column: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::column",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         _doublecolon_cue: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::cue",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -41510,12 +48287,36 @@ dialog::backdrop {
                             }
                           ]
                         },
+                        "_doublecolon_details-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::details-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_file-selector-button": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::file-selector-button",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_doublecolon_first-letter": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::first-letter",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -41527,6 +48328,70 @@ dialog::backdrop {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_grammar-error": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::grammar-error",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_highlight: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::highlight",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_marker: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::marker",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_part: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::part",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_picker: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::picker",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_picker-icon": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::picker-icon",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41537,6 +48402,10 @@ dialog::backdrop {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -41544,6 +48413,10 @@ dialog::backdrop {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -42008,10 +48881,74 @@ ul::scroll-button(right) {
                             }
                           ]
                         },
+                        "_doublecolon_scroll-marker": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_scroll-marker-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker-group",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_selection: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::selection",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        _doublecolon_slotted: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::slotted",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_spelling-error": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::spelling-error",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_target-text": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::target-text",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "_doublecolon_view-transition": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -42031,10 +48968,84 @@ ul::scroll-button(right) {
                             }
                           ]
                         },
+                        "_doublecolon_view-transition-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-group",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_view-transition-image-pair": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-image-pair",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_view-transition-new": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-new",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_view-transition-old": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-old",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        attribute_selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        child_combinator: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        class_selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Class_selectors",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         column_combinator: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/Column_combinator",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -42045,17 +49056,188 @@ ul::scroll-button(right) {
                               ]
                             }
                           ]
+                        },
+                        combinators: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Combinators",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        descendant_combinator: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Descendant_combinator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        id_selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        namespace_separator: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Namespace_separator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        nesting_selector: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Nesting_selector",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "next-sibling_combinator": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "pseudo-classes": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "pseudo-elements": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        selector_list: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Selector_list",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "subsequent-sibling_combinator": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        type_selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        universal_selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Universal_selectors",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Selectors",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     values: {
                       children: {
+                        "-moz-image-rect": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/-moz-image-rect",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        abs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/abs",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "absolute-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/absolute-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        acos: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/acos",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "alpha-value": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/alpha-value",
                           messages: [
                             {
                               message: "Broken browser compat anchor",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -42097,6 +49279,10 @@ shape-image-threshold: 0.7;
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/anchor",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -42165,10 +49351,74 @@ body {
                             }
                           ]
                         },
+                        "anchor-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/anchor-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        angle: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/angle",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "angle-percentage": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/angle-percentage",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        asin: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/asin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        atan: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/atan",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        atan2: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/atan2",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         attr: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/attr",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -42366,10 +49616,165 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/axis",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.types.axis"
                               ]
+                            }
+                          ]
+                        },
+                        "baseline-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/baseline-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "basic-shape": {
+                          children: {
+                            circle: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/circle",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            ellipse: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            inset: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/inset",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            path: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/path",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            polygon: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/polygon",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            rect: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/rect",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            shape: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/shape",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            xywh: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/xywh",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "blend-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/blend-mode",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "box-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/box-edge",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        calc: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "calc-keyword": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc-keyword",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "calc-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -42379,6 +49784,10 @@ div {
                           messages: [
                             {
                               message: "Broken browser compat anchor",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -42390,6 +49799,10 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -42399,6 +49812,10 @@ div {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/color",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -42493,10 +49910,34 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
                                 }
                               ]
                             },
+                            "color-mix": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
+                            "contrast-color": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/contrast-color",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             "device-cmyk": {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/device-cmyk",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -42511,6 +49952,10 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -42748,6 +50193,10 @@ div.legacyHSLA {
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/hwb",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "hue-degree-notation",
@@ -42862,6 +50311,10 @@ hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/lab",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -43109,6 +50562,10 @@ div {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/lch",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -48067,10 +55524,24 @@ div {
                                 }
                               ]
                             },
+                            "light-dark": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             oklab: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/oklab",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -48906,6 +56377,10 @@ span {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/oklch",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -53869,6 +61344,10 @@ div {
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/rgb",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "alpha-value-notation",
@@ -53994,6 +61473,10 @@ div.comma-separated {
                           },
                           slug: "/en-US/docs/Web/CSS/Reference/Values/color_value",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54221,6 +61704,10 @@ oklch(63.612% 0.1522 78.748)
                           slug: "/en-US/docs/Web/CSS/Reference/Values/color-interpolation-method",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -54232,10 +61719,74 @@ css.types.color.color.display-p3-linear`,
                             }
                           ]
                         },
+                        "content-distribution": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/content-distribution",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "content-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/content-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "corner-shape-value": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/corner-shape-value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        cos: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/cos",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        counter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/counter",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        counters: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/counters",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "cross-fade": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/cross-fade",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54328,10 +61879,34 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                             }
                           ]
                         },
+                        "custom-ident": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/custom-ident",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "dashed-function": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/dashed-function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "dashed-ident": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/dashed-ident",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -54360,10 +61935,78 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                           slug: "/en-US/docs/Web/CSS/Reference/Values/Data_types",
                           messages: [
                             {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Values/axis"
-                              ]
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        dimension: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/dimension",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-box",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-inside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-internal": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-internal",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-legacy": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-legacy",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-listitem": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-listitem",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "display-outside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-outside",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -54371,6 +62014,10 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54483,6 +62130,10 @@ dynamic-range-limit-mix(standard 10%, constrained 40%, no-limit 50%)
                               slug: "/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -54539,6 +62190,10 @@ cubic-bezier(-1.9, 0.3, -0.2, 2.1)
                               slug: "/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -54585,6 +62240,10 @@ linear(start, middle, end)
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/easing-function/steps",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -54652,6 +62311,10 @@ steps(0, jump-none)
                           },
                           slug: "/en-US/docs/Web/CSS/Reference/Values/easing-function",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54791,10 +62454,24 @@ li {
                             }
                           ]
                         },
+                        element: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/element",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         env: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/env",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -54812,12 +62489,36 @@ env(viewport-segment-width 1 0)
                             }
                           ]
                         },
+                        exp: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/exp",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "filter-function": {
                           children: {
+                            blur: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/blur",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             brightness: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -54850,6 +62551,10 @@ brightness(200%)
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/contrast",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -54885,6 +62590,10 @@ contrast(200%)
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -54892,6 +62601,10 @@ contrast(200%)
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/grayscale",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -54919,6 +62632,10 @@ grayscale(100%)
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -54939,12 +62656,26 @@ hue-rotate(0.5turn)
                                 }
                               ]
                             },
+                            invert: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/invert",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             opacity: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/opacity",
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 },
                                 {
@@ -54973,6 +62704,10 @@ opacity(1)
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/saturate",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -54998,6 +62733,10 @@ saturate(200%)  /* Double saturation */
                               slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function/sepia",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -55018,7 +62757,24 @@ sepia(100%)
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/filter-function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "fit-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/fit-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
                         },
                         "fit-content_function": {
                           children: {},
@@ -55026,6 +62782,10 @@ sepia(100%)
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -55055,10 +62815,24 @@ css.properties.width.fit-content_function`
                             }
                           ]
                         },
+                        flex_value: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/flex_value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         frequency: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/frequency",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -55072,10 +62846,34 @@ css.properties.width.fit-content_function`
                           slug: "/en-US/docs/Web/CSS/Reference/Values/frequency-percentage",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Not in BCD",
                               data: [
                                 "css.types.frequency-percentage"
                               ]
+                            }
+                          ]
+                        },
+                        functions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "generic-family": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/generic-family",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -55085,6 +62883,10 @@ css.properties.width.fit-content_function`
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -55170,6 +62972,10 @@ background-size: 25% 25%;
                               slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "Stylelint backlog",
                                   data: [
                                     "CssSyntaxError",
@@ -55234,10 +63040,24 @@ linear-gradient(red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
                                 }
                               ]
                             },
+                            "radial-gradient": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             "repeating-conic-gradient": {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -55284,6 +63104,10 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -55294,6 +63118,10 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             }
@@ -55303,6 +63131,20 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "hex-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/hex-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -55310,6 +63152,10 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/hue",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -55351,6 +63197,10 @@ span {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -57414,10 +65264,34 @@ p {
                             }
                           ]
                         },
+                        hypot: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/hypot",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        ident: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/ident",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         if: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/if",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -58560,582 +66434,6 @@ h2 {
                             {
                               message: "CSS code issue",
                               data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                "    style(--scheme: ice): #03045e;",
-                                "42:11 - 42:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                "    style(--scheme: fire): #621708;",
-                                "43:11 - 43:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                "    style(--scheme: ice): #caf0f8;",
-                                "47:11 - 47:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                "    style(--scheme: fire): #ffc971;",
-                                "48:11 - 48:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                '    style(--scheme: ice): "❄️ ";',
-                                "78:11 - 78:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "custom-property-no-missing-var-function",
-                                'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
-                                '    style(--scheme: fire): "🔥 ";',
-                                "79:11 - 79:19",
-                                `/en-US/docs/Web/CSS/Reference/Values/if
-[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "declaration-property-value-no-unknown",
                                 `Cannot parse property value "if(
     media(width < 700px): 0;
@@ -59460,6 +66758,10 @@ h1::before {
                               slug: "/en-US/docs/Web/CSS/Reference/Values/image/image",
                               messages: [
                                 {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
+                                {
                                   message: "CSS code issue",
                                   data: [
                                     "declaration-property-value-no-unknown",
@@ -59509,10 +66811,24 @@ h1::before {
                                 }
                               ]
                             },
+                            "image-set": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/image/image-set",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             paint: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/image/paint",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -59615,6 +66931,10 @@ li:nth-of-type(3n + 1) {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/image",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "CssSyntaxError",
@@ -59667,6 +66987,10 @@ image-set("cat.jpg" 1x, "dog.jpg" 1x) /* every image in an image set must have a
                           slug: "/en-US/docs/Web/CSS/Reference/Values/important",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -59696,10 +67020,44 @@ p {
                             }
                           ]
                         },
+                        inherit: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/inherit",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        initial: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/initial",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        integer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/integer",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         length: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/length",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -59966,12 +67324,56 @@ label {
                             }
                           ]
                         },
+                        "length-percentage": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/length-percentage",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "line-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/line-style",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        log: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/log",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         max: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/max",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "max-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/max-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
                               data: []
                             }
                           ]
@@ -59983,6 +67385,20 @@ label {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "min-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/min-content",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -59990,6 +67406,10 @@ label {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/minmax",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -60002,10 +67422,74 @@ css.properties.grid-template-rows.minmax`
                             }
                           ]
                         },
+                        mod: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/mod",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "named-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/named-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        number: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/number",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        overflow_value: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/overflow_value",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "overflow-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/overflow-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        percentage: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/percentage",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         position_value: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/position_value",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -60038,6 +67522,10 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/position-area_value",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -60126,10 +67614,24 @@ position-area: end; /* equiv: end end */
                             }
                           ]
                         },
+                        pow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/pow",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         progress: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/progress",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -60193,10 +67695,24 @@ progress(3em, 0, 100)
                             }
                           ]
                         },
+                        ratio: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/ratio",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         ray: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/ray",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -60277,12 +67793,36 @@ pre {
                             }
                           ]
                         },
+                        "relative-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/relative-size",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        rem: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/rem",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         repeat: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/repeat",
                           messages: [
                             {
                               message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Missing sidebar",
                               data: []
                             },
                             {
@@ -60306,62 +67846,48 @@ css.properties.grid-template-rows.repeat`
                           slug: "/en-US/docs/Web/CSS/Reference/Values/resolution",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "media-feature-range-notation",
-                                'Expected "prefix" media feature range notation (media-feature-range-notation)',
-                                "@media (resolution >= 2dppx) {",
-                                "9:8 - 9:29",
-                                `/en-US/docs/Web/CSS/Reference/Values/resolution
-[media-feature-range-notation] Expected "prefix" media feature range notation (media-feature-range-notation)
-~~~
-@media print and (resolution >= 300dpi) {
-  /* … */
-}
-
-@media (resolution: 120dpcm) {
-  /* … */
-}
-
-@media (resolution >= 2dppx) {
-  /* … */
-}
-
-@media (resolution: 1x) {
-  /* … */
-}
-~~~
-`
-                              ]
-                            },
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        revert: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/revert",
+                          messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "media-feature-range-notation",
-                                'Expected "context" media feature range notation (media-feature-range-notation)',
-                                "@media (resolution: 1x) {",
-                                "13:8 - 13:24",
-                                `/en-US/docs/Web/CSS/Reference/Values/resolution
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media print and (resolution >= 300dpi) {
-  /* … */
-}
-
-@media (resolution: 120dpcm) {
-  /* … */
-}
-
-@media (resolution >= 2dppx) {
-  /* … */
-}
-
-@media (resolution: 1x) {
-  /* … */
-}
-~~~
-`
-                              ]
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "revert-layer": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/revert-layer",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        round: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/round",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "self-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/self-position",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -60369,6 +67895,10 @@ css.properties.grid-template-rows.repeat`
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/shape",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -60386,10 +67916,64 @@ rect(top, right, bottom, left)
                             }
                           ]
                         },
+                        "sibling-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-count",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "sibling-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-index",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        sign: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sign",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        sin: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sin",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        sqrt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sqrt",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         string: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/string",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -60424,10 +68008,24 @@ awesome string"
                             }
                           ]
                         },
+                        superellipse: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/superellipse",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         symbols: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/symbols",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -60440,6 +68038,46 @@ css.properties.list-style-type.symbols`
                             }
                           ]
                         },
+                        "system-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/system-color",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        tan: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/tan",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "text-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/text-edge",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        time: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/time",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         "time-percentage": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/time-percentage",
@@ -60447,15 +68085,33 @@ css.properties.list-style-type.symbols`
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         },
                         "transform-function": {
                           children: {
+                            matrix: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix",
+                              messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                }
+                              ]
+                            },
                             matrix3d: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function/matrix3d",
                               messages: [
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
+                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -60961,6 +68617,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -60970,6 +68630,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -60981,6 +68645,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -60990,6 +68658,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61001,6 +68673,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61010,6 +68686,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61021,6 +68701,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61030,6 +68714,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61041,6 +68729,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61050,6 +68742,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61061,6 +68757,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61070,6 +68770,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61081,6 +68785,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61090,6 +68798,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61101,6 +68813,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61110,6 +68826,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61121,6 +68841,10 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             },
@@ -61130,6 +68854,10 @@ body {
                               messages: [
                                 {
                                   message: "Try it should not have content",
+                                  data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
                                   data: []
                                 }
                               ]
@@ -61141,12 +68869,20 @@ body {
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Missing sidebar",
+                                  data: []
                                 }
                               ]
                             }
                           },
                           slug: "/en-US/docs/Web/CSS/Reference/Values/transform-function",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -61598,6 +69334,10 @@ main {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/type",
                           messages: [
                             {
+                              message: "Missing sidebar",
+                              data: []
+                            },
+                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -61641,10 +69381,34 @@ section::after {
                             }
                           ]
                         },
+                        unset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/unset",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        url_function: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/url_function",
+                          messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         url_value: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/url_value",
                           messages: [
+                            {
+                              message: "Missing sidebar",
+                              data: []
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -61663,17 +69427,28 @@ section::after {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Missing sidebar",
+                              data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Values",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        }
+                      ]
                     },
                     webkit_extensions: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/Reference/Webkit_extensions",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
+                          message: "Missing sidebar",
                           data: []
                         },
                         {
@@ -62174,6 +69949,10 @@ section::after {
                       data: [
                         "/en-US/docs/Web/CSS/xywh"
                       ]
+                    },
+                    {
+                      message: "Missing sidebar",
+                      data: []
                     }
                   ]
                 },
@@ -62182,7 +69961,7 @@ section::after {
                   slug: "/en-US/docs/Web/CSS/Tutorials",
                   messages: [
                     {
-                      message: "Unreachable via sidebar",
+                      message: "Missing sidebar",
                       data: []
                     },
                     {
@@ -62191,7 +69970,14 @@ section::after {
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/CSS",
+              messages: [
+                {
+                  message: "Missing sidebar",
+                  data: []
+                }
+              ]
             },
             html: {
               children: {
@@ -64825,36 +72611,8 @@ svg.elements.feSpotLight.z`
             },
             xml: {
               children: {
-                exslt: {
-                  children: {
-                    reference: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/EXSLT/Reference",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 guides: {
-                  children: {
-                    opensearch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
@@ -64864,34 +72622,6 @@ svg.elements.feSpotLight.z`
                       ]
                     }
                   ]
-                },
-                xpath: {
-                  children: {
-                    reference: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/XPath/Reference",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                xslt: {
-                  children: {
-                    reference: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/XSLT/Reference",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             }
@@ -64994,70 +72724,6 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       }
-                    }
-                  }
-                },
-                memory: {
-                  children: {
-                    copy: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/copy",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    fill: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/fill",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    grow: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/grow",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    load: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/load",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/size",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    store: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/store",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 }
