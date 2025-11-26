@@ -15921,7 +15921,8 @@ In this lesson, we will take a look at some of the most frequently used value ty
         "replaced_elements",
         "sizing_images",
         "frame_size",
-        "handling_image_overflow_with_object-fit",
+        "handling_image_display_issues_with_object-fit",
+        "frame_object-fit1",
         "frame_object-fit",
         "replaced_elements_in_layout",
         "frame_layout",
@@ -43117,7 +43118,7 @@ read-only version of the DOMPoint object.`,
         browserCompat: [
           "api.SVGElement.style"
         ],
-        summary: `The read-only style property of the SVGElement returns the inline style of an element in the form of a live CSSStyleProperties object.
+        summary: `The read-only style property of the SVGElement interface returns the inline style of an element in the form of a live CSSStyleProperties object.
 This object can be used to get and set the inline styles of an element.`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -51348,7 +51349,7 @@ the href to be updated.`,
         browserCompat: [
           "api.HTMLAreaElement.relList"
         ],
-        summary: "The HTMLAreaElement.relList read-only property reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <area> element and the current document.",
+        summary: "The read-only relList property of the HTMLAreaElement returns a live DOMTokenList object containing the set of link types indicating the relationship between the resource represented by the <area> element and the current document. It reflects the <area> element's rel content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -63081,9 +63082,7 @@ NavigationDestination interface returns the URL being navigated to.`,
         browserCompat: [
           "api.HTMLDialogElement.show"
         ],
-        summary: `The show() method of the HTMLDialogElement
-interface displays the dialog modelessly, i.e., still allowing interaction with content
-outside of the dialog.`,
+        summary: "The show() method of the HTMLDialogElement interface displays the dialog modelessly, i.e., still allowing interaction with content outside of the dialog.",
         popularity: 0.00039676005222710753,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -63109,6 +63108,11 @@ outside of the dialog.`,
         "exceptions",
         "invalidstateerror",
         "examples",
+        "basic_usage",
+        "html",
+        "javascript",
+        "results",
+        "frame_basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -67601,7 +67605,7 @@ GPURenderPassEncoder interface draws primitives using parameters read from a GPU
         browserCompat: [
           "api.CSSFontFaceRule.style"
         ],
-        summary: "The read-only style property of the CSSFontFaceRule interface returns the style information from the @font-face at-rule. This will be in the form of a CSSStyleDeclaration object.",
+        summary: "The read-only style property of the CSSFontFaceRule interface contains a CSSStyleDeclaration object representing the descriptors available in the @font-face rule's body.",
         popularity: 0.0002748795133076693,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -78860,7 +78864,7 @@ iterated past its end, or its transaction is not active.`,
         browserCompat: [
           "api.HTMLFormElement.relList"
         ],
-        summary: "The relList read-only property of the HTMLFormElement interface reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <form> element and the current document.",
+        summary: "The read-only relList property of the HTMLFormElement returns a live DOMTokenList object containing the set of link types indicating the relationship between the resource represented by the <form> element and the current document. It reflects the <form> element's rel content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -79617,9 +79621,7 @@ the current <form> element as a string.`,
         browserCompat: [
           "api.CSSMediaRule.media"
         ],
-        summary: `The read-only media property of the
-CSSMediaRule interface returns a MediaList representing the intended
-destination medium for style information.`,
+        summary: "The read-only media property of the CSSMediaRule interface contains a MediaList object representing the media query list of the @media rule.",
         popularity: 0.0003209088657719252,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -80915,7 +80917,7 @@ destination medium for style information.`,
         browserCompat: [
           "api.CSSKeyframeRule.style"
         ],
-        summary: "The read-only CSSKeyframeRule.style property is the CSSStyleDeclaration interface for the declaration block of the CSSKeyframeRule.",
+        summary: "The read-only style property of the CSSKeyframeRule interface contains a CSSStyleDeclaration object representing the descriptors available in the @keyframes rule's body.",
         popularity: 0.0002696931073962038,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -80932,16 +80934,10 @@ destination medium for style information.`,
           title: "CSS Animations Level 1"
         }
       ],
-      links: [
-        "https://heycam.github.io/webidl/#this"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "value",
-        "computed_flag",
-        "declarations",
-        "parent_css_rule",
-        "owner_node",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -98304,7 +98300,7 @@ It reflects the <link> element's fetchpriority content attribute.`,
         browserCompat: [
           "api.HTMLLinkElement.relList"
         ],
-        summary: "The relList read-only property of the HTMLLinkElement interface reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <link> element and the current document.",
+        summary: "The read-only relList property of the HTMLLinkElement returns a live DOMTokenList object containing the set of link types indicating the relationship between the resource represented by the <link> element and the current document. It reflects the <link> element's rel content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -98418,7 +98414,7 @@ It reflects the <link> element's fetchpriority content attribute.`,
         browserCompat: [
           "api.HTMLLinkElement.sizes"
         ],
-        summary: "The sizes read-only property of the HTMLLinkElement interfaces defines the sizes of the icons for visual media contained in the resource. It reflects the <link> element's sizes attribute, which takes a list of space-separated sizes, each in the format <width in pixels>x<height in pixels>, or the keyword any.",
+        summary: "The read-only sizes property of the HTMLLinkElement interface defines the sizes of the icons for visual media contained in the resource. It reflects the <link> element's sizes attribute, which takes a list of space-separated sizes, each in the format <width in pixels>x<height in pixels>, or the keyword any.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -98582,7 +98578,7 @@ contains the stylesheet associated with that element.`,
         browserCompat: [
           "api.HTMLLinkElement.blocking"
         ],
-        summary: "The blocking property of the HTMLLinkElement interface is a string indicating that certain operations should be blocked on the fetching of an external resource.",
+        summary: "The read-only blocking property of the HTMLLinkElement returns a live DOMTokenList object containing the operations that should be blocked on the fetching of an external resource. It reflects the <link> element's blocking content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -98603,7 +98599,6 @@ contains the stylesheet associated with that element.`,
       imgs: [],
       ids: [
         "value",
-        "render",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -105917,7 +105912,7 @@ which provides access to the rule's property-value pairs.`,
         browserCompat: [
           "api.CSSStyleRule.style"
         ],
-        summary: "The read-only style property is a CSSStyleProperties object that represents the inline styles of a style rule (CSSStyleRule).",
+        summary: "The read-only style property of the CSSStyleRule interface contains a CSSStyleProperties object representing the properties list in this style rule's body.",
         popularity: 0.0003539722034575175,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -108954,7 +108949,7 @@ version of HTMLAnchorElement.href.`,
         browserCompat: [
           "api.HTMLAnchorElement.relList"
         ],
-        summary: "The HTMLAnchorElement.relList read-only property reflects the rel attribute. It is a live DOMTokenList containing the set of link types indicating the relationship between the resource represented by the <a> element and the current document.",
+        summary: "The read-only relList property of the HTMLAnchorElement returns a live DOMTokenList object containing the set of link types indicating the relationship between the resource represented by the <a> element and the current document. It reflects the <a> element's rel content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -128719,7 +128714,7 @@ or null if the label isn't associated with a control.`,
         browserCompat: [
           "api.MathMLElement.style"
         ],
-        summary: `The read-only style property of the MathMLElement returns the inline style of an element in the form of a live CSSStyleProperties object.
+        summary: `The read-only style property of the MathMLElement interface returns the inline style of an element in the form of a live CSSStyleProperties object.
 This object can be used to get and set the inline styles of an element.`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -147044,7 +147039,7 @@ that users can fill with their own markup.`,
         browserCompat: [
           "api.HTMLIFrameElement.sandbox"
         ],
-        summary: "The sandbox read-only property of the HTMLIFrameElement interface returns a DOMTokenList indicating extra restrictions on the behavior of the nested content.",
+        summary: "The read-only sandbox property of the HTMLIFrameElement returns a live DOMTokenList object indicating extra restrictions on the behavior of the nested content. It reflects the <iframe> element's sandbox content attribute.",
         popularity: 0.00031248095616579386,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -179168,9 +179163,7 @@ returns the number of child elements of the document.`,
         browserCompat: [
           "api.Document.location"
         ],
-        summary: `The Document.location read-only property returns a
-Location object, which contains information about the URL of the document
-and provides methods for changing that URL and loading another URL.`,
+        summary: "The read-only location property of the Document interface returns a Location object, which contains information about the URL of the document and provides methods for changing that URL and loading another URL.",
         popularity: 0.00048492895272202034,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -189575,7 +189568,7 @@ interface returns the location of the style sheet.`,
         browserCompat: [
           "api.StyleSheet.media"
         ],
-        summary: "The media property of the StyleSheet interface specifies the intended destination media for style information. It is a read-only, array-like MediaList object and can be removed with deleteMedium() and added with appendMedium().",
+        summary: "The read-only media property of the StyleSheet interface contains a MediaList object representing the intended destination media for style information.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -191705,8 +191698,7 @@ GPUExternalTexture interface provides a label that can be used to identify the o
         browserCompat: [
           "api.CSSPageRule.style"
         ],
-        summary: `The style read-only property of the CSSPageRule interface returns a CSSPageDescriptors object.
-This represents a CSS declaration block for a CSS @page at-rule, and exposes style information and various style-related methods and properties for the page.`,
+        summary: "The read-only style property of the CSSPageRule interface contains a CSSPageDescriptors object representing the descriptors available in the @page rule's body.",
         popularity: 0.0002852523251306002,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -211488,7 +211480,7 @@ contains the stylesheet associated with that element.`,
         browserCompat: [
           "api.HTMLStyleElement.blocking"
         ],
-        summary: "The blocking property of the HTMLStyleElement interface is a string indicating that certain operations should be blocked on the fetching of critical subresources.",
+        summary: "The read-only blocking property of the HTMLStyleElement returns a live DOMTokenList object containing the operations that should be blocked on the fetching of an external resource. It reflects the <style> element's blocking content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -211509,7 +211501,6 @@ contains the stylesheet associated with that element.`,
       imgs: [],
       ids: [
         "value",
-        "render",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -226029,11 +226020,11 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -226041,7 +226032,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -242099,7 +242090,7 @@ translating vector.`,
         browserCompat: [
           "api.CSSPositionTryRule.style"
         ],
-        summary: "The style read-only property of the CSSPositionTryRule interface returns a CSSPositionTryDescriptors object representing the declarations set in the body of the @position-try at-rule.",
+        summary: "The read-only style property of the CSSPositionTryRule interface contains a CSSPositionTryDescriptors object representing the descriptors available in the @position-try rule's body.",
         popularity: 0.00026191349852900563,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -251106,7 +251097,7 @@ It behaves in the same way as the textContent and innerText property.`,
         browserCompat: [
           "api.HTMLScriptElement.blocking"
         ],
-        summary: "The blocking property of the HTMLScriptElement interface is a string indicating that certain operations should be blocked on the fetching of the script.",
+        summary: "The read-only blocking property of the HTMLScriptElement returns a live DOMTokenList object containing the operations that should be blocked on the fetching of an external resource. It reflects the <script> element's blocking content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -251127,7 +251118,6 @@ It behaves in the same way as the textContent and innerText property.`,
       imgs: [],
       ids: [
         "value",
-        "render",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -255605,7 +255595,7 @@ are editable; otherwise it returns false.`,
         browserCompat: [
           "api.HTMLElement.style"
         ],
-        summary: `The read-only style property of the HTMLElement returns the inline style of an element in the form of a live CSSStyleProperties object.
+        summary: `The read-only style property of the HTMLElement interface returns the inline style of an element in the form of a live CSSStyleProperties object.
 This object can be used to get and set the inline styles of an element.`,
         popularity: 0.003024322947123295,
         modified: "1970-01-01T00:00:00.000Z",
@@ -278512,9 +278502,7 @@ one in its parent's children list, or null if the specified element is the first
         browserCompat: [
           "api.Element.classList"
         ],
-        summary: `The Element.classList is a read-only property that
-returns a live DOMTokenList collection of the class
-attributes of the element. This can then be used to manipulate the class list.`,
+        summary: "The read-only classList property of the Element interface contains a live DOMTokenList collection representing the class attribute of the element. This can then be used to manipulate the class list.",
         popularity: 0.010421434378350905,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -278531,9 +278519,7 @@ attributes of the element. This can then be used to manipulate the class list.`,
           title: "DOM"
         }
       ],
-      links: [
-        "https://github.com/eligrey/classList.js"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "value",
@@ -284633,10 +284619,7 @@ with the given namespace and name.`,
         browserCompat: [
           "api.Element.part"
         ],
-        summary: `The part property of the Element interface
-represents the part identifier(s) of the element (i.e., set using the part
-attribute), returned as a DOMTokenList. These can be used to style parts
-of a shadow DOM, via the ::part pseudo-element.`,
+        summary: "The read-only part property of the Element interface contains a DOMTokenList object representing the part identifier(s) of the element. It reflects the element's part content attribute. These can be used to style parts of a shadow DOM, via the ::part pseudo-element.",
         popularity: 0.00010632132118504187,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -287727,7 +287710,7 @@ It accepts a variety of different image sources, and returns a Promise which res
         browserCompat: [
           "api.WorkerGlobalScope.location"
         ],
-        summary: "The location read-only property of the WorkerGlobalScope interface returns the WorkerLocation associated with the worker. It is a specific location object, mostly a subset of the Location for browsing scopes, but adapted to workers.",
+        summary: "The read-only location property of the WorkerGlobalScope interface returns the WorkerLocation associated with the worker. It is a specific location object, mostly a subset of the Location for browsing scopes, but adapted to workers.",
         popularity: 0.00011021112561864098,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -295964,7 +295947,7 @@ device memory in gigabytes.`,
         browserCompat: [
           "api.HTMLOutputElement.htmlFor"
         ],
-        summary: "The htmlFor property of the HTMLOutputElement interface is a string containing a space-separated list of other elements' ids, indicating that those elements contributed input values to (or otherwise affected) the calculation. It reflects the for attribute of the <output> element.",
+        summary: "The read-only htmlFor property of the HTMLOutputElement returns a live DOMTokenList object containing a list of ids of those elements contributing input values to (or otherwise affected) the calculation. It reflects the <output> element's for content attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -296564,7 +296547,7 @@ Deprecated
         browserCompat: [
           "api.SVGAElement.relList"
         ],
-        summary: "The relList read-only property of the SVGAElement returns a live DOMTokenList reflecting the space-separated string <list-of-Link-Types> values of the rel attribute of the SVG <a> element.",
+        summary: "The read-only relList property of the SVGAElement returns a live DOMTokenList reflecting the space-separated string <list-of-Link-Types> values of the rel attribute of the SVG <a> element.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -303078,7 +303061,7 @@ the window on which it was called.`,
         browserCompat: [
           "api.Window.location"
         ],
-        summary: "The Window.location read-only property returns a Location object with information about the current location of the document.",
+        summary: "The read-only location property of the Window interface returns a Location object with information about the current location of the document.",
         popularity: 0.003308926971514962,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -341982,7 +341965,7 @@ GPURenderBundleEncoder interface draws primitives using parameters read from a G
         browserCompat: [
           "api.CSSFunctionDeclarations.style"
         ],
-        summary: "The style property of the CSSFunctionDeclarations interface returns a CSSFunctionDescriptors object representing the descriptors available in a @function body.",
+        summary: "The read-only style property of the CSSFunctionDeclarations interface contains a CSSFunctionDescriptors object representing the descriptors available in the @function rule's body.",
         popularity: 0.00008881720123384597,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -347985,9 +347968,7 @@ CSSImportRule interface returns the URL specified by the
         browserCompat: [
           "api.CSSImportRule.media"
         ],
-        summary: `The read-only media property of the
-CSSImportRule interface returns a MediaList object,
-containing the value of the media attribute of the associated stylesheet.`,
+        summary: "The read-only media property of the CSSImportRule interface returns a MediaList object representing the media query list of the @import rule.",
         popularity: 0.00027552781404660244,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -381287,6 +381268,114 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
@@ -381295,15 +381384,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381311,71 +381396,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381383,27 +381404,19 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381411,59 +381424,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381475,19 +381444,31 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -387352,7 +387333,7 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387360,27 +387341,7 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387388,7 +387349,27 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -446911,27 +446892,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -446943,31 +446912,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -446975,7 +446920,87 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -446987,59 +447012,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
           title: "VirtualKeyboard API"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         }
       ],
@@ -458273,10 +458254,6 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
@@ -458285,7 +458262,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458293,7 +458270,11 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         }
       ],
@@ -483867,19 +483848,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -483887,11 +483856,11 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -483899,11 +483868,23 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -490645,7 +490626,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         browserCompat: [
           "css.properties.scroll-timeline"
         ],
-        summary: "The scroll-timeline CSS shorthand property is used to define a named scroll progress timeline, which is progressed through by scrolling a scrollable element (scroller) between top and bottom (or left and right). scroll-timeline is set on the scroller that will provide the timeline. The starting scroll position represents 0% progress and the ending scroll position represents 100% progress. If the 0% position and 100% position coincide (i.e., the scroll container has no overflow to scroll), the timeline is inactive.",
+        summary: "The scroll-timeline CSS shorthand property is used to define a named scroll progress timeline, which is progressed through by scrolling a scrollable element (scroller) between top and bottom (or left and right).",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -490672,6 +490653,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "values",
         "scroll-timeline-name",
         "scroll-timeline-axis",
+        "description",
         "formal_definition",
         "formal_syntax",
         "scroll-timeline",
@@ -493495,7 +493477,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         browserCompat: [
           "css.properties.view-timeline"
         ],
-        summary: "The view-timeline CSS shorthand property is used to define a named view progress timeline, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). view-timeline is set on the subject.",
+        summary: "The view-timeline CSS shorthand property defines a named view progress timeline's name, direction, and inset values.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -493524,6 +493506,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "view-timeline-name",
         "view-timeline-inset",
         "view-timeline-axis",
+        "description",
         "formal_definition",
         "formal_syntax",
         "view-timeline",
@@ -494256,7 +494239,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         browserCompat: [
           "css.properties.scroll-timeline-axis"
         ],
-        summary: "The scroll-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a named scroll progress timeline animation, which is progressed through by scrolling a scrollable element (scroller) between top and bottom (or left and right). scroll-timeline is set on the scroller that will provide the timeline. See CSS scroll-driven animations for more details.",
+        summary: "The scroll-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a scroll driven animation animation, which is progressed through by scrolling a scrollable element (scroller).",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -494280,10 +494263,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ids: [
         "syntax",
         "values",
-        "block",
-        "inline",
-        "y",
-        "x",
+        "axis",
+        "description",
         "formal_definition",
         "formal_syntax",
         "scroll-timeline-axis",
@@ -502013,7 +501994,7 @@ When a containment context is given a name, it can be specifically targeted usin
         browserCompat: [
           "css.properties.animation-timeline.scroll"
         ],
-        summary: "The scroll() CSS function can be used with animation-timeline to indicate a scrollable element (scroller) and scrollbar axis that will provide an anonymous scroll progress timeline for animating the current element. The scroll progress timeline is progressed through by scrolling the scroller between top and bottom (or left and right). The position in the scroll range is converted into a percentage of progress — 0% at the start and 100% at the end.",
+        summary: "The scroll() CSS function can be used to define the scroller and axis of an anonymous scroll progress timeline.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -502042,10 +502023,7 @@ When a containment context is given a name, it can be specifically targeted usin
         "root",
         "self",
         "axis",
-        "block",
-        "inline",
-        "y",
-        "x",
+        "description",
         "formal_syntax",
         "<scroll()>",
         "<scroller>",
@@ -538228,15 +538206,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -538244,11 +538214,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
