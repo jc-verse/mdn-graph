@@ -6,9 +6,9 @@
 /en-US/docs/Web/CSS/Reference/Values/cross-fade
 /en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition
 /en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Version
-/en-US/docs/WebAssembly/Reference/Memory/Copy
-/en-US/docs/WebAssembly/Reference/Memory/Fill
-/en-US/docs/WebAssembly/Reference/Memory/Grow
-/en-US/docs/WebAssembly/Reference/Memory/Load
-/en-US/docs/WebAssembly/Reference/Memory/Size
-/en-US/docs/WebAssembly/Reference/Memory/Store
+/en-US/docs/WebAssembly/Reference/Memory/copy
+/en-US/docs/WebAssembly/Reference/Memory/fill
+/en-US/docs/WebAssembly/Reference/Memory/grow
+/en-US/docs/WebAssembly/Reference/Memory/load
+/en-US/docs/WebAssembly/Reference/Memory/size
+/en-US/docs/WebAssembly/Reference/Memory/store

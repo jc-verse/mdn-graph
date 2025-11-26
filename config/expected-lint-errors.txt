@@ -3774,10 +3774,10 @@ p:last-of-type {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/At-rules/@import
-[import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
+[import-notation] Expected "url("chrome://communicator/skin/communicator.css")" to be ""chrome://communicator/skin/communicator.css"" (import-notation)
 ~~~
 @import "custom.css";
-@import url("chrome://communicator/skin/");
+@import url("chrome://communicator/skin/communicator.css");
 ~~~
 
 /en-US/docs/Web/CSS/Reference/At-rules/@import

@@ -109,7 +109,6 @@
 
 /en-US/docs/Glossary/JWT
 /en-US/docs/Web/Security/Authentication/Federated_identity
-/en-US/docs/Web/Security/Authentication/OTP
 /en-US/docs/Web/Security/Authentication/Passkeys
 /en-US/docs/Web/Security/Authentication/Session_management
 
