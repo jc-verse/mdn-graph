@@ -226029,19 +226029,19 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -381282,11 +381282,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381294,7 +381290,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381302,35 +381298,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381338,39 +381306,35 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381382,51 +381346,39 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381434,8 +381386,68 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
@@ -381446,31 +381458,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381478,11 +381474,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -387351,18 +387351,6 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
@@ -387371,7 +387359,15 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387379,15 +387375,19 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -446906,11 +446906,71 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -446922,56 +446982,16 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
@@ -446982,43 +447002,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -447030,11 +447014,27 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         }
       ],
@@ -458272,11 +458272,15 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -458285,10 +458289,6 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -483907,19 +483907,27 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -483931,24 +483939,16 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -536577,37 +536577,6 @@ They also commonly use APIs that are restricted to secure contexts.`,
     }
   },
   {
-    id: "/en-US/docs/Web/Security/User_activation",
-    links: {},
-    data: {
-      metadata: {
-        title: "Features gated by user activation",
-        pageType: "guide",
-        summary: `To ensure applications are unable to abuse APIs that can create a bad user experience when the behavior is not desired, some APIs can only be used when the user is in an "active interaction" state, meaning the user is currently interacting with the web page, or has interacted with the page at least once.
-Browsers limit access to sensitive APIs like popups, fullscreen, or vibration APIs to active user interactions to prevent malicious scripts from abusing these features.
-This page lists web platform features available only after user activation.`,
-        popularity: 0.0006314449197209195,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/user_activation",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Features gated by user activation",
-        status: []
-      },
-      flaws: {},
-      links: [],
-      imgs: [],
-      ids: [
-        "comparison_between_transient_and_sticky_activation",
-        "transient_activation",
-        "sticky_activation",
-        "useractivation_api",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
     links: null,
     data: {
@@ -536683,51 +536652,6 @@ This page lists web platform features available only after user activation.`,
         "the_referrer_problem",
         "how_can_we_fix_this",
         "policy_and_requirements",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Same-origin_policy",
-    links: {},
-    data: {
-      metadata: {
-        title: "Same-origin policy",
-        pageType: "guide",
-        summary: "The same-origin policy is a critical security mechanism that restricts how a document or script loaded by one origin can interact with a resource from another origin.",
-        popularity: 0.005902778227986624,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/same-origin_policy",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Same-origin policy",
-        status: []
-      },
-      flaws: {},
-      links: [
-        "https://url.spec.whatwg.org/#origin",
-        "https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11730",
-        "https://bugzil.la/629094",
-        "https://owasp.org/www-community/attacks/csrf",
-        "https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-objects",
-        "https://publicsuffix.org/",
-        "https://www.w3.org/Security/wiki/Same_Origin_Policy",
-        "https://web.dev/articles/same-origin-policy"
-      ],
-      imgs: [],
-      ids: [
-        "definition_of_an_origin",
-        "inherited_origins",
-        "file_origins",
-        "changing_origin",
-        "cross-origin_network_access",
-        "how_to_allow_cross-origin_access",
-        "how_to_block_cross-origin_access",
-        "cross-origin_script_api_access",
-        "window",
-        "location",
-        "cross-origin_data_storage_access",
         "see_also"
       ]
     }
@@ -536885,6 +536809,453 @@ This page lists web platform features available only after user activation.`,
         "login",
         "password_reset",
         "weaknesses_of_password-based_authentication"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Authentication/Federated_identity",
+    links: {},
+    data: {
+      metadata: {
+        title: "Federated identity",
+        pageType: "guide",
+        summary: "In a federated identity system, a website delegates authentication to a third party.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/authentication/federated_identity",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Federated identity",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://openid.net/developers/how-connect-works/",
+        "https://openid.net/developers/how-connect-works/",
+        "https://datatracker.ietf.org/doc/html/rfc6749",
+        "https://openid.net/specs/openid-connect-core-1_0.html",
+        "https://www.jwt.io/",
+        "http://www.rfc-editor.org/rfc/rfc9700.html",
+        "https://datatracker.ietf.org/doc/html/rfc6749#section-2.1",
+        "https://www.rfc-editor.org/rfc/rfc9700.html#name-client-authentication",
+        "https://datatracker.ietf.org/doc/html/rfc7636",
+        "https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics#name-nonce",
+        "https://datatracker.ietf.org/doc/html/rfc9700#name-pkce-downgrade-attack",
+        "https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps-25",
+        "https://openid.net/specs/openid-connect-frontchannel-1_0.html",
+        "https://openid.net/specs/openid-connect-backchannel-1_0.html",
+        "https://github.com/aaronpk/oauth-fedcm-profile"
+      ],
+      imgs: [
+        "/en-US/docs/Web/Security/Authentication/Federated_identity/federated-identity-overview.svg",
+        "/en-US/docs/Web/Security/Authentication/Federated_identity/oidc-auth-flow.svg"
+      ],
+      ids: [
+        "openid_connect",
+        "authentication_flow",
+        "security_features",
+        "authorization_code_flow",
+        "client_authentication",
+        "proof_key_for_code_exchange_pkce",
+        "csrf_against_the_redirect_url",
+        "authorization_code_injection",
+        "ensuring_that_pkce_is_used",
+        "architectures_for_oidc_clients",
+        "oidc_sign-out",
+        "third-party_cookies",
+        "the_fedcm_api",
+        "fedcm_and_federated_identity_protocols",
+        "choosing_idps",
+        "strengths_and_weaknesses"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses",
+    links: {},
+    data: {
+      metadata: {
+        title: "Defenses",
+        pageType: "guide",
+        summary: "These pages describe web platform features that provide defenses against one or more security attacks.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Defenses",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "certificate_transparency",
+        "mixed_content_blocking",
+        "same-origin_policy",
+        "secure_contexts",
+        "subresource_integrity",
+        "transport_layer_security_tls",
+        "user_activation"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/User_activation",
+    links: {},
+    data: {
+      metadata: {
+        title: "User activation",
+        pageType: "guide",
+        summary: `To ensure applications are unable to abuse APIs that can create a bad user experience when the behavior is not desired, some APIs can only be used when the user is in an "active interaction" state, meaning the user is currently interacting with the web page, or has interacted with the page at least once.
+Browsers limit access to sensitive APIs like popups, fullscreen, or vibration APIs to active user interactions to prevent malicious scripts from abusing these features.
+This page lists web platform features available only after user activation.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/user_activation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "User activation",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "comparison_between_transient_and_sticky_activation",
+        "transient_activation",
+        "sticky_activation",
+        "useractivation_api",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Same-origin_policy",
+    links: {},
+    data: {
+      metadata: {
+        title: "Same-origin policy",
+        pageType: "guide",
+        summary: "The same-origin policy is a critical security mechanism that restricts how a document or script loaded by one origin can interact with a resource from another origin.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/same-origin_policy",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Same-origin policy",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://url.spec.whatwg.org/#origin",
+        "https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11730",
+        "https://bugzil.la/629094",
+        "https://owasp.org/www-community/attacks/csrf",
+        "https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-objects",
+        "https://publicsuffix.org/",
+        "https://www.w3.org/Security/wiki/Same_Origin_Policy",
+        "https://web.dev/articles/same-origin-policy"
+      ],
+      imgs: [],
+      ids: [
+        "definition_of_an_origin",
+        "inherited_origins",
+        "file_origins",
+        "changing_origin",
+        "cross-origin_network_access",
+        "how_to_allow_cross-origin_access",
+        "how_to_block_cross-origin_access",
+        "cross-origin_script_api_access",
+        "window",
+        "location",
+        "cross-origin_data_storage_access",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Subresource_Integrity",
+    links: {},
+    data: {
+      metadata: {
+        title: "Subresource Integrity",
+        pageType: "guide",
+        browserCompat: [
+          "html.elements.link.integrity",
+          "html.elements.script.integrity"
+        ],
+        summary: "Subresource Integrity (SRI) is a security feature that enables browsers to verify that resources they fetch (for example, from a CDN) are delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched resource must match.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/subresource_integrity",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Subresource Integrity",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-integrity",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute",
+          title: "Subresource Integrity"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-integrity",
+          title: "HTML"
+        }
+      ],
+      links: [
+        "https://www.srihash.org/",
+        "https://www.openssl.org/",
+        "https://github.com/openssl/openssl/wiki/Binaries",
+        "https://linux.die.net/man/1/shasum",
+        "https://frederikbraun.de/using-subresource-integrity.html",
+        "https://www.srihash.org/"
+      ],
+      imgs: [],
+      ids: [
+        "how_subresource_integrity_helps",
+        "using_subresource_integrity",
+        "tools_for_generating_sri_hashes",
+        "sri_hash_generator",
+        "using_openssl",
+        "using_shasum",
+        "cross-origin_resource_sharing_and_subresource_integrity",
+        "how_browsers_handle_subresource_integrity",
+        "integrity_policy",
+        "blocked-destinations",
+        "sources",
+        "endpoints",
+        "examples",
+        "subresource_integrity_with_the_script_element",
+        "integrity_enforcement_with_the_integrity-policy_header",
+        "specifications",
+        "browser_compatibility",
+        "html.elements.link.integrity",
+        "html.elements.script.integrity",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Secure_Contexts",
+    links: {},
+    data: {
+      metadata: {
+        title: "Secure contexts",
+        pageType: "guide",
+        summary: "A secure context is a Window or Worker for which certain minimum standards of authentication and confidentiality are met. Many Web APIs and features are accessible only in a secure context. The primary goal of secure contexts is to prevent MITM attackers from accessing powerful APIs that could further compromise the victim of an attack.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/secure_contexts",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Secure contexts",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-secure-contexts/",
+          title: "Secure Contexts"
+        }
+      ],
+      links: [
+        "https://en.wikipedia.org/wiki/Man-in-the-middle_attack",
+        "https://w3c.github.io/webappsec-secure-contexts/",
+        "https://html.spec.whatwg.org/multipage/browsers.html#active-document",
+        "https://html.spec.whatwg.org/multipage/browsers.html#top-level-browsing-context",
+        "https://permission.site"
+      ],
+      imgs: [],
+      ids: [
+        "why_should_some_features_be_restricted",
+        "when_is_a_context_considered_secure",
+        "potentially_trustworthy_origins",
+        "feature_detection",
+        "specifications",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Secure_Contexts/features_restricted_to_secure_contexts",
+    links: {},
+    data: {
+      metadata: {
+        title: "Features restricted to secure contexts",
+        pageType: "guide",
+        summary: "This reference lists the web platform features available only in secure contexts — see Secure Contexts for a definition and more details.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/secure_contexts/features_restricted_to_secure_contexts",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Restricted features",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://w3c.github.io/sensors/",
+        "https://chromestatus.com/features#secure%20context"
+      ],
+      imgs: [],
+      ids: [
+        "current_features_available_only_in_secure_contexts",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Mixed_content",
+    links: {},
+    data: {
+      metadata: {
+        title: "Mixed content",
+        pageType: "guide",
+        browserCompat: [
+          "http.mixed-content"
+        ],
+        summary: `When a web page is loaded from a secure origin, over a secure channel such as HTTPS, the connection with the web server is encrypted, and is therefore protected from eavesdropping and modification by man-in-the-middle attacks.
+If the securely loaded web page only includes images, scripts, and other resources that are also hosted on secure origins, users can be confident that the whole page is safe from these kinds of attacks.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/mixed_content",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Mixed content",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-mixed-content/#intro",
+          title: "Mixed Content"
+        }
+      ],
+      links: [
+        "https://linkchecker.github.io/linkchecker/",
+        "https://httpschecker.net/how-it-works",
+        "https://github.com/agis/mcdetect",
+        "https://www.crawlcenter.com/mixed-content-checker"
+      ],
+      imgs: [
+        "/en-US/docs/Web/Security/Defenses/Mixed_content/mixed_content_console_upgradable.png",
+        "/en-US/docs/Web/Security/Defenses/Mixed_content/mixed_content_console_displayed.png"
+      ],
+      ids: [
+        "types_of_mixed_content",
+        "upgradable_content",
+        "blockable_content",
+        "examples_of_mixed_content_requests",
+        "loading_locally_delivered_mixed-resources",
+        "mixed_downloads",
+        "developer_console",
+        "fixing_mixed_content_issues",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Transport_Layer_Security",
+    links: {},
+    data: {
+      metadata: {
+        title: "Transport Layer Security (TLS)",
+        pageType: "guide",
+        summary: "The security of any connection using Transport Layer Security (TLS) is heavily dependent upon the cipher suites and security parameters selected. This article's goal is to help you make these decisions to ensure the confidentiality and integrity of communication between client and server. The Mozilla Operations Security (OpSec) team maintains a wiki entry with reference configurations for servers.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/transport_layer_security",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Transport Layer Security",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://wiki.mozilla.org/Security/Server_Side_TLS",
+        "https://www.ietf.org/",
+        "https://datatracker.ietf.org/doc/html/rfc2246",
+        "https://datatracker.ietf.org/doc/html/rfc8446",
+        "https://en.wikipedia.org/wiki/Cipher_suite",
+        "https://wiki.mozilla.org/Security/Server_Side_TLS#Cipher_names_correspondence_table",
+        "https://wiki.mozilla.org/Security/Server_Side_TLS",
+        "https://ssl-config.mozilla.org/",
+        "https://ssl-config.mozilla.org/",
+        "https://datatracker.ietf.org/doc/html/rfc8446",
+        "https://en.wikipedia.org/wiki/Digital_Signature_Algorithm",
+        "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
+        "https://bugzil.la/1606734",
+        "https://ssl-config.mozilla.org/",
+        "https://cipherlist.eu/",
+        "https://wiki.mozilla.org/Security/Server_Side_TLS",
+        "https://www.ssllabs.com/ssltest/"
+      ],
+      imgs: [],
+      ids: [
+        "history",
+        "http_over_tls",
+        "authentication",
+        "encryption",
+        "integrity",
+        "cipher_suites",
+        "configuring_your_server",
+        "tls_1.3",
+        "retiring_old_tls_versions",
+        "tls_handshake_timeout_values",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Defenses/Certificate_Transparency",
+    links: {},
+    data: {
+      metadata: {
+        title: "Certificate Transparency",
+        pageType: "guide",
+        summary: "Certificate Transparency is an open framework designed to protect against and monitor for certificate mis-issuances. With certificate transparency, newly-issued certificates are 'logged' to publicly-run, often independent CT logs — which maintain an append-only, cryptographically-assured record of issued TLS certificates.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/defenses/certificate_transparency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Certificate Transparency",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://support.apple.com/en-gb/103214",
+        "https://datatracker.ietf.org/doc/html/rfc6962",
+        "https://datatracker.ietf.org/doc/html/rfc9162",
+        "https://support.apple.com/en-us/103703",
+        "https://googlechrome.github.io/CertificateTransparency/log_policy.html"
+      ],
+      imgs: [],
+      ids: [
+        "background",
+        "implementation",
+        "browser_requirements",
+        "specifications",
+        "see_also"
       ]
     }
   },
@@ -537787,287 +538158,6 @@ This page lists web platform features available only after user activation.`,
     }
   },
   {
-    id: "/en-US/docs/Web/Security/Subresource_Integrity",
-    links: {},
-    data: {
-      metadata: {
-        title: "Subresource Integrity",
-        pageType: "guide",
-        browserCompat: [
-          "html.elements.link.integrity",
-          "html.elements.script.integrity"
-        ],
-        summary: "Subresource Integrity (SRI) is a security feature that enables browsers to verify that resources they fetch (for example, from a CDN) are delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched resource must match.",
-        popularity: 0.005974739610008208,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/subresource_integrity",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Subresource Integrity",
-        status: []
-      },
-      flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-integrity",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute",
-          title: "Subresource Integrity"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-integrity",
-          title: "HTML"
-        }
-      ],
-      links: [
-        "https://www.srihash.org/",
-        "https://www.openssl.org/",
-        "https://github.com/openssl/openssl/wiki/Binaries",
-        "https://linux.die.net/man/1/shasum",
-        "https://frederikbraun.de/using-subresource-integrity.html",
-        "https://www.srihash.org/"
-      ],
-      imgs: [],
-      ids: [
-        "how_subresource_integrity_helps",
-        "using_subresource_integrity",
-        "tools_for_generating_sri_hashes",
-        "sri_hash_generator",
-        "using_openssl",
-        "using_shasum",
-        "cross-origin_resource_sharing_and_subresource_integrity",
-        "how_browsers_handle_subresource_integrity",
-        "integrity_policy",
-        "blocked-destinations",
-        "sources",
-        "endpoints",
-        "examples",
-        "subresource_integrity_with_the_script_element",
-        "integrity_enforcement_with_the_integrity-policy_header",
-        "specifications",
-        "browser_compatibility",
-        "html.elements.link.integrity",
-        "html.elements.script.integrity",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Secure_Contexts",
-    links: {},
-    data: {
-      metadata: {
-        title: "Secure contexts",
-        pageType: "guide",
-        summary: "A secure context is a Window or Worker for which certain minimum standards of authentication and confidentiality are met. Many Web APIs and features are accessible only in a secure context. The primary goal of secure contexts is to prevent MITM attackers from accessing powerful APIs that could further compromise the victim of an attack.",
-        popularity: 0.004962093855794577,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/secure_contexts",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Secure contexts",
-        status: []
-      },
-      flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-secure-contexts/",
-          title: "Secure Contexts"
-        }
-      ],
-      links: [
-        "https://en.wikipedia.org/wiki/Man-in-the-middle_attack",
-        "https://w3c.github.io/webappsec-secure-contexts/",
-        "https://html.spec.whatwg.org/multipage/browsers.html#active-document",
-        "https://html.spec.whatwg.org/multipage/browsers.html#top-level-browsing-context",
-        "https://permission.site"
-      ],
-      imgs: [],
-      ids: [
-        "why_should_some_features_be_restricted",
-        "when_is_a_context_considered_secure",
-        "potentially_trustworthy_origins",
-        "feature_detection",
-        "specifications",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Secure_Contexts/features_restricted_to_secure_contexts",
-    links: {},
-    data: {
-      metadata: {
-        title: "Features restricted to secure contexts",
-        pageType: "guide",
-        summary: "This reference lists the web platform features available only in secure contexts — see Secure Contexts for a definition and more details.",
-        popularity: 0.00026126519779007246,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/secure_contexts/features_restricted_to_secure_contexts",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Restricted features",
-        status: []
-      },
-      flaws: {},
-      links: [
-        "https://w3c.github.io/sensors/",
-        "https://chromestatus.com/features#secure%20context"
-      ],
-      imgs: [],
-      ids: [
-        "current_features_available_only_in_secure_contexts",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Mixed_content",
-    links: {},
-    data: {
-      metadata: {
-        title: "Mixed content",
-        pageType: "guide",
-        browserCompat: [
-          "http.mixed-content"
-        ],
-        summary: `When a web page is loaded from a secure origin, over a secure channel such as HTTPS, the connection with the web server is encrypted, and is therefore protected from eavesdropping and modification by man-in-the-middle attacks.
-If the securely loaded web page only includes images, scripts, and other resources that are also hosted on secure origins, users can be confident that the whole page is safe from these kinds of attacks.`,
-        popularity: 0.004584134524996532,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/mixed_content",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Mixed content",
-        status: []
-      },
-      flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-mixed-content/#intro",
-          title: "Mixed Content"
-        }
-      ],
-      links: [
-        "https://linkchecker.github.io/linkchecker/",
-        "https://httpschecker.net/how-it-works",
-        "https://github.com/agis/mcdetect",
-        "https://www.crawlcenter.com/mixed-content-checker"
-      ],
-      imgs: [
-        "/en-US/docs/Web/Security/Mixed_content/mixed_content_console_upgradable.png",
-        "/en-US/docs/Web/Security/Mixed_content/mixed_content_console_displayed.png"
-      ],
-      ids: [
-        "types_of_mixed_content",
-        "upgradable_content",
-        "blockable_content",
-        "examples_of_mixed_content_requests",
-        "loading_locally_delivered_mixed-resources",
-        "mixed_downloads",
-        "developer_console",
-        "fixing_mixed_content_issues",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Transport_Layer_Security",
-    links: {},
-    data: {
-      metadata: {
-        title: "Transport Layer Security (TLS)",
-        pageType: "guide",
-        summary: "The security of any connection using Transport Layer Security (TLS) is heavily dependent upon the cipher suites and security parameters selected. This article's goal is to help you make these decisions to ensure the confidentiality and integrity of communication between client and server. The Mozilla Operations Security (OpSec) team maintains a wiki entry with reference configurations for servers.",
-        popularity: 0.0015072992180196487,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/transport_layer_security",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Transport Layer Security",
-        status: []
-      },
-      flaws: {},
-      links: [
-        "https://wiki.mozilla.org/Security/Server_Side_TLS",
-        "https://www.ietf.org/",
-        "https://datatracker.ietf.org/doc/html/rfc2246",
-        "https://datatracker.ietf.org/doc/html/rfc8446",
-        "https://en.wikipedia.org/wiki/Cipher_suite",
-        "https://wiki.mozilla.org/Security/Server_Side_TLS#Cipher_names_correspondence_table",
-        "https://wiki.mozilla.org/Security/Server_Side_TLS",
-        "https://ssl-config.mozilla.org/",
-        "https://ssl-config.mozilla.org/",
-        "https://datatracker.ietf.org/doc/html/rfc8446",
-        "https://en.wikipedia.org/wiki/Digital_Signature_Algorithm",
-        "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
-        "https://bugzil.la/1606734",
-        "https://ssl-config.mozilla.org/",
-        "https://cipherlist.eu/",
-        "https://wiki.mozilla.org/Security/Server_Side_TLS",
-        "https://www.ssllabs.com/ssltest/"
-      ],
-      imgs: [],
-      ids: [
-        "history",
-        "http_over_tls",
-        "authentication",
-        "encryption",
-        "integrity",
-        "cipher_suites",
-        "configuring_your_server",
-        "tls_1.3",
-        "retiring_old_tls_versions",
-        "tls_handshake_timeout_values",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/Security/Certificate_Transparency",
-    links: {},
-    data: {
-      metadata: {
-        title: "Certificate Transparency",
-        pageType: "guide",
-        summary: "Certificate Transparency is an open framework designed to protect against and monitor for certificate mis-issuances. With certificate transparency, newly-issued certificates are 'logged' to publicly-run, often independent CT logs — which maintain an append-only, cryptographically-assured record of issued TLS certificates.",
-        popularity: 0.0004810391482884212,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/security/certificate_transparency",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Certificate Transparency",
-        status: []
-      },
-      flaws: {},
-      links: [
-        "https://support.apple.com/en-gb/103214",
-        "https://datatracker.ietf.org/doc/html/rfc6962",
-        "https://datatracker.ietf.org/doc/html/rfc9162",
-        "https://support.apple.com/en-us/103703",
-        "https://googlechrome.github.io/CertificateTransparency/log_policy.html"
-      ],
-      imgs: [],
-      ids: [
-        "background",
-        "implementation",
-        "browser_requirements",
-        "specifications",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/Web/HTTP",
     links: {},
     data: {
@@ -538270,7 +538360,11 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -538282,10 +538376,6 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
@@ -538294,7 +538384,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -549219,6 +549309,7 @@ That is the initiator of the original fetch request, which is where (and how) th
         "frame",
         "iframe",
         "image",
+        "json",
         "manifest",
         "object",
         "paintworklet",
