@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-j3b8q6e6.js";
+} from "./chunk-b8mkkr1x.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -316,19 +316,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -973,19 +960,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            mitm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/MitM",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://portswigger.net/daily-swig/mitm",
-                    "https://portswigger.net/"
-                  ]
-                }
-              ]
-            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1286,19 +1260,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1500,13 +1461,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2248,6 +2202,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2268,27 +2229,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2299,13 +2239,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2319,15 +2252,15 @@ ul li {
                         }
                       ]
                     },
-                    main_features: {
+                    react_getting_started: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://vite.dev/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -3302,6 +3235,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.svelte.dev/tutorial/actions",
+                            404
+                          ]
                         }
                       ]
                     },
@@ -4331,8 +4271,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://vite.dev/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -4374,6 +4314,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -4407,19 +4354,6 @@ body {
                           data: [
                             "https://www.iconfinder.com/nazarr",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4538,6 +4472,19 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    general_embedding_technologies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://letsencrypt.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
@@ -5213,19 +5160,6 @@ span {
                         }
                       ]
                     },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5733,19 +5667,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     introducing_complete_toolchain: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
@@ -5753,8 +5674,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://vite.dev/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -5766,8 +5687,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://vite.dev/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -11337,29 +11271,15 @@ textarea:focus {
 ~~~
 `
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
-                      }
+                      ]
                     }
                   }
                 },
@@ -11905,23 +11825,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12286,19 +12189,6 @@ padding-left: 20px;
                       data: []
                     }
                   ]
-                },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phauer.com/2018/code-review-guidelines/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12343,13 +12233,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12460,6 +12343,13 @@ color: rgb(31 41 59 / 26%);
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://imageoptim.com/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "Broken external link",
                       data: [
@@ -12585,20 +12475,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 },
@@ -12619,34 +12495,10 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
-                              messages: [
-                                {
-                                  message: "HTTP link",
-                                  data: [
-                                    "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             panels: {
                               children: {
@@ -13674,6 +13526,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via page",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://forums.mozillazine.org/viewtopic.php?t=263028",
+                                500
+                              ]
                             }
                           ]
                         }
@@ -13690,6 +13549,13 @@ webextensions.manifest.options_ui`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://kb.mozillazine.org/Getting_started_with_extension_development",
+                            500
                           ]
                         }
                       ]
@@ -13723,6 +13589,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://forums.mozillazine.org/viewtopic.php?f=18&t=665138",
+                                500
+                              ]
                             }
                           ]
                         }
@@ -13767,6 +13640,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://forums.mozillazine.org/viewtopic.php?f=18&t=975065",
+                                500
+                              ]
                             }
                           ]
                         }
@@ -13790,7 +13670,56 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {},
+          children: {
+            imsc: {
+              children: {
+                imsc_and_other_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
+                        502
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
+                        502
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
+                        502
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7290363",
+                        502
+                      ]
+                    }
+                  ]
+                }
+              },
+              slug: "/en-US/docs/Related/IMSC",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
+                    502
+                  ]
+                }
+              ]
+            }
+          },
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -16639,6 +16568,48 @@ html {
                       ]
                     }
                   }
+                },
+                sanitizerconfig: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SanitizerConfig",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "syntax",
+                        "Parsing error: Invalid character.",
+                        "}); …",
+                        "4:16",
+                        `/en-US/docs/Web/API/SanitizerConfig
+[syntax] Parsing error: Invalid character.
+~~~
+const sanitizer3 = new Sanitizer({
+  attributes: ["lang", "id", "data-test"],
+  datatAttributes: true,
+}); …
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "syntax",
+                        "Parsing error: Invalid character.",
+                        "}); …",
+                        "4:16",
+                        `/en-US/docs/Web/API/SanitizerConfig
+[syntax] Parsing error: Invalid character.
+~~~
+const sanitizer4 = new Sanitizer({
+  removeAttributes: ["lang", "id"],
+  dataAttributes: true,
+}); …
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 screen_capture_api: {
                   children: {
@@ -29253,40 +29224,6 @@ blockquote p::after {
                         }
                       ]
                     },
-                    nesting: {
-                      children: {
-                        using: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -32456,19 +32393,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        grid_wrapper: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-irl.info/more-flexibility-with-minmax/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -32682,6 +32606,225 @@ p {
                               ]
                             }
                           }
+                        },
+                        "@custom-media": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@custom-media",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--mobile-screen" (no-unknown-custom-media)',
+                                "@media (--mobile-screen) {",
+                                "7:9 - 7:24",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--mobile-screen" (no-unknown-custom-media)
+~~~
+/* layout.css */
+
+.container {
+  padding: 1rem;
+}
+
+@media (--mobile-screen) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    max-width: 1400px;
+    padding: 2rem;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--laptop-screen" (no-unknown-custom-media)',
+                                "@media (--laptop-screen) {",
+                                "13:9 - 13:24",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--laptop-screen" (no-unknown-custom-media)
+~~~
+/* layout.css */
+
+.container {
+  padding: 1rem;
+}
+
+@media (--mobile-screen) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    max-width: 1400px;
+    padding: 2rem;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--widescreen" (no-unknown-custom-media)',
+                                "@media (--widescreen) {",
+                                "19:9 - 19:21",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--widescreen" (no-unknown-custom-media)
+~~~
+/* layout.css */
+
+.container {
+  padding: 1rem;
+}
+
+@media (--mobile-screen) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    max-width: 1400px;
+    padding: 2rem;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--tablet-screen" (no-unknown-custom-media)',
+                                "@media (--tablet-screen) {",
+                                "3:9 - 3:24",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--tablet-screen" (no-unknown-custom-media)
+~~~
+/* typography.css */
+
+@media (--tablet-screen) {
+  .container {
+    font-size: 0.9rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    font-size: 1.1rem;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--laptop-screen" (no-unknown-custom-media)',
+                                "@media (--laptop-screen) {",
+                                "9:9 - 9:24",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--laptop-screen" (no-unknown-custom-media)
+~~~
+/* typography.css */
+
+@media (--tablet-screen) {
+  .container {
+    font-size: 0.9rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    font-size: 1.1rem;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "no-unknown-custom-media",
+                                'Unexpected unknown custom media "--widescreen" (no-unknown-custom-media)',
+                                "@media (--widescreen) {",
+                                "15:9 - 15:21",
+                                `/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unexpected unknown custom media "--widescreen" (no-unknown-custom-media)
+~~~
+/* typography.css */
+
+@media (--tablet-screen) {
+  .container {
+    font-size: 0.9rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    font-size: 1.1rem;
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
                         },
                         "@font-face": {
                           children: {
@@ -33666,116 +33809,6 @@ text:nth-of-type(7) {
 text:nth-of-type(8) {
   alignment-baseline: text-top;
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-range": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "</label>",
-                                "36:2 - 36:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-range
-[syntax] Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<div class="content">
-  <h1>Content</h1>
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam
-    quisque id. Et ligula ullamcorper malesuada proin libero nunc consequat
-    interdum varius. Elit ullamcorper dignissim cras tincidunt lobortis feugiat
-    vivamus at augue.
-  </p>
-
-  <p>
-    Dolor sed viverra ipsum nunc aliquet. Sed sed risus pretium quam vulputate
-    dignissim. Tortor aliquam nulla facilisi cras. A erat nam at lectus urna
-    duis convallis convallis. Nibh ipsum consequat nisl vel pretium lectus.
-    Sagittis aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum
-    arcu vitae elementum curabitur vitae nunc sed velit.
-  </p>
-</div>
-
-<div class="animatedElement"></div>
-
-<p>
-  Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Arcu
-  cursus vitae congue mauris rhoncus aenean vel. Sit amet cursus sit amet
-  dictum. Augue neque gravida in fermentum et. Gravida rutrum quisque non tellus
-  orci ac auctor augue mauris. Risus quis varius quam quisque id diam vel quam
-  elementum. Nibh praesent tristique magna sit amet purus gravida quis. Duis
-  ultricies lacus sed turpis tincidunt id aliquet. In egestas erat imperdiet sed
-  euismod nisi. Eget egestas purus viverra accumsan in nisl nisi scelerisque.
-  Netus et malesuada fames ac.
-</p>
-<p></p>
-<label>
-  <input type="checkbox" /> Add <code>animation-fill-mode: both;</code>
-</label>
-  </p>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </p>",
-                                "37:0 - 37:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-range
-[syntax] Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<div class="content">
-  <h1>Content</h1>
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam
-    quisque id. Et ligula ullamcorper malesuada proin libero nunc consequat
-    interdum varius. Elit ullamcorper dignissim cras tincidunt lobortis feugiat
-    vivamus at augue.
-  </p>
-
-  <p>
-    Dolor sed viverra ipsum nunc aliquet. Sed sed risus pretium quam vulputate
-    dignissim. Tortor aliquam nulla facilisi cras. A erat nam at lectus urna
-    duis convallis convallis. Nibh ipsum consequat nisl vel pretium lectus.
-    Sagittis aliquam malesuada bibendum arcu vitae elementum. Malesuada bibendum
-    arcu vitae elementum curabitur vitae nunc sed velit.
-  </p>
-</div>
-
-<div class="animatedElement"></div>
-
-<p>
-  Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Arcu
-  cursus vitae congue mauris rhoncus aenean vel. Sit amet cursus sit amet
-  dictum. Augue neque gravida in fermentum et. Gravida rutrum quisque non tellus
-  orci ac auctor augue mauris. Risus quis varius quam quisque id diam vel quam
-  elementum. Nibh praesent tristique magna sit amet purus gravida quis. Duis
-  ultricies lacus sed turpis tincidunt id aliquet. In egestas erat imperdiet sed
-  euismod nisi. Eget egestas purus viverra accumsan in nisl nisi scelerisque.
-  Netus et malesuada fames ac.
-</p>
-<p></p>
-<label>
-  <input type="checkbox" /> Add <code>animation-fill-mode: both;</code>
-</label>
-  </p>
-</div>
 ~~~
 `
                               ]
@@ -40788,18 +40821,6 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "view-timeline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/view"
-                              ]
                             }
                           ]
                         },
@@ -59751,6 +59772,16 @@ css.properties.grid-template-rows.repeat`
                             }
                           ]
                         },
+                        "rule-list": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/rule-list",
+                          messages: [
+                            {
+                              message: "Missing syntax code block",
+                              data: []
+                            }
+                          ]
+                        },
                         shape: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/shape",
@@ -61064,7 +61095,16 @@ section::after {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Values",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Values/rule-list"
+                          ]
+                        }
+                      ]
                     },
                     webkit_extensions: {
                       children: {},
@@ -61589,20 +61629,135 @@ section::after {
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/CSS",
-              messages: [
-                {
-                  message: "Broken sidebar link",
-                  data: [
-                    "Houdini",
-                    "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Houdini"
-                  ]
-                }
-              ]
+              }
             },
             html: {
               children: {
+                guides: {
+                  children: {
+                    microformats: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/value-class-pattern",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/rel-values",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/search_engines",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/HTML/Guides",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://microformats.org/wiki/Main_Page",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -61668,6 +61823,26 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
+                            me: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/RelMeAuth",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/web-sign-in",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -61728,7 +61903,17 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://microformats.org/wiki/existing-rel-values",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         size: {
                           children: {},
@@ -62858,6 +63043,23 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    content_negotiation: {
+                      children: {
+                        list_of_default_accept_values: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation/List_of_default_Accept_values",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://kb.mozillazine.org/Network.http.accept.default",
+                                500
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     cors: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
@@ -62905,6 +63107,21 @@ http.headers.Use-As-Dictionary`,
                           }
                         }
                       }
+                    },
+                    iframe_credentialless: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/IFrame_credentialless",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "html.elements.iframe.credentialless",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
                     },
                     network_error_logging: {
                       children: {},
@@ -63336,6 +63553,30 @@ http.headers.Use-As-Dictionary`,
             },
             security: {
               children: {
+                attacks: {
+                  children: {
+                    mitm: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/MITM",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://letsencrypt.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://letsencrypt.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 authentication: {
                   children: {
                     federated_identity: {
@@ -63351,13 +63592,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://www.rfc-editor.org/rfc/rfc9700.html",
-                            "has HTTPS alternative"
-                          ]
                         }
                       ]
                     }
@@ -63421,12 +63655,6 @@ html.elements.script.integrity`,
                   slug: "/en-US/docs/Web/Security/Defenses",
                   messages: [
                     {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/Security/Defenses/Certificate_Transparency"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -63445,21 +63673,6 @@ html.elements.script.integrity`,
                       data: [
                         "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
                         500
-                      ]
-                    }
-                  ]
-                },
-                iframe_credentialless: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/IFrame_credentialless",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "html.elements.iframe.credentialless",
-                        "Expected:",
-                        "[None]"
                       ]
                     }
                   ]
@@ -63489,12 +63702,6 @@ html.elements.script.integrity`,
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Security/Attacks"
-                  ]
-                },
-                {
-                  message: "No link to child page",
-                  data: [
-                    "/en-US/docs/Web/Security/IFrame_credentialless"
                   ]
                 }
               ]
@@ -64333,6 +64540,27 @@ svg.elements.feSpotLight.z`
                       ]
                     }
                   ]
+                },
+                xpath: {
+                  children: {
+                    guides: {
+                      children: {
+                        snippets: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XPath/Guides/Snippets",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://forums.mozillazine.org/viewtopic.php?t=229106",
+                                500
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
