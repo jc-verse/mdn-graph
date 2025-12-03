@@ -34,8 +34,8 @@ jobs:
 
       - name: Install dependencies for mdn/content
         run: |
-          rm yarn.lock
-          yarn install
+          rm package-lock.json
+          npm install
         working-directory: ./content
 
       - name: Install dependencies for this repo
@@ -46,7 +46,7 @@ jobs:
 
       - name: Build mdn/content
         run: |
-          yarn build --json-issues --json-live-samples
+          npm run build -- --json-issues --json-live-samples
         working-directory: ./content
 
       - name: Build MDN graph

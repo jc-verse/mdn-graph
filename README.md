@@ -14,7 +14,7 @@ For the data source, you need to have the [mdn/content](https://github.com/mdn/c
 
 ```sh
 cd content
-yarn build
+npm run build
 ```
 
 Then, build the graph:
