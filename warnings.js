@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-p66v7zc8.js";
+} from "./chunk-8a82xwvt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -326,15 +326,8 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
                     "https://stylus-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1280,19 +1273,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1465,23 +1445,6 @@ var warnings_processed_default = {
             },
             core: {
               children: {
-                accessibility: {
-                  children: {
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.performancehealth.com/adjustable-headpointer",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -1524,13 +1487,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2279,13 +2235,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2296,13 +2245,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/3.15/functions/@glimmer%2Ftracking/tracked",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2317,13 +2259,6 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://guides.emberjs.com/release/tutorial/part-1/",
                             "The operation timed out."
                           ]
@@ -2331,7 +2266,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         }
@@ -2377,33 +2312,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/",
+                            "https://testing-library.com/",
                             "The operation timed out."
                           ]
                         }
@@ -4408,15 +4317,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4491,6 +4393,19 @@ body {
                           data: [
                             "https://www.iconfinder.com/nazarr",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    debugging_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/play/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4707,6 +4622,19 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     planet_data_table: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Planet_data_table",
@@ -5369,19 +5297,6 @@ span {
                         }
                       ]
                     },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5446,6 +5361,20 @@ h2 {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -5896,40 +5825,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
                           ]
                         }
@@ -11446,6 +11342,32 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11503,15 +11425,8 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://stylus-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -11529,6 +11444,26 @@ textarea:focus {
                               data: [
                                 "https://websniffer.com/",
                                 "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://basecamp.com/",
+                                403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://highrisehq.com/",
+                                403
                               ]
                             }
                           ]
@@ -12079,23 +12014,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12304,6 +12222,33 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -12311,6 +12256,19 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12407,19 +12365,6 @@ padding-left: 20px;
                     }
                   ]
                 },
-                open_source_etiquette: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
-                        "unknown certificate verification error"
-                      ]
-                    }
-                  ]
-                },
                 pull_requests: {
                   children: {},
                   slug: "/en-US/docs/MDN/Community/Pull_requests",
@@ -12481,15 +12426,8 @@ color: rgb(31 41 59 / 26%);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12725,6 +12663,20 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -12745,10 +12697,34 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -13739,136 +13715,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "122": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=122",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "128": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=128",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "129": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=129",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=130",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "135": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=135",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "143": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=143",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "144": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=144",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "145": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -14680,19 +14526,6 @@ div {
                           ]
                         }
                       ]
-                    },
-                    determining_the_dimensions_of_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/previous-versions/hh781509(v=vs.85)",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
@@ -15224,6 +15057,25 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
+                document: {
+                  children: {
+                    activeviewtransition: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/activeViewTransition",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -15367,6 +15219,52 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                htmlareaelement: {
+                  children: {
+                    interestforelement: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLAreaElement/interestForElement",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<map> is missing required "name" attribute',
+                            "map",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLAreaElement/interestForElement
+[element-required-attributes] <map> is missing required "name" attribute
+~~~
+<map>
+  <area href="#" shape="default" />
+</map>
+<div id="mypopover" popover>I am a <code>&lt;div&gt;</code> element.</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "area-alt",
+                            '"alt" attribute must be set and non-empty when the "href" attribute is present',
+                            "href",
+                            "2:9",
+                            `/en-US/docs/Web/API/HTMLAreaElement/interestForElement
+[area-alt] "alt" attribute must be set and non-empty when the "href" attribute is present
+~~~
+<map>
+  <area href="#" shape="default" />
+</map>
+<div id="mypopover" popover>I am a <code>&lt;div&gt;</code> element.</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlimageelement: {
                   children: {
@@ -16410,22 +16308,853 @@ aside {
                     }
                   }
                 },
-                payment_request_api: {
+                navigateevent: {
                   children: {
-                    using_secure_payment_confirmation: {
+                    canintercept: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
+                      slug: "/en-US/docs/Web/API/NavigateEvent/canIntercept",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Page status inconsistent with BCD",
                           data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    destination: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/destination",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    downloadrequest: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/downloadRequest",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    formdata: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/formData",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    hashchange: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/hashChange",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    hasuavisualtransition: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/hasUAVisualTransition",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    info: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/info",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    intercept: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/intercept",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigateevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/NavigateEvent",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigationtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/navigationType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    scroll: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/scroll",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    signal: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/signal",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    sourceelement: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/sourceElement",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    userinitiated: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigateEvent/userInitiated",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
                           ]
                         }
                       ]
                     }
                   },
+                  slug: "/en-US/docs/Web/API/NavigateEvent",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigation: {
+                  children: {
+                    activation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/activation",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    back: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/back",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    cangoback: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/canGoBack",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    cangoforward: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/canGoForward",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    currententry: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/currentEntry",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    entries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/entries",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    forward: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/forward",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/navigate",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    reload: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/reload",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    transition: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/transition",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    traverseto: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/traverseTo",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    updatecurrententry: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigation/updateCurrentEntry",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Navigation",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Navigation_API",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigationactivation: {
+                  children: {
+                    entry: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationActivation/entry",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    from: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationActivation/from",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigationtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationActivation/navigationType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/NavigationActivation",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigationcurrententrychangeevent: {
+                  children: {
+                    from: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationCurrentEntryChangeEvent/from",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigationcurrententrychangeevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationCurrentEntryChangeEvent/NavigationCurrentEntryChangeEvent",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigationtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationCurrentEntryChangeEvent/navigationType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/NavigationCurrentEntryChangeEvent",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigationdestination: {
+                  children: {
+                    getstate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/getState",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    id: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/id",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    index: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/index",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    key: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/key",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    samedocument: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/sameDocument",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    url: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationDestination/url",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/NavigationDestination",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigationhistoryentry: {
+                  children: {
+                    getstate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/getState",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    id: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/id",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    index: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/index",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    key: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/key",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    samedocument: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/sameDocument",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    url: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationHistoryEntry/url",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/NavigationHistoryEntry",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                navigationtransition: {
+                  children: {
+                    finished: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationTransition/finished",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    from: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationTransition/from",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    navigationtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NavigationTransition/navigationType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/NavigationTransition",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                ovr_multiview2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OVR_multiview2",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                payment_request_api: {
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -16674,6 +17403,551 @@ html {
                           ]
                         }
                       ]
+                    },
+                    using_interest_invokers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Popover_API/Using_interest_invokers",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Elements/button",
+                            "#popover"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#the_interest_invoker_javascript_api"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "property-no-unknown",
+                            'Unexpected unknown property "interest-delay" (property-no-unknown)',
+                            "  interest-delay: 1s 2s;",
+                            "11:3 - 11:17",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[property-no-unknown] Unexpected unknown property "interest-delay" (property-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  interest-delay: 1s 2s;
+}
+
+button:interest-source {
+  background-color: orange;
+}
+
+p:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+
+#mytooltip {
+  position-area: bottom;
+}
+
+#mytooltip:interest-target {
+  border-style: dashed;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "property-no-unknown",
+                            'Unexpected unknown property "interest-delay-start" (property-no-unknown)',
+                            "  interest-delay-start: 0s;",
+                            "19:3 - 19:23",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[property-no-unknown] Unexpected unknown property "interest-delay-start" (property-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  interest-delay: 1s 2s;
+}
+
+button:interest-source {
+  background-color: orange;
+}
+
+p:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+
+#mytooltip {
+  position-area: bottom;
+}
+
+#mytooltip:interest-target {
+  border-style: dashed;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-class-no-unknown",
+                            'Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)',
+                            "button:interest-source {",
+                            "14:7 - 14:23",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  interest-delay: 1s 2s;
+}
+
+button:interest-source {
+  background-color: orange;
+}
+
+p:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+
+#mytooltip {
+  position-area: bottom;
+}
+
+#mytooltip:interest-target {
+  border-style: dashed;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-class-no-unknown",
+                            'Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)',
+                            "p:has(button:interest-source) button {",
+                            "18:13 - 18:29",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  interest-delay: 1s 2s;
+}
+
+button:interest-source {
+  background-color: orange;
+}
+
+p:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+
+#mytooltip {
+  position-area: bottom;
+}
+
+#mytooltip:interest-target {
+  border-style: dashed;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-class-no-unknown",
+                            'Unexpected unknown pseudo-class selector ":interest-target" (selector-pseudo-class-no-unknown)',
+                            "#mytooltip:interest-target {",
+                            "26:11 - 26:27",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-target" (selector-pseudo-class-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  interest-delay: 1s 2s;
+}
+
+button:interest-source {
+  background-color: orange;
+}
+
+p:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+
+#mytooltip {
+  position-area: bottom;
+}
+
+#mytooltip:interest-target {
+  border-style: dashed;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+
+const tooltip = document.getElementById("mytooltip");
+const links = document.querySelectorAll("a");
+links.forEach((link) => (link.interestForElement = tooltip));
+
+tooltip.addEventListener("interest", (e) => {
+  tooltip.textContent = \`Interest shown on \${e.source.textContent}\`;
+});
+
+tooltip.addEventListener("loseinterest", (e) => {
+  e.source.textContent += "*";
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "syntax",
+                            'Opening tag "a" not terminated.',
+                            '  <a href="#">Link 2</a>',
+                            "4:2 - 4:13",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[syntax] Opening tag "a" not terminated.
+~~~
+<p>
+  Here's some links:
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#"">Link 3</a>
+</p>
+<p id="mytooltip" popover="hint">A hover toolip</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "syntax",
+                            'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            '  <a href="#">Link 2</a>',
+                            "4:21 - 4:25",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>
+  Here's some links:
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#"">Link 3</a>
+</p>
+<p id="mytooltip" popover="hint">A hover toolip</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-class-no-unknown",
+                            'Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)',
+                            "button:interest-source {",
+                            "88:7 - 88:23",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)
+~~~
+.no-interest-invokers body::before {
+  content: "Your browser doesn't support interest invokers.";
+  background-color: wheat;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+body > div {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#style-panel {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border-width: 10px;
+  corner-shape: scoop;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+p {
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.black-white {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.bubblegum {
+  color: #fff8f0;
+  background-color: #ef476f;
+  border: 2px solid #fff8f0;
+  box-shadow: 0 0 2px #ef476f;
+}
+
+.purple-haze {
+  color: #8a1c7c;
+  background-color: #f0bcd4;
+  border: 2px solid #8a1c7c;
+}
+
+.blaze {
+  color: #f2e94e;
+  background-color: #7e6b8f;
+  border: 2px solid #f2e94e;
+}
+
+.mint-brown {
+  color: #41463d;
+  background-color: #1cfeba;
+  border: 2px solid #41463d;
+}
+
+button:interest-source {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+#style-panel {
+  transition: all 0.7s;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                            '  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");',
+                            "2:31 - 2:45",
+                            `/en-US/docs/Web/API/Popover_API/Using_interest_invokers
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const supported =
+  HTMLButtonElement.prototype.hasOwnProperty("interestForElement");
+if (!supported) {
+  document.querySelector("html").classList.add("no-interest-invokers");
+}
+
+const stylePanel = document.getElementById("style-panel");
+const buttons = document.querySelectorAll("button");
+
+let prevStyle = "black-white";
+
+stylePanel.addEventListener("interest", sampleStyle);
+stylePanel.addEventListener("loseinterest", revertStyle);
+buttons.forEach((button) => button.addEventListener("click", setStyle));
+
+function sampleStyle(e) {
+  e.target.className = e.source.className;
+}
+
+function revertStyle(e) {
+  e.target.className = prevStyle;
+}
+
+function setStyle(e) {
+  stylePanel.className = e.target.className;
+  prevStyle = e.target.className;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -16706,19 +17980,6 @@ html {
                           message: "Not in BCD",
                           data: [
                             "api.PublicKeyCredential.id"
-                          ]
-                        }
-                      ]
-                    },
-                    isuserverifyingplatformauthenticatoravailable_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello",
-                            503
                           ]
                         }
                       ]
@@ -17484,19 +18745,6 @@ env(viewport-segment-width 0 1)
                     }
                   ]
                 },
-                web_midi_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Web_MIDI_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/",
-                        503
-                      ]
-                    }
-                  ]
-                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -17534,6 +18782,57 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        adding_2d_content_to_a_webgl_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.pdf",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    webgl_best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webgl2renderingcontext: {
+                  children: {
+                    texstorage2d: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL2RenderingContext/texStorage2D",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/specs/latest/2.0/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 webrtc_api: {
                   children: {
@@ -17636,6 +18935,25 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                window: {
+                  children: {
+                    navigation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/navigation",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 windowsharedstorage: {
                   children: {
@@ -29538,40 +30856,6 @@ blockquote p::after {
                         }
                       ]
                     },
-                    nesting: {
-                      children: {
-                        using: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -35206,6 +36490,73 @@ p {
                             }
                           ]
                         },
+                        "baseline-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/baseline-source",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "last baseline"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "first baseline"
+                              ]
+                            },
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#888" to be "#888888" (color-hex-length)',
+                                "  border: 2px solid #888;",
+                                "6:21 - 6:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/baseline-source
+[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
+~~~
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  border: 2px solid #888;
+  width: 50px;
+}
+
+span {
+  padding: 0.4rem;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.first {
+  baseline-source: first;
+}
+
+.auto {
+  baseline-source: auto;
+}
+
+.last {
+  baseline-source: last;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "border-radius": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
@@ -35792,6 +37143,21 @@ i {
                             }
                           ]
                         },
+                        "field-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/field-sizing",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
                         fill: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/fill",
@@ -36364,19 +37730,6 @@ rect {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "font-language-override": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-language-override",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/typography/opentype/spec/languagetags",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -37585,6 +38938,168 @@ p {
                               message: "Missing data",
                               data: [
                                 "CSS info"
+                              ]
+                            }
+                          ]
+                        },
+                        "interest-delay": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "interest-delay" (property-no-unknown)',
+                                "  interest-delay: 1s 2s;",
+                                "2:3 - 2:17",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay
+[property-no-unknown] Unexpected unknown property "interest-delay" (property-no-unknown)
+~~~
+.delay {
+  interest-delay: 1s 2s;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "interest-delay-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "interest-delay-end" (property-no-unknown)',
+                                "  interest-delay-end: 2s;",
+                                "2:3 - 2:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end
+[property-no-unknown] Unexpected unknown property "interest-delay-end" (property-no-unknown)
+~~~
+.delay {
+  interest-delay-end: 2s;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "interest-delay-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "interest-delay-start" (property-no-unknown)',
+                                "  interest-delay-start: 2s;",
+                                "2:3 - 2:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start
+[property-no-unknown] Unexpected unknown property "interest-delay-start" (property-no-unknown)
+~~~
+.delay {
+  interest-delay-start: 2s;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "interest-delay-start" (property-no-unknown)',
+                                "  interest-delay-start: 1s;",
+                                "2:3 - 2:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start
+[property-no-unknown] Unexpected unknown property "interest-delay-start" (property-no-unknown)
+~~~
+button {
+  interest-delay-start: 1s;
+}
+
+#mypopover {
+  position-area: bottom;
+}
+
+.container:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "interest-delay-start" (property-no-unknown)',
+                                "  interest-delay-start: 0s;",
+                                "10:3 - 10:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start
+[property-no-unknown] Unexpected unknown property "interest-delay-start" (property-no-unknown)
+~~~
+button {
+  interest-delay-start: 1s;
+}
+
+#mypopover {
+  position-area: bottom;
+}
+
+.container:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-pseudo-class-no-unknown",
+                                'Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)',
+                                ".container:has(button:interest-source) button {",
+                                "9:22 - 9:38",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)
+~~~
+button {
+  interest-delay-start: 1s;
+}
+
+#mypopover {
+  position-area: bottom;
+}
+
+.container:has(button:interest-source) button {
+  interest-delay-start: 0s;
+}
+~~~
+`
                               ]
                             }
                           ]
@@ -39149,6 +40664,21 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        "position-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-visibility",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
                               ]
                             }
                           ]
@@ -41235,7 +42765,34 @@ div {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/baseline-source"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start"
+                          ]
+                        }
+                      ]
                     },
                     selectors: {
                       children: {
@@ -41542,6 +43099,207 @@ input:in-range + label::after {
 
 input:out-of-range + label::after {
   content: "out of range!";
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_interest-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:interest-source",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                                "  border: 1px solid #ddd;",
+                                "4:21 - 4:25",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-source
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+button:interest-source {
+  background-color: hotpink;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                                "  background-color: #eee;",
+                                "7:21 - 7:25",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-source
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+button:interest-source {
+  background-color: hotpink;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-pseudo-class-no-unknown",
+                                'Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)',
+                                "button:interest-source {",
+                                "12:7 - 12:23",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-source
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-source" (selector-pseudo-class-no-unknown)
+~~~
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+button:interest-source {
+  background-color: hotpink;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_interest-target": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:interest-target",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                                "  border: 1px solid #ddd;",
+                                "7:21 - 7:25",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-target
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+body {
+  margin: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+p:interest-target {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: hotpink;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                                "  background-color: #eee;",
+                                "9:21 - 9:25",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-target
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+body {
+  margin: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+p:interest-target {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: hotpink;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-pseudo-class-no-unknown",
+                                'Unexpected unknown pseudo-class selector ":interest-target" (selector-pseudo-class-no-unknown)',
+                                "p:interest-target {",
+                                "14:2 - 14:18",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:interest-target
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":interest-target" (selector-pseudo-class-no-unknown)
+~~~
+body {
+  margin: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #eee;
+
+  cursor: pointer;
+}
+
+p:interest-target {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: hotpink;
+  color: purple;
 }
 ~~~
 `
@@ -42450,6 +44208,24 @@ ul::scroll-button(right) {
                                 "[None]",
                                 "Expected:",
                                 "css.selectors.column"
+                              ]
+                            }
+                          ]
+                        },
+                        "pseudo-classes": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Selectors/:interest-target"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Selectors/:interest-source"
                               ]
                             }
                           ]
@@ -60164,6 +61940,36 @@ rect(top, right, bottom, left)
                             }
                           ]
                         },
+                        "sibling-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-count",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
+                        "sibling-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/sibling-index",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
                         string: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/string",
@@ -61994,131 +63800,6 @@ section::after {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -62184,26 +63865,6 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -62264,17 +63925,7 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         size: {
                           children: {},
@@ -63503,6 +65154,32 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -63570,36 +65247,6 @@ http.headers.Use-As-Dictionary`,
                           }
                         }
                       }
-                    },
-                    status: {
-                      children: {
-                        "405": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/405",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/aspnet/web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        "501": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/501",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/aspnet/web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications",
-                                503
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 }
@@ -63607,41 +65254,10 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
-                guide: {
-                  children: {
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -63655,6 +65271,25 @@ http.headers.Use-As-Dictionary`,
                                   message: "Not in BCD",
                                   data: [
                                     "javascript.builtins.AsyncGeneratorFunction.prototype"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        date: {
+                          children: {
+                            totemporalinstant: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTemporalInstant",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
                                   ]
                                 }
                               ]
@@ -63693,6 +65328,40 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        map: {
+                          children: {
+                            getorinsert: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsert",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            getorinsertcomputed: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsertComputed",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         object: {
                           children: {}
                         },
@@ -63708,6 +65377,3590 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        temporal: {
+                          children: {
+                            duration: {
+                              children: {
+                                abs: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/abs",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                blank: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/blank",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                days: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/days",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                duration: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/Duration",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                hours: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/hours",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                microseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/microseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                milliseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/milliseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                minutes: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/minutes",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                months: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/months",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                nanoseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/nanoseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                negated: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/negated",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                round: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/round",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                seconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/seconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                sign: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/sign",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                total: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/total",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                weeks: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/weeks",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                years: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/years",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            instant: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                epochmilliseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochMilliseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                epochnanoseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochNanoseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                fromepochmilliseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochMilliseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                fromepochnanoseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochNanoseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                round: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/round",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tozoneddatetimeiso: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toZonedDateTimeISO",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            now: {
+                              children: {
+                                instant: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/instant",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                plaindateiso: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateISO",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                plaindatetimeiso: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateTimeISO",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                plaintimeiso: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainTimeISO",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                timezoneid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/timeZoneId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                zoneddatetimeiso: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/zonedDateTimeISO",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            plaindate: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                calendarid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/calendarId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                day: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/day",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/dayOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/dayOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinmonth: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInMonth",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                era: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/era",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                erayear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/eraYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                inleapyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/inLeapYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                month: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/month",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthcode: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/monthCode",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthsinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/monthsInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindatetime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainDateTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplainmonthday: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainMonthDay",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplainyearmonth: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainYearMonth",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tozoneddatetime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toZonedDateTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                weekofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/weekOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withcalendar: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/withCalendar",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                year: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/year",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                yearofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/yearOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            plaindatetime: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                calendarid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/calendarId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                day: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/day",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/dayOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/dayOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinmonth: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInMonth",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                era: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/era",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                erayear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/eraYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                hour: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/hour",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                inleapyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/inLeapYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                microsecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/microsecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                millisecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/millisecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                minute: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/minute",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                month: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/month",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthcode: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/monthCode",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthsinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/monthsInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                nanosecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/nanosecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                round: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/round",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                second: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/second",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindate: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toPlainDate",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaintime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toPlainTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tozoneddatetime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toZonedDateTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                weekofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/weekOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withcalendar: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/withCalendar",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withplaintime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/withPlainTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                year: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/year",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                yearofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/yearOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            plainmonthday: {
+                              children: {
+                                calendarid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/calendarId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                day: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/day",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthcode: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/monthCode",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindate: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toPlainDate",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            plaintime: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                hour: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/hour",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                microsecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/microsecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                millisecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/millisecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                minute: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/minute",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                nanosecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/nanosecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                plaintime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/PlainTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                round: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/round",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                second: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/second",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            plainyearmonth: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                calendarid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/calendarId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinmonth: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/daysInMonth",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/daysInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                era: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/era",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                erayear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/eraYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                inleapyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/inLeapYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                month: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/month",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthcode: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/monthCode",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthsinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/monthsInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindate: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toPlainDate",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                year: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/year",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            zoneddatetime: {
+                              children: {
+                                add: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/add",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                calendarid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/calendarId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                compare: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/compare",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                day: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/day",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                dayofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinmonth: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInMonth",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                daysinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                epochmilliseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochMilliseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                epochnanoseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochNanoseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                equals: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/equals",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                era: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/era",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                erayear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/eraYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                from: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/from",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                gettimezonetransition: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/getTimeZoneTransition",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                hour: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hour",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                hoursinday: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hoursInDay",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                inleapyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/inLeapYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                microsecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/microsecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                millisecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/millisecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                minute: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/minute",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                month: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/month",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthcode: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthCode",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                monthsinyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthsInYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                nanosecond: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/nanosecond",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                offset: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offset",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                offsetnanoseconds: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offsetNanoseconds",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                round: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/round",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                second: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/second",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                since: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/since",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                startofday: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/startOfDay",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subtract: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/subtract",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                timezoneid: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/timeZoneId",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toinstant: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toInstant",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tojson: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toJSON",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tolocalestring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toLocaleString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindate: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDate",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaindatetime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDateTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                toplaintime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                tostring: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toString",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                until: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/until",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                valueof: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/valueOf",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                weekofyear: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/weekOfYear",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                with: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/with",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withcalendar: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withCalendar",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withplaintime: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withPlainTime",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                withtimezone: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withTimeZone",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                year: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/year",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                yearofweek: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/yearOfWeek",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental"
+                                        ],
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
+                        weakmap: {
+                          children: {
+                            getorinsert: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/getOrInsert",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            },
+                            getorinsertcomputed: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/getOrInsertComputed",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "experimental"
+                                    ],
+                                    []
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     },
@@ -63730,6 +68983,23 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
+                    },
+                    operators: {
+                      children: {
+                        grouping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://standardjs.com/rules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     statements: {
                       children: {
@@ -63942,57 +69212,6 @@ http.headers.Use-As-Dictionary`,
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/best-practices",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    making_pwas_installable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/microsoft-store",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                how_to: {
-                  children: {
-                    expose_common_actions_as_shortcuts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Expose_common_actions_as_shortcuts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/shortcuts",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {

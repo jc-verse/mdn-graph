@@ -33948,6 +33948,7 @@ For an animation element, this is the point at which the animation should begin.
         "download",
         "href",
         "hreflang",
+        "interestfor",
         "ping",
         "referrerpolicy",
         "rel",
@@ -51201,6 +51202,7 @@ version of HTMLAreaElement.href.`,
         "htmlareaelement.host",
         "htmlareaelement.hostname",
         "htmlareaelement.href",
+        "htmlareaelement.interestforelement",
         "htmlareaelement.nohref",
         "htmlareaelement.origin",
         "htmlareaelement.password",
@@ -51565,6 +51567,44 @@ the href to be updated.`,
       ids: [
         "value",
         "example",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLAreaElement/interestForElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLAreaElement: interestForElement property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLAreaElement.interestForElement"
+        ],
+        summary: "The interestForElement property of the HTMLAreaElement interface gets or sets the target element of an interest invoker, in cases where the associated <area> element is specified as an interest invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlareaelement/interestforelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interestForElement",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_interestforelement_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -84921,6 +84961,112 @@ number of ranges in the object.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/InterestEvent",
+    links: {},
+    data: {
+      metadata: {
+        title: "InterestEvent",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.InterestEvent"
+        ],
+        summary: "The InterestEvent interface represents an event that fires when interest is shown or lost on an interest invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interestevent",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "InterestEvent",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "constructor",
+        "interestevent",
+        "instance_properties",
+        "interestevent.source",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InterestEvent/InterestEvent",
+    links: {},
+    data: {
+      metadata: {
+        title: "InterestEvent: InterestEvent() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.InterestEvent.InterestEvent"
+        ],
+        summary: "The InterestEvent() constructor creates a new InterestEvent object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interestevent/interestevent",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "InterestEvent()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "type",
+        "init",
+        "source",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InterestEvent/source",
+    links: {},
+    data: {
+      metadata: {
+        title: "InterestEvent: source property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InterestEvent.source"
+        ],
+        summary: "The source read-only property of the InterestEvent interface is an Element object instance that represents the interest invoker element on which interest was shown or lost to fire the event.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interestevent/source",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "source",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/NavigationPrecommitController",
     links: {},
     data: {
@@ -108799,6 +108945,7 @@ version of HTMLAnchorElement.href.`,
         "htmlanchorelement.hostname",
         "htmlanchorelement.href",
         "htmlanchorelement.hreflang",
+        "htmlanchorelement.interestforelement",
         "htmlanchorelement.origin",
         "htmlanchorelement.password",
         "htmlanchorelement.pathname",
@@ -109092,6 +109239,44 @@ version of HTMLAnchorElement.href.`,
       ids: [
         "value",
         "example",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLAnchorElement/interestForElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLAnchorElement: interestForElement property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLAnchorElement.interestForElement"
+        ],
+        summary: "The interestForElement property of the HTMLAnchorElement interface gets or sets the target element of an interest invoker, in cases where the associated <a> element is specified as an interest invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlanchorelement/interestforelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interestForElement",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_interestforelement_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -124079,22 +124264,28 @@ The array given as the parameter is filled with random numbers (random in its cr
         }
       ],
       links: [
-        "https://mdn.github.io/dom-examples/popover-api/"
+        "https://mdn.github.io/dom-examples/popover-api/",
+        "https://mdn.github.io/dom-examples/interest-invokers/"
       ],
       imgs: [],
       ids: [
         "concepts_and_usage",
         "html_attributes",
+        "interestfor",
         "popover",
         "popovertarget",
         "popovertargetaction",
         "css_features",
         "backdrop",
+        "interest-delay",
+        "interest-source",
         "popover-open",
         "interfaces",
+        "interestevent",
         "toggleevent",
         "extensions_to_other_interfaces",
         "instance_properties",
+        "interestforelement",
         "htmlelement.popover",
         "htmlbuttonelement.popovertargetelement",
         "htmlbuttonelement.popovertargetaction",
@@ -124103,8 +124294,10 @@ The array given as the parameter is filled with random numbers (random in its cr
         "htmlelement.showpopover",
         "htmlelement.togglepopover",
         "events",
-        "htmlelement.beforetoggle",
-        "htmlelement.toggle",
+        "beforetoggle",
+        "toggle",
+        "interest",
+        "loseinterest",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -124154,7 +124347,8 @@ The array given as the parameter is filled with random numbers (random in its cr
         "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3:~:text=%5Bpopover%5D%20%7B",
         "https://github.com/w3c/csswg-drafts/issues/10258",
         "https://mdn.github.io/dom-examples/popover-api/popover-hint/",
-        "https://github.com/mdn/dom-examples/tree/main/popover-api/popover-hint"
+        "https://github.com/mdn/dom-examples/tree/main/popover-api/popover-hint",
+        "https://mdn.github.io/dom-examples/popover-api/"
       ],
       imgs: [],
       ids: [
@@ -124190,7 +124384,57 @@ The array given as the parameter is filled with random numbers (random in its cr
         "html_2",
         "css_2",
         "result_2",
-        "frame_a_popover_keyframe_animation"
+        "frame_a_popover_keyframe_animation",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Popover_API/Using_interest_invokers",
+    links: {},
+    data: {
+      metadata: {
+        title: "Using interest invokers",
+        pageType: "guide",
+        summary: 'Interest invokers provide a mechanism for updating an interface or running custom code when a user "shows interest" or "loses interest" in an element (for example, by hovering or unhovering it). They are most commonly used to show and hide popovers. This guide explains the concepts behind interest invokers, what their use cases are, and how to use them.',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/popover_api/using_interest_invokers",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Using interest invokers",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://mdn.github.io/dom-examples/interest-invokers/"
+      ],
+      imgs: [],
+      ids: [
+        "concepts",
+        "creating_an_interest_invoker",
+        "frame_basic-interest-invoker",
+        "combining_interest_invokers_with_activation-based_popovers",
+        "frame_interest-invoker-popover-interaction",
+        "styling_interest_invokers",
+        "frame_interest-invoker-styling",
+        "javascript_api_for_interest_invokers",
+        "detecting_support_for_interest_invokers",
+        "interest_invoker_api_in_action",
+        "frame_interest-invoker-api",
+        "using_interest_invokers_for_creating_preview_popovers",
+        "html",
+        "css",
+        "result",
+        "frame_link-preview-popover",
+        "using_interest_invokers_without_popovers",
+        "html_2",
+        "css_2",
+        "javascript",
+        "result_2",
+        "frame_non-popover",
+        "see_also"
       ]
     }
   },
@@ -226038,19 +226282,19 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         }
       ],
@@ -253925,6 +254169,9 @@ represents a non-linear distorter.`,
         "dragover",
         "dragstart",
         "drop",
+        "interest_invoker_events",
+        "interest",
+        "loseinterest",
         "toggle_events",
         "beforetoggle",
         "toggle",
@@ -254700,6 +254947,45 @@ editable.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/HTMLElement/loseinterest_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLElement: loseinterest event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLElement.loseinterest_event"
+        ],
+        summary: "The loseinterest event of the HTMLElement interface is fired on the target element of an interest invoker when interest is lost, allowing code to be run in response.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlelement/loseinterest_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "HTMLElement: loseinterest event",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "basic_interest_invoker_event_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/HTMLElement/offsetWidth",
     links: {},
     data: {
@@ -255240,6 +255526,45 @@ of the HTMLElement interface provides read/write access to custom data attribute
         "javascript",
         "result",
         "frame_examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLElement/interest_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLElement: interest event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLElement.interest_event"
+        ],
+        summary: "The interest event of the HTMLElement interface is fired on an interest invoker's target element when interest is shown, allowing code to be run in response.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlelement/interest_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "HTMLElement: interest event",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "basic_interest_invoker_event_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -292381,6 +292706,7 @@ properties in the prototype chain as well).`,
         "htmlbuttonelement.formmethod",
         "htmlbuttonelement.formnovalidate",
         "htmlbuttonelement.formtarget",
+        "htmlbuttonelement.interestforelement",
         "htmlbuttonelement.labels",
         "htmlbuttonelement.name",
         "htmlbuttonelement.popovertargetaction",
@@ -292758,6 +293084,44 @@ NodeList of the <label> elements associated with the
         "string",
         "return_value",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLButtonElement/interestForElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLButtonElement: interestForElement property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLButtonElement.interestForElement"
+        ],
+        summary: "The interestForElement property of the HTMLButtonElement interface gets or sets the target element of an interest invoker, in cases where the associated <button> element is specified as an interest invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlbuttonelement/interestforelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interestForElement",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_interestforelement_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -296455,6 +296819,7 @@ NodeList of the <label> elements associated with the
         "svgaelement.hostname",
         "svgaelement.href",
         "svgaelement.hreflang",
+        "svgaelement.interestforelement",
         "svgaelement.origin",
         "svgaelement.pathname",
         "svgaelement.password",
@@ -296691,6 +297056,44 @@ Deprecated
       ids: [
         "value",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/SVGAElement/interestForElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "SVGAElement: interestForElement property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.SVGAElement.interestForElement"
+        ],
+        summary: "The interestForElement property of the SVGAElement interface gets or sets the target element of an interest invoker, in cases where the associated <a> element is specified as an interest invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/svgaelement/interestforelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interestForElement",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_interestforelement_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_basic-interest-invoker",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -370953,7 +371356,7 @@ representing where in the startContainer the Range starts.`,
           "api.Range.Range"
         ],
         summary: `The Range() constructor returns a newly created
-Range object whose start and end are offset 0 of the the global document
+Range object whose start and end are offset 0 of the global document
 object.`,
         popularity: 0.0002029319990275338,
         modified: "1970-01-01T00:00:00.000Z",
@@ -381330,11 +381733,11 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381342,35 +381745,55 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381382,15 +381805,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381398,15 +381817,23 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381418,11 +381845,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381434,7 +381857,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381442,55 +381865,23 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381498,23 +381889,35 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381522,15 +381925,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -387395,27 +387798,11 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387423,7 +387810,11 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387431,11 +387822,23 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -443649,7 +444052,6 @@ This information may also be useful if you encounter other media types your serv
         "https://www.xiph.org/",
         "https://www.theora.org/doc/",
         "https://en.wikipedia.org/wiki/Discrete_cosine_transform",
-        "https://webkit.org/blog/8672/on-the-road-to-webrtc-1-0-including-vp8/",
         "https://www.google.com/",
         "https://datatracker.ietf.org/doc/html/rfc6386",
         "https://en.wikipedia.org/wiki/Discrete_cosine_transform",
@@ -443718,8 +444120,7 @@ This information may also be useful if you encounter other media types your serv
         "vp8",
         "vp9",
         "choosing_a_video_codec",
-        "recommendations_for_everyday_videos",
-        "recommendations_for_high-quality_video_presentation",
+        "recommendations_for_the_web",
         "recommendations_for_archival_editing_or_remixing",
         "preparing_video_externally",
         "recording_video",
@@ -446954,74 +447355,6 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
@@ -447030,11 +447363,87 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Parts"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
@@ -447042,8 +447451,16 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -447054,35 +447471,19 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         }
       ],
@@ -449422,6 +449823,7 @@ be allowed to proceed for a given element.`,
         "download",
         "href",
         "hreflang",
+        "interestfor",
         "ping",
         "referrerpolicy",
         "rel",
@@ -451241,6 +451643,7 @@ If specified, you define the referrer using a content attribute in the <meta> el
         "formmethod",
         "formnovalidate",
         "formtarget",
+        "interestfor",
         "name",
         "popovertarget",
         "popovertargetaction",
@@ -451684,6 +452087,7 @@ Each track element lets you specify a timed text track (or time-based data) that
         "coords",
         "download",
         "href",
+        "interestfor",
         "ping",
         "referrerpolicy",
         "rel",
@@ -458316,14 +458720,6 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
@@ -458332,11 +458728,23 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -480458,6 +480866,59 @@ For example, the opacity property is used to set the opacity of a selected eleme
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/baseline-source",
+    links: {},
+    data: {
+      metadata: {
+        title: "baseline-source",
+        pageType: "css-property",
+        browserCompat: [
+          "css.properties.baseline-source"
+        ],
+        summary: `The baseline-source CSS property defines which baseline to use when inline-level boxes have multiple possible baselines, such as multi-line inline blocks or inline flex containers.
+The values allow for choosing between aligning to the box's first baseline, last baseline, or letting the browser decide automatically based on the box type.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/baseline-source",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "baseline-source",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-inline/#baseline-source",
+          title: "CSS Inline Layout Module Level 3"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-inline-3/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "auto",
+        "first",
+        "last",
+        "formal_definition",
+        "formal_syntax",
+        "baseline-source",
+        "examples",
+        "baseline_selection_in_inline_flex_containers",
+        "html",
+        "css",
+        "result",
+        "frame_baseline_selection_in_inline_flex_containers",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-touch-callout",
     links: {},
     data: {
@@ -484027,24 +484488,20 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
@@ -484055,15 +484512,19 @@ For example, the opacity property is used to set the opacity of a selected eleme
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -485640,6 +486101,63 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "css",
         "result",
         "frame_enabling_swash_glyphs",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay",
+    links: {},
+    data: {
+      metadata: {
+        title: "interest-delay",
+        pageType: "css-shorthand-property",
+        browserCompat: [
+          "css.properties.interest-delay"
+        ],
+        summary: "The interest-delay CSS property specifies the delay between the user showing interest in an interest invoker element and the interest event firing, and the delay between the user losing interest and the loseinterest event firing.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/interest-delay",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interest-delay",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui-4/#propdef-interest-delay",
+          title: "CSS Basic User Interface Module Level 4"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-ui-4/"
+      ],
+      imgs: [],
+      ids: [
+        "constituent_properties",
+        "syntax",
+        "values",
+        "normal",
+        "time",
+        "description",
+        "formal_definition",
+        "formal_syntax",
+        "interest-delay",
+        "<interest-delay-start>",
+        "examples",
+        "creating_a_basic_interest-delay_effect",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_interest-invoker-delay",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -496740,6 +497258,60 @@ transform: scale() can be used as an alternative to this property.`,
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end",
+    links: {},
+    data: {
+      metadata: {
+        title: "interest-delay-end",
+        pageType: "css-shorthand-property",
+        browserCompat: [
+          "css.properties.interest-delay-end"
+        ],
+        summary: "The interest-delay-end CSS property specifies the delay between the user losing interest in an interest invoker element and the loseinterest event firing.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/interest-delay-end",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interest-delay-end",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui-4/#propdef-interest-delay-end",
+          title: "CSS Basic User Interface Module Level 4"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-ui-4/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "normal",
+        "time",
+        "formal_definition",
+        "formal_syntax",
+        "interest-delay-end",
+        "examples",
+        "creating_a_basic_interest-delay-end_effect",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_interest-invoker-delay",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
     links: {},
     data: {
@@ -500264,7 +500836,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.text-shadow"
         ],
-        summary: "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color.",
+        summary: "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its text-decoration. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color.",
         popularity: 0.008198318812198156,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -507514,6 +508086,65 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "css_2",
         "result_2",
         "frame_multiple_lines_in_svg_text_element",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start",
+    links: {},
+    data: {
+      metadata: {
+        title: "interest-delay-start",
+        pageType: "css-shorthand-property",
+        browserCompat: [
+          "css.properties.interest-delay-start"
+        ],
+        summary: "The interest-delay-start CSS property specifies the delay between the user showing interest in an interest invoker element and the interest event firing.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/interest-delay-start",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interest-delay-start",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui-4/#propdef-interest-delay-start",
+          title: "CSS Basic User Interface Module Level 4"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-ui-4/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "normal",
+        "time",
+        "formal_definition",
+        "formal_syntax",
+        "interest-delay-start",
+        "examples",
+        "creating_a_basic_interest-delay-start_effect",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_interest-invoker-delay",
+        "removing_interest-delay-start_after_interest_has_been_shown",
+        "html_2",
+        "css_2",
+        "result_2",
+        "frame_interest-delay-remove-on-interest",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -515370,6 +516001,49 @@ An element is considered to be playing if it is currently playing the media reso
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Selectors/:interest-target",
+    links: {},
+    data: {
+      metadata: {
+        title: ":interest-target",
+        pageType: "css-pseudo-class",
+        browserCompat: [
+          "css.selectors.interest-target"
+        ],
+        summary: "The :interest-target CSS pseudo-class represents the target element associated with an interest invoker when interest is shown on that invoker.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/selectors/_colon_interest-target",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: ":interest-target",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/selectors/#selectordef-interest-target",
+          title: "Selectors Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "examples",
+        "selecting_the_target_element_associated_with_an_interest_invoker",
+        "html",
+        "css",
+        "result",
+        "frame_interest-target",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Selectors/:required",
     links: {},
     data: {
@@ -517054,6 +517728,49 @@ An element is considered to be playing if it is currently playing the media reso
         "examples",
         "setting_a_background_for_images_that_are_loading",
         "specifications",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Selectors/:interest-source",
+    links: {},
+    data: {
+      metadata: {
+        title: ":interest-source",
+        pageType: "css-pseudo-class",
+        browserCompat: [
+          "css.selectors.interest-source"
+        ],
+        summary: "The :interest-source CSS pseudo-class represents an interest invoker element when interest is shown on it.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/selectors/_colon_interest-source",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: ":interest-source",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/selectors/#selectordef-interest-source",
+          title: "Selectors Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "examples",
+        "selecting_an_interest_invoker_element",
+        "html",
+        "css",
+        "result",
+        "frame_interest-source",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -538467,15 +539184,19 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -538487,11 +539208,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         }
       ],
