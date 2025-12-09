@@ -51591,7 +51591,10 @@ the href to be updated.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "interestForElement",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -62701,9 +62704,7 @@ regardless of MediaStreamTrack.kind.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationDestination",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62754,9 +62755,7 @@ NavigationDestination interface returns true if the navigation is to the same do
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sameDocument",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62798,9 +62797,7 @@ NavigationDestination interface returns the id value of the destination Navigati
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "id",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62842,9 +62839,7 @@ NavigationDestination interface returns the index value of the destination Navig
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "index",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62886,9 +62881,7 @@ NavigationDestination interface returns the key value of the destination Navigat
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "key",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62930,9 +62923,7 @@ NavigationDestination interface returns a clone of the developer-supplied state 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getState()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -62977,9 +62968,7 @@ NavigationDestination interface returns the URL being navigated to.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "url",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68175,9 +68164,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationHistoryEntry",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68229,9 +68216,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sameDocument",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68272,9 +68257,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "id",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68360,9 +68343,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "index",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68403,9 +68384,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "key",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68448,9 +68427,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getState()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -68494,9 +68471,7 @@ lower-bound value is included in the key range.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "url",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -79757,9 +79732,7 @@ the current <form> element as a string.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationActivation",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -79802,9 +79775,7 @@ the current <form> element as a string.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigationType",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -79842,9 +79813,7 @@ the current <form> element as a string.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -79882,9 +79851,7 @@ the current <form> element as a string.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "entry",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -84978,7 +84945,10 @@ number of ranges in the object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "InterestEvent",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -85014,7 +84984,10 @@ number of ranges in the object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "InterestEvent()",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -85051,7 +85024,10 @@ number of ranges in the object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "source",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -101111,9 +101087,7 @@ GPUDeviceLostInfo interface defines the reason the device was lost in a machine-
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigateEvent",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101176,9 +101150,7 @@ NavigateEvent interface returns true if the navigation is a fragment navigation 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hashChange",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101219,9 +101191,7 @@ NavigateEvent interface returns true if the navigation is a fragment navigation 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigateEvent()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101278,9 +101248,7 @@ NavigateEvent interface returns the type of the navigation — push, reload, rep
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigationType",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101296,6 +101264,10 @@ NavigateEvent interface returns the type of the navigation — push, reload, rep
       imgs: [],
       ids: [
         "value",
+        "push",
+        "reload",
+        "replace",
+        "traverse",
         "examples",
         "async_transitions_with_special_backforward_handling",
         "specifications",
@@ -101323,9 +101295,7 @@ NavigateEvent interface returns an Element object representing the initiating el
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sourceElement",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101342,6 +101312,7 @@ NavigateEvent interface returns an Element object representing the initiating el
       ids: [
         "value",
         "examples",
+        "getting_the_sourceelement_for_an_event",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -101367,9 +101338,7 @@ NavigateEvent interface returns a NavigationDestination object representing the 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "destination",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101411,9 +101380,7 @@ NavigateEvent interface returns true if the navigation can be intercepted and ha
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "canIntercept",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101456,9 +101423,7 @@ NavigateEvent interface returns the FormData object representing the submitted d
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "formData",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101500,9 +101465,7 @@ NavigateEvent interface can be called to manually trigger the browser-driven scr
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "scroll()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101550,9 +101513,7 @@ NavigateEvent interface returns the info data value passed by the initiating nav
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "info",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101593,9 +101554,7 @@ NavigateEvent interface returns the info data value passed by the initiating nav
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hasUAVisualTransition",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101638,9 +101597,7 @@ NavigateEvent interface returns the filename of the file requested for download,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "downloadRequest",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101682,9 +101639,7 @@ NavigateEvent interface intercepts this navigation, turning it into a same-docum
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "intercept()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101749,9 +101704,7 @@ NavigateEvent interface returns true if the navigation was initiated by the user
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "userInitiated",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -101769,6 +101722,7 @@ NavigateEvent interface returns true if the navigation was initiated by the user
       ids: [
         "value",
         "examples",
+        "getting_userinitiated_for_an_event",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -101794,9 +101748,7 @@ NavigateEvent interface returns an AbortSignal, which will become aborted if the
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "signal",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -109263,7 +109215,10 @@ version of HTMLAnchorElement.href.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "interestForElement",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -181639,9 +181594,7 @@ added to a particular element in this manner.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "activeViewTransition",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -226286,7 +226239,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
@@ -226294,7 +226247,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         }
       ],
@@ -241933,9 +241886,7 @@ value of a mutation event once it's been created (normally using the Document.cr
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationTransition",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -241982,9 +241933,7 @@ NavigationTransition interface returns the type of the ongoing navigation.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigationType",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -242026,9 +241975,7 @@ NavigationTransition interface returns a Promise that fulfills at the same time 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "finished",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -242070,9 +242017,7 @@ NavigationTransition interface returns the NavigationHistoryEntry that the trans
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -254964,7 +254909,10 @@ editable.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "HTMLElement: loseinterest event",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -255550,7 +255498,10 @@ of the HTMLElement interface provides read/write access to custom data attribute
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "HTMLElement: interest event",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -271093,9 +271044,7 @@ in the constructor, meaning the constraint that was not satisfied.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Navigation API",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -272496,9 +272445,7 @@ a serialized media query.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationCurrentEntryChangeEvent",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -272545,9 +272492,7 @@ a serialized media query.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigationType",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -272588,9 +272533,7 @@ a serialized media query.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -272631,9 +272574,7 @@ a serialized media query.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "NavigationCurrentEntryChangeEvent()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -278710,7 +278651,8 @@ that its search is restricted to descendants of the specified element.`,
         browserCompat: [
           "api.Element.setAttribute"
         ],
-        summary: "The setAttribute() method of the Element interface sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.",
+        summary: `The setAttribute() method of the Element interface sets the value of an attribute on the specified element.
+If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.`,
         popularity: 0.005676068289631514,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -278729,10 +278671,7 @@ that its search is restricted to descendants of the specified element.`,
       ],
       links: [
         "https://www.w3.org/TR/xml/#dt-name",
-        "https://developer.chrome.com/docs/devtools/dom/properties/",
-        "https://learn.microsoft.com/en-us/microsoft-edge/devtools/css/inspect",
-        "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html",
-        "https://support.apple.com/guide/safari-developer/welcome/mac"
+        "https://github.com/cure53/DOMPurify"
       ],
       imgs: [],
       ids: [
@@ -278743,10 +278682,16 @@ that its search is restricted to descendants of the specified element.`,
         "return_value",
         "exceptions",
         "invalidcharactererror",
+        "typeerror",
+        "description",
+        "security_considerations",
         "examples",
+        "setting_safe_attributes",
         "html",
         "javascript",
-        "frame_examples",
+        "results",
+        "frame_setting_safe_attributes",
+        "setting_unsafe_attributes",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -284917,8 +284862,7 @@ previously set for a specific (PointerEvent) pointer.`,
         browserCompat: [
           "api.Element.setAttributeNS"
         ],
-        summary: `setAttributeNS adds a new attribute or changes the value of an attribute
-with the given namespace and name.`,
+        summary: "If you are working with HTML documents and you don't need to specify the requested attribute as being part of a specific namespace, use the setAttribute() method instead.",
         popularity: 0.00020762019702486956,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -284945,7 +284889,8 @@ with the given namespace and name.`,
         "value",
         "return_value",
         "examples",
-        "notes",
+        "basic_usage",
+        "trusted_types",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -288812,9 +288757,7 @@ browser's event loop.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Navigation",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -288879,9 +288822,7 @@ browser's event loop.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "transition",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -288967,9 +288908,7 @@ Navigation interface reloads the current URL, updating any provided state in the
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "reload()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289065,9 +289004,7 @@ Navigation interface navigates to a specific URL, updating any provided state in
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigate()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289177,9 +289114,7 @@ and false if it is not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "canGoBack",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289220,9 +289155,7 @@ and false if it is not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "activation",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289263,9 +289196,7 @@ and false if it is not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "traverseTo()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289317,9 +289248,7 @@ Navigation interface returns an array of NavigationHistoryEntry objects represen
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "entries()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289366,9 +289295,7 @@ Navigation interface navigates forwards by one entry in the navigation history.`
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "forward()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289418,9 +289345,7 @@ Navigation interface returns a NavigationHistoryEntry object representing the lo
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "currentEntry",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289461,9 +289386,7 @@ Navigation interface returns a NavigationHistoryEntry object representing the lo
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "updateCurrentEntry()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289512,9 +289435,7 @@ Navigation interface navigates backwards by one entry in the navigation history.
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "back()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289610,9 +289531,7 @@ and false if it is not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "canGoForward",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -293108,7 +293027,10 @@ NodeList of the <label> elements associated with the
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "interestForElement",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -297080,7 +297002,10 @@ Deprecated
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "interestForElement",
-        status: []
+        status: [
+          "experimental",
+          "non-standard"
+        ]
       },
       flaws: {},
       specifications: [],
@@ -305193,9 +305118,7 @@ the top side of the screen.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigation",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -381733,99 +381656,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381833,11 +381664,63 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381849,7 +381732,35 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381857,15 +381768,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381877,7 +381780,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381885,15 +381796,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381901,27 +381808,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381929,11 +381816,47 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -387802,7 +387725,7 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387810,27 +387733,11 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387839,6 +387746,22 @@ JavaScript syntax would expect one.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -392869,9 +392792,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -392932,9 +392853,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -392983,9 +392902,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.Instant",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393104,9 +393021,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "fromEpochNanoseconds()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393150,9 +393065,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393197,9 +393110,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "epochNanoseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393238,9 +393149,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393283,9 +393192,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393331,9 +393238,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393377,9 +393282,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393424,9 +393327,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393469,9 +393370,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "fromEpochMilliseconds()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393515,9 +393414,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "round()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393565,9 +393462,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393611,9 +393506,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393659,9 +393552,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393703,9 +393594,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toZonedDateTimeISO()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393750,9 +393639,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393799,9 +393686,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "epochMilliseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393840,9 +393725,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.Now",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393889,9 +393772,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "instant()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393932,9 +393813,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "plainDateTimeISO()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -393978,9 +393857,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "zonedDateTimeISO()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394024,9 +393901,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "timeZoneId()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394067,9 +393942,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "plainTimeISO()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394113,9 +393986,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "plainDateISO()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394159,9 +394030,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394209,9 +394078,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.Duration",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394290,9 +394157,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "negated()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394333,9 +394198,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "seconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394373,9 +394236,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394419,9 +394280,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "years",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394459,9 +394318,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "weeks",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394499,9 +394356,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "total()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394550,9 +394405,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394595,9 +394448,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394648,9 +394499,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sign",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394688,9 +394537,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394733,9 +394580,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.Duration()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394788,9 +394633,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "round()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394845,9 +394688,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "abs()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394888,9 +394729,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "milliseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394928,9 +394767,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -394975,9 +394812,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395021,9 +394856,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hours",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395061,9 +394894,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395110,9 +394941,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "blank",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395150,9 +394979,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "minutes",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395190,9 +395017,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "microseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395230,9 +395055,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "nanoseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395270,9 +395093,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "months",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395310,9 +395131,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "days",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395350,9 +395169,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395398,9 +395215,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395451,9 +395266,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainDate",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395539,9 +395352,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395579,9 +395390,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395620,9 +395429,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withCalendar()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395667,9 +395474,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395718,9 +395523,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395767,9 +395570,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395816,9 +395617,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "day",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395861,9 +395660,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395908,9 +395705,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "inLeapYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395948,9 +395743,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -395989,9 +395782,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396036,9 +395827,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396076,9 +395865,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainMonthDay()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396119,9 +395906,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396164,9 +395949,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInMonth",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396205,9 +395988,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396256,9 +396037,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396352,9 +396131,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "yearOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396391,9 +396168,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "year",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396431,9 +396206,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396491,9 +396264,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396535,9 +396306,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainYearMonth()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396578,9 +396347,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "weekOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396619,9 +396386,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthCode",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396661,9 +396426,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "calendarId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396701,9 +396464,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDateTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396745,9 +396506,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "eraYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396786,9 +396545,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "month",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396828,9 +396585,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthsInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396869,9 +396624,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396923,9 +396676,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toZonedDateTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -396973,9 +396724,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "era",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397014,9 +396763,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397069,9 +396816,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainDateTime",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397167,9 +396912,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397207,9 +396950,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "microsecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397247,9 +396988,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397287,9 +397026,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withCalendar()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397334,9 +397071,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397385,9 +397120,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDate()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397428,9 +397161,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397477,9 +397208,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397525,9 +397254,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "day",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397565,9 +397292,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "millisecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397605,9 +397330,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397652,9 +397375,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "inLeapYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397692,9 +397413,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397732,9 +397451,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397779,9 +397496,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397819,9 +397534,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397864,9 +397577,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "round()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397914,9 +397625,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInMonth",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -397954,9 +397663,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398005,9 +397712,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398106,9 +397811,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "yearOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398144,9 +397847,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398187,9 +397888,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "year",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398227,9 +397926,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "nanosecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398267,9 +397964,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398319,9 +398014,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398363,9 +398056,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hour",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398403,9 +398094,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withPlainTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398447,9 +398136,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "weekOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398487,9 +398174,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthCode",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398527,9 +398212,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "calendarId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398567,9 +398250,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "eraYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398607,9 +398288,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "month",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398647,9 +398326,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthsInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398687,9 +398364,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398738,9 +398413,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "minute",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398778,9 +398451,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toZonedDateTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398828,9 +398499,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "era",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398868,9 +398537,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "second",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398908,9 +398575,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -398961,9 +398626,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainYearMonth",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399038,9 +398701,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399078,9 +398739,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399129,9 +398788,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDate()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399177,9 +398834,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399226,9 +398881,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399275,9 +398928,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399322,9 +398973,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "inLeapYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399362,9 +399011,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399409,9 +399056,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399454,9 +399099,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInMonth",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399494,9 +399137,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399545,9 +399186,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399591,9 +399230,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "year",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399682,9 +399319,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399739,9 +399374,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399783,9 +399416,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthCode",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399823,9 +399454,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "calendarId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399864,9 +399493,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "eraYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399904,9 +399531,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "month",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399944,9 +399569,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthsInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -399984,9 +399607,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400037,9 +399658,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "era",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400077,9 +399696,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400130,9 +399747,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainMonthDay",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400197,9 +399812,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDate()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400246,9 +399859,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400295,9 +399906,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "day",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400336,9 +399945,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400381,9 +399988,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400432,9 +400037,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400478,9 +400081,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400536,9 +400137,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400631,9 +400230,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthCode",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400672,9 +400269,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "calendarId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400713,9 +400308,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400764,9 +400357,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainTime",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400836,9 +400427,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "microsecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400877,9 +400466,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400921,9 +400508,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -400970,9 +400555,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401018,9 +400601,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "millisecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401059,9 +400640,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401105,9 +400684,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401152,9 +400729,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401197,9 +400772,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "round()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401247,9 +400820,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401298,9 +400869,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401344,9 +400913,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "nanosecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401385,9 +400952,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401439,9 +401004,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401483,9 +401046,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hour",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401524,9 +401085,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401569,9 +401128,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "minute",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401610,9 +401167,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.PlainTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401661,9 +401216,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "second",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401702,9 +401255,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401765,9 +401316,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Temporal.ZonedDateTime",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401891,9 +401440,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401931,9 +401478,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "microsecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -401971,9 +401516,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402011,9 +401554,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withCalendar()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402058,9 +401599,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "subtract()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402109,9 +401648,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hoursInDay",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402149,9 +401686,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDate()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402192,9 +401727,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "epochNanoseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402233,9 +401766,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withTimeZone()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402281,9 +401812,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toLocaleString()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402330,9 +401859,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "since()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402381,9 +401908,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "day",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402424,9 +401949,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "millisecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402464,9 +401987,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "compare()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402510,9 +402031,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "timeZoneId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402550,9 +402069,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "inLeapYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402590,9 +402107,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "dayOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402630,9 +402145,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "until()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402677,9 +402190,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402717,9 +402228,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "startOfDay()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402760,9 +402269,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402805,9 +402312,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "round()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402856,9 +402361,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "daysInMonth",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402896,9 +402399,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "with()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402950,9 +402451,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "valueOf()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -402996,9 +402495,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getTimeZoneTransition()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403042,9 +402539,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "yearOfWeek",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403080,9 +402575,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toInstant()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403123,9 +402616,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403166,9 +402657,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "year",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403206,9 +402695,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "nanosecond",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403246,9 +402733,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "from()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403305,9 +402790,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "equals()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403350,9 +402833,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hour",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403391,9 +402872,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "withPlainTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403435,9 +402914,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "weekOfYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403475,9 +402952,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthCode",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403515,9 +402990,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "calendarId",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403555,9 +403028,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toPlainDateTime()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403598,9 +403069,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "eraYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403638,9 +403107,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "month",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403678,9 +403145,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "offsetNanoseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403718,9 +403183,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "monthsInYear",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403758,9 +403221,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "add()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403811,9 +403272,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "offset",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403852,9 +403311,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "epochMilliseconds",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403893,9 +403350,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "minute",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -403934,9 +403389,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "era",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -404023,9 +403476,7 @@ Boolean object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "second",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -409605,9 +409056,7 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getOrInsert()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -409869,9 +409318,7 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getOrInsertComputed()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -410883,9 +410330,7 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getOrInsert()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -411023,9 +410468,7 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getOrInsertComputed()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -432464,9 +431907,7 @@ as a function.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toTemporalInstant()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -447355,35 +446796,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
@@ -447391,43 +446804,19 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -447439,40 +446828,44 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
@@ -447483,8 +446876,56 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
           title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
         }
       ],
       links: [
@@ -458720,7 +458161,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -458728,15 +458169,15 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -458744,7 +458185,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -473484,9 +472925,7 @@ z-axis. Its result is a <transform-function> data type.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sibling-count()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -475321,9 +474760,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "sibling-index()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -484488,7 +483925,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484496,19 +483933,7 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484520,16 +483945,28 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -486743,9 +486180,7 @@ The values allow for choosing between aligning to the box's first baseline, last
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "position-visibility",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -494936,7 +494371,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         browserCompat: [
           "css.properties.scroll-timeline-axis"
         ],
-        summary: "The scroll-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a scroll driven animation animation, which is progressed through by scrolling a scrollable element (scroller).",
+        summary: "The scroll-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a scroll driven animation, which is progressed through by scrolling a scrollable element (scroller).",
         popularity: 0.0003100908103952084,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -496655,7 +496090,7 @@ transform: scale() can be used as an alternative to this property.`,
         browserCompat: [
           "css.properties.animation-range-start"
         ],
-        summary: "The animation-range-start CSS property is used to set the start of an animation's attachment range along its timeline, i.e., where along the timeline an animation will start.",
+        summary: "The animation-range-start CSS property sets the point on the timeline where an animation should start.",
         popularity: 0.0004862331065808235,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -496675,18 +496110,24 @@ transform: scale() can be used as an alternative to this property.`,
       links: [
         "https://scroll-driven-animations.style/tools/view-timeline/ranges/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/scroll-animations-1/"
+        "https://drafts.csswg.org/scroll-animations-1/",
+        "https://scroll-driven-animations.style/tools/view-timeline/ranges/"
       ],
       imgs: [],
       ids: [
         "syntax",
         "values",
+        "normal",
+        "length-percentage",
+        "timeline-range-name",
+        "timeline-range-name_length-percentage",
+        "description",
         "formal_definition",
         "formal_syntax",
         "animation-range-start",
         "<length-percentage>",
         "examples",
-        "creating_a_named_view_progress_timeline_with_range_start",
+        "creating_a_scroll_view_progress_timeline_with_range_start",
         "html",
         "css",
         "result",
@@ -501721,7 +501162,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.animation-range-end"
         ],
-        summary: "The animation-range-end CSS property is used to set the end of an animation's attachment range along its timeline, i.e., where along the timeline an animation will end.",
+        summary: "The animation-range-end CSS property sets the point on the timeline where an animation should end.",
         popularity: 0.0004775264531571999,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -501739,24 +501180,29 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
-        "https://scroll-driven-animations.style/tools/view-timeline/ranges/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/scroll-animations-1/"
+        "https://drafts.csswg.org/scroll-animations-1/",
+        "https://scroll-driven-animations.style/tools/view-timeline/ranges/"
       ],
       imgs: [],
       ids: [
         "syntax",
         "values",
+        "normal",
+        "length-percentage",
+        "timeline-range-name",
+        "timeline-range-name_length-percentage",
+        "description",
         "formal_definition",
         "formal_syntax",
         "animation-range-end",
         "<length-percentage>",
         "examples",
-        "creating_a_named_view_progress_timeline_with_range_end",
+        "creating_a_view_progress_timeline_with_a_range_end",
         "html",
         "css",
         "result",
-        "frame_creating_a_named_view_progress_timeline_with_range_end",
+        "frame_creating_a_view_progress_timeline_with_a_range_end",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -507191,9 +506637,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "field-sizing",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -513743,7 +513187,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       metadata: {
         title: "Pseudo-classes",
         pageType: "landing-page",
-        summary: "A CSS pseudo-class is a keyword added to a selector that lets you style a specific state of the selected element(s). For example, the pseudo-class :hover can be used to select a button when a user's pointer hovers over the button and this selected button can then be styled.",
+        summary: "A CSS pseudo-class is a keyword added to a selector that lets you select elements based on information that lies outside of the document tree, such as a specific state of the selected element(s). For example, the pseudo-class :hover can be used to style a button when a user's pointer hovers over it.",
         popularity: 0.007290147885857113,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -516018,7 +515462,9 @@ An element is considered to be playing if it is currently playing the media reso
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: ":interest-target",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -517454,7 +516900,7 @@ An element is considered to be playing if it is currently playing the media reso
         browserCompat: [
           "css.selectors.heading"
         ],
-        summary: "The :heading CSS pseudo-class matches all heading elements in a document. This allows you to style all headings at once, rather than matching and styling them individually.",
+        summary: "The :heading CSS pseudo-class matches all heading elements in a document.",
         popularity: 0.0005431612251199007,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -517477,8 +516923,12 @@ An element is considered to be playing if it is currently playing the media reso
       imgs: [],
       ids: [
         "syntax",
+        "description",
         "examples",
         "styling_all_headings",
+        "html",
+        "css",
+        "results",
         "frame_styling_all_headings",
         "specifications",
         "browser_compatibility",
@@ -517750,7 +517200,9 @@ An element is considered to be playing if it is currently playing the media reso
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: ":interest-source",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -539184,11 +538636,19 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -539200,15 +538660,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         }
       ],
@@ -570070,11 +569522,17 @@ Firefox 147 is the current Nightly version of Firefox and ships on January 13, 2
       flaws: {},
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#nightly",
-        "https://whattrainisitnow.com/release/?version=147"
+        "https://whattrainisitnow.com/release/?version=147",
+        "https://bugzil.la/1362499",
+        "https://bugzil.la/2001836",
+        "https://bugzil.la/1993341",
+        "https://bugzil.la/1997962"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "css",
+        "apis",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
@@ -570531,6 +569989,7 @@ Firefox 146 is the current Beta version of Firefox and ships on December 9, 2025
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=146",
+        "https://bugzil.la/1719461",
         "https://bugzil.la/1994172",
         "https://bugzil.la/1994171",
         "https://w3c.github.io/wcag/guidelines/22/#contrast-minimum",
@@ -570557,12 +570016,14 @@ Firefox 146 is the current Beta version of Firefox and ships on December 9, 2025
         "https://w3c.github.io/gpc/",
         "https://bugzil.la/1969865",
         "https://bugzil.la/1886894",
+        "https://bugzil.la/1991135",
         "https://bugzil.la/1979288",
         "https://bugzil.la/1744292"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "mathml",
         "css",
         "javascript",
@@ -570746,7 +570207,6 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1744292",
         "https://bugzil.la/1720570",
         "https://bugzil.la/1888729",
-        "https://bugzil.la/1979288",
         "https://bugzil.la/1992941",
         "https://bugzil.la/1954685",
         "https://bugzil.la/1225110",
@@ -570766,6 +570226,9 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1697647",
         "https://bugzil.la/1794475",
         "https://bugzil.la/1853418",
+        "https://developers.google.com/search/docs/specialty/explicit/guidelines#add-metadata",
+        "https://www.rtalabel.org/?content=howto#top",
+        "https://bugzil.la/1991135",
         "https://support.mozilla.org/en-US/kb/privacy-preserving-attribution",
         "https://github.com/mozilla/explainers/tree/main/archive/ppa-experiment",
         "https://w3c.github.io/ppa/",
@@ -570835,8 +570298,6 @@ This information allows you to try out experimental features and provide feedbac
         "apis",
         "closewatcher_interface",
         "dom.closewatcher.enabled",
-        "navigation_api",
-        "dom.navigation.webidl.enabled",
         "trusted_types_api",
         "dom.security.trusted_types.enabled",
         "html_sanitizer_api",
@@ -570884,6 +570345,9 @@ This information allows you to try out experimental features and provide feedbac
         "security.insecure_connection_text.enabled",
         "security.insecure_connection_text.pbmode.enabled",
         "browser.urlbar.trimhttps",
+        "restricting_adult_content_with_meta_namerating",
+        "security.restrict_to_adults.always",
+        "security.restrict_to_adults.respect_platform",
         "permissions_policy_feature_policy",
         "dom.security.featurepolicy.header.enabled",
         "privacy_preserving_attribution_api_ppa",
