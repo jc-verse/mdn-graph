@@ -94294,7 +94294,9 @@ interface indicates the name of this object store.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Generating attribution reports",
-        status: []
+        status: [
+          "deprecated"
+        ]
       },
       flaws: {},
       links: [
@@ -94365,7 +94367,9 @@ interface indicates the name of this object store.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Registering attribution sources",
-        status: []
+        status: [
+          "deprecated"
+        ]
       },
       flaws: {},
       links: [
@@ -94400,7 +94404,9 @@ interface indicates the name of this object store.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Registering attribution triggers",
-        status: []
+        status: [
+          "deprecated"
+        ]
       },
       flaws: {},
       links: [
@@ -107115,7 +107121,6 @@ handle.`,
       links: [
         "https://datatracker.ietf.org/doc/html/rfc3447",
         "https://csrc.nist.gov/pubs/sp/800/38/a/final",
-        "https://en.wikipedia.org/wiki/Cryptographic_nonce",
         "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf#%5B%7B%22num%22%3A70%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D",
         "https://csrc.nist.gov/pubs/sp/800/38/a/final",
         "https://csrc.nist.gov/pubs/sp/800/38/d/final",
@@ -146460,7 +146465,7 @@ GPUDevice interface returns a GPUSupportedFeatures object that describes additio
         },
         short_title: "SharedStorageRunOperation",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -146499,7 +146504,7 @@ SharedStorageRunOperation interface defines the structure to which the run() met
         },
         short_title: "run()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -184004,7 +184009,6 @@ ServiceWorkerRegistration.`,
         }
       ],
       links: [
-        "https://en.wikipedia.org/wiki/Cryptographic_nonce",
         "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf#%5B%7B%22num%22%3A70%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D",
         "https://csrc.nist.gov/pubs/sp/800/38/a/final",
         "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf#%5B%7B%22num%22%3A73%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D",
@@ -193998,7 +194002,7 @@ to the matrix. It returns a new DOMMatrix created by scaling the source 3d matri
         },
         short_title: "SharedStorageSelectURLOperation",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -194034,7 +194038,7 @@ to the matrix. It returns a new DOMMatrix created by scaling the source 3d matri
         },
         short_title: "run()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -196473,7 +196477,10 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Using the Topics API",
-        status: []
+        status: [
+          "deprecated",
+          "non-standard"
+        ]
       },
       flaws: {},
       links: [
@@ -208567,7 +208574,7 @@ If the event has already been dispatched, this method does nothing.`,
         browserCompat: [
           "api.Navigator.deviceMemory",
           "api.WorkerNavigator.deviceMemory",
-          "http.headers.Device-Memory"
+          "http.headers.Sec-CH-Device-Memory"
         ],
         summary: "The capabilities of a client device largely depend on the amount of available RAM. Traditionally, developers had to use heuristics and either benchmark a device or infer device capabilities based on other factors like the device manufacturer or User Agent strings.",
         popularity: 0.0004132311663365952,
@@ -208600,7 +208607,7 @@ If the event has already been dispatched, this method does nothing.`,
         "browser_compatibility",
         "api.navigator.devicememory",
         "api.workernavigator.devicememory",
-        "http.headers.device-memory",
+        "http.headers.sec-ch-device-memory",
         "see_also"
       ]
     }
@@ -216873,7 +216880,7 @@ connection.`,
         },
         short_title: "SharedStorageOperation",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218108,7 +218115,7 @@ the browsing context.`,
         },
         short_title: "WorkletSharedStorage",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218156,7 +218163,7 @@ the browsing context.`,
         },
         short_title: "context",
         status: [
-          "experimental",
+          "deprecated",
           "non-standard"
         ]
       },
@@ -218192,7 +218199,7 @@ WorkletSharedStorage interface returns an async iterator, which contains the key
         },
         short_title: "keys()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218232,7 +218239,7 @@ WorkletSharedStorage interface returns the number of entries currently stored in
         },
         short_title: "length()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218272,7 +218279,7 @@ WorkletSharedStorage interface retrieves a value from shared storage.`,
         },
         short_title: "get()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218317,7 +218324,7 @@ WorkletSharedStorage interface returns an async iterator. The iterator provides 
         },
         short_title: "entries()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -218357,7 +218364,7 @@ WorkletSharedStorage interface returns the remaining navigation budget for the c
         },
         short_title: "remainingBudget()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -226352,15 +226359,15 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -357788,7 +357795,7 @@ horizontal coordinate of the event relative to the current layer.`,
         },
         short_title: "WindowSharedStorage",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -357828,7 +357835,7 @@ WindowSharedStorage interface executes a URL Selection operation that is registe
         },
         short_title: "selectURL()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -357877,7 +357884,7 @@ WindowSharedStorage interface contains the SharedStorageWorklet instance represe
         },
         short_title: "worklet",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -357913,7 +357920,7 @@ WindowSharedStorage interface executes a run operation that is registered in a m
         },
         short_title: "run()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -381926,175 +381933,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382102,7 +381941,55 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382114,7 +382001,55 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382122,12 +382057,84 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
         }
       ],
       links: [],
@@ -387991,7 +387998,7 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -387999,7 +388006,19 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388011,27 +388030,15 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -447067,11 +447074,47 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
@@ -447079,7 +447122,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
@@ -447091,27 +447138,19 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -447119,15 +447158,19 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
@@ -447135,11 +447178,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
@@ -447151,51 +447198,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         }
       ],
@@ -458432,7 +458439,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -458440,7 +458447,15 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -458448,15 +458463,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -484196,11 +484203,39 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484210,34 +484245,6 @@ The values allow for choosing between aligning to the box's first baseline, last
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -487479,7 +487486,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         browserCompat: [
           "css.properties.view-timeline-axis"
         ],
-        summary: "The view-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a named view progress timeline animation, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). view-timeline-axis is set on the subject. See CSS scroll-driven animations for more details.",
+        summary: "The view-timeline-axis CSS property specifies the scroll direction to be  used for a named view progress timeline.",
         popularity: 0.00019958328617229395,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -487503,10 +487510,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       ids: [
         "syntax",
         "values",
-        "block",
-        "inline",
-        "y",
-        "x",
+        "axis",
+        "description",
         "formal_definition",
         "formal_syntax",
         "view-timeline-axis",
@@ -506097,6 +506102,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "syntax",
         "values",
         "auto",
+        "none",
         "dashed-ident",
         "description",
         "formal_definition",
@@ -524055,7 +524061,6 @@ The rule must be placed at the top level of your code or nested inside any other
       ],
       links: [
         "https://drafts.csswg.org/css-animations-1/",
-        "https://developer.chrome.com/docs/css-ui/scroll-driven-animations",
         "https://developer.chrome.com/docs/css-ui/scroll-driven-animations"
       ],
       imgs: [],
@@ -525923,7 +525928,7 @@ For example, you can use counters to automatically number the headings on a webp
       metadata: {
         title: "Using relative colors",
         pageType: "guide",
-        summary: "The CSS colors module defines relative color syntax, which allows a CSS <color> value to be defined relative to another color. This is a powerful feature that enables easy creation of complements to existing colors — such as lighter, darker, saturated, semi-transparent, or inverted variants — enabling more effective color palette creation.",
+        summary: "The CSS colors module defines relative color syntax, which allows a CSS <color> value to be defined relative to another color. This is a powerful feature that enables the programmatic creation of complements to existing colors — such as lighter, darker, saturated, semi-transparent, or inverted variants — enabling more effective color palette creation.",
         popularity: 0.0010260456188454844,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -526743,7 +526748,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
       metadata: {
         title: "CSS Houdini",
         pageType: "guide",
-        summary: "CSS Houdini is a set of APIs that expose parts of the CSS engine. This makes it easier for developers to create extensions for CSS. These extensions might be to polyfill features that are not yet available in a browser, experiment with new ways of doing layout, or add creative borders or other effects.",
+        summary: "CSS Houdini is a set of APIs that expose parts of the CSS engine, enabling developers to create CSS extensions. These extensions might polyfill features that are not yet available in browsers, experiment with new layout techniques, or add creative borders and other effects.",
         popularity: 0.0002960262164032011,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -527190,7 +527195,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
       metadata: {
         title: "Using multi-column layouts",
         pageType: "guide",
-        summary: "The properties defined in the CSS multi-column layout module extend the block layout mode, enabling the easy definition of multiple columns of text. People have trouble reading text if lines are too long. If it takes too long for the eyes to move from the end of one line to the beginning of the next, readers can lose track of which line they were on. To provide for a better user experience when reading text making use of a large screen, you should limit the width of text by using columns of text placed side by side, just as newspapers do.",
+        summary: "The properties defined in the CSS multi-column layout module extend the block layout mode, enabling the definition of multiple columns of text. People have trouble reading text if lines are too long. If it takes too long for the eyes to move from the end of one line to the beginning of the next, readers can lose track of which line they were on. To provide for a better user experience when reading text making use of a large screen, you should limit the width of text by using columns of text placed side by side, just as newspapers do.",
         popularity: 0.00023173092958259632,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -539054,23 +539059,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -539078,7 +539067,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
@@ -542047,7 +542052,11 @@ You can find more information on the syntax in each protocol version in the HTTP
         "sec-ch-prefers-reduced-motion",
         "sec-ch-prefers-reduced-transparency",
         "device_client_hints",
-        "content-dpr",
+        "sec-ch-device-memory",
+        "sec-ch-dpr",
+        "sec-ch-viewport-height",
+        "sec-ch-viewport-width",
+        "deprecated_device_client_hints",
         "device-memory",
         "dpr",
         "viewport-width",
@@ -544440,6 +544449,42 @@ In responses, it provides information about which content types the server can u
     }
   },
   {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-DPR",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-CH-DPR header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-CH-DPR"
+        ],
+        summary: `The HTTP Sec-CH-DPR request header provides device client hints about the client device pixel ratio (DPR).
+This ratio is the number of physical device pixels corresponding to every CSS pixel.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-ch-dpr",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-CH-DPR",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "number",
+        "examples",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode",
     links: {},
     data: {
@@ -544943,6 +544988,44 @@ In responses, this information can be used as an input to the prioritization pro
     }
   },
   {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Device-Memory",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-CH-Device-Memory header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-CH-Device-Memory"
+        ],
+        summary: `The HTTP Sec-CH-Device-Memory request header is used in device client hints to indicate the approximate amount of available RAM on the client device, in gigabytes.
+The header is part of the Device Memory API.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-ch-device-memory",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-CH-Device-Memory",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "number",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/HTTP/Reference/Headers/Expires",
     links: {},
     data: {
@@ -545051,6 +545134,43 @@ In responses, this information can be used as an input to the prioritization pro
         "digest_authentication_with_sha-256_and_md5",
         "hoba_authentication",
         "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Viewport-Width",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-CH-Viewport-Width header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-CH-Viewport-Width"
+        ],
+        summary: `The HTTP Sec-CH-Viewport-Width request header is a device client hint which provides the client's layout viewport width in CSS pixels.
+The value is rounded up to the smallest following integer (i.e., ceiling value).`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-ch-viewport-width",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-CH-Viewport-Width",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "number",
+        "examples",
+        "using_sec-ch-viewport-width",
         "browser_compatibility",
         "see_also"
       ]
@@ -547174,6 +547294,43 @@ These rules dictate whether the same URL with different URL parameters should be
         "max",
         "examples",
         "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Viewport-Height",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-CH-Viewport-Height header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-CH-Viewport-Height"
+        ],
+        summary: `The HTTP Sec-CH-Viewport-Height request header is a device client hint which provides the client's layout viewport height in CSS pixels.
+The value is rounded up to the smallest following integer (i.e., ceiling value).`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-ch-viewport-height",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-CH-Viewport-Height",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "number",
+        "examples",
+        "using_sec-ch-viewport-height",
         "browser_compatibility",
         "see_also"
       ]
@@ -550324,8 +550481,6 @@ This ratio is the number of physical device pixels corresponding to every CSS pi
       },
       flaws: {},
       links: [
-        "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-client-hints-07",
-        "https://wicg.github.io/responsive-image-client-hints/#sec-ch-dpr",
         "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
       ],
       imgs: [],
@@ -550699,8 +550854,6 @@ The value is rounded up to the smallest following integer (i.e., ceiling value).
       },
       flaws: {},
       links: [
-        "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-client-hints-07",
-        "https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-width",
         "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
       ],
       imgs: [],
@@ -569971,18 +570124,24 @@ Firefox 147 is the current Beta version of Firefox and ships on January 13, 2026
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=147",
+        "https://bugzil.la/1988225",
+        "https://bugzil.la/1909339",
+        "https://bugzil.la/1999972",
         "https://bugzil.la/1362499",
         "https://bugzil.la/2001878",
         "https://bugzil.la/2000404",
+        "https://bugzil.la/1986681",
         "https://bugzil.la/2001836",
         "https://bugzil.la/1993341",
         "https://bugzil.la/1997962",
-        "https://bugzil.la/1921583"
+        "https://bugzil.la/1921583",
+        "https://bugzil.la/1360870"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
         "css",
+        "javascript",
         "apis",
         "changes_for_add-on_developers",
         "experimental_web_features"
@@ -570645,18 +570804,12 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1921501",
         "https://bugzil.la/1891446",
         "https://bugzil.la/1889561",
-        "https://bugzil.la/1988224",
-        "https://bugzil.la/1924086",
-        "https://bugzil.la/1962598",
-        "https://bugzil.la/1972610",
-        "https://bugzil.la/1924086",
         "https://bugzil.la/1953557",
         "https://bugzil.la/1941406",
         "https://bugzil.la/1974386",
         "https://bugzil.la/1984310",
         "https://bugzil.la/1979915",
         "https://bugzil.la/1744292",
-        "https://bugzil.la/1720570",
         "https://bugzil.la/1888729",
         "https://bugzil.la/1992941",
         "https://bugzil.la/1954685",
@@ -570729,12 +570882,6 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.letter-spacing.model",
         "calc_color_channel_support_in_relative_colors",
         "layout.css.relative-color-syntax.enabled",
-        "css_anchor_positioning",
-        "layout.css.anchor-positioning.enabled",
-        "anchor-size_function",
-        "layout.css.anchor-positioning.enabled_2",
-        "position-area_property",
-        "layout.css.anchor-positioning.enabled_3",
         "allow_pseudo-elements_after_element-backed_pseudo-elements",
         "heading_and_heading_pseudo-classes",
         "layout.css.heading-selector.enabled",
@@ -570744,8 +570891,6 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.custom-media.enabled",
         "svg",
         "javascript",
-        "css_module_scripts",
-        "layout.css.module-scripts.enabled",
         "apis",
         "closewatcher_interface",
         "dom.closewatcher.enabled",
@@ -608127,7 +608272,7 @@ Once active, the state lasts for the duration of the session.`,
       metadata: {
         title: "Sloppy mode",
         pageType: "glossary-definition",
-        summary: "ECMAScript 5 and later let scripts opt in to a new strict mode, which alters the semantics of JavaScript in several ways to improve its resiliency and which make it easier to understand what's going on when there are problems.",
+        summary: "ECMAScript 5 and later let scripts opt in to a new strict mode, which alters the semantics of JavaScript in several ways to improve its resilience and make errors more understandable.",
         popularity: 0.0005190504925621738,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -613966,7 +614111,7 @@ This allows them to, for example, be stored on disk and later restored, or clone
       metadata: {
         title: "UX",
         pageType: "glossary-definition",
-        summary: "UX is an acronym that stands for User eXperience. It is the study of the interaction between users and a system. Its goal is to make a system easy to interact with from the user's point of view.",
+        summary: "UX is an acronym that stands for User eXperience. It is the study of the interaction between users and a system. Its goal is to make a system intuitive and easy to interact with from the user's point of view.",
         popularity: 0.0003891204337788684,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -614725,6 +614870,34 @@ This prevents congestion when a network's capabilities are unknown or exceeded �
       ids: [
         "brief_history",
         "alternatives",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Glossary/Nonce",
+    links: {},
+    data: {
+      metadata: {
+        title: "Nonce",
+        pageType: "glossary-definition",
+        summary: 'In cryptography and computer security, a nonce is an arbitrary number that is used only once in a cryptographic communication. The term is derived from "number used once" and is commonly employed to prevent replay attacks, ensure message freshness, and add randomness to cryptographic protocols.',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/glossary/nonce",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Nonce",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://en.wikipedia.org/wiki/Cryptographic_nonce",
+        "https://en.wikipedia.org/wiki/Replay_attack"
+      ],
+      imgs: [],
+      ids: [
         "see_also"
       ]
     }
@@ -619740,7 +619913,7 @@ A restrictive robots.txt file can prevent bandwidth consumption by crawlers.`,
       metadata: {
         title: "Database",
         pageType: "glossary-definition",
-        summary: "A database is a storing system that collects organized data, to make some works easier like searching, structure, and extend.",
+        summary: "A database is a storage system that collects organized data, making it easier to search, structure, and extend.",
         popularity: 0.00046547108687833657,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
