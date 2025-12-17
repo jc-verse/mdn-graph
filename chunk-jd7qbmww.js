@@ -12936,6 +12936,7 @@ This is a relatively simple example, but it does show how you can use the sessio
         "frame_simple-grid_0",
         "frame_simple-grid_1",
         "frame_simple-grid_2",
+        "interactive_recap_of_grid_concepts",
         "flexible_grids_with_the_fr_unit",
         "frame_grid-fr-unit_0",
         "frame_grid-fr-unit_1",
@@ -16724,7 +16725,8 @@ In this lesson, we will take a look at some of the most frequently used value ty
       flaws: {},
       links: [
         "mailto:bob@bob.com",
-        "https://css-tricks.com/html-inputs-and-labels-a-love-story/"
+        "https://css-tricks.com/html-inputs-and-labels-a-love-story/",
+        "https://scrimba.com/learn-responsive-web-design-c029/~031?via=mdn"
       ],
       imgs: [],
       ids: [
@@ -16870,6 +16872,7 @@ In this lesson, we will take a look at some of the most frequently used value ty
         "fixing_the_layout_with_rowspan_and_colspan",
         "grouping_columns_with_colgroup_and_col",
         "frame_colgroup-col",
+        "interactive_recap_of_table_concepts",
         "summary"
       ]
     }
@@ -17344,6 +17347,7 @@ This article shows the syntax required to make a link, and discusses link best p
       flaws: {},
       links: [
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-start.html",
+        "https://scrimba.com/fullstack-path-c0fullstack/~04h?via=mdn",
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/icons/warning.png",
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/icons/chat.png",
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-stage-4.html",
@@ -17606,7 +17610,7 @@ In this article we will look at JavaScript from a high level, answering question
       metadata: {
         title: "A first splash into JavaScript",
         pageType: "learn-module-chapter",
-        summary: `Now you've learned something about the theory of JavaScript and what you can do with it, we are going to give you an idea of what the process of creating a simple JavaScript program is like, by guiding you through a practical tutorial. Here you'll build up a simple "Guess the number" game, step by step.`,
+        summary: `Now that you've learned some theory about JavaScript and what you can do with it, we'll walk you through a practical tutorial so you can see how to create a simple JavaScript program. Here you'll build a simple "Guess the number" game, step by step.`,
         popularity: 0.002995088777726505,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -17618,6 +17622,7 @@ In this article we will look at JavaScript from a high level, answering question
       },
       flaws: {},
       links: [
+        "https://scrimba.com/learn-javascript-c0v/~04?via=mdn",
         "https://mdn.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html",
         "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html"
       ],
@@ -18648,6 +18653,7 @@ In this article we will look at JavaScript from a high level, answering question
       },
       flaws: {},
       links: [
+        "https://scrimba.com/learn-javascript-c0v/~02a?via=mdn",
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/contact-search.html",
         "https://mdn.github.io/learning-area/javascript/building-blocks/loops/contact-search.html",
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/integer-squares.html",
@@ -84724,6 +84730,131 @@ number of ranges in the object.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/Private_State_Token_API",
+    links: {},
+    data: {
+      metadata: {
+        title: "Private State Token API",
+        pageType: "web-api-overview",
+        browserCompat: [
+          "api.fetch.init_privateToken_parameter"
+        ],
+        summary: "The Private State Token API provides a mechanism for conveying trust in a user's authenticity from one browsing context to another, without sharing the user's identity or allowing their activity across websites to be tracked.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/private_state_token_api",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Private State Token API",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/",
+          title: "Private State Token API"
+        }
+      ],
+      links: [
+        "https://en.wikipedia.org/wiki/CAPTCHA",
+        "https://privacypass.github.io/",
+        "https://privatetokens.dev/"
+      ],
+      imgs: [],
+      ids: [
+        "concepts_and_usage",
+        "how_do_private_state_tokens_work",
+        "interfaces",
+        "extensions_to_other_interfaces",
+        "document.hasprivatetoken",
+        "document.hasredemptionrecord",
+        "htmliframeelement.privatetoken",
+        "fetch",
+        "xmlhttprequest.setprivatetoken",
+        "html_elements",
+        "iframe",
+        "http_headers",
+        "permissions-policy",
+        "permissions-policy_2",
+        "sec-redemption-record",
+        "sec-private-state-token",
+        "sec-private-state-token-crypto-version",
+        "sec-private-state-token-lifetime",
+        "security_considerations",
+        "examples",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Private_State_Token_API/Using",
+    links: {},
+    data: {
+      metadata: {
+        title: "Using the Private State Token API",
+        pageType: "web-api-overview",
+        summary: "This page explains how to use the Private State Tokens API to conveying trust in a user's authenticity from one browsing context to another.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/private_state_token_api/using",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Using the Private State Token API",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://privacypass.github.io/",
+        "https://en.wikipedia.org/wiki/CAPTCHA",
+        "https://privatetokens.dev/",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/",
+        "https://github.com/GoogleChrome/private-tokens/blob/main/PST-Registration.md",
+        "https://github.com/GoogleChrome/private-tokens/issues/new",
+        "https://github.com/GoogleChrome/private-tokens",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/main/src/index.js",
+        "https://boringssl.googlesource.com/boringssl/",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/tree/main?tab=readme-ov-file#private-state-token-demo",
+        "https://web.dev/articles/same-site-same-origin#site",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/bf173919620f2b8203a628c3a1094c8846e6aff1/src/index.js#L55",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/bf173919620f2b8203a628c3a1094c8846e6aff1/src/index.js#L81",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/main/src/index.js",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/tree/main?tab=readme-ov-file#private-state-token-demo",
+        "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/bf173919620f2b8203a628c3a1094c8846e6aff1/src/index.js#L98"
+      ],
+      imgs: [
+        "/en-US/docs/Web/API/Private_State_Token_API/Using/issuer.png",
+        "/en-US/docs/Web/API/Private_State_Token_API/Using/redeemer.png"
+      ],
+      ids: [
+        "high-level_overview",
+        "issuing_tokens",
+        "redeeming_tokens",
+        "redemption_record_usage",
+        "example_implementation",
+        "issuing_tokens_2",
+        "signing_up_to_become_an_issuer",
+        "creating_an_issuer_server",
+        "issuer_server_technical_requirements",
+        "issuing_a_token_via_your_server",
+        "version",
+        "operation",
+        "token_issue_limitations",
+        "redeeming_tokens_2",
+        "creating_a_redeemer_server",
+        "redeemer_server_technical_requirements",
+        "redeeming_a_token_via_your_server",
+        "redemption_record_limitations",
+        "redemption_record_usage_2",
+        "permissions_policy_integration"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/SVGEllipseElement",
     links: {},
     data: {
@@ -147182,6 +147313,7 @@ that users can fill with their own markup.`,
         "htmliframeelement.marginheight",
         "htmliframeelement.marginwidth",
         "htmliframeelement.name",
+        "htmliframeelement.privatetoken",
         "htmliframeelement.referrerpolicy",
         "htmliframeelement.sandbox",
         "htmliframeelement.scrolling",
@@ -147789,6 +147921,44 @@ the Permissions Policies applied to a specific frame.`,
         "examples",
         "get",
         "set",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLIFrameElement/privateToken",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLIFrameElement: privateToken property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLIFrameElement.privateToken"
+        ],
+        summary: "The privateToken property of the HTMLIFrameElement interface returns a string representation of an options object representing a private state token operation; this object has the same structure as the RequestInit dictionary's privateToken property.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmliframeelement/privatetoken",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "privateToken",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#dom-htmliframeelement-privatetoken",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -160302,6 +160472,7 @@ SnapEvent object instance.`,
         "xmlhttprequest.overridemimetype",
         "xmlhttprequest.send",
         "xmlhttprequest.setattributionreporting",
+        "xmlhttprequest.setprivatetoken",
         "xmlhttprequest.setrequestheader",
         "events",
         "readystatechange",
@@ -160463,6 +160634,63 @@ property.`,
       links: [],
       imgs: [],
       ids: [
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/XMLHttpRequest/setPrivateToken",
+    links: {},
+    data: {
+      metadata: {
+        title: "XMLHttpRequest: setPrivateToken() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.XMLHttpRequest.setPrivateToken"
+        ],
+        summary: "The XMLHttpRequest method setPrivateToken() adds private state token information to an XMLHttpRequest call, to initiate private state token operations.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/xmlhttprequest/setprivatetoken",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "setPrivateToken()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#dom-xmlhttprequest-setprivatetoken",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "privatetoken",
+        "issuers",
+        "operation",
+        "token-request",
+        "token-redemption",
+        "send-redemption-record",
+        "refreshpolicy",
+        "none",
+        "refresh",
+        "version",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "typeerror",
+        "examples",
+        "issuing_a_private_token",
+        "redeeming_a_private_token",
+        "forwarding_a_redemption_record",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -176764,6 +176992,8 @@ reverses the effects of a previous call to Element.requestFullscreen().`,
         "document.getelementsbytagname",
         "document.getelementsbytagnamens",
         "document.getselection",
+        "document.hasprivatetoken",
+        "document.hasredemptionrecord",
         "document.hasstorageaccess",
         "document.hasunpartitionedcookieaccess",
         "document.importnode",
@@ -177377,6 +177607,51 @@ fragment under the specified coordinates.`,
         "javascript_2",
         "results_2",
         "frame_split_text_nodes_at_caret_positions_in_a_shadow_dom",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Document/hasPrivateToken",
+    links: {},
+    data: {
+      metadata: {
+        title: "Document: hasPrivateToken() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.Document.hasPrivateToken"
+        ],
+        summary: "The hasPrivateToken() method of the Document interface returns a promise that fulfills with a boolean indicating whether the browser has a private state token stored from a particular issuer server.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/document/hasprivatetoken",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "hasPrivateToken()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#dom-document-hasprivatetoken",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "issuer",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "typeerror",
+        "examples",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -179138,6 +179413,51 @@ changed.`,
         "examples",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Document/hasRedemptionRecord",
+    links: {},
+    data: {
+      metadata: {
+        title: "Document: hasRedemptionRecord() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.Document.hasRedemptionRecord"
+        ],
+        summary: "The hasRedemptionRecord() method of the Document interface returns a promise that fulfills with a boolean indicating whether the browser has a redemption record originating from a particular issuer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/document/hasredemptionrecord",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "hasRedemptionRecord()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#dom-document-hasredemptionrecord",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "issuer",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "typeerror",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -226359,7 +226679,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -226367,7 +226687,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         }
       ],
@@ -233906,6 +234226,7 @@ Request object.`,
         "input",
         "options",
         "exceptions",
+        "notallowederror",
         "typeerror",
         "examples",
         "specifications",
@@ -267852,6 +268173,16 @@ of the individual transform property in CSS.`,
         "high",
         "low",
         "auto",
+        "privatetoken",
+        "issuers",
+        "operation",
+        "token-request",
+        "token-redemption",
+        "send-redemption-record",
+        "refreshpolicy",
+        "none",
+        "refresh",
+        "version",
         "redirect",
         "follow",
         "error",
@@ -381124,6 +381455,7 @@ Notification() constructor.`,
         "bounce_tracking_mitigations",
         "cookies_having_independent_partitioned_state_chips",
         "fenced_frame_api",
+        "private_state_token_api",
         "related_website_sets",
         "shared_storage_api",
         "topics_api",
@@ -381933,31 +382265,23 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -381965,31 +382289,39 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382001,107 +382333,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382109,7 +382341,31 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382117,11 +382373,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382129,12 +382381,92 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
         }
       ],
       links: [],
@@ -387998,23 +388330,11 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388022,15 +388342,11 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388038,7 +388354,23 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -447074,27 +447406,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
@@ -447102,27 +447414,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
@@ -447138,8 +447438,8 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -447150,47 +447450,31 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Parts"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -447198,11 +447482,59 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         }
       ],
@@ -451051,6 +451383,7 @@ If specified, you define the referrer using a content attribute in the <meta> el
         "eager",
         "lazy",
         "name",
+        "privatetoken",
         "referrerpolicy",
         "no-referrer",
         "no-referrer-when-downgrade",
@@ -458439,11 +458772,11 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -458451,7 +458784,11 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458459,11 +458796,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -470398,7 +470731,7 @@ They're intended to help you understand what kinds of things are possible to imp
         browserCompat: [
           "css.types.acos"
         ],
-        summary: "The acos() CSS function is a trigonometric function that returns the inverse cosine of a number between -1 and 1. The function contains a single calculation that returns the number of radians representing an <angle> between 0deg and 180deg.",
+        summary: "The acos() CSS function is a trigonometric function that returns the inverse cosine of a number between -1 and 1. The function contains a single calculation that returns an <angle> between 0deg and 180deg.",
         popularity: 0.00016810538533303953,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -475276,7 +475609,7 @@ For text content, this keyword causes the content to wrap at every opportunity (
         browserCompat: [
           "css.types.asin"
         ],
-        summary: "The asin() CSS function is a trigonometric function that returns the inverse sine of a number between -1 and 1. The function contains a single calculation that returns the number of radians representing an <angle> between -90deg and 90deg.",
+        summary: "The asin() CSS function is a trigonometric function that returns the inverse sine of a number between -1 and 1. The function contains a single calculation that returns an <angle> between -90deg and 90deg.",
         popularity: 0.00012189314793072986,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -479584,7 +479917,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
         browserCompat: [
           "css.types.atan"
         ],
-        summary: "The atan() CSS function is a trigonometric function that returns the inverse tangent of a number between -∞ and +∞. The function contains a single calculation that returns the number of radians representing an <angle> between -90deg and 90deg.",
+        summary: "The atan() CSS function is a trigonometric function that returns the inverse tangent of a number between -∞ and +∞. The function contains a single calculation that returns an <angle> between -90deg and 90deg.",
         popularity: 0.00013863671220692902,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -484207,23 +484540,11 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484231,11 +484552,15 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484245,6 +484570,14 @@ The values allow for choosing between aligning to the box's first baseline, last
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -487486,7 +487819,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         browserCompat: [
           "css.properties.view-timeline-axis"
         ],
-        summary: "The view-timeline-axis CSS property specifies the scroll direction to be  used for a named view progress timeline.",
+        summary: "The view-timeline-axis CSS property specifies the scroll direction to be used for a named view progress timeline.",
         popularity: 0.00019958328617229395,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -498706,7 +499039,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.interpolate-size"
         ],
-        summary: "The interpolate-size CSS property allows you to enable animations and transitions between a <length-percentage> value and an intrinsic size value such as auto, fit-content, or max-content.",
+        summary: "The interpolate-size CSS property allows you to enable animations and transitions between a <length-percentage> value and an intrinsic size, fit-content, or max-content.",
         popularity: 0.001289924191838383,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -534678,6 +535011,66 @@ It contains data, usually organized in hierarchical form, to identify a resource
     }
   },
   {
+    id: "/en-US/docs/Web/URI/Reference/Fragment/Media_fragments",
+    links: {},
+    data: {
+      metadata: {
+        title: "Media fragments",
+        pageType: "uri-component",
+        summary: "Media fragments can be included on media file (for example, video and SVG) URLs to indicate that you want to show a subset of the media: A certain duration or a certain dimension.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/uri/reference/fragment/media_fragments",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Media fragments",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/media-frags/",
+          title: "Unknown specification"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "concepts_and_usage",
+        "temporal_dimension_fragment_syntax",
+        "t",
+        "npt",
+        "timestart",
+        "timeend",
+        "seconds",
+        "hhmmss",
+        "mmss",
+        "spatial_dimension_fragment_syntax",
+        "xywh",
+        "unit",
+        "percent",
+        "pixel",
+        "xcoord",
+        "ycoord",
+        "width",
+        "height",
+        "examples",
+        "playing_limited-time_excerpts_from_audio_and_video_files",
+        "html",
+        "result",
+        "frame_limited-time",
+        "displaying_a_subset_of_an_svg_image",
+        "html_2",
+        "css",
+        "result_2",
+        "frame_limited-dimension",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/URI/Reference/Fragment/Text_fragments",
     links: {},
     data: {
@@ -539059,11 +539452,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -539071,7 +539460,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -539079,11 +539472,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -545797,6 +546190,46 @@ It is sent in a 407 Proxy Authentication Required response so a client can ident
     }
   },
   {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Crypto-Version",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-Private-State-Token-Crypto-Version header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-Private-State-Token-Crypto-Version"
+        ],
+        summary: "The HTTP Sec-Private-State-Token-Crypto-Version Fetch Metadata Request Header is used by the Private State Token API during token issuance to indicate to the issuer server which cryptographic protocol version should be used to sign blinded nonces when generating tokens.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-private-state-token-crypto-version",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-Private-State-Token-Crypto-Version",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#sec-private-state-token-crypto-version",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "string",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/HTTP/Reference/Headers/Pragma",
     links: {},
     data: {
@@ -547300,6 +547733,46 @@ These rules dictate whether the same URL with different URL parameters should be
     }
   },
   {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-Private-State-Token header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-Private-State-Token"
+        ],
+        summary: "The HTTP Sec-Private-State-Token header exists both as a request and a response header. It is used by the Private State Token API during issuance and redemption requests to transmit request data and response data.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-private-state-token",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-Private-State-Token",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#sec-private-state-token",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "string",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Viewport-Height",
     links: {},
     data: {
@@ -548352,6 +548825,46 @@ For example, it can be used by a client to upgrade a connection from HTTP/1.1 to
         "directives",
         "host",
         "port",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Lifetime",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-Private-State-Token-Lifetime header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-Private-State-Token-Lifetime"
+        ],
+        summary: "The HTTP Sec-Private-State-Token-Lifetime Response Header is used by the Private State Token API during token redemption. It is sent by the redeemer server to indicate to the browser how long (in seconds) a redemption record should be cached for. The redemption record itself is sent in a Sec-Private-State-Token response header.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-private-state-token-lifetime",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-Private-State-Token-Lifetime",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#sec-private-state-token-lifetime",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "integer",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -550363,6 +550876,46 @@ It is used for tracking message forwards, avoiding request loops, and identifyin
     }
   },
   {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Redemption-Record",
+    links: {},
+    data: {
+      metadata: {
+        title: "Sec-Redemption-Record header",
+        pageType: "http-header",
+        browserCompat: [
+          "http.headers.Sec-Redemption-Record"
+        ],
+        summary: "The HTTP Sec-Redemption-Record Fetch Metadata Request Header is used by the Private State Token API when forwarding redemption records. The header contains a list of issuer and redemption record pairs corresponding to each redemption record.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/sec-redemption-record",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Sec-Redemption-Record",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#sec-redemption-record",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "directives",
+        "string",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/HTTP/Reference/Headers/ETag",
     links: {},
     data: {
@@ -550981,6 +551534,8 @@ The value is rounded up to the smallest following integer (i.e., ceiling value).
         "otp-credentials",
         "payment",
         "picture-in-picture",
+        "private-state-token-issuance",
+        "private-state-token-redemption",
         "publickey-credentials-create",
         "publickey-credentials-get",
         "screen-wake-lock",
@@ -551125,6 +551680,47 @@ The value is rounded up to the smallest following integer (i.e., ceiling value).
         "examples",
         "general_example",
         "with_an_iframe_element",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/private-state-token-issuance",
+    links: {},
+    data: {
+      metadata: {
+        title: "Permissions-Policy: private-state-token-issuance directive",
+        pageType: "http-permissions-policy-directive",
+        browserCompat: [
+          "http.headers.Permissions-Policy.private-state-token-issuance"
+        ],
+        summary: "The HTTP Permissions-Policy header private-state-token-issuance directive controls usage of private state token token-request operations.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/permissions-policy/private-state-token-issuance",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "private-state-token-issuance",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#policy-controlled-feature-private-state-token-issuance",
+          title: "Private State Token API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "allowlist",
+        "default_policy",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -552099,6 +552695,47 @@ autoplay media requested through the HTMLMediaElement interface.`,
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature",
           title: "HTML"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "allowlist",
+        "default_policy",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/private-state-token-redemption",
+    links: {},
+    data: {
+      metadata: {
+        title: "Permissions-Policy: private-state-token-redemption directive",
+        pageType: "http-permissions-policy-directive",
+        browserCompat: [
+          "http.headers.Permissions-Policy.private-state-token-redemption"
+        ],
+        summary: "The HTTP Permissions-Policy header private-state-token-redemption directive controls usage of private state token token-redemption and send-redemption-record operations.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/permissions-policy/private-state-token-redemption",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "private-state-token-redemption",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/trust-token-api/#policy-controlled-feature-private-state-token-redemption",
+          title: "Private State Token API"
         }
       ],
       links: [],
@@ -570124,6 +570761,7 @@ Firefox 147 is the current Beta version of Firefox and ships on January 13, 2026
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=147",
+        "https://bugzil.la/1999989",
         "https://bugzil.la/1988225",
         "https://bugzil.la/1909339",
         "https://bugzil.la/1999972",
@@ -570140,6 +570778,7 @@ Firefox 147 is the current Beta version of Firefox and ships on January 13, 2026
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "svg",
         "css",
         "javascript",
         "apis",
