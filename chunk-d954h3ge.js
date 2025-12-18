@@ -226675,19 +226675,19 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -382265,23 +382265,23 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382293,27 +382293,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382321,7 +382305,147 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382333,139 +382457,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -388330,27 +388330,7 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388358,7 +388338,31 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388367,10 +388371,6 @@ JavaScript syntax would expect one.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -447406,19 +447406,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
@@ -447426,8 +447418,32 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
@@ -447438,7 +447454,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
@@ -447450,35 +447466,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -447486,19 +447474,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
           title: "HTML"
         },
         {
@@ -447506,27 +447482,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -447534,7 +447494,47 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
           title: "HTML"
         }
       ],
@@ -458772,23 +458772,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458796,7 +458780,23 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         }
       ],
@@ -470626,6 +470626,7 @@ They're intended to help you understand what kinds of things are possible to imp
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -474130,7 +474131,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         }
       ],
       links: [
-        "https://drafts.fxtf.org/compositing-2/",
+        "https://drafts.csswg.org/compositing-2/",
         "https://en.wikipedia.org/wiki/Blend_modes",
         "https://helpx.adobe.com/photoshop/desktop/repair-retouch/adjust-light-tone/blending-mode-descriptions.html"
       ],
@@ -474483,8 +474484,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
       ],
       links: [
         "https://en.wikipedia.org/wiki/Polygon",
-        "https://drafts.fxtf.org/fill-stroke-3/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -474542,8 +474543,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/"
       ],
@@ -474917,8 +474918,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://css-tricks.com/svg-path-syntax-illustrated-guide/"
       ],
       imgs: [],
@@ -476612,7 +476613,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476676,7 +476677,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476727,7 +476728,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476773,7 +476774,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476819,7 +476820,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476868,7 +476869,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476917,7 +476918,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       ],
       links: [
         "https://en.wikipedia.org/wiki/Hue",
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -476970,7 +476971,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -477024,7 +477025,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       ],
       links: [
         "https://en.wikipedia.org/wiki/Gaussian_blur",
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -477072,7 +477073,7 @@ It can be used for many basic image manipulations, such as tinting an image with
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -477119,7 +477120,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       ],
       links: [
         "https://en.wikipedia.org/wiki/Gaussian_blur",
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -480167,7 +480168,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
       ],
       links: [
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -480316,6 +480317,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
         "https://drafts.csswg.org/css-sizing-3/#max-content",
         "https://drafts.csswg.org/css-sizing-3/#min-content",
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-define-a-grid/"
       ],
@@ -480610,7 +480612,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         }
       ],
       links: [
-        "https://drafts.fxtf.org/compositing-2/"
+        "https://drafts.csswg.org/compositing-2/"
       ],
       imgs: [],
       ids: [
@@ -480621,6 +480623,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "formal_definition",
         "formal_syntax",
         "background-blend-mode",
+        "<mix-blend-mode>",
+        "<blend-mode>",
         "examples",
         "basic_example",
         "try_out_different_blend_modes",
@@ -480766,7 +480770,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -480822,7 +480826,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
       links: [
         "https://drafts.fxtf.org/compositing/#porterduffcompositingoperators_plus_darker",
         "https://drafts.fxtf.org/compositing/#porterduffcompositingoperators_plus_lighter",
-        "https://drafts.fxtf.org/compositing-2/"
+        "https://drafts.csswg.org/compositing-2/"
       ],
       imgs: [],
       ids: [
@@ -481581,7 +481585,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -481692,6 +481696,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/grid-template-shorthand/"
       ],
@@ -481972,7 +481977,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -482443,7 +482448,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -482925,7 +482930,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -483431,8 +483436,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
-        "https://drafts.csswg.org/css-shapes-1/"
+        "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -483519,7 +483524,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -484536,15 +484541,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484552,11 +484549,31 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484565,18 +484582,6 @@ The values allow for choosing between aligning to the box's first baseline, last
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -485304,7 +485309,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -485572,7 +485577,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -486297,7 +486302,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -486347,7 +486352,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -486910,7 +486915,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-color-4/",
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -487398,8 +487403,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -487468,7 +487473,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -487790,7 +487795,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://webstore.iec.ch/en/publication/6169",
-        "https://drafts.fxtf.org/filter-effects-1/",
+        "https://drafts.csswg.org/filter-effects-1/",
         "https://webstore.iec.ch/en/publication/6169"
       ],
       imgs: [],
@@ -489890,7 +489895,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -490102,7 +490107,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [
         "/en-US/docs/Web/CSS/Reference/Properties/mask-border-slice/border-image-slice.png"
@@ -490766,8 +490771,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://drafts.csswg.org/css-flexbox-1/#flex-baselines",
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -491192,6 +491197,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -491492,8 +491498,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -492123,7 +492129,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
       ],
@@ -492601,8 +492607,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-images-5/",
-        "https://drafts.fxtf.org/css-masking-1/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [
@@ -493824,8 +493830,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/",
-        "https://drafts.fxtf.org/filter-effects-2/"
+        "https://drafts.csswg.org/filter-effects-1/",
+        "https://drafts.csswg.org/filter-effects-2/"
       ],
       imgs: [],
       ids: [
@@ -494131,7 +494137,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -494762,7 +494768,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -494866,6 +494872,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-define-a-grid/"
       ],
@@ -495644,7 +495651,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -495964,7 +495971,7 @@ transform: scale() can be used as an alternative to this property.`,
       ],
       links: [
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/selectors-4/",
         "https://www.colorhexa.com/008000"
       ],
@@ -496604,8 +496611,8 @@ transform: scale() can be used as an alternative to this property.`,
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -496776,7 +496783,7 @@ transform: scale() can be used as an alternative to this property.`,
       ],
       links: [
         "https://drafts.csswg.org/css-backgrounds-4/",
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -498842,7 +498849,7 @@ transform: scale() can be used as an alternative to this property.`,
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -498891,7 +498898,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       ],
       links: [
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.fxtf.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/"
       ],
       imgs: [],
       ids: [
@@ -499007,7 +499014,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -500263,8 +500270,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -501455,8 +501462,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
         "https://drafts.csswg.org/css-images-4/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://svgwg.org/svg2-draft/painting.html",
         "https://drafts.csswg.org/selectors-4/"
       ],
@@ -502074,8 +502081,8 @@ When a containment context is given a name, it can be specifically targeted usin
         "https://drafts.fxtf.org/fill-stroke-3/#stroke-shorthand",
         "https://svgwg.org/svg2-draft/pservers.html",
         "https://svgwg.org/svg2-draft/painting.html#TermContextElement",
-        "https://drafts.fxtf.org/fill-stroke-3/",
         "https://drafts.csswg.org/css-images-4/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://svgwg.org/svg2-draft/painting.html",
         "https://drafts.csswg.org/selectors-4/"
       ],
@@ -502354,7 +502361,7 @@ When a containment context is given a name, it can be specifically targeted usin
         }
       ],
       links: [
-        "https://drafts.fxtf.org/compositing-2/"
+        "https://drafts.csswg.org/compositing-2/"
       ],
       imgs: [],
       ids: [
@@ -504274,7 +504281,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       ],
       links: [
         "https://drafts.csswg.org/css-backgrounds-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -504452,7 +504459,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -505098,7 +505105,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -505815,7 +505822,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.fxtf.org/filter-effects-1/"
+        "https://drafts.csswg.org/filter-effects-1/"
       ],
       imgs: [],
       ids: [
@@ -506707,8 +506714,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "https://drafts.csswg.org/css-backgrounds-4/",
         "https://drafts.csswg.org/css-box-4/",
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.fxtf.org/css-masking-1/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/",
         "https://drafts.csswg.org/selectors-4/"
@@ -507011,6 +507018,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "https://gomakethings.com/hidden-content-for-better-a11y/",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
         "https://drafts.csswg.org/css-display-4/",
+        "https://drafts.csswg.org/css-grid-3/",
         "https://w3c.github.io/mathml-core/"
       ],
       imgs: [],
@@ -507186,8 +507194,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/",
-        "https://drafts.csswg.org/css-align-3/"
+        "https://drafts.csswg.org/css-align-3/",
+        "https://drafts.csswg.org/css-anchor-position-1/"
       ],
       imgs: [],
       ids: [
@@ -507646,7 +507654,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.fxtf.org/css-masking-1/",
+        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/"
       ],
@@ -509448,7 +509456,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       ],
       links: [
         "https://drafts.csswg.org/css-color-4/",
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -509658,7 +509666,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       ],
       links: [
         "https://drafts.csswg.org/css-color-4/",
-        "https://drafts.fxtf.org/fill-stroke-3/"
+        "https://drafts.csswg.org/fill-stroke/"
       ],
       imgs: [],
       ids: [
@@ -539452,15 +539460,11 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -539468,15 +539472,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         }
       ],
@@ -545402,7 +545410,12 @@ The header is part of the Device Memory API.`,
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/device-memory/#iana-device-memory",
+          title: "Device Memory"
+        }
+      ],
       links: [
         "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
       ],
@@ -550987,12 +551000,7 @@ The header is part of the Device Memory API.`,
         ]
       },
       flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://www.w3.org/TR/device-memory/#iana-device-memory",
-          title: "Device Memory"
-        }
-      ],
+      specifications: [],
       links: [
         "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
       ],
@@ -562246,7 +562254,6 @@ This is generally only interesting to people doing development on Mozilla itself
       imgs: [],
       ids: [
         "changes_for_web_developers",
-        "developer_tools",
         "html",
         "css",
         "javascript",
@@ -562406,7 +562413,6 @@ This is generally only interesting to people doing development on Mozilla itself
       },
       flaws: {},
       links: [
-        "https://bugzil.la/834836",
         "https://bugzil.la/857820",
         "https://bugzil.la/841950",
         "https://bugzil.la/842927",
@@ -562424,12 +562430,12 @@ This is generally only interesting to people doing development on Mozilla itself
         "https://bugzil.la/867454",
         "https://bugzil.la/811403",
         "https://bugzil.la/717546",
+        "https://bugzil.la/834836",
         "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
-        "security",
         "developer_tools",
         "html",
         "javascript",
@@ -562437,6 +562443,7 @@ This is generally only interesting to people doing development on Mozilla itself
         "webrtc",
         "css",
         "mathml",
+        "security",
         "changes_for_addon_and_mozilla_developers",
         "firefox_developer_tools",
         "see_also"
@@ -563877,6 +563884,8 @@ Firefox 51 was released on January 24, 2017. This article lists key changes that
       flaws: {},
       links: [
         "https://www.firefox.com/en-US/channel/desktop/developer/",
+        "https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html#timings",
+        "https://bugzilla.mozilla.org/buglist.cgi?list_id=13263768&resolution=FIXED&classification=Client%20Software&chfieldto=2016-09-19&query_format=advanced&chfield=resolution&chfieldfrom=2016-08-01&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%20about%3Adebugging&component=Developer%20Tools%3A%20Animation%20Inspector&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Computed%20Styles%20Inspector&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20CSS%20Rules%20Inspector&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20DOM&component=Developer%20Tools%3A%20Font%20Inspector&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20JSON%20Viewer&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Design%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Shared%20Components&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox",
         "https://bugzil.la/870388",
         "https://bugzil.la/1287655",
         "https://bugzil.la/885359",
@@ -563896,8 +563905,6 @@ Firefox 51 was released on January 24, 2017. This article lists key changes that
         "https://bugzil.la/1199296",
         "https://bugzil.la/1016936",
         "https://bugzil.la/1300374",
-        "https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/index.html#timings",
-        "https://bugzilla.mozilla.org/buglist.cgi?list_id=13263768&resolution=FIXED&classification=Client%20Software&chfieldto=2016-09-19&query_format=advanced&chfield=resolution&chfieldfrom=2016-08-01&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%20about%3Adebugging&component=Developer%20Tools%3A%20Animation%20Inspector&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Computed%20Styles%20Inspector&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20CSS%20Rules%20Inspector&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20DOM&component=Developer%20Tools%3A%20Font%20Inspector&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20JSON%20Viewer&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Design%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Shared%20Components&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox",
         "https://webglsamples.org/WebGL2Samples/",
         "https://bugzil.la/1316778",
         "https://bugzil.la/1306174",
@@ -563960,10 +563967,10 @@ Firefox 51 was released on January 24, 2017. This article lists key changes that
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "html",
         "css",
         "javascript",
-        "developer_tools",
         "webgl",
         "indexeddb_v2",
         "canvas",
@@ -564455,14 +564462,15 @@ Firefox 144 was released on October 14, 2025.`,
       },
       flaws: {},
       links: [
-        "https://bugzil.la/689641",
         "https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html#string-substitutions",
         "https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html#using-groups-in-the-console",
+        "https://bugzil.la/689641",
         "https://bugzil.la/679784"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "html",
         "css",
         "javascript",
@@ -564472,7 +564480,6 @@ Firefox 144 was released on October 14, 2025.`,
         "webgl",
         "mathml",
         "networking",
-        "developer_tools",
         "changes_for_mozilla_and_add-on_developers",
         "xul",
         "javascript_code_module_changes",
@@ -565409,7 +565416,6 @@ Firefox 144 was released on October 14, 2025.`,
       imgs: [],
       ids: [
         "changes_for_web_developers",
-        "developer_tools",
         "html",
         "css",
         "javascript",
@@ -565801,6 +565807,8 @@ Firefox 144 was released on October 14, 2025.`,
       },
       flaws: {},
       links: [
+        "https://mihai.sucan.ro/mihai/blog/the-browser-console-is-replacing-the-error-console/",
+        "https://bugzil.la/870361",
         "https://bugzil.la/772153",
         "https://bugzil.la/757554",
         "https://bugzil.la/833385",
@@ -565817,8 +565825,6 @@ Firefox 144 was released on October 14, 2025.`,
         "https://bugzil.la/690935",
         "https://bugzil.la/870232",
         "https://bugzil.la/877135",
-        "https://mihai.sucan.ro/mihai/blog/the-browser-console-is-replacing-the-error-console/",
-        "https://bugzil.la/870361",
         "https://bugzil.la/759964",
         "https://bugzil.la/862143",
         "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/24.0a2/auroranotes/"
@@ -565826,11 +565832,11 @@ Firefox 144 was released on October 14, 2025.`,
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "css",
         "html",
         "javascript",
         "dom",
-        "developer_tools",
         "mathml",
         "changes_for_add-on_and_mozilla_developers",
         "see_also"
@@ -566355,6 +566361,7 @@ Firefox 145 was released on November 11, 2025.`,
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "html",
         "css",
         "apidom",
@@ -566362,8 +566369,6 @@ Firefox 145 was released on November 11, 2025.`,
         "webgl",
         "svg",
         "mathml",
-        "network",
-        "developer_tools",
         "changes_for_open_web_app_developers",
         "changes_for_add-on_and_mozilla_developers",
         "interface_changes"
@@ -566389,6 +566394,12 @@ Firefox 145 was released on November 11, 2025.`,
       },
       flaws: {},
       links: [
+        "https://firefox-source-docs.mozilla.org/devtools-user/custom_formatters/index.html",
+        "https://bugzil.la/1752760",
+        "https://bugzil.la/1789193",
+        "https://bugzil.la/1836755",
+        "https://bugzil.la/1810195",
+        "https://bugzil.la/1816115",
         "https://bugzil.la/675943",
         "https://bugzil.la/1598156",
         "https://bugzil.la/1837305",
@@ -566410,17 +566421,12 @@ Firefox 145 was released on November 11, 2025.`,
         "https://bugzil.la/1838381",
         "https://bugzil.la/1835723",
         "https://bugzil.la/1814905",
-        "https://bugzil.la/1809094",
-        "https://firefox-source-docs.mozilla.org/devtools-user/custom_formatters/index.html",
-        "https://bugzil.la/1752760",
-        "https://bugzil.la/1789193",
-        "https://bugzil.la/1836755",
-        "https://bugzil.la/1810195",
-        "https://bugzil.la/1816115"
+        "https://bugzil.la/1809094"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
         "html",
         "css",
         "accessibility_aria",
@@ -566433,8 +566439,7 @@ Firefox 145 was released on November 11, 2025.`,
         "webdriver_conformance_webdriver_bidi_marionette",
         "webdriver_bidi",
         "marionette",
-        "changes_for_add-on_developers",
-        "developer_tools"
+        "changes_for_add-on_developers"
       ]
     }
   },
