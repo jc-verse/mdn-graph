@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-r7jcmdza.js";
+} from "./chunk-tyzcdpz6.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -316,19 +316,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2215,13 +2202,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/accessibility/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2232,6 +2212,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2246,15 +2233,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
-                            "The operation timed out."
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -2279,27 +2259,14 @@ ul li {
                         }
                       ]
                     },
-                    introduction: {
+                    main_features: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.vuejs.org/guide/browser-compatibility.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
+                            "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
                         }
@@ -4300,13 +4267,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4347,13 +4307,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -11322,40 +11275,6 @@ textarea:focus {
                     }
                   }
                 },
-                "server-side": {
-                  children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://content-security-policy.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    express_nodejs: {
-                      children: {
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -11891,6 +11810,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -11898,6 +11830,23 @@ body {
             },
             getting_started: {
               children: {
+                web_standards: {
+                  children: {
+                    how_the_web_works: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12136,8 +12085,8 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webkit.org/web-inspector/console-object-api/",
-                            "The operation timed out."
+                            "https://webkit.org/web-inspector/console-command-line-api/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -12152,7 +12101,21 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -12209,7 +12172,17 @@ padding-left: 20px;
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/MDN/Community/Discussions",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/products/mdn-plus",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 issues: {
                   children: {
@@ -12232,6 +12205,19 @@ padding-left: 20px;
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                open_source_etiquette: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 },
@@ -12298,13 +12284,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12410,6 +12389,19 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
+                },
+                what_we_write: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/What_we_write",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -13016,6 +13008,123 @@ color: rgb(31 41 59 / 26%);
                         },
                         webrequest: {
                           children: {
+                            onauthrequired: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforeredirect: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforerequest: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforesendheaders: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            oncompleted: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onerroroccurred: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onheadersreceived: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onresponsestarted: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onsendheaders: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             streamfilter: {
                               children: {
                                 close: {
@@ -13130,7 +13239,17 @@ color: rgb(31 41 59 / 26%);
                                 }
                               }
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -13571,6 +13690,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "20": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -13580,6 +13712,45 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "43": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/43",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "68": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/68",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/firefox-android-openh264",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "132": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/132",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14334,19 +14505,6 @@ api.MessagePort`,
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                console_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Console_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/web-inspector/console-object-api/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15170,6 +15328,36 @@ output {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                indexeddb_api: {
+                  children: {
+                    basic_terminology: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    using_indexeddb: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16170,6 +16358,19 @@ aside {
                       ]
                     }
                   }
+                },
+                ovr_multiview2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OVR_multiview2",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.arm.com/community/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 payment_request_api: {
                   children: {},
@@ -17592,7 +17793,17 @@ api.Window.sessionStorage`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Storage_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 web_workers_api: {
                   children: {},
@@ -17702,23 +17913,6 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
-                webxr_device_api: {
-                  children: {
-                    movement_and_motion: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learnopengl.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 window_management_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Window_Management_API",
@@ -17730,6 +17924,59 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                window: {
+                  children: {
+                    setinterval: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/setInterval",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval",
+                            "#using_trustedscript"
+                          ]
+                        }
+                      ]
+                    },
+                    settimeout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/setTimeout",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval",
+                            "#using_trustedscript"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `setTimeout(function () {
+  myObject.log();
+}, 3000); // myProperty: 12 after 3 seconds`,
+                            "5:12 - 7:2",
+                            `/en-US/docs/Web/API/Window/setTimeout
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// Arrow function callback
+setTimeout(() => myObject.log(), 2000); // myProperty: 12 after 2 seconds
+
+// Anonymous function callback
+setTimeout(function () {
+  myObject.log();
+}, 3000); // myProperty: 12 after 3 seconds
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 windowsharedstorage: {
                   children: {
@@ -34206,6 +34453,13 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/questions/1271928",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             },
@@ -34959,19 +35213,6 @@ text:nth-of-type(8) {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        "aspect-ratio": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -64713,6 +64954,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/global-privacy-control?as=u&utm_source=inproduct",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -64785,6 +65039,19 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Crypto-Version"
+                              ]
+                            }
+                          ]
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/global-privacy-control?as=u&utm_source=inproduct",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -65018,6 +65285,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        webrtc_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/WebRTC_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/firefox-android-openh264",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -65029,6 +65309,19 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    bounce_tracking_mitigations: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Bounce_tracking_mitigations",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     privacy_sandbox: {
                       children: {
                         partitioned_cookies: {
@@ -65055,10 +65348,30 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    redirect_tracking_protection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Redirect_tracking_protection",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     state_partitioning: {
                       children: {},
                       slug: "/en-US/docs/Web/Privacy/Guides/State_Partitioning",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -65079,6 +65392,20 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             },
@@ -65089,6 +65416,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             },
@@ -65099,6 +65433,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             },
@@ -65109,6 +65450,20 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             },
@@ -65144,6 +65499,26 @@ http.headers.Use-As-Dictionary`,
                           message: "Broken external link",
                           data: [
                             "https://support.mozilla.org/en-US/kb/site-information-panel",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/what-happened-tracking-protection",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
                             "The operation timed out."
                           ]
                         }
