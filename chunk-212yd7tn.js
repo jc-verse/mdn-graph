@@ -84854,7 +84854,6 @@ number of ranges in the object.`,
         "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/main/src/index.js",
         "https://boringssl.googlesource.com/boringssl/",
         "https://github.com/GoogleChromeLabs/private-state-token-demo/tree/main?tab=readme-ov-file#private-state-token-demo",
-        "https://web.dev/articles/same-site-same-origin#site",
         "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/bf173919620f2b8203a628c3a1094c8846e6aff1/src/index.js#L55",
         "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/bf173919620f2b8203a628c3a1094c8846e6aff1/src/index.js#L81",
         "https://github.com/GoogleChromeLabs/private-state-token-demo/blob/main/src/index.js",
@@ -181798,7 +181797,8 @@ the current document.`,
         browserCompat: [
           "api.Document.requestStorageAccess"
         ],
-        summary: "The requestStorageAccess() method of the Document interface allows content loaded in a third-party context (i.e., embedded in an <iframe>) to request access to third-party cookies and unpartitioned state. This is relevant to user agents that, by default, block access to third-party, unpartitioned cookies to improve privacy (e.g., to prevent tracking), and is part of the Storage Access API.",
+        summary: `The requestStorageAccess() method of the Document interface allows content loaded in a third-party context (i.e., embedded in an <iframe>) to request access to third-party cookies and unpartitioned state.
+This is relevant to user agents that, by default, block access to third-party, unpartitioned cookies to improve privacy (e.g., to prevent tracking), and is part of the Storage Access API.`,
         popularity: 0.0006808632292477777,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -181841,6 +181841,7 @@ the current document.`,
         "invalidstateerror",
         "notallowederror",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -226718,15 +226719,15 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
@@ -239700,8 +239701,11 @@ Deprecated
       imgs: [],
       ids: [
         "value",
+        "description",
+        "security_considerations",
         "examples",
         "accessing_the_href_property",
+        "setting_the_href.baseval_property",
         "specifications",
         "browser_compatibility"
       ]
@@ -246096,7 +246100,8 @@ GPUTexture interface represents the sample count of the GPUTexture.`,
         "svganimatedstring.baseval",
         "instance_methods",
         "specifications",
-        "browser_compatibility"
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -246110,7 +246115,7 @@ GPUTexture interface represents the sample count of the GPUTexture.`,
         browserCompat: [
           "api.SVGAnimatedString.baseVal"
         ],
-        summary: "BaseVal gets or sets the base value of the given attribute before any animations are applied. The base value of the given attribute before applying any animations. Setter throws DOMException.",
+        summary: "The baseVal property of the SVGAnimatedString interface gets or sets the base value of the given attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -246130,6 +246135,9 @@ GPUTexture interface represents the sample count of the GPUTexture.`,
       links: [],
       imgs: [],
       ids: [
+        "value",
+        "exceptions",
+        "typeerror",
         "specifications",
         "browser_compatibility"
       ]
@@ -246145,7 +246153,7 @@ GPUTexture interface represents the sample count of the GPUTexture.`,
         browserCompat: [
           "api.SVGAnimatedString.animVal"
         ],
-        summary: "The animVal read-only property of the SVGAnimatedString interface contains the same value as the SVGAnimatedString.baseVal property. If the given attribute or property is being animated, it contains the current animated value of the attribute or property. If the given attribute or property is not currently being animated, then it contains the same value as baseVal.",
+        summary: "The animVal read-only property of the SVGAnimatedString interface is a string representing the animated value of the reflected attribute.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -246165,6 +246173,7 @@ GPUTexture interface represents the sample count of the GPUTexture.`,
       links: [],
       imgs: [],
       ids: [
+        "value",
         "specifications",
         "browser_compatibility"
       ]
@@ -343156,7 +343165,6 @@ GPURenderBundleEncoder interface draws primitives using parameters read from a G
       flaws: {},
       links: [
         "https://github.com/w3c-fedid/FedCM/issues/230",
-        "https://web.dev/articles/same-site-same-origin#site",
         "https://datatracker.ietf.org/doc/html/rfc6749#section-4.1.2.1",
         "https://privacysandbox.google.com/blog/fedcm-chrome-120-updates#error-api",
         "https://github.com/w3c-fedid/FedCM/issues/447",
@@ -343232,7 +343240,6 @@ GPURenderBundleEncoder interface draws primitives using parameters read from a G
       links: [
         "https://github.com/aaronpk/oauth-fedcm-profile",
         "https://developer.chrome.com/docs/identity/fedcm/implement/relying-party",
-        "https://web.dev/articles/same-site-same-origin#site",
         "https://developer.chrome.com/docs/identity/fedcm/overview#fedcm_ui_modes",
         "https://developer.chrome.com/docs/identity/fedcm/overview"
       ],
@@ -382310,27 +382317,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382338,115 +382325,23 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382458,31 +382353,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382490,7 +382365,55 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382498,7 +382421,71 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382506,11 +382493,31 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -388387,27 +388394,15 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388416,6 +388411,18 @@ JavaScript syntax would expect one.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -445895,7 +445902,7 @@ This article describes how to improve page load times based on common knowledge 
     links: {},
     data: {
       metadata: {
-        title: "rel=prerender",
+        title: 'rel="prerender"',
         pageType: "html-attribute-value",
         browserCompat: [
           "html.elements.link.rel.prerender"
@@ -445907,7 +445914,7 @@ This article describes how to improve page load times based on common knowledge 
           folder: "en-us/web/html/reference/attributes/rel/prerender",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "rel=prerender",
+        short_title: 'rel="prerender"',
         status: [
           "deprecated",
           "non-standard"
@@ -446083,7 +446090,7 @@ This article describes how to improve page load times based on common knowledge 
     links: {},
     data: {
       metadata: {
-        title: "rel=preload",
+        title: 'rel="preload"',
         pageType: "html-attribute-value",
         browserCompat: [
           "html.elements.link.rel.preload"
@@ -446097,7 +446104,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           folder: "en-us/web/html/reference/attributes/rel/preload",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "rel=preload",
+        short_title: 'rel="preload"',
         status: []
       },
       flaws: {},
@@ -446249,7 +446256,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
     links: {},
     data: {
       metadata: {
-        title: "rel=prefetch",
+        title: 'rel="prefetch"',
         pageType: "html-attribute-value",
         browserCompat: [
           "html.elements.link.rel.prefetch"
@@ -446261,7 +446268,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           folder: "en-us/web/html/reference/attributes/rel/prefetch",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "rel=prefetch",
+        short_title: 'rel="prefetch"',
         status: []
       },
       flaws: {},
@@ -447464,23 +447471,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -447488,31 +447487,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Shadow Parts"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
@@ -447520,51 +447495,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -447576,15 +447507,39 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -447593,6 +447548,58 @@ It takes a string as its value, and the expected syntax varies depending on the 
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         }
       ],
@@ -458835,7 +458842,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458843,19 +458850,19 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -470622,6 +470629,7 @@ They're intended to help you understand what kinds of things are possible to imp
         "https://mdn.github.io/dom-examples/viewport-segments-api/",
         "https://github.com/mdn/dom-examples/tree/main/viewport-segments-api",
         "https://drafts.csswg.org/css-env-1/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://mdn.github.io/dom-examples/viewport-segments-api/",
         "https://web.dev/articles/window-controls-overlay",
         "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/window-controls-overlay",
@@ -470647,6 +470655,7 @@ They're intended to help you understand what kinds of things are possible to imp
         "names_followed_by_integers",
         "formal_syntax",
         "<env()>",
+        "<integer>",
         "examples",
         "using_env_to_ensure_buttons_are_not_obscured_by_device_ui",
         "html",
@@ -470719,6 +470728,7 @@ They're intended to help you understand what kinds of things are possible to imp
         "<auto-repeat>",
         "<fixed-repeat>",
         "<name-repeat>",
+        "<integer>",
         "<line-names>",
         "<track-size>",
         "<fixed-size>",
@@ -473138,7 +473148,9 @@ z-axis. Its result is a <transform-function> data type.`,
         "counter-style",
         "formal_syntax",
         "<counter()>",
+        "<counter-name>",
         "<counter-style>",
+        "<counter-style-name>",
         "<symbols()>",
         "<symbols-type>",
         "<image>",
@@ -473662,6 +473674,7 @@ z-axis. Its result is a <transform-function> data type.`,
       ],
       links: [
         "https://drafts.csswg.org/css-easing-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://linear-easing-generator.netlify.app/",
         "https://cubic-bezier.com/"
       ],
@@ -473694,6 +473707,7 @@ z-axis. Its result is a <transform-function> data type.`,
         "<linear()>",
         "<cubic-bezier()>",
         "<steps()>",
+        "<integer>",
         "<step-position>",
         "examples",
         "comparing_the_easing_functions",
@@ -473737,6 +473751,7 @@ z-axis. Its result is a <transform-function> data type.`,
       ],
       links: [
         "https://drafts.csswg.org/css-easing-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://en.wikipedia.org/wiki/Step_function"
       ],
       imgs: [
@@ -473754,6 +473769,7 @@ z-axis. Its result is a <transform-function> data type.`,
         "description",
         "formal_syntax",
         "<steps()>",
+        "<integer>",
         "<step-position>",
         "examples",
         "using_the_steps_function",
@@ -476340,7 +476356,9 @@ It can be used for many basic image manipulations, such as tinting an image with
         "counter-style",
         "formal_syntax",
         "<counters()>",
+        "<counter-name>",
         "<counter-style>",
+        "<counter-style-name>",
         "<symbols()>",
         "<symbols-type>",
         "<image>",
@@ -476699,16 +476717,6 @@ It can be used for many basic image manipulations, such as tinting an image with
         "sepia",
         "formal_syntax",
         "<filter-function>",
-        "<blur()>",
-        "<brightness()>",
-        "<contrast()>",
-        "<drop-shadow()>",
-        "<grayscale()>",
-        "<hue-rotate()>",
-        "<invert()>",
-        "<opacity()>",
-        "<sepia()>",
-        "<saturate()>",
         "examples",
         "filter_function_comparison",
         "frame_filter-functions",
@@ -478935,11 +478943,14 @@ A <color> may also include an alpha-channel transparency value, indicating how t
         "formal_syntax",
         "<color>",
         "<color-base>",
+        "<system-color>",
         "<contrast-color()>",
         "<device-cmyk()>",
         "<light-dark()>",
         "<color-function>",
+        "<named-color>",
         "<color-mix()>",
+        "<deprecated-color>",
         "<target-contrast>",
         "<legacy-device-cmyk-syntax>",
         "<modern-device-cmyk-syntax>",
@@ -480422,6 +480433,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
         "<track-breadth>",
         "<inflexible-breadth>",
         "<length-percentage>",
+        "<integer>",
         "<fixed-breadth>",
         "examples",
         "specifying_grid_column_sizes",
@@ -480730,7 +480742,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-break-4/"
+        "https://drafts.csswg.org/css-break-4/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -480740,6 +480753,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "formal_definition",
         "formal_syntax",
         "orphans",
+        "<integer>",
         "examples",
         "setting_a_minimum_orphan_size_of_three_lines",
         "html",
@@ -481518,9 +481532,15 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
+        "https://drafts.csswg.org/css-images-3/",
         "https://drafts.csswg.org/css-images-4/",
         "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-values-4/",
+        "https://drafts.csswg.org/css-values-5/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -481539,18 +481559,51 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_definition",
         "formal_syntax",
         "shape-outside",
+        "<basic-shape>",
         "<shape-box>",
         "<image>",
+        "<basic-shape-rect>",
+        "<circle()>",
+        "<ellipse()>",
+        "<polygon()>",
+        "<path()>",
+        "<shape()>",
         "<visual-box>",
         "<image()>",
         "<image-set()>",
         "<cross-fade()>",
         "<element()>",
+        "<inset()>",
+        "<rect()>",
+        "<xywh()>",
+        "<radial-size>",
+        "<position>",
+        "<fill-rule>",
+        "<length-percentage>",
+        "<shape-command>",
         "<image-tags>",
         "<image-src>",
         "<image-set-option>",
         "<cf-image>",
         "<id-selector>",
+        "<border-radius>",
+        "<radial-extent>",
+        "<position-one>",
+        "<position-two>",
+        "<position-four>",
+        "<move-command>",
+        "<line-command>",
+        "<horizontal-line-command>",
+        "<vertical-line-command>",
+        "<curve-command>",
+        "<smooth-command>",
+        "<arc-command>",
+        "<command-end-point>",
+        "<control-point>",
+        "<coordinate-pair>",
+        "<relative-control-point>",
+        "<arc-sweep>",
+        "<arc-size>",
         "examples",
         "funneling_text",
         "html",
@@ -481795,6 +481848,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<fixed-repeat>",
         "<auto-repeat>",
         "<name-repeat>",
+        "<integer>",
         "<fixed-breadth>",
         "examples",
         "defining_a_grid_template",
@@ -482159,7 +482213,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       links: [
         "https://drafts.csswg.org/css-fonts-4/",
         "https://drafts.csswg.org/css-inline-3/",
-        "https://drafts.csswg.org/css-values-4/"
+        "https://drafts.csswg.org/css-values-4/",
+        "https://drafts.csswg.org/css2/"
       ],
       imgs: [],
       ids: [
@@ -482194,6 +482249,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<font-family>",
         "<system-family-name>",
         "<font-weight-absolute>",
+        "<absolute-size>",
+        "<relative-size>",
         "<length-percentage>",
         "<family-name>",
         "<generic-family>",
@@ -482407,7 +482464,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-multicol-2/"
+        "https://drafts.csswg.org/css-multicol-2/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -482419,6 +482477,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_definition",
         "formal_syntax",
         "column-span",
+        "<integer>",
         "examples",
         "making_a_heading_span_columns",
         "html",
@@ -482478,6 +482537,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<column-count>",
         "<column-height>",
         "<length-percentage>",
+        "<integer>",
         "examples",
         "setting_three_equal_columns",
         "html",
@@ -483162,13 +483222,16 @@ The values allow for choosing between aligning to the box's first baseline, last
         ]
       },
       flaws: {},
-      links: [],
+      links: [
+        "https://drafts.csswg.org/css-values-4/"
+      ],
       imgs: [],
       ids: [
         "syntax",
         "formal_definition",
         "formal_syntax",
         "box-ordinal-group",
+        "<integer>",
         "examples",
         "basic_usage_example",
         "specifications",
@@ -483335,7 +483398,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-lists-3/"
+        "https://drafts.csswg.org/css-lists-3/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -483352,6 +483416,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_definition",
         "formal_syntax",
         "counter-reset",
+        "<counter-name>",
+        "<integer>",
         "<reversed-counter-name>",
         "examples",
         "overriding_the_list-item_counter",
@@ -483447,6 +483513,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -483462,6 +483529,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_syntax",
         "grid-row-start",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_row_start_for_a_grid_item",
         "html",
@@ -483502,9 +483570,14 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
+        "https://drafts.csswg.org/css-images-3/",
         "https://drafts.csswg.org/css-shapes-1/",
-        "https://drafts.csswg.org/css-masking-1/"
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-values-4/",
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [],
       ids: [
@@ -483534,9 +483607,42 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_syntax",
         "clip-path",
         "<clip-source>",
+        "<basic-shape>",
         "<geometry-box>",
+        "<basic-shape-rect>",
+        "<circle()>",
+        "<ellipse()>",
+        "<polygon()>",
+        "<path()>",
+        "<shape()>",
         "<shape-box>",
+        "<inset()>",
+        "<rect()>",
+        "<xywh()>",
+        "<radial-size>",
+        "<position>",
+        "<fill-rule>",
+        "<length-percentage>",
+        "<shape-command>",
         "<visual-box>",
+        "<border-radius>",
+        "<radial-extent>",
+        "<position-one>",
+        "<position-two>",
+        "<position-four>",
+        "<move-command>",
+        "<line-command>",
+        "<horizontal-line-command>",
+        "<vertical-line-command>",
+        "<curve-command>",
+        "<smooth-command>",
+        "<arc-command>",
+        "<command-end-point>",
+        "<control-point>",
+        "<coordinate-pair>",
+        "<relative-control-point>",
+        "<arc-sweep>",
+        "<arc-size>",
         "examples",
         "shapes_and_geometry_boxes",
         "html",
@@ -484514,7 +484620,8 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-break-4/"
+        "https://drafts.csswg.org/css-break-4/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -484524,6 +484631,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "formal_definition",
         "formal_syntax",
         "widows",
+        "<integer>",
         "examples",
         "controlling_column_widows",
         "html",
@@ -484608,15 +484716,15 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484624,11 +484732,15 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484640,16 +484752,12 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -485316,7 +485424,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       links: [
         "https://drafts.csswg.org/css-easing-2/",
         "https://drafts.csswg.org/css-transitions-1/",
-        "https://drafts.csswg.org/css-transitions-2/"
+        "https://drafts.csswg.org/css-transitions-2/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -485336,6 +485445,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<linear()>",
         "<cubic-bezier()>",
         "<steps()>",
+        "<integer>",
         "<step-position>",
         "examples",
         "basic_example",
@@ -486745,7 +486855,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       ],
       links: [
         "https://drafts.csswg.org/css-easing-2/",
-        "https://drafts.csswg.org/css-transitions-1/"
+        "https://drafts.csswg.org/css-transitions-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -486779,6 +486890,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<linear()>",
         "<cubic-bezier()>",
         "<steps()>",
+        "<integer>",
         "<step-position>",
         "examples",
         "cubic-bezier_examples",
@@ -487783,7 +487895,12 @@ The values allow for choosing between aligning to the box's first baseline, last
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
+        "https://drafts.csswg.org/css-images-3/",
+        "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/",
         "https://drafts.fxtf.org/motion-1/"
@@ -487808,14 +487925,42 @@ The values allow for choosing between aligning to the box's first baseline, last
         "<offset-path>",
         "<coord-box>",
         "<ray()>",
+        "<basic-shape>",
         "<paint-box>",
         "<ray-size>",
         "<position>",
+        "<basic-shape-rect>",
+        "<circle()>",
+        "<ellipse()>",
+        "<polygon()>",
+        "<path()>",
+        "<shape()>",
         "<visual-box>",
         "<position-one>",
         "<position-two>",
         "<position-four>",
+        "<inset()>",
+        "<rect()>",
+        "<xywh()>",
+        "<radial-size>",
+        "<fill-rule>",
         "<length-percentage>",
+        "<shape-command>",
+        "<border-radius>",
+        "<radial-extent>",
+        "<move-command>",
+        "<line-command>",
+        "<horizontal-line-command>",
+        "<vertical-line-command>",
+        "<curve-command>",
+        "<smooth-command>",
+        "<arc-command>",
+        "<command-end-point>",
+        "<control-point>",
+        "<coordinate-pair>",
+        "<relative-control-point>",
+        "<arc-sweep>",
+        "<arc-size>",
         "examples",
         "creating_an_offset-path_using_box-edge_positioning",
         "result",
@@ -488897,7 +489042,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-gaps-1/"
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -488913,6 +489059,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "<line-color-or-repeat>",
         "<auto-repeat-line-color>",
         "<repeat-line-color>",
+        "<integer>",
         "examples",
         "setting_a_blue_column_rule",
         "html",
@@ -489742,6 +489889,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://drafts.csswg.org/css-inline-3/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://www.oddbird.net/2017/01/03/initial-letter/"
       ],
       imgs: [],
@@ -489754,6 +489902,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "formal_definition",
         "formal_syntax",
         "initial-letter",
+        "<integer>",
         "examples",
         "setting_initial_letter_size",
         "html",
@@ -489853,6 +490002,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -489869,6 +490019,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "formal_syntax",
         "grid-column",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_grid_column_size_and_location",
         "html",
@@ -490225,7 +490376,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-text-4/"
+        "https://drafts.csswg.org/css-text-4/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -490237,6 +490389,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "formal_definition",
         "formal_syntax",
         "hyphenate-limit-chars",
+        "<integer>",
         "examples",
         "setting_hyphenation_limits",
         "html",
@@ -491298,6 +491451,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "<fixed-repeat>",
         "<auto-repeat>",
         "<name-repeat>",
+        "<integer>",
         "<fixed-breadth>",
         "examples",
         "creating_a_grid_layout",
@@ -491735,7 +491889,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-multicol-2/"
+        "https://drafts.csswg.org/css-multicol-2/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -491747,6 +491902,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "formal_definition",
         "formal_syntax",
         "column-count",
+        "<integer>",
         "examples",
         "splitting_a_paragraph_across_three_columns",
         "html",
@@ -492079,6 +492235,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       links: [
         "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions",
         "https://drafts.csswg.org/css-transforms-1/",
+        "https://drafts.csswg.org/css-transforms-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://css-transform.moro.es/"
       ],
       imgs: [],
@@ -492093,6 +492251,28 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_syntax",
         "transform",
         "<transform-list>",
+        "<transform-function>",
+        "<scale()>",
+        "<scalex()>",
+        "<scaley()>",
+        "<scalez()>",
+        "<translate3d()>",
+        "<translate()>",
+        "<translatex()>",
+        "<translatey()>",
+        "<translatez()>",
+        "<rotate3d()>",
+        "<rotate()>",
+        "<rotatex()>",
+        "<rotatey()>",
+        "<rotatez()>",
+        "<skew()>",
+        "<skewx()>",
+        "<skewy()>",
+        "<matrix3d()>",
+        "<matrix()>",
+        "<perspective()>",
+        "<length-percentage>",
         "examples",
         "translating_and_rotating_an_element",
         "html",
@@ -492779,6 +492959,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "<image-set()>",
         "<cross-fade()>",
         "<element()>",
+        "<counter-style-name>",
         "<symbols()>",
         "<image-tags>",
         "<image-src>",
@@ -492987,6 +493168,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -493002,6 +493184,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_syntax",
         "grid-row-end",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_row_end_for_a_grid_item",
         "html",
@@ -493717,6 +493900,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://drafts.csswg.org/css-overflow-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://css-tricks.com/line-clampin/"
       ],
       imgs: [],
@@ -493728,6 +493912,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_definition",
         "formal_syntax",
         "line-clamp",
+        "<integer>",
         "<block-ellipsis>",
         "examples",
         "truncating_a_paragraph",
@@ -493912,16 +494097,6 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "backdrop-filter",
         "<filter-value-list>",
         "<filter-function>",
-        "<blur()>",
-        "<brightness()>",
-        "<contrast()>",
-        "<drop-shadow()>",
-        "<grayscale()>",
-        "<hue-rotate()>",
-        "<invert()>",
-        "<opacity()>",
-        "<sepia()>",
-        "<saturate()>",
         "examples",
         "css",
         "html",
@@ -493962,6 +494137,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -493977,6 +494153,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_syntax",
         "grid-column-end",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_column_end_for_a_grid_item",
         "html",
@@ -494037,6 +494214,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_definition",
         "formal_syntax",
         "font-palette",
+        "<palette-identifier>",
         "<palette-mix()>",
         "<color-interpolation-method>",
         "<rectangular-color-space>",
@@ -494101,6 +494279,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_syntax",
         "<palette-mix()>",
         "<color-interpolation-method>",
+        "<palette-identifier>",
         "<rectangular-color-space>",
         "<polar-color-space>",
         "<hue-interpolation-method>",
@@ -494566,6 +494745,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       ],
       links: [
         "https://w3c.github.io/mathml-core/#user-agent-stylesheet",
+        "https://drafts.csswg.org/css-values-4/",
         "https://w3c.github.io/mathml-core/"
       ],
       imgs: [],
@@ -494578,6 +494758,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "formal_definition",
         "formal_syntax",
         "math-depth",
+        "<integer>",
         "examples",
         "specifying_a_math_depth",
         "html",
@@ -494977,6 +495158,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         "<track-breadth>",
         "<inflexible-breadth>",
         "<length-percentage>",
+        "<integer>",
         "<fixed-breadth>",
         "examples",
         "specifying_grid_row_sizes",
@@ -496278,7 +496460,8 @@ transform: scale() can be used as an alternative to this property.`,
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
-        "https://drafts.csswg.org/css-gaps-1/"
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -496300,6 +496483,7 @@ transform: scale() can be used as an alternative to this property.`,
         "<gap-repeat-rule>",
         "<line-width>",
         "<line-style>",
+        "<integer>",
         "examples",
         "example_1",
         "example_2",
@@ -496337,13 +496521,16 @@ transform: scale() can be used as an alternative to this property.`,
         ]
       },
       flaws: {},
-      links: [],
+      links: [
+        "https://drafts.csswg.org/css-values-4/"
+      ],
       imgs: [],
       ids: [
         "syntax",
         "formal_definition",
         "formal_syntax",
         "box-flex-group",
+        "<integer>",
         "examples",
         "basic_usage_example",
         "specifications",
@@ -496429,6 +496616,7 @@ transform: scale() can be used as an alternative to this property.`,
       },
       flaws: {},
       links: [
+        "https://drafts.csswg.org/css2/",
         "https://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/",
         "https://www.zachleat.com/web/font-smooth/",
         "https://www.joshwcomeau.com/css/custom-css-reset/#five-improve-text-rendering-6",
@@ -496442,6 +496630,7 @@ transform: scale() can be used as an alternative to this property.`,
         "formal_definition",
         "formal_syntax",
         "font-smooth",
+        "<absolute-size>",
         "examples",
         "basic_usage_example",
         "html",
@@ -498447,6 +498636,7 @@ transform: scale() can be used as an alternative to this property.`,
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -498462,6 +498652,7 @@ transform: scale() can be used as an alternative to this property.`,
         "formal_syntax",
         "grid-column-start",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_column_start_for_a_grid_item",
         "html",
@@ -498835,6 +499026,7 @@ transform: scale() can be used as an alternative to this property.`,
       links: [
         "https://drafts.csswg.org/css-animations-1/",
         "https://drafts.csswg.org/css-easing-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://cubic-bezier.com/"
       ],
       imgs: [
@@ -498874,6 +499066,7 @@ transform: scale() can be used as an alternative to this property.`,
         "<linear()>",
         "<cubic-bezier()>",
         "<steps()>",
+        "<integer>",
         "<step-position>",
         "examples",
         "linear_function_examples",
@@ -499784,6 +499977,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "<scroller>",
         "<axis>",
         "<view-timeline-inset>",
+        "<integer>",
         "<step-position>",
         "<length-percentage>",
         "examples",
@@ -499829,6 +500023,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-writing-modes-4/"
       ],
       imgs: [],
@@ -499841,6 +500036,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "formal_definition",
         "formal_syntax",
         "text-combine-upright",
+        "<integer>",
         "examples",
         "using_all_with_horizontal_text",
         "html",
@@ -500273,7 +500469,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "https://drafts.csswg.org/css-fonts/#first-available-font",
         "https://drafts.csswg.org/css-values-4/#font-relative-length",
         "https://drafts.csswg.org/css-fonts-4/",
-        "https://drafts.csswg.org/css-values-4/"
+        "https://drafts.csswg.org/css-values-4/",
+        "https://drafts.csswg.org/css2/"
       ],
       imgs: [],
       ids: [
@@ -500296,6 +500493,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "formal_definition",
         "formal_syntax",
         "font-size",
+        "<absolute-size>",
+        "<relative-size>",
         "<length-percentage>",
         "examples",
         "setting_font_sizes",
@@ -500811,6 +501010,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/grid-template-areas/"
       ],
       imgs: [],
@@ -500827,6 +501027,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "formal_syntax",
         "grid-area",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_grid_areas",
         "html",
@@ -501304,12 +501505,14 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "<target-counter()>",
         "<target-counters()>",
         "<target-text()>",
+        "<counter-name>",
         "<counter-style>",
         "<syntax>",
         "<image-tags>",
         "<image-src>",
         "<image-set-option>",
         "<cf-image>",
+        "<counter-style-name>",
         "<symbols()>",
         "<syntax-component>",
         "<syntax-combinator>",
@@ -501532,6 +501735,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "https://drafts.csswg.org/css-images-4/",
         "https://drafts.csswg.org/fill-stroke/",
         "https://svgwg.org/svg2-draft/painting.html",
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -501553,6 +501757,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "<image-set()>",
         "<cross-fade()>",
         "<element()>",
+        "<integer>",
         "<image-tags>",
         "<image-src>",
         "<image-set-option>",
@@ -501804,6 +502009,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "formal_definition",
         "formal_syntax",
         "outline-style",
+        "<outline-line-style>",
         "examples",
         "setting_outline_style_to_auto",
         "html",
@@ -502151,6 +502357,7 @@ When a containment context is given a name, it can be specifically targeted usin
         "https://drafts.csswg.org/css-images-4/",
         "https://drafts.csswg.org/fill-stroke/",
         "https://svgwg.org/svg2-draft/painting.html",
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -502170,6 +502377,7 @@ When a containment context is given a name, it can be specifically targeted usin
         "<image-set()>",
         "<cross-fade()>",
         "<element()>",
+        "<integer>",
         "<image-tags>",
         "<image-src>",
         "<image-set-option>",
@@ -505456,6 +505664,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css2/"
       ],
       imgs: [],
@@ -505468,6 +505677,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "formal_definition",
         "formal_syntax",
         "z-index",
+        "<integer>",
         "examples",
         "visually_layering_elements",
         "html",
@@ -505914,16 +506124,6 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "filter",
         "<filter-value-list>",
         "<filter-function>",
-        "<blur()>",
-        "<brightness()>",
-        "<contrast()>",
-        "<drop-shadow()>",
-        "<grayscale()>",
-        "<hue-rotate()>",
-        "<invert()>",
-        "<opacity()>",
-        "<sepia()>",
-        "<saturate()>",
         "examples",
         "applying_filter_functions",
         "frame_applying_filter_functions",
@@ -506155,7 +506355,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
-        "https://drafts.csswg.org/css-gaps-1/"
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -506172,6 +506373,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "<auto-repeat-line-style>",
         "<line-style>",
         "<repeat-line-style>",
+        "<integer>",
         "examples",
         "setting_a_dashed_column_rule",
         "html",
@@ -507086,6 +507288,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
         "https://drafts.csswg.org/css-display-4/",
         "https://drafts.csswg.org/css-grid-3/",
+        "https://drafts.csswg.org/css-ruby-1/",
         "https://w3c.github.io/mathml-core/"
       ],
       imgs: [],
@@ -507192,7 +507395,12 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
+        "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
+        "https://drafts.csswg.org/css-images-3/",
+        "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/",
         "https://drafts.fxtf.org/motion-1/"
@@ -507218,9 +507426,37 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "<position-two>",
         "<position-four>",
         "<ray()>",
+        "<basic-shape>",
         "<paint-box>",
         "<ray-size>",
+        "<basic-shape-rect>",
+        "<circle()>",
+        "<ellipse()>",
+        "<polygon()>",
+        "<path()>",
+        "<shape()>",
         "<visual-box>",
+        "<inset()>",
+        "<rect()>",
+        "<xywh()>",
+        "<radial-size>",
+        "<fill-rule>",
+        "<shape-command>",
+        "<border-radius>",
+        "<radial-extent>",
+        "<move-command>",
+        "<line-command>",
+        "<horizontal-line-command>",
+        "<vertical-line-command>",
+        "<curve-command>",
+        "<smooth-command>",
+        "<arc-command>",
+        "<command-end-point>",
+        "<control-point>",
+        "<coordinate-pair>",
+        "<relative-control-point>",
+        "<arc-sweep>",
+        "<arc-size>",
         "examples",
         "animating_an_element_along_a_path",
         "html",
@@ -507935,6 +508171,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       flaws: {},
       links: [
+        "https://drafts.csswg.org/css-values-4/",
         "https://bugzil.la/58646"
       ],
       imgs: [],
@@ -507945,6 +508182,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "formal_definition",
         "formal_syntax",
         "-moz-force-broken-image-icon",
+        "<integer>",
         "examples",
         "html",
         "css",
@@ -508361,7 +508599,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-lists-3/"
+        "https://drafts.csswg.org/css-lists-3/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -508374,6 +508613,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "formal_definition",
         "formal_syntax",
         "counter-set",
+        "<counter-name>",
+        "<integer>",
         "examples",
         "setting_named_counters",
         "specifications",
@@ -508905,7 +509146,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
-        "https://drafts.csswg.org/css-gaps-1/"
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -508922,6 +509164,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "<auto-repeat-line-width>",
         "<line-width>",
         "<repeat-line-width>",
+        "<integer>",
         "examples",
         "setting_a_thick_column_rule",
         "html",
@@ -509074,6 +509317,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       ],
       links: [
         "https://drafts.csswg.org/css-grid-2/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://gridbyexample.com/video/series-line-based-placement/"
       ],
       imgs: [],
@@ -509090,6 +509334,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "formal_syntax",
         "grid-row",
         "<grid-line>",
+        "<integer>",
         "examples",
         "setting_grid_row_size_and_location",
         "html",
@@ -509190,7 +509435,8 @@ The image can be left to its natural size, stretched, or constrained to fit the 
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-lists-3/"
+        "https://drafts.csswg.org/css-lists-3/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -509203,6 +509449,8 @@ The image can be left to its natural size, stretched, or constrained to fit the 
         "formal_definition",
         "formal_syntax",
         "counter-increment",
+        "<counter-name>",
+        "<integer>",
         "examples",
         "decreasing_the_counter_value",
         "html",
@@ -511118,6 +511366,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "formal_syntax",
         "list-style-type",
         "<counter-style>",
+        "<counter-style-name>",
         "<symbols()>",
         "<symbols-type>",
         "<image>",
@@ -511233,7 +511482,8 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
         "https://adrianroselli.com/2015/09/source-order-matters.html",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html",
-        "https://drafts.csswg.org/css-display-4/"
+        "https://drafts.csswg.org/css-display-4/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -511245,6 +511495,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "formal_definition",
         "formal_syntax",
         "order",
+        "<integer>",
         "examples",
         "ordering_items_in_a_flex_container",
         "html",
@@ -511444,6 +511695,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       links: [
         "https://learn.microsoft.com/en-ca/typography/opentype/spec/features_pt#tag-salt",
         "https://drafts.csswg.org/css-fonts-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://learn.microsoft.com/en-us/typography/opentype/spec/featurelist",
         "https://sparanoid.com/lab/opentype-features/"
       ],
@@ -511457,6 +511709,9 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "formal_definition",
         "formal_syntax",
         "font-feature-settings",
+        "<feature-tag-value>",
+        "<opentype-tag>",
+        "<integer>",
         "examples",
         "enabling_various_font_features",
         "specifications",
@@ -511735,6 +511990,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "<outline-style>",
         "<outline-color>",
         "<line-width>",
+        "<outline-line-style>",
         "<border-top-color>",
         "<image-1d>",
         "<stripes()>",
@@ -519718,6 +519974,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
       ],
       links: [
         "https://drafts.csswg.org/css-cascade-6/",
+        "https://drafts.csswg.org/selectors-4/",
         "https://css.oddbird.net/scope/parent-selector/",
         "https://developer.chrome.com/docs/css-ui/at-scope"
       ],
@@ -519730,6 +519987,27 @@ The condition is evaluated when the queried container size, <style-feature>, or 
         "how_scope_conflicts_are_resolved",
         "formal_syntax",
         "@scope",
+        "<scope-start>",
+        "<scope-end>",
+        "<selector-list>",
+        "<complex-selector-list>",
+        "<complex-selector>",
+        "<complex-selector-unit>",
+        "<combinator>",
+        "<compound-selector>",
+        "<pseudo-compound-selector>",
+        "<type-selector>",
+        "<subclass-selector>",
+        "<pseudo-element-selector>",
+        "<pseudo-class-selector>",
+        "<wq-name>",
+        "<ns-prefix>",
+        "<id-selector>",
+        "<class-selector>",
+        "<attribute-selector>",
+        "<legacy-pseudo-element-selector>",
+        "<attr-matcher>",
+        "<attr-modifier>",
         "examples",
         "basic_style_inside_scope_roots",
         "html",
@@ -521876,6 +522154,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "fallback",
         "formal_syntax",
         "@counter-style",
+        "<counter-style-name>",
         "examples",
         "specifying_symbols_with_counter-style",
         "frame_specifying_symbols_with_counter-style",
@@ -522052,6 +522331,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "fallback",
+        "<counter-style-name>",
         "examples",
         "specifying_a_fallback_counter_style",
         "html",
@@ -522158,6 +522438,7 @@ A user indicates their preference through an operating system setting (e.g., lig
       links: [
         "https://drafts.csswg.org/css-counter-styles-3/",
         "https://drafts.csswg.org/css-images-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -522170,6 +522451,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "pad",
+        "<integer>",
         "<symbol>",
         "<image>",
         "<image()>",
@@ -522224,6 +522506,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "https://en.wikipedia.org/wiki/Sign-value_notation",
         "https://drafts.csswg.org/css-counter-styles-3/",
         "https://drafts.csswg.org/css-images-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
       ],
       imgs: [],
@@ -522236,6 +522519,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "additive-symbols",
+        "<integer>",
         "<symbol>",
         "<image>",
         "<image()>",
@@ -522305,6 +522589,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "speak-as",
+        "<counter-style-name>",
         "examples",
         "setting_the_spoken_form_for_a_counter",
         "html",
@@ -522346,7 +522631,8 @@ A user indicates their preference through an operating system setting (e.g., lig
       ],
       links: [
         "https://en.wikipedia.org/wiki/Positional_notation",
-        "https://drafts.csswg.org/css-counter-styles-3/"
+        "https://drafts.csswg.org/css-counter-styles-3/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -522362,6 +522648,8 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "system",
+        "<integer>",
+        "<counter-style-name>",
         "examples",
         "cyclic_counter",
         "css",
@@ -522494,7 +522782,8 @@ A user indicates their preference through an operating system setting (e.g., lig
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-counter-styles-3/"
+        "https://drafts.csswg.org/css-counter-styles-3/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -522509,6 +522798,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "range",
+        "<integer>",
         "examples",
         "setting_counter_style_over_a_range",
         "html",
@@ -522738,6 +523028,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         "formal_definition",
         "formal_syntax",
         "size",
+        "<page-size>",
         "examples",
         "specifying_size_and_orientation",
         "specifying_a_custom_size",
@@ -523361,6 +523652,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
       ],
       links: [
         "https://drafts.csswg.org/css-fonts-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://fonts.google.com/noto/specimen/Noto+Color+Emoji",
         "https://www.harbortype.com/fonts/rocher-color/"
       ],
@@ -523374,6 +523666,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
         "formal_definition",
         "formal_syntax",
         "override-colors",
+        "<integer>",
         "examples",
         "changing_colors_of_emojis",
         "html",
@@ -523419,6 +523712,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
       ],
       links: [
         "https://drafts.csswg.org/css-fonts-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://www.harbortype.com/fonts/rocher-color/"
       ],
       imgs: [
@@ -523431,6 +523725,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
         "formal_definition",
         "formal_syntax",
         "base-palette",
+        "<integer>",
         "examples",
         "changing_the_default_palette_in_a_font",
         "html",
@@ -524372,6 +524667,7 @@ The rule must be placed at the top level of your code or nested inside any other
       links: [
         "https://learn.microsoft.com/en-ca/typography/opentype/spec/features_pt#tag-salt",
         "https://drafts.csswg.org/css-fonts-4/",
+        "https://drafts.csswg.org/css-values-4/",
         "https://github.com/googlefonts/monte-carlo",
         "https://learn.microsoft.com/en-ca/typography/opentype/spec/features_pt#tag-swsh"
       ],
@@ -524384,6 +524680,9 @@ The rule must be placed at the top level of your code or nested inside any other
         "formal_definition",
         "formal_syntax",
         "font-feature-settings",
+        "<feature-tag-value>",
+        "<opentype-tag>",
+        "<integer>",
         "examples",
         "enabling_swash_glyphs_using_the_font-face_at-rule",
         "html",
@@ -529875,7 +530174,9 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
           title: "CSS Values and Units Module Level 4"
         }
       ],
-      links: [],
+      links: [
+        "https://drafts.csswg.org/css-values-4/"
+      ],
       imgs: [],
       ids: [
         "component_value_types",
@@ -529914,6 +530215,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
         "example_13",
         "bracketed_range_notation_minmax",
         "example_14",
+        "<integer>",
         "summary",
         "specifications",
         "see_also"
@@ -539529,6 +539831,22 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
@@ -539537,23 +539855,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -599364,11 +599666,14 @@ or registered with scripting.registerContentScripts().`,
       },
       flaws: {},
       links: [
+        "/",
         "https://www.iana.org/assignments/character-sets/character-sets.xhtml"
       ],
       imgs: [],
       ids: [
         "syntax",
+        "homepage",
+        "search_provider",
         "name",
         "search_url",
         "is_default",
@@ -608182,6 +608487,35 @@ This glossary provides definitions of words and abbreviations you need to know t
     }
   },
   {
+    id: "/en-US/docs/Glossary/Registrable_domain",
+    links: {},
+    data: {
+      metadata: {
+        title: "Registrable domain",
+        pageType: "glossary-definition",
+        summary: "A registrable domain is a domain that can be (or has already been) registered by an individual or an organization through a domain name registrar. It's the highest level domain for a single site on the web.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/glossary/registrable_domain",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Registrable domain",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://publicsuffix.org/",
+        "https://url.spec.whatwg.org/#host-registrable-domain",
+        "https://publicsuffix.org/"
+      ],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Glossary/Public-key_cryptography",
     links: {},
     data: {
@@ -611949,35 +612283,6 @@ This was referred to as a "payload" in HTTP/1.1, but message "content" distingui
       links: [],
       imgs: [],
       ids: []
-    }
-  },
-  {
-    id: "/en-US/docs/Glossary/eTLD",
-    links: {},
-    data: {
-      metadata: {
-        title: "eTLD",
-        pageType: "glossary-definition",
-        summary: 'The term eTLD stands for "effective top-level domain" and is a domain under which domains can be registered by a single organization.',
-        popularity: 0.0007529620058255812,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/glossary/etld",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "eTLD",
-        status: []
-      },
-      flaws: {},
-      links: [
-        "https://publicsuffix.org/",
-        "https://publicsuffix.org/"
-      ],
-      imgs: [],
-      ids: [
-        "etld1",
-        "see_also"
-      ]
     }
   },
   {
@@ -620534,7 +620839,7 @@ A restrictive robots.txt file can prevent bandwidth consumption by crawlers.`,
       metadata: {
         title: "Site",
         pageType: "glossary-definition",
-        summary: "Informally, a site is a website, which is a collection of web pages, served from the same domain and maintained by a single organization, defined by eTLD+1.",
+        summary: "Informally, a site is a website, which is a collection of web pages, served from the same domain and maintained by a single organization, defined by its registrable domain.",
         popularity: 0.001202482204141103,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
