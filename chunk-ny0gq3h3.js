@@ -2304,7 +2304,7 @@ For generic how-to information on using them in MDN content, see Using macros.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#text-align",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-text/#text-align-property",
@@ -25129,7 +25129,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#clip-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#clip-property",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -25250,7 +25250,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-exponent",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -25363,7 +25363,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-basefrequency",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-basefrequency",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -25403,7 +25403,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecolormatrix-values",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/specs/animations/#ValuesAttribute",
@@ -25489,7 +25489,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#element-attrdef-mask-maskunits",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -25649,7 +25649,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-clip-path",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-clip-path",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -25863,7 +25863,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [
@@ -25944,7 +25944,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-result",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -26043,7 +26043,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
           title: "SVG Animations Level 2"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feimage-href",
           title: "Filter Effects Module Level 1"
         },
         {
@@ -26141,7 +26141,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -26299,11 +26299,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-femorphology-operator",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-operator",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -26429,7 +26429,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-elevation",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedistantlight-elevation",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -26467,7 +26467,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k3",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k3",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -26544,7 +26544,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-clip-rule",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-clip-rule",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -26772,7 +26772,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-crossorigin",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feimage-crossorigin",
           title: "Filter Effects Module Level 1"
         },
         {
@@ -26816,7 +26816,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#LightingColorProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#LightingColorProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -26858,7 +26858,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-slope",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -26938,7 +26938,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FloodOpacityProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -26978,7 +26978,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27062,7 +27062,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-mode",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feblend-mode",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27141,7 +27141,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27309,7 +27309,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#ColorInterpolationFiltersProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27431,7 +27431,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-tablevalues",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -27551,7 +27551,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-preservealpha",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-preservealpha",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27591,7 +27591,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelmatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-kernelmatrix",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -27628,15 +27628,15 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Sizing",
@@ -27706,11 +27706,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute",
@@ -27855,7 +27855,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targety",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-targety",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28071,7 +28071,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-seed",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-seed",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28156,7 +28156,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-numoctaves",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-numoctaves",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28199,15 +28199,15 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-kernelunitlength",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelunitlength",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -28244,7 +28244,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-stitchtiles",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feturbulence-stitchtiles",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28282,23 +28282,23 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Y",
@@ -28384,7 +28384,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28467,7 +28467,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targetx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-targetx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28503,15 +28503,15 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Sizing",
@@ -28623,7 +28623,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-divisor",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-divisor",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28948,7 +28948,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-bias",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-feconvolvematrix-bias",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -28982,15 +28982,15 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-in2",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-in2",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-in2",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -29382,11 +29382,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-z",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-z",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -29658,7 +29658,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -29696,7 +29696,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitiveunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-primitiveunits",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -29813,7 +29813,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-amplitude",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -29848,7 +29848,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskcontentunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#element-attrdef-mask-maskcontentunits",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -29972,11 +29972,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute",
@@ -30021,7 +30021,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FloodColorProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FloodColorProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -30360,7 +30360,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-filterunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-filter-filterunits",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -30398,7 +30398,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatz",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsatz",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -30603,11 +30603,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-surfacescale",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [
@@ -30775,11 +30775,11 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-specularexponent",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-specularexponent",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [
@@ -31011,7 +31011,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-intercept",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -31254,7 +31254,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k2",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k2",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -31290,7 +31290,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         }
       ],
       links: [],
@@ -31616,7 +31616,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsatx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -31735,7 +31735,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k4",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fecomposite-k4",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -31905,7 +31905,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-specularconstant",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fespecularlighting-specularconstant",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -31947,7 +31947,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FilterProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FilterProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -32065,23 +32065,23 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#X",
@@ -32166,7 +32166,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-scale",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedisplacementmap-scale",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -32205,7 +32205,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -32242,7 +32242,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute",
@@ -32822,7 +32822,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-femorphology-radius",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-femorphology-radius",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33091,7 +33091,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-edgemode",
-          title: "Filter Effects Module Level 1"
+          title: "Filters 1.0"
         }
       ],
       links: [],
@@ -33132,7 +33132,7 @@ To use an EXSLT function, you need to declare the namespace the function is in, 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33381,7 +33381,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-order",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-order",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33420,7 +33420,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-azimuth",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedistantlight-azimuth",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33495,7 +33495,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsaty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fespotlight-pointsaty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33727,7 +33727,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feComponentTransferElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feComponentTransferElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33861,7 +33861,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feFloodElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feFloodElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33904,7 +33904,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feFuncAElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feFuncAElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -33993,7 +33993,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feTileElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feTileElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34036,7 +34036,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feFuncRElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feFuncRElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34117,7 +34117,7 @@ For an animation element, this is the point at which the animation should begin.
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feDistantLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feDistantLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34256,7 +34256,7 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feConvolveMatrixElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feConvolveMatrixElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34438,7 +34438,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feFuncGElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feFuncGElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34476,7 +34476,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feTurbulenceElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feTurbulenceElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34519,7 +34519,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feCompositeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feCompositeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34610,7 +34610,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feColorMatrixElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feColorMatrixElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34697,7 +34697,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feImageElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feImageElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34740,7 +34740,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feMorphologyElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feMorphologyElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34836,7 +34836,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feMergeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feMergeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -34978,7 +34978,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feDropShadowElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feDropShadowElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35108,7 +35108,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#fePointLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#fePointLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35151,7 +35151,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feGaussianBlurElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feGaussianBlurElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35434,7 +35434,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feMergeNodeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feMergeNodeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35476,7 +35476,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feFuncBElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feFuncBElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35599,7 +35599,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feOffsetElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feOffsetElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35699,7 +35699,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feSpotLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feSpotLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35742,7 +35742,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#ClipPathElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#ClipPathElement",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -35829,7 +35829,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feBlendElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feBlendElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35915,7 +35915,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FilterElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FilterElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -35959,7 +35959,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#MaskElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#MaskElement",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -36007,7 +36007,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feDisplacementMapElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feDisplacementMapElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -36048,7 +36048,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feSpecularLightingElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feSpecularLightingElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -36267,7 +36267,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#feDiffuseLightingElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#feDiffuseLightingElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40366,7 +40366,7 @@ This includes both changes in the selected range of characters, or if the caret 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEImageElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEImageElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40412,7 +40412,7 @@ This includes both changes in the selected range of characters, or if the caret 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40490,7 +40490,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40528,7 +40528,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40566,7 +40566,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40604,7 +40604,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -40642,7 +40642,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeimageelement-preserveaspectratio",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeimageelement-preserveaspectratio",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -41815,7 +41815,7 @@ DOMPointReadOnly object given a source point.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-frompoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-frompoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -41864,7 +41864,7 @@ script code.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-dompointreadonly",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-dompointreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -41907,7 +41907,7 @@ script code.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMPoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMPoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -41955,7 +41955,7 @@ script code.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-matrixtransform",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-matrixtransform",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -42000,7 +42000,7 @@ JSON form of the point object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-tojson",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-tojson",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -42041,7 +42041,7 @@ read-only point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-y",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -42080,7 +42080,7 @@ w, for a read-only point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-w",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-w",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -42119,7 +42119,7 @@ read-only point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-z",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-z",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -42159,7 +42159,7 @@ read-only version of the DOMPoint object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-x",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -57431,7 +57431,7 @@ returns a live HTMLCollection containing the cells in the row. The HTMLCollectio
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFilterElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFilterElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57516,7 +57516,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57554,7 +57554,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57592,7 +57592,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57630,7 +57630,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-primitiveunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-primitiveunits",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57669,7 +57669,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-filterunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-filterunits",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -57708,7 +57708,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterelement-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -75524,7 +75524,7 @@ This will be a URL or null.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDistantLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDistantLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -75564,7 +75564,7 @@ This will be a URL or null.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-elevation",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedistantlightelement-elevation",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -75603,7 +75603,7 @@ This will be a URL or null.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-azimuth",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedistantlightelement-azimuth",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -76565,7 +76565,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMMatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMMatrix",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76624,7 +76624,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-frommatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-frommatrix",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76673,7 +76673,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-dommatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-dommatrix",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76718,7 +76718,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-rotateaxisangleself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-rotateaxisangleself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76762,7 +76762,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-premultiplyself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-premultiplyself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76803,7 +76803,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-invertself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-invertself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76843,7 +76843,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-scale3dself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-scale3dself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76887,7 +76887,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-fromfloat64array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-fromfloat64array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76932,7 +76932,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-skewyself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-skewyself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -76973,7 +76973,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-setmatrixvalue",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-setmatrixvalue",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77014,7 +77014,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-translateself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-translateself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77057,7 +77057,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-skewxself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-skewxself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77098,7 +77098,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-fromfloat32array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-fromfloat32array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77143,7 +77143,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-multiplyself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-multiplyself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77184,7 +77184,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-rotatefromvectorself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-rotatefromvectorself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77226,7 +77226,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-scaleself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-scaleself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77273,7 +77273,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrix-rotateself",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrix-rotateself",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -77316,7 +77316,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMorphologyElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMorphologyElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77367,7 +77367,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77405,7 +77405,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-operator",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-operator",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77444,7 +77444,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77482,7 +77482,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-radiusy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77521,7 +77521,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77559,7 +77559,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77597,7 +77597,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-radiusx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77636,7 +77636,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfemorphologyelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77675,7 +77675,7 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -77761,19 +77761,19 @@ The interface is available inside web workers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMMatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMMatrix",
           title: "Geometry Interfaces Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMPoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMPoint",
           title: "Geometry Interfaces Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMQuad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMQuad",
           title: "Geometry Interfaces Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -85789,7 +85789,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDisplacementMapElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDisplacementMapElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -85843,7 +85843,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -85881,7 +85881,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-ychannelselector",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-ychannelselector",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -85920,7 +85920,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-xchannelselector",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-xchannelselector",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -85959,7 +85959,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -85997,7 +85997,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -86035,7 +86035,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -86073,7 +86073,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in2",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-in2",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -86111,7 +86111,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -86149,7 +86149,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -86187,7 +86187,7 @@ removes a property from a CSS style declaration object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-scale",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedisplacementmapelement-scale",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -93116,7 +93116,7 @@ This is particularly useful if you need to access state information about the co
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeNodeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMergeNodeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -93155,7 +93155,7 @@ This is particularly useful if you need to access state information about the co
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfemergenodeelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfemergenodeelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97349,7 +97349,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEOffsetElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEOffsetElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97395,7 +97395,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97433,7 +97433,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97471,7 +97471,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-dy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97510,7 +97510,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97548,7 +97548,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97586,7 +97586,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97625,7 +97625,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeoffsetelement-dx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -97664,7 +97664,7 @@ element.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -109986,7 +109986,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpotLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFESpotLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110032,7 +110032,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110070,7 +110070,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-z",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-z",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110108,7 +110108,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-limitingconeangle",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-limitingconeangle",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110147,7 +110147,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatz",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsatz",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110186,7 +110186,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-specularexponent",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-specularexponent",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110225,7 +110225,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsatx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110264,7 +110264,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -110302,7 +110302,7 @@ is not a valid file name in the underlying OS, the browser will adjust it.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsaty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespotlightelement-pointsaty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -111758,7 +111758,7 @@ device. Otherwise, the promise resolves with false.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMQuad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMQuad",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -111806,7 +111806,7 @@ device. Otherwise, the promise resolves with false.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-p3",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-p3",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -111843,7 +111843,7 @@ device. Otherwise, the promise resolves with false.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-p1",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-p1",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -111880,7 +111880,7 @@ device. Otherwise, the promise resolves with false.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-fromquad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-fromquad",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -111923,7 +111923,7 @@ device. Otherwise, the promise resolves with false.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-domquad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-domquad",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -111965,7 +111965,7 @@ JSON representation of the DOMQuad object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-tojson",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-tojson",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112004,7 +112004,7 @@ JSON representation of the DOMQuad object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-p2",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-p2",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112041,7 +112041,7 @@ JSON representation of the DOMQuad object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-p4",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-p4",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112078,7 +112078,7 @@ JSON representation of the DOMQuad object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-fromrect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-fromrect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112126,7 +112126,7 @@ getBounds() returns a DOMRect object representing the smallest rectangle that fu
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domquad-getbounds",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domquad-getbounds",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112713,7 +112713,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112764,7 +112764,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-domrectreadonly",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-domrectreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112807,7 +112807,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-width",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112844,7 +112844,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-tojson",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-tojson",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112883,7 +112883,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-bottom",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-bottom",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112920,7 +112920,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-y",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112957,7 +112957,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-height",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -112994,7 +112994,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-top",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-top",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -113031,7 +113031,7 @@ denotes a clockwise rotation, a negative angle a counter-clockwise one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-right",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-right",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -113070,7 +113070,7 @@ object with a given location and dimensions.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-fromrect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-fromrect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -113109,7 +113109,7 @@ object with a given location and dimensions.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-left",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-left",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -113146,7 +113146,7 @@ object with a given location and dimensions.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectreadonly-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectreadonly-x",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141502,7 +141502,7 @@ the key does not exist, in the given Storage object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompoint-frompoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompoint-frompoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141548,7 +141548,7 @@ the key does not exist, in the given Storage object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMPoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMPoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141597,7 +141597,7 @@ all of its properties.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompoint-dompoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompoint-dompoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141642,7 +141642,7 @@ for a point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-y",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141681,7 +141681,7 @@ point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-w",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-w",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141720,7 +141720,7 @@ space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-z",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-z",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -141759,7 +141759,7 @@ point in space.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dompointreadonly-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dompointreadonly-x",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -168026,7 +168026,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFloodElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFloodElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -168069,7 +168069,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -168107,7 +168107,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -168145,7 +168145,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -168183,7 +168183,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -168221,7 +168221,7 @@ origin of the message emitter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -184062,8 +184062,7 @@ earlier, even before that page's content has finished loading.`,
         browserCompat: [
           "api.ServiceWorkerContainer.register"
         ],
-        summary: `The register() method of the ServiceWorkerContainer interface creates or updates a ServiceWorkerRegistration for the given scope.
-If successful, the registration associates the provided script URL to a scope, which is subsequently used for matching documents to a specific service worker.`,
+        summary: "The register() method of the ServiceWorkerContainer interface creates or updates a ServiceWorkerRegistration for the given scope.",
         popularity: 0.0008539002930345058,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -184099,7 +184098,10 @@ If successful, the registration associates the provided script URL to a scope, w
         "exceptions",
         "typeerror",
         "securityerror",
+        "description",
+        "security_considerations",
         "examples",
+        "using_trustedscripturl",
         "register_a_service_worker_with_default_scope",
         "register_a_service_worker_with_an_explicit_default_scope",
         "register_a_service_worker_using_page-relative_urls",
@@ -187965,7 +187967,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDropShadowElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDropShadowElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188014,7 +188016,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188052,7 +188054,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-stddeviationx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188091,7 +188093,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188129,7 +188131,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-dy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188168,7 +188170,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-stddeviationy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188207,7 +188209,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-setstddeviation",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-setstddeviation",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188251,7 +188253,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188289,7 +188291,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188327,7 +188329,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188365,7 +188367,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfedropshadowelement-dx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -188404,7 +188406,7 @@ is used to get or set a string that contains the grammar within the SpeechGramma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190658,7 +190660,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEColorMatrixElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEColorMatrixElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190710,7 +190712,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-values",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-values",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190748,7 +190750,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190786,7 +190788,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190824,7 +190826,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190862,7 +190864,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190900,7 +190902,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190938,7 +190940,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-type",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecolormatrixelement-type",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -190976,7 +190978,7 @@ file or other file system object on disk.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -193309,7 +193311,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMMatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMMatrix",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193378,7 +193380,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-frommatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-frommatrix",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193427,7 +193429,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-flipx",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-flipx",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193472,7 +193474,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat64array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-fromfloat64array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193517,7 +193519,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-flipy",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-flipy",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193562,7 +193564,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tojson",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-tojson",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193602,7 +193604,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotate",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-rotate",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193645,7 +193647,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-dommatrixreadonly",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-dommatrixreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193692,7 +193694,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-is2d",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-is2d",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193730,7 +193732,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-inverse",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-inverse",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193770,7 +193772,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotatefromvector",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-rotatefromvector",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193812,7 +193814,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotateaxisangle",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-rotateaxisangle",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193856,7 +193858,7 @@ object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat32array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-fromfloat32array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193902,7 +193904,7 @@ creates a new matrix being the result of the original matrix with a translation 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-translate",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-translate",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193945,7 +193947,7 @@ creates a new matrix being the result of the original matrix with a translation 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tofloat64array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-tofloat64array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -193987,7 +193989,7 @@ original matrix with a scale transform applied.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-scale",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-scale",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194034,7 +194036,7 @@ DOMMatrixReadOnly interface creates a new DOMPoint object, transforming a specif
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-transformpoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-transformpoint",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194081,7 +194083,7 @@ DOMMatrixReadOnly interface creates a new DOMPoint object, transforming a specif
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-skewy",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-skewy",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194122,7 +194124,7 @@ DOMMatrixReadOnly interface creates a new DOMPoint object, transforming a specif
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-skewx",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-skewx",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194163,7 +194165,7 @@ DOMMatrixReadOnly interface creates a new DOMPoint object, transforming a specif
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-multiply",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-multiply",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194205,7 +194207,7 @@ to the matrix. It returns a new DOMMatrix created by scaling the source 3d matri
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-scale3d",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-scale3d",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194249,7 +194251,7 @@ to the matrix. It returns a new DOMMatrix created by scaling the source 3d matri
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-isidentity",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-isidentity",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -194289,7 +194291,7 @@ to the matrix. It returns a new DOMMatrix created by scaling the source 3d matri
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tofloat32array",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-dommatrixreadonly-tofloat32array",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -200431,7 +200433,7 @@ byteLength property.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncAElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncAElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -203781,7 +203783,7 @@ This contains the three boolean properties supported, smooth, and powerefficient
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncBElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncBElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -204995,7 +204997,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMRectList",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRectList",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -205035,7 +205037,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectlist-length",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectlist-length",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -205074,7 +205076,7 @@ item() returns the DOMRect at the specified index within the list, or null if th
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrectlist-item",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrectlist-item",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -208796,7 +208798,7 @@ If the event has already been dispatched, this method does nothing.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEPointLightElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEPointLightElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -208837,7 +208839,7 @@ If the event has already been dispatched, this method does nothing.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -208875,7 +208877,7 @@ If the event has already been dispatched, this method does nothing.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-z",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-z",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -208913,7 +208915,7 @@ If the event has already been dispatched, this method does nothing.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfepointlightelement-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -208954,7 +208956,7 @@ If the event has already been dispatched, this method does nothing.`,
       specifications: [
         {
           bcdSpecificationURL: "https://www.w3.org/TR/device-memory/",
-          title: "Device Memory"
+          title: "Device Memory API"
         }
       ],
       links: [],
@@ -216761,6 +216763,7 @@ indicating which type of rule the CSSRule represents.`,
         "cssrule.page_rule",
         "cssrule.keyframes_rule",
         "cssrule.keyframe_rule",
+        "cssrule.margin_rule",
         "cssrule.namespace_rule",
         "cssrule.counter_style_rule",
         "cssrule.supports_rule",
@@ -224755,7 +224758,7 @@ device memory in gigabytes.`,
       specifications: [
         {
           bcdSpecificationURL: "https://www.w3.org/TR/device-memory/#sec-device-memory-js-api",
-          title: "Device Memory"
+          title: "Device Memory API"
         }
       ],
       links: [],
@@ -226719,19 +226722,19 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -242758,7 +242761,7 @@ translating vector.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#csspositiontryrule",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -242799,7 +242802,7 @@ translating vector.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontryrule-style",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -242837,7 +242840,7 @@ translating vector.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontryrule-name",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -243376,7 +243379,7 @@ new PresentationRequest.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#InterfaceSVGClipPathElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#InterfaceSVGClipPathElement",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -243416,7 +243419,7 @@ new PresentationRequest.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgclippathelement-transform",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgclippathelement-transform",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -243455,7 +243458,7 @@ new PresentationRequest.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgclippathelement-clippathunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgclippathelement-clippathunits",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -244404,7 +244407,7 @@ RTCDTMFToneChangeEvent object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncRElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncRElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248282,7 +248285,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEBlendElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEBlendElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248335,7 +248338,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248373,7 +248376,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-mode",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-mode",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248411,7 +248414,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248449,7 +248452,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248487,7 +248490,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248525,7 +248528,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in2",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-in2",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248563,7 +248566,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeblendelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248601,7 +248604,7 @@ animation to finish up.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -248909,7 +248912,7 @@ other identifiers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncGElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEFuncGElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253208,7 +253211,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEComponentTransferElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEComponentTransferElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253252,7 +253255,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253290,7 +253293,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253328,7 +253331,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253366,7 +253369,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253404,7 +253407,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecomponenttransferelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecomponenttransferelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -253442,7 +253445,7 @@ set to the other target.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -257202,7 +257205,7 @@ value of the individual transform property in CSS.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257252,7 +257255,7 @@ value of the individual transform property in CSS.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-width",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257289,7 +257292,7 @@ value of the individual transform property in CSS.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-y",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257326,7 +257329,7 @@ value of the individual transform property in CSS.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-height",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257363,7 +257366,7 @@ value of the individual transform property in CSS.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-domrect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-domrect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257408,7 +257411,7 @@ object with a given location and dimensions.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-fromrect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-fromrect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -257447,7 +257450,7 @@ object with a given location and dimensions.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#dom-domrect-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dom-domrect-x",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -266582,7 +266585,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFECompositeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFECompositeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266642,7 +266645,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266680,7 +266683,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266718,7 +266721,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-operator",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-operator",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266756,7 +266759,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k3",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k3",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266794,7 +266797,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266832,7 +266835,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266870,7 +266873,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266908,7 +266911,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in2",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-in2",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266946,7 +266949,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -266984,7 +266987,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k2",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k2",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -267022,7 +267025,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k4",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfecompositeelement-k4",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -267060,7 +267063,7 @@ property of the Canvas 2D API determines the shape used to draw the end points o
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270555,7 +270558,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETileElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFETileElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270599,7 +270602,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270637,7 +270640,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270675,7 +270678,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270713,7 +270716,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270751,7 +270754,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfetileelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfetileelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -270790,7 +270793,7 @@ one of the strings associated with an error name.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274162,7 +274165,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEMergeElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274205,7 +274208,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274243,7 +274246,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274281,7 +274284,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274319,7 +274322,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -274357,7 +274360,7 @@ tone that is produced.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -285424,7 +285427,7 @@ previously set for a specific (PointerEvent) pointer.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#idl",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         }
       ],
       links: [
@@ -289369,9 +289372,7 @@ browser's event loop.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "currententrychange",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289464,9 +289465,7 @@ browser's event loop.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigatesuccess",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289567,9 +289566,7 @@ Navigation interface navigates to a specific URL, updating any provided state in
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigate",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -289989,9 +289986,7 @@ Navigation interface navigates backwards by one entry in the navigation history.
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigateerror",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -291609,7 +291604,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpecularLightingElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFESpecularLightingElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291658,7 +291653,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291696,7 +291691,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291734,7 +291729,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291772,7 +291767,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291810,7 +291805,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291849,7 +291844,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291886,7 +291881,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-surfacescale",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-surfacescale",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291925,7 +291920,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularexponent",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-specularexponent",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -291964,7 +291959,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292001,7 +291996,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularconstant",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfespecularlightingelement-specularconstant",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292040,7 +292035,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292283,7 +292278,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDiffuseLightingElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEDiffuseLightingElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292331,7 +292326,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292369,7 +292364,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292407,7 +292402,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292445,7 +292440,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292483,7 +292478,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292522,7 +292517,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292559,7 +292554,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-surfacescale",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-surfacescale",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292598,7 +292593,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292635,7 +292630,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -292673,7 +292668,7 @@ PeriodicWave object instance.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-diffuseconstant",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfediffuselightingelement-diffuseconstant",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -296260,7 +296255,7 @@ device memory in gigabytes.`,
       specifications: [
         {
           bcdSpecificationURL: "https://www.w3.org/TR/device-memory/#sec-device-memory-js-api",
-          title: "Device Memory"
+          title: "Device Memory API"
         }
       ],
       links: [],
@@ -309578,6 +309573,40 @@ it is available and supported. Otherwise it throws an error.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/RTCDtlsTransport/statechange_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "RTCDtlsTransport: statechange event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.RTCDtlsTransport.statechange_event"
+        ],
+        summary: "A statechange event occurs when the RTCDtlsTransport changes state. The state property can be used to determine the current state of the underlying Datagram Transport Layer Security (DTLS) transport.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/rtcdtlstransport/statechange_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "statechange",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCDtlsTransport/error_event",
     links: {},
     data: {
@@ -316762,7 +316791,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEConvolveMatrixElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEConvolveMatrixElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -316822,7 +316851,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -316860,7 +316889,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-preservealpha",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-preservealpha",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -316897,7 +316926,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelmatrix",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelmatrix",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -316934,7 +316963,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -316972,7 +317001,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targety",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-targety",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317009,7 +317038,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317047,7 +317076,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targetx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-targetx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317084,7 +317113,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317122,7 +317151,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-divisor",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-divisor",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317161,7 +317190,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-bias",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-bias",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317200,7 +317229,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317238,7 +317267,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-orderx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-orderx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317275,7 +317304,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317312,7 +317341,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317349,7 +317378,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317387,7 +317416,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-edgemode",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-edgemode",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -317425,7 +317454,7 @@ getter.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-ordery",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeconvolvematrixelement-ordery",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -330577,7 +330606,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#InterfaceSVGMaskElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#InterfaceSVGMaskElement",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330621,7 +330650,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-maskunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-maskunits",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330663,7 +330692,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-width",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330701,7 +330730,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-y",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330739,7 +330768,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-height",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330777,7 +330806,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-maskcontentunits",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-maskcontentunits",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -330819,7 +330848,7 @@ Deprecated
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#dom-svgmaskelement-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#dom-svgmaskelement-x",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -333463,7 +333492,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGComponentTransferFunctionElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGComponentTransferFunctionElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333515,7 +333544,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-exponent",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-exponent",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333551,7 +333580,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-slope",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-slope",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333587,7 +333616,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-tablevalues",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-tablevalues",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333623,7 +333652,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-amplitude",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-amplitude",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333659,7 +333688,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-intercept",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-intercept",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333695,7 +333724,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -333731,7 +333760,7 @@ specified when Window.requestIdleCallback() was called has expired.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-offset",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgcomponenttransferfunctionelement-offset",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -368083,7 +368112,7 @@ compositionstart and before compositionend.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -374156,7 +374185,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEGaussianBlurElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFEGaussianBlurElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374208,7 +374237,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374246,7 +374275,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374285,7 +374314,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374323,7 +374352,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374362,7 +374391,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-setstddeviation",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-setstddeviation",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374405,7 +374434,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374443,7 +374472,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374481,7 +374510,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-in1",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfegaussianblurelement-in1",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374519,7 +374548,7 @@ below.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -374762,7 +374791,7 @@ below.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#csspositiontrydescriptors",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -377603,7 +377632,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETurbulenceElement",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#InterfaceSVGFETurbulenceElement",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377659,7 +377688,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyy",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyy",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377697,7 +377726,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377735,7 +377764,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyx",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyx",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377773,7 +377802,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377811,7 +377840,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-seed",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-seed",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377849,7 +377878,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-numoctaves",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-numoctaves",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377887,7 +377916,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-stitchtiles",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-stitchtiles",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377925,7 +377954,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -377963,7 +377992,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -378001,7 +378030,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-type",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfeturbulenceelement-type",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -378039,7 +378068,7 @@ constantly outputs samples whose values are always the same.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -382317,6 +382346,54 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
@@ -382329,79 +382406,19 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382413,11 +382430,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382425,11 +382442,39 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382441,43 +382486,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382485,15 +382494,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382501,23 +382502,51 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -388386,35 +388415,7 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388422,7 +388423,35 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -447471,95 +447500,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
           title: "HTML"
         },
         {
@@ -447567,7 +447508,27 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -447579,7 +447540,35 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
@@ -447587,7 +447576,23 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
@@ -447595,11 +447600,35 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Parts Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
+          title: "CSS Shadow Parts Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         }
       ],
@@ -448630,7 +448659,7 @@ be allowed to proceed for a given element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         }
       ],
       links: [],
@@ -448882,7 +448911,7 @@ be allowed to proceed for a given element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part-attr",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         }
       ],
       links: [],
@@ -450672,7 +450701,12 @@ The metadata is document-level metadata that applies to the whole page.`,
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-viewport/#viewport-meta",
+          title: "CSS Viewport Module Level 1"
+        }
+      ],
       links: [
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html",
         "https://developer.chrome.com/blog/viewport-resize-behavior/",
@@ -458838,6 +458872,18 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
@@ -458846,23 +458892,11 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -472753,7 +472787,7 @@ z-axis. Its result is a <transform-function> data type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#anchor-pos",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -474211,8 +474245,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/compositing/#ltblendmodegt",
-          title: "Compositing and Blending Level 2"
+          bcdSpecificationURL: "https://drafts.csswg.org/compositing/#ltblendmodegt",
+          title: "Compositing and Blending Module Level 2"
         }
       ],
       links: [
@@ -474569,8 +474603,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
       ],
       links: [
         "https://en.wikipedia.org/wiki/Polygon",
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
@@ -474628,8 +474662,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/"
       ],
@@ -475003,8 +475037,8 @@ For text content, this keyword does not wrap the content at all, even if it caus
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://css-tricks.com/svg-path-syntax-illustrated-guide/"
       ],
       imgs: [],
@@ -476235,7 +476269,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position/#position-area",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -476695,7 +476729,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#typedef-filter-function",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#typedef-filter-function",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476749,7 +476783,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-contrast",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476800,7 +476834,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-grayscale",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476846,7 +476880,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-sepia",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476892,7 +476926,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-invert",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476941,7 +476975,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-saturate",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -476989,7 +477023,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-hue-rotate",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -477043,7 +477077,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-brightness",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -477096,7 +477130,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-drop-shadow",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -477145,7 +477179,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-opacity",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -477191,7 +477225,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#funcdef-filter-blur",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -477852,7 +477886,7 @@ It can be used for many basic image manipulations, such as tinting an image with
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -478848,14 +478882,14 @@ It can be used for many basic image manipulations, such as tinting an image with
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#ray-function",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#ray-function",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
+        "https://drafts.fxtf.org/motion-1/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/css-values-5/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [],
       ids: [
@@ -480240,7 +480274,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-clip",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-clip",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -480686,8 +480720,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/compositing/#background-blend-mode",
-          title: "Compositing and Blending Level 2"
+          bcdSpecificationURL: "https://drafts.csswg.org/compositing/#background-blend-mode",
+          title: "Compositing and Blending Module Level 2"
         }
       ],
       links: [
@@ -480846,7 +480880,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-width",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -480900,8 +480934,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/compositing/#mix-blend-mode",
-          title: "Compositing and Blending Level 2"
+          bcdSpecificationURL: "https://drafts.csswg.org/compositing/#mix-blend-mode",
+          title: "Compositing and Blending Module Level 2"
         }
       ],
       links: [
@@ -481231,7 +481265,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#float-clear",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -481534,11 +481568,11 @@ The values allow for choosing between aligning to the box's first baseline, last
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
+        "https://drafts.csswg.org/fill-stroke/",
         "https://drafts.csswg.org/css-images-3/",
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-masking-1/",
-        "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/",
         "https://drafts.csswg.org/selectors-4/"
@@ -481699,7 +481733,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border-source",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border-source",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -482093,7 +482127,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#clip-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#clip-property",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -482571,7 +482605,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode",
-          title: "CSS Masking Module Level 1"
+          title: "CSS Masks"
         }
       ],
       links: [
@@ -482616,7 +482650,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -482671,7 +482705,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-padding-inline",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -482908,7 +482942,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#logical-shorthand-keyword",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#border-color",
@@ -483052,7 +483086,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-type",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-type",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -483338,7 +483372,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-shorthands",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -483565,17 +483599,17 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-clip-path",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-clip-path",
           title: "CSS Masking Module Level 1"
         }
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.csswg.org/css-images-3/",
-        "https://drafts.csswg.org/css-shapes-1/",
-        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-images-3/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/"
       ],
@@ -483692,7 +483726,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-linejoin",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-linejoin",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -483970,7 +484004,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#page",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-break/#page-break-properties",
@@ -484339,7 +484373,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-block-start",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-block-start",
@@ -484501,7 +484535,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-inline-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -484716,19 +484750,35 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484740,24 +484790,8 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -485354,7 +485388,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-block",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-block",
@@ -485481,7 +485515,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-composite",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-composite",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -485749,7 +485783,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-clip-rule",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-clip-rule",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -486049,14 +486083,14 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-anchor-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-anchor-property",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
+        "https://drafts.fxtf.org/motion-1/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/css-values-5/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [],
       ids: [
@@ -486149,7 +486183,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#padding-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -486474,7 +486508,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#LightingColorProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#LightingColorProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -486524,7 +486558,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-mode",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-mode",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -486981,7 +487015,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -487088,7 +487122,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FloodOpacityProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -487647,7 +487681,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-dasharray",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-dasharray",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -487890,20 +487924,20 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-path-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-path-property",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.csswg.org/css-images-3/",
-        "https://drafts.csswg.org/css-shapes-1/",
-        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-images-3/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.fxtf.org/motion-1/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/css-values-5/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [
         "/en-US/docs/Web/CSS/Reference/Properties/offset-path/offset-path-coord-box.png"
@@ -488001,7 +488035,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#ColorInterpolationFiltersProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -488285,7 +488319,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#margin-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -488600,7 +488634,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-shorthands",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -488654,7 +488688,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -488814,7 +488848,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-block-end",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-block-end",
@@ -488928,7 +488962,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#position-try-prop",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -489649,7 +489683,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -490108,7 +490142,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border-repeat",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border-repeat",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -490320,7 +490354,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border-slice",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border-slice",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -490540,7 +490574,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#float-clear",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -490923,7 +490957,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-margin-inline",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -491052,13 +491086,13 @@ By default, the browser is allowed to make any adjustments to the element's appe
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-distance-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-distance-property",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.fxtf.org/motion-1/",
+        "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [],
       ids: [
@@ -491213,7 +491247,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-max-block-size",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -491939,7 +491973,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-block-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -492057,7 +492091,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-shorthands",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -492370,7 +492404,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -492794,7 +492828,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -492854,8 +492888,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-images-5/",
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/"
       ],
       imgs: [
@@ -493404,7 +493438,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -493784,7 +493818,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-radius-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -493950,7 +493984,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#margin-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -494008,7 +494042,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#dimension-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -494077,7 +494111,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects-2/#BackdropFilterProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-2/#BackdropFilterProperty",
           title: "Filter Effects Module Level 2"
         }
       ],
@@ -494321,7 +494355,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#margin-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -494378,7 +494412,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#fill-rule",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#fill-rule",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -495011,7 +495045,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border-width",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border-width",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -495458,7 +495492,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-inline",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-inline",
@@ -495647,7 +495681,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-inline-start",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-inline-start",
@@ -495895,7 +495929,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-miterlimit",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-miterlimit",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -495990,7 +496024,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-margin-block",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -496214,7 +496248,7 @@ transform: scale() can be used as an alternative to this property.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-image",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-image",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -496725,7 +496759,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-min-inline-size",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -496795,7 +496829,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset",
@@ -497033,7 +497067,7 @@ transform: scale() can be used as an alternative to this property.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-repeat",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-repeat",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -497108,7 +497142,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -497160,7 +497194,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -497233,7 +497267,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#name",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -497363,7 +497397,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-block",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -497525,7 +497559,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-max-inline-size",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -498052,7 +498086,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-min-block-size",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -498408,7 +498442,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -498950,7 +498984,7 @@ transform: scale() can be used as an alternative to this property.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#dimension-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
@@ -499104,7 +499138,7 @@ transform: scale() can be used as an alternative to this property.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-border-outset",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-border-outset",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -499152,7 +499186,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-origin",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-origin",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -499269,7 +499303,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FloodColorProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FloodColorProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -500397,14 +500431,14 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-position-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-position-property",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
+        "https://drafts.fxtf.org/motion-1/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/css-values-5/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [],
       ids: [
@@ -500890,7 +500924,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-inline-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -501119,7 +501153,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#padding-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -501670,7 +501704,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-inline",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -501732,8 +501766,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-images-4/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-images-4/",
         "https://svgwg.org/svg2-draft/painting.html",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
@@ -502354,8 +502388,8 @@ When a containment context is given a name, it can be specifically targeted usin
         "https://drafts.fxtf.org/fill-stroke-3/#stroke-shorthand",
         "https://svgwg.org/svg2-draft/pservers.html",
         "https://svgwg.org/svg2-draft/painting.html#TermContextElement",
-        "https://drafts.csswg.org/css-images-4/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-images-4/",
         "https://svgwg.org/svg2-draft/painting.html",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/selectors-4/"
@@ -502631,8 +502665,8 @@ When a containment context is given a name, it can be specifically targeted usin
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/compositing/#isolation",
-          title: "Compositing and Blending Level 2"
+          bcdSpecificationURL: "https://drafts.csswg.org/compositing/#isolation",
+          title: "Compositing and Blending Module Level 2"
         }
       ],
       links: [
@@ -503837,7 +503871,7 @@ When a containment context is given a name, it can be specifically targeted usin
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-padding-block",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -504064,7 +504098,7 @@ When a containment context is given a name, it can be specifically targeted usin
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -504163,7 +504197,7 @@ When a containment context is given a name, it can be specifically targeted usin
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -504444,7 +504478,7 @@ When a containment context is given a name, it can be specifically targeted usin
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -504550,7 +504584,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-size",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-size",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -504729,7 +504763,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-dashoffset",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-dashoffset",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -504781,7 +504815,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -505111,7 +505145,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#margin-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -505225,7 +505259,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-inset-inline-end",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-position/#propdef-inset-inline-end",
@@ -505375,7 +505409,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-linecap",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-linecap",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -505428,7 +505462,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position/#position-area",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -505977,7 +506011,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-radius-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -506094,7 +506128,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#FilterProperty",
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#FilterProperty",
           title: "Filter Effects Module Level 1"
         }
       ],
@@ -506159,7 +506193,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#text-align",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-text/#text-align-property",
@@ -506700,7 +506734,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -506975,7 +507009,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -506983,8 +507017,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "https://drafts.csswg.org/css-backgrounds-4/",
         "https://drafts.csswg.org/css-box-4/",
         "https://drafts.csswg.org/css-images-4/",
-        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/css-shapes-1/",
         "https://drafts.csswg.org/css-values-4/",
         "https://drafts.csswg.org/css-values-5/",
         "https://drafts.csswg.org/selectors-4/"
@@ -507390,20 +507424,20 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-shorthand",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-shorthand",
           title: "Motion Path Module Level 1"
         }
       ],
       links: [
         "https://drafts.csswg.org/css-borders-4/",
         "https://drafts.csswg.org/css-box-4/",
-        "https://drafts.csswg.org/css-images-3/",
-        "https://drafts.csswg.org/css-shapes-1/",
-        "https://drafts.csswg.org/css-masking-1/",
         "https://drafts.csswg.org/fill-stroke/",
+        "https://drafts.csswg.org/css-images-3/",
+        "https://drafts.csswg.org/css-masking-1/",
+        "https://drafts.csswg.org/css-shapes-1/",
+        "https://drafts.fxtf.org/motion-1/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://drafts.csswg.org/css-values-5/",
-        "https://drafts.fxtf.org/motion-1/"
+        "https://drafts.csswg.org/css-values-5/"
       ],
       imgs: [],
       ids: [
@@ -507952,7 +507986,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/#the-mask-position",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-mask-position",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -508060,7 +508094,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#padding-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -508348,7 +508382,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#position-try-order-property",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -508647,7 +508681,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-radius-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -508781,7 +508815,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-shorthands",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -509487,7 +509521,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -509541,7 +509575,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#page",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-break/#page-break-properties",
@@ -509657,7 +509691,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#padding-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -509765,7 +509799,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#stroke-opacity",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#stroke-opacity",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -509869,7 +509903,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-block-color",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -509975,7 +510009,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/fill-stroke-3/#fill-opacity",
+          bcdSpecificationURL: "https://drafts.csswg.org/fill-stroke-3/#fill-opacity",
           title: "CSS Fill and Stroke Module Level 3"
         }
       ],
@@ -510351,7 +510385,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#caption-side",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -510923,7 +510957,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#border-radius-properties",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -511164,7 +511198,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/#offset-rotate-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#offset-rotate-property",
           title: "Motion Path Module Level 1"
         }
       ],
@@ -511421,7 +511455,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-block-width",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -511797,7 +511831,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-border-inline-style",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -518162,7 +518196,7 @@ An element is considered to be playing if it is currently playing the media reso
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/#part",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         }
       ],
       links: [],
@@ -519326,7 +519360,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/webvtt/",
@@ -522835,7 +522869,7 @@ A user indicates their preference through an operating system setting (e.g., lig
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/#at-ruledef-position-try",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [
@@ -522893,7 +522927,7 @@ A user indicates their preference through an operating system setting (e.g., lig
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#page",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [
@@ -524917,7 +524951,7 @@ Firefox supports several extensions to CSS, which are prefixed with -moz-.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-logical/",
-          title: "CSS Logical Properties and Values Level 1"
+          title: "CSS Logical Properties and Values Module Level 1"
         }
       ],
       links: [],
@@ -526428,11 +526462,11 @@ For example, you can use counters to automatically number the headings on a webp
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects-2/",
-          title: "Filter Effects Module Level 2"
+          title: "Filters 2.0"
         },
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects-1/",
-          title: "Filter Effects Module Level 1"
+          title: "Unknown specification"
         }
       ],
       links: [],
@@ -527290,7 +527324,7 @@ For example, you can use counters to automatically number the headings on a webp
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-anchor-position-1/",
-          title: "CSS Anchor Positioning"
+          title: "CSS Anchor Positioning Module Level 1"
         }
       ],
       links: [],
@@ -527705,7 +527739,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow-parts/",
-          title: "CSS Shadow Parts"
+          title: "CSS Shadow Parts Module Level 1"
         }
       ],
       links: [
@@ -529487,7 +529521,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/motion/",
-          title: "Motion Path Module Level 1"
+          title: "Unknown specification"
         }
       ],
       links: [],
@@ -529649,7 +529683,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/compositing/",
-          title: "Compositing and Blending Level 2"
+          title: "Unknown specification"
         }
       ],
       links: [
@@ -533423,7 +533457,7 @@ The HTML is the same in each example, so it's visible in the first section, and 
       specifications: [
         {
           bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/",
-          title: "CSS Masking Module Level 1"
+          title: "Unknown specification"
         }
       ],
       links: [],
@@ -539798,7 +539832,8 @@ It was designed for communication between web browsers and web servers, but it c
         "https://html.spec.whatwg.org/multipage/",
         "https://wicg.github.io/reporting/",
         "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-expect-ct-01",
-        "https://datatracker.ietf.org/doc/html/rfc7486"
+        "https://datatracker.ietf.org/doc/html/rfc7486",
+        "https://datatracker.ietf.org/doc/html/rfc7240"
       ],
       imgs: [],
       ids: [
@@ -539835,19 +539870,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -539855,7 +539882,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
@@ -545787,7 +545822,7 @@ The header is part of the Device Memory API.`,
       specifications: [
         {
           bcdSpecificationURL: "https://www.w3.org/TR/device-memory/#iana-device-memory",
-          title: "Device Memory"
+          title: "Device Memory API"
         }
       ],
       links: [
@@ -546101,7 +546136,7 @@ Most often, this is used to create a cache key when content negotiation is in us
       specifications: [
         {
           bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7240#section-3",
-          title: "Unknown specification"
+          title: "Prefer Header for HTTP"
         }
       ],
       links: [
@@ -547493,7 +547528,9 @@ These protections are largely unnecessary in modern browsers when sites implemen
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Sec-CH-Width",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       links: [
@@ -548412,7 +548449,7 @@ It also mitigates potential timing attacks.`,
       specifications: [
         {
           bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7240#section-2",
-          title: "Unknown specification"
+          title: "Prefer Header for HTTP"
         }
       ],
       links: [
@@ -571218,6 +571255,15 @@ Firefox 147 is the current Beta version of Firefox and ships on January 13, 2026
         "https://bugzil.la/1997962",
         "https://bugzil.la/1921583",
         "https://bugzil.la/1360870",
+        "https://bugzil.la/1916522",
+        "https://bugzil.la/2000801",
+        "https://bugzil.la/2004191",
+        "https://bugzil.la/1941780",
+        "https://bugzil.la/1855045",
+        "https://bugzil.la/1995691",
+        "https://bugzil.la/2000651",
+        "https://bugzil.la/2002721",
+        "https://bugzil.la/2003992",
         "https://bugzil.la/1864284"
       ],
       imgs: [],
@@ -571227,6 +571273,9 @@ Firefox 147 is the current Beta version of Firefox and ships on January 13, 2026
         "css",
         "javascript",
         "apis",
+        "webdriver_conformance_webdriver_bidi_marionette",
+        "general",
+        "webdriver_bidi",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
@@ -599966,8 +600015,8 @@ or registered with scripting.registerContentScripts().`,
       },
       flaws: {},
       links: [
-        "https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/#when-do-you-need-an-add-on-id",
         "https://extensionworkshop.com/documentation/develop/firefox-builtin-data-consent/",
+        "https://en.wikipedia.org/wiki/Universally_unique_identifier",
         "https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/",
         "https://extensionworkshop.com/documentation/manage/updating-your-extension/",
         "https://addons.mozilla.org/api/v5/applications/firefox/",
