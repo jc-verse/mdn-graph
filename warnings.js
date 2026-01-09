@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-a5wfk5h0.js";
+} from "./chunk-djy4j9he.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -34,23 +34,6 @@ var warnings_processed_default = {
                           data: [
                             "https://www.shadertoy.com/",
                             403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                control_mechanisms: {
-                  children: {
-                    other: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://cylonjs.com/documentation/drivers/makey-button/",
-                            "https://www.dropcatch.com/domain/cylonjs.com"
                           ]
                         }
                       ]
@@ -219,19 +202,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            adobe_flash: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Adobe_Flash",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://blog.google/products/chrome/saying-goodbye-flash-chrome/",
-                    "https://blog.google/products-and-platforms/products/chrome/saying-goodbye-flash-chrome/"
-                  ]
-                }
-              ]
-            },
             blink_element: {
               children: {},
               slug: "/en-US/docs/Glossary/blink_element",
@@ -329,19 +299,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
                 }
               ]
             },
@@ -986,6 +943,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            microsoft_internet_explorer: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Microsoft_Internet_Explorer",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://death-to-ie11.com/",
+                    "self signed certificate"
+                  ]
+                }
+              ]
+            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1286,19 +1256,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            spa: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SPA",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://vuejs.org/",
-                    "unknown certificate verification error"
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1306,6 +1263,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vitepress.dev/",
+                    "unknown certificate verification error"
+                  ]
                 }
               ]
             },
@@ -1458,23 +1428,6 @@ var warnings_processed_default = {
             },
             core: {
               children: {
-                accessibility: {
-                  children: {
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://blog.google/products/chrome/live-caption-chrome/",
-                            "https://blog.google/products-and-platforms/products/chrome/live-caption-chrome/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -2258,13 +2211,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2275,13 +2221,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2296,7 +2235,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/controllers/",
                             "The operation timed out."
                           ]
                         }
@@ -2309,6 +2255,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2329,34 +2282,15 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/",
+                            "https://v2.vuejs.org/v2/guide/comparison.html",
                             "unknown certificate verification error"
                           ]
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://vitepress.dev/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -4356,13 +4290,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -4403,13 +4330,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -5994,22 +5914,15 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://eslint.org/docs/latest/rules/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
                           ]
                         },
                         {
@@ -6017,6 +5930,13 @@ button:active {
                           data: [
                             "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -6028,29 +5948,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylelint.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
-                            "The operation timed out."
+                            "https://date-fns.org/docs/Getting-Started",
+                            503
                           ]
                         }
                       ]
@@ -11612,40 +11511,6 @@ textarea:focus {
                     }
                   }
                 },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -12181,19 +12046,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    your_own_automation_environment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -12201,6 +12053,23 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    code_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12423,6 +12292,20 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
+                            "https://notepad-plus-plus.org/",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://npp-user-manual.org/",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.axway.com/en/aptana",
                             403
                           ]
@@ -12436,6 +12319,19 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -12539,8 +12435,8 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
-                        "https://product.voxmedia.com/2018/8/21/17549400/kindness-and-code-reviews-improving-the-way-we-give-feedback",
-                        500
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -12588,13 +12484,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -12806,17 +12695,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -12840,17 +12729,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -12859,10 +12748,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -13106,19 +12995,6 @@ color: rgb(31 41 59 / 26%);
                               ]
                             }
                           }
-                        },
-                        identity: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.oauth.com/oauth2-servers/redirect-uris/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         scripting: {
                           children: {
@@ -13887,32 +13763,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "122": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=122",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "125": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/125",
@@ -13926,14 +13776,21 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "127": {
+                    "128": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
                       messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/content",
+                            "#alternative_text_string_counter"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=127",
+                            "https://whattrainisitnow.com/release/?version=128",
                             "The operation timed out."
                           ]
                         }
@@ -13952,14 +13809,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "134": {
+                    "131": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/134",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/131",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=134",
+                            "https://whattrainisitnow.com/release/?version=131",
                             "The operation timed out."
                           ]
                         }
@@ -13978,6 +13835,32 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "137": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=137",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "138": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=138",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "141": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
@@ -13986,6 +13869,19 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://whattrainisitnow.com/release/?version=141",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "143": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=143",
                             "The operation timed out."
                           ]
                         }
@@ -15415,26 +15311,6 @@ api.DeviceOrientationEvent`,
                           message: "Not in BCD",
                           data: [
                             "api.FetchEvent.replacesClientId"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                fetchlater_api: {
-                  children: {
-                    fetchlater_quotas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/fetchLater_API/fetchLater_quotas",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `http.headers.Permissions-Policy.deferred-fetch
-http.headers.Permissions-Policy.deferred-fetch-minimal`,
-                            "Expected:",
-                            "[None]"
                           ]
                         }
                       ]
@@ -17430,31 +17306,6 @@ button:interest-source {
                     }
                   }
                 },
-                serviceworkercontainer: {
-                  children: {
-                    register: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerContainer/register",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Identifier expected.",
-                            "navigator.serviceWorker.register(trustedScriptURL).",
-                            "1:16",
-                            `/en-US/docs/Web/API/ServiceWorkerContainer/register
-[syntax] Parsing error: Identifier expected.
-~~~
-navigator.serviceWorker.register(trustedScriptURL).
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -17647,22 +17498,6 @@ navigator.serviceWorker.register(trustedScriptURL).
                           message: "Not in BCD",
                           data: [
                             "api.SVGAElement.username"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svganimatedstring: {
-                  children: {
-                    baseval: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimatedString/baseVal",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGAnimatedString/baseVal"
                           ]
                         }
                       ]
@@ -18056,7 +17891,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -18069,19 +17918,6 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
-                      ]
-                    }
-                  ]
-                },
-                webgl_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebGL_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.webglacademy.com/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18318,6 +18154,23 @@ setTimeout(function () {
                     }
                   }
                 },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 workletsharedstorage: {
                   children: {
                     context: {
@@ -18548,64 +18401,6 @@ setTimeout(function () {
 ~~~
 ::picker(select) {
   position-anchor: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                                "  background: #eee;",
-                                "14:15 - 14:19",
-                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.scoped {
-  padding: 20px;
-  background: #eee;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: blue;
-  width: fit-content;
-  padding: 3px;
-}
-
-.positioned {
-  background: orange;
-  width: fit-content;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-}
-
-.positioned {
-  position: absolute;
-  position-anchor: --my-anchor;
-  position-area: right;
-}
-
-.scoped {
-  anchor-scope: --my-anchor;
 }
 ~~~
 `
@@ -20730,6 +20525,19 @@ section {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        flow_layout_and_writing_modes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Flow_layout_and_writing_modes",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/08/writing-modes-layout/",
+                                "unknown certificate verification error"
                               ]
                             }
                           ]
@@ -35166,328 +34974,6 @@ text:nth-of-type(8) {
                             }
                           ]
                         },
-                        "anchor-scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/anchor-scope",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<dashed-ident>",
-                                "Text after link:",
-                                "#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<dashed-ident>",
-                                "Text after code:",
-                                "#"
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                                "  background: #eee;",
-                                "3:15 - 3:19",
-                                `/en-US/docs/Web/CSS/Reference/Properties/anchor-scope
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-.scoped {
-  padding: 20px;
-  background: #eee;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: blue;
-  width: fit-content;
-  padding: 3px;
-}
-
-.positioned {
-  background: orange;
-  width: fit-content;
-  padding: 3px;
-}
-
-.scoped {
-  anchor-scope: --my-anchor;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-}
-
-.positioned {
-  position: absolute;
-  position-anchor: --my-anchor;
-  position-area: right;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-function-alias-notation",
-                                'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                                "  box-shadow: 3px 3px 3px rgba(0 0 0 / 0.2);",
-                                "32:27 - 32:31",
-                                `/en-US/docs/Web/CSS/Reference/Properties/anchor-scope
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-body {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 5px;
-}
-
-.scoped {
-  padding: 20px;
-  background: #eee;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: blue;
-  width: fit-content;
-  padding: 3px;
-}
-
-.positioned,
-.positioned2 {
-  border: 1px solid black;
-  border-radius: 3px;
-  width: fit-content;
-  padding: 3px 6px;
-  box-shadow: 3px 3px 3px rgba(0 0 0 / 0.2);
-}
-
-form {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-}
-
-.anchor {
-  anchor-name: --my-anchor, --another-anchor;
-}
-
-.positioned {
-  position: absolute;
-  position-anchor: --my-anchor;
-  position-area: right;
-}
-
-.positioned2 {
-  position: absolute;
-  bottom: 5px;
-  position-anchor: --another-anchor;
-  position-area: bottom;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                                "  background: #eee;",
-                                "10:15 - 10:19",
-                                `/en-US/docs/Web/CSS/Reference/Properties/anchor-scope
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 5px;
-}
-
-.scoped {
-  padding: 20px;
-  background: #eee;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: blue;
-  width: fit-content;
-  padding: 3px;
-}
-
-.positioned,
-.positioned2 {
-  border: 1px solid black;
-  border-radius: 3px;
-  width: fit-content;
-  padding: 3px 6px;
-  box-shadow: 3px 3px 3px rgba(0 0 0 / 0.2);
-}
-
-form {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-}
-
-.anchor {
-  anchor-name: --my-anchor, --another-anchor;
-}
-
-.positioned {
-  position: absolute;
-  position-anchor: --my-anchor;
-  position-area: right;
-}
-
-.positioned2 {
-  position: absolute;
-  bottom: 5px;
-  position-anchor: --another-anchor;
-  position-area: bottom;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                                "  border: 2px solid #ddd;",
-                                "11:21 - 11:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/anchor-scope
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 5px;
-}
-
-.scoped {
-  padding: 20px;
-  background: #eee;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: blue;
-  width: fit-content;
-  padding: 3px;
-}
-
-.positioned,
-.positioned2 {
-  border: 1px solid black;
-  border-radius: 3px;
-  width: fit-content;
-  padding: 3px 6px;
-  box-shadow: 3px 3px 3px rgba(0 0 0 / 0.2);
-}
-
-form {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-}
-
-.anchor {
-  anchor-name: --my-anchor, --another-anchor;
-}
-
-.positioned {
-  position: absolute;
-  position-anchor: --my-anchor;
-  position-area: right;
-}
-
-.positioned2 {
-  position: absolute;
-  bottom: 5px;
-  position-anchor: --another-anchor;
-  position-area: bottom;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "--my-anchor" must begin with a letter',
-                                "--my-anchor",
-                                "24:29",
-                                `/en-US/docs/Web/CSS/Reference/Properties/anchor-scope
-[valid-id] element id "--my-anchor" must begin with a letter
-~~~
-<section class="scoped">
-  <div class="anchor">⚓︎</div>
-  <div class="positioned">Positioned 1</div>
-</section>
-
-<section class="scoped">
-  <div class="anchor">⚓︎</div>
-  <div class="positioned">Positioned 2</div>
-</section>
-
-<section class="scoped">
-  <div class="anchor">⚓︎</div>
-  <div class="positioned">Positioned 3</div>
-</section>
-
-<div class="positioned2">Positioned 4</div>
-
-<form>
-  <fieldset>
-    <legend>Select an <code>anchor-scope</code> value</legend>
-
-    <input type="radio" id="all" name="scope" value="all" checked />
-    <label for="all"><code>all</code></label>
-    <input type="radio" id="--my-anchor" name="scope" value="--my-anchor" />
-    <label for="--my-anchor"><code>--my-anchor</code></label>
-    <input type="radio" id="none" name="scope" value="none" />
-    <label for="none"><code>none</code></label>
-  </fieldset>
-</form>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "animation-timeline": {
                           children: {
                             scroll: {
@@ -35510,346 +34996,7 @@ form {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "--selfScrollerElement" to be "--selfscrollerelement" (value-keyword-case)',
-                                "  view-timeline-name: --selfScrollerElement;",
-                                "29:23 - 29:44",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-timeline
-[value-keyword-case] Expected "--selfScrollerElement" to be "--selfscrollerelement" (value-keyword-case)
-~~~
-@layer no-support {
-  @supports not (animation-timeline: --square-timeline) {
-    body::before {
-      content: "Your browser doesn't support named animation timelines.";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1em;
-    }
-  }
-}
-
-@keyframes animationEffect {
-  0% {
-    opacity: 0;
-    scale: 0;
-  }
-  100% {
-    opacity: 1;
-    scale: 1;
-  }
-}
-
-.animatedElement {
-  animation: animationEffect 1ms linear;
-}
-
-.self {
-  view-timeline-name: --selfScrollerElement;
-  animation-timeline: --selfScrollerElement;
-}
-.container {
-  view-timeline-name: --parentScrollerElement;
-}
-.parent {
-  animation-timeline: --parentScrollerElement;
-}
-
-@layer setup {
-  section {
-    display: flex;
-    gap: 10px;
-  }
-  main {
-    width: 400px;
-    padding: 1em;
-    height: 300px;
-    overflow: scroll;
-    border: 1px solid;
-    background-color: beige;
-    font-family: sans-serif;
-  }
-
-  li {
-    margin-bottom: 0.75lh;
-  }
-
-  .animatedElement {
-    height: 200px;
-    width: calc(100% - 2em);
-    margin: auto;
-    background-color: forestgreen;
-    background-image:
-      repeating-linear-gradient(37deg, transparent 0 52px, beige 52px 57px),
-      repeating-linear-gradient(94deg, transparent 0 52px, beige 52px 57px);
-    border: 1px solid;
-    font-size: 3em;
-    place-content: center;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "--selfScrollerElement" to be "--selfscrollerelement" (value-keyword-case)',
-                                "  animation-timeline: --selfScrollerElement;",
-                                "30:23 - 30:44",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-timeline
-[value-keyword-case] Expected "--selfScrollerElement" to be "--selfscrollerelement" (value-keyword-case)
-~~~
-@layer no-support {
-  @supports not (animation-timeline: --square-timeline) {
-    body::before {
-      content: "Your browser doesn't support named animation timelines.";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1em;
-    }
-  }
-}
-
-@keyframes animationEffect {
-  0% {
-    opacity: 0;
-    scale: 0;
-  }
-  100% {
-    opacity: 1;
-    scale: 1;
-  }
-}
-
-.animatedElement {
-  animation: animationEffect 1ms linear;
-}
-
-.self {
-  view-timeline-name: --selfScrollerElement;
-  animation-timeline: --selfScrollerElement;
-}
-.container {
-  view-timeline-name: --parentScrollerElement;
-}
-.parent {
-  animation-timeline: --parentScrollerElement;
-}
-
-@layer setup {
-  section {
-    display: flex;
-    gap: 10px;
-  }
-  main {
-    width: 400px;
-    padding: 1em;
-    height: 300px;
-    overflow: scroll;
-    border: 1px solid;
-    background-color: beige;
-    font-family: sans-serif;
-  }
-
-  li {
-    margin-bottom: 0.75lh;
-  }
-
-  .animatedElement {
-    height: 200px;
-    width: calc(100% - 2em);
-    margin: auto;
-    background-color: forestgreen;
-    background-image:
-      repeating-linear-gradient(37deg, transparent 0 52px, beige 52px 57px),
-      repeating-linear-gradient(94deg, transparent 0 52px, beige 52px 57px);
-    border: 1px solid;
-    font-size: 3em;
-    place-content: center;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "--parentScrollerElement" to be "--parentscrollerelement" (value-keyword-case)',
-                                "  view-timeline-name: --parentScrollerElement;",
-                                "33:23 - 33:46",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-timeline
-[value-keyword-case] Expected "--parentScrollerElement" to be "--parentscrollerelement" (value-keyword-case)
-~~~
-@layer no-support {
-  @supports not (animation-timeline: --square-timeline) {
-    body::before {
-      content: "Your browser doesn't support named animation timelines.";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1em;
-    }
-  }
-}
-
-@keyframes animationEffect {
-  0% {
-    opacity: 0;
-    scale: 0;
-  }
-  100% {
-    opacity: 1;
-    scale: 1;
-  }
-}
-
-.animatedElement {
-  animation: animationEffect 1ms linear;
-}
-
-.self {
-  view-timeline-name: --selfScrollerElement;
-  animation-timeline: --selfScrollerElement;
-}
-.container {
-  view-timeline-name: --parentScrollerElement;
-}
-.parent {
-  animation-timeline: --parentScrollerElement;
-}
-
-@layer setup {
-  section {
-    display: flex;
-    gap: 10px;
-  }
-  main {
-    width: 400px;
-    padding: 1em;
-    height: 300px;
-    overflow: scroll;
-    border: 1px solid;
-    background-color: beige;
-    font-family: sans-serif;
-  }
-
-  li {
-    margin-bottom: 0.75lh;
-  }
-
-  .animatedElement {
-    height: 200px;
-    width: calc(100% - 2em);
-    margin: auto;
-    background-color: forestgreen;
-    background-image:
-      repeating-linear-gradient(37deg, transparent 0 52px, beige 52px 57px),
-      repeating-linear-gradient(94deg, transparent 0 52px, beige 52px 57px);
-    border: 1px solid;
-    font-size: 3em;
-    place-content: center;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "--parentScrollerElement" to be "--parentscrollerelement" (value-keyword-case)',
-                                "  animation-timeline: --parentScrollerElement;",
-                                "36:23 - 36:46",
-                                `/en-US/docs/Web/CSS/Reference/Properties/animation-timeline
-[value-keyword-case] Expected "--parentScrollerElement" to be "--parentscrollerelement" (value-keyword-case)
-~~~
-@layer no-support {
-  @supports not (animation-timeline: --square-timeline) {
-    body::before {
-      content: "Your browser doesn't support named animation timelines.";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1em;
-    }
-  }
-}
-
-@keyframes animationEffect {
-  0% {
-    opacity: 0;
-    scale: 0;
-  }
-  100% {
-    opacity: 1;
-    scale: 1;
-  }
-}
-
-.animatedElement {
-  animation: animationEffect 1ms linear;
-}
-
-.self {
-  view-timeline-name: --selfScrollerElement;
-  animation-timeline: --selfScrollerElement;
-}
-.container {
-  view-timeline-name: --parentScrollerElement;
-}
-.parent {
-  animation-timeline: --parentScrollerElement;
-}
-
-@layer setup {
-  section {
-    display: flex;
-    gap: 10px;
-  }
-  main {
-    width: 400px;
-    padding: 1em;
-    height: 300px;
-    overflow: scroll;
-    border: 1px solid;
-    background-color: beige;
-    font-family: sans-serif;
-  }
-
-  li {
-    margin-bottom: 0.75lh;
-  }
-
-  .animatedElement {
-    height: 200px;
-    width: calc(100% - 2em);
-    margin: auto;
-    background-color: forestgreen;
-    background-image:
-      repeating-linear-gradient(37deg, transparent 0 52px, beige 52px 57px),
-      repeating-linear-gradient(94deg, transparent 0 52px, beige 52px 57px);
-    border: 1px solid;
-    font-size: 3em;
-    place-content: center;
-  }
-}
-~~~
-`
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "backdrop-filter": {
                           children: {},
@@ -36558,7 +35705,7 @@ p {
                               data: [
                                 "color-hex-length",
                                 'Expected "#888" to be "#888888" (color-hex-length)',
-                                "  border: 2px solid #888;",
+                                "  border: 2px solid #888 888;",
                                 "6:21 - 6:25",
                                 `/en-US/docs/Web/CSS/Reference/Properties/baseline-source
 [color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
@@ -36568,7 +35715,50 @@ body {
 }
 
 .box {
-  border: 2px solid #888;
+  border: 2px solid #888 888;
+  width: 50px;
+}
+
+span {
+  padding: 0.4rem;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.first {
+  baseline-source: first;
+}
+
+.auto {
+  baseline-source: auto;
+}
+
+.last {
+  baseline-source: last;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "888" for property "border" (declaration-property-value-no-unknown)',
+                                "  border: 2px solid #888 888;",
+                                "6:26 - 6:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/baseline-source
+[declaration-property-value-no-unknown] Unexpected unknown value "888" for property "border" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  border: 2px solid #888 888;
   width: 50px;
 }
 
@@ -42124,18 +41314,6 @@ em {
                             }
                           ]
                         },
-                        "timeline-scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/timeline-scope",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/view"
-                              ]
-                            }
-                          ]
-                        },
                         top: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/top",
@@ -42726,18 +41904,6 @@ div {
                             }
                           ]
                         },
-                        "view-timeline-axis": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/view"
-                              ]
-                            }
-                          ]
-                        },
                         visibility: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
@@ -42788,40 +41954,7 @@ div {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/baseline-source"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/anchor-scope"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     selectors: {
                       children: {
@@ -43764,200 +42897,6 @@ a:target-after {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-no-invalid-hex",
-                                'Unexpected invalid hex color "#ccccccs" (color-no-invalid-hex)',
-                                "  box-shadow: inset 1px 1px 3px #ccccccs;",
-                                "36:33 - 36:41",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/:valid
-[color-no-invalid-hex] Unexpected invalid hex color "#ccccccs" (color-no-invalid-hex)
-~~~
-body {
-  font-family: sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #ccccccs;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input:required + span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input + span {
-  position: relative;
-}
-
-input + span::before {
-  position: absolute;
-  right: -20px;
-  top: 5px;
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid + span::before {
-  content: "✖";
-  color: red;
-}
-
-input:valid + span::before {
-  content: "✓";
-  color: green;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "#ccccccs" for property "box-shadow" (declaration-property-value-no-unknown)',
-                                "  box-shadow: inset 1px 1px 3px #ccccccs;",
-                                "36:33 - 36:41",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/:valid
-[declaration-property-value-no-unknown] Unexpected unknown value "#ccccccs" for property "box-shadow" (declaration-property-value-no-unknown)
-~~~
-body {
-  font-family: sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #ccccccs;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input:required + span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input + span {
-  position: relative;
-}
-
-input + span::before {
-  position: absolute;
-  right: -20px;
-  top: 5px;
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid + span::before {
-  content: "✖";
-  color: red;
-}
-
-input:valid + span::before {
-  content: "✓";
-  color: green;
-}
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -44159,6 +43098,13 @@ dialog::backdrop {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button",
                           messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Properties/content",
+                                "#alternative_text_string_counter"
+                              ]
+                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -44672,222 +43618,6 @@ ul::scroll-button(right) {
                               ]
                             },
                             {
-                              message: "Code with space",
-                              data: [
-                                "animation timeline"
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "3:16 - 3:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
-  }
-  75% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-    opacity: 0;
-    background-color: purple;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "8:16 - 8:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
-  }
-  75% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-    opacity: 0;
-    background-color: purple;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "13:16 - 13:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
-  }
-  75% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-    opacity: 0;
-    background-color: purple;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(50vw);",
-                                "18:16 - 18:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
-  }
-  75% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-    opacity: 0;
-    background-color: purple;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "6:16 - 6:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(50vw);",
-                                "17:16 - 17:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes uglyAnimation {
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translatex(0);
-    opacity: 0;
-    background-color: purple;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "keyframe-block-no-duplicate-selectors",
@@ -44902,7 +43632,7 @@ ul::scroll-button(right) {
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 0;
     background-color: purple;
   }
@@ -44913,7 +43643,7 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
 }
 ~~~
@@ -44935,7 +43665,7 @@ ul::scroll-button(right) {
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 0;
     background-color: purple;
   }
@@ -44946,7 +43676,7 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
 }
 ~~~
@@ -44968,7 +43698,7 @@ ul::scroll-button(right) {
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 0;
     background-color: purple;
   }
@@ -44979,79 +43709,7 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(50vw);",
-                                "12:16 - 12:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes makeItPurpleOnly {
-  0% {
-    background-color: yellow;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-  }
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "18:16 - 18:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-@keyframes makeItPurpleOnly {
-  0% {
-    background-color: yellow;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    transform: translatex(50vw);
-  }
-  0%,
-  50%,
-  75%,
-  100% {
-    transform: translatex(0);
-    opacity: 1;
-    background-color: purple;
+    transform: translateX(50vw);
   }
 }
 ~~~
@@ -45079,13 +43737,13 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
   0%,
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 1;
     background-color: purple;
   }
@@ -45115,13 +43773,13 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
   0%,
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 1;
     background-color: purple;
   }
@@ -45151,13 +43809,13 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
   0%,
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 1;
     background-color: purple;
   }
@@ -45187,94 +43845,16 @@ ul::scroll-button(right) {
     background-color: green;
   }
   100% {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
   }
   0%,
   50%,
   75%,
   100% {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 1;
     background-color: purple;
   }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(0);",
-                                "11:16 - 11:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-div {
-  background-color: rebeccapurple;
-  color: white;
-  width: min-content;
-  padding: 10px;
-  font: 2rem sans-serif;
-}
-
-@keyframes slide-and-fade {
-  from {
-    transform: translatex(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    transform: translatex(50vw);
-    opacity: 0;
-  }
-}
-
-div {
-  animation: slide-and-fade 4s ease-in infinite;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-name-case",
-                                'Expected "translatex" to be "translateX" (function-name-case)',
-                                "    transform: translatex(50vw);",
-                                "18:16 - 18:26",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
-[function-name-case] Expected "translatex" to be "translateX" (function-name-case)
-~~~
-div {
-  background-color: rebeccapurple;
-  color: white;
-  width: min-content;
-  padding: 10px;
-  font: 2rem sans-serif;
-}
-
-@keyframes slide-and-fade {
-  from {
-    transform: translatex(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    transform: translatex(50vw);
-    opacity: 0;
-  }
-}
-
-div {
-  animation: slide-and-fade 4s ease-in infinite;
 }
 ~~~
 `
@@ -45300,14 +43880,14 @@ div {
 
 @keyframes slide-and-fade {
   from {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 0;
   }
   50% {
     opacity: 1;
   }
   to {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
     opacity: 0;
   }
 }
@@ -45339,14 +43919,14 @@ div {
 
 @keyframes slide-and-fade {
   from {
-    transform: translatex(0);
+    transform: translateX(0);
     opacity: 0;
   }
   50% {
     opacity: 1;
   }
   to {
-    transform: translatex(50vw);
+    transform: translateX(50vw);
     opacity: 0;
   }
 }
@@ -45404,47 +43984,8 @@ div:last-of-type {
                               ]
                             }
                           ]
-                        },
-                        "pseudo-classes": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes",
-                          messages: [
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Selectors/:target-after"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Selectors/:target-before"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Selectors/:interest-target"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Selectors/:interest-source"
-                              ]
-                            }
-                          ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/Selectors",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     values: {
                       children: {
@@ -57753,18 +56294,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                             }
                           ]
                         },
-                        data_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/Data_types",
-                          messages: [
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Values/timeline-range-name"
-                              ]
-                            }
-                          ]
-                        },
                         "dynamic-range-limit-mix": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix",
@@ -65935,6 +64464,13 @@ because the nesting selector cannot represent pseudo-elements. */
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Broken anchor",
+                                  data: [
+                                    "/en-US/docs/Web/CSS/Reference/Properties/content",
+                                    "#alternative_text_string_counter"
+                                  ]
                                 }
                               ]
                             },
@@ -66349,16 +64885,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        "sec-ch-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Width",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         "sec-redemption-record": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Redemption-Record",
@@ -66496,6 +65022,72 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        undefined: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "temporal dead zone (TDZ)"
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-use-before-define",
+                                "'x' was used before it was defined.",
+                                'if (typeof x === "undefined") {',
+                                "1:12 - 1:13",
+                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+if (typeof x === "undefined") {
+  // these statements execute
+}
+var x = 1;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var x = 1;",
+                                "4:1 - 4:11",
+                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-var] Unexpected var, use let or const instead.
+~~~
+if (typeof x === "undefined") {
+  // these statements execute
+}
+var x = 1;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-use-before-define",
+                                "'z' was used before it was defined.",
+                                'if (typeof z === "undefined") {',
+                                "1:12 - 1:13",
+                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-use-before-define] 'z' was used before it was defined.
+~~~
+if (typeof z === "undefined") {
+  // Uncaught ReferenceError: Cannot access 'z' before initialization
+}
+let z = 1;
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -66541,6 +65133,23 @@ http.headers.Use-As-Dictionary`,
             },
             mathml: {
               children: {
+                guides: {
+                  children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.seamonkey-project.org/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     global_attributes: {
@@ -66730,27 +65339,6 @@ http.headers.Use-As-Dictionary`,
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                how_to: {
-                  children: {
-                    define_app_icons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://maskable.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
@@ -67652,43 +66240,6 @@ svg.elements.feSpotLight.z`
                 }
               }
             },
-            uri: {
-              children: {
-                guides: {
-                  children: {
-                    "choosing_between_www_and_non-www_urls": {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                reference: {
-                  children: {
-                    fragment: {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Reference/Fragment",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/URI/Reference/Fragment/Media_fragments"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             webdriver: {
               children: {
                 reference: {
@@ -67733,28 +66284,7 @@ svg.elements.feSpotLight.z`
             xml: {
               children: {
                 guides: {
-                  children: {
-                    opensearch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ready.to/search/en/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ready.to/search/make/en_make_plugin.htm",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
