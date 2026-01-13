@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-1egq7hv8.js";
+} from "./chunk-yse6f62t.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -67,6 +67,13 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
                 {
                   message: "HTTP link",
                   data: [
@@ -309,8 +316,8 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
-                    "https://stylus-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                    "https://sass-lang.com/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1269,6 +1276,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1428,23 +1448,6 @@ var warnings_processed_default = {
             },
             core: {
               children: {
-                accessibility: {
-                  children: {
-                    mobile: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Mobile",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2012/07/guidelines-for-mobile-web-development/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -1487,6 +1490,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -1814,6 +1824,234 @@ body {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid",
                           messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background-color: rgb(74 102 112 / 70%);",
+                                "11:38 - 11:41",
+                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.grid > * {
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+.item1 {
+  background-color: rgb(74 102 112 / 70%);
+  border: 5px solid rgb(74 102 112 / 100%);
+}
+
+.item2 {
+  background-color: rgb(214 162 173 / 70%);
+  border: 5px solid rgb(214 162 173 / 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.item1 {
+  /* Add styles here */
+}
+
+.item2 {
+  /* Add styles here */
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+.item2 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "100%" to be "1" (alpha-value-notation)',
+                                "  border: 5px solid rgb(74 102 112 / 100%);",
+                                "12:38 - 12:42",
+                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.grid > * {
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+.item1 {
+  background-color: rgb(74 102 112 / 70%);
+  border: 5px solid rgb(74 102 112 / 100%);
+}
+
+.item2 {
+  background-color: rgb(214 162 173 / 70%);
+  border: 5px solid rgb(214 162 173 / 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.item1 {
+  /* Add styles here */
+}
+
+.item2 {
+  /* Add styles here */
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+.item2 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background-color: rgb(214 162 173 / 70%);",
+                                "16:39 - 16:42",
+                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.grid > * {
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+.item1 {
+  background-color: rgb(74 102 112 / 70%);
+  border: 5px solid rgb(74 102 112 / 100%);
+}
+
+.item2 {
+  background-color: rgb(214 162 173 / 70%);
+  border: 5px solid rgb(214 162 173 / 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.item1 {
+  /* Add styles here */
+}
+
+.item2 {
+  /* Add styles here */
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+.item2 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "100%" to be "1" (alpha-value-notation)',
+                                "  border: 5px solid rgb(214 162 173 / 100%);",
+                                "17:39 - 17:43",
+                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.grid > * {
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+.item1 {
+  background-color: rgb(74 102 112 / 70%);
+  border: 5px solid rgb(74 102 112 / 100%);
+}
+
+.item2 {
+  background-color: rgb(214 162 173 / 70%);
+  border: 5px solid rgb(214 162 173 / 100%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.item1 {
+  /* Add styles here */
+}
+
+.item2 {
+  /* Add styles here */
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+.item2 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+~~~
+`
+                              ]
+                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -2252,7 +2490,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "https://api.emberjs.com/ember/release/",
                             "The operation timed out."
                           ]
                         }
@@ -2278,14 +2516,21 @@ ul li {
                         }
                       ]
                     },
-                    react_getting_started: {
+                    main_features: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
                             "The operation timed out."
                           ]
                         }
@@ -4290,8 +4535,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4333,13 +4578,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/guide/deployment.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4357,19 +4595,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -4478,10 +4703,25 @@ for (let i = 0; i <= 1; i++) {
                             "alpha-value-notation",
                             'Expected "60%" to be "0.6" (alpha-value-notation)',
                             "  border: 2px solid rgb(200 200 0 / 60%);",
-                            "5:37 - 5:40",
+                            "20:37 - 20:40",
                             `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 [alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
 ~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
 button {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
@@ -4504,10 +4744,25 @@ button {
                             "alpha-value-notation",
                             'Expected "60%" to be "0.6" (alpha-value-notation)',
                             "  background-color: rgb(0 217 217 / 60%);",
-                            "6:37 - 6:40",
+                            "21:37 - 21:40",
                             `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 [alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
 ~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
 button {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
@@ -4530,10 +4785,25 @@ button {
                             "alpha-value-notation",
                             'Expected "100%" to be "1" (alpha-value-notation)',
                             "  color: rgb(100 0 0 / 100%);",
-                            "7:24 - 7:28",
+                            "22:24 - 22:28",
                             `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 [alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
 ~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
 button {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
@@ -4556,10 +4826,189 @@ button {
                             "alpha-value-notation",
                             'Expected "40%" to be "0.4" (alpha-value-notation)',
                             "  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);",
-                            "8:41 - 8:44",
+                            "23:41 - 23:44",
                             `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
 ~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
+button {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid rgb(200 200 0 / 60%);
+  background-color: rgb(0 217 217 / 60%);
+  color: rgb(100 0 0 / 100%);
+  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "60%" to be "0.6" (alpha-value-notation)',
+                            "  border: 2px solid rgb(200 200 0 / 60%);",
+                            "20:37 - 20:40",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
+button {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid rgb(200 200 0 / 60%);
+  background-color: rgb(0 217 217 / 60%);
+  color: rgb(100 0 0 / 100%);
+  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "60%" to be "0.6" (alpha-value-notation)',
+                            "  background-color: rgb(0 217 217 / 60%);",
+                            "21:37 - 21:40",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
+button {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid rgb(200 200 0 / 60%);
+  background-color: rgb(0 217 217 / 60%);
+  color: rgb(100 0 0 / 100%);
+  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "100%" to be "1" (alpha-value-notation)',
+                            "  color: rgb(100 0 0 / 100%);",
+                            "22:24 - 22:28",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
+button {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid rgb(200 200 0 / 60%);
+  background-color: rgb(0 217 217 / 60%);
+  color: rgb(100 0 0 / 100%);
+  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);",
+                            "23:41 - 23:44",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4em;
+}
+
 button {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
@@ -4582,100 +5031,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    creating_links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/navigation-menu-start/projects.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/navigation-menu-start/social.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    headings_and_paragraphs: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    html_table_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/dogs-table.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/dogs-table-fixed.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/animals-table.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/animals-table-fixed.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    lists: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Lists",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     marking_up_a_letter: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
@@ -5517,6 +5872,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5529,10 +5897,31 @@ span {
                                 "alpha-value-notation",
                                 'Expected "50%" to be "0.5" (alpha-value-notation)',
                                 "  background-color: rgb(0 0 0 / 50%);",
-                                "9:33 - 9:36",
+                                "30:33 - 30:36",
                                 `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Backgrounds_and_borders
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
+body {
+  padding: 1em;
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 0.5em;
+}
+
+.box {
+  /* Add styles here */
+}
+
+h2 {
+  /* Add styles here */
+}
+
 .box {
   border: 5px solid black;
   border-radius: 10px;
@@ -5560,13 +5949,29 @@ h2 {
                                 "alpha-value-notation",
                                 'Expected "60%" to be "0.6" (alpha-value-notation)',
                                 "  background-color: rgb(134 222 250 / 60%);",
-                                "14:39 - 14:42",
+                                "30:39 - 30:42",
                                 `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values
 [alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
 ~~~
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 1em;
+  padding: 0.5em;
+}
+
 .hex {
   background-color: #86defa;
 }
+
+/* Add styles here */
 
 .rgb {
   background-color: rgb(134 222 250);
@@ -6024,6 +6429,33 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.github.com/en/rest/metrics/community",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -6031,21 +6463,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -11557,19 +11975,6 @@ textarea:focus {
                           ]
                         }
                       ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -11623,19 +12028,6 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     express_nodejs: {
                       children: {
                         skeleton_website: {
@@ -11645,8 +12037,8 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://stylus-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "https://sass-lang.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -12191,6 +12583,19 @@ body {
                         }
                       ]
                     },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.lambdatest.com/",
+                            "https://www.testmu.ai/"
+                          ]
+                        }
+                      ]
+                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -12198,8 +12603,29 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://mochajs.org/",
+                            "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lambdatest.com/support/docs/travis-ci-with-lambdatest/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lambdatest.com/support/docs/circleci-integration-with-lambdatest/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lambdatest.com/support/docs/jenkins-with-lambdatest/",
+                            404
                           ]
                         }
                       ]
@@ -12210,6 +12636,23 @@ body {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12447,6 +12890,19 @@ padding-left: 20px;
                           data: []
                         }
                       ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.magix.com/us/music-editing/sound-forge/",
+                            "https://www.vegascreativesoftware.com/us/sound-forge-pro/"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -12540,6 +12996,19 @@ padding-left: 20px;
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12589,8 +13058,8 @@ color: rgb(31 41 59 / 26%);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylus-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12802,17 +13271,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -12836,17 +13305,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -12855,10 +13324,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -13529,26 +13998,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    work_with_contextual_identities: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/contextual-identities/manifest.json",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/contextual-identities/context.js",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -14656,6 +15105,19 @@ api.MessagePort`,
                     }
                   ]
                 },
+                console: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/console",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://profiler.firefox.com/docs/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_object_model: {
                   children: {
                     css_value_serialization: {
@@ -15058,23 +15520,6 @@ li:nth-of-type(3n + 1) {
                             "api.CSS.registerProperty_static",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css: {
-                  children: {
-                    escape_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS/escape_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mathiasbynens/CSS.escape/blob/master/css.escape.js",
-                            503
                           ]
                         }
                       ]
@@ -16473,39 +16918,8 @@ aside {
                     }
                   }
                 },
-                notifications_api: {
-                  children: {
-                    using_the_notifications_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/firefox-page-info-window",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
-                  children: {
-                    using_the_payment_request_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_the_Payment_Request_API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/payment-request/feature-detect-support.html",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -17286,19 +17700,6 @@ button:interest-source {
                     }
                   }
                 },
-                rtcpeerconnection: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCPeerConnection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/jesup/nightly-gupshup/blob/master/static/js/chat.js",
-                        503
-                      ]
-                    }
-                  ]
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -17331,23 +17732,6 @@ button:interest-source {
                             "api.MediaDevices.getDisplayMedia",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                selection: {
-                  children: {
-                    setbaseandextent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Selection/setBaseAndExtent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/chrisdavidmills/selection-api-examples/blob/master/setBaseAndExtent.html",
-                            503
                           ]
                         }
                       ]
@@ -18059,30 +18443,6 @@ api.Window.sessionStorage`,
                             "html.elements.track",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                webxr_device_api: {
-                  children: {
-                    lighting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Lighting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/lighting-estimation/blob/main/lighting-estimation-explainer.md",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/lighting-estimation/blob/main/lighting-estimation-explainer.md",
-                            503
                           ]
                         }
                       ]
@@ -30116,6 +30476,40 @@ blockquote p::after {
                         }
                       ]
                     },
+                    nesting: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -30123,6 +30517,13 @@ blockquote p::after {
                           slug: "/en-US/docs/Web/CSS/Guides/Overflow/Carousels",
                           messages: [
                             {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Properties/content",
+                                "#alternative_text_string_counter"
+                              ]
+                            },
+                            {
                               message: "CSS code issue",
                               data: [
                                 "selector-type-no-unknown",
@@ -30200,11 +30601,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30307,11 +30708,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30414,11 +30815,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30521,11 +30922,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30628,11 +31029,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30670,12 +31071,14 @@ ul::scroll-marker-group {
 }
 
 li::scroll-marker {
-  content: "";
+  content: attr(data-accName);
   width: 16px;
   height: 16px;
   background-color: transparent;
   border: 2px solid black;
   border-radius: 50%;
+  overflow: hidden;
+  text-indent: 16px;
 }
 
 li::scroll-marker:target-current {
@@ -30763,11 +31166,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30805,12 +31208,14 @@ ul::scroll-marker-group {
 }
 
 li::scroll-marker {
-  content: "";
+  content: attr(data-accName);
   width: 16px;
   height: 16px;
   background-color: transparent;
   border: 2px solid black;
   border-radius: 50%;
+  overflow: hidden;
+  text-indent: 16px;
 }
 
 li::scroll-marker:target-current {
@@ -30898,11 +31303,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -30940,12 +31345,14 @@ ul::scroll-marker-group {
 }
 
 li::scroll-marker {
-  content: "";
+  content: attr(data-accName);
   width: 16px;
   height: 16px;
   background-color: transparent;
   border: 2px solid black;
   border-radius: 50%;
+  overflow: hidden;
+  text-indent: 16px;
 }
 
 li::scroll-marker:target-current {
@@ -31033,11 +31440,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: "◄" / "Previous";
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: "►" / "Next";
 }
 
 ul {
@@ -31075,12 +31482,14 @@ ul::scroll-marker-group {
 }
 
 li::scroll-marker {
-  content: "";
+  content: attr(data-accName);
   width: 16px;
   height: 16px;
   background-color: transparent;
   border: 2px solid black;
   border-radius: 50%;
+  overflow: hidden;
+  text-indent: 16px;
 }
 
 li::scroll-marker:target-current {
@@ -64985,41 +65394,10 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
-                guide: {
-                  children: {
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -65038,19 +65416,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        float16array: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float16Array",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/huggingface/blog/blob/main/stable_diffusion.md",
-                                503
-                              ]
-                            }
-                          ]
                         },
                         function: {
                           children: {
@@ -65162,6 +65527,19 @@ let z = 1;
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/repl",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -65239,6 +65617,19 @@ let z = 1;
               children: {
                 guides: {
                   children: {
+                    audio_and_video_delivery: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://jwpconnatix.com/",
+                            "https://jwx.com/"
+                          ]
+                        }
+                      ]
+                    },
                     formats: {
                       children: {
                         containers: {
@@ -65269,6 +65660,68 @@ let z = 1;
                   }
                 }
               }
+            },
+            performance: {
+              children: {},
+              slug: "/en-US/docs/Web/Performance",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
             },
             privacy: {
               children: {
