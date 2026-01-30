@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-cdhhf711.js";
+} from "./chunk-0j6e45ba.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,45 +39,8 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                controls_gamepad_api: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Controls_Gamepad_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://enclavegames.com/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://enclavegames.com/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://enclavegames.com/games/hungry-fridge/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
-              },
-              slug: "/en-US/docs/Games/Techniques",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://enclavegames.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
+              }
             },
             tools: {
               children: {
@@ -2463,13 +2426,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2484,28 +2440,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "https://api.emberjs.com/ember/release/",
                             "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
                             "The operation timed out."
                           ]
                         }
@@ -2518,13 +2460,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2535,52 +2470,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://testing-library.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -4619,6 +4508,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -5319,7 +5215,7 @@ caption {
                           message: "Broken external link",
                           data: [
                             "https://jsbin.com/",
-                            "The operation timed out."
+                            520
                           ]
                         }
                       ]
@@ -6470,19 +6366,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     package_management: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
@@ -6490,8 +6373,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12595,19 +12478,6 @@ body {
             },
             getting_started: {
               children: {
-                web_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://resilientwebdesign.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 your_first_website: {
                   children: {
                     publishing_your_website: {
@@ -12618,7 +12488,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://jsbin.com/",
-                            "The operation timed out."
+                            520
                           ]
                         }
                       ]
@@ -12945,15 +12815,15 @@ padding-left: 20px;
                     }
                   ]
                 },
-                open_source_etiquette: {
+                pull_requests: {
                   children: {},
-                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
-                        "unknown certificate verification error"
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -14934,7 +14804,17 @@ body {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Canvas_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 channel_messaging_api: {
                   children: {
@@ -18206,7 +18086,17 @@ env(viewport-segment-width 0 1)
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Audio_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 web_authentication_api: {
                   children: {
@@ -18364,22 +18254,18 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
-                webvr_api: {
-                  children: {
-                    concepts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebVR_API/Concepts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.meta.com/quest/quest-3/",
-                            500
-                          ]
-                        }
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/blog/websocket-part2",
+                        "The operation timed out."
                       ]
                     }
-                  }
+                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -36129,12 +36015,6 @@ p {
                               data: [
                                 "first baseline"
                               ]
-                            },
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
                             }
                           ]
                         },
@@ -36274,6 +36154,45 @@ blockquote {
                             }
                           ]
                         },
+                        "break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         caret: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/caret",
@@ -36282,18 +36201,6 @@ blockquote {
                               message: "Not in BCD",
                               data: [
                                 "css.properties.caret"
-                              ]
-                            }
-                          ]
-                        },
-                        "caret-animation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-animation",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
                               ]
                             }
                           ]
@@ -36465,206 +36372,26 @@ p {
                             }
                           ]
                         },
-                        "corner-block-end-shape": {
+                        columns: {
                           children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-block-end-shape",
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
                           messages: [
                             {
-                              message: "Missing data",
+                              message: "Broken link",
                               data: [
-                                "CSS info"
+                                "/en-US/docs/Web/CSS/column-height"
                               ]
-                            }
-                          ]
-                        },
-                        "corner-block-start-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-block-start-shape",
-                          messages: [
+                            },
                             {
-                              message: "Missing data",
+                              message: "Broken link",
                               data: [
-                                "CSS info"
+                                "/en-US/docs/Web/CSS/column-height"
                               ]
-                            }
-                          ]
-                        },
-                        "corner-bottom-left-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape",
-                          messages: [
+                            },
                             {
-                              message: "Missing data",
+                              message: "Broken link",
                               data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-bottom-right-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-bottom-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-end-end-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-end-end-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-end-start-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-end-start-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-inline-end-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-end-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-inline-start-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-start-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-left-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-left-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-right-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-right-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-start-end-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-start-end-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-start-start-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-start-start-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-top-left-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-left-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-top-right-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-right-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "corner-top-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-shape",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
+                                "/en-US/docs/Web/CSS/column-height"
                               ]
                             }
                           ]
@@ -36708,18 +36435,6 @@ i {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        "dynamic-range-limit": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/dynamic-range-limit",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
                               ]
                             }
                           ]
@@ -38496,28 +38211,10 @@ p {
                             }
                           ]
                         },
-                        interactivity: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interactivity",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
                         "interest-delay": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay",
                           messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -38542,12 +38239,6 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-end",
                           messages: [
                             {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -38570,12 +38261,6 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/interest-delay-start",
                           messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -40308,30 +39993,6 @@ body {
                             }
                           ]
                         },
-                        "reading-flow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-flow",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "reading-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-order",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            }
-                          ]
-                        },
                         resize: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/resize",
@@ -40349,18 +40010,6 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "scroll-marker-group": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-marker-group",
-                          messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
                             }
                           ]
                         },
@@ -40398,12 +40047,6 @@ body {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group",
                           messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -41180,12 +40823,6 @@ polygon:nth-of-type(3) {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-inset",
                           messages: [
-                            {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -65059,7 +64696,7 @@ let z = 1;
                           message: "Broken external link",
                           data: [
                             "https://jsbin.com/",
-                            "The operation timed out."
+                            520
                           ]
                         }
                       ]
