@@ -13991,6 +13991,7 @@ This is a relatively simple example, but it does show how you can use the sessio
         "frame_html-ally-1",
         "html_accessibility_2",
         "frame_html-ally-2",
+        "frame_html-ally-2-finish",
         "html_accessibility_3",
         "frame_html-ally-3",
         "html_accessibility_4",
@@ -14028,8 +14029,10 @@ This is a relatively simple example, but it does show how you can use the sessio
       ids: [
         "css_accessibility_1",
         "frame_css-js-ally-1",
+        "frame_css-js-ally-1-finish",
         "css_accessibility_2",
         "frame_css-js-ally-2",
+        "frame_css-js-ally-2-finish",
         "javascript_accessibility_1",
         "frame_css-js-ally-3"
       ]
@@ -14919,12 +14922,12 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_overflow1-finish",
+        "overflow_1",
         "frame_overflow1-start",
-        "task_2",
-        "frame_overflow2-finish",
-        "frame_overflow2-start"
+        "frame_overflow1-finish",
+        "overflow_2",
+        "frame_overflow2-start",
+        "frame_overflow2-finish"
       ]
     }
   },
@@ -14952,15 +14955,15 @@ This is a relatively simple example, but it does show how you can use the sessio
       ],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_values1-finish",
+        "values_and_units_1",
         "frame_values1-start",
-        "task_2",
-        "frame_values2-finish",
+        "frame_values1-finish",
+        "values_and_units_2",
         "frame_values2-start",
-        "task_3",
-        "frame_values3-finish",
-        "frame_values3-start"
+        "frame_values2-finish",
+        "values_and_units_3",
+        "frame_values3-start",
+        "frame_values3-finish"
       ]
     }
   },
@@ -14985,13 +14988,13 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_images-forms1-finish",
+        "images_and_forms_1",
         "frame_images-forms1-start",
-        "task_2",
-        "frame_images-forms2-finish",
+        "frame_images-forms1-finish",
+        "images_and_forms_2",
         "frame_images-forms2-start",
-        "task_3",
+        "frame_images-forms2-finish",
+        "images_and_forms_3",
         "frame_forms-2"
       ]
     }
@@ -15017,15 +15020,15 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_sizing1-finish",
+        "sizing_1",
         "frame_sizing1-start",
-        "task_2",
-        "frame_sizing2-finish",
+        "frame_sizing1-finish",
+        "sizing_2",
         "frame_sizing2-start",
-        "task_3",
-        "frame_sizing3-finish",
-        "frame_sizing3-start"
+        "frame_sizing2-finish",
+        "sizing_3",
+        "frame_sizing3-start",
+        "frame_sizing3-finish"
       ]
     }
   },
@@ -15053,15 +15056,15 @@ This is a relatively simple example, but it does show how you can use the sessio
       imgs: [],
       ids: [
         "interactive_challenge",
-        "task_1",
-        "frame_box-model1-finish",
+        "box_model_1",
         "frame_box-model1-start",
-        "task_2",
-        "frame_box-model2-finish",
+        "frame_box-model1-finish",
+        "box_model_2",
         "frame_box-model2-start",
-        "task_3",
-        "frame_box-model3-finish",
-        "frame_box-model3-start"
+        "frame_box-model2-finish",
+        "box_model_3",
+        "frame_box-model3-start",
+        "frame_box-model3-finish"
       ]
     }
   },
@@ -15086,12 +15089,12 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_cascade1-finish",
+        "cascade_1",
         "frame_cascade1-start",
-        "task_2",
-        "frame_cascade2-finish",
-        "frame_cascade2-start"
+        "frame_cascade1-finish",
+        "cascade_2",
+        "frame_cascade2-start",
+        "frame_cascade2-finish"
       ]
     }
   },
@@ -15116,21 +15119,21 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_selectors1-finish",
+        "selectors_1",
         "frame_selectors1-start",
-        "task_2",
-        "frame_selectors2-finish",
+        "frame_selectors1-finish",
+        "selectors_2",
         "frame_selectors2-start",
-        "task_3",
-        "frame_selectors3-finish",
+        "frame_selectors2-finish",
+        "selectors_3",
         "frame_selectors3-start",
-        "task_4",
-        "frame_selectors4-finish",
+        "frame_selectors3-finish",
+        "selectors_4",
         "frame_selectors4-start",
-        "task_5",
-        "frame_selectors5-finish",
-        "frame_selectors5-start"
+        "frame_selectors4-finish",
+        "selectors_5",
+        "frame_selectors5-start",
+        "frame_selectors5-finish"
       ]
     }
   },
@@ -15155,12 +15158,12 @@ This is a relatively simple example, but it does show how you can use the sessio
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_backgrounds1-finish",
+        "backgrounds_and_borders_1",
         "frame_backgrounds1-start",
-        "task_2",
-        "frame_backgrounds2-finish",
-        "frame_backgrounds2-start"
+        "frame_backgrounds1-finish",
+        "backgrounds_and_borders_2",
+        "frame_backgrounds2-start",
+        "frame_backgrounds2-finish"
       ]
     }
   },
@@ -16321,10 +16324,12 @@ In this lesson, we will take a look at some of the most frequently used value ty
       links: [],
       imgs: [],
       ids: [
-        "task_1",
+        "audio_and_video_1",
         "frame_audio-1",
-        "task_2",
-        "frame_video-1"
+        "frame_audio-1-finished",
+        "audio_and_video_2",
+        "frame_video-1",
+        "frame_video-1-finished"
       ]
     }
   },
@@ -16351,14 +16356,19 @@ In this lesson, we will take a look at some of the most frequently used value ty
       ids: [
         "forms_and_buttons_1",
         "frame_forms-buttons-1",
+        "frame_forms-buttons-1-finished",
         "forms_and_buttons_2",
         "frame_forms-buttons-2",
+        "frame_forms-buttons-2-finished",
         "forms_and_buttons_3",
         "frame_forms-buttons-3",
+        "frame_forms-buttons-3-finished",
         "forms_and_buttons_4",
         "frame_forms-buttons-4",
+        "frame_forms-buttons-4-finished",
         "forms_and_buttons_5",
         "frame_forms-buttons-5",
+        "frame_forms-buttons-5-finished",
         "forms_and_buttons_6",
         "frame_forms-buttons-6"
       ]
@@ -16387,11 +16397,13 @@ In this lesson, we will take a look at some of the most frequently used value ty
       ],
       imgs: [],
       ids: [
-        "task_1",
+        "links_1",
         "frame_links-1",
-        "task_2",
+        "frame_links-1-finished",
+        "links_2",
         "frame_links-2",
-        "task_3",
+        "frame_links-2-finished",
+        "links_3",
         "frame_links-3"
       ]
     }
@@ -16417,12 +16429,14 @@ In this lesson, we will take a look at some of the most frequently used value ty
       links: [],
       imgs: [],
       ids: [
-        "task_1",
+        "images_1",
         "frame_images-1",
-        "task_2",
+        "frame_images-1-finished",
+        "images_2",
         "frame_images-2",
-        "task_3",
-        "frame_images-3"
+        "images_3",
+        "frame_images-3",
+        "frame_images-3-finished"
       ]
     }
   },
@@ -16447,9 +16461,9 @@ In this lesson, we will take a look at some of the most frequently used value ty
       links: [],
       imgs: [],
       ids: [
-        "task_1",
-        "frame_advanced-text-solution",
-        "frame_advanced-text"
+        "advanced_text_1",
+        "frame_advanced-text",
+        "frame_advanced-text-solution"
       ]
     }
   },
@@ -16474,16 +16488,16 @@ In this lesson, we will take a look at some of the most frequently used value ty
       links: [],
       imgs: [],
       ids: [
-        "task_1",
+        "text_basics_1",
         "frame_text-basics-1",
         "frame_text-basics-1-finished",
-        "task_2",
+        "text_basics_2",
         "frame_text-basics-2",
         "frame_text-basics-2-finished",
-        "task_3",
+        "text_basics_3",
         "frame_text-basics-3",
         "frame_text-basics-3-finished",
-        "task_4",
+        "text_basics_4",
         "frame_text-basics-4",
         "frame_text-basics-4-finished"
       ]
@@ -17772,10 +17786,12 @@ In this article we will look at JavaScript from a high level, answering question
       imgs: [],
       ids: [
         "interactive_challenge",
-        "task_1",
+        "variables_1",
         "frame_variables-1",
-        "task_2",
+        "frame_variables-1-finish",
+        "variables_2",
         "frame_variables-2",
+        "frame_variables-2-finish",
         "see_also"
       ]
     }
@@ -17804,10 +17820,13 @@ In this article we will look at JavaScript from a high level, answering question
         "dom_manipulation_considered_useful",
         "events_1",
         "frame_events-1",
+        "frame_events-1-finish",
         "events_2",
         "frame_events-2",
+        "frame_events-2-finish",
         "events_3",
-        "frame_events-3"
+        "frame_events-3",
+        "frame_events-3-finish"
       ]
     }
   },
@@ -17835,14 +17854,18 @@ In this article we will look at JavaScript from a high level, answering question
       imgs: [],
       ids: [
         "interactive_challenge",
-        "task_1",
+        "arrays_1",
         "frame_arrays-1",
-        "task_2",
+        "frame_arrays-1-finish",
+        "arrays_2",
         "frame_arrays-2",
-        "task_3",
+        "frame_arrays-2-finish",
+        "arrays_3",
         "frame_arrays-3",
-        "task_4",
-        "frame_arrays-4"
+        "frame_arrays-3-finish",
+        "arrays_4",
+        "frame_arrays-4",
+        "frame_arrays-4-finish"
       ]
     }
   },
@@ -17869,10 +17892,13 @@ In this article we will look at JavaScript from a high level, answering question
       ids: [
         "math_1",
         "frame_math-1",
+        "frame_math-1-finish",
         "math_2",
         "frame_math-2",
+        "frame_math-2-finish",
         "math_3",
-        "frame_math-3"
+        "frame_math-3",
+        "frame_math-3-finish"
       ]
     }
   },
@@ -17901,8 +17927,10 @@ In this article we will look at JavaScript from a high level, answering question
       ids: [
         "object_basics_1",
         "frame_objects-1",
+        "frame_objects-1-finish",
         "object_basics_2",
         "frame_objects-2",
+        "frame_objects-2-finish",
         "object_basics_3",
         "frame_objects-3",
         "object_basics_4",
@@ -17934,7 +17962,8 @@ In this article we will look at JavaScript from a high level, answering question
       imgs: [],
       ids: [
         "json_1",
-        "frame_json-1"
+        "frame_json-1",
+        "frame_json-1-finish"
       ]
     }
   },
@@ -17963,13 +17992,15 @@ In this article we will look at JavaScript from a high level, answering question
       ids: [
         "dom_manipulation_considered_useful",
         "interactive_challenge",
-        "task_1",
+        "functions_1",
         "frame_functions-1",
-        "task_2",
+        "frame_functions-1-finish",
+        "functions_2",
         "frame_functions-2",
-        "task_3",
+        "frame_functions-2-finish",
+        "functions_3",
         "frame_functions-3",
-        "task_4",
+        "functions_4",
         "frame_functions-4"
       ]
     }
@@ -17997,12 +18028,16 @@ In this article we will look at JavaScript from a high level, answering question
       ids: [
         "strings_1",
         "frame_strings-1",
+        "frame_strings-1-finish",
         "strings_2",
         "frame_strings-2",
+        "frame_strings-2-finish",
         "strings_3",
         "frame_strings-3",
+        "frame_strings-3-finish",
         "strings_4",
-        "frame_strings-4"
+        "frame_strings-4",
+        "frame_strings-4-finish"
       ]
     }
   },
@@ -18029,10 +18064,13 @@ In this article we will look at JavaScript from a high level, answering question
       ids: [
         "conditionals_1",
         "frame_conditionals-1",
+        "frame_conditionals-1-finish",
         "conditionals_2",
         "frame_conditionals-2",
+        "frame_conditionals-2-finish",
         "conditionals_3",
-        "frame_conditionals-3"
+        "frame_conditionals-3",
+        "frame_conditionals-3-finish"
       ]
     }
   },
@@ -18060,10 +18098,13 @@ In this article we will look at JavaScript from a high level, answering question
         "dom_manipulation_considered_useful",
         "loops_1",
         "frame_loops-1",
+        "frame_loops-1-finish",
         "loops_2",
         "frame_loops-2",
+        "frame_loops-2-finish",
         "loops_3",
-        "frame_loops-3"
+        "frame_loops-3",
+        "frame_loops-3-finish"
       ]
     }
   },
@@ -187164,7 +187205,7 @@ If the animation doesn't run on a pseudo-element but on the element, an empty st
         "https://gpuweb.github.io/gpuweb/wgsl/#built-in-values-subgroup_id",
         "https://gpuweb.github.io/gpuweb/wgsl/#built-in-values-num_subgroups",
         "https://developer.chrome.com/blog/new-in-webgpu-144#wgsl_subgroup_id_extension",
-        "https://www.w3.org/TR/WGSL/#extension-subgroups",
+        "https://gpuweb.github.io/gpuweb/wgsl/#extension-subgroups",
         "https://google.github.io/tour-of-wgsl/types/pointers/passing_pointers/"
       ],
       imgs: [],
@@ -226821,11 +226862,11 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -382094,31 +382135,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382126,67 +382143,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382194,23 +382151,19 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382218,27 +382171,59 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382250,35 +382235,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382286,15 +382243,99 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -388167,11 +388208,7 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388179,11 +388216,7 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388191,7 +388224,19 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388199,15 +388244,11 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -413217,6 +413258,8 @@ pair in this map, in insertion order.`,
         "static_methods",
         "iterator.concat",
         "iterator.from",
+        "iterator.zip",
+        "iterator.zipkeyed",
         "instance_properties",
         "iterator.prototype.constructor",
         "iterator.prototypesymbol.tostringtag",
@@ -413721,6 +413764,50 @@ pair in this map, in insertion order.`,
     }
   },
   {
+    id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zipKeyed",
+    links: {},
+    data: {
+      metadata: {
+        title: "Iterator.zipKeyed()",
+        pageType: "javascript-static-method",
+        browserCompat: [
+          "javascript.builtins.Iterator.zipKeyed"
+        ],
+        summary: 'The Iterator.zipKeyed() static method creates a new Iterator object that aggregates elements from multiple iterable objects by yielding objects containing elements at the same position, with keys specified by the input. It essentially "zips" the input iterables together, allowing simultaneous iteration over them.',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/global_objects/iterator/zipkeyed",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "zipKeyed()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://core-js.io/docs/features/proposals/joint-iteration",
+        "https://www.npmjs.com/package/es-iterator-helpers"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "iterables",
+        "options",
+        "mode",
+        "padding",
+        "return_value",
+        "description",
+        "examples",
+        "transposing_tabular_data",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Symbol.iterator",
     links: {},
     data: {
@@ -413807,6 +413894,55 @@ pair in this map, in insertion order.`,
         "description",
         "examples",
         "using_reduce",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/zip",
+    links: {},
+    data: {
+      metadata: {
+        title: "Iterator.zip()",
+        pageType: "javascript-static-method",
+        browserCompat: [
+          "javascript.builtins.Iterator.zip"
+        ],
+        summary: 'The Iterator.zip() static method creates a new Iterator object that aggregates elements from multiple iterable objects by yielding arrays containing elements at the same position. It essentially "zips" the input iterables together, allowing simultaneous iteration over them.',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/global_objects/iterator/zip",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "zip()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://en.wikipedia.org/wiki/Transpose",
+        "https://core-js.io/docs/features/proposals/joint-iteration",
+        "https://www.npmjs.com/package/es-iterator-helpers"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "iterables",
+        "options",
+        "mode",
+        "padding",
+        "return_value",
+        "description",
+        "examples",
+        "iteration_over_a_map_with_indices",
+        "creating_a_map_from_lists_of_keys_and_values",
+        "joint_iteration_over_multiple_data_sources",
+        "providing_padding_for_uneven_iterables",
+        "zipping_strings",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -447318,11 +447454,27 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
@@ -447334,59 +447486,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
@@ -447398,23 +447498,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -447426,19 +447510,67 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
@@ -447446,7 +447578,11 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         }
       ],
@@ -458707,15 +458843,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458723,7 +458851,15 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -484591,11 +484727,11 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
         },
         {
@@ -484603,19 +484739,7 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484623,11 +484747,23 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -506693,7 +506829,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-anchor-position-1/"
+        "https://drafts.csswg.org/css-anchor-position-1/",
+        "https://bugzil.la/1993699"
       ],
       imgs: [],
       ids: [
@@ -506708,18 +506845,18 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "position-anchor",
         "<anchor-name>",
         "examples",
-        "using_a_slider_thumb_as_an_anchor",
+        "multiple_positioned_elements_and_anchors",
         "html",
         "css",
         "javascript",
-        "results",
-        "frame_a_range_thumb_as_anchor",
-        "multiple_positioned_elements_and_anchors",
+        "result",
+        "frame_multiple_positioned_elements_and_anchors",
+        "using_a_slider_thumb_as_an_anchor",
         "html_2",
         "css_2",
         "javascript_2",
-        "result",
-        "frame_multiple_positioned_elements_and_anchors",
+        "results",
+        "frame_a_range_thumb_as_anchor",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -516998,7 +517135,10 @@ An element is considered to be playing if it is currently playing the media reso
       metadata: {
         title: ":current",
         pageType: "css-pseudo-class",
-        summary: "The :current CSS pseudo-class selector is a time-dimensional pseudo-class that represents an element or the ancestor of an element that is currently being displayed. For example, this pseudo-class can be used to represent a video that is being displayed with captions by WebVTT.",
+        browserCompat: [
+          "css.selectors.current"
+        ],
+        summary: "The :current CSS pseudo-class selector represents an element or the ancestor of an element that is currently being displayed or highlighted.",
         popularity: 0.00033224104623777207,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -517011,19 +517151,21 @@ An element is considered to be playing if it is currently playing the media reso
         ]
       },
       flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/selectors/#the-current-pseudo",
-          title: "Selectors Level 4"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
         "syntax",
+        "description",
         "examples",
-        "css",
+        "custom_styles_for_text_search_results",
         "html",
+        "css",
+        "result",
+        "frame_live-sample___custom-search-results",
+        "styling_currently-shown_webvtt_subtitles",
+        "css_2",
+        "html_2",
         "webvtt",
         "specifications",
         "browser_compatibility",
@@ -518622,6 +518764,54 @@ An element is considered to be playing if it is currently playing the media reso
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Selectors/::search-text",
+    links: {},
+    data: {
+      metadata: {
+        title: "::search-text",
+        pageType: "css-pseudo-element",
+        browserCompat: [
+          "css.selectors.search-text"
+        ],
+        summary: `The ::search-text CSS pseudo-element applies styles to search results identified by the user agent's "Find" or "Find in page" text search feature.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/selectors/_doublecolon_search-text",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "::search-text",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-pseudo-4/#selectordef-search-text",
+          title: "CSS Pseudo-Elements Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "description",
+        "inheritance_model",
+        "allowable_properties",
+        "accessibility",
+        "examples",
+        "custom_styles_for_text_search_results",
+        "html",
+        "css",
+        "result",
+        "frame_live-sample___custom-search-results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Selectors/:seeking",
     links: {},
     data: {
@@ -519396,11 +519586,12 @@ This can be used to style captions and other cues in media with VTT tracks.`,
         "first-letter",
         "cue",
         "highlight_pseudo-elements",
-        "selection",
-        "target-text",
-        "spelling-error",
         "grammar-error",
         "highlight",
+        "search-text",
+        "selection",
+        "spelling-error",
+        "target-text",
         "tree-abiding_pseudo-elements",
         "before",
         "after",
@@ -540002,15 +540193,19 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -540022,11 +540217,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
@@ -567502,17 +567693,23 @@ Firefox 148 is the current Beta version of Firefox and ships on February 24, 202
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=148",
+        "https://bugzil.la/543435",
         "https://bugzil.la/2008537",
+        "https://bugzil.la/2003333",
         "https://bugzil.la/1994690",
         "https://bugzil.la/1085214",
         "https://bugzil.la/1987671",
+        "https://bugzil.la/1998195",
         "https://bugzil.la/1858562"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "html",
         "css",
+        "javascript",
         "apis",
+        "dom",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
