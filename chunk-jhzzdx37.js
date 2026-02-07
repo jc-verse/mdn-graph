@@ -80053,6 +80053,574 @@ the current <form> element as a string.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.HTMLGeolocationElement"
+        ],
+        summary: "The HTMLGeolocationElement interface of the HTML DOM API represents the <geolocation> element, and provides access to its properties and events.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "HTMLGeolocationElement",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/basic-example/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/basic-example",
+        "https://mdn.github.io/dom-examples/geolocation-element/basic-watch-example/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/basic-watch-example",
+        "https://leafletjs.com/",
+        "https://leafletjs.com/",
+        "https://leafletjs.com/examples/quick-start/",
+        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/embedded-map",
+        "https://developer.chrome.com/blog/geolocation-html-element"
+      ],
+      imgs: [],
+      ids: [
+        "constructor",
+        "htmlgeolocationelement",
+        "instance_properties",
+        "autolocate",
+        "error",
+        "initialpermissionstatus",
+        "invalidreason",
+        "isvalid",
+        "permissionstatus",
+        "position",
+        "watch",
+        "instance_methods",
+        "events",
+        "location",
+        "promptaction",
+        "promptdismiss",
+        "validationstatuschange",
+        "description",
+        "examples",
+        "basic_usage",
+        "embedded_map_example",
+        "html",
+        "javascript",
+        "result",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/watch",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: watch property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.watch"
+        ],
+        summary: "The watch property of the HTMLGeolocationElement interface gets and sets a boolean value indicating whether the browser should continuously update the user's location data whenever the position of their device changes, or only retrieve it once.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/watch",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "watch",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/basic-watch-example/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/basic-watch-example"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "retrieving_location_data_continuously",
+        "html",
+        "javascript",
+        "result",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/HTMLGeolocationElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: HTMLGeolocationElement() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.HTMLGeolocationElement.HTMLGeolocationElement"
+        ],
+        summary: "The HTMLGeolocationElement() constructor creates a new HTMLGeolocationElement object instance.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/htmlgeolocationelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "HTMLGeolocationElement()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "creating_a_new_htmlgeolocationelement_instance_programmatically",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/validationstatuschange_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: validationstatuschange event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLGeolocationElement.validationstatuschange_event"
+        ],
+        summary: "The validationstatuschange event of the HTMLGeolocationElement interface is fired whenever the <geolocation> element's isValid value changes.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/validationstatuschange_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "validationstatuschange",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/exploring-invalid-reasons/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/exploring-invalid-reasons"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "using_validationstatuschange_to_report_invalid_reasons",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/permissionStatus",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: permissionStatus property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.permissionStatus"
+        ],
+        summary: "The permissionStatus read-only property of the HTMLGeolocationElement interface returns an enumerated value representing the current permission status for the geolocation feature.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/permissionstatus",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "permissionStatus",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/embedded-map"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "granted",
+        "denied",
+        "prompt",
+        "examples",
+        "basic_usage",
+        "using_permission_status_to_inform_the_user",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/position",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: position property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.position"
+        ],
+        summary: "The position read-only property of the HTMLGeolocationElement interface returns a GeolocationPosition object representing the user's position, in the event of successful location data retrieval.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/position",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "position",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/location_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: location event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLGeolocationElement.location_event"
+        ],
+        summary: "The location event of the HTMLGeolocationElement interface is fired whenever the browser receives location data, or error information when a location data request was unsuccessful.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/location_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "location",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/embedded-map"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "using_location_to_respond_to_location_data_and_errors",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/invalidReason",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: invalidReason property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.invalidReason"
+        ],
+        summary: "The invalidReason read-only property of the HTMLGeolocationElement interface returns an enumerated value representing the reason why the associated <geolocation> element is invalid (blocked), if that is the case.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/invalidreason",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "invalidReason",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/exploring-invalid-reasons/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/exploring-invalid-reasons"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "illegal_subframe",
+        "unsuccesful_registration",
+        "recently_attached",
+        "intersection_changed",
+        "intersection_out_of_viewport_or_clipped",
+        "intersection_occluded_or_distorted",
+        "style_invalid",
+        "permanent",
+        "temporary",
+        "expiring",
+        "examples",
+        "basic_usage",
+        "exploring_invalid_reasons",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/promptaction_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: promptaction event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLGeolocationElement.promptaction_event"
+        ],
+        summary: "The promptaction event of the HTMLGeolocationElement interface is fired whenever the user activates the <geolocation> element and selects an option from the resulting dialog, either to grant or deny geolocation permission.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/promptaction_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "promptaction",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/embedded-map"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "using_promptaction_to_respond_to_user_permission_choices",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/isValid",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: isValid property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.isValid"
+        ],
+        summary: "The isValid read-only property of the HTMLGeolocationElement interface returns a boolean value indicating whether the associated <geolocation> element is valid or invalid (blocked).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/isvalid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "isValid",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/initialPermissionStatus",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: initialPermissionStatus property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.initialPermissionStatus"
+        ],
+        summary: "The initialPermissionStatus read-only property of the HTMLGeolocationElement interface returns an enumerated value representing the permission status for the geolocation feature when the page first loads.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/initialpermissionstatus",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "initialPermissionStatus",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/initial-permission-status/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/initial-permission-status"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "granted",
+        "denied",
+        "prompt",
+        "examples",
+        "basic_usage",
+        "using_initial_permission_status_to_inform_the_user_on_page_load",
+        "html",
+        "javascript",
+        "result",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/error",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: error property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.error"
+        ],
+        summary: "The error read-only property of the HTMLGeolocationElement interface returns a GeolocationPositionError object representing error information, in the event of a failure to retrieve location data.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/error",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "error",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/promptdismiss_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: promptdismiss event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.HTMLGeolocationElement.promptdismiss_event"
+        ],
+        summary: 'The promptdismiss event of the HTMLGeolocationElement interface is fired whenever the user activates the <geolocation> element and dismisses the resulting dialog, by pressing the "close" button or the Esc key.',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/promptdismiss_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "promptdismiss",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/embedded-map"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "using_promptdismiss_to_respond_to_user_permission_dismissal",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLGeolocationElement/autolocate",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLGeolocationElement: autolocate property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLGeolocationElement.autolocate"
+        ],
+        summary: "The autolocate property of the HTMLGeolocationElement interface gets and sets a boolean value indicating whether the browser should immediately request location data when the <geolocation> element is rendered, provided permission to use the geolocation feature is already granted.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlgeolocationelement/autolocate",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "autolocate",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/VideoFrame",
     links: {},
     data: {
@@ -158778,7 +159346,9 @@ that same origin.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "ClipboardChangeEvent",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -158821,7 +159391,9 @@ that same origin.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "types",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -158859,7 +159431,9 @@ that same origin.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "ClipboardChangeEvent()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -158901,7 +159475,9 @@ that same origin.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "changeId",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -217530,7 +218106,8 @@ connection.`,
         "html",
         "javascript",
         "result",
-        "frame_examples"
+        "frame_examples",
+        "see_also"
       ]
     }
   },
@@ -226864,15 +227441,15 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
@@ -382137,11 +382714,7 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382149,159 +382722,7 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382309,15 +382730,43 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382325,7 +382774,35 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -382337,7 +382814,107 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -388210,15 +388787,7 @@ JavaScript syntax would expect one.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388226,15 +388795,15 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -388242,15 +388811,23 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -413783,10 +414360,17 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "zipKeyed()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-joint-iteration/#sec-iterator.zipkeyed",
+          title: "Joint Iteration"
+        }
+      ],
       links: [
         "https://core-js.io/docs/features/proposals/joint-iteration",
         "https://www.npmjs.com/package/es-iterator-helpers"
@@ -413920,10 +414504,17 @@ pair in this map, in insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "zip()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-joint-iteration/#sec-IteratorZip",
+          title: "Joint Iteration"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Transpose",
         "https://core-js.io/docs/features/proposals/joint-iteration",
@@ -447456,59 +448047,23 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -447516,15 +448071,71 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
@@ -447536,27 +448147,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -447564,28 +448163,20 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
         }
       ],
       links: [
@@ -452117,6 +452708,84 @@ Each track element lets you specify a timed text track (or time-based data) that
         "examples",
         "result",
         "frame_example",
+        "technical_summary",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTML/Reference/Elements/geolocation",
+    links: {},
+    data: {
+      metadata: {
+        title: "<geolocation>: The geolocation element",
+        pageType: "html-element",
+        browserCompat: [
+          "html.elements.geolocation"
+        ],
+        summary: "The <geolocation> HTML element creates an interactive control for the user to share their location data with the page.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/html/reference/elements/geolocation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "<geolocation>",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://mdn.github.io/dom-examples/geolocation-element/basic-example/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/basic-example",
+        "https://mdn.github.io/dom-examples/geolocation-element/basic-watch-example/",
+        "https://github.com/mdn/dom-examples/tree/main/geolocation-element/basic-watch-example",
+        "https://w3c.github.io/html-aria/#dfn-no-corresponding-role",
+        "https://developer.chrome.com/blog/geolocation-html-element"
+      ],
+      imgs: [],
+      ids: [
+        "attributes",
+        "autolocate",
+        "watch",
+        "description",
+        "relationship_with_the_geolocation_api",
+        "setting_the_button_language",
+        "including_fallback_content",
+        "geolocation_blocking",
+        "styling_restrictions",
+        "accessibility_restrictions",
+        "value_constraints",
+        "opacity",
+        "line-height",
+        "white-space",
+        "user-select",
+        "appearance",
+        "box-sizing",
+        "vertical-align",
+        "text-emphasis",
+        "text-shadow",
+        "outline-offset",
+        "font-weight",
+        "word-spacing",
+        "letter-spacing",
+        "letter-spacing_2",
+        "min-height",
+        "max-height",
+        "min-width",
+        "border-width",
+        "complex_constraints",
+        "block_direction_padding",
+        "inline_direction_padding",
+        "properties_that_can_be_set_normally",
+        "accessibility",
+        "examples",
+        "basic_usage_example",
+        "html",
+        "javascript",
+        "result",
         "technical_summary",
         "specifications",
         "browser_compatibility",
@@ -458842,19 +459511,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -458862,11 +459519,23 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         }
       ],
@@ -482525,8 +483194,8 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-multicol/#columns",
-          title: "CSS Multi-column Layout Module Level 1"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-multicol-2/#propdef-columns",
+          title: "CSS Multi-column Layout Module Level 2"
         }
       ],
       links: [
@@ -484730,15 +485399,39 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -484747,30 +485440,6 @@ The values allow for choosing between aligning to the box's first baseline, last
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -518786,7 +519455,9 @@ An element is considered to be playing if it is currently playing the media reso
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "::search-text",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -532593,6 +533264,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
         "interfaces",
         "guides",
         "using_css_custom_functions",
+        "related_concepts",
         "specifications",
         "see_also"
       ]
@@ -540197,15 +540869,23 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -540214,14 +540894,6 @@ Each request method has its own semantics, but some characteristics are shared a
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -554089,7 +554761,12 @@ autoplay media requested through the HTMLMediaElement interface.`,
         ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/ua-client-hints/#ch-ua-high-entropy-values",
+          title: "User-Agent Client Hints"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592691,7 +593368,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.getAll"
         ],
-        summary: "Retrieve a permissions.Permissions object containing all the permissions currently granted to the extension.",
+        summary: "Retrieves a permissions.Permissions object containing all the permissions currently granted to the extension.",
         popularity: 0.00026954394557677315,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592728,7 +593405,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.contains"
         ],
-        summary: "Check whether the extension has the permissions listed in the given permissions.Permissions object.",
+        summary: "Checks whether the extension has specific permissions.",
         popularity: 0.0002845483799229951,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592765,7 +593442,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.onRemoved"
         ],
-        summary: "Fired when some permissions are removed from the extension.",
+        summary: "Fires when permissions are removed from the extension.",
         popularity: 0.00027865378071555076,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592806,7 +593483,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.onAdded"
         ],
-        summary: "Fired when the extension granted new permissions.",
+        summary: "Fires when the extension is granted permissions.",
         popularity: 0.0002765102900946619,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592847,7 +593524,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.request"
         ],
-        summary: "Asks the user for the permissions listed in the permissions.Permissions object.",
+        summary: "Asks the user for the permissions listed in a permissions.Permissions object.",
         popularity: 0.0003429584993422163,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592887,7 +593564,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.permissions.remove"
         ],
-        summary: "Ask to give up the permissions listed in the given permissions.Permissions object.",
+        summary: "Revokes the permissions listed in a permissions.Permissions object.",
         popularity: 0.0002722233088528842,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -592945,6 +593622,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         "type",
         "origins",
         "permissions",
+        "data_collection",
         "browser_compatibility"
       ]
     }
