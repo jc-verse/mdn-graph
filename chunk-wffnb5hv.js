@@ -130897,6 +130897,7 @@ The WebVTT API is primarily used for displaying subtitles or captions that overl
         "texttrackcuelist",
         "texttracklist",
         "related_interfaces",
+        "datacue",
         "trackevent",
         "related_css_extensions",
         "cue",
@@ -141530,6 +141531,184 @@ a textual payload, or null otherwise.`,
         "value",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/DataCue",
+    links: {},
+    data: {
+      metadata: {
+        title: "DataCue",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.DataCue"
+        ],
+        summary: "The DataCue interface represents a cue that associates arbitrary timed data with an audio or video media resource, or exposes timed data from a media resource to web pages. It extends the TextTrackCue interface with a value property that can hold any data type, and a type property that identifies the kind of data.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/datacue",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "DataCue",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/datacue/#datacue-interface",
+          title: "DataCue API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "constructor",
+        "datacue",
+        "instance_properties",
+        "datacue.type",
+        "datacue.value",
+        "instance_methods",
+        "examples",
+        "associating_timed_metadata_with_a_video",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/DataCue/DataCue",
+    links: {},
+    data: {
+      metadata: {
+        title: "DataCue: DataCue() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.DataCue.DataCue"
+        ],
+        summary: "The DataCue() constructor creates and returns a new DataCue object that represents a timed metadata cue over a given time range. The resulting cue can be added to a metadata TextTrack using TextTrack.addCue(), allowing arbitrary data to be synchronized with audio or video playback.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/datacue/datacue",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "DataCue()",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/datacue/#dom-datacue-datacue",
+          title: "DataCue API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "starttime",
+        "endtime",
+        "value",
+        "type",
+        "return_value",
+        "examples",
+        "creating_a_datacue_with_geolocation_data",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/DataCue/value",
+    links: {},
+    data: {
+      metadata: {
+        title: "DataCue: value property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.DataCue.value"
+        ],
+        summary: "The value property of the DataCue interface represents the data payload of the cue. Unlike VTTCue, which carries text content, DataCue can hold any data type — such as a JavaScript object, a string, or an ArrayBuffer — making it suitable for timed metadata use cases where structured data needs to be synchronized with media playback.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/datacue/value",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "value",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/datacue/#dom-datacue-value",
+          title: "DataCue API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "reading_the_value_of_a_datacue",
+        "reacting_to_cue_data_during_playback",
+        "updating_the_value_of_a_datacue",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/DataCue/type",
+    links: {},
+    data: {
+      metadata: {
+        title: "DataCue: type property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.DataCue.type"
+        ],
+        summary: `The type read-only property of the DataCue interface returns a string identifying the type or schema of the data stored in the cue's value property. This is typically a reverse-domain notation string (e.g., "org.id3", "com.apple.itunes") that allows applications to interpret the cue's data payload correctly.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/datacue/type",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "type",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/datacue/#dom-datacue-type",
+          title: "DataCue API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "reading_the_type_of_a_datacue",
+        "dispatching_on_type_for_in-band_metadata",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -155689,7 +155868,7 @@ while sending data to the remote peer, if the error represents an outbound DTLS 
         browserCompat: [
           "api.TextTrackCue"
         ],
-        summary: "The TextTrackCue interface of the WebVTT API is the abstract base class for the various derived cue types, such as VTTCue; you will work with these derived types rather than the base class.",
+        summary: "The TextTrackCue interface of the WebVTT API is the abstract base class for the various derived cue types, such as VTTCue and DataCue; you will work with these derived types rather than the base class.",
         popularity: 0.00011735611149366463,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -227647,15 +227826,15 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          title: "Web Audio API"
+        },
+        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
@@ -383094,51 +383273,31 @@ Understanding how tracking protection works will help ensure your site functions
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383150,87 +383309,11 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383242,7 +383325,55 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383250,23 +383381,19 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383274,7 +383401,15 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383282,11 +383417,43 @@ Understanding how tracking protection works will help ensure your site functions
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -383295,6 +383462,18 @@ Understanding how tracking protection works will help ensure your site functions
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -389171,31 +389350,7 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -389203,11 +389358,35 @@ JavaScript syntax would expect one.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -448401,55 +448580,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -448461,63 +448600,15 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
@@ -448525,11 +448616,99 @@ It takes a string as its value, and the expected syntax varies depending on the 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
           title: "HTML"
         }
       ],
@@ -459869,19 +460048,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -459889,7 +460056,19 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         }
       ],
@@ -485753,11 +485932,19 @@ The values allow for choosing between aligning to the box's first baseline, last
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -485769,23 +485956,11 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -485793,8 +485968,12 @@ The values allow for choosing between aligning to the box's first baseline, last
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -535149,9 +535328,11 @@ Some are aimed at complete beginners, while others present complex features to b
       ids: [
         "usage",
         "reference",
+        "webdriver_classic_reference",
         "commands",
         "capabilities",
         "errors",
+        "timeouts",
         "specifications",
         "see_also"
       ]
@@ -535178,28 +535359,55 @@ Some are aimed at complete beginners, while others present complex features to b
       links: [],
       imgs: [],
       ids: [
-        "webdriver_capabilities",
-        "webdriver_commands",
-        "webdriver_errors",
-        "webdriver_timeouts"
+        "webdriver_classic_reference"
       ]
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic",
     links: {},
     data: {
       metadata: {
-        title: "WebDriver commands",
+        title: "WebDriver classic reference",
+        pageType: "listing-page",
+        summary: `WebDriver classic is the original WebDriver protocol that provides HTTP-based commands for browser automation.
+This reference documents the commands, capabilities, errors, and timeouts available in WebDriver classic.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/classic",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Classic",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "commands",
+        "capabilities",
+        "errors",
+        "timeouts"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebDriver classic commands",
         pageType: "landing-page",
         browserCompat: [
           "webdriver.classic"
         ],
-        summary: "The following is a list of the available WebDriver commands.",
-        popularity: 0.00008895486076688736,
+        summary: `WebDriver classic commands are sent as HTTP requests to specific endpoints on the remote end.
+Commands are used to control the behavior of a user agent, discover and manipulate DOM elements, and manage browser windows and sessions.`,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands",
+          folder: "en-us/web/webdriver/reference/classic/commands",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Commands",
@@ -535209,22 +535417,13 @@ Some are aimed at complete beginners, while others present complex features to b
       links: [],
       imgs: [],
       ids: [
-        "close_window",
-        "get_element_attribute",
-        "get_element_property",
-        "get_element_tag_name",
-        "get_timeouts",
-        "get_window_handles",
-        "get_window_rect",
-        "new_window",
-        "set_timeouts",
-        "set_window_rect",
+        "list_of_commands",
         "browser_compatibility"
       ]
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/SetTimeouts",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/SetTimeouts",
     links: {},
     data: {
       metadata: {
@@ -535237,7 +535436,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/settimeouts",
+          folder: "en-us/web/webdriver/reference/classic/commands/settimeouts",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Set Timeouts",
@@ -535269,7 +535468,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/CloseWindow",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/CloseWindow",
     links: {},
     data: {
       metadata: {
@@ -535279,10 +535478,10 @@ Some are aimed at complete beginners, while others present complex features to b
           "webdriver.classic.CloseWindow"
         ],
         summary: "The Close Window command of the WebDriver API closes the current top-level browsing context (window or tab) and returns with the list of currently open WebWindows. If it is the last window that is being closed, the WebDriver session will implicitly be deleted. Subsequent commands after the session is ended will therefore cause invalid session ID errors.",
-        popularity: 0.00008413200686988744,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/closewindow",
+          folder: "en-us/web/webdriver/reference/classic/commands/closewindow",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Close Window",
@@ -535312,7 +535511,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowRect",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetWindowRect",
     links: {},
     data: {
       metadata: {
@@ -535325,7 +535524,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/getwindowrect",
+          folder: "en-us/web/webdriver/reference/classic/commands/getwindowrect",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Window Rect",
@@ -535359,7 +535558,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/SetWindowRect",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/SetWindowRect",
     links: {},
     data: {
       metadata: {
@@ -535372,7 +535571,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/setwindowrect",
+          folder: "en-us/web/webdriver/reference/classic/commands/setwindowrect",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Set Window Rect",
@@ -535414,7 +535613,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementProperty",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetElementProperty",
     links: {},
     data: {
       metadata: {
@@ -535427,7 +535626,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/getelementproperty",
+          folder: "en-us/web/webdriver/reference/classic/commands/getelementproperty",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Element Property",
@@ -535462,7 +535661,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementAttribute",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetElementAttribute",
     links: {},
     data: {
       metadata: {
@@ -535472,10 +535671,10 @@ Some are aimed at complete beginners, while others present complex features to b
           "webdriver.classic.GetElementAttribute"
         ],
         summary: 'The Get Element Attribute command of the WebDriver API returns the attribute of the referenced web element. If for example the element is an <img>, the returned attribute is "//TODO", which is equivalent to calling Element.getAttribute on the element. For XML/XHTML documents it may be cased differently.',
-        popularity: 0.00009217009669822065,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/getelementattribute",
+          folder: "en-us/web/webdriver/reference/classic/commands/getelementattribute",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Element Attribute",
@@ -535507,7 +535706,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandles",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetWindowHandles",
     links: {},
     data: {
       metadata: {
@@ -535520,7 +535719,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/getwindowhandles",
+          folder: "en-us/web/webdriver/reference/classic/commands/getwindowhandles",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Window Handles",
@@ -535549,7 +535748,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementTagName",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetElementTagName",
     links: {},
     data: {
       metadata: {
@@ -535562,7 +535761,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/getelementtagname",
+          folder: "en-us/web/webdriver/reference/classic/commands/getelementtagname",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Element Tag Name",
@@ -535593,7 +535792,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/GetTimeouts",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetTimeouts",
     links: {},
     data: {
       metadata: {
@@ -535603,10 +535802,10 @@ Some are aimed at complete beginners, while others present complex features to b
           "webdriver.classic.GetTimeouts"
         ],
         summary: "The Get Timeouts command of the WebDriver API returns the timeouts associated with the current session. The session timeout durations control such behavior as timeouts on script injection, document navigation, and element retrieval.",
-        popularity: 0.00010020818652655385,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/gettimeouts",
+          folder: "en-us/web/webdriver/reference/classic/commands/gettimeouts",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Get Timeouts",
@@ -535638,7 +535837,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Commands/NewWindow",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/NewWindow",
     links: {},
     data: {
       metadata: {
@@ -535651,7 +535850,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/commands/newwindow",
+          folder: "en-us/web/webdriver/reference/classic/commands/newwindow",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "New Window",
@@ -535687,17 +535886,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Timeouts",
     links: {},
     data: {
       metadata: {
-        title: "WebDriver timeouts",
+        title: "WebDriver classic timeouts",
         pageType: "reference",
         summary: "Associated with a WebDriver session are various timeout definitions that control behavior for script injection, document navigation, and element retrieval.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/timeouts",
+          folder: "en-us/web/webdriver/reference/classic/timeouts",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Timeouts",
@@ -535718,17 +535917,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors",
     links: {},
     data: {
       metadata: {
-        title: "WebDriver errors",
+        title: "WebDriver classic errors",
         pageType: "landing-page",
-        summary: "Any WebDriver command that is sent to might plausibly receive an error response. An error is represented by an HTTP response with an HTTP status code in the 4xx or 5xx range, and a JSON payload holding details of the error.",
-        popularity: 0.00009538533262955391,
+        summary: "Any WebDriver classic command that is sent might plausibly receive an error response. An error is represented by an HTTP response with an HTTP status code in the 4xx or 5xx range, and a JSON payload holding details of the error.",
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors",
+          folder: "en-us/web/webdriver/reference/classic/errors",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Errors",
@@ -535754,7 +535953,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InsecureCertificate",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InsecureCertificate",
     links: {},
     data: {
       metadata: {
@@ -535764,7 +535963,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/insecurecertificate",
+          folder: "en-us/web/webdriver/reference/classic/errors/insecurecertificate",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Insecure certificate",
@@ -535782,7 +535981,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSelector",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidSelector",
     links: {},
     data: {
       metadata: {
@@ -535792,7 +535991,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/invalidselector",
+          folder: "en-us/web/webdriver/reference/classic/errors/invalidselector",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Invalid selector",
@@ -535807,17 +536006,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownError",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownError",
     links: {},
     data: {
       metadata: {
         title: "Unknown error",
         pageType: "webdriver-error",
         summary: "The unknown element error is a WebDriver error that occurs when an unspecified error occurs in the driver whilst processing a command.",
-        popularity: 0.00010985389432055368,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/unknownerror",
+          folder: "en-us/web/webdriver/reference/classic/errors/unknownerror",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Unknown error",
@@ -535832,7 +536031,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/JavaScriptError",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/JavaScriptError",
     links: {},
     data: {
       metadata: {
@@ -535842,7 +536041,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/javascripterror",
+          folder: "en-us/web/webdriver/reference/classic/errors/javascripterror",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "JavaScript error",
@@ -535858,17 +536057,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSessionID",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidSessionID",
     links: {},
     data: {
       metadata: {
         title: "Invalid session ID",
         pageType: "webdriver-error",
         summary: "The invalid session ID error is a WebDriver error that occurs when the server does not recognize the unique session identifier. This happens if the session has been deleted or if the session ID is invalid.",
-        popularity: 0.0001398627630129976,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/invalidsessionid",
+          folder: "en-us/web/webdriver/reference/classic/errors/invalidsessionid",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Invalid session ID",
@@ -535886,7 +536085,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidArgument",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidArgument",
     links: {},
     data: {
       metadata: {
@@ -535896,7 +536095,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/invalidargument",
+          folder: "en-us/web/webdriver/reference/classic/errors/invalidargument",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Invalid argument",
@@ -535912,7 +536111,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownMethod",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownMethod",
     links: {},
     data: {
       metadata: {
@@ -535922,7 +536121,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/unknownmethod",
+          folder: "en-us/web/webdriver/reference/classic/errors/unknownmethod",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Unknown method",
@@ -535938,7 +536137,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeout",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/ScriptTimeout",
     links: {},
     data: {
       metadata: {
@@ -535948,7 +536147,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/scripttimeout",
+          folder: "en-us/web/webdriver/reference/classic/errors/scripttimeout",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Script timeout",
@@ -535964,17 +536163,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidCookieDomain",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidCookieDomain",
     links: {},
     data: {
       metadata: {
         title: "Invalid cookie domain",
         pageType: "webdriver-error",
         summary: "The invalid cookie domain error is a WebDriver error that occurs when an illegal attempt was made to set a cookie under a different domain than that of the current document.",
-        popularity: 0.00013718339973688653,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/invalidcookiedomain",
+          folder: "en-us/web/webdriver/reference/classic/errors/invalidcookiedomain",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Invalid cookie domain",
@@ -535992,17 +536191,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/StaleElementReference",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/StaleElementReference",
     links: {},
     data: {
       metadata: {
         title: "Stale element reference",
         pageType: "webdriver-error",
         summary: "The stale element reference error is a WebDriver error that occurs because the referenced web element is no longer attached to the DOM.",
-        popularity: 0.00009324184200866506,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/staleelementreference",
+          folder: "en-us/web/webdriver/reference/classic/errors/staleelementreference",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Stale element reference",
@@ -536020,7 +536219,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownCommand",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownCommand",
     links: {},
     data: {
       metadata: {
@@ -536030,7 +536229,7 @@ Some are aimed at complete beginners, while others present complex features to b
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/errors/unknowncommand",
+          folder: "en-us/web/webdriver/reference/classic/errors/unknowncommand",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Unknown command",
@@ -536046,17 +536245,17 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities",
     links: {},
     data: {
       metadata: {
-        title: "WebDriver capabilities",
+        title: "WebDriver classic capabilities",
         pageType: "landing-page",
-        summary: "WebDriver capabilities are used to communicate the features supported by a session. A client may also use capabilities to define which features it requires the driver to satisfy when creating a new session.",
-        popularity: 0.00018273257543077463,
+        summary: "WebDriver classic capabilities are used to communicate the features supported by a session. A client may also use capabilities to define which features it requires the driver to satisfy when creating a new session.",
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/capabilities",
+          folder: "en-us/web/webdriver/reference/classic/capabilities",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Capabilities",
@@ -536078,7 +536277,7 @@ Some are aimed at complete beginners, while others present complex features to b
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/firefoxOptions",
     links: {},
     data: {
       metadata: {
@@ -536089,10 +536288,10 @@ capabilities specific to Firefox. It is used to control the
 behavior of Firefox and can be used as a member of
 alwaysMatch or as a member of one of the
 firstMatch entries.`,
-        popularity: 0.0003204518478228834,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/capabilities/firefoxoptions",
+          folder: "en-us/web/webdriver/reference/classic/capabilities/firefoxoptions",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "firefoxOptions",
@@ -536133,17 +536332,17 @@ firstMatch entries.`,
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/acceptInsecureCerts",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/acceptInsecureCerts",
     links: {},
     data: {
       metadata: {
         title: "acceptInsecureCerts",
         pageType: "webdriver-capability",
         summary: "The acceptInsecureCerts capability communicates whether expired or invalid TLS certificates are checked when navigating. When the capability is false, an insecure certificate error will be returned as navigation encounters domains with certificate problems. Otherwise, self-signed or otherwise invalid certificates will be implicitly trusted by the browser on navigation. The capability has effect for the lifetime of the session.",
-        popularity: 0.0000948494599743317,
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/capabilities/acceptinsecurecerts",
+          folder: "en-us/web/webdriver/reference/classic/capabilities/acceptinsecurecerts",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "acceptInsecureCerts",
@@ -536159,7 +536358,7 @@ firstMatch entries.`,
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/webSocketUrl",
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/webSocketUrl",
     links: {},
     data: {
       metadata: {
@@ -536170,7 +536369,7 @@ When the New Session request has the webSocketUrl capability set to true, and th
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/capabilities/websocketurl",
+          folder: "en-us/web/webdriver/reference/classic/capabilities/websocketurl",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "webSocketUrl",
@@ -541178,6 +541377,22 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
@@ -541186,23 +541401,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         }
       ],
@@ -568688,6 +568887,7 @@ Firefox 148 is the current Beta version of Firefox and ships on February 24, 202
         "https://whattrainisitnow.com/release/?version=148",
         "https://bugzil.la/543435",
         "https://bugzil.la/2008537",
+        "https://bugzil.la/1999100",
         "https://bugzil.la/2003333",
         "https://github.com/tc39/proposal-regexp-legacy-features",
         "https://bugzil.la/1306461",
