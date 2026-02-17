@@ -3318,6 +3318,7 @@ You'll find out what the tutorial covers, how to get started, how to ask for hel
         "https://expressjs.com/en/5x/api.html#res.json",
         "https://expressjs.com/en/5x/api.html#res.sendFile",
         "https://expressjs.com/en/5x/api.html#res.render",
+        "https://www.npmjs.com/package/method-override",
         "https://expressjs.com/en/starter/basic-routing.html",
         "https://expressjs.com/en/guide/routing.html",
         "https://expressjs.com/en/guide/error-handling.html",
@@ -40299,6 +40300,7 @@ Firefox 148 is the current Beta version of Firefox and ships on February 24, 202
         "https://bugzil.la/543435",
         "https://bugzil.la/2008537",
         "https://bugzil.la/1999100",
+        "https://bugzil.la/1982941",
         "https://bugzil.la/2003333",
         "https://github.com/tc39/proposal-regexp-legacy-features",
         "https://bugzil.la/1306461",
@@ -46250,9 +46252,6 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1808410",
         "https://bugzil.la/1886134",
         "https://bugzil.la/1855763",
-        "https://bugzil.la/1823463",
-        "https://bugzil.la/1884424",
-        "https://bugzil.la/1884425",
         "https://bugzil.la/1921501",
         "https://bugzil.la/1891446",
         "https://bugzil.la/1889561",
@@ -46326,10 +46325,8 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.scroll-driven-animations.enabled_3",
         "vendor-prefixed_transform_properties",
         "layout.css.prefixes.transforms",
-        "shape_function",
-        "layout.css.basic-shape-shape.enabled",
         "relative_control_points_in_css_shape_curve_commands",
-        "layout.css.basic-shape-shape.enabled_2",
+        "layout.css.basic-shape-shape.enabled",
         "symmetrical_letter-spacing",
         "layout.css.letter-spacing.model",
         "calc_color_channel_support_in_relative_colors",
@@ -99984,6 +99981,42 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
         },
@@ -99992,31 +100025,27 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -100028,23 +100057,19 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -100056,35 +100081,15 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
@@ -100092,27 +100097,19 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         }
       ],
@@ -154588,7 +154585,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -154596,19 +154593,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -154616,12 +154601,12 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
@@ -154630,6 +154615,18 @@ When a containment context is given a name, it can be specifically targeted usin
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -155298,6 +155295,8 @@ When a containment context is given a name, it can be specifically targeted usin
         "values",
         "normal",
         "feature-tag-value",
+        "tag_name",
+        "optional_value",
         "formal_definition",
         "formal_syntax",
         "font-feature-settings",
@@ -158267,7 +158266,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
       metadata: {
         title: "Shorthand properties",
         pageType: "guide",
-        summary: "Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) style sheets, saving time and energy.",
+        summary: "Shorthand properties are CSS properties that let you set the values of multiple other CSS properties in one declaration. Using a shorthand property, you can write more concise (and often more readable) style sheets, saving time and energy.",
         popularity: 0.001555102445454862,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -228885,6 +228884,529 @@ intended destination medium for style information.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap"
+        ],
+        summary: "The CSSFontFeatureValuesMap interface of the CSS Object Model (CSSOM) represents an iterable and read-only set of the CSSFontFeatureValuesRule properties, such as swash, annotation, ornaments, etc.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "CSSFontFeatureValuesMap",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_property",
+        "cssfontfeaturevaluesmap.size",
+        "instance_method",
+        "cssfontfeaturevaluesmap.clear",
+        "cssfontfeaturevaluesmap.delete",
+        "cssfontfeaturevaluesmap.entries",
+        "cssfontfeaturevaluesmap.foreach",
+        "cssfontfeaturevaluesmap.get",
+        "cssfontfeaturevaluesmap.has",
+        "cssfontfeaturevaluesmap.keys",
+        "cssfontfeaturevaluesmap.set",
+        "cssfontfeaturevaluesmap.values",
+        "cssfontfeaturevaluesmap.symbol.iterator",
+        "examples",
+        "logging_user-defined_names",
+        "css",
+        "javascript",
+        "result",
+        "frame_logging_user-defined_names",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/Symbol.iterator",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: [Symbol.iterator]() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.@@iterator"
+        ],
+        summary: "The [Symbol.iterator]() method of CSSFontFeatureValuesMap interface implements the iterable protocol and allows built-in iterators to be consumed by most syntaxes expecting iterables, such as the spread syntax and for...of loops. It returns the value of this, which is the iterator object itself.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/symbol.iterator",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "[Symbol.iterator]()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/has",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: has() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.has"
+        ],
+        summary: "The has() method of the CSSFontFeatureValuesMap interface returns a boolean indicating whether an entry with the specified key exists in this CSSFontFeatureValuesMap or not.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/has",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "has()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "key",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/keys",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: keys() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.keys"
+        ],
+        summary: "The keys() method of CSSFontFeatureValuesMap instances returns a new map iterator object that contains the [key, value] pairs for each declaration in this CSSFontFeatureValuesMap in insertion order.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/keys",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "keys()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/get",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: get() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.get"
+        ],
+        summary: "The get() method of the CSSFontFeatureValuesMap interface returns value corresponding to the key in this CSSFontFeatureValuesMap, or undefined if there is none.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/get",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "get()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "key",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/values",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: values() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.values"
+        ],
+        summary: "The values() method of CSSFontFeatureValuesMap instances returns a new map iterator object that contains the [key, value] pairs for each declaration in this CSSFontFeatureValuesMap in insertion order.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/values",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "values()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/set",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: set() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.set"
+        ],
+        summary: "The set() method of CSSFontFeatureValuesMap instances adds a new entry with a specified key and value to this CSSFontFeatureValuesMap, or updates an existing entry if the key already exists.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/set",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "set()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesmap-set",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "key",
+        "value",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/clear",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: clear() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.clear"
+        ],
+        summary: "The clear() method of the CSSFontFeatureValuesMap interface removes all declarations in the CSSFontFeatureValuesMap.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/clear",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "clear()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/entries",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: entries() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.entries"
+        ],
+        summary: "The entries() method of CSSFontFeatureValuesMap instances returns a new map iterator object that contains the [key, value] pairs for each declaration in this CSSFontFeatureValuesMap in insertion order.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/entries",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "entries()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/forEach",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: forEach() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.forEach"
+        ],
+        summary: "The forEach() method of CSSFontFeatureValuesMap instances executes a provided function once per each key/value pair in this map, in insertion order.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/foreach",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "forEach()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "callbackfn",
+        "value",
+        "key",
+        "map",
+        "thisarg",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/size",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: size property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.size"
+        ],
+        summary: "The size read-only property of the CSSFontFeatureValuesMap interface returns a positive integer containing the size of the CSSFontFeatureValuesMap object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/size",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "size",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesMap/delete",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesMap: delete() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CSSFontFeatureValuesMap.delete"
+        ],
+        summary: "The delete() method of the CSSFontFeatureValuesMap interface removes the CSS declaration with the given property in the CSSFontFeatureValuesMap.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesmap/delete",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "delete()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "property",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/VisualViewport",
     links: {},
     data: {
@@ -257191,7 +257713,7 @@ GPUCompilationInfo interface is an array of GPUCompilationMessage objects, each 
         browserCompat: [
           "api.CSSFontFeatureValuesRule"
         ],
-        summary: "The CSSFontFeatureValuesRule interface represents an @font-feature-values at-rule, letting developers assign for each font face a common name to specify features indices to be used in font-variant-alternates.",
+        summary: "The CSSFontFeatureValuesRule interface represents an @font-feature-values at-rule. The values of its instance properties can be accessed with the CSSFontFeatureValuesMapinterface.",
         popularity: 0.0003177724845467723,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -257211,11 +257733,16 @@ GPUCompilationInfo interface is an array of GPUCompilationMessage objects, each 
       imgs: [],
       ids: [
         "instance_properties",
+        "cssfontfeaturevaluesrule.annotation",
+        "cssfontfeaturevaluesrule.charactervariant",
         "cssfontfeaturevaluesrule.fontfamily",
+        "cssfontfeaturevaluesrule.ornaments",
+        "cssfontfeaturevaluesrule.styleset",
+        "cssfontfeaturevaluesrule.stylistic",
+        "cssfontfeaturevaluesrule.swash",
         "instance_methods",
         "examples",
         "read_font_family",
-        "html",
         "css",
         "javascript",
         "frame_read_font_family",
@@ -257235,7 +257762,7 @@ GPUCompilationInfo interface is an array of GPUCompilationMessage objects, each 
         browserCompat: [
           "api.CSSFontFeatureValuesRule.fontFamily"
         ],
-        summary: "The fontFamily property of the CSSConditionRule interface represents the name of the font family it applies to.",
+        summary: "The fontFamily property of the CSSFontFeatureValuesRule interface represents the name of the font family it applies to.",
         popularity: 0.00028401250726777286,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -257262,6 +257789,246 @@ GPUCompilationInfo interface is an array of GPUCompilationMessage objects, each 
         "frame_read_font_family",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/styleset",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: styleset property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.styleset"
+        ],
+        summary: "The read-only styleset property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the user-defined-ident and feature index for a variable font which supports styleset().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/styleset",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "styleset",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-styleset",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "example",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/stylistic",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: stylistic property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.stylistic"
+        ],
+        summary: "The read-only stylistic property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the user-defined-ident and feature index for a variable font which supports stylistic().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/stylistic",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "stylistic",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-stylistic",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "example",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/swash",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: swash property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.swash"
+        ],
+        summary: "The read-only swash property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the developer-provided name and feature index for a variable font which supports swash().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/swash",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "swash",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-swash",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "example",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/characterVariant",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: characterVariant property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.characterVariant"
+        ],
+        summary: "The read-only characterVariant property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the user-defined-ident and feature index for a variable font which supports characterVariant().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/charactervariant",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "characterVariant",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-charactervariant",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/ornaments",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: ornaments property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.ornaments"
+        ],
+        summary: "The read-only ornaments property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the user-defined-ident and feature index for a variable font which supports ornaments().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/ornaments",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ornaments",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-ornaments",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "example",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSFontFeatureValuesRule/annotation",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFeatureValuesRule: annotation property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSFontFeatureValuesRule.annotation"
+        ],
+        summary: "The read-only annotation property of the CSSFontFeatureValuesRule interface contains a CSSFontFeatureValuesMap object representing the user-defined-ident and feature index for a variable font which supports annotation().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfeaturevaluesrule/annotation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "annotation",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesrule-annotation",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -470208,7 +470975,7 @@ on history navigation.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
@@ -470220,7 +470987,7 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -474691,7 +475458,7 @@ Bluetooth device for a specified BluetoothServiceUUID.`,
         browserCompat: [
           "api.SharedWorker"
         ],
-        summary: "The SharedWorker interface represents a specific kind of worker that can be accessed from several browsing contexts, such as several windows, iframes or even workers. They implement an interface different than dedicated workers and have a different global scope, SharedWorkerGlobalScope.",
+        summary: "The SharedWorker interface represents a specific kind of worker that can be accessed from several browsing contexts, such as multiple windows or iframes. Shared workers implement a different interface than dedicated workers, have a different global scope (SharedWorkerGlobalScope), and their constructor is not exposed in DedicatedWorkerGlobalScope, so they cannot be instantiated from dedicated workers.",
         popularity: 0.001310208642018311,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -520642,6 +521409,10 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
@@ -520650,15 +521421,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
@@ -527019,19 +527786,11 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527039,27 +527798,19 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527075,79 +527826,19 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527159,11 +527850,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527171,31 +527858,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527203,15 +527866,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -527219,7 +527874,119 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -531443,7 +532210,23 @@ be different.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531455,23 +532238,7 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531479,11 +532246,11 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -584754,11 +585521,15 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
@@ -584766,19 +585537,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
