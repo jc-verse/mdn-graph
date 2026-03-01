@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-yjjjezk6.js";
+} from "./chunk-9x9a73kz.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://indiegamesplus.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             techniques: {
               children: {
@@ -2386,6 +2403,19 @@ body {
                     }
                   ]
                 },
+                design_for_developers: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://designforweb.org/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
+                },
                 frameworks_libraries: {
                   children: {
                     angular_building: {
@@ -2614,6 +2644,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -2628,21 +2665,21 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
+                            "https://guides.emberjs.com/release/routing/controllers/",
                             "The operation timed out."
                           ]
                         }
@@ -2655,13 +2692,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2672,6 +2702,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/automated-testing/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2682,34 +2719,21 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    react_getting_started: {
+                    main_features: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "https://guides.emberjs.com/release/services/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4766,19 +4790,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -6715,22 +6726,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -6742,21 +6739,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://emberjs.com/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://mochajs.org/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
                             "The operation timed out."
                           ]
                         }
@@ -6769,8 +6759,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12299,6 +12289,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12347,16 +12350,16 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    express_nodejs: {
+                    first_steps: {
                       children: {
-                        development_environment: {
+                        web_frameworks: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://eslint.org/",
+                                "https://itemsapi.com/",
                                 "The operation timed out."
                               ]
                             }
@@ -12902,6 +12905,19 @@ body {
                         }
                       ]
                     },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -12909,8 +12925,15 @@ body {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mochajs.org/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -12928,10 +12951,10 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://www.firefox.com/en-US/browsers/mobile/android/",
-                            "https://www.firefox.com/en-US/download/android/"
+                            "https://www.netlify.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12940,6 +12963,19 @@ body {
                 },
                 your_first_website: {
                   children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13166,19 +13202,6 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://en.wikipedia.org/wiki/Text_(Chrome_app)",
-                            404
-                          ]
                         }
                       ]
                     }
@@ -14645,6 +14668,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "20": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -14654,18 +14690,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/reporting-1/#generate-test-report-command"
                           ]
                         }
                       ]
@@ -15384,39 +15408,6 @@ body {
 api.MessagePort`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                clipboard: {
-                  children: {
-                    clipboardchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Clipboard/clipboardchange_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/Clipboard/clipboardchange_event
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  margin: 0 5px;
-}
-#output {
-  font-family: "Helvetica", "Arial";
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -18172,6 +18163,23 @@ button:interest-source {
                     }
                   }
                 },
+                private_state_token_api: {
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Private_State_Token_API/Using",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://boringssl.googlesource.com/boringssl/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -18490,19 +18498,6 @@ button:interest-source {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
-                      ]
-                    }
-                  ]
-                },
-                streams_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Streams_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://fetch-progress.anthum.com/",
-                        "certificate has expired"
                       ]
                     }
                   ]
@@ -19083,19 +19078,6 @@ api.Window.sessionStorage`,
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
-                              ]
-                            }
-                          ]
-                        },
-                        setup: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Setup",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://peerjs.com/docs/",
-                                "https://peerjs.com/client/getting-started/"
                               ]
                             }
                           ]
@@ -33220,70 +33202,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                             {
                               message: "CSS code issue",
                               data: [
-                                "color-hex-length",
-                                'Expected "#abba" to be "#aabbbbaa" (color-hex-length)',
-                                "  --myColor: #abba;",
-                                "8:14 - 8:19",
-                                `/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties
-[color-hex-length] Expected "#abba" to be "#aabbbbaa" (color-hex-length)
-~~~
-:root {
-  --myColor: #bada55;
-}
-main {
-  --myColor: #cacaca;
-}
-main:hover {
-  --myColor: #abba;
-}
-@media (width < 750px) {
-  main {
-    --myColor: #abba;
-  }
-}
-
-.circles {
-  --myColor: 45deg;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#abba" to be "#aabbbbaa" (color-hex-length)',
-                                "    --myColor: #abba;",
-                                "12:16 - 12:21",
-                                `/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties
-[color-hex-length] Expected "#abba" to be "#aabbbbaa" (color-hex-length)
-~~~
-:root {
-  --myColor: #bada55;
-}
-main {
-  --myColor: #cacaca;
-}
-main:hover {
-  --myColor: #abba;
-}
-@media (width < 750px) {
-  main {
-    --myColor: #abba;
-  }
-}
-
-.circles {
-  --myColor: 45deg;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "declaration-property-value-no-unknown",
                                 'Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)',
                                 "  --item-size: 1000px;",
@@ -33543,6 +33461,23 @@ div::after {
                           ]
                         }
                       ]
+                    },
+                    shapes: {
+                      children: {
+                        "using_shape-outside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Shapes/Using_shape-outside",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://bennettfeely.com/clippy/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     transforms: {
                       children: {
@@ -35411,7 +35346,7 @@ p {
 ~~~
 @font-face {
   font-family: "MyFont";
-  src: url("myfont.woff2") format("woff2");
+  src: url("my-font.woff2") format("woff2");
   font-stretch: condensed; /* for browsers that don't support font-width */
   font-width: condensed;
 }
@@ -64703,6 +64638,19 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -64760,6 +64708,19 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -65351,6 +65312,13 @@ html.elements.input.switch`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox#switch",
                                 []
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -65939,13 +65907,6 @@ let z = 1;
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Continue%7D",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -66015,6 +65976,13 @@ let z = 1;
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -66025,22 +65993,8 @@ let z = 1;
                             {
                               message: "Broken external link",
                               data: [
-                                "https://via-la.com/licensing-programs/mpeg-4-visual/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/mpeg-2/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -67413,295 +67367,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Try it should not have content",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                table: {
-                  children: {
-                    fill: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Table/fill",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "  output: function (elem, val) {\n    elem.textContent += `${val} `;\n  },",
-                            "4:3 - 6:4",
-                            `/en-US/docs/WebAssembly/Reference/Table/fill
-[object-shorthand] Expected method shorthand.
-~~~
-const outputElem = document.querySelector("p");
-
-const obj = {
-  output: function (elem, val) {
-    elem.textContent += \`\${val} \`;
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), {
-  obj,
-}).then((result) => {
-  value = result.instance.exports.run(outputElem);
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    get: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Table/get",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "    output: function (elem, val) {\n      elem.textContent += `${val} `;\n    },",
-                            "11:5 - 13:6",
-                            `/en-US/docs/WebAssembly/Reference/Table/get
-[object-shorthand] Expected method shorthand.
-~~~
-const outputElem = document.querySelector("p");
-
-let table = new WebAssembly.Table({ element: "externref", initial: 0 });
-
-table.grow(2);
-table.set(0, "hello");
-table.set(1, "world");
-
-let imports = {
-  funcs: {
-    output: function (elem, val) {
-      elem.textContent += \`\${val} \`;
-    },
-  },
-  strings: {
-    table,
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), imports).then(
-  (result) => {
-    result.instance.exports.run(outputElem);
-  },
-);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    grow: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Table/grow",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "  output: function (elem, val) {\n    elem.textContent += `${val} `;\n  },",
-                            "4:3 - 6:4",
-                            `/en-US/docs/WebAssembly/Reference/Table/grow
-[object-shorthand] Expected method shorthand.
-~~~
-const outputElem = document.querySelector("p");
-
-const obj = {
-  output: function (elem, val) {
-    elem.textContent += \`\${val} \`;
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), {
-  obj,
-}).then((result) => {
-  value = result.instance.exports.run(outputElem);
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    set: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Table/set",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/WebAssembly/Reference/Table/set"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "  output: function (elem, val) {\n    elem.textContent += `${val} `;\n  },",
-                            "4:3 - 6:4",
-                            `/en-US/docs/WebAssembly/Reference/Table/set
-[object-shorthand] Expected method shorthand.
-~~~
-const outputElem = document.querySelector("p");
-
-const obj = {
-  output: function (elem, val) {
-    elem.textContent += \`\${val} \`;
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), {
-  obj,
-}).then((result) => {
-  value = result.instance.exports.run(outputElem);
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Table/size",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "  output: function (elem, val) {\n    elem.textContent += `${val} `;\n  },",
-                            "4:3 - 6:4",
-                            `/en-US/docs/WebAssembly/Reference/Table/size
-[object-shorthand] Expected method shorthand.
-~~~
-const outputElem = document.querySelector("p");
-
-const obj = {
-  output: function (elem, val) {
-    elem.textContent += \`\${val} \`;
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), {
-  obj,
-}).then((result) => {
-  value = result.instance.exports.run(outputElem);
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                types: {
-                  children: {
-                    externref: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Types/externref",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  double: function (num) {
-    return num * 2;
-  },`,
-                            "3:3 - 5:4",
-                            `/en-US/docs/WebAssembly/Reference/Types/externref
-[object-shorthand] Expected method shorthand.
-~~~
-// Define double() function inside obj
-const obj = {
-  double: function (num) {
-    return num * 2;
-  },
-};
-
-// Compile and instantiate Wasm module, importing console and obj namespaces
-// Call exported logDouble() function, passing it the number 8
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), {
-  console,
-  obj,
-}).then((result) => result.instance.exports.logDouble(8));
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  double: function (num) {
-    return num * 2;
-  },`,
-                            "2:3 - 4:4",
-                            `/en-US/docs/WebAssembly/Reference/Types/externref
-[object-shorthand] Expected method shorthand.
-~~~
-const obj = {
-  double: function (num) {
-    return num * 2;
-  },
-  output: function (elem, val) {
-    elem.textContent = val;
-  },
-};
-
-const output = document.querySelector("p");
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { obj }).then(
-  (result) => {
-    result.instance.exports.outputDouble(8, output);
-  },
-);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  output: function (elem, val) {
-    elem.textContent = val;
-  },`,
-                            "5:3 - 7:4",
-                            `/en-US/docs/WebAssembly/Reference/Types/externref
-[object-shorthand] Expected method shorthand.
-~~~
-const obj = {
-  double: function (num) {
-    return num * 2;
-  },
-  output: function (elem, val) {
-    elem.textContent = val;
-  },
-};
-
-const output = document.querySelector("p");
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { obj }).then(
-  (result) => {
-    result.instance.exports.outputDouble(8, output);
-  },
-);
-~~~
-`
-                          ]
                         }
                       ]
                     }
