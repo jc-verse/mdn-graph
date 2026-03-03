@@ -100581,19 +100581,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -100601,55 +100589,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -100661,7 +100601,75 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
@@ -100669,7 +100677,15 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
@@ -100681,31 +100697,15 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         }
       ],
@@ -155419,23 +155419,23 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -155451,15 +155451,15 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -181292,50 +181292,24 @@ This page lists web platform features available only after user activation.`,
       imgs: [],
       ids: [
         "webdriver_bidi_reference",
+        "webdriver_classic_capabilities",
+        "webdriver_classic_errors",
         "webdriver_classic_reference"
       ]
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic",
-    links: {},
-    data: {
-      metadata: {
-        title: "WebDriver classic reference",
-        pageType: "landing-page",
-        summary: `WebDriver classic is the original WebDriver protocol that provides HTTP-based commands for browser automation.
-This reference documents the commands, capabilities, errors, and timeouts available in WebDriver classic.`,
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Classic",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "commands",
-        "capabilities",
-        "errors",
-        "timeouts"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities",
+    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities",
     links: {},
     data: {
       metadata: {
         title: "WebDriver classic capabilities",
         pageType: "landing-page",
         summary: "WebDriver classic capabilities are used to communicate the features supported by a session. A client may also use capabilities to define which features it requires the driver to satisfy when creating a new session.",
-        popularity: 0.0001322010167833643,
+        popularity: 0.00008630739955805132,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/classic/capabilities",
+          folder: "en-us/web/webdriver/reference/capabilities",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "Capabilities",
@@ -181356,7 +181330,7 @@ This reference documents the commands, capabilities, errors, and timeouts availa
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/acceptInsecureCerts",
+    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/acceptInsecureCerts",
     links: {},
     data: {
       metadata: {
@@ -181366,7 +181340,7 @@ This reference documents the commands, capabilities, errors, and timeouts availa
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/classic/capabilities/acceptinsecurecerts",
+          folder: "en-us/web/webdriver/reference/capabilities/acceptinsecurecerts",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "acceptInsecureCerts",
@@ -181381,7 +181355,7 @@ This reference documents the commands, capabilities, errors, and timeouts availa
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/webSocketUrl",
+    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/webSocketUrl",
     links: {},
     data: {
       metadata: {
@@ -181392,7 +181366,7 @@ When the New Session request has the webSocketUrl capability set to true, and th
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/classic/capabilities/websocketurl",
+          folder: "en-us/web/webdriver/reference/capabilities/websocketurl",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "webSocketUrl",
@@ -181410,7 +181384,7 @@ When the New Session request has the webSocketUrl capability set to true, and th
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Capabilities/firefoxOptions",
+    id: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
     links: {},
     data: {
       metadata: {
@@ -181421,10 +181395,10 @@ capabilities specific to Firefox. It is used to control the
 behavior of Firefox and can be used as a member of
 alwaysMatch or as a member of one of the
 firstMatch entries.`,
-        popularity: 0.00016713496422352794,
+        popularity: 0.00014658558337637286,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/web/webdriver/reference/classic/capabilities/firefoxoptions",
+          folder: "en-us/web/webdriver/reference/capabilities/firefoxoptions",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "firefoxOptions",
@@ -181460,6 +181434,34 @@ firstMatch entries.`,
         "example",
         "android_2",
         "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Classic",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebDriver classic reference",
+        pageType: "landing-page",
+        summary: `WebDriver classic is the original WebDriver protocol that provides HTTP-based commands for browser automation.
+This reference documents the commands, capabilities, errors, and timeouts available in WebDriver classic.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/classic",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Classic",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "commands",
+        "capabilities",
+        "errors",
+        "timeouts"
       ]
     }
   },
@@ -182200,322 +182202,6 @@ The session identifier returned in the response is required for all subsequent c
     }
   },
   {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors",
-    links: {},
-    data: {
-      metadata: {
-        title: "WebDriver classic errors",
-        pageType: "landing-page",
-        summary: "Any WebDriver classic command that is sent might plausibly receive an error response. An error is represented by an HTTP response with an HTTP status code in the 4xx or 5xx range, and a JSON payload holding details of the error.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Errors",
-        status: []
-      },
-      links: [
-        "https://www.selenium.dev/selenium/docs/api/py/selenium_common/selenium.common.exceptions.html",
-        "https://www.selenium.dev/selenium/docs/api/javascript/WebDriverError.html",
-        "https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriverException.html"
-      ],
-      imgs: [],
-      ids: [
-        "payload",
-        "error",
-        "message",
-        "stacktrace",
-        "data",
-        "example",
-        "table_of_errors",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InsecureCertificate",
-    links: {},
-    data: {
-      metadata: {
-        title: "Insecure certificate",
-        pageType: "webdriver-error",
-        summary: "The insecure certificate error is a WebDriver error that occurs when the remotely controlled browser hits a certificate warning of any kind. This is usually the result of navigating to a website with an expired or invalid TLS certificate. Examples of invalid certificates include self-signed, revoked, and cryptographically insecure certificates.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/insecurecertificate",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Insecure certificate",
-        status: []
-      },
-      links: [
-        "https://badssl.com/"
-      ],
-      imgs: [],
-      ids: [
-        "example",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidArgument",
-    links: {},
-    data: {
-      metadata: {
-        title: "Invalid argument",
-        pageType: "webdriver-error",
-        summary: "The invalid argument error is a WebDriver error that occurs when the arguments passed to a command are either invalid or malformed.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/invalidargument",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Invalid argument",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "example",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidSessionID",
-    links: {},
-    data: {
-      metadata: {
-        title: "Invalid session ID",
-        pageType: "webdriver-error",
-        summary: "The invalid session ID error is a WebDriver error that occurs when the server does not recognize the unique session identifier. This happens if the session has been deleted or if the session ID is invalid.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/invalidsessionid",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Invalid session ID",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "example",
-        "explicit_session_deletion",
-        "implicit_session_deletion",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownCommand",
-    links: {},
-    data: {
-      metadata: {
-        title: "Unknown command",
-        pageType: "webdriver-error",
-        summary: "The unknown command error is a WebDriver error that occurs when the driver does not recognize the command/HTTP endpoint.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/unknowncommand",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Unknown command",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "examples",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/ScriptTimeout",
-    links: {},
-    data: {
-      metadata: {
-        title: "Script timeout",
-        pageType: "webdriver-error",
-        summary: "The script timeout error is a WebDriver error that occurs when a script the user has provided did not complete before the session's script timeout duration expired.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/scripttimeout",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Script timeout",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "example",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownError",
-    links: {},
-    data: {
-      metadata: {
-        title: "Unknown error",
-        pageType: "webdriver-error",
-        summary: "The unknown element error is a WebDriver error that occurs when an unspecified error occurs in the driver whilst processing a command.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/unknownerror",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Unknown error",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/StaleElementReference",
-    links: {},
-    data: {
-      metadata: {
-        title: "Stale element reference",
-        pageType: "webdriver-error",
-        summary: "The stale element reference error is a WebDriver error that occurs because the referenced web element is no longer attached to the DOM.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/staleelementreference",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Stale element reference",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "examples",
-        "document_navigation",
-        "node_removal",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/JavaScriptError",
-    links: {},
-    data: {
-      metadata: {
-        title: "JavaScript error",
-        pageType: "webdriver-error",
-        summary: "The JavaScript error is a WebDriver error that occurs when a script the supplied by the user fails to execute.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/javascripterror",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "JavaScript error",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "example",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidSelector",
-    links: {},
-    data: {
-      metadata: {
-        title: "Invalid selector",
-        pageType: "webdriver-error",
-        summary: "The invalid selector error is a WebDriver error that occurs when an element retrieval command is used with an unknown web element selector strategy.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/invalidselector",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Invalid selector",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/InvalidCookieDomain",
-    links: {},
-    data: {
-      metadata: {
-        title: "Invalid cookie domain",
-        pageType: "webdriver-error",
-        summary: "The invalid cookie domain error is a WebDriver error that occurs when an illegal attempt was made to set a cookie under a different domain than that of the current document.",
-        popularity: 0.00009384217253534152,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/invalidcookiedomain",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Invalid cookie domain",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "example",
-        "other_domains",
-        "cookie-averse_documents",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/WebDriver/Reference/Classic/Errors/UnknownMethod",
-    links: {},
-    data: {
-      metadata: {
-        title: "Unknown method",
-        pageType: "webdriver-error",
-        summary: "The unknown method error is a WebDriver error that occurs when the driver does not recognize the HTTP request method used for the endpoint.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/webdriver/reference/classic/errors/unknownmethod",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Unknown method",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "examples",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/Web/WebDriver/Reference/BiDi",
     links: {},
     data: {
@@ -182570,6 +182256,322 @@ Each module represents a collection of related commands and events used in speci
       ids: [
         "list_of_modules",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebDriver classic errors",
+        pageType: "landing-page",
+        summary: "Any WebDriver classic command that is sent might plausibly receive an error response. An error is represented by an HTTP response with an HTTP status code in the 4xx or 5xx range, and a JSON payload holding details of the error.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Errors",
+        status: []
+      },
+      links: [
+        "https://www.selenium.dev/selenium/docs/api/py/selenium_common/selenium.common.exceptions.html",
+        "https://www.selenium.dev/selenium/docs/api/javascript/WebDriverError.html",
+        "https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriverException.html"
+      ],
+      imgs: [],
+      ids: [
+        "payload",
+        "error",
+        "message",
+        "stacktrace",
+        "data",
+        "example",
+        "table_of_errors",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InsecureCertificate",
+    links: {},
+    data: {
+      metadata: {
+        title: "Insecure certificate",
+        pageType: "webdriver-error",
+        summary: "The insecure certificate error is a WebDriver error that occurs when the remotely controlled browser hits a certificate warning of any kind. This is usually the result of navigating to a website with an expired or invalid TLS certificate. Examples of invalid certificates include self-signed, revoked, and cryptographically insecure certificates.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/insecurecertificate",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Insecure certificate",
+        status: []
+      },
+      links: [
+        "https://badssl.com/"
+      ],
+      imgs: [],
+      ids: [
+        "example",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidArgument",
+    links: {},
+    data: {
+      metadata: {
+        title: "Invalid argument",
+        pageType: "webdriver-error",
+        summary: "The invalid argument error is a WebDriver error that occurs when the arguments passed to a command are either invalid or malformed.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/invalidargument",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Invalid argument",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "example",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSessionID",
+    links: {},
+    data: {
+      metadata: {
+        title: "Invalid session ID",
+        pageType: "webdriver-error",
+        summary: "The invalid session ID error is a WebDriver error that occurs when the server does not recognize the unique session identifier. This happens if the session has been deleted or if the session ID is invalid.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/invalidsessionid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Invalid session ID",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "example",
+        "explicit_session_deletion",
+        "implicit_session_deletion",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownCommand",
+    links: {},
+    data: {
+      metadata: {
+        title: "Unknown command",
+        pageType: "webdriver-error",
+        summary: "The unknown command error is a WebDriver error that occurs when the driver does not recognize the command/HTTP endpoint.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/unknowncommand",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Unknown command",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "examples",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeout",
+    links: {},
+    data: {
+      metadata: {
+        title: "Script timeout",
+        pageType: "webdriver-error",
+        summary: "The script timeout error is a WebDriver error that occurs when a script the user has provided did not complete before the session's script timeout duration expired.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/scripttimeout",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Script timeout",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "example",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownError",
+    links: {},
+    data: {
+      metadata: {
+        title: "Unknown error",
+        pageType: "webdriver-error",
+        summary: "The unknown element error is a WebDriver error that occurs when an unspecified error occurs in the driver whilst processing a command.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/unknownerror",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Unknown error",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/StaleElementReference",
+    links: {},
+    data: {
+      metadata: {
+        title: "Stale element reference",
+        pageType: "webdriver-error",
+        summary: "The stale element reference error is a WebDriver error that occurs because the referenced web element is no longer attached to the DOM.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/staleelementreference",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Stale element reference",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "examples",
+        "document_navigation",
+        "node_removal",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/JavaScriptError",
+    links: {},
+    data: {
+      metadata: {
+        title: "JavaScript error",
+        pageType: "webdriver-error",
+        summary: "The JavaScript error is a WebDriver error that occurs when a script the supplied by the user fails to execute.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/javascripterror",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "JavaScript error",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "example",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSelector",
+    links: {},
+    data: {
+      metadata: {
+        title: "Invalid selector",
+        pageType: "webdriver-error",
+        summary: "The invalid selector error is a WebDriver error that occurs when an element retrieval command is used with an unknown web element selector strategy.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/invalidselector",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Invalid selector",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidCookieDomain",
+    links: {},
+    data: {
+      metadata: {
+        title: "Invalid cookie domain",
+        pageType: "webdriver-error",
+        summary: "The invalid cookie domain error is a WebDriver error that occurs when an illegal attempt was made to set a cookie under a different domain than that of the current document.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/invalidcookiedomain",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Invalid cookie domain",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "example",
+        "other_domains",
+        "cookie-averse_documents",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/WebDriver/Reference/Errors/UnknownMethod",
+    links: {},
+    data: {
+      metadata: {
+        title: "Unknown method",
+        pageType: "webdriver-error",
+        summary: "The unknown method error is a WebDriver error that occurs when the driver does not recognize the HTTP request method used for the endpoint.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/webdriver/reference/errors/unknownmethod",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Unknown method",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "examples",
+        "see_also"
       ]
     }
   },
@@ -292645,18 +292647,13 @@ the given style sheet.`,
       links: [],
       imgs: [],
       ids: [
-        "attributes",
+        "instance_properties",
         "margin",
         "margin-top",
-        "margintop",
         "margin-right",
-        "marginright",
         "margin-bottom",
-        "marginbottom",
         "margin-left",
-        "marginleft",
         "page-orientation",
-        "pageorientation",
         "size",
         "instance_methods",
         "examples",
@@ -399171,7 +399168,7 @@ The value of the url property will be the final URL obtained after any redirects
         browserCompat: [
           "api.CSSFontFaceRule.style"
         ],
-        summary: "The read-only style property of the CSSFontFaceRule interface contains a CSSStyleDeclaration object representing the descriptors available in the @font-face rule's body.",
+        summary: "The read-only style property of the CSSFontFaceRule interface returns a CSSFontFaceDescriptors object representing the descriptors available in the @font-face rule's body.",
         popularity: 0.0003822184837570844,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -443585,6 +443582,59 @@ For example, it can be used to determine if permission to access a particular fe
     }
   },
   {
+    id: "/en-US/docs/Web/API/CSSFontFaceDescriptors",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSFontFaceDescriptors",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.CSSFontFaceDescriptors"
+        ],
+        summary: "The CSSFontFaceDescriptors interface represents a CSS declaration block for an @font-face at-rule.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cssfontfacedescriptors",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "CSSFontFaceDescriptors",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-fonts/#om-fontface",
+          title: "CSS Fonts Module Level 4"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "font-display",
+        "font-family",
+        "font-feature-settings",
+        "font-stretch",
+        "font-style",
+        "font-weight",
+        "font-width",
+        "size-adjust",
+        "src",
+        "unicode-range",
+        "instance_methods",
+        "examples",
+        "accessing_font-face_descriptor_values",
+        "css",
+        "javascript",
+        "result",
+        "frame_accessing_font-face_descriptor_values",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/ClipboardChangeEvent",
     links: {},
     data: {
@@ -472409,7 +472459,7 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -472417,7 +472467,7 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -522858,15 +522908,19 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -522878,11 +522932,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -529239,43 +529289,7 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529283,47 +529297,23 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529331,27 +529321,15 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529359,55 +529337,15 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529419,7 +529357,19 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529427,7 +529377,79 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529435,11 +529457,39 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -533663,19 +533713,27 @@ be different.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -533687,23 +533745,15 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -585943,7 +585993,7 @@ It contains data, usually organized in hierarchical form, to identify a resource
       metadata: {
         title: "URI fragment",
         pageType: "uri-component",
-        summary: "The fragment of a URI is the last part of the URI, starting with the # character. It is used to identify a specific part of the resource, such as a section of a document or a position in a video. The fragment is not sent to the server when the URI is requested, but it is processed by the client (such as the browser) after the resource is retrieved.",
+        summary: "The fragment of a URI is the last part of the URI, starting with the # character. It is used to identify a specific part of the resource, such as a section of a document or a position in a video. The fragment is not sent to the server when the URI is requested; it is processed by the client (e.g., the browser) after the resource is retrieved.",
         popularity: 0.0008445795528180736,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -585959,9 +586009,7 @@ It contains data, usually organized in hierarchical form, to identify a resource
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/media-frags/"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
@@ -586980,11 +587028,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -586992,11 +587036,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -587004,7 +587044,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         }
       ],
