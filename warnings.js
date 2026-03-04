@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xzv732q1.js";
+} from "./chunk-g790tvmm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,19 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -1109,6 +1096,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            progressive_enhancement: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://archive.hankchizljaw.com/wrote/the-power-of-progressive-enhancement/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             promise: {
               children: {},
               slug: "/en-US/docs/Glossary/Promise",
@@ -1581,7 +1581,17 @@ var warnings_processed_default = {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 css_layout: {
                   children: {
@@ -2399,6 +2409,19 @@ body {
                     }
                   ]
                 },
+                design_for_developers: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://designingfortheweb.co.uk/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 frameworks_libraries: {
                   children: {
                     angular_building: {
@@ -2614,14 +2637,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/accessibility/",
+                            "https://guides.emberjs.com/release/addons-and-dependencies/",
                             "The operation timed out."
                           ]
                         }
@@ -2634,6 +2650,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2648,14 +2671,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
+                            "https://guides.emberjs.com/release/routing/controllers/",
                             "The operation timed out."
                           ]
                         }
@@ -2681,6 +2704,19 @@ ul li {
                         }
                       ]
                     },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2688,7 +2724,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/testing/",
+                            "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
                         }
@@ -6148,6 +6184,19 @@ span {
                         }
                       ]
                     },
+                    home_color_scheme_search: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://flickr.com/photos/145464578@N08/",
+                            404
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6682,13 +6731,6 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/docs/latest/rules/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
                           ]
@@ -6703,6 +6745,19 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/cli/",
                             "The operation timed out."
                           ]
                         }
@@ -12265,23 +12320,6 @@ textarea:focus {
                     }
                   }
                 },
-                "server-side": {
-                  children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://content-security-policy.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -12826,7 +12864,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13078,7 +13116,21 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://howdns.works/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -14544,32 +14596,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=148",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -15240,6 +15266,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
+                      ]
+                    }
+                  ]
+                },
+                beacon_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Beacon_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17204,124 +17243,6 @@ code {
                     }
                   }
                 },
-                mediasource: {
-                  children: {
-                    activesourcebuffers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/activeSourceBuffers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    addsourcebuffer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/addSourceBuffer",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    duration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/duration",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    endofstream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/endOfStream",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    istypesupported_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/isTypeSupported_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    mediasource: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/MediaSource",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    readystate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/readyState",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    sourcebuffers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaSource/sourceBuffers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaSource",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/nickdesaulniers/netfix/blob/gh-pages/demo/bufferAll.html",
-                        503
-                      ]
-                    }
-                  ]
-                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
@@ -18308,7 +18229,17 @@ button:interest-source {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Server-sent_events",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.adonisjs.com/guides/digging-deeper/transmit",
+                        "https://docs.adonisjs.com/guides/digging-deeper/server-sent-events"
+                      ]
+                    }
+                  ]
                 },
                 sharedstorageoperation: {
                   children: {},
@@ -18982,33 +18913,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                webvr_api: {
-                  children: {
-                    using_vr_controllers_with_webvr: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebVR_API/Using_VR_controllers_with_WebVR",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webvr-tests/tree/main/webvr/raw-webgl-controller-example",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/WebVR_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/immersive-web/webvr-polyfill",
-                        503
-                      ]
-                    }
-                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -65995,23 +65899,6 @@ let z = 1;
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    ssrf: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/SSRF",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 authentication: {
                   children: {
                     federated_identity: {
