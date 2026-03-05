@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-g790tvmm.js";
+} from "./chunk-1cnwze8s.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -420,6 +420,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -892,6 +912,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -993,6 +1026,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://wiki.whatwg.org/wiki/Specs/howto",
+                    504
+                  ]
                 }
               ]
             },
@@ -1003,6 +1043,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://wiki.whatwg.org/wiki/Specs/howto",
+                    504
+                  ]
                 }
               ]
             },
@@ -1093,19 +1140,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            progressive_enhancement: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://archive.hankchizljaw.com/wrote/the-power-of-progressive-enhancement/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1580,6 +1614,19 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.nichd.nih.gov/health/topics/learningdisabilities",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -2409,19 +2456,6 @@ body {
                     }
                   ]
                 },
-                design_for_developers: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://designingfortheweb.co.uk/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 frameworks_libraries: {
                   children: {
                     angular_building: {
@@ -2633,13 +2667,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/addons-and-dependencies/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2650,13 +2677,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2704,19 +2724,6 @@ ul li {
                         }
                       ]
                     },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2724,7 +2731,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://testing-library.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
                             "The operation timed out."
                           ]
                         }
@@ -4765,6 +4779,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/deployment.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4782,6 +4803,19 @@ body {
                 },
                 scripting: {
                   children: {
+                    debugging_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/play/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -5312,6 +5346,13 @@ button {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -6184,19 +6225,6 @@ span {
                         }
                       ]
                     },
-                    home_color_scheme_search: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://flickr.com/photos/145464578@N08/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6724,19 +6752,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://preset-env.cssdb.org/features/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -6744,20 +6759,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/docs/plugins",
+                            "https://stylelint.io/",
                             "The operation timed out."
                           ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -12274,6 +12290,32 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12866,6 +12908,13 @@ body {
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -13090,7 +13139,28 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
                             "The operation timed out."
                           ]
                         }
@@ -13105,6 +13175,19 @@ padding-left: 20px;
                           data: []
                         }
                       ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -13116,21 +13199,7 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://howdns.works/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -13485,17 +13554,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -13519,17 +13588,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -13538,10 +13607,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -15266,19 +15335,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
-                      ]
-                    }
-                  ]
-                },
-                beacon_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Beacon_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -37212,26 +37268,1002 @@ p {
                             }
                           ]
                         },
+                        "column-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-height",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "31:16 - 31:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  column-width: 150px;
+  column-rule: 2px solid red;
+  gap: 3em 2em;
+  padding: 0 2em;
+  column-height: 95vh;
+  column-wrap: wrap;
+}
+
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+::column {
+  scroll-snap-align: start;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-height: 15em) {
+  body::before {
+    content: "Your browser does not support the 'column-height' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "31:23 - 31:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  column-width: 150px;
+  column-rule: 2px solid red;
+  gap: 3em 2em;
+  padding: 0 2em;
+  column-height: 95vh;
+  column-wrap: wrap;
+}
+
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+::column {
+  scroll-snap-align: start;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-height: 15em) {
+  body::before {
+    content: "Your browser does not support the 'column-height' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "14:16 - 14:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-height: 15em) {
+  body::before {
+    content: "Your browser does not support the 'column-height' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+
+body {
+  column-count: 3;
+  column-height: 20em;
+  column-rule: 2px solid red;
+  gap: 3em 2em;
+  padding: 0 2em;
+}
+
+form {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+}
+
+form div {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "14:23 - 14:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-height: 15em) {
+  body::before {
+    content: "Your browser does not support the 'column-height' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+
+body {
+  column-count: 3;
+  column-height: 20em;
+  column-rule: 2px solid red;
+  gap: 3em 2em;
+  padding: 0 2em;
+}
+
+form {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+}
+
+form div {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "multiple-labeled-controls",
+                                "<label> is associated with multiple controls",
+                                "label",
+                                "256:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[multiple-labeled-controls] <label> is associated with multiple controls
+~~~
+<h1>HTML, CSS, and JavaScript summaries</h1>
+<p>
+  <strong>HTML</strong> (HyperText Markup Language) is the most basic building
+  block of the Web. It defines the meaning and structure of web content. Other
+  technologies besides HTML are generally used to describe a web page's
+  appearance (CSS) or behavior (JavaScript).
+</p>
+<p>
+  "Hypertext" refers to links that connect web pages to one another, either
+  within a single website or between websites. Links are a fundamental aspect of
+  the Web. By uploading content to the Internet and linking it to pages created
+  by other people, you become an active participant in the World Wide Web.
+</p>
+<p>
+  HTML uses "markup" to annotate text, images, and other content for display in
+  a Web browser. HTML markup includes special "elements" such as
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/head"
+    ><code>&lt;head&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/title"
+    ><code>&lt;title&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/body"
+    ><code>&lt;body&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/header"
+    ><code>&lt;header&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/footer"
+    ><code>&lt;footer&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/article"
+    ><code>&lt;article&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/section"
+    ><code>&lt;section&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/p"><code>&lt;p&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/div"
+    ><code>&lt;div&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/span"
+    ><code>&lt;span&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/img"
+    ><code>&lt;img&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/aside"
+    ><code>&lt;aside&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/audio"
+    ><code>&lt;audio&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/canvas"
+    ><code>&lt;canvas&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/datalist"
+    ><code>&lt;datalist&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/details"
+    ><code>&lt;details&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/embed"
+    ><code>&lt;embed&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/nav"
+    ><code>&lt;nav&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/search"
+    ><code>&lt;search&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/output"
+    ><code>&lt;output&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/progress"
+    ><code>&lt;progress&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/video"
+    ><code>&lt;video&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/ul"
+    ><code>&lt;ul&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/ol"
+    ><code>&lt;ol&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/li"
+    ><code>&lt;li&gt;</code></a
+  >
+  and many others.
+</p>
+<p>
+  An HTML element is set off from other text in a document by "tags", which
+  consist of the element name surrounded by <code>&lt;</code> and
+  <code>&gt;</code>. The name of an element inside a tag is case-insensitive.
+  That is, it can be written in uppercase, lowercase, or a mixture. For example,
+  the <code>&lt;title&gt;</code> tag can be written as
+  <code>&lt;Title&gt;</code>, <code>&lt;TITLE&gt;</code>, or in any other way.
+  However, the convention and recommended practice is to write tags in
+  lowercase.
+</p>
+
+<hr />
+
+<p>
+  <strong>Cascading Style Sheets</strong> (<strong>CSS</strong>) is a
+  <a href="/en-US/docs/Web/API/StyleSheet">stylesheet</a> language used to
+  describe the presentation of a document written in
+  <a href="/en-US/docs/Web/HTML">HTML</a> or
+  <a href="/en-US/docs/Web/XML/Guides/XML_introduction">XML</a> (including XML
+  dialects such as <a href="/en-US/docs/Web/SVG">SVG</a>,
+  <a href="/en-US/docs/Web/MathML">MathML</a> or
+  <a href="/en-US/docs/Glossary/XHTML">XHTML</a>). CSS describes how elements
+  should be rendered on screen, on paper, in speech, or on other media.
+</p>
+<p>
+  CSS is among the core languages of the <strong>open web</strong> and is
+  standardized across web browsers according to
+  <a href="https://www.w3.org/Style/CSS/#specs" class="external" target="_blank"
+    >W3C specifications</a
+  >. Previously, the development of various parts of CSS specification was done
+  synchronously, which allowed the versioning of the latest recommendations. You
+  might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3
+  or a CSS4; rather, everything is now just "CSS" with individual CSS modules
+  having version numbers.
+</p>
+<p>
+  After CSS 2.1, the scope of the specification increased significantly and the
+  progress on different CSS modules started to differ so much, that it became
+  more effective to
+  <a
+    href="https://www.w3.org/Style/CSS/current-work"
+    class="external"
+    target="_blank"
+    >develop and release recommendations separately per module</a
+  >. Instead of versioning the CSS specification, W3C now periodically takes a
+  snapshot of
+  <a href="https://www.w3.org/TR/css/" class="external" target="_blank"
+    >the latest stable state of the CSS specification</a
+  >
+  and individual modules progress. CSS modules now have version numbers, or
+  levels, such as
+  <a
+    href="https://drafts.csswg.org/css-color-5/"
+    class="external"
+    target="_blank"
+    >CSS Color Module Level 5</a
+  >.
+</p>
+
+<hr />
+
+<p>
+  <strong>JavaScript</strong> (<strong>JS</strong>) is a lightweight interpreted
+  (or
+  <a href="/en-US/docs/Glossary/Just_In_Time_Compilation"
+    >just-in-time compiled</a
+  >) programming language with
+  <a href="/en-US/docs/Glossary/First-class_Function">first-class functions</a>.
+  While it is most well-known as the scripting language for Web pages,
+  <a
+    href="https://en.wikipedia.org/wiki/JavaScript#Other_usage"
+    class="external"
+    target="_blank"
+    >many non-browser environments</a
+  >
+  also use it, such as <a href="/en-US/docs/Glossary/Node.js">Node.js</a>,
+  <a href="https://couchdb.apache.org/" class="external" target="_blank"
+    >Apache CouchDB</a
+  >
+  and
+  <a
+    href="https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/"
+    class="external"
+    target="_blank"
+    >Adobe Acrobat</a
+  >. JavaScript is a
+  <a href="/en-US/docs/Glossary/Prototype-based_programming">prototype-based</a
+  >, <a href="/en-US/docs/Glossary/Garbage_collection">garbage-collected</a>,
+  <a href="/en-US/docs/Glossary/Dynamic_typing">dynamic</a> language, supporting
+  multiple paradigms such as imperative, functional, and object-oriented.
+</p>
+<p>
+  JavaScript's dynamic capabilities include runtime object construction,
+  variable parameter lists, function variables, dynamic script creation (via
+  <a href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"
+    ><code>eval</code></a
+  >), object introspection (via
+  <a href="/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
+    ><code>for...in</code></a
+  >
+  and
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods"
+    ><code>Object</code> utilities</a
+  >), and source-code recovery (JavaScript functions store their source text and
+  can be retrieved through
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString"
+    ><code>toString()</code></a
+  >).
+</p>
+<p>
+  This section is dedicated to the JavaScript language itself, and not the parts
+  that are specific to Web pages or other host environments. For information
+  about <a href="/en-US/docs/Glossary/API">APIs</a> that are specific to Web
+  pages, please see <a href="/en-US/docs/Web/API">Web APIs</a> and
+  <a href="/en-US/docs/Glossary/DOM">DOM</a>.
+</p>
+<p>
+  The standards for JavaScript are the
+  <a href="https://tc39.es/ecma262/" class="external" target="_blank"
+    >ECMAScript Language Specification</a
+  >
+  (ECMA-262) and the
+  <a href="https://tc39.es/ecma402/" class="external" target="_blank"
+    >ECMAScript Internationalization API specification</a
+  >
+  (ECMA-402). As soon as one browser implements a feature, we try to document
+  it. This means that cases where some
+  <a href="https://github.com/tc39/proposals" class="external" target="_blank"
+    >proposals for new ECMAScript features</a
+  >
+  have already been implemented in browsers, documentation and examples in MDN
+  articles may use some of those new features. Most of the time, this happens
+  between the
+  <a href="https://tc39.es/process-document/" class="external" target="_blank"
+    >stages</a
+  >
+  3 and 4, and is usually before the spec is officially published.
+</p>
+<p>
+  Do not confuse JavaScript with the
+  <a
+    href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+    class="external"
+    target="_blank"
+    >Java programming language</a
+  >
+  — <strong>JavaScript is <em>not</em> "Interpreted Java"</strong>. Both "Java"
+  and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S.
+  and other countries. However, the two programming languages have very
+  different syntax, semantics, and use.
+</p>
+<p>
+  JavaScript documentation of core language features (pure
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview"
+    >ECMAScript</a
+  >, for the most part) includes the following:
+</p>
+
+<form>
+  <div>
+    <label for="columns">
+      <code>column-count <output id="columns-output">3</output></code>
+    </label>
+    <input type="range" min="3" max="6" value="3" id="columns" />
+  </div>
+  <div>
+    <label for="column-height">
+      <code>column-height <output id="column-height-output">20em</output></code>
+    </label>
+    <input type="range" min="10" max="30" value="20" id="column-height" />
+  </div>
+</form>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "multiple-labeled-controls",
+                                "<label> is associated with multiple controls",
+                                "label",
+                                "262:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
+[multiple-labeled-controls] <label> is associated with multiple controls
+~~~
+<h1>HTML, CSS, and JavaScript summaries</h1>
+<p>
+  <strong>HTML</strong> (HyperText Markup Language) is the most basic building
+  block of the Web. It defines the meaning and structure of web content. Other
+  technologies besides HTML are generally used to describe a web page's
+  appearance (CSS) or behavior (JavaScript).
+</p>
+<p>
+  "Hypertext" refers to links that connect web pages to one another, either
+  within a single website or between websites. Links are a fundamental aspect of
+  the Web. By uploading content to the Internet and linking it to pages created
+  by other people, you become an active participant in the World Wide Web.
+</p>
+<p>
+  HTML uses "markup" to annotate text, images, and other content for display in
+  a Web browser. HTML markup includes special "elements" such as
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/head"
+    ><code>&lt;head&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/title"
+    ><code>&lt;title&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/body"
+    ><code>&lt;body&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/header"
+    ><code>&lt;header&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/footer"
+    ><code>&lt;footer&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/article"
+    ><code>&lt;article&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/section"
+    ><code>&lt;section&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/p"><code>&lt;p&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/div"
+    ><code>&lt;div&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/span"
+    ><code>&lt;span&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/img"
+    ><code>&lt;img&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/aside"
+    ><code>&lt;aside&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/audio"
+    ><code>&lt;audio&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/canvas"
+    ><code>&lt;canvas&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/datalist"
+    ><code>&lt;datalist&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/details"
+    ><code>&lt;details&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/embed"
+    ><code>&lt;embed&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/nav"
+    ><code>&lt;nav&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/search"
+    ><code>&lt;search&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/output"
+    ><code>&lt;output&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/progress"
+    ><code>&lt;progress&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/video"
+    ><code>&lt;video&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/ul"
+    ><code>&lt;ul&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/ol"
+    ><code>&lt;ol&gt;</code></a
+  >,
+  <a href="/en-US/docs/Web/HTML/Reference/Elements/li"
+    ><code>&lt;li&gt;</code></a
+  >
+  and many others.
+</p>
+<p>
+  An HTML element is set off from other text in a document by "tags", which
+  consist of the element name surrounded by <code>&lt;</code> and
+  <code>&gt;</code>. The name of an element inside a tag is case-insensitive.
+  That is, it can be written in uppercase, lowercase, or a mixture. For example,
+  the <code>&lt;title&gt;</code> tag can be written as
+  <code>&lt;Title&gt;</code>, <code>&lt;TITLE&gt;</code>, or in any other way.
+  However, the convention and recommended practice is to write tags in
+  lowercase.
+</p>
+
+<hr />
+
+<p>
+  <strong>Cascading Style Sheets</strong> (<strong>CSS</strong>) is a
+  <a href="/en-US/docs/Web/API/StyleSheet">stylesheet</a> language used to
+  describe the presentation of a document written in
+  <a href="/en-US/docs/Web/HTML">HTML</a> or
+  <a href="/en-US/docs/Web/XML/Guides/XML_introduction">XML</a> (including XML
+  dialects such as <a href="/en-US/docs/Web/SVG">SVG</a>,
+  <a href="/en-US/docs/Web/MathML">MathML</a> or
+  <a href="/en-US/docs/Glossary/XHTML">XHTML</a>). CSS describes how elements
+  should be rendered on screen, on paper, in speech, or on other media.
+</p>
+<p>
+  CSS is among the core languages of the <strong>open web</strong> and is
+  standardized across web browsers according to
+  <a href="https://www.w3.org/Style/CSS/#specs" class="external" target="_blank"
+    >W3C specifications</a
+  >. Previously, the development of various parts of CSS specification was done
+  synchronously, which allowed the versioning of the latest recommendations. You
+  might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3
+  or a CSS4; rather, everything is now just "CSS" with individual CSS modules
+  having version numbers.
+</p>
+<p>
+  After CSS 2.1, the scope of the specification increased significantly and the
+  progress on different CSS modules started to differ so much, that it became
+  more effective to
+  <a
+    href="https://www.w3.org/Style/CSS/current-work"
+    class="external"
+    target="_blank"
+    >develop and release recommendations separately per module</a
+  >. Instead of versioning the CSS specification, W3C now periodically takes a
+  snapshot of
+  <a href="https://www.w3.org/TR/css/" class="external" target="_blank"
+    >the latest stable state of the CSS specification</a
+  >
+  and individual modules progress. CSS modules now have version numbers, or
+  levels, such as
+  <a
+    href="https://drafts.csswg.org/css-color-5/"
+    class="external"
+    target="_blank"
+    >CSS Color Module Level 5</a
+  >.
+</p>
+
+<hr />
+
+<p>
+  <strong>JavaScript</strong> (<strong>JS</strong>) is a lightweight interpreted
+  (or
+  <a href="/en-US/docs/Glossary/Just_In_Time_Compilation"
+    >just-in-time compiled</a
+  >) programming language with
+  <a href="/en-US/docs/Glossary/First-class_Function">first-class functions</a>.
+  While it is most well-known as the scripting language for Web pages,
+  <a
+    href="https://en.wikipedia.org/wiki/JavaScript#Other_usage"
+    class="external"
+    target="_blank"
+    >many non-browser environments</a
+  >
+  also use it, such as <a href="/en-US/docs/Glossary/Node.js">Node.js</a>,
+  <a href="https://couchdb.apache.org/" class="external" target="_blank"
+    >Apache CouchDB</a
+  >
+  and
+  <a
+    href="https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/"
+    class="external"
+    target="_blank"
+    >Adobe Acrobat</a
+  >. JavaScript is a
+  <a href="/en-US/docs/Glossary/Prototype-based_programming">prototype-based</a
+  >, <a href="/en-US/docs/Glossary/Garbage_collection">garbage-collected</a>,
+  <a href="/en-US/docs/Glossary/Dynamic_typing">dynamic</a> language, supporting
+  multiple paradigms such as imperative, functional, and object-oriented.
+</p>
+<p>
+  JavaScript's dynamic capabilities include runtime object construction,
+  variable parameter lists, function variables, dynamic script creation (via
+  <a href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"
+    ><code>eval</code></a
+  >), object introspection (via
+  <a href="/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
+    ><code>for...in</code></a
+  >
+  and
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods"
+    ><code>Object</code> utilities</a
+  >), and source-code recovery (JavaScript functions store their source text and
+  can be retrieved through
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString"
+    ><code>toString()</code></a
+  >).
+</p>
+<p>
+  This section is dedicated to the JavaScript language itself, and not the parts
+  that are specific to Web pages or other host environments. For information
+  about <a href="/en-US/docs/Glossary/API">APIs</a> that are specific to Web
+  pages, please see <a href="/en-US/docs/Web/API">Web APIs</a> and
+  <a href="/en-US/docs/Glossary/DOM">DOM</a>.
+</p>
+<p>
+  The standards for JavaScript are the
+  <a href="https://tc39.es/ecma262/" class="external" target="_blank"
+    >ECMAScript Language Specification</a
+  >
+  (ECMA-262) and the
+  <a href="https://tc39.es/ecma402/" class="external" target="_blank"
+    >ECMAScript Internationalization API specification</a
+  >
+  (ECMA-402). As soon as one browser implements a feature, we try to document
+  it. This means that cases where some
+  <a href="https://github.com/tc39/proposals" class="external" target="_blank"
+    >proposals for new ECMAScript features</a
+  >
+  have already been implemented in browsers, documentation and examples in MDN
+  articles may use some of those new features. Most of the time, this happens
+  between the
+  <a href="https://tc39.es/process-document/" class="external" target="_blank"
+    >stages</a
+  >
+  3 and 4, and is usually before the spec is officially published.
+</p>
+<p>
+  Do not confuse JavaScript with the
+  <a
+    href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+    class="external"
+    target="_blank"
+    >Java programming language</a
+  >
+  — <strong>JavaScript is <em>not</em> "Interpreted Java"</strong>. Both "Java"
+  and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S.
+  and other countries. However, the two programming languages have very
+  different syntax, semantics, and use.
+</p>
+<p>
+  JavaScript documentation of core language features (pure
+  <a
+    href="/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview"
+    >ECMAScript</a
+  >, for the most part) includes the following:
+</p>
+
+<form>
+  <div>
+    <label for="columns">
+      <code>column-count <output id="columns-output">3</output></code>
+    </label>
+    <input type="range" min="3" max="6" value="3" id="columns" />
+  </div>
+  <div>
+    <label for="column-height">
+      <code>column-height <output id="column-height-output">20em</output></code>
+    </label>
+    <input type="range" min="10" max="30" value="20" id="column-height" />
+  </div>
+</form>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "column-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-wrap",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "22:16 - 22:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-wrap
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  column-count: 3;
+  gap: 3em 2em;
+  padding: 0 2em;
+  column-height: 90vh;
+  column-wrap: nowrap;
+}
+
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-wrap: wrap) {
+  body::before {
+    content: "Your browser does not support the 'column-wrap' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+
+form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "22:23 - 22:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-wrap
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  column-count: 3;
+  gap: 3em 2em;
+  padding: 0 2em;
+  column-height: 90vh;
+  column-wrap: nowrap;
+}
+
+h1 {
+  column-span: all;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@supports not (column-wrap: wrap) {
+  body::before {
+    content: "Your browser does not support the 'column-wrap' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+
+form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         columns: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
                           messages: [
                             {
-                              message: "Broken link",
+                              message: "CSS code issue",
                               data: [
-                                "/en-US/docs/Web/CSS/column-height"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/column-height"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/column-height"
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "/" for property "columns" (declaration-property-value-no-unknown)',
+                                "  columns: 3 auto / 5em;",
+                                "2:19 - 2:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/columns
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "columns" (declaration-property-value-no-unknown)
+~~~
+.content-box {
+  columns: 3 auto / 5em;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@supports not (columns: 3 auto / 5em) {
+  body::before {
+    content: "Your browser does not support the 'column-height' property.";
+    background-color: wheat;
+    position: fixed;
+    inset: 40% 0;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+~~~
+`
                               ]
                             }
                           ]
@@ -42832,7 +43864,19 @@ body {
                         {
                           message: "No link to child page",
                           data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/column-height"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/baseline-shift"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/column-wrap"
                           ]
                         }
                       ]
@@ -65420,6 +66464,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             "language-detector": {
@@ -65751,6 +66808,13 @@ let z = 1;
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
