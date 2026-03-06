@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-1cnwze8s.js";
+} from "./chunk-yg9m46zh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1026,13 +1026,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://wiki.whatwg.org/wiki/Specs/howto",
-                    504
-                  ]
                 }
               ]
             },
@@ -1043,13 +1036,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://wiki.whatwg.org/wiki/Specs/howto",
-                    504
-                  ]
                 }
               ]
             },
@@ -1316,6 +1302,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            spa: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SPA",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vuejs.org/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1467,6 +1466,19 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.a11yproject.com/posts/skip-nav-links/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         "wai-aria": {
@@ -1615,15 +1627,15 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    what_is_accessibility: {
+                    "wai-aria_basics": {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://www.nichd.nih.gov/health/topics/learningdisabilities",
-                            "The operation timed out."
+                            "https://www.tpgi.com/rough-guide-browsers-operating-systems-and-screen-reader-support-updated/",
+                            "https://vispero.com/resources/"
                           ]
                         }
                       ]
@@ -1999,6 +2011,26 @@ body {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/positioning/0_basic-flow.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    practical_positioning_examples: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Practical_positioning_examples",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/practical-positioning-examples/tabs-manual.js",
+                            503
                           ]
                         }
                       ]
@@ -2677,6 +2709,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/3.15/functions/@glimmer%2Ftracking/tracked",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2692,13 +2731,6 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
                             "The operation timed out."
                           ]
                         }
@@ -2724,21 +2756,28 @@ ul li {
                         }
                       ]
                     },
-                    main_features: {
+                    introduction: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://testing-library.com/",
+                            "https://emberjs.com/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/testing/",
+                            "https://vuejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
                             "The operation timed out."
                           ]
                         }
@@ -4783,7 +4822,7 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.vuejs.org/guide/deployment.html",
+                            "https://vuejs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -4810,8 +4849,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
+                            "https://github.com/mdn/learning-area/blob/7ed039d17e820c93cafaff541aa65d874dde8323/javascript/oojs/assessment/main.js",
+                            503
                           ]
                         }
                       ]
@@ -5342,10 +5381,30 @@ button {
                         }
                       ]
                     },
+                    headings_and_paragraphs: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/images-in-html/index.html",
+                            503
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -5358,6 +5417,46 @@ button {
                           data: [
                             "https://picryl.com/",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    html_video_and_audio: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/tree/main/html/multimedia-and-embedding/video-and-audio-content",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/video-and-audio-content/multiple-audio-formats.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/tree/main/html/multimedia-and-embedding/video-and-audio-content",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    lists: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Lists",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
+                            503
                           ]
                         }
                       ]
@@ -5622,6 +5721,19 @@ caption {
                           ]
                         }
                       }
+                    },
+                    webpage_metadata: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/css-and-js.html",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
@@ -6225,6 +6337,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6752,6 +6877,19 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -6760,7 +6898,7 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://stylelint.io/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
@@ -6773,7 +6911,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://mochajs.org/",
+                            "https://emberjs.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
                             "The operation timed out."
                           ]
                         }
@@ -12258,6 +12410,13 @@ button:active {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -12298,19 +12457,6 @@ textarea:focus {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
                             "The operation timed out."
                           ]
                         }
@@ -12359,6 +12505,27 @@ textarea:focus {
                           ]
                         }
                       ]
+                    }
+                  }
+                },
+                "server-side": {
+                  children: {
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://itemsapi.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -12908,13 +13075,6 @@ body {
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -12926,6 +13086,19 @@ body {
               children: {
                 your_first_website: {
                   children: {
+                    adding_interactivity: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/beginner-html-site-scripted/blob/main/scripts/main.js",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -12965,6 +13138,13 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://vispero.com/color-contrast-checker/",
+                            "https://vispero.com/lp/color-contrast-checker/"
+                          ]
                         }
                       ]
                     },
@@ -13554,17 +13734,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -13588,17 +13768,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -13607,10 +13787,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -14271,6 +14451,19 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        chrome_settings_overrides: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         version: {
                           children: {
                             format: {
@@ -14845,6 +15038,23 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/screen-reader-support-aria-live-regions/",
+                                "https://vispero.com/resources/screen-reader-support-aria-live-regions/"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -14858,6 +15068,114 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            alert_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/aria-alert-support/",
+                                    "https://vispero.com/resources/aria-alert-support/"
+                                  ]
+                                }
+                              ]
+                            },
+                            complementary_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
+                                    "https://vispero.com/resources/"
+                                  ]
+                                }
+                              ]
+                            },
+                            contentinfo_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/contentinfo_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
+                                    "https://vispero.com/resources/"
+                                  ]
+                                }
+                              ]
+                            },
+                            main_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
+                                    "https://vispero.com/resources/"
+                                  ]
+                                }
+                              ]
+                            },
+                            menu_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability",
+                                    "https://usability.yale.edu/resource/keyboard-accessibility"
+                                  ]
+                                }
+                              ]
+                            },
+                            navigation_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
+                                    "https://vispero.com/resources/"
+                                  ]
+                                }
+                              ]
+                            },
+                            radiogroup_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radiogroup_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability",
+                                    "https://usability.yale.edu/resource/keyboard-accessibility"
+                                  ]
+                                }
+                              ]
+                            },
+                            region_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/region_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
+                                    "https://vispero.com/resources/"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -15090,6 +15408,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    mobile_accessibility_checklist: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.tpgi.com/using-the-html-title-attribute-updated/",
+                            "https://vispero.com/resources/using-the-html-title-attribute-updated/"
                           ]
                         }
                       ]
@@ -15489,6 +15820,33 @@ api.MessagePort`,
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                coepviolationreport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/COEPViolationReport",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        '"worker initialization"'
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.COEPViolationReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
+                        "Expected:",
+                        "api.COEPViolationReport"
                       ]
                     }
                   ]
@@ -34713,6 +35071,19 @@ p {
                   children: {
                     "at-rules": {
                       children: {
+                        "@charset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@charset",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "@color-profile": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@color-profile",
@@ -38307,6 +38678,19 @@ i {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        display: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/short-note-on-what-css-display-properties-do-to-table-semantics/",
+                                "https://vispero.com/resources/"
                               ]
                             }
                           ]
@@ -44121,6 +44505,13 @@ input:-internal-autofill-selected {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/what-is-an-accessible-name/",
+                                "https://vispero.com/resources/what-is-an-accessible-name/"
+                              ]
                             }
                           ]
                         },
@@ -65466,6 +65857,19 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/skip-nav-links/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -65526,6 +65930,32 @@ function onclick(event) {
                             }
                           ]
                         },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/what-is-an-accessible-name/",
+                                "https://vispero.com/resources/what-is-an-accessible-name/"
+                              ]
+                            }
+                          ]
+                        },
+                        canvas: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/canvas",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/html5-canvas-accessibility-in-firefox-13/",
+                                "https://vispero.com/resources/"
+                              ]
+                            }
+                          ]
+                        },
                         datalist: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/datalist",
@@ -65543,6 +65973,13 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
+                              ]
                             }
                           ]
                         },
@@ -65695,6 +66132,13 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/using-the-html-title-attribute-updated/",
+                                "https://vispero.com/resources/using-the-html-title-attribute-updated/"
+                              ]
                             }
                           ]
                         },
@@ -66117,6 +66561,19 @@ html.elements.input.switch`,
                             }
                           ]
                         },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
+                              ]
+                            }
+                          ]
+                        },
                         kbd: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
@@ -66147,6 +66604,19 @@ html.elements.input.switch`,
                             }
                           ]
                         },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
+                              ]
+                            }
+                          ]
+                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -66174,6 +66644,19 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
+                              ]
                             }
                           ]
                         },
@@ -66298,6 +66781,13 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/using-the-tabindex-attribute/",
+                                "https://vispero.com/resources/using-the-tabindex-attribute/"
+                              ]
                             }
                           ]
                         },
@@ -66308,6 +66798,13 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.tpgi.com/using-the-html-title-attribute-updated/",
+                                "https://vispero.com/resources/using-the-html-title-attribute-updated/"
+                              ]
                             }
                           ]
                         }
@@ -66477,6 +66974,27 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        "cross-origin-embedder-policy-report-only": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "http.headers.Cross-Origin-Embedder-Policy-Report-Only"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "http.headers.Cross-Origin-Embedder-Policy",
+                                "Expected:",
+                                "http.headers.Cross-Origin-Embedder-Policy-Report-Only"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             "language-detector": {
@@ -66550,6 +67068,12 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only"
                           ]
                         },
                         {
@@ -66808,13 +67332,6 @@ let z = 1;
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -66963,6 +67480,51 @@ let z = 1;
             },
             security: {
               children: {
+                attacks: {
+                  children: {
+                    supply_chain_attacks: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-collab-space?tab=readme-ov-file",
+                            "https://github.com/openjs-foundation/security-wg?tab=readme-ov-file"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md",
+                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
+                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/npm-security-best-practices.md",
+                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/Secure_Releases/secure-releases.md",
+                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/Secure_Releases/secure-releases.md"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 authentication: {
                   children: {
                     federated_identity: {
