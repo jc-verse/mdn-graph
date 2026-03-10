@@ -40300,7 +40300,10 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
         "https://bugzil.la/1966073",
         "https://bugzil.la/2017708",
         "https://bugzil.la/2010427",
-        "https://bugzil.la/2010427"
+        "https://bugzil.la/2010427",
+        "https://bugzil.la/1986631",
+        "https://bugzil.la/1998245",
+        "https://bugzil.la/2007772"
       ],
       imgs: [],
       ids: [
@@ -46317,6 +46320,9 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1984310",
         "https://bugzil.la/1979915",
         "https://bugzil.la/1744292",
+        "https://bugzil.la/1986631",
+        "https://bugzil.la/1998245",
+        "https://bugzil.la/2007772",
         "https://bugzil.la/1954685",
         "https://bugzil.la/1225110",
         "https://bugzil.la/1963263",
@@ -46392,6 +46398,10 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.text-decoration-trim.enabled",
         "custom-media_at-rule",
         "layout.css.custom-media.enabled",
+        "attr-type_values_in_attr_css_function",
+        "layout.css.attr.enabled",
+        "color-mix_accepts_multiple_color_arguments",
+        "layout.css.color-mix-multi-color.enabled",
         "svg",
         "javascript",
         "apis",
@@ -100582,6 +100592,18 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
@@ -100594,15 +100616,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -100614,72 +100628,12 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
@@ -100690,24 +100644,80 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
         }
       ],
       links: [
@@ -101574,7 +101584,13 @@ This allows a browser to display an appropriate virtual keyboard.`,
         "manual",
         "description",
         "examples",
-        "frame_examples",
+        "making_an_element_a_popover",
+        "frame_basic_example_of_popover",
+        "nesting_popovers",
+        "html",
+        "css",
+        "result",
+        "frame_popover_hint",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -151774,7 +151790,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.letter-spacing"
         ],
-        summary: "The letter-spacing CSS property sets the horizontal spacing behavior between text characters. This value is added to the natural spacing between characters while rendering the text. Positive values of letter-spacing causes characters to spread farther apart, while negative values of letter-spacing bring characters closer together.",
+        summary: "The letter-spacing CSS property sets the spacing between text characters. This value is added to the natural spacing between characters while rendering the text. Positive values of letter-spacing spread characters further apart, while negative values of letter-spacing bring characters closer together.",
         popularity: 0.004184538919842345,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -151805,19 +151821,25 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "syntax",
         "values",
         "normal",
-        "length",
+        "length-percentage",
         "accessibility",
         "internationalization_concerns",
+        "frame_i18n-sample",
         "formal_definition",
         "formal_syntax",
         "letter-spacing",
         "<length-percentage>",
         "examples",
-        "setting_letter_spacing",
+        "setting_letter-spacing_with_length_values",
         "html",
         "css",
         "result",
-        "frame_setting_letter_spacing",
+        "frame_length-letter-spacing",
+        "comparing_letter-spacing_set_with_length_and_percentage",
+        "html_2",
+        "css_2",
+        "result_2",
+        "frame_percentage-versus-length",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -154619,6 +154641,7 @@ When a containment context is given a name, it can be specifically targeted usin
         "syntax",
         "values",
         "always",
+        "anchors-valid",
         "anchors-visible",
         "no-overflow",
         "description",
@@ -155556,15 +155579,11 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -155572,15 +155591,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -155592,11 +155607,19 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -158042,7 +158065,7 @@ When a containment context is given a name, it can be specifically targeted usin
         browserCompat: [
           "css.properties.word-spacing"
         ],
-        summary: "The word-spacing CSS property sets the length of space between words and between tags.",
+        summary: "The word-spacing CSS property sets the spacing between words and between tags.",
         popularity: 0.0014542111846170074,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -158073,12 +158096,19 @@ When a containment context is given a name, it can be specifically targeted usin
         "syntax",
         "values",
         "normal",
-        "length",
+        "length-percentage",
         "accessibility",
         "examples",
+        "basic_usage",
         "html",
         "css",
-        "frame_examples",
+        "result",
+        "frame_live-sample___basic-usage",
+        "comparing_word-spacing_set_with_length_and_percentage",
+        "html_2",
+        "css_2",
+        "result_2",
+        "frame_percentage-versus-length",
         "formal_definition",
         "formal_syntax",
         "word-spacing",
@@ -164527,7 +164557,7 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
           "css.properties.grid-template-columns.masonry",
           "css.properties.grid-template-rows.masonry"
         ],
-        summary: "Level 3 of the CSS grid layout specification includes a masonry value for grid-template-columns and grid-template-rows. This guide details what masonry layout is and how to use it.",
+        summary: "Level 3 of the CSS grid layout specification defines masonry layout (also known as grid-lanes layout), which is accessed via the display values grid-lanes and inline-grid-lanes. This guide details what masonry layout is and how to use it.",
         popularity: 0.004016033996895673,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -287660,6 +287690,7 @@ its modification date and time and its size.`,
         "options",
         "domain",
         "expires",
+        "maxage",
         "name_2",
         "partitioned",
         "path",
@@ -300150,6 +300181,245 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         "specifications",
         "browser_compatibility",
         "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.PreferenceManager"
+        ],
+        summary: "The PreferenceManager interface of the User Preferences API provides access to PreferenceObject objects used to query and modify user preferences.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "PreferenceManager",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#preference-manager",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "preferencemanager.colorscheme",
+        "preferencemanager.contrast",
+        "preferencemanager.reducedmotion",
+        "preferencemanager.reducedtransparency",
+        "preferencemanager.reduceddata",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager/reducedTransparency",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager: reducedTransparency property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceManager.reducedTransparency"
+        ],
+        summary: "The reducedTransparency read-only property of the PreferenceManager interface returns the PreferenceObject used to override the user's preference for the reduced transparency of the site.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager/reducedtransparency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "reducedTransparency",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#reduced-transparency-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager/reducedData",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager: reducedData property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceManager.reducedData"
+        ],
+        summary: "The reducedData read-only property of the PreferenceManager interface returns a PreferenceObject used to override the user's preference for the reduced data of the site.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager/reduceddata",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "reducedData",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#reduced-data-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager/colorScheme",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager: colorScheme property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceManager.colorScheme"
+        ],
+        summary: "The colorScheme read-only property of the PreferenceManager interface returns a PreferenceObject used to override the user's preference for the color scheme of the site.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager/colorscheme",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "colorScheme",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#color-scheme-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager/contrast",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager: contrast property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceManager.contrast"
+        ],
+        summary: "The contrast read-only property of the PreferenceManager interface returns a PreferenceObject used to override the user's preference for the color scheme of the site.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager/contrast",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "contrast",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#contrast-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceManager/reducedMotion",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceManager: reducedMotion property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceManager.reducedMotion"
+        ],
+        summary: "The reducedMotion read-only property of the PreferenceManager interface returns the PreferenceObject used to override the user's preference for the reduced motion of the site.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferencemanager/reducedmotion",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "reducedMotion",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#reduced-motion-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -363125,6 +363395,7 @@ for a point in space.`,
         "navigator.online",
         "navigator.pdfviewerenabled",
         "navigator.permissions",
+        "navigator.preferences",
         "navigator.presentation",
         "navigator.scheduling",
         "navigator.serial",
@@ -364407,6 +364678,44 @@ controlled by automation.`,
         "examples",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Navigator/preferences",
+    links: {},
+    data: {
+      metadata: {
+        title: "Navigator: preferences property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.Navigator.preferences"
+        ],
+        summary: "The preferences read-only property of the Navigator interface returns a PreferenceManager object for the current document. This is the entry point for the User Preferences API functionality.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/navigator/preferences",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "preferences",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#preferences-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "get_color_scheme_preference",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -371844,6 +372153,7 @@ GPUInternalError object instance.`,
         },
         short_title: "Related Website Sets",
         status: [
+          "deprecated",
           "non-standard"
         ]
       },
@@ -431424,6 +431734,293 @@ GPU interface returns a WGSLLanguageFeatures object that reports the WGSL langua
     }
   },
   {
+    id: "/en-US/docs/Web/API/PreferenceObject",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.PreferenceObject"
+        ],
+        summary: "The PreferenceObject interface of the User Preferences API provides attributes and methods for reading and overriding user preferences.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "PreferenceObject",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#preference-object-interface",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "preferenceobject.override",
+        "preferenceobject.value",
+        "preferenceobject.validvalues",
+        "instance_methods",
+        "preferenceobject.clearoverride",
+        "preferenceobject.requestoverride",
+        "events",
+        "change",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/value",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: value property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceObject.value"
+        ],
+        summary: "The value read-only property of the PreferenceManager interface returns the override value of a preference if one is set, or the UA-defined value if an override value is not set.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/value",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "value",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#preference-value-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/override",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: override property",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.PreferenceObject.override"
+        ],
+        summary: "The override read-only property of the PreferenceObject interface returns the override of a preference if one is set, null otherwise.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/override",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "override",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#override-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/clearOverride",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: clearOverride() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.PreferenceObject.clearOverride"
+        ],
+        summary: "The clearOverride method of the PreferenceObject interface resets the must be provided value.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/clearoverride",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "clearOverride()",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#clear-override-method",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/change_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: change event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.PreferenceObject.change_event"
+        ],
+        summary: "The change event of the PreferenceObject interface is fired when a PreferenceObject override value changes. This can happen due to requestOverride or clearOverride method calls.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/change_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "change",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#onchange-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/requestOverride",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: requestOverride() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.PreferenceObject.requestOverride"
+        ],
+        summary: "The requestOverride method of the PreferenceObject interface sets an must be provided value for a particular preference.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/requestoverride",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "requestOverride()",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#request-override-method",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "value",
+        "return_value",
+        "exceptions",
+        "notallowederror",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PreferenceObject/validValues",
+    links: {},
+    data: {
+      metadata: {
+        title: "PreferenceObject: validValues property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PreferenceObject.validValues"
+        ],
+        summary: "The validValues read-only property of the PreferenceObject interface returns a read-only array of values that are accepted by the override.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/preferenceobject/validvalues",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "validValues",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#valid-values-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "validvalues",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/LargestContentfulPaint",
     links: {},
     data: {
@@ -472661,15 +473258,15 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
-          title: "Web Audio API"
-        },
-        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -495907,6 +496504,52 @@ It is used internally when invoking structuredClone(), to transfer data between 
         "functions_available_in_workers",
         "web_apis_available_in_workers",
         "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/User_Preferences_API",
+    links: {},
+    data: {
+      metadata: {
+        title: "User Preferences API",
+        pageType: "web-api-overview",
+        browserCompat: [
+          "api.Navigator.preferences",
+          "api.PreferenceManager",
+          "api.PreferenceObject"
+        ],
+        summary: "The User Preferences API allows page authors to programmatically override user preference-related media query settings.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/user_preferences_api",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "User Preferences API",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/mediaqueries-5/#preferences-attribute",
+          title: "Media Queries Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "concepts_and_usage",
+        "examples",
+        "dark_mode_toggle",
+        "html",
+        "javascript",
+        "result",
+        "frame_dark-mode-toggle",
+        "specifications",
+        "browser_compatibility",
+        "api.navigator.preferences",
+        "api.preferencemanager",
+        "api.preferenceobject"
       ]
     }
   },
@@ -523110,19 +523753,15 @@ and Legendre symbols.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -523135,6 +523774,10 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -527927,6 +528570,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
         "unconditional_catch_block",
         "conditional_catch_blocks",
         "nested_try_blocks",
+        "resource_cleanup_using_finally",
         "returning_from_a_finally_block",
         "specifications",
         "browser_compatibility",
@@ -529491,63 +530135,11 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529559,51 +530151,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529611,23 +530159,91 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529639,23 +530255,15 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529663,19 +530271,19 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529683,7 +530291,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -529691,7 +530299,43 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -533919,11 +534563,11 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -533931,7 +534575,15 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -533943,19 +534595,11 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -587230,19 +587874,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -587250,11 +587882,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         }
       ],
