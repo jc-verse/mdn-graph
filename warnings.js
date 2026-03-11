@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-eqy10kkk.js";
+} from "./chunk-bt6wz6q1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -25,26 +25,6 @@ var warnings_processed_default = {
               children: {
                 "3d_on_the_web": {
                   children: {
-                    "building_up_a_basic_demo_with_a-frame": {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://aframe.io/docs/1.6.0/components/animation.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://aframe.io/docs/1.6.0/components/animation.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     glsl_shaders: {
                       children: {},
                       slug: "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
@@ -319,19 +299,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1302,19 +1269,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1613,19 +1567,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.tpgi.com/rough-guide-browsers-operating-systems-and-screen-reader-support-updated/",
-                            "https://vispero.com/resources/"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -1671,13 +1612,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2663,6 +2597,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/accessibility/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2673,6 +2614,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2688,6 +2636,13 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         }
@@ -2713,6 +2668,19 @@ ul li {
                         }
                       ]
                     },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://emberjs.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2720,7 +2688,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
                         },
@@ -2728,19 +2696,6 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/testing/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
                             "The operation timed out."
                           ]
                         }
@@ -2754,6 +2709,19 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitest.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -3709,13 +3677,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://terser.org/",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -4765,8 +4726,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://vuejs.org/api/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -5360,19 +5321,6 @@ button {
                           data: [
                             "https://picryl.com/",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    html_table_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/learning-area/html/tables/basic/dogs-table-fixed.html",
-                            503
                           ]
                         }
                       ]
@@ -6240,19 +6188,6 @@ span {
                         }
                       ]
                     },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6780,51 +6715,10 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://preset-env.cssdb.org/features/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -6842,20 +6736,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "https://emberjs.com/",
+                            "unknown certificate verification error"
                           ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "https://mochajs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -12413,63 +12301,8 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -13009,6 +12842,19 @@ body {
                         }
                       ]
                     },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.andyroid.net/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -13017,6 +12863,13 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -13028,23 +12881,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -13086,13 +12922,6 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://vispero.com/color-contrast-checker/",
-                            "https://vispero.com/lp/color-contrast-checker/"
-                          ]
                         }
                       ]
                     },
@@ -13419,13 +13248,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14766,18 +14588,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "149": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
-                      messages: [
-                        {
-                          message: "Bad macro",
-                          data: [
-                            "unsupported templ: bug"
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -14946,23 +14756,6 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    guides: {
-                      children: {
-                        live_regions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/screen-reader-support-aria-live-regions/",
-                                "https://vispero.com/resources/screen-reader-support-aria-live-regions/"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     reference: {
                       children: {
                         attributes: {
@@ -14976,114 +14769,6 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        roles: {
-                          children: {
-                            alert_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/aria-alert-support/",
-                                    "https://vispero.com/resources/aria-alert-support/"
-                                  ]
-                                }
-                              ]
-                            },
-                            complementary_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
-                                    "https://vispero.com/resources/"
-                                  ]
-                                }
-                              ]
-                            },
-                            contentinfo_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/contentinfo_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
-                                    "https://vispero.com/resources/"
-                                  ]
-                                }
-                              ]
-                            },
-                            main_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
-                                    "https://vispero.com/resources/"
-                                  ]
-                                }
-                              ]
-                            },
-                            menu_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability",
-                                    "https://usability.yale.edu/resource/keyboard-accessibility"
-                                  ]
-                                }
-                              ]
-                            },
-                            navigation_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
-                                    "https://vispero.com/resources/"
-                                  ]
-                                }
-                              ]
-                            },
-                            radiogroup_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radiogroup_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability",
-                                    "https://usability.yale.edu/resource/keyboard-accessibility"
-                                  ]
-                                }
-                              ]
-                            },
-                            region_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/region_role",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
-                                    "https://vispero.com/resources/"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     }
@@ -15316,19 +15001,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    mobile_accessibility_checklist: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.tpgi.com/using-the-html-title-attribute-updated/",
-                            "https://vispero.com/resources/using-the-html-title-attribute-updated/"
                           ]
                         }
                       ]
@@ -16268,18 +15940,6 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
-                document: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Document",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document/customElementRegistry"
-                      ]
-                    }
-                  ]
-                },
                 document_object_model: {
                   children: {
                     anatomy_of_the_dom: {
@@ -16471,18 +16131,6 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
-                element: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Element",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Element/customElementRegistry"
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -16559,19 +16207,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
-                },
-                geolocation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.qq.com/tool/component-geolocation.html",
-                        404
-                      ]
-                    }
-                  ]
                 },
                 history_api: {
                   children: {},
@@ -17727,20 +17362,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    preferences: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/preferences",
-                      messages: [
-                        {
-                          message: "Missing sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -17771,18 +17392,6 @@ aside {
                       ]
                     }
                   }
-                },
-                permissions_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Permissions_API",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/Web_Based_Payment_Handler_API"
-                      ]
-                    }
-                  ]
                 },
                 pointer_events: {
                   children: {
@@ -18339,15 +17948,15 @@ button:interest-source {
                       slug: "/en-US/docs/Web/API/PreferenceManager/colorScheme",
                       messages: [
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "color scheme"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
                           ]
                         },
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "color scheme"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
                           ]
                         }
                       ]
@@ -18357,15 +17966,15 @@ button:interest-source {
                       slug: "/en-US/docs/Web/API/PreferenceManager/contrast",
                       messages: [
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "color scheme"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
                           ]
                         },
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "color scheme"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
                           ]
                         }
                       ]
@@ -18375,15 +17984,15 @@ button:interest-source {
                       slug: "/en-US/docs/Web/API/PreferenceManager/reducedData",
                       messages: [
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced data"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
                           ]
                         },
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced data"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
                           ]
                         }
                       ]
@@ -18393,15 +18002,15 @@ button:interest-source {
                       slug: "/en-US/docs/Web/API/PreferenceManager/reducedMotion",
                       messages: [
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced motion"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
                           ]
                         },
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced motion"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
                           ]
                         }
                       ]
@@ -18411,15 +18020,15 @@ button:interest-source {
                       slug: "/en-US/docs/Web/API/PreferenceManager/reducedTransparency",
                       messages: [
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced transparency"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
                           ]
                         },
                         {
-                          message: "Code with space",
+                          message: "Broken link",
                           data: [
-                            "reduced transparency"
+                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
                           ]
                         }
                       ]
@@ -18428,90 +18037,36 @@ button:interest-source {
                   slug: "/en-US/docs/Web/API/PreferenceManager",
                   messages: [
                     {
-                      message: "Code with space",
+                      message: "Broken link",
                       data: [
-                        "color scheme"
+                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
                       ]
                     },
                     {
-                      message: "Code with space",
+                      message: "Broken link",
                       data: [
-                        "reduced motion"
+                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
                       ]
                     },
                     {
-                      message: "Code with space",
+                      message: "Broken link",
                       data: [
-                        "reduced transparency"
+                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
                       ]
                     },
                     {
-                      message: "Code with space",
+                      message: "Broken link",
                       data: [
-                        "reduced data"
+                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
                       ]
                     }
                   ]
-                },
-                preferenceobject: {
-                  children: {
-                    override: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceObject/override",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-eq-null",
-                            "Use '===' to compare with null.",
-                            "if (navigator.preferences.colorScheme.override == null) {",
-                            "1:5 - 1:55",
-                            `/en-US/docs/Web/API/PreferenceObject/override
-[no-eq-null] Use '===' to compare with null.
-~~~
-if (navigator.preferences.colorScheme.override == null) {
-  console.log(
-    "The user agent set the following color scheme:",
-    navigator.preferences.colorScheme.value,
-  );
-} else {
-  console.log(
-    "The following color scheme was set programmatically:",
-    navigator.preferences.colorScheme.override,
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '===' and instead saw '=='.",
-                            "if (navigator.preferences.colorScheme.override == null) {",
-                            "1:48 - 1:50",
-                            `/en-US/docs/Web/API/PreferenceObject/override
-[eqeqeq] Expected '===' and instead saw '=='.
-~~~
-if (navigator.preferences.colorScheme.override == null) {
-  console.log(
-    "The user agent set the following color scheme:",
-    navigator.preferences.colorScheme.value,
-  );
-} else {
-  console.log(
-    "The following color scheme was set programmatically:",
-    navigator.preferences.colorScheme.override,
-  );
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 profiler: {
                   children: {
@@ -19078,18 +18633,6 @@ if (navigator.preferences.colorScheme.override == null) {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
-                      ]
-                    }
-                  ]
-                },
-                user_preferences_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/User_Preferences_API",
-                  messages: [
-                    {
-                      message: "Code with space",
-                      data: [
-                        "media query"
                       ]
                     }
                   ]
@@ -21735,6 +21278,521 @@ oklch(from red l c h / alpha)
 /* rgb() with and without alpha channel */
 rgb(from red r g b)
 rgb(from red r g b / alpha)
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    conditional_rules: {
+                      children: {
+                        "container_scroll-state_queries": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#000" to be "#000000" (color-hex-length)',
+                                "  border: 1px solid #000;",
+                                "33:21 - 33:25",
+                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
+[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
+~~~
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  aspect-ratio: 3/2;
+}
+
+.bar {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #0009;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 5px;
+  right: 5px;
+}
+
+#top-bar {
+  top: -50px;
+  transition: 0.6s translate;
+}
+
+#bottom-bar {
+  bottom: -50px;
+  transition: 0.6s translate;
+}
+
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
+@container scroller scroll-state(scrolled: block-start) {
+  #top-bar {
+    translate: 0 55px;
+  }
+}
+
+@container scroller scroll-state(scrolled: block-end) {
+  #bottom-bar {
+    translate: 0 -55px;
+  }
+}
+
+@supports not (container-type: scroll-state) {
+  body::before {
+    content: "Your browser does not support \`scroll-state\` container queries.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#0009" to be "#00000099" (color-hex-length)',
+                                "  background-color: #0009;",
+                                "34:21 - 34:26",
+                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
+[color-hex-length] Expected "#0009" to be "#00000099" (color-hex-length)
+~~~
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  aspect-ratio: 3/2;
+}
+
+.bar {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #0009;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 5px;
+  right: 5px;
+}
+
+#top-bar {
+  top: -50px;
+  transition: 0.6s translate;
+}
+
+#bottom-bar {
+  bottom: -50px;
+  transition: 0.6s translate;
+}
+
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
+@container scroller scroll-state(scrolled: block-start) {
+  #top-bar {
+    translate: 0 55px;
+  }
+}
+
+@container scroller scroll-state(scrolled: block-end) {
+  #bottom-bar {
+    translate: 0 -55px;
+  }
+}
+
+@supports not (container-type: scroll-state) {
+  body::before {
+    content: "Your browser does not support \`scroll-state\` container queries.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "#000" to be "black" (color-named)',
+                                "  border: 1px solid #000;",
+                                "33:21 - 33:25",
+                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
+[color-named] Expected "#000" to be "black" (color-named)
+~~~
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  aspect-ratio: 3/2;
+}
+
+.bar {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #0009;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 5px;
+  right: 5px;
+}
+
+#top-bar {
+  top: -50px;
+  transition: 0.6s translate;
+}
+
+#bottom-bar {
+  bottom: -50px;
+  transition: 0.6s translate;
+}
+
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
+@container scroller scroll-state(scrolled: block-start) {
+  #top-bar {
+    translate: 0 55px;
+  }
+}
+
+@container scroller scroll-state(scrolled: block-end) {
+  #bottom-bar {
+    translate: 0 -55px;
+  }
+}
+
+@supports not (container-type: scroll-state) {
+  body::before {
+    content: "Your browser does not support \`scroll-state\` container queries.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "8:16 - 8:21",
+                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  aspect-ratio: 3/2;
+}
+
+.bar {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #0009;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 5px;
+  right: 5px;
+}
+
+#top-bar {
+  top: -50px;
+  transition: 0.6s translate;
+}
+
+#bottom-bar {
+  bottom: -50px;
+  transition: 0.6s translate;
+}
+
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
+@container scroller scroll-state(scrolled: block-start) {
+  #top-bar {
+    translate: 0 55px;
+  }
+}
+
+@container scroller scroll-state(scrolled: block-end) {
+  #bottom-bar {
+    translate: 0 -55px;
+  }
+}
+
+@supports not (container-type: scroll-state) {
+  body::before {
+    content: "Your browser does not support \`scroll-state\` container queries.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "8:23 - 8:32",
+                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  aspect-ratio: 3/2;
+}
+
+.bar {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: #0009;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  left: 5px;
+  right: 5px;
+}
+
+#top-bar {
+  top: -50px;
+  transition: 0.6s translate;
+}
+
+#bottom-bar {
+  bottom: -50px;
+  transition: 0.6s translate;
+}
+
+html {
+  container-type: scroll-state;
+  container-name: scroller;
+}
+
+@container scroller scroll-state(scrolled: block-start) {
+  #top-bar {
+    translate: 0 55px;
+  }
+}
+
+@container scroller scroll-state(scrolled: block-end) {
+  #bottom-bar {
+    translate: 0 -55px;
+  }
+}
+
+@supports not (container-type: scroll-state) {
+  body::before {
+    content: "Your browser does not support \`scroll-state\` container queries.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
 ~~~
 `
                               ]
@@ -31553,40 +31611,6 @@ blockquote p::after {
                         }
                       ]
                     },
-                    nesting: {
-                      children: {
-                        using: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -38870,19 +38894,6 @@ i {
                             }
                           ]
                         },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/short-note-on-what-css-display-properties-do-to-table-semantics/",
-                                "https://vispero.com/resources/"
-                              ]
-                            }
-                          ]
-                        },
                         fill: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/fill",
@@ -44670,40 +44681,7 @@ p:has(~ form > input:checked) {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/scroll-initial-target"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/font-width"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/column-height"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/baseline-shift"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/column-wrap"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     selectors: {
                       children: {
@@ -44945,13 +44923,6 @@ input:-internal-autofill-selected {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/what-is-an-accessible-name/",
-                                "https://vispero.com/resources/what-is-an-accessible-name/"
-                              ]
                             }
                           ]
                         },
@@ -59102,6 +59073,18 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                             }
                           ]
                         },
+                        data_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/Data_types",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Values/rule-list"
+                              ]
+                            }
+                          ]
+                        },
                         "dynamic-range-limit-mix": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix",
@@ -64465,8 +64448,10 @@ css.properties.grid-template-rows.repeat`
                           slug: "/en-US/docs/Web/CSS/Reference/Values/rule-list",
                           messages: [
                             {
-                              message: "Missing syntax code block",
-                              data: []
+                              message: "Not in BCD",
+                              data: [
+                                "css.types.rule-list"
+                              ]
                             }
                           ]
                         },
@@ -65763,33 +65748,27 @@ section::after {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/url_value",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Elements/svg"
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "CssSyntaxError",
                                 "Unknown word url (CssSyntaxError)",
-                                "url(styles.css)",
+                                'url("styles.css")',
                                 "2:1 - 2:4",
                                 `/en-US/docs/Web/CSS/Reference/Values/url_value
 [CssSyntaxError] Unknown word url (CssSyntaxError)
 ~~~
 /* Relative URL */
-url(styles.css)
-url(assets/icon.svg)
+url("styles.css")
+url("assets/icon.svg")
 url("../assets/image.png")
 
 /* Absolute URL */
-url(http://example.com/fonts/myFont.ttf)
+url("http://example.com/fonts/myFont.ttf")
 url("https://example.com/images/background.jpg")
 
 /* Data URL */
 url("data:image/svg+xml,%3Csvg'%3E%3Cpath d='M10 10h60' stroke='%2300F' stroke-width='5'/%3E%3Cpath d='M10 20h60' stroke='%230F0' stroke-width='5'/%3E%3C/svg%3E")
- url("data:image/png;base64,iVBORw0KGgoAAA...")
+url("data:image/png;base64,iVBORw0KGgoAAA...")
 ~~~
 `
                               ]
@@ -65815,16 +65794,7 @@ url("data:image/svg+xml,%3Csvg'%3E%3Cpath d='M10 10h60' stroke='%2300F' stroke-w
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/Values",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Values/rule-list"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     webkit_extensions: {
                       children: {},
@@ -66389,32 +66359,6 @@ function onclick(event) {
                             }
                           ]
                         },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/what-is-an-accessible-name/",
-                                "https://vispero.com/resources/what-is-an-accessible-name/"
-                              ]
-                            }
-                          ]
-                        },
-                        canvas: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/canvas",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/html5-canvas-accessibility-in-firefox-13/",
-                                "https://vispero.com/resources/"
-                              ]
-                            }
-                          ]
-                        },
                         datalist: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/datalist",
@@ -66432,13 +66376,6 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
-                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
-                              ]
                             }
                           ]
                         },
@@ -66591,13 +66528,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/using-the-html-title-attribute-updated/",
-                                "https://vispero.com/resources/using-the-html-title-attribute-updated/"
-                              ]
                             }
                           ]
                         },
@@ -67020,19 +66950,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        ins: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
-                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
-                              ]
-                            }
-                          ]
-                        },
                         kbd: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
@@ -67063,50 +66980,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
-                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
-                              ]
-                            }
-                          ]
-                        },
-                        meta: {
-                          children: {
-                            name: {
-                              children: {
-                                robots: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/robots",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://wiki.whatwg.org/wiki/MetaExtensions",
-                                        500
-                                      ]
-                                    }
-                                  ]
-                                }
-                              },
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://wiki.whatwg.org/wiki/MetaExtensions",
-                                    500
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -67134,19 +67007,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        s: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
-                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/"
-                              ]
                             }
                           ]
                         },
@@ -67271,13 +67131,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/using-the-tabindex-attribute/",
-                                "https://vispero.com/resources/using-the-tabindex-attribute/"
-                              ]
                             }
                           ]
                         },
@@ -67288,13 +67141,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.tpgi.com/using-the-html-title-attribute-updated/",
-                                "https://vispero.com/resources/using-the-html-title-attribute-updated/"
-                              ]
                             }
                           ]
                         }
@@ -67833,6 +67679,23 @@ doIt(); // returns "finally"
             },
             mathml: {
               children: {
+                guides: {
+                  children: {
+                    fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://greekfontsociety-gfs.gr/typefaces/Math",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     global_attributes: {
@@ -67882,19 +67745,6 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
-                        },
-                        setting_up_adaptive_streaming_media_sources: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www-itec.uni-klu.ac.at/bib/files/p89-lederer.pdf",
-                                404
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
@@ -67922,7 +67772,7 @@ doIt(); // returns "finally"
                               message: "Broken external link",
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
-                                "The operation timed out."
+                                "Unable to connect. Is the computer able to access the url?"
                               ]
                             }
                           ]
@@ -67942,7 +67792,7 @@ doIt(); // returns "finally"
                               message: "Broken external link",
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
-                                "The operation timed out."
+                                "Unable to connect. Is the computer able to access the url?"
                               ]
                             }
                           ]

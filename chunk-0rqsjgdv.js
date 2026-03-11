@@ -7383,7 +7383,7 @@ Below is a quick review of best practices, tools, APIs with links to provide mor
       },
       links: [
         "https://en.wikipedia.org/wiki/Universal_design",
-        "https://vispero.com/color-contrast-checker/",
+        "https://vispero.com/lp/color-contrast-checker/",
         "https://webaim.org/resources/contrastchecker/",
         "https://caniuse.com/#search=rem",
         "https://www.w3.org/TR/html-longdesc/",
@@ -16109,7 +16109,6 @@ In this lesson, we will take a look at some of the most frequently used value ty
         "https://w3c.github.io/aria/",
         "https://w3c.github.io/aria/#role_definitions",
         "https://w3c.github.io/aria/#state_prop_def",
-        "https://www.tpgi.com/rough-guide-browsers-operating-systems-and-screen-reader-support-updated/",
         "https://www.powermapper.com/tests/screen-readers/aria/",
         "https://jqueryui.com/about/#deep-accessibility-support",
         "https://www.sencha.com/products/extjs/",
@@ -40301,6 +40300,8 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
         "https://bugzil.la/2017708",
         "https://bugzil.la/2010427",
         "https://bugzil.la/2010427",
+        "https://bugzil.la/1799344",
+        "https://bugzil.la/2011234",
         "https://bugzil.la/1986631",
         "https://bugzil.la/1998245",
         "https://bugzil.la/2007772"
@@ -46323,7 +46324,6 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1986631",
         "https://bugzil.la/1998245",
         "https://bugzil.la/2007772",
-        "https://bugzil.la/1954685",
         "https://bugzil.la/1225110",
         "https://bugzil.la/1963263",
         "https://en.wikipedia.org/wiki/Graphics_Processing_Unit",
@@ -46405,8 +46405,6 @@ This information allows you to try out experimental features and provide feedbac
         "svg",
         "javascript",
         "apis",
-        "removal_of_beforescriptexecute_and_afterscriptexecute_events",
-        "dom.events.script_execute.enable",
         "notification_actions_and_maxactions_properties",
         "dom.webnotifications.actions.enabled",
         "graphics_canvas_webgl_and_webgpu",
@@ -91798,7 +91796,7 @@ When used, the element's text directionality value is included in form submissio
         "https://www.deque.com/blog/great-alt-text-introduction/",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
         "https://webkit.org/b/216364",
-        "https://www.tpgi.com/using-the-html-title-attribute-updated/"
+        "https://vispero.com/resources/using-the-html-title-attribute-updated/"
       ],
       imgs: [],
       ids: [
@@ -92580,7 +92578,7 @@ When used, the element's text directionality value is included in form submissio
         }
       ],
       links: [
-        "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+        "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
         "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html"
       ],
       imgs: [],
@@ -96320,7 +96318,7 @@ This element is most commonly used to link to stylesheets, but is also used to e
         }
       ],
       links: [
-        "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+        "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
         "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html"
       ],
       imgs: [],
@@ -96906,7 +96904,7 @@ This element is most commonly used to link to stylesheets, but is also used to e
         }
       ],
       links: [
-        "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+        "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
         "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html"
       ],
       imgs: [],
@@ -98708,7 +98706,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
         }
       ],
       links: [
-        "https://www.tpgi.com/short-note-on-making-your-mark-more-accessible/",
+        "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
         "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
         "https://w3c.github.io/html-aria/#dfn-no-corresponding-role"
       ],
@@ -99334,7 +99332,6 @@ It can also be the destination for streamed media, using a MediaStream.`,
         "https://jhildenbiddle.github.io/canvas-size/#/?id=test-results",
         "https://www.w3.org/WAI/PF/HTML/wiki/Canvas_Accessibility_Use_Cases",
         "https://www.w3.org/html/wg/wiki/AddedElementCanvas",
-        "https://www.tpgi.com/html5-canvas-accessibility-in-firefox-13/",
         "https://html.spec.whatwg.org/multipage/scripting.html#best-practices",
         "https://w3c.github.io/html-aria/#dfn-no-corresponding-role",
         "https://simon.html5.org/dump/html5-canvas-cheat-sheet.html",
@@ -100452,7 +100449,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
       ],
       links: [
         "https://www.a11yproject.com/posts/how-to-hide-content/",
-        "https://www.tpgi.com/what-is-an-accessible-name/",
+        "https://vispero.com/resources/what-is-an-accessible-name/",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
         "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
         "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
@@ -100592,47 +100589,47 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -100644,12 +100641,48 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -100660,7 +100693,15 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -100668,55 +100709,11 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         }
       ],
@@ -100835,7 +100832,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
       links: [
         "https://inclusive-components.design/tooltips-toggletips/",
         "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-        "https://www.tpgi.com/using-the-html-title-attribute-updated/",
+        "https://vispero.com/resources/using-the-html-title-attribute-updated/",
         "https://inclusive-components.design/tooltips-toggletips/",
         "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/"
       ],
@@ -101442,7 +101439,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
         }
       ],
       links: [
-        "https://www.tpgi.com/using-the-tabindex-attribute/",
+        "https://vispero.com/resources/using-the-tabindex-attribute/",
         "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html"
       ],
       imgs: [],
@@ -103965,7 +103962,7 @@ Some are aimed at complete beginners, while others present complex features to b
       imgs: [],
       ids: [
         "examples",
-        "using_initial_to_reset_color_for_an_element",
+        "basic_usage",
         "html",
         "css",
         "result",
@@ -107915,7 +107912,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     data: {
       metadata: {
         title: "rule-list",
-        pageType: "css-keyword",
+        pageType: "css-type",
         summary: "The <rule-list> CSS data type represents a sequence of zero or more CSS rules. It is used to define places in CSS where multiple rules may appear, such as the top level of a stylesheet or inside grouping at-rules like @media or @supports.",
         popularity: 0.00014590060401480103,
         modified: "1970-01-01T00:00:00.000Z",
@@ -108550,7 +108547,20 @@ It is used as a component of the <color-interpolation-method> data type.`,
       imgs: [],
       ids: [
         "examples",
-        "exclude_selected_elements_from_a_rule",
+        "basic_usage",
+        "html",
+        "css",
+        "result",
+        "frame_basic_usage",
+        "inheriting_all_property_values",
+        "css_2",
+        "result_2",
+        "frame_inheriting_all_property_values",
+        "excluding_selected_elements_from_a_rule",
+        "html_2",
+        "css_3",
+        "result_3",
+        "frame_exclude_selected_elements_from_a_rule",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -116644,23 +116654,37 @@ The condition is evaluated when the queried container size, <style-feature>, or 
         "inline-end",
         "block",
         "inline",
-        "snapped",
+        "scrolled",
         "none_2",
-        "x_2",
-        "y_2",
-        "block_2",
-        "inline_2",
-        "both",
-        "stuck",
-        "none_3",
         "top_2",
         "right_2",
         "bottom_2",
         "left_2",
+        "x_2",
+        "y_2",
         "block-start_2",
         "block-end_2",
         "inline-start_2",
         "inline-end_2",
+        "block_2",
+        "inline_2",
+        "snapped",
+        "none_3",
+        "x_3",
+        "y_3",
+        "block_3",
+        "inline_3",
+        "both",
+        "stuck",
+        "none_4",
+        "top_3",
+        "right_3",
+        "bottom_3",
+        "left_3",
+        "block-start_3",
+        "block-end_3",
+        "inline-start_3",
+        "inline-end_3",
         "formal_syntax",
         "@container",
         "<container-condition>",
@@ -125305,7 +125329,7 @@ An element is considered to be playing if it is currently playing the media reso
       links: [
         "https://drafts.csswg.org/selectors-4/#the-empty-pseudo",
         "https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link",
-        "https://www.tpgi.com/what-is-an-accessible-name/",
+        "https://vispero.com/resources/what-is-an-accessible-name/",
         "https://gomakethings.com/hidden-content-for-better-a11y/",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html",
         "https://drafts.csswg.org/selectors-4/#the-empty-pseudo"
@@ -134847,8 +134871,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://bugzil.la/275173",
-        "https://bugzil.la/275174",
-        "https://drafts.csswg.org/css-ui-4/"
+        "https://bugzil.la/275174"
       ],
       imgs: [
         "/en-US/docs/Web/CSS/Reference/Properties/cursor/default.gif",
@@ -134895,9 +134918,6 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "keyword",
         "formal_definition",
         "formal_syntax",
-        "cursor",
-        "<cursor-image>",
-        "<cursor-predefined>",
         "usage_notes",
         "icon_size_limits",
         "supported_image_file_formats",
@@ -144264,7 +144284,6 @@ The values allow for choosing between aligning to the box's first baseline, last
         "https://drafts.csswg.org/css-display/#valdef-display-contents",
         "https://hidde.blog/more-accessible-markup-with-display-contents/",
         "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-        "https://www.tpgi.com/short-note-on-what-css-display-properties-do-to-table-semantics/",
         "https://gomakethings.com/hidden-content-for-better-a11y/",
         "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
         "https://drafts.csswg.org/css-display-4/",
@@ -155583,35 +155602,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -155619,7 +155614,31 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -163825,15 +163844,20 @@ The HTML is the same in each example, so it's visible in the first section, and 
         "css",
         "result",
         "frame_scrollable",
-        "using_snapped_queries",
+        "using_scrolled_queries",
         "html_2",
         "css_2",
         "result_2",
-        "frame_snapped",
-        "using_stuck_queries",
+        "frame_scrolled",
+        "using_snapped_queries",
         "html_3",
         "css_3",
         "result_3",
+        "frame_snapped",
+        "using_stuck_queries",
+        "html_4",
+        "css_4",
+        "result_4",
         "frame_stuck",
         "see_also"
       ]
@@ -190943,6 +190967,207 @@ Fence interface specifies event data that will be sent when a navigation occurs 
         "once",
         "return_value",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedMediaSource",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedMediaSource",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ManagedMediaSource"
+        ],
+        summary: "The ManagedMediaSource interface of the Media Source Extensions API is a MediaSource that actively manages its memory content. Unlike a regular MediaSource, the user agent can evict content from its ManagedSourceBuffer objects at any time, for reasons such as memory or hardware limitations. This makes it suitable for power-efficient streaming scenarios where the user agent needs more control over buffered media data.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedmediasource",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ManagedMediaSource",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-managedmediasource",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "constructor",
+        "managedmediasource",
+        "instance_properties",
+        "managedmediasource.streaming",
+        "instance_methods",
+        "events",
+        "startstreaming",
+        "endstreaming",
+        "examples",
+        "setting_up_a_managed_media_source",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedMediaSource/ManagedMediaSource",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedMediaSource: ManagedMediaSource() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.ManagedMediaSource.ManagedMediaSource"
+        ],
+        summary: "The ManagedMediaSource() constructor of the ManagedMediaSource interface constructs and returns a new ManagedMediaSource object instance with no associated source buffers.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedmediasource/managedmediasource",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ManagedMediaSource()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-managedmediasource-constructor",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "creating_a_managedmediasource_and_attaching_it_to_a_video_element",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedMediaSource/endstreaming_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedMediaSource: endstreaming event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.ManagedMediaSource.endstreaming_event"
+        ],
+        summary: "The endstreaming event of the ManagedMediaSource interface is fired when the streaming property changes from true to false. This indicates that the user agent has enough data buffered to ensure uninterrupted playback, and the application can stop fetching new media segments.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedmediasource/endstreaming_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "endstreaming",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dfn-endstreaming",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "pausing_fetches_in_response_to_endstreaming",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedMediaSource/streaming",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedMediaSource: streaming property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ManagedMediaSource.streaming"
+        ],
+        summary: "The streaming read-only property of the ManagedMediaSource interface is a boolean indicating whether the application should actively fetch and append media data.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedmediasource/streaming",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "streaming",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-managedmediasource-streaming",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "checking_the_streaming_state",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedMediaSource/startstreaming_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedMediaSource: startstreaming event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.ManagedMediaSource.startstreaming_event"
+        ],
+        summary: "The startstreaming event of the ManagedMediaSource interface is fired when the streaming property changes from false to true. This indicates that the user agent needs more data to ensure uninterrupted playback, and the application should begin fetching and appending media segments.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedmediasource/startstreaming_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "startstreaming",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dfn-startstreaming",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "fetching_data_in_response_to_startstreaming",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -236718,6 +236943,89 @@ insertion order.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/ManagedSourceBuffer",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedSourceBuffer",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ManagedSourceBuffer"
+        ],
+        summary: "The ManagedSourceBuffer interface of the Media Source Extensions API is a SourceBuffer that is created by a ManagedMediaSource when addSourceBuffer() is called. It inherits all the properties and methods of SourceBuffer, and additionally fires a bufferedchange event whenever the buffered ranges change — including when the user agent evicts content as part of its memory cleanup algorithm.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedsourcebuffer",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ManagedSourceBuffer",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-managedsourcebuffer",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "instance_methods",
+        "events",
+        "bufferedchange",
+        "examples",
+        "listening_for_buffered_range_changes",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/ManagedSourceBuffer/bufferedchange_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "ManagedSourceBuffer: bufferedchange event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.ManagedSourceBuffer.bufferedchange_event"
+        ],
+        summary: "The bufferedchange event of the ManagedSourceBuffer interface is fired when the ManagedSourceBuffer's buffered range changes. This can occur following a call to appendBuffer(), remove(), endOfStream(), or as a consequence of the user agent running the memory cleanup algorithm.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/managedsourcebuffer/bufferedchange_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "bufferedchange",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dfn-bufferedchange",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "event_properties",
+        "addedranges",
+        "removedranges",
+        "examples",
+        "tracking_buffered_range_changes",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/Serial",
     links: {},
     data: {
@@ -248371,7 +248679,7 @@ RTCDTMFSender.toneBuffer is empty).`,
       links: [
         "https://lbsyun.baidu.com/index.php?title=jspopular/guide/geolocation",
         "https://lbs.amap.com/api/javascript-api/guide/services/geolocation#geolocation",
-        "https://lbs.qq.com/tool/component-geolocation.html",
+        "https://lbs.qq.com/service/webService/webServiceGuide/position/webServiceIp",
         "https://hacks.mozilla.org/2013/10/who-moved-my-geolocation/"
       ],
       imgs: [],
@@ -276633,6 +276941,7 @@ elements with a given name attribute in the document.`,
         "document.compatmode",
         "document.contenttype",
         "document.currentscript",
+        "document.customelementregistry",
         "document.doctype",
         "document.documentelement",
         "document.documenturi",
@@ -300355,7 +300664,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         browserCompat: [
           "api.PreferenceManager.contrast"
         ],
-        summary: "The contrast read-only property of the PreferenceManager interface returns a PreferenceObject used to override the user's preference for the color scheme of the site.",
+        summary: "The contrast read-only property of the PreferenceManager interface returns a PreferenceObject used to override the user's preference for the contrast of the site.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -306874,6 +307183,9 @@ list.`,
         "mediasourcehandle",
         "sourcebuffer",
         "sourcebufferlist",
+        "managedmediasource",
+        "managedsourcebuffer",
+        "bufferedchangeevent",
         "videoplaybackquality",
         "extensions_to_other_interfaces",
         "htmlmediaelement.buffered",
@@ -326066,6 +326378,167 @@ REDIRECTs done before reaching the page.`,
       ids: [
         "value",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/BufferedChangeEvent",
+    links: {},
+    data: {
+      metadata: {
+        title: "BufferedChangeEvent",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.BufferedChangeEvent"
+        ],
+        summary: "The BufferedChangeEvent interface of the Media Source Extensions API represents the event object for the bufferedchange event fired on a ManagedSourceBuffer. This event is fired whenever the buffered ranges of the ManagedSourceBuffer change, for example as a result of appendBuffer(), remove(), or endOfStream() calls, or when the user agent runs the memory cleanup algorithm.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/bufferedchangeevent",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "BufferedChangeEvent",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-bufferedchangeevent",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "constructor",
+        "bufferedchangeevent",
+        "instance_properties",
+        "bufferedchangeevent.addedranges",
+        "bufferedchangeevent.removedranges",
+        "examples",
+        "handling_buffered_range_changes",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/BufferedChangeEvent/addedRanges",
+    links: {},
+    data: {
+      metadata: {
+        title: "BufferedChangeEvent: addedRanges property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.BufferedChangeEvent.addedRanges"
+        ],
+        summary: "The addedRanges read-only property of the BufferedChangeEvent interface returns a TimeRanges object representing the time ranges that were added to the associated ManagedSourceBuffer. These are the ranges added between the last updatestart and updateend events, during the most recent run of the coded frame processing algorithm.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/bufferedchangeevent/addedranges",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "addedRanges",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-bufferedchangeevent-addedranges",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/BufferedChangeEvent/BufferedChangeEvent",
+    links: {},
+    data: {
+      metadata: {
+        title: "BufferedChangeEvent: BufferedChangeEvent() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.BufferedChangeEvent.BufferedChangeEvent"
+        ],
+        summary: "The BufferedChangeEvent() constructor of the BufferedChangeEvent interface creates a new BufferedChangeEvent object instance.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/bufferedchangeevent/bufferedchangeevent",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "BufferedChangeEvent()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-bufferedchangeevent-constructor",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "type",
+        "options",
+        "addedranges",
+        "removedranges",
+        "return_value",
+        "examples",
+        "inspecting_a_bufferedchange_event",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/BufferedChangeEvent/removedRanges",
+    links: {},
+    data: {
+      metadata: {
+        title: "BufferedChangeEvent: removedRanges property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.BufferedChangeEvent.removedRanges"
+        ],
+        summary: "The removedRanges read-only property of the BufferedChangeEvent interface returns a TimeRanges object representing the time ranges that were removed from the associated ManagedSourceBuffer. These are the ranges removed between the last updatestart and updateend events, during the most recent run of the coded frame removal or coded frame eviction algorithm, or as a consequence of the user agent running the memory cleanup algorithm.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/bufferedchangeevent/removedranges",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "removedRanges",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/media-source/#dom-bufferedchangeevent-removedranges",
+          title: "Media Source Extensions™"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_removed_ranges_on_buffer_change",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -412731,7 +413204,7 @@ a link with a target attribute.`,
         browserCompat: [
           "api.Window.pageshow_event"
         ],
-        summary: "The pageshow event is sent to a Window when the browser displays the window's document due to navigation.",
+        summary: "The pageshow event is sent to a Window when the browser navigates to a new document.",
         popularity: 0.0007973159768696169,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -419167,6 +419640,7 @@ Strings are inserted as equivalent Text nodes.`,
         "element.clienttop",
         "element.clientwidth",
         "element.currentcsszoom",
+        "element.customelementregistry",
         "element.elementtiming",
         "element.firstelementchild",
         "element.id",
@@ -473254,11 +473728,7 @@ on history navigation.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -473266,7 +473736,11 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          title: "Web Audio API"
+        },
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -523753,7 +524227,15 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -523761,7 +524243,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -523770,14 +524252,6 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -525902,7 +526376,7 @@ These articles provide guidance on selecting and configuring image types.`,
         "https://developer.apple.com/streaming/",
         "https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx",
         "https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/Introduction/Introduction.html",
-        "https://www-itec.uni-klu.ac.at/bib/files/p89-lederer.pdf",
+        "https://dl.acm.org/doi/10.1145/2155555.2155570",
         "https://www.slideshare.net/slideshow/dynamic-adaptive-streaming-over-http-from-content-creation-to-consumption/14933566",
         "https://github.com/slederer/DASHEncoder",
         "https://github.com/gpac/gpac/wiki/MP4Box",
@@ -530135,31 +530609,7 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -530167,7 +530617,103 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -530179,19 +530725,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -530199,19 +530733,23 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -530219,31 +530757,51 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -530252,90 +530810,6 @@ this statement has no effect.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -534559,39 +535033,7 @@ be different.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -534599,7 +535041,39 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -587874,11 +588348,11 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -587890,15 +588364,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         }
       ],
@@ -606506,7 +606980,7 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
         }
       ],
       links: [
-        "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability"
+        "https://primer.style/accessibility/design-guidance/focus-management/"
       ],
       imgs: [],
       ids: [
@@ -607353,7 +607827,6 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
       ],
       links: [
         "https://matatk.agrip.org.uk/landmarks/",
-        "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
         "https://www.scottohara.me/blog/2018/03/03/landmarks.html",
         "https://html5doctor.com/aside-revisited/"
       ],
@@ -608749,7 +609222,7 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
       links: [
         "https://w3c.github.io/aria/#alert",
         "https://www.a11yproject.com/posts/how-to-hide-content/",
-        "https://www.tpgi.com/aria-alert-support/",
+        "https://vispero.com/resources/aria-alert-support/",
         "https://www.w3.org/WAI/ARIA/apg/patterns/alert/examples/alert/"
       ],
       imgs: [],
@@ -608863,7 +609336,6 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
         }
       ],
       links: [
-        "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
         "https://www.scottohara.me/blog/2018/03/03/landmarks.html",
         "https://html5doctor.com/nav-element/"
       ],
@@ -608965,7 +609437,6 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
       ],
       links: [
         "https://matatk.agrip.org.uk/landmarks/",
-        "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
         "https://www.scottohara.me/blog/2018/03/03/landmarks.html",
         "https://html5doctor.com/the-footer-element-update/"
       ],
@@ -609173,7 +609644,6 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
       ],
       links: [
         "https://webaim.org/techniques/skipnav/",
-        "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
         "https://www.scottohara.me/blog/2018/03/03/landmarks.html",
         "https://html5doctor.com/the-main-element/"
       ],
@@ -609565,7 +610035,7 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
         }
       ],
       links: [
-        "https://usability.yale.edu/web-accessibility/articles/focus-keyboard-operability",
+        "https://primer.style/accessibility/design-guidance/focus-management/",
         "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
       ],
       imgs: [],
@@ -610074,7 +610544,6 @@ While aria-busy is commonly used in ARIA live regions to delay announcements unt
         }
       ],
       links: [
-        "https://www.tpgi.com/using-wai-aria-landmarks-2013/",
         "https://www.scottohara.me/blog/2018/03/03/landmarks.html"
       ],
       imgs: [],
@@ -610212,7 +610681,7 @@ This page lists the guides that you can use to help improve the accessibility of
       },
       links: [
         "https://www.w3.org/WAI/ARIA/apg/example-index/alert/alert.html",
-        "https://www.tpgi.com/screen-reader-support-aria-live-regions/",
+        "https://vispero.com/resources/screen-reader-support-aria-live-regions/",
         "https://pauljadam.com/demos/aria-atomic-relevant.html"
       ],
       imgs: [
@@ -610967,7 +611436,7 @@ They're intended to help you understand what kinds of things are possible to imp
       },
       links: [
         "https://w3c.github.io/wcag/guidelines/22/#contrast-minimum",
-        "https://www.tpgi.com/using-the-html-title-attribute-updated/",
+        "https://vispero.com/resources/using-the-html-title-attribute-updated/",
         "https://w3c.github.io/wcag/guidelines/22/#dfn-name",
         "https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html",
         "https://w3c.github.io/aria/#state_prop_def",
