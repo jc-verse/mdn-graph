@@ -4428,6 +4428,7 @@ The current state of Node.js is such that almost everything we need for the stat
         "styling_web_forms",
         "advanced_form_styling",
         "customizable_select_elements",
+        "customizable_select_listboxes",
         "ui_pseudo-classes",
         "validating_and_submitting_form_data",
         "client-side_form_validation",
@@ -4748,6 +4749,47 @@ The current state of Node.js is such that almost everything we need for the stat
     }
   },
   {
+    id: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes",
+    links: {},
+    data: {
+      metadata: {
+        title: "Customizable select listboxes",
+        pageType: "learn-module-chapter",
+        summary: "This article follows on from the previous one, and looks at how to style customizable listbox <select> elements.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/learn_web_development/extensions/forms/customizable_select_listboxes",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Customizable listboxes",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "select_listboxes_vs_dropdown_selects",
+        "frame_select-comparison",
+        "how_do_customizable_listboxes_compare_to_customizable_dropdowns",
+        "a_basic_customized_listbox",
+        "frame_basic-listbox",
+        "listbox_style_variations",
+        "expanding_listbox",
+        "frame_expanding-listbox",
+        "horizontal_listbox",
+        "frame_horizontal-listbox",
+        "a_more_complex_listbox",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_complex-listbox",
+        "next_up",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
     links: {},
     data: {
@@ -4929,6 +4971,9 @@ We'll expand on each of these subtopics in more detail later on in the module.`,
       metadata: {
         title: "Customizable select elements",
         pageType: "learn-module-chapter",
+        browserCompat: [
+          "css.properties.appearance.base-select"
+        ],
         summary: "This article explains how to create fully-customized <select> elements using experimental browser features. This includes having full control over styling the select button, drop-down picker, arrow icon, current selection checkmark, and each individual <option> element.",
         popularity: 0.005961375383759688,
         modified: "1970-01-01T00:00:00.000Z",
@@ -4960,11 +5005,11 @@ We'll expand on each of these subtopics in more detail later on in the module.`,
         "display",
         "overlay",
         "positioning_the_picker_using_anchor_positioning",
-        "final_result",
+        "main_example_final_result",
         "frame_full-render_2",
-        "customizing_other_classic_select_features",
-        "select_multiple",
-        "optgroup",
+        "styling_optgroups",
+        "frame_optgroup-example",
+        "browser_compatibility",
         "next_up",
         "see_also"
       ]
@@ -40300,6 +40345,7 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
         "https://whattrainisitnow.com/release/?version=149",
         "https://bugzil.la/1867743",
         "https://bugzil.la/2014703",
+        "https://bugzil.la/2010125",
         "https://bugzil.la/1998668",
         "https://bugzil.la/1966073",
         "https://bugzil.la/1773312",
@@ -100657,64 +100703,28 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -100725,7 +100735,15 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -100733,11 +100751,23 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
@@ -100749,7 +100779,11 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -100757,15 +100791,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
@@ -100773,15 +100799,35 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         }
       ],
@@ -110138,7 +110184,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
       ],
       links: [
         "https://en.wikipedia.org/wiki/Alpha_compositing",
-        "https://drafts.fxtf.org/compositing-1/#simplealphacompositing",
+        "https://drafts.csswg.org/compositing-1/#simplealphacompositing",
         "https://en.wikipedia.org/wiki/ICC_profile",
         "https://en.wikipedia.org/wiki/SRGB",
         "https://en.wikipedia.org/wiki/CIELAB_color_space",
@@ -129658,8 +129704,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#the-mask-border-mode",
+          title: "CSS Masking Module Level 1"
         }
       ],
       links: [
@@ -138716,6 +138762,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "slider-vertical",
         "-apple-pay-button",
         "description",
+        "customizable_select_elements",
         "prefixed_non-standard_values",
         "formal_definition",
         "formal_syntax",
@@ -140793,7 +140840,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         }
       ],
       links: [
-        "https://drafts.fxtf.org/fill-stroke-3/#stroke-shorthand",
+        "https://drafts.csswg.org/fill-stroke-3/#stroke-shorthand",
         "https://svgwg.org/svg2-draft/pservers.html",
         "https://svgwg.org/svg2-draft/painting.html#TermContextElement",
         "https://drafts.csswg.org/fill-stroke-3/",
@@ -155776,23 +155823,27 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -155804,20 +155855,16 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -160456,8 +160503,8 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/motion/",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://drafts.csswg.org/motion-1/",
+          title: "Motion Path Module Level 1"
         }
       ],
       links: [],
@@ -160634,8 +160681,8 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking/",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/",
+          title: "CSS Masking Module Level 1"
         }
       ],
       links: [],
@@ -160886,12 +160933,12 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects-2/",
-          title: "Filters 2.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-2/",
+          title: "Filter Effects Module Level 2"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects-1/",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -163885,8 +163932,8 @@ The HTML is the same in each example, so it's visible in the first section, and 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/compositing/",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://drafts.csswg.org/compositing-1/",
+          title: "Compositing and Blending Level 1"
         }
       ],
       links: [
@@ -171256,8 +171303,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-tablevalues",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-tablevalues",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -171327,9 +171374,9 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       links: [
         "https://svgwg.org/specs/animations/#AnimateTransformElementTypeAttribute",
-        "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecolormatrix-type",
-        "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-type",
-        "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-type",
+        "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecolormatrix-type",
+        "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-type",
+        "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feturbulence-type",
         "https://svgwg.org/svg2-draft/interact.html#ScriptElementTypeAttribute",
         "https://svgwg.org/svg2-draft/styling.html#StyleElementTypeAttribute"
       ],
@@ -171451,8 +171498,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-amplitude",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-amplitude",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -172392,8 +172439,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-result",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-result",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -172426,24 +172473,24 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-x",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-x",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespotlight-x",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-x",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fepointlight-x",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-x",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-x",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-x",
+          title: "CSS Masking Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#X",
@@ -172524,16 +172571,16 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-kernelunitlength",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespecularlighting-kernelunitlength",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fediffuselighting-kernelunitlength",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelunitlength",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-kernelunitlength",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -172566,8 +172613,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-edgemode",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-edgemode",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -172894,8 +172941,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-in",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [
@@ -173184,12 +173231,12 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-specularexponent",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespecularlighting-specularexponent",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-specularexponent",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespotlight-specularexponent",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [
@@ -173340,16 +173387,16 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-height",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-height",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-height",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-height",
+          title: "CSS Masking Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Sizing",
@@ -173572,8 +173619,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-preserveaspectratio",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feimage-preserveaspectratio",
+          title: "Filter Effects Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute",
@@ -173689,16 +173736,16 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-width",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-width",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-width",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-width",
+          title: "CSS Masking Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Sizing",
@@ -174537,8 +174584,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-intercept",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-intercept",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -174680,8 +174727,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#element-attrdef-clippath-clippathunits",
+          title: "CSS Masking Module Level 1"
         }
       ],
       links: [],
@@ -175332,16 +175379,16 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-in2",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fedisplacementmap-in2",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-in2",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomposite-in2",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-in2",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feblend-in2",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -175411,8 +175458,8 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecolormatrix-values",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecolormatrix-values",
+          title: "Filter Effects Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/specs/animations/#ValuesAttribute",
@@ -175695,12 +175742,12 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fediffuselighting-surfacescale",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-surfacescale",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespecularlighting-surfacescale",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [
@@ -175942,12 +175989,12 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dx",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fedropshadow-dx",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dx",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feoffset-dx",
+          title: "Filter Effects Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute",
@@ -176577,12 +176624,12 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedropshadow-dy",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fedropshadow-dy",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-feoffset-dy",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-feoffset-dy",
+          title: "Filter Effects Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute",
@@ -178432,12 +178479,12 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-femorphology-operator",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-femorphology-operator",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-operator",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomposite-operator",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -178517,8 +178564,8 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-slope",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-slope",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -178836,12 +178883,12 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-z",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fepointlight-z",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-z",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespotlight-z",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -179244,8 +179291,8 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomponenttransfer-exponent",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-exponent",
+          title: "Filter Effects Module Level 1"
         }
       ],
       links: [],
@@ -179278,24 +179325,24 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-y",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-y",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespotlight-y",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-fepointlight-y",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-fepointlight-y",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-y",
-          title: "Filters 1.0"
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitive-y",
+          title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
-          title: "CSS Masks"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-y",
+          title: "CSS Masking Module Level 1"
         },
         {
           bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Y",
@@ -179686,7 +179733,7 @@ For an animation element, this is the point at which the animation should begin.
         status: []
       },
       links: [
-        "https://drafts.fxtf.org/filter-effects/#attr-valuedef-in-sourcealpha"
+        "https://drafts.csswg.org/filter-effects-1/#attr-valuedef-in-sourcealpha"
       ],
       imgs: [],
       ids: [
@@ -474682,15 +474729,15 @@ on history navigation.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          title: "Web Audio API"
+        },
+        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
@@ -525181,11 +525228,7 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -525193,11 +525236,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -525205,7 +525248,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         }
       ],
@@ -531567,59 +531614,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531627,15 +531622,11 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531643,15 +531634,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531659,47 +531642,11 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531711,19 +531658,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531731,11 +531666,55 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531743,11 +531722,47 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531755,7 +531770,27 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531763,7 +531798,19 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -535987,15 +536034,11 @@ be different.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -536003,23 +536046,7 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -536027,7 +536054,27 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -536698,7 +536745,7 @@ be different.`,
       ids: [
         "syntax",
         "parameters",
-        "hhh",
+        "h…h",
         "description",
         "f",
         "c",
@@ -536706,7 +536753,7 @@ be different.`,
         "sect",
         "xhh",
         "uhhhh",
-        "uhhh",
+        "uh…h",
         "examples",
         "using_character_escapes",
         "specifications",
@@ -589302,14 +589349,6 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
@@ -589318,11 +589357,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {

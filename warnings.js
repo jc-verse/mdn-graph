@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-4as1gh9j.js";
+} from "./chunk-m3p6np57.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -38,7 +38,17 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.meta.com/quest/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               }
             },
@@ -299,6 +309,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1269,6 +1292,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1326,6 +1362,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            tree_shaking: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Tree_shaking",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://exploringjs.com/es6/ch_modules.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1420,6 +1469,19 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
+                    multimedia: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://transcribear.com/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         "wai-aria": {
@@ -1567,6 +1629,19 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://humanrights.gov.au/resource-hub/resources-for-organisations-businesses/disability-resources-employers/guidelines-equal-access-digital-goods-and-services",
+                            "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -1612,6 +1687,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2597,6 +2679,20 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/accessibility/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2607,13 +2703,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2624,6 +2713,34 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2634,6 +2751,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2661,20 +2785,20 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    react_components: {
+                    react_getting_started: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://babeljs.io/",
                             "The operation timed out."
                           ]
                         }
@@ -4645,13 +4769,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/computed.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4682,6 +4799,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4702,13 +4826,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/lifecycle.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5268,19 +5385,6 @@ button {
 <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -6168,20 +6272,7 @@ span {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    pseudo_classes_and_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cssarrowplease.com/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -6714,6 +6805,19 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    deployment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitest.dev/guide/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     introducing_complete_toolchain: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
@@ -6721,14 +6825,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://eslint.org/docs/latest/rules/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
                           ]
                         }
@@ -6741,7 +6852,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         },
@@ -6771,6 +6896,4525 @@ button:active {
                 },
                 forms: {
                   children: {
+                    customizable_select: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "16:21 - 16:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "17:15 - 17:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "26:21 - 26:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "28:15 - 28:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "39:15 - 39:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: #fff;",
+                            "48:15 - 48:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: #fff;",
+                            "48:15 - 48:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  width: 200px;
+}
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+}
+
+::picker(select) {
+  border: none;
+}
+
+optgroup {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 0 0 0;
+  margin-top: 5px;
+}
+
+optgroup legend {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<legend> element is not permitted as content under <optgroup>",
+                            "legend",
+                            "4:6",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[element-permitted-content] <legend> element is not permitted as content under <optgroup>
+~~~
+<label for="animal-select">Select animal:</label><br />
+<select id="animal-select">
+  <optgroup>
+    <legend>Domestic</legend>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="guinea">Guinea pig</option>
+  </optgroup>
+  <optgroup>
+    <legend>Farm</legend>
+    <option value="chicken">Chicken</option>
+    <option value="cow">Cow</option>
+    <option value="pig">Pig</option>
+  </optgroup>
+</select>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<legend> element is not permitted as content under <optgroup>",
+                            "legend",
+                            "10:6",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
+[element-permitted-content] <legend> element is not permitted as content under <optgroup>
+~~~
+<label for="animal-select">Select animal:</label><br />
+<select id="animal-select">
+  <optgroup>
+    <legend>Domestic</legend>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="guinea">Guinea pig</option>
+  </optgroup>
+  <optgroup>
+    <legend>Farm</legend>
+    <option value="chicken">Chicken</option>
+    <option value="cow">Cow</option>
+    <option value="pig">Pig</option>
+  </optgroup>
+</select>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "css.properties.appearance.base-select",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    customizable_select_listboxes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Expression expected.",
+                            "];",
+                            "4:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[syntax] Parsing error: Expression expected.
+~~~
+const contacts = [
+  { name: "Aisha Khan", selected: false },
+  ...
+];
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "14:21 - 14:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "16:15 - 16:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "22:15 - 22:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "14:21 - 14:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "16:15 - 16:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "22:15 - 22:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+select {
+  height: 44px;
+  overflow: hidden;
+  transition: 0.6s height;
+  interpolate-size: allow-keywords;
+}
+
+select:hover,
+select:has(option:focus) {
+  height: fit-content;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "14:21 - 14:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "16:15 - 16:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "22:15 - 22:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: #fff;",
+                            "29:15 - 29:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+select {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 130px;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+option {
+  padding: 10px 30px;
+  position: relative;
+}
+
+option::checkmark {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<div> element is not permitted as content under <select>",
+                            "div",
+                            "4:6",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <div> element is not permitted as content under <select>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "5:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "6:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "7:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "8:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "9:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "10:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<option> element is not permitted as content under <div>",
+                            "option",
+                            "11:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[element-permitted-content] <option> element is not permitted as content under <div>
+~~~
+<p>
+  <label for="pet-select">Select pets:</label><br />
+  <select id="pet-select" multiple>
+    <div class="wrapper">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="chicken">Chicken</option>
+      <option value="fish">Fish</option>
+      <option value="hamster">Hamster</option>
+      <option value="gerbil">Gerbil</option>
+      <option value="guinea">Guinea pig</option>
+    </div>
+  </select>
+</p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  border: 2px solid #ddd;",
+                            "14:21 - 14:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  background: #ddd;",
+                            "16:15 - 16:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
+                            "  border: 1px solid #bbb;",
+                            "24:21 - 24:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#bbb" to be "#bbbbbb" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  background: #ddd;",
+                            "31:15 - 31:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
+                            "  border: 1px solid #bbb;",
+                            "38:21 - 38:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#bbb" to be "#bbbbbb" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: #eee;",
+                            "49:15 - 49:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: #fff;",
+                            "54:15 - 54:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#999" to be "#999999" (color-hex-length)',
+                            "  border: 1px solid #999;",
+                            "74:21 - 74:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eef" to be "#eeeeff" (color-hex-length)',
+                            "  background: #eef;",
+                            "75:15 - 75:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#eef" to be "#eeeeff" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#333" to be "#333333" (color-hex-length)',
+                            "  color: #333;",
+                            "79:10 - 79:14",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#666" to be "#666666" (color-hex-length)',
+                            "  outline: 2px dotted #666;",
+                            "84:23 - 84:27",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: #fff;",
+                            "54:15 - 54:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: base-select;
+}
+
+.wrapper {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #ddd;
+  width: 250px;
+}
+
+.filter input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  width: 95%;
+  margin: 8px auto;
+}
+
+.options {
+  padding: 0 5px;
+  background: #ddd;
+}
+
+select {
+  height: 200px;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #bbb;
+}
+
+.edit {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+option {
+  background: #eee;
+  padding: 10px;
+}
+
+option:nth-of-type(odd) {
+  background: #fff;
+}
+
+option:checked {
+  font-weight: bold;
+}
+
+option:hover,
+option:focus {
+  background: plum;
+}
+
+input,
+option,
+a {
+  outline: none;
+}
+
+input:hover,
+input:focus {
+  border: 1px solid #999;
+  background: #eef;
+}
+
+.edit a {
+  color: #333;
+}
+
+a:hover,
+a:focus {
+  outline: 2px dotted #666;
+}
+
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
+
+@supports not (appearance: base-select) {
+  body::before {
+    content: "Your browser does not support \`appearance: base-select\`.";
+    color: black;
+    background-color: wheat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1;
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     how_to_build_custom_form_controls: {
                       children: {
                         example_1: {
@@ -12319,27 +16963,6 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     }
@@ -12349,14 +16972,14 @@ textarea:focus {
                   children: {
                     express_nodejs: {
                       children: {
-                        development_environment: {
+                        skeleton_website: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://eslint.org/",
+                                "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
                             }
@@ -12373,7 +16996,14 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://itemsapi.com/",
+                                "https://laravel.com/docs/cache",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://laravel.com/docs/broadcasting",
                                 "The operation timed out."
                               ]
                             }
@@ -12926,13 +17556,6 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.andyroid.net/",
                             503
                           ]
@@ -12947,7 +17570,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -12965,6 +17588,36 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://help.ubuntu.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -13195,19 +17848,6 @@ padding-left: 20px;
                           data: []
                         }
                       ]
-                    },
-                    what_are_browser_developer_tools: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/web-inspector/sources-tab/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -13345,6 +17985,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16386,40 +21033,6 @@ api.DeviceOrientationEvent`,
                             [
                               "deprecated"
                             ]
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                element: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                elementinternals: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -22768,13 +27381,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://alastairc.uk/2017/06/the-responsive-order-conflict/",
-                                "certificate has expired"
                               ]
                             }
                           ]
@@ -32078,6 +36684,40 @@ blockquote p::after {
                         }
                       ]
                     },
+                    nesting: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -35685,19 +40325,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        breadcrumb_navigation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/using-the-aria-current-attribute/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -67833,33 +72460,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "content-security-policy": {
-                          children: {
-                            "object-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/object-src",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://csp.withgoogle.com/docs/strict-csp.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://csp.withgoogle.com/docs/strict-csp.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
@@ -67982,10 +72582,61 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
+                guide: {
+                  children: {
+                    modules: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://exploringjs.com/es6/ch_modules.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        static_initialization_blocks: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://2ality.com/2021/09/class-static-block.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     global_objects: {
                       children: {
@@ -68034,27 +72685,6 @@ http.headers.Use-As-Dictionary`,
                                   ]
                                 }
                               ]
-                            }
-                          }
-                        },
-                        intl: {
-                          children: {
-                            displaynames: {
-                              children: {
-                                of: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://unstats.un.org/unsd/methodology/m49/",
-                                        "The operation timed out."
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
                             }
                           }
                         },
@@ -68156,8 +72786,68 @@ let z = 1;
                         }
                       ]
                     },
+                    operators: {
+                      children: {
+                        remainder: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://2ality.com/2019/08/remainder-vs-modulo.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        typeof: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://2ality.com/2013/10/typeof-null.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    regular_expressions: {
+                      children: {
+                        unicode_character_class_escape: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://2ality.com/2017/07/regexp-unicode-property-escapes.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
+                        export: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://exploringjs.com/es6/ch_modules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -68166,6 +72856,19 @@ let z = 1;
                               message: "Not in BCD",
                               data: [
                                 "javascript.statements.expression_statement"
+                              ]
+                            }
+                          ]
+                        },
+                        import: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://exploringjs.com/es6/ch_modules.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -68484,19 +73187,6 @@ doIt(); // returns "finally"
               children: {
                 attacks: {
                   children: {
-                    mitm: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/MITM",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     supply_chain_attacks: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
@@ -68641,26 +73331,6 @@ doIt(); // returns "finally"
 html.elements.script.integrity`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    transport_layer_security: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Transport_Layer_Security",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.ssllabs.com/ssltest/",
-                            "The operation timed out."
                           ]
                         }
                       ]
