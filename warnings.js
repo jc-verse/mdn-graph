@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-je1yk0h1.js";
+} from "./chunk-tvtq9xgz.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1149,16 +1149,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            rng: {
-              children: {},
-              slug: "/en-US/docs/Glossary/RNG",
-              messages: [
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
             router: {
               children: {},
               slug: "/en-US/docs/Glossary/Router",
@@ -1186,6 +1176,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            search_engine: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Search_engine",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.webopedia.com/definitions/search-engine/",
+                    403
+                  ]
                 }
               ]
             },
@@ -1266,6 +1269,32 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            spa: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SPA",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vuejs.org/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
+            sql: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SQL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sqlzoo.net/wiki/SQL_Tutorial",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1580,6 +1609,19 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://humanrights.gov.au/resource-hub/resources-for-organisations-businesses/disability-resources-employers/guidelines-equal-access-digital-goods-and-services",
+                            "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -2610,13 +2652,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/accessibility/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2627,13 +2662,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2648,28 +2676,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
                             "The operation timed out."
                           ]
                         }
@@ -2695,21 +2702,21 @@ ul li {
                         }
                       ]
                     },
-                    main_features: {
+                    introduction: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://vuejs.org/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/testing/",
+                            "https://v2.vuejs.org/v2/guide/comparison.html",
                             "The operation timed out."
                           ]
                         }
@@ -2723,6 +2730,19 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
                             "The operation timed out."
                           ]
                         }
@@ -4763,6 +4783,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6716,7 +6743,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://preset-env.cssdb.org/features/",
+                            "https://eslint.org/docs/latest/rules/",
                             "The operation timed out."
                           ]
                         }
@@ -6736,7 +6763,41 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/cli/",
                             "The operation timed out."
                           ]
                         }
@@ -16740,6 +16801,13 @@ option::checkmark {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -16813,6 +16881,27 @@ textarea:focus {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://squoosh.app/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://squoosh.app/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://squoosh.app/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     }
@@ -16820,17 +16909,17 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    first_steps: {
+                    express_nodejs: {
                       children: {
-                        web_frameworks: {
+                        mongoose: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://itemsapi.com/",
-                                "The operation timed out."
+                                "https://www.mongodb.com/try/download/community-edition/releases",
+                                503
                               ]
                             }
                           ]
@@ -17382,13 +17471,6 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.andyroid.net/",
                             503
                           ]
@@ -17403,7 +17485,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
@@ -17421,23 +17503,6 @@ body {
             },
             getting_started: {
               children: {
-                web_standards: {
-                  children: {
-                    how_the_web_works: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -17679,21 +17744,7 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -17942,19 +17993,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                what_we_write: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/What_we_write",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.mozilla.org/",
-                        502
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -18061,17 +18099,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -18095,17 +18133,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -18114,10 +18152,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -19548,56 +19586,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        502
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        502
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
-                        502
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7290363",
-                        502
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                    502
-                  ]
-                }
-              ]
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -19918,19 +19907,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
-                        keyboard: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -23907,6 +23883,19 @@ env(viewport-segment-width 0 1)
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -27488,13 +27477,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -27582,19 +27564,6 @@ css.at-rules.font-face.WOFF_2`,
                     },
                     grid_layout: {
                       children: {
-                        accessibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         basic_concepts: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
@@ -38835,10 +38804,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                           slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -38999,13 +38964,6 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -40202,6 +40160,13 @@ section {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -44124,19 +44089,6 @@ i {
                             }
                           ]
                         },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         fill: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/fill",
@@ -44440,13 +44392,6 @@ ellipse {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2015/09/source-order-matters.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -47121,13 +47066,6 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2015/09/source-order-matters.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -47148,19 +47086,6 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        overflow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -47811,32 +47736,6 @@ body {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "reading-flow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-flow",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "reading-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-order",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -49188,6 +49087,19 @@ div {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -64413,26 +64325,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                             }
                           ]
                         },
-                        "display-box": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/display-box",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "dynamic-range-limit-mix": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix",
@@ -65141,6 +65033,18 @@ css.properties.width.fit-content_function`
                               message: "Not in BCD",
                               data: [
                                 "css.types.frequency-percentage"
+                              ]
+                            }
+                          ]
+                        },
+                        functions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Values/random"
                               ]
                             }
                           ]
@@ -69683,6 +69587,1803 @@ progress(3em, 0, 100)
                             }
                           ]
                         },
+                        random: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/random",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "fixed <number>"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "<calc-sum>, <calc-sum>"
+                              ]
+                            },
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "<random-value-sharing>",
+                                "Text before code:",
+                                "The optional first"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/hsl"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/API/Math/random"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(element-shared, 0deg, 360deg)" for property "rotate" (declaration-property-value-no-unknown)',
+                                "  rotate: random(element-shared, 0deg, 360deg);",
+                                "2:11 - 2:47",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 0deg, 360deg)" for property "rotate" (declaration-property-value-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(element-shared, 50px, 300px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(element-shared, 50px, 300px);",
+                                "3:10 - 3:45",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 50px, 300px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hsl(random(element-shared, 0, 360) 50% 50%)" for property "background-color" (declaration-property-value-no-unknown)',
+                                "  background-color: hsl(random(element-shared, 0, 360) 50% 50%);",
+                                "4:21 - 4:64",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "hsl(random(element-shared, 0, 360) 50% 50%)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(element-shared, 50px, 300px)" for property "height" (declaration-property-value-no-unknown)',
+                                "  height: random(element-shared, 50px, 300px);",
+                                "5:11 - 5:46",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 50px, 300px)" for property "height" (declaration-property-value-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  rotate: random(element-shared, 0deg, 360deg);",
+                                "2:11 - 2:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(element-shared, 50px, 300px);",
+                                "3:10 - 3:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  background-color: hsl(random(element-shared, 0, 360) 50% 50%);",
+                                "4:25 - 4:31",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  height: random(element-shared, 50px, 300px);",
+                                "5:11 - 5:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.box {
+  rotate: random(element-shared, 0deg, 360deg);
+  width: random(element-shared, 50px, 300px);
+  background-color: hsl(random(element-shared, 0, 360) 50% 50%);
+  height: random(element-shared, 50px, 300px);
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(element-shared, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(element-shared, 10px, 200px);",
+                                "4:10 - 4:45",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)',
+                                "  height: random(element-shared, 10px, 200px);",
+                                "5:11 - 5:46",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(element-shared, 10px, 200px);",
+                                "4:10 - 4:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  height: random(element-shared, 10px, 200px);",
+                                "5:11 - 5:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "A" to be "a" (selector-type-case)',
+                                "A,",
+                                "1:1 - 1:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "A" to be "a" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "B" to be "b" (selector-type-case)',
+                                "B,",
+                                "2:1 - 2:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "B" to be "b" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "C" to be "c" (selector-type-case)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "C" to be "c" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(element-shared, 10px, 200px);
+  height: random(element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(--custom-name, 10px, 200px);",
+                                "4:10 - 4:44",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)',
+                                "  height: random(--custom-name, 10px, 200px);",
+                                "5:11 - 5:45",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(--custom-name, 10px, 200px);",
+                                "4:10 - 4:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  height: random(--custom-name, 10px, 200px);",
+                                "5:11 - 5:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "A" to be "a" (selector-type-case)',
+                                "A,",
+                                "1:1 - 1:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "A" to be "a" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "B" to be "b" (selector-type-case)',
+                                "B,",
+                                "2:1 - 2:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "B" to be "b" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "C" to be "c" (selector-type-case)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "C" to be "c" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name, 10px, 200px);
+  height: random(--custom-name, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--custom-name element-shared, , 10px, 200px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(--custom-name element-shared, , 10px, 200px);",
+                                "4:10 - 4:61",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name element-shared, , 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--custom-name element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)',
+                                "  height: random(--custom-name element-shared, 10px, 200px);",
+                                "5:11 - 5:60",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(--custom-name element-shared, , 10px, 200px);",
+                                "4:10 - 4:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  height: random(--custom-name element-shared, 10px, 200px);",
+                                "5:11 - 5:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "A" to be "a" (selector-type-case)',
+                                "A,",
+                                "1:1 - 1:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "A" to be "a" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "B" to be "b" (selector-type-case)',
+                                "B,",
+                                "2:1 - 2:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "B" to be "b" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "C" to be "c" (selector-type-case)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "C" to be "c" (selector-type-case)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
+                                "C {",
+                                "3:1 - 3:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
+~~~
+A,
+B,
+C {
+  width: random(--custom-name element-shared, , 10px, 200px);
+  height: random(--custom-name element-shared, 10px, 200px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(100px, 200px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(100px, 200px);",
+                                "2:10 - 2:30",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(100px, 200px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(100px, 200px)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(100px, 200px);",
+                                "5:10 - 5:30",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(100px, 200px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(1px, 100px)" for property "margin" (declaration-property-value-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px);",
+                                "8:11 - 8:29",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(1px, 100px)" for property "margin" (declaration-property-value-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(1px, 100px)" for property "margin" (declaration-property-value-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)",
+                                "11:11 - 11:29",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(1px, 100px)" for property "margin" (declaration-property-value-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(100px, 200px);",
+                                "2:10 - 2:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(100px, 200px);",
+                                "5:10 - 5:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px);",
+                                "8:11 - 8:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px);",
+                                "8:30 - 8:36",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)",
+                                "11:11 - 11:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)",
+                                "11:30 - 11:36",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)",
+                                "11:49 - 11:55",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "    random(1px, 100px);",
+                                "12:5 - 12:11",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "shorthand-property-no-redundant-values",
+                                'Expected "random(1px, 100px) random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)',
+                                "  margin: random(1px, 100px) random(1px, 100px);",
+                                "8:11 - 8:48",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[shorthand-property-no-redundant-values] Expected "random(1px, 100px) random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "shorthand-property-no-redundant-values",
+                                `Expected "random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)`,
+                                `  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);`,
+                                "11:11 - 12:23",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[shorthand-property-no-redundant-values] Expected "random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "--random-size: random(1px, 100px);",
+                                "1:16 - 1:22",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+--random-size: random(1px, 100px);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  initial-value: random(100px, 200px);",
+                                "4:18 - 4:24",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  --random-angle: random(0deg, 360deg);",
+                                "7:19 - 7:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "A" to be "a" (selector-type-case)',
+                                "A,",
+                                "9:1 - 9:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "A" to be "a" (selector-type-case)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "B" to be "b" (selector-type-case)',
+                                "B,",
+                                "10:1 - 10:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "B" to be "b" (selector-type-case)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-case",
+                                'Expected "C" to be "c" (selector-type-case)',
+                                "C {",
+                                "11:1 - 11:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-case] Expected "C" to be "c" (selector-type-case)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
+                                "C {",
+                                "11:1 - 11:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
+~~~
+@property --defaultSize {
+  syntax: "<length> | <percentage>";
+  inherits: true;
+  initial-value: random(100px, 200px);
+}
+:root {
+  --random-angle: random(0deg, 360deg);
+}
+A,
+B,
+C {
+  background-color: hsl(var(--random-angle) 100% 50%);
+  height: var(--defaultSize);
+  width: var(--defaultSize);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hsl(random(element-shared, 0, 360) 50% 50%)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: hsl(random(element-shared, 0, 360) 50% 50%);",
+                                "6:15 - 6:58",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "hsl(random(element-shared, 0, 360) 50% 50%)" for property "background" (declaration-property-value-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hsl(random(element-shared, 0, 360) 10% 50%)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: hsl(random(element-shared, 0, 360) 10% 50%);",
+                                "9:15 - 9:58",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "hsl(random(element-shared, 0, 360) 10% 50%)" for property "background" (declaration-property-value-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hsl(random(0, 360) 50% 50%)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: hsl(random(0, 360) 50% 50%);",
+                                "12:15 - 12:42",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "hsl(random(0, 360) 50% 50%)" for property "background" (declaration-property-value-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  background: hsl(random(element-shared, 0, 360) 50% 50%);",
+                                "6:19 - 6:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  background: hsl(random(element-shared, 0, 360) 10% 50%);",
+                                "9:19 - 9:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  background: hsl(random(0, 360) 50% 50%);",
+                                "12:19 - 12:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+.badge {
+  display: inline-block;
+  width: 5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: hsl(random(element-shared, 0, 360) 50% 50%);
+}
+.badge.desaturated {
+  background: hsl(random(element-shared, 0, 360) 10% 50%);
+}
+.badge.unique {
+  background: hsl(random(0, 360) 50% 50%);
+}
+
+@supports not (order: random(1, 2)) {
+  :root::after {
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--particle-size, 0.25em, 1em)" for property "width" (declaration-property-value-no-unknown)',
+                                "  width: random(--particle-size, 0.25em, 1em);",
+                                "9:10 - 9:46",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--particle-size, 0.25em, 1em)" for property "width" (declaration-property-value-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(--particle-size, 0.25em, 1em)" for property "height" (declaration-property-value-no-unknown)',
+                                "  height: random(--particle-size, 0.25em, 1em);",
+                                "10:11 - 10:47",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(--particle-size, 0.25em, 1em)" for property "height" (declaration-property-value-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(0%, 100%)" for property "top" (declaration-property-value-no-unknown)',
+                                "  top: random(0%, 100%);",
+                                "11:8 - 11:24",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(0%, 100%)" for property "top" (declaration-property-value-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "random(0%, 100%)" for property "left" (declaration-property-value-no-unknown)',
+                                "  left: random(0%, 100%);",
+                                "12:9 - 12:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[declaration-property-value-no-unknown] Unexpected unknown value "random(0%, 100%)" for property "left" (declaration-property-value-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  width: random(--particle-size, 0.25em, 1em);",
+                                "9:10 - 9:16",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  height: random(--particle-size, 0.25em, 1em);",
+                                "10:11 - 10:17",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  top: random(0%, 100%);",
+                                "11:8 - 11:14",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "random" (function-no-unknown)',
+                                "  left: random(0%, 100%);",
+                                "12:9 - 12:15",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
+~~~
+body {
+  background: black;
+}
+
+.particle {
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  width: random(--particle-size, 0.25em, 1em);
+  height: random(--particle-size, 0.25em, 1em);
+  top: random(0%, 100%);
+  left: random(0%, 100%);
+  animation: move 1s alternate-reverse infinite;
+}
+
+@supports not (order: random(1, 2)) {
+  body::before {
+    color: white;
+    content: "Your browser doesn't support the random() function.";
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-required-attributes",
+                                '<html> is missing required "lang" attribute',
+                                "html",
+                                "1:2",
+                                `/en-US/docs/Web/CSS/Reference/Values/random
+[element-required-attributes] <html> is missing required "lang" attribute
+~~~
+<html>
+  <body>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         ray: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/ray",
@@ -71647,19 +73348,6 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -71720,19 +73408,6 @@ function onclick(event) {
                             }
                           ]
                         },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         datalist: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/datalist",
@@ -71750,13 +73425,6 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -71852,26 +73520,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         embed: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/embed",
@@ -71899,19 +73547,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        heading_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -72361,26 +73996,6 @@ html.elements.input.switch`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox#switch",
                                 []
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        ins: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -72414,19 +74029,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2025/04/tweaking-text-level-styles-reprised.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -72454,19 +74056,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        s: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -72591,13 +74180,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -73161,19 +74743,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     fonts: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Fonts",
@@ -73267,15 +74836,15 @@ doIt(); // returns "finally"
                     },
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
+                        audio_codecs: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
-                                502
+                                "https://via-la.com/licensing-programs/aac/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -73304,8 +74873,57 @@ doIt(); // returns "finally"
                             {
                               message: "Broken external link",
                               data: [
+                                "https://via-la.com/licensing-programs/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/mpeg-4-visual/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/mpeg-2/",
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -73364,13 +74982,6 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    502
-                                  ]
                                 }
                               ]
                             },
@@ -73381,13 +74992,6 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    502
-                                  ]
                                 }
                               ]
                             },
@@ -73398,13 +75002,6 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    502
-                                  ]
                                 }
                               ]
                             },
@@ -73415,13 +75012,6 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    502
-                                  ]
                                 }
                               ]
                             },
