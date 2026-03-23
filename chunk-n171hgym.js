@@ -5007,7 +5007,7 @@ We'll expand on each of these subtopics in more detail later on in the module.`,
         "positioning_the_picker_using_anchor_positioning",
         "main_example_final_result",
         "frame_full-render_2",
-        "styling_optgroups",
+        "styling_optgroup_elements",
         "frame_optgroup-example",
         "browser_compatibility",
         "next_up",
@@ -47101,7 +47101,7 @@ This information allows you to try out experimental features and provide feedbac
         status: []
       },
       links: [
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons"
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
       ],
       imgs: [],
       ids: [
@@ -47509,7 +47509,7 @@ This information allows you to try out experimental features and provide feedbac
       },
       links: [
         "https://github.com/mdn/webextensions-examples/tree/main/latest-download",
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons"
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
       ],
       imgs: [],
       ids: [
@@ -47809,7 +47809,7 @@ This information allows you to try out experimental features and provide feedbac
       },
       links: [
         "https://github.com/mdn/webextensions-examples/tree/main/latest-download",
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
         "https://bugzil.la/2016509"
       ],
       imgs: [],
@@ -48141,7 +48141,7 @@ This information allows you to try out experimental features and provide feedbac
         status: []
       },
       links: [
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
         "https://crbug.com/29683"
       ],
       imgs: [],
@@ -48885,13 +48885,13 @@ In the listeners, you can:`,
         status: []
       },
       links: [
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
         "https://bugzil.la/2016509",
         "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
         "https://acorn.firefox.com/latest",
         "https://github.com/mdn/webextensions-examples",
         "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons"
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
       ],
       imgs: [
         "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions/address_bar_button.png"
@@ -48957,7 +48957,7 @@ In the listeners, you can:`,
         status: []
       },
       links: [
-        "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
+        "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
         "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
         "https://acorn.firefox.com/latest",
         "https://github.com/mdn/webextensions-examples",
@@ -49108,7 +49108,7 @@ In the listeners, you can:`,
       metadata: {
         title: "Anatomy of an extension",
         pageType: "guide",
-        summary: "An extension consists of a collection of files, packaged for distribution and installation. In this article, we will quickly go through the files that might be present in an extension.",
+        summary: "An extension consists of a collection of files, packaged for distribution and installation. This article describes the files that may be present in an extension.",
         popularity: 0.0009329418904608404,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -49147,7 +49147,7 @@ In the listeners, you can:`,
       metadata: {
         title: "What next?",
         pageType: "guide",
-        summary: "You'll now be ready to start turning your idea for a browser extension into reality. Before you start that journey, it's worth being aware of a few things that will help to make it a smooth one.",
+        summary: "You are now ready to turn your ideas for a browser extension into reality. Before you start that journey, it's worth being aware of a few things that will help to make it a smooth one.",
         popularity: 0.000500719913309012,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -49191,7 +49191,7 @@ In the listeners, you can:`,
       metadata: {
         title: "Your second extension",
         pageType: "guide",
-        summary: "If you've been through the Your first extension article, you've already got an idea of how to write an extension. In this article, you'll write a slightly more complex extension that demonstrates a few more of the APIs.",
+        summary: "The Your first extension tutorial introduced you to the basic process of writing an extension. In this article, you write a slightly more complex extension that demonstrates additional APIs.",
         popularity: 0.001113776441915805,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -49234,7 +49234,7 @@ In the listeners, you can:`,
         "the_beasts",
         "testing_it_out",
         "developing_from_the_command_line",
-        "whats_next"
+        "what_next"
       ]
     }
   },
@@ -49245,7 +49245,7 @@ In the listeners, you can:`,
       metadata: {
         title: "What are extensions?",
         pageType: "guide",
-        summary: "An extension adds features and functions to a browser. It's created using familiar web-based technologies — HTML, CSS, and JavaScript. It can take advantage of the same web APIs as JavaScript on a web page, but an extension also has access to its own set of JavaScript APIs. This means that you can do a lot more in an extension than you can with code in a web page. Here are just a few examples of the things you can do:",
+        summary: "An extension adds features and functions to a browser. You create one using familiar web-based technologies: HTML, CSS, and JavaScript. An extension can use the same web APIs as JavaScript on a web page, but it also has access to an extra set of JavaScript APIs.",
         popularity: 0.0010781575151140696,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -49257,6 +49257,7 @@ In the listeners, you can:`,
       },
       links: [
         "https://extensionworkshop.com/?utm_source=developer.mozilla.org&utm_medium=documentation&utm_campaign=your-first-extension",
+        "https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/",
         "https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/",
         "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
         "https://extensionworkshop.com/documentation/themes/",
@@ -49275,8 +49276,6 @@ In the listeners, you can:`,
         "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
         "https://addons.mozilla.org/en-US/firefox/addon/web-developer/",
         "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
-        "https://developer.chrome.com/docs/extensions/reference/",
-        "https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/",
         "https://discourse.mozilla.org/c/add-ons/35",
         "https://chat.mozilla.org/#/room/#addons:mozilla.org",
         "https://wiki.mozilla.org/Matrix"
@@ -75518,9 +75517,7 @@ This is an asynchronous function that returns a Promise.`,
         status: []
       },
       links: [
-        "https://extensionworkshop.com/?utm_source=developer.mozilla.org&utm_medium=documentation&utm_campaign=your-first-extension",
         "https://github.com/mdn/webextensions-examples/tree/main/borderify",
-        "https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/#when_do_you_need_an_add-on_id",
         "https://raw.githubusercontent.com/mdn/webextensions-examples/main/borderify/icons/border-48.png",
         "https://creativecommons.org/licenses/by-sa/3.0/",
         "https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html",
@@ -75683,7 +75680,7 @@ This is an asynchronous function that returns a Promise.`,
       metadata: {
         title: "Example extensions",
         pageType: "guide",
-        summary: "To illustrate how to use the WebExtension APIs, we maintain a repository of example extensions at https://github.com/mdn/webextensions-examples. This article describes how to run these examples and lists the examples along with the WebExtension APIs they demonstrate.",
+        summary: "To illustrate how to use the WebExtensions APIs, we maintain a repository of example extensions at https://github.com/mdn/webextensions-examples. This article describes how to run these examples and lists the examples along with the WebExtensions APIs they demonstrate.",
         popularity: 0.00091033757152897,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -100768,11 +100765,75 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -100784,11 +100845,11 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
@@ -100796,7 +100857,19 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -100808,63 +100881,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
@@ -100872,27 +100889,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         }
       ],
@@ -155996,35 +155993,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -156032,7 +156005,31 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -181677,11 +181674,11 @@ This page lists web platform features available only after user activation.`,
         "https://github.com/advisories",
         "https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html",
         "https://owasp.org/",
-        "https://github.com/openjs-foundation/security-collab-space?tab=readme-ov-file#documents--guides",
-        "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md",
-        "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
-        "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/npm-security-best-practices.md",
-        "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/Secure_Releases/secure-releases.md"
+        "https://github.com/openjs-foundation/security-wg?tab=readme-ov-file#documents--guides",
+        "https://github.com/openjs-foundation/security-wg/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md",
+        "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
+        "https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md",
+        "https://github.com/openjs-foundation/security-wg/blob/main/docs/Secure_Releases/secure-releases.md"
       ],
       imgs: [],
       ids: [
@@ -208690,7 +208687,7 @@ existing push endpoint registrations.`,
       links: [
         "https://github.com/mdn/dom-examples/tree/main/server-sent-events",
         "https://mercure.rocks/",
-        "https://docs.adonisjs.com/guides/digging-deeper/transmit",
+        "https://docs.adonisjs.com/guides/digging-deeper/server-sent-events",
         "https://github.com/EventSource/eventsource",
         "https://github.com/remy/polyfills/blob/master/EventSource.js",
         "https://github.com/Yaffle/EventSource",
@@ -227213,7 +227210,7 @@ current device.`,
         browserCompat: [
           "api.SecurityPolicyViolationEvent.columnNumber"
         ],
-        summary: "The columnNumber read-only property of the SecurityPolicyViolationEvent interface is the column number in the document or worker script at which the Content Security Policy (CSP) violation occurred.",
+        summary: "The columnNumber read-only property of the SecurityPolicyViolationEvent interface is the character position in the source file line of the document or worker script at which the Content Security Policy (CSP) violation occurred.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -260872,168 +260869,6 @@ GPUCompilationInfo interface is an array of GPUCompilationMessage objects, each 
     }
   },
   {
-    id: "/en-US/docs/Web/API/Report",
-    links: {},
-    data: {
-      metadata: {
-        title: "Report",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "api.Report"
-        ],
-        summary: "The Report interface of the Reporting API represents a single report.",
-        popularity: 0.00019727405613268872,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/report",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "Report",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/reporting/#dom-report",
-          title: "Reporting API"
-        }
-      ],
-      links: [
-        "https://mdn.github.io/dom-examples/reporting-api/deprecation_report.html"
-      ],
-      imgs: [
-        "/en-US/docs/Web/API/Report/reporting_api_example.png"
-      ],
-      ids: [
-        "instance_properties",
-        "report.body",
-        "report.type",
-        "report.url",
-        "instance_methods",
-        "events",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/Report/type",
-    links: {},
-    data: {
-      metadata: {
-        title: "Report: type property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.Report.type"
-        ],
-        summary: `The type read-only property of the Report
-interface returns the type of report generated, e.g., deprecation or
-intervention.`,
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/report/type",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "type",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/reporting/#dom-report-type",
-          title: "Reporting API"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/Report/body",
-    links: {},
-    data: {
-      metadata: {
-        title: "Report: body property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.Report.body"
-        ],
-        summary: `The body read-only property of the Report
-interface returns the body of the report, which is a ReportBody object
-containing the detailed report information.`,
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/report/body",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "body",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/reporting/#dom-report-body",
-          title: "Reporting API"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/Report/url",
-    links: {},
-    data: {
-      metadata: {
-        title: "Report: url property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.Report.url"
-        ],
-        summary: `The url read-only property of the Report
-interface returns the URL of the document that generated the report.`,
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/report/url",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "url",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/reporting/#dom-report-url",
-          title: "Reporting API"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/Web/API/XRSubImage",
     links: {},
     data: {
@@ -291753,547 +291588,6 @@ Path2D object.`,
     }
   },
   {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "api.CSPViolationReportBody"
-        ],
-        summary: "The CSPViolationReportBody interface is an extension of the Reporting API that represents the body of a Content Security Policy (CSP) violation report.",
-        popularity: 0.000596617023929069,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "CSPViolationReportBody",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dictdef-cspviolationreportbody",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "instance_properties",
-        "cspviolationreportbody.blockedurl",
-        "cspviolationreportbody.columnnumber",
-        "cspviolationreportbody.disposition",
-        "cspviolationreportbody.documenturl",
-        "cspviolationreportbody.effectivedirective",
-        "cspviolationreportbody.linenumber",
-        "cspviolationreportbody.originalpolicy",
-        "cspviolationreportbody.referrer",
-        "cspviolationreportbody.sample",
-        "cspviolationreportbody.sourcefile",
-        "cspviolationreportbody.statuscode",
-        "instance_methods",
-        "cspviolationreportbody.tojson",
-        "examples",
-        "obtaining_a_cspviolationreportbody_object",
-        "sending_a_csp_violation_report",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/toJSON",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: toJSON() method",
-        pageType: "web-api-instance-method",
-        browserCompat: [
-          "api.CSPViolationReportBody.toJSON"
-        ],
-        summary: "The toJSON() method of the CSPViolationReportBody interface is a serializer, which returns a JSON representation of the CSPViolationReportBody object.",
-        popularity: 0.0003815335043955126,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/tojson",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "toJSON()",
-        status: [
-          "deprecated"
-        ]
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "syntax",
-        "parameters",
-        "return_value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/originalPolicy",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: originalPolicy property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.originalPolicy"
-        ],
-        summary: "The originalPolicy read-only property of the CSPViolationReportBody interface is a string that represents the Content Security Policy (CSP) whose enforcement uncovered the violation.",
-        popularity: 0.0003835884424802281,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/originalpolicy",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "originalPolicy",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-originalpolicy",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/blockedURL",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: blockedURL property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.blockedURL"
-        ],
-        summary: "The blockedURL read-only property of the CSPViolationReportBody interface is a string value that represents the resource that was blocked because it violates a Content Security Policy (CSP).",
-        popularity: 0.0003952330916269493,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/blockedurl",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "blockedURL",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-blockedurl",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "inline",
-        "eval",
-        "wasm-eval",
-        "trusted-types-policy",
-        "trusted-types-sink",
-        "examples",
-        "blockedurl_for_an_external_resource",
-        "blockedurl_for_unsafe-inline_resources",
-        "blockedurl_for_trusted-types-policy_resources",
-        "blockedurl_for_trusted-types-sink_resources",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/columnNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: columnNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.columnNumber"
-        ],
-        summary: "The columnNumber read-only property of the CSPViolationReportBody interface indicates the column number in the source file that triggered the Content Security Policy (CSP) violation.",
-        popularity: 0.0003801635456723689,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/columnnumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "columnNumber",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-columnnumber",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/sample",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: sample property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.sample"
-        ],
-        summary: "The sample read-only property of the CSPViolationReportBody interface is a string that contains a part of the resource that violated the Content Security Policy (CSP).",
-        popularity: 0.0004000279471579521,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/sample",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "sample",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-sample",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/documentURL",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: documentURL property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.documentURL"
-        ],
-        summary: "The documentURL read-only property of the CSPViolationReportBody interface is a string that represents the URL of the document or worker that violated the Content Security Policy (CSP).",
-        popularity: 0.0003822184837570844,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/documenturl",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "documentURL",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-documenturl",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation_showing_referrer",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/referrer",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: referrer property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.referrer"
-        ],
-        summary: "The referrer read-only property of the CSPViolationReportBody interface is a string that represents the URL of the referring page of the resource who's Content Security Policy (CSP) was violated.",
-        popularity: 0.0003842734218417999,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/referrer",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "referrer",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-referrer",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation_showing_referrer",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/disposition",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: disposition property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.disposition"
-        ],
-        summary: "The disposition read-only property of the CSPViolationReportBody interface indicates whether the user agent is configured to enforce Content Security Policy (CSP) violations or only report them.",
-        popularity: 0.0004000279471579521,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/disposition",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "disposition",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-disposition",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "enforce",
-        "report",
-        "examples",
-        "csp_inline_script_violation_showing_the_disposition",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/sourceFile",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: sourceFile property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.sourceFile"
-        ],
-        summary: "The sourceFile read-only property of the CSPViolationReportBody interface indicates the URL of the source file that violated the Content Security Policy (CSP).",
-        popularity: 0.0003835884424802281,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/sourcefile",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "sourceFile",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-sourcefile",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/effectiveDirective",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: effectiveDirective property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.effectiveDirective"
-        ],
-        summary: "The effectiveDirective read-only property of the CSPViolationReportBody interface is a string that represents the effective Content Security Policy (CSP) directive that was violated.",
-        popularity: 0.0003924931741806619,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/effectivedirective",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "effectiveDirective",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-effectivedirective",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/lineNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: lineNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.lineNumber"
-        ],
-        summary: "The lineNumber read-only property of the CSPViolationReportBody interface indicates the line number in the source file that triggered the Content Security Policy (CSP) violation.",
-        popularity: 0.000379478566310797,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/linenumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "lineNumber",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-linenumber",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "csp_inline_script_violation",
-        "html",
-        "javascript_main.js",
-        "results",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/CSPViolationReportBody/statusCode",
-    links: {},
-    data: {
-      metadata: {
-        title: "CSPViolationReportBody: statusCode property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.CSPViolationReportBody.statusCode"
-        ],
-        summary: "The statusCode read-only property of the CSPViolationReportBody interface is a number representing the HTTP status code of the response to the request that triggered a Content Security Policy (CSP) violation (when loading a window or worker).",
-        popularity: 0.0003822184837570844,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/cspviolationreportbody/statuscode",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "statusCode",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-statuscode",
-          title: "Content Security Policy Level 3"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/Web/API/Shared_Storage_API",
     links: {},
     data: {
@@ -293316,78 +292610,6 @@ The official term for this is spatialization, and this article will cover the ba
         "using_an_iirfilter_in_an_audio_graph",
         "frequency_response",
         "summary"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/ReportBody",
-    links: {},
-    data: {
-      metadata: {
-        title: "ReportBody",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "api.ReportBody"
-        ],
-        summary: "The ReportBody interface of the Reporting API represents the body of a report. Individual report types inherit from this interface, adding specific attributes relevant to the particular report.",
-        popularity: 0.00009452715189691334,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/reportbody",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "ReportBody",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/reporting/#reportbody",
-          title: "Reporting API"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "instance_methods",
-        "reportbody.tojson",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/ReportBody/toJSON",
-    links: {},
-    data: {
-      metadata: {
-        title: "ReportBody: toJSON() method",
-        pageType: "web-api-instance-method",
-        browserCompat: [
-          "api.ReportBody.toJSON"
-        ],
-        summary: "The toJSON() method of the ReportBody interface is a serializer, and returns a JSON representation of the ReportBody object.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/reportbody/tojson",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "toJSON()",
-        status: [
-          "deprecated"
-        ]
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "syntax",
-        "parameters",
-        "return_value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
       ]
     }
   },
@@ -321525,6 +320747,514 @@ the current rule is defined.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/CSPViolationReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The CSPViolationReport dictionary of the Reporting API represents a report that is generated when a document violates its Content Security Policy (CSP).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "CSPViolationReport",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "body",
+        "blockedurl",
+        "columnnumber",
+        "disposition",
+        "documenturl",
+        "effectivedirective",
+        "linenumber",
+        "originalpolicy",
+        "referrer",
+        "sample",
+        "sourcefile",
+        "statuscode",
+        "type",
+        "url",
+        "description",
+        "examples",
+        "using_the_reportingobserver_interface",
+        "sending_a_csp_violation_report",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/originalPolicy",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: originalPolicy property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The originalPolicy property of the CSPViolationReport dictionary is a string that represents the Content Security Policy (CSP) whose enforcement uncovered the violation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/originalpolicy",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "originalPolicy",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/blockedURL",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: blockedURL property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The blockedURL property of the CSPViolationReport dictionary is a string value that represents the resource that was blocked because it violates a Content Security Policy (CSP).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/blockedurl",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "blockedURL",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "inline",
+        "eval",
+        "wasm-eval",
+        "trusted-types-policy",
+        "trusted-types-sink",
+        "examples",
+        "blockedurl_for_an_external_resource",
+        "blockedurl_for_unsafe-inline_resources",
+        "blockedurl_for_trusted-types-policy_resources",
+        "blockedurl_for_trusted-types-sink_resources",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/columnNumber",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: columnNumber property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The columnNumber property of the CSPViolationReport dictionary indicates the character position in the source file line that triggered the Content Security Policy (CSP) violation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/columnnumber",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "columnNumber",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/sample",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: sample property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The sample property of the CSPViolationReport dictionary is a string that contains a part of the resource that violated the Content Security Policy (CSP).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/sample",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "sample",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/documentURL",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: documentURL property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The documentURL property of the CSPViolationReport dictionary is a string that represents the URL of the document or worker that violated the Content Security Policy (CSP).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/documenturl",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "documentURL",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation_showing_referrer",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/referrer",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: referrer property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The referrer property of the CSPViolationReport dictionary is a string that represents the URL of the referring page of the resource who's Content Security Policy (CSP) was violated.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/referrer",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "referrer",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation_showing_referrer",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/disposition",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: disposition property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The disposition property of the CSPViolationReport dictionary indicates whether the user agent is configured to enforce Content Security Policy (CSP) violations or only report them.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/disposition",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "disposition",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "enforce",
+        "report",
+        "examples",
+        "csp_inline_script_violation_showing_the_disposition",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/sourceFile",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: sourceFile property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The sourceFile property of the CSPViolationReport dictionary indicates the URL of the source file that violated the Content Security Policy (CSP).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/sourcefile",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "sourceFile",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/effectiveDirective",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: effectiveDirective property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The effectiveDirective property of the CSPViolationReport dictionary is a string that represents the effective Content Security Policy (CSP) directive that was violated.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/effectivedirective",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "effectiveDirective",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/lineNumber",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: lineNumber property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The lineNumber property of the CSPViolationReport dictionary indicates the line number in the source file where the Content Security Policy (CSP) violation was triggered.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/linenumber",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "lineNumber",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "csp_inline_script_violation",
+        "html",
+        "javascript_main.js",
+        "results",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSPViolationReport/statusCode",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSPViolationReport: statusCode property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation"
+        ],
+        summary: "The statusCode property of the CSPViolationReport dictionary is a number representing the HTTP status code of the response to the request that triggered a Content Security Policy (CSP) violation (when loading a window or worker).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/cspviolationreport/statuscode",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "statusCode",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#reporting",
+          title: "Content Security Policy Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/LayoutShiftAttribution",
     links: {},
     data: {
@@ -331926,50 +331656,6 @@ that was invoked to cause the form to be submitted.`,
       ids: [
         "value",
         "example",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/IntegrityViolationReportBody",
-    links: {},
-    data: {
-      metadata: {
-        title: "IntegrityViolationReportBody",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "http.headers.Integrity-Policy"
-        ],
-        summary: "The IntegrityViolationReportBody dictionary is an extension of the Reporting API that represents the body of an Integrity Policy violation report.",
-        popularity: 0.00009041727572748232,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/integrityviolationreportbody",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "IntegrityViolationReportBody",
-        status: []
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-subresource-integrity/#report-violations",
-          title: "Subresource Integrity"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "instance_properties",
-        "blockedurl",
-        "documenturl",
-        "destination",
-        "reportonly",
-        "description",
-        "examples",
-        "reporting_using_the_api",
-        "sending_a_report_to_a_reporting_endpoint",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -345665,285 +345351,6 @@ map.`,
         "specifications",
         "browser_compatibility",
         "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "api.InterventionReportBody"
-        ],
-        summary: "The InterventionReportBody interface of the Reporting API represents the body of an intervention report.",
-        popularity: 0.00009658208998162886,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "InterventionReportBody",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#intervention-report",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [
-        "https://developer.chrome.com/docs/capabilities/web-apis/reporting-api"
-      ],
-      imgs: [],
-      ids: [
-        "constructor",
-        "instance_properties",
-        "interventionreportbody.id",
-        "interventionreportbody.message",
-        "interventionreportbody.sourcefile",
-        "interventionreportbody.linenumber",
-        "interventionreportbody.columnnumber",
-        "instance_methods",
-        "interventionreportbody.tojson",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/toJSON",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: toJSON() method",
-        pageType: "web-api-instance-method",
-        browserCompat: [
-          "api.InterventionReportBody.toJSON"
-        ],
-        summary: "The toJSON() method of the InterventionReportBody interface is a serializer, and returns a JSON representation of the InterventionReportBody object.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/tojson",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-tojson",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "syntax",
-        "parameters",
-        "return_value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/columnNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: columnNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InterventionReportBody.columnNumber"
-        ],
-        summary: "The columnNumber read-only property of the InterventionReportBody interface returns the line in the source file in which the intervention occurred.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/columnnumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "columnNumber",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-columnnumber",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/id",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: id property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InterventionReportBody.id"
-        ],
-        summary: "The id read-only property of the InterventionReportBody interface returns a string identifying the intervention that generated the report. This can be used to group reports.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/id",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "id",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-id",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/sourceFile",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: sourceFile property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InterventionReportBody.sourceFile"
-        ],
-        summary: "The sourceFile read-only property of the InterventionReportBody interface returns the path to the source file where the intervention occurred.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/sourcefile",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "sourceFile",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-sourcefile",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/message",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: message property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InterventionReportBody.message"
-        ],
-        summary: "The message read-only property of the InterventionReportBody interface returns a human-readable description of the intervention, including information such as how the intervention could be avoided. This typically matches the message a browser will display in its DevTools console when an intervention is imposed, if one is available.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/message",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "message",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-message",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InterventionReportBody/lineNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "InterventionReportBody: lineNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InterventionReportBody.lineNumber"
-        ],
-        summary: "The lineNumber read-only property of the InterventionReportBody interface returns the line in the source file in which the intervention occurred.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interventionreportbody/linenumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "lineNumber",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-linenumber",
-          title: "Intervention Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
       ]
     }
   },
@@ -435762,6 +435169,59 @@ The focused element is the element that will receive keyboard and similar events
     }
   },
   {
+    id: "/en-US/docs/Web/API/InterventionReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "InterventionReport",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.intervention"
+        ],
+        summary: "The InterventionReport dictionary of the Reporting API represents an intervention report.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interventionreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "InterventionReport",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#intervention-report",
+          title: "Intervention Reporting"
+        }
+      ],
+      links: [
+        "https://developer.chrome.com/docs/web-platform/heavy-ads-intervention",
+        "https://developer.chrome.com/docs/capabilities/web-apis/reporting-api"
+      ],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "body",
+        "columnnumber",
+        "id",
+        "linenumber",
+        "message",
+        "sourcefile",
+        "type",
+        "url",
+        "description",
+        "examples",
+        "using_the_reportingobserver_interface",
+        "sending_a_report_to_a_reporting_endpoint",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats",
     links: {},
     data: {
@@ -444373,327 +443833,6 @@ number of ranges in the object.`,
         "return_value",
         "exceptions",
         "indexsizeerror",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody",
-        pageType: "web-api-interface",
-        browserCompat: [
-          "api.DeprecationReportBody"
-        ],
-        summary: "The DeprecationReportBody interface of the Reporting API represents the body of a deprecation report.",
-        popularity: 0.00009041727572748232,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "DeprecationReportBody",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#deprecationreportbody",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [
-        "https://mdn.github.io/dom-examples/reporting-api/deprecation_report.html",
-        "https://developer.chrome.com/docs/capabilities/web-apis/reporting-api"
-      ],
-      imgs: [
-        "/en-US/docs/Web/API/DeprecationReportBody/reporting_api_example.png"
-      ],
-      ids: [
-        "constructor",
-        "instance_properties",
-        "deprecationreportbody.id",
-        "deprecationreportbody.anticipatedremoval",
-        "deprecationreportbody.message",
-        "deprecationreportbody.sourcefile",
-        "deprecationreportbody.linenumber",
-        "deprecationreportbody.columnnumber",
-        "instance_methods",
-        "deprecationreportbody.tojson",
-        "examples",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/toJSON",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: toJSON() method",
-        pageType: "web-api-instance-method",
-        browserCompat: [
-          "api.DeprecationReportBody.toJSON"
-        ],
-        summary: "The toJSON() method of the DeprecationReportBody interface is a serializer, and returns a JSON representation of the InterventionReportBody object.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/tojson",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "toJSON()",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-tojson",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "syntax",
-        "parameters",
-        "return_value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/anticipatedRemoval",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: anticipatedRemoval property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.anticipatedRemoval"
-        ],
-        summary: "The anticipatedRemoval read-only property of the DeprecationReportBody interface returns the date that the browser version which removes the feature will ship. This value can be used to prioritize warnings. If this property returns null because the date is unknown, then the deprecation should be considered low priority.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/anticipatedremoval",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "anticipatedRemoval",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-anticipatedremoval",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/columnNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: columnNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.columnNumber"
-        ],
-        summary: "The columnNumber read-only property of the DeprecationReportBody interface returns the line in the source file in which the deprecated feature was used.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/columnnumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "columnNumber",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-columnnumber",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/id",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: id property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.id"
-        ],
-        summary: "The id read-only property of the DeprecationReportBody interface returns a string representing the feature or API that is deprecated. This can be used to group or count related reports.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/id",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "id",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-id",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/sourceFile",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: sourceFile property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.sourceFile"
-        ],
-        summary: "The sourceFile read-only property of the DeprecationReportBody interface returns the path to the source file where the deprecated feature was used.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/sourcefile",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "sourceFile",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-sourcefile",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/message",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: message property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.message"
-        ],
-        summary: "The message read-only property of the DeprecationReportBody interface returns a human-readable description of the deprecation. This typically matches the message a browser will display in its DevTools console regarding a deprecated feature.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/message",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "message",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-message",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "specifications",
-        "browser_compatibility"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/DeprecationReportBody/lineNumber",
-    links: {},
-    data: {
-      metadata: {
-        title: "DeprecationReportBody: lineNumber property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.DeprecationReportBody.lineNumber"
-        ],
-        summary: "The lineNumber read-only property of the DeprecationReportBody interface returns the line in the source file in which the deprecated feature was used.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/deprecationreportbody/linenumber",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "lineNumber",
-        status: [
-          "experimental"
-        ]
-      },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-linenumber",
-          title: "Deprecation Reporting"
-        }
-      ],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -466897,6 +466036,53 @@ offscreen to manage and play audio.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/IntegrityViolationReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "IntegrityViolationReport",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.integrity-violation"
+        ],
+        summary: "The IntegrityViolationReport dictionary of the Reporting API represents a report that is generated when a document violates its Integrity Policy.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/integrityviolationreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "IntegrityViolationReport",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-subresource-integrity/#report-violations",
+          title: "Subresource Integrity"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "body",
+        "blockedurl",
+        "documenturl",
+        "destination",
+        "reportonly",
+        "type",
+        "url",
+        "description",
+        "examples",
+        "using_the_reportingobserver_interface",
+        "sending_a_report_to_a_reporting_endpoint",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCRtpReceiver",
     links: {},
     data: {
@@ -470834,6 +470020,62 @@ and false if it is not.`,
         "instance_methods",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/DeprecationReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "DeprecationReport",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.deprecation"
+        ],
+        summary: "The DeprecationReport dictionary of the Reporting API represents a deprecation report.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/deprecationreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "DeprecationReport",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#deprecation-report",
+          title: "Deprecation Reporting"
+        }
+      ],
+      links: [
+        "https://developer.chrome.com/docs/capabilities/web-apis/reporting-api"
+      ],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "body",
+        "id",
+        "anticipatedremoval",
+        "message",
+        "sourcefile",
+        "linenumber",
+        "columnnumber",
+        "type",
+        "url",
+        "description",
+        "examples",
+        "using_the_reportingobserver_interface",
+        "javascript",
+        "results",
+        "frame_using_the_reportingobserver_interface",
+        "sending_a_report_to_a_reporting_endpoint",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -477174,7 +476416,7 @@ audio to an AudioBuffer rather than to an audio output device.`,
         title: "Reporting API",
         pageType: "web-api-overview",
         browserCompat: [
-          "http.headers.Reporting-Endpoints"
+          "api.ReportingObserver"
         ],
         summary: "The Reporting API provides a generic reporting mechanism for web applications to use to make reports available based on various platform features (for example Content Security Policy, Permissions-Policy, or feature deprecation reports) in a consistent manner.",
         popularity: 0.0007432026073054419,
@@ -477192,7 +476434,7 @@ audio to an AudioBuffer rather than to an audio output device.`,
           title: "Reporting API"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#cspviolationreportbody",
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#CSPViolationReport",
           title: "Content Security Policy Level 3"
         },
         {
@@ -477202,15 +476444,18 @@ audio to an AudioBuffer rather than to an audio output device.`,
         {
           bcdSpecificationURL: "https://wicg.github.io/intervention-reporting/#intervention-report",
           title: "Intervention Reporting"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/browsers.html#embedder-policy-checks",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/browsers.html#coep",
+          title: "HTML"
         }
       ],
-      links: [
-        "https://mdn.github.io/dom-examples/reporting-api/deprecation_report.html",
-        "https://github.com/mdn/dom-examples/blob/main/reporting-api/deprecation_report.html"
-      ],
-      imgs: [
-        "/en-US/docs/Web/API/Reporting_API/reporting_api_example.png"
-      ],
+      links: [],
+      imgs: [],
       ids: [
         "concepts_and_usage",
         "reporting_server_endpoints",
@@ -477218,21 +476463,26 @@ audio to an AudioBuffer rather than to an audio output device.`,
         "report_types",
         "generating_reports_via_webdriver",
         "interfaces",
-        "deprecationreportbody",
-        "interventionreportbody",
-        "report",
         "reportingobserver",
         "related_interfaces",
-        "cspviolationreportbody",
         "securitypolicyviolationevent",
-        "integrityviolationreportbody",
+        "dictionaries",
+        "coepviolationreport",
+        "cspviolationreport",
+        "deprecationreport",
+        "interventionreport",
+        "integrityviolationreport",
         "related_http_headers",
         "reporting-endpoints",
         "report-to",
+        "coep_violations",
         "csp_violations",
         "integrity-policy_violations",
         "examples",
         "reporting_deprecated_features",
+        "javascript",
+        "results",
+        "frame_using_the_reportingobserver_interface",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -503273,10 +502523,6 @@ You can also, optionally, specify an error handling callback function.`,
       metadata: {
         title: "Guide to the Fullscreen API",
         pageType: "guide",
-        browserCompat: [
-          "api.Document.fullscreenEnabled",
-          "api.Document.fullscreen"
-        ],
         summary: "This article demonstrates how to use the Fullscreen API to place a given element into fullscreen mode, as well as how to detect when the browser enters or exits fullscreen mode.",
         popularity: 0.00038906827737280274,
         modified: "1970-01-01T00:00:00.000Z",
@@ -503287,16 +502533,7 @@ You can also, optionally, specify an error handling callback function.`,
         short_title: "Guide to the Fullscreen API",
         status: []
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://fullscreen.spec.whatwg.org/#ref-for-dom-document-fullscreenenabled①",
-          title: "Fullscreen API"
-        },
-        {
-          bcdSpecificationURL: "https://fullscreen.spec.whatwg.org/#dom-document-fullscreen",
-          title: "Fullscreen API"
-        }
-      ],
+      specifications: [],
       links: [
         "https://github.com/mdn/",
         "https://mdn.github.io/dom-examples/fullscreen-api/index.html",
@@ -503316,8 +502553,6 @@ You can also, optionally, specify an error handling callback function.`,
         "example",
         "specifications",
         "browser_compatibility",
-        "api.document.fullscreenenabled",
-        "api.document.fullscreen",
         "see_also"
       ]
     }
@@ -519936,13 +519171,8 @@ MessagePort objects.`,
           title: "Reporting API"
         }
       ],
-      links: [
-        "https://mdn.github.io/dom-examples/reporting-api/deprecation_report.html",
-        "https://github.com/mdn/dom-examples/blob/main/reporting-api/deprecation_report.html"
-      ],
-      imgs: [
-        "/en-US/docs/Web/API/ReportingObserver/reporting_api_example.png"
-      ],
+      links: [],
+      imgs: [],
       ids: [
         "constructor",
         "reportingobserver",
@@ -519953,6 +519183,10 @@ MessagePort objects.`,
         "reportingobserver.takerecords",
         "events",
         "examples",
+        "displaying_deprecation_reports",
+        "javascript",
+        "results",
+        "frame_using_the_reportingobserver_interface",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -519969,9 +519203,7 @@ MessagePort objects.`,
         browserCompat: [
           "api.ReportingObserver.disconnect"
         ],
-        summary: `The disconnect() method of the
-ReportingObserver interface stops a reporting observer that had
-previously started observing from collecting reports.`,
+        summary: "The disconnect() method of the ReportingObserver interface stops a reporting observer that had previously started observing from collecting reports.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -519994,6 +519226,7 @@ previously started observing from collecting reports.`,
         "parameters",
         "return_value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -520010,9 +519243,7 @@ previously started observing from collecting reports.`,
         browserCompat: [
           "api.ReportingObserver.takeRecords"
         ],
-        summary: `The takeRecords() method of the
-ReportingObserver interface returns the current list of reports contained
-in the observer's report queue, and empties the queue.`,
+        summary: "The takeRecords() method of the ReportingObserver interface returns the current list of reports contained in the observer's report queue, and empties the queue.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -520035,6 +519266,7 @@ in the observer's report queue, and empties the queue.`,
         "parameters",
         "return_value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -520051,9 +519283,7 @@ in the observer's report queue, and empties the queue.`,
         browserCompat: [
           "api.ReportingObserver.observe"
         ],
-        summary: `The observe() method of the
-ReportingObserver interface instructs a reporting observer to start
-collecting reports in its report queue.`,
+        summary: "The observe() method of the ReportingObserver interface instructs a reporting observer to start collecting reports in its report queue.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -520076,6 +519306,7 @@ collecting reports in its report queue.`,
         "parameters",
         "return_value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -520092,9 +519323,7 @@ collecting reports in its report queue.`,
         browserCompat: [
           "api.ReportingObserver.ReportingObserver"
         ],
-        summary: `The ReportingObserver() constructor of the Reporting API creates a new
-ReportingObserver object instance, which can be used to collect and
-access reports.`,
+        summary: "The ReportingObserver() constructor of the Reporting API creates a new ReportingObserver object instance, which can be used to collect and access reports.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -520117,11 +519346,21 @@ access reports.`,
         "parameters",
         "callback",
         "reports",
+        "body",
+        "type",
+        "url",
         "observer",
         "options",
         "types",
+        "coep",
+        "crash",
+        "csp-violation",
+        "deprecation",
+        "integrity-violation",
+        "intervention",
         "buffered",
         "examples",
+        "display_specific_report_types",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -525404,7 +524643,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
@@ -525412,19 +524651,19 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         }
       ],
@@ -531782,11 +531021,51 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531794,7 +531073,99 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531806,171 +531177,7 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531978,11 +531185,43 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -536206,10 +535445,6 @@ be different.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2026 Language Specification"
         },
@@ -536218,27 +535453,7 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -536246,7 +535461,31 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -589521,15 +588760,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -589541,11 +588772,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -591803,7 +591042,8 @@ Users can also configure additional preferred languages through browser settings
         browserCompat: [
           "http.headers.Content-Security-Policy"
         ],
-        summary: `The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints.
+        summary: `The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page.
+With a few exceptions, policies mostly involve specifying server origins and script endpoints.
 This helps guard against cross-site scripting attacks.`,
         popularity: 0.010870622468145037,
         modified: "1970-01-01T00:00:00.000Z",
@@ -593543,7 +592783,7 @@ For example: "Windows" or "Android".`,
         }
       ],
       links: [
-        "https://support.microsoft.com/en-US/office/mitigating-framesniffing-with-the-x-frame-options-header-1911411b-b51e-49fd-9441-e8301dcdcd79",
+        "https://support.microsoft.com/en-US/security/mitigating-framesniffing-with-the-x-frame-options-header",
         "https://helmetjs.github.io/",
         "https://learn.microsoft.com/en-us/archive/blogs/ie/ie8-security-part-vii-clickjacking-defenses",
         "https://learn.microsoft.com/en-us/archive/blogs/ieinternals/combating-clickjacking-with-x-frame-options"

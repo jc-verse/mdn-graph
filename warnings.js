@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-61qyx4df.js";
+} from "./chunk-1njeqkyp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -67,6 +67,13 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
                 {
                   message: "HTTP link",
                   data: [
@@ -1583,6 +1590,19 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://humanrights.gov.au/resource-hub/resources-for-organisations-businesses/disability-resources-employers/guidelines-equal-access-digital-goods-and-services",
+                            "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -2613,6 +2633,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2637,14 +2664,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         }
@@ -2670,21 +2690,27 @@ ul li {
                         }
                       ]
                     },
-                    introduction: {
+                    main_features: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
+                            "https://guides.emberjs.com/release/testing/",
                             "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
                             "The operation timed out."
                           ]
                         }
@@ -6144,19 +6170,6 @@ span {
                         }
                       ]
                     },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6691,8 +6704,22 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://vite.dev/guide/features.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -6704,41 +6731,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://emberjs.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://mochajs.org/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "https://www.netlify.com/",
                             "The operation timed out."
                           ]
                         }
@@ -7572,24 +7572,6 @@ option:focus {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes",
                       messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            "];",
-                            "4:16",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[syntax] Parsing error: Expression expected.
-~~~
-const contacts = [
-  { name: "Aisha Khan", selected: false },
-  ...
-];
-~~~
-`
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16742,13 +16724,6 @@ option::checkmark {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -16773,6 +16748,19 @@ textarea:focus {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16821,6 +16809,19 @@ textarea:focus {
 </picture>
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -17391,6 +17392,13 @@ body {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.andyroid.net/",
                             503
                           ]
@@ -17405,7 +17413,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://mochajs.org/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -17417,20 +17425,37 @@ body {
             getting_started: {
               children: {
                 environment_setup: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://help.ubuntu.com/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  children: {
+                    installing_software: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "The operation timed out."
+                          ]
+                        }
                       ]
                     }
-                  ]
+                  }
                 },
                 your_first_website: {
                   children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -17644,6 +17669,13 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
+                            "https://bluefish.openoffice.nl/manual/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
                             "The operation timed out."
                           ]
@@ -17651,35 +17683,35 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.pspad.com/",
+                            "https://www.barebones.com/products/bbedit/",
+                            "certificate has expired"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/support/bbedit/",
+                            "certificate has expired"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/products/bbedit/features.html",
+                            "certificate has expired"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/htmldoc/uganda.html",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.pspad.com/en/faq.htm",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://forum.pspad.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/en/helpfiles.htm",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/en/pspad-extensions.php",
+                            "https://vimdoc.sourceforge.net/",
                             "The operation timed out."
                           ]
                         }
@@ -17692,6 +17724,32 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/products/textwrangler/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/products/textwrangler/",
+                            "certificate has expired"
+                          ]
                         }
                       ]
                     }
@@ -18060,17 +18118,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -18094,17 +18152,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -18113,10 +18171,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -18777,178 +18835,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "1:2",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<style>
-  #outside {
-    fill: black;
-  }
-  #inside {
-    fill: red;
-  }
-  @media (prefers-color-scheme: dark) {
-    #outside {
-      fill: white;
-    }
-    #inside {
-      fill: black;
-    }
-  }
-</style>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
-                        },
-                        browser_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "1:2",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<style>
-  #outside {
-    fill: black;
-  }
-  #inside {
-    fill: red;
-  }
-  @media (prefers-color-scheme: dark) {
-    #outside {
-      fill: white;
-    }
-    #inside {
-      fill: black;
-    }
-  }
-</style>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
-                        },
-                        icons: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "1:2",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<style>
-  #outside {
-    fill: black;
-  }
-  #inside {
-    fill: red;
-  }
-  @media (prefers-color-scheme: dark) {
-    #outside {
-      fill: white;
-    }
-    #inside {
-      fill: black;
-    }
-  }
-</style>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
-                        },
-                        page_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "1:2",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<style>
-  #outside {
-    fill: black;
-  }
-  #inside {
-    fill: red;
-  }
-  @media (prefers-color-scheme: dark) {
-    #outside {
-      fill: white;
-    }
-    #inside {
-      fill: black;
-    }
-  }
-</style>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -19000,41 +18886,90 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        page_actions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
-                        },
-                        toolbar_button: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Toolbar_button",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/master/themed-icons",
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons"
-                              ]
-                            }
-                          ]
                         }
                       }
+                    },
+                    your_second_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#the-content-script"
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "doctype-style",
+                            "DOCTYPE should be lowercase",
+                            "<!DOCTYPE ",
+                            "1:1",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
+[doctype-style] DOCTYPE should be lowercase
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="choose_beast.css" />
+  </head>
+
+  <body>
+    <div id="popup-content">
+      <button>Frog</button>
+      <button>Turtle</button>
+      <button>Snake</button>
+      <button type="reset">Reset</button>
+    </div>
+    <div id="error-content" class="hidden">
+      <p>Can't beastify this web page.</p>
+      <p>Try a different page.</p>
+    </div>
+    <script src="choose_beast.js"></script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<html> is missing required "lang" attribute',
+                            "html",
+                            "2:2",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
+[element-required-attributes] <html> is missing required "lang" attribute
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="choose_beast.css" />
+  </head>
+
+  <body>
+    <div id="popup-content">
+      <button>Frog</button>
+      <button>Turtle</button>
+      <button>Snake</button>
+      <button type="reset">Reset</button>
+    </div>
+    <div id="error-content" class="hidden">
+      <p>Can't beastify this web page.</p>
+      <p>Try a different page.</p>
+    </div>
+    <script src="choose_beast.js"></script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -19868,6 +19803,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -20233,6 +20181,690 @@ api.MessagePort`,
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
                         "Expected:",
                         "api.COEPViolationReport"
+                      ]
+                    }
+                  ]
+                },
+                console: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/console",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://profiler.firefox.com/docs/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                cspviolationreport: {
+                  children: {
+                    blockedurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/blockedURL",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "7:4 - 9:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/blockedURL
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const policy = trustedTypes.createPolicy("somePolicy", {
+        // Some (insufficient) sanitization code
+        createHTML: (string) => string.replace(/</g, "&lt;"),
+      });
+    </script>`,
+                            "10:4 - 15:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/blockedURL
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'report-sample' 'unsafe-inline'; trusted-types myPolicy" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <script>
+      const policy = trustedTypes.createPolicy("somePolicy", {
+        // Some (insufficient) sanitization code
+        createHTML: (string) => string.replace(/</g, "&lt;"),
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      function updateContent() {
+        const userInput = document.getElementById("userInput").value;
+
+        // Passing unsanitized content - a violation of the policy
+        document.getElementById("content").innerHTML = userInput;
+      }
+
+      document.querySelector("button").addEventListener("click", updateContent);
+    </script>`,
+                            "13:4 - 22:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/blockedURL
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'report-sample' 'unsafe-inline'; trusted-types 'myPolicy'; require-trusted-types-for 'script'" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <input type="text" id="userInput" />
+    <button>Update Content</button>
+    <div id="content"></div>
+
+    <script>
+      function updateContent() {
+        const userInput = document.getElementById("userInput").value;
+
+        // Passing unsanitized content - a violation of the policy
+        document.getElementById("content").innerHTML = userInput;
+      }
+
+      document.querySelector("button").addEventListener("click", updateContent);
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.blockedURL"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.blockedURL"
+                          ]
+                        }
+                      ]
+                    },
+                    columnnumber: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/columnNumber",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "14:4 - 16:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/columnNumber
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.columnNumber"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.columnNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    disposition: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/disposition",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "14:4 - 16:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/disposition
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.disposition"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.disposition"
+                          ]
+                        }
+                      ]
+                    },
+                    documenturl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/documentURL",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "10:4 - 12:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/documentURL
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<!-- /report_sample/index.html -->
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src-elem 'self' 'report-sample'" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.documentURL"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.documentURL"
+                          ]
+                        }
+                      ]
+                    },
+                    effectivedirective: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/effectiveDirective",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "14:4 - 16:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/effectiveDirective
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.effectiveDirective"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.effectiveDirective"
+                          ]
+                        }
+                      ]
+                    },
+                    linenumber: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/lineNumber",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "14:4 - 16:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/lineNumber
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.lineNumber"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.lineNumber"
+                          ]
+                        }
+                      ]
+                    },
+                    originalpolicy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/originalPolicy",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "15:4 - 17:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/originalPolicy
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <!-- This is the (original) CSP policy -->
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.originalPolicy"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.originalPolicy"
+                          ]
+                        }
+                      ]
+                    },
+                    referrer: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/referrer",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "10:4 - 12:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/referrer
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<!-- /report_sample/index.html -->
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src-elem 'self' 'report-sample'" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.referrer"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.referrer"
+                          ]
+                        }
+                      ]
+                    },
+                    sample: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/sample",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "11:4 - 13:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/sample
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src-elem 'self' 'report-sample'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.sample"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.sample"
+                          ]
+                        }
+                      ]
+                    },
+                    sourcefile: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/sourceFile",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const int = 4;
+    </script>`,
+                            "14:4 - 16:13",
+                            `/en-US/docs/Web/API/CSPViolationReport/sourceFile
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; report-to csp-endpoint" />
+    <meta
+      http-equiv="Reporting-Endpoints"
+      content="csp-endpoint='https://example.com/csp-reports'" />
+    <script src="main.js"></script>
+    <title>CSP: Violation due to inline script</title>
+  </head>
+  <body>
+    <h1>CSP: Violation due to inline script</h1>
+    <script>
+      const int = 4;
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.sourceFile"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.sourceFile"
+                          ]
+                        }
+                      ]
+                    },
+                    statuscode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReport/statusCode",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.CSPViolationReport.statusCode"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                            "Expected:",
+                            "api.CSPViolationReport.statusCode"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSPViolationReport",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.CSPViolationReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.csp-violation",
+                        "Expected:",
+                        "api.CSPViolationReport"
                       ]
                     }
                   ]
@@ -20672,19 +21304,6 @@ li:nth-of-type(3n + 1) {
                 },
                 customelementregistry: {
                   children: {
-                    customelementregistry: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CustomElementRegistry/CustomElementRegistry",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Web_components/Using_custom_elements",
-                            "#types_of_custom_elements"
-                          ]
-                        }
-                      ]
-                    },
                     upgrade: {
                       children: {},
                       slug: "/en-US/docs/Web/API/CustomElementRegistry/upgrade",
@@ -20711,139 +21330,70 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                deprecationreportbody: {
-                  children: {
-                    anticipatedremoval: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/anticipatedRemoval",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    columnnumber: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/columnNumber",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    id: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/id",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    linenumber: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/lineNumber",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    message: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/message",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    sourcefile: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/sourceFile",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    tojson: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeprecationReportBody/toJSON",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/DeprecationReportBody",
+                deprecationreport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/DeprecationReport",
                   messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "spaced-comment",
+                        "Expected space or tab after '//' in comment.",
+                        "    //console.log(report);",
+                        "14:5 - 14:27",
+                        `/en-US/docs/Web/API/DeprecationReport
+[spaced-comment] Expected space or tab after '//' in comment.
+~~~
+const logElement = document.querySelector("#log");
+function log(text) {
+  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
+  logElement.scrollTop = logElement.scrollHeight;
+}
+
+const options = {
+  types: ["deprecation"],
+  buffered: true,
+};
+
+const observer = new ReportingObserver((reports, observer) => {
+  reports.forEach((report) => {
+    //console.log(report);
+    log(JSON.stringify(report, null, 2));
+  });
+}, options);
+
+// Start the observer
+observer.observe();
+
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "/", false); // false = synchronous (deprecated)
+xhr.send();
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.DeprecationReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.deprecation",
+                        "Expected:",
+                        "api.DeprecationReport"
+                      ]
+                    },
                     {
                       message: "Page status inconsistent with BCD",
                       data: [
                         [
                           "experimental"
                         ],
-                        [
-                          "deprecated"
-                        ]
+                        []
                       ]
                     }
                   ]
@@ -21133,26 +21683,6 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
-                fullscreen_api: {
-                  children: {
-                    guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fullscreen_API/Guide",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `api.Document.fullscreenEnabled
-api.Document.fullscreen`,
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 gamepad_api: {
                   children: {
                     using_the_gamepad_api: {
@@ -21211,18 +21741,6 @@ api.Document.fullscreen`,
                   },
                   slug: "/en-US/docs/Web/API/HTML_Sanitizer_API",
                   messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/HTML_Sanitizer_API#sanitization_methods"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/HTML_Sanitizer_API#sanitization_methods"
-                      ]
-                    },
                     {
                       message: "No link to child page",
                       data: [
@@ -21342,6 +21860,27 @@ output {
                       ]
                     }
                   }
+                },
+                integrityviolationreport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/IntegrityViolationReport",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.IntegrityViolationReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.integrity-violation",
+                        "Expected:",
+                        "api.IntegrityViolationReport"
+                      ]
+                    }
+                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -21668,122 +22207,23 @@ article h2 {
                     }
                   ]
                 },
-                interventionreportbody: {
-                  children: {
-                    columnnumber: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/columnNumber",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    id: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/id",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    linenumber: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/lineNumber",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    message: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/message",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    sourcefile: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/sourceFile",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    tojson: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InterventionReportBody/toJSON",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/InterventionReportBody",
+                interventionreport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/InterventionReport",
                   messages: [
                     {
-                      message: "Page status inconsistent with BCD",
+                      message: "Not in BCD",
                       data: [
-                        [
-                          "experimental"
-                        ],
-                        [
-                          "deprecated"
-                        ]
+                        "api.InterventionReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.intervention",
+                        "Expected:",
+                        "api.InterventionReport"
                       ]
                     }
                   ]
@@ -23222,6 +23662,68 @@ button:interest-source {
                     }
                   ]
                 },
+                reporting_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Reporting_API",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "spaced-comment",
+                        "Expected space or tab after '//' in comment.",
+                        "    //console.log(report);",
+                        "14:5 - 14:27",
+                        `/en-US/docs/Web/API/Reporting_API
+[spaced-comment] Expected space or tab after '//' in comment.
+~~~
+const logElement = document.querySelector("#log");
+function log(text) {
+  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
+  logElement.scrollTop = logElement.scrollHeight;
+}
+
+const options = {
+  types: ["deprecation"],
+  buffered: true,
+};
+
+const observer = new ReportingObserver((reports, observer) => {
+  reports.forEach((report) => {
+    //console.log(report);
+    log(JSON.stringify(report, null, 2));
+  });
+}, options);
+
+// Start the observer
+observer.observe();
+
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "/", false); // false = synchronous (deprecated)
+xhr.send();
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                reportingobserver: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReportingObserver",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/ReportingObserver"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "reporting_api_example.png"
+                      ]
+                    }
+                  ]
+                },
                 rtcicecandidatepair: {
                   children: {
                     local: {
@@ -23422,17 +23924,7 @@ button:interest-source {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Server-sent_events",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.adonisjs.com/guides/digging-deeper/transmit",
-                        "https://docs.adonisjs.com/guides/digging-deeper/server-sent-events"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 sharedstorageoperation: {
                   children: {},
@@ -24053,7 +24545,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -24305,6 +24811,23 @@ setTimeout(function () {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -26226,19 +26749,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        using_color_wisely: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.colorzilla.com/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -40122,6 +40632,13 @@ section {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -41742,6 +42259,19 @@ div {
                               ]
                             }
                           }
+                        },
+                        "@scope": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css.oddbird.net/scope/parent-selector/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "@starting-style": {
                           children: {},
@@ -47693,6 +48223,32 @@ body {
                             }
                           ]
                         },
+                        "reading-flow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-flow",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "reading-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-order",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         resize: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/resize",
@@ -49045,6 +49601,19 @@ div {
                             }
                           ]
                         },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "transform-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
@@ -49847,22 +50416,7 @@ p:has(~ form > input:checked) {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
-                      messages: [
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/background-repeat-y"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/background-repeat-x"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     selectors: {
                       children: {
@@ -64978,18 +65532,6 @@ css.properties.width.fit-content_function`
                             }
                           ]
                         },
-                        functions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
-                          messages: [
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Values/random"
-                              ]
-                            }
-                          ]
-                        },
                         gradient: {
                           children: {
                             "conic-gradient": {
@@ -69545,14 +70087,6 @@ progress(3em, 0, 100)
                               ]
                             },
                             {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<random-value-sharing>",
-                                "Text before code:",
-                                "The optional first"
-                              ]
-                            },
-                            {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/hsl"
@@ -71296,29 +71830,6 @@ body {
     content: "Your browser doesn't support the random() function.";
   }
 }
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "element-required-attributes",
-                                '<html> is missing required "lang" attribute',
-                                "html",
-                                "1:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[element-required-attributes] <html> is missing required "lang" attribute
-~~~
-<html>
-  <body>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-  </body>
-</html>
 ~~~
 `
                               ]
@@ -73289,6 +73800,19 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -73349,6 +73873,19 @@ function onclick(event) {
                             }
                           ]
                         },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         datalist: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/datalist",
@@ -73366,6 +73903,13 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -73937,6 +74481,26 @@ html.elements.input.switch`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox#switch",
                                 []
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -73997,6 +74561,19 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -74121,6 +74698,13 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -74375,6 +74959,33 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        "strict-transport-security": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hstspreload.org/",
+                                502
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hstspreload.org/",
+                                502
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hstspreload.org/",
+                                502
+                              ]
+                            }
+                          ]
+                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -74388,19 +74999,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        "x-frame-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://support.microsoft.com/en-US/office/mitigating-framesniffing-with-the-x-frame-options-header-1911411b-b51e-49fd-9441-e8301dcdcd79",
-                                "https://support.microsoft.com/en-US/security/mitigating-framesniffing-with-the-x-frame-options-header"
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/HTTP/Reference/Headers",
@@ -74680,19 +75278,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     fonts: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Fonts",
@@ -74771,26 +75356,6 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
-                        },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/soup/souphttpclientsink.html?gi-language=c",
-                                418
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/shout2/index.html?gi-language=c",
-                                418
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
@@ -74806,19 +75371,6 @@ doIt(); // returns "finally"
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/aac/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         containers: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
@@ -74843,57 +75395,8 @@ doIt(); // returns "finally"
                             {
                               message: "Broken external link",
                               data: [
-                                "https://via-la.com/licensing-programs/avc-h-264/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/avc-h-264/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/mpeg-4-visual/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/mpeg-2/",
-                                "The operation timed out."
                               ]
                             },
                             {
@@ -74910,6 +75413,68 @@ doIt(); // returns "finally"
                   }
                 }
               }
+            },
+            performance: {
+              children: {},
+              slug: "/en-US/docs/Web/Performance",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
             },
             privacy: {
               children: {
@@ -74938,6 +75503,19 @@ doIt(); // returns "finally"
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://geekthis.net/post/hide-http-referer-headers/",
+                            "certificate has expired"
+                          ]
                         }
                       ]
                     },
@@ -75037,51 +75615,6 @@ doIt(); // returns "finally"
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    supply_chain_attacks: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-collab-space?tab=readme-ov-file",
-                            "https://github.com/openjs-foundation/security-wg?tab=readme-ov-file"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md",
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/SBOM/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/npm-security-best-practices.md",
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-collab-space/blob/main/docs/Secure_Releases/secure-releases.md",
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/Secure_Releases/secure-releases.md"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 authentication: {
                   children: {
                     federated_identity: {
@@ -75186,6 +75719,19 @@ html.elements.script.integrity`,
                           ]
                         }
                       ]
+                    },
+                    transport_layer_security: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Defenses/Transport_Layer_Security",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hstspreload.org/",
+                            502
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Security/Defenses",
@@ -75195,6 +75741,30 @@ html.elements.script.integrity`,
                       data: []
                     }
                   ]
+                },
+                practical_implementation_guides: {
+                  children: {
+                    tls: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/TLS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hstspreload.org/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hstspreload.org/",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Web/Security",
