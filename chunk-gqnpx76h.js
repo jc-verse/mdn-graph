@@ -38340,21 +38340,21 @@ Firefox 147 was released on January 13, 2026.`,
     links: {},
     data: {
       metadata: {
-        title: "Firefox 150 release notes for developers (Nightly)",
+        title: "Firefox 150 release notes for developers (Beta)",
         pageType: "firefox-release-notes-active",
         summary: `This article provides information about the changes in Firefox 150 that affect developers.
-Firefox 150 is the current Nightly version of Firefox and ships on April 21, 2026.`,
+Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`,
         popularity: 0.00016371006741566877,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/mozilla/firefox/releases/150",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 150 (Nightly)",
+        short_title: "Firefox 150 (Beta)",
         status: []
       },
       links: [
-        "https://www.firefox.com/en-US/channel/desktop/#nightly",
+        "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=150"
       ],
       imgs: [],
@@ -40327,21 +40327,20 @@ This is generally only interesting to people doing development on Mozilla itself
     links: {},
     data: {
       metadata: {
-        title: "Firefox 149 release notes for developers (Beta)",
+        title: "Firefox 149 release notes for developers (Stable)",
         pageType: "firefox-release-notes-active",
         summary: `This article provides information about the changes in Firefox 149 that affect developers.
-Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`,
+Firefox 149 was released on March 24, 2026.`,
         popularity: 0.00091787234450626,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/mozilla/firefox/releases/149",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 149 (Beta)",
+        short_title: "Firefox 149 (Stable)",
         status: []
       },
       links: [
-        "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=149",
         "https://bugzil.la/1867743",
         "https://bugzil.la/2014703",
@@ -40349,6 +40348,8 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
         "https://bugzil.la/1830771",
         "https://bugzil.la/2016474",
         "https://bugzil.la/2010125",
+        "https://bugzil.la/1976074",
+        "https://bugzil.la/2008916",
         "https://bugzil.la/1998668",
         "https://bugzil.la/1966073",
         "https://bugzil.la/1773312",
@@ -40391,6 +40392,7 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
         "html",
         "mathml",
         "css",
+        "javascript",
         "apis",
         "dom",
         "media_webrtc_and_web_audio",
@@ -40408,8 +40410,8 @@ Firefox 149 is the current Beta version of Firefox and ships on March 24, 2026.`
     links: {},
     data: {
       metadata: {
-        title: "Firefox 148 release notes for developers (Stable)",
-        pageType: "firefox-release-notes-active",
+        title: "Firefox 148 release notes for developers",
+        pageType: "firefox-release-notes",
         summary: `This article provides information about the changes in Firefox 148 that affect developers.
 Firefox 148 was released on February 24, 2026.`,
         popularity: 0.0026974487258698897,
@@ -40418,7 +40420,7 @@ Firefox 148 was released on February 24, 2026.`,
           folder: "en-us/mozilla/firefox/releases/148",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 148 (Stable)",
+        short_title: "Firefox 148",
         status: []
       },
       links: [
@@ -40831,6 +40833,36 @@ Firefox 141 was released on July 22, 2025.`,
         "general",
         "webdriver_bidi",
         "marionette",
+        "changes_for_add-on_developers",
+        "experimental_web_features"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Mozilla/Firefox/Releases/151",
+    links: {},
+    data: {
+      metadata: {
+        title: "Firefox 151 release notes for developers (Nightly)",
+        pageType: "firefox-release-notes-active",
+        summary: `This article provides information about the changes in Firefox 151 that affect developers.
+Firefox 151 is the current Nightly version of Firefox and ships on May 19, 2026.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/mozilla/firefox/releases/151",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Firefox 151 (Nightly)",
+        status: []
+      },
+      links: [
+        "https://www.firefox.com/en-US/channel/desktop/#nightly",
+        "https://whattrainisitnow.com/release/?version=151"
+      ],
+      imgs: [],
+      ids: [
+        "changes_for_web_developers",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
@@ -43011,7 +43043,6 @@ Firefox 145 was released on November 11, 2025.`,
         "https://bugzil.la/1009388",
         "https://bugzil.la/865649",
         "https://bugzil.la/528456",
-        "https://drafts.fxtf.org/web-animations/",
         "https://bugzil.la/998246",
         "https://web.archive.org/web/20210613234447/https://developer.mozilla.org/en-US/docs/Archive/B2G_OS/API/Data_Store_API",
         "https://bugzil.la/949325",
@@ -46419,7 +46450,6 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1963263",
         "https://en.wikipedia.org/wiki/Graphics_Processing_Unit",
         "https://bugzil.la/1602129",
-        "https://bugzil.la/1391243",
         "https://bugzil.la/1057233",
         "https://bugzil.la/1280613",
         "https://bugzil.la/778617",
@@ -46513,8 +46543,6 @@ This information allows you to try out experimental features and provide feedbac
         "webgpu_api",
         "dom.webgpu.enabled",
         "dom.webgpu.service-workers.enabled",
-        "reporting_api_support_for_csp_violations",
-        "dom.reporting.enabled",
         "webrtc_and_media",
         "htmlmediaelement_properties_audiotracks_and_videotracks",
         "media.track.enabled",
@@ -80462,7 +80490,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "const: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The const instructions are used to declare numbers.",
+        summary: "The const WebAssembly numeric instruction is used to declare numbers.",
         popularity: 0.00008356748211176397,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -80476,7 +80504,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "const",
+        "type",
+        "value",
+        "binary_encoding"
       ]
     }
   },
@@ -81033,6 +81066,1014 @@ It is a low-level assembly-like language with a compact binary format that runs 
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebAssembly SIMD instructions",
+        pageType: "landing-page",
+        summary: "WebAssembly SIMD (single instruction, multiple data) instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "WebAssembly SIMD instructions",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "bitwise_instructions",
+        "conversion_instructions",
+        "extract_instructions",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/extract",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebAssembly SIMD extract instructions",
+        pageType: "landing-page",
+        summary: "WebAssembly SIMD extract instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/extract",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "extract instructions",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "extract_lane",
+        "extract_lane_s",
+        "extract_lane_u"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/extract/extract_lane_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "extract_lane_u: Wasm SIMD extract instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.extract_lane_u"
+        ],
+        summary: "The extract_lane_u SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation as an unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/extract/extract_lane_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "extract_lane_u",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "extract_lane_u",
+        "type",
+        "input",
+        "lane",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/extract/extract_lane_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "extract_lane_s: Wasm SIMD extract instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.extract_lane_s"
+        ],
+        summary: "The extract_lane_s SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation as a signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/extract/extract_lane_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "extract_lane_s",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "extract_lane_s",
+        "type",
+        "input",
+        "lane",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/extract/extract_lane",
+    links: {},
+    data: {
+      metadata: {
+        title: "extract_lane: Wasm SIMD extract instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.extract_lane"
+        ],
+        summary: "The extract_lane SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/extract/extract_lane",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "extract_lane",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "extract_lane",
+        "type",
+        "input",
+        "lane",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebAssembly SIMD conversion instructions",
+        pageType: "landing-page",
+        summary: "WebAssembly SIMD conversion instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Conversion instructions",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "convert_between_types",
+        "convert_low_i32x4_s",
+        "convert_low_i32x4_u",
+        "convert_i32x4_s",
+        "convert_i32x4_u",
+        "demote_f64x2_zero",
+        "promote_low_f32x4",
+        "value_replacement",
+        "replace_lane",
+        "shuffle",
+        "splat",
+        "swizzle",
+        "round_values",
+        "ceil",
+        "floor",
+        "trunc",
+        "trunc_sat_f32x4_s",
+        "trunc_sat_f32x4_u",
+        "trunc_sat_f64x2_s_zero",
+        "trunc_sat_f64x2_u_zero"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/convert_low_i32x4_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "convert_low_i32x4_u: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.convert_low_i32x4_u"
+        ],
+        summary: "The convert_low_i32x4_u SIMD conversion instruction converts the first two lanes of an unsigned v128 i32x4 value interpretation into an f64x2 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/convert_low_i32x4_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "convert_low_i32x4_u",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "convert_low_i32x4_u",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/convert_i32x4_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "convert_i32x4_s: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.convert_i32x4_s"
+        ],
+        summary: "The convert_i32x4_s SIMD conversion instruction converts the lanes of a signed v128 i32x4 value interpretation into an f32x4 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/convert_i32x4_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "convert_i32x4_s",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "convert_i32x4_s",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.trunc"
+        ],
+        summary: "The trunc SIMD conversion instruction rounds the value in each lane of a v128 value interpretation to the nearest integer towards zero with a magnitude not larger than the input.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/trunc",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_u_zero",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_sat_f64x2_u_zero: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.trunc_sat_f64x2_u_zero"
+        ],
+        summary: "The trunc_sat_f64x2_u_zero SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f64x2 value interpretation into an unsigned i32x4 value interpretation. The two higher lanes of the result are initialized to zero.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/trunc_sat_f64x2_u_zero",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_sat_f64x2_u_zero",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_sat_f64x2_u_zero",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/convert_low_i32x4_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "convert_low_i32x4_s: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.convert_low_i32x4_s"
+        ],
+        summary: "The convert_low_i32x4_s SIMD conversion instruction converts the first two lanes of a signed v128 i32x4 value interpretation into an f64x2 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/convert_low_i32x4_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "convert_low_i32x4_s",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "convert_low_i32x4_s",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/shuffle",
+    links: {},
+    data: {
+      metadata: {
+        title: "shuffle: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.shuffle"
+        ],
+        summary: "The shuffle SIMD conversion instruction returns a new v128 value with its lane values selected from two input v128 values, determined by provided index values.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/shuffle",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shuffle",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shuffle",
+        "indices",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_sat_f32x4_u: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.trunc_sat_f32x4_u"
+        ],
+        summary: "The trunc_sat_f32x4_u SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f32x4 value interpretation into an unsigned i32x4 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/trunc_sat_f32x4_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_sat_f32x4_u",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_sat_f32x4_u",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/promote_low_f32x4",
+    links: {},
+    data: {
+      metadata: {
+        title: "promote_low_f32x4: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.promote_low_f32x4"
+        ],
+        summary: "The promote_low_f32x4 SIMD conversion instruction converts the first two lanes of a v128 f32x4 value interpretation into an f64x2 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/promote_low_f32x4",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "promote_low_f32x4",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "promote_low_f32x4",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/floor",
+    links: {},
+    data: {
+      metadata: {
+        title: "floor: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.floor"
+        ],
+        summary: "The floor SIMD conversion instruction rounds the value in each lane of a v128 value interpretation down to the nearest integer below.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/floor",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "floor",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "floor",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/convert_i32x4_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "convert_i32x4_u: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.convert_i32x4_u"
+        ],
+        summary: "The convert_i32x4_u SIMD conversion instruction converts the lanes of an unsigned v128 i32x4 value interpretation into an f32x4 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/convert_i32x4_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "convert_i32x4_u",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "convert_i32x4_u",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/splat",
+    links: {},
+    data: {
+      metadata: {
+        title: "splat: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.splat"
+        ],
+        summary: "The splat SIMD conversion instruction copies the same value to all lanes of a v128 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/splat",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "splat",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "splat",
+        "type",
+        "input",
+        "value",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/demote_f64x2_zero",
+    links: {},
+    data: {
+      metadata: {
+        title: "demote_f64x2_zero: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.demote_f64x2_zero"
+        ],
+        summary: "The demote_f64x2_zero SIMD conversion instruction converts the lanes of a v128 f64x2 value interpretation into an f32x4 value interpretation. The two higher lanes of the result are initialized to zero.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/demote_f64x2_zero",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "demote_f64x2_zero",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "demote_f64x2_zero",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_sat_f32x4_s: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.trunc_sat_f32x4_s"
+        ],
+        summary: "The trunc_sat_f32x4_s SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f32x4 value interpretation into a signed i32x4 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/trunc_sat_f32x4_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_sat_f32x4_s",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_sat_f32x4_s",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_s_zero",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_sat_f64x2_s_zero: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.trunc_sat_f64x2_s_zero"
+        ],
+        summary: "The trunc_sat_f64x2_s_zero SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f64x2 value interpretation into a signed i32x4 value interpretation. The two higher lanes of the result are initialized to zero.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/trunc_sat_f64x2_s_zero",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_sat_f64x2_s_zero",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_sat_f64x2_s_zero",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/replace_lane",
+    links: {},
+    data: {
+      metadata: {
+        title: "replace_lane: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.replace_lane"
+        ],
+        summary: "The replace_lane SIMD conversion instruction replaces the specified lane of a v128 value interpretation with a new value and returns the resulting v128 value interpretation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/replace_lane",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "replace_lane",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "replace_lane",
+        "index",
+        "type",
+        "input",
+        "replace_value",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/ceil",
+    links: {},
+    data: {
+      metadata: {
+        title: "ceil: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.ceil"
+        ],
+        summary: "The ceil SIMD conversion instruction rounds the value in each lane of a v128 value interpretation up to the nearest integer above.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/ceil",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ceil",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "ceil",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/swizzle",
+    links: {},
+    data: {
+      metadata: {
+        title: "swizzle: Wasm SIMD conversion instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.swizzle"
+        ],
+        summary: "The swizzle SIMD conversion instruction returns a new v128 value with its lane values selected from an input v128 value, determined by indices provided in a second input v128.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/conversion/swizzle",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "swizzle",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "swizzle",
+        "type",
+        "input",
+        "indices",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebAssembly SIMD bitwise instructions",
+        pageType: "landing-page",
+        summary: "WebAssembly SIMD bitwise instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Bitwise instructions",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "shl",
+        "shr_s",
+        "shr_u"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shl",
+    links: {},
+    data: {
+      metadata: {
+        title: "shl: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.shl"
+        ],
+        summary: "The shl SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the left by the same specified amount.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/shl",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shl",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shl",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shr_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "shr_u: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.shr_u"
+        ],
+        summary: "The shr_u SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the right by the same specified amount, outputting unsigned values. This is a logical right shift.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/shr_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shr_u",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shr_u",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shr_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "shr_s: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.shr_s"
+        ],
+        summary: "The shr_s SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the right by the same specified amount, outputting signed values. This is an arithmetic right shift.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/shr_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shr_s",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shr_s",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/Table",
     links: {},
     data: {
@@ -81098,9 +82139,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://webassembly.github.io/spec/core/binary/values.html#binary-int"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "try_it",
@@ -81153,9 +82192,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://webassembly.github.io/spec/core/binary/values.html#binary-int"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "try_it",
@@ -81169,7 +82206,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "value",
         "length",
         "traps",
-        "opcodes",
+        "binary_encoding",
         "examples",
         "demonstrating_table.fill_behavior",
         "javascript",
@@ -81208,9 +82245,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://webassembly.github.io/spec/core/binary/values.html#binary-int"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "try_it",
@@ -81263,9 +82298,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://webassembly.github.io/spec/core/binary/values.html#binary-int"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "try_it",
@@ -81318,9 +82351,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
           title: "Unknown specification"
         }
       ],
-      links: [
-        "https://webassembly.github.io/spec/core/binary/values.html#binary-int"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "try_it",
@@ -81643,7 +82674,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       ids: [
         "reference_types",
         "externref",
-        "funcref"
+        "funcref",
+        "value_types",
+        "v128"
       ]
     }
   },
@@ -81685,6 +82718,39 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "wasm",
         "result",
         "frame_basic-usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Types/v128",
+    links: {},
+    data: {
+      metadata: {
+        title: "v128: Wasm type",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd"
+        ],
+        summary: "The v128 value type is a vector type representing 128-bits of packed integer or floating-point data. A v128 value can be interpreted in several different ways by SIMD instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/types/v128",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "v128",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "description",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -100765,91 +101831,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
@@ -100857,19 +101839,11 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
@@ -100885,11 +101859,103 @@ It can also be the destination for streamed media, using a MediaStream.`,
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         }
       ],
@@ -113332,7 +114398,7 @@ It is used in the color functions that accept hue expressed as a single value, s
         browserCompat: [
           "css.types.random"
         ],
-        summary: "he random() CSS function generates a random value within a specified range, optionally limiting the possible values to step size intervals between those limits.",
+        summary: "The random() CSS function generates a random value within a specified range, optionally limiting the possible values to step size intervals between those limits. It can be used when specifying a <length>, <frequency>, <angle>, <time>, <resolution>, <percentage>, <number>, or <integer> within a property value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -133925,7 +134991,9 @@ The image can be left to its natural size, stretched, or constrained to fit the 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "background-repeat-y",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -142568,7 +143636,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         },
         short_title: "text-decoration-skip",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       specifications: [
@@ -149939,7 +151007,9 @@ It modifies the coordinate space of the CSS visual formatting model.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "background-repeat-x",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -155989,27 +157059,11 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -156017,11 +157071,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -156029,7 +157079,27 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -183110,7 +184180,9 @@ Each module represents a collection of related commands and events used in speci
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "userAgentClientHints",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -183356,7 +184428,9 @@ Each module represents a collection of related commands and events used in speci
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "session.end",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -183396,7 +184470,9 @@ Each module represents a collection of related commands and events used in speci
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "bluetooth",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -191985,7 +193061,9 @@ Fence interface specifies event data that will be sent when a navigation occurs 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "ManagedMediaSource",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -192030,7 +193108,9 @@ Fence interface specifies event data that will be sent when a navigation occurs 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "ManagedMediaSource()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -192070,7 +193150,9 @@ Fence interface specifies event data that will be sent when a navigation occurs 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "endstreaming",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -192109,7 +193191,9 @@ Fence interface specifies event data that will be sent when a navigation occurs 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "streaming",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -192147,7 +193231,9 @@ Fence interface specifies event data that will be sent when a navigation occurs 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "startstreaming",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -199643,9 +200729,7 @@ previously-defined custom element.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://html.spec.whatwg.org/multipage/custom-elements.html#valid-custom-element-name"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
@@ -199680,9 +200764,7 @@ previously-defined custom element.`,
         browserCompat: [
           "api.CustomElementRegistry.whenDefined"
         ],
-        summary: `The whenDefined() method of the
-CustomElementRegistry interface returns a Promise that
-resolves when the named element is defined.`,
+        summary: "The whenDefined() method of the CustomElementRegistry interface returns a Promise that resolves when the named element is defined.",
         popularity: 0.000267141951013016,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -199698,16 +200780,17 @@ resolves when the named element is defined.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://html.spec.whatwg.org/multipage/custom-elements.html#valid-custom-element-name"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "parameters",
         "name",
         "return_value",
+        "exceptions",
+        "syntaxerror",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility"
       ]
@@ -237991,7 +239074,9 @@ insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "ManagedSourceBuffer",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -238032,7 +239117,9 @@ insertion order.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "bufferedchange",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -251363,8 +252450,7 @@ Node.replaceChild().`,
         browserCompat: [
           "api.DOMImplementation.createDocument"
         ],
-        summary: `The DOMImplementation.createDocument() method creates and
-returns an XMLDocument.`,
+        summary: "The createDocument() method of the DOMImplementation interface creates and returns an XMLDocument.",
         popularity: 0.00028769133186017104,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -251380,16 +252466,24 @@ returns an XMLDocument.`,
           title: "DOM"
         }
       ],
-      links: [],
+      links: [
+        "https://www.w3.org/TR/xml/#dt-name"
+      ],
       imgs: [],
       ids: [
         "syntax",
         "parameters",
         "namespaceuri",
         "qualifiedname",
+        "prefix",
+        "localname",
         "documenttype",
         "return_value",
+        "exceptions",
+        "namespaceerror",
+        "invalidcharactererror",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -268152,6 +269246,8 @@ angular velocity of the device along its z-axis.`,
       links: [],
       imgs: [],
       ids: [
+        "constructor",
+        "htmloutputelement",
         "instance_properties",
         "htmloutputelement.defaultvalue",
         "htmloutputelement.form",
@@ -268317,6 +269413,51 @@ angular velocity of the device along its z-axis.`,
       imgs: [],
       ids: [
         "value",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLOutputElement/HTMLOutputElement",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLOutputElement: HTMLOutputElement() constructor",
+        pageType: "web-api-constructor",
+        browserCompat: [
+          "api.HTMLOutputElement.HTMLOutputElement"
+        ],
+        summary: "The HTMLOutputElement() constructor creates a new HTMLOutputElement object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmloutputelement/htmloutputelement",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "HTMLOutputElement()",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/form-elements.html#htmloutputelement",
+          title: "HTML"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "exceptions",
+        "typeerror",
+        "examples",
+        "creating_an_output_element_programmatically",
+        "frame_creating_an_output_element_programmatically",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -274676,6 +275817,7 @@ or null if the element is not in a namespace.`,
         "htmlmediaelement.capturestream",
         "htmlmediaelement.canplaytype",
         "htmlmediaelement.fastseek",
+        "htmlmediaelement.getstartdate",
         "htmlmediaelement.load",
         "htmlmediaelement.pause",
         "htmlmediaelement.play",
@@ -277371,6 +278513,53 @@ readiness state of the media.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/HTMLMediaElement/getStartDate",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLMediaElement: getStartDate() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.HTMLMediaElement.getStartDate"
+        ],
+        summary: "The getStartDate() method of the HTMLMediaElement interface returns a new Date object representing the real-world date and time corresponding to the beginning of the media.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlmediaelement/getstartdate",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "getStartDate()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/media.html#dom-media-getstartdate",
+          title: "HTML"
+        }
+      ],
+      links: [
+        "https://developer.apple.com/documentation/http-live-streaming",
+        "https://github.com/mdn/dom-examples/blob/main/media/getstartdate/stream.m3u8"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "description",
+        "examples",
+        "displaying_the_start_date_of_a_live_stream",
+        "html",
+        "javascript",
+        "result",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/HTMLMediaElement/captureStream",
     links: {},
     data: {
@@ -278150,7 +279339,7 @@ are inserted as equivalent Text nodes.`,
         browserCompat: [
           "api.Document.createElement"
         ],
-        summary: "In an HTML document, the document.createElement() method creates the HTML element specified by localName, or an HTMLUnknownElement if localName isn't recognized.",
+        summary: "The createElement() method of the Document interface creates a new HTMLElement that has the specified localName.",
         popularity: 0.00958902608264413,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -278167,6 +279356,7 @@ are inserted as equivalent Text nodes.`,
         }
       ],
       links: [
+        "https://www.w3.org/TR/xml/#dt-name",
         "https://github.com/mdn/web-components-examples/tree/main/expanding-list-web-component",
         "https://mdn.github.io/web-components-examples/expanding-list-web-component/"
       ],
@@ -278177,7 +279367,11 @@ are inserted as equivalent Text nodes.`,
         "localname",
         "options",
         "is",
+        "customelementregistry",
         "return_value",
+        "exceptions",
+        "invalidcharactererror",
+        "notsupportederror",
         "examples",
         "basic_example",
         "html",
@@ -280559,11 +281753,7 @@ performed by either the browser or extensions.`,
         browserCompat: [
           "api.Document.createAttributeNS"
         ],
-        summary: `The Document.createAttributeNS() method creates a new attribute node
-with the specified namespace URI and qualified name, and returns it.
-The object created is a node implementing the
-Attr interface. The DOM does not enforce what sort of attributes can be
-added to a particular element in this manner.`,
+        summary: "The createAttributeNS() method of the Document interface creates a new attribute node with the specified namespace URI and qualified name.",
         popularity: 0.00009041727572748232,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -280591,11 +281781,14 @@ added to a particular element in this manner.`,
         "svg",
         "mathml",
         "qualifiedname",
+        "prefix",
+        "localname",
         "return_value",
         "exceptions",
         "namespaceerror",
         "invalidcharactererror",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -280691,7 +281884,7 @@ DOMImplementation object associated with the current document.`,
         browserCompat: [
           "api.Document.createElementNS"
         ],
-        summary: "Creates an element with the specified namespace URI and qualified name.",
+        summary: "The createElementNS() method of the Document interface creates a new element with the specified namespace URI and qualified name.",
         popularity: 0.0005603131177657618,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -280720,12 +281913,19 @@ DOMImplementation object associated with the current document.`,
         "svg",
         "mathml",
         "qualifiedname",
+        "prefix",
+        "localname",
         "options",
+        "is",
+        "customelementregistry",
         "return_value",
         "exceptions",
         "namespaceerror",
         "invalidcharactererror",
+        "notsupportederror",
         "examples",
+        "basic_usage",
+        "create_an_svg_element",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -282023,7 +283223,7 @@ documents.`,
         },
         short_title: "requestStorageAccessFor()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       specifications: [
@@ -282311,10 +283511,7 @@ are no child elements.`,
         browserCompat: [
           "api.Document.createAttribute"
         ],
-        summary: `The Document.createAttribute() method creates a new
-attribute node, and returns it. The object created is a node implementing the
-Attr interface. The DOM does not enforce what sort of attributes can be
-added to a particular element in this manner.`,
+        summary: "The createAttribute() method of the Document interface creates a new attribute node.",
         popularity: 0.000271251827182447,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -282337,11 +283534,12 @@ added to a particular element in this manner.`,
       ids: [
         "syntax",
         "parameters",
-        "name",
+        "localname",
         "return_value",
         "exceptions",
         "invalidcharactererror",
         "examples",
+        "basic_example",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -296879,10 +298077,13 @@ GPUBuffer interface provides a label that can be used to identify the object, fo
           title: "HTML"
         }
       ],
-      links: [],
+      links: [
+        "https://privacycg.github.io/private-click-measurement/"
+      ],
       imgs: [],
       ids: [
         "instance_properties",
+        "htmlanchorelement.attributionsourceid",
         "htmlanchorelement.attributionsrc",
         "htmlanchorelement.download",
         "htmlanchorelement.hash",
@@ -296951,6 +298152,49 @@ GPUBuffer interface provides a label that can be used to identify the object, fo
         "value",
         "example",
         "frame_example",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLAnchorElement/attributionSourceId",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLAnchorElement: attributionSourceId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLAnchorElement.attributionSourceId"
+        ],
+        summary: "The attributionSourceId property of the HTMLAnchorElement interface gets and sets the attributionsourceid HTML attribute on an <a> element.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmlanchorelement/attributionsourceid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "attributionSourceId",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://privacycg.github.io/private-click-measurement/#dom-htmlanchorelement-attributionsourceid",
+          title: "Private Click Measurement"
+        }
+      ],
+      links: [
+        "https://privacycg.github.io/private-click-measurement/",
+        "https://privacycg.github.io/private-click-measurement/"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "setting_an_attribution_source_id_on_a_link",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -327166,7 +328410,9 @@ REDIRECTs done before reaching the page.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "BufferedChangeEvent",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -327208,7 +328454,9 @@ REDIRECTs done before reaching the page.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "addedRanges",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -327245,7 +328493,9 @@ REDIRECTs done before reaching the page.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "BufferedChangeEvent()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -327289,7 +328539,9 @@ REDIRECTs done before reaching the page.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "removedRanges",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -365700,7 +366952,9 @@ controlled by automation.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "preferences",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -378304,7 +379558,6 @@ of the HTMLElement interface provides read/write access to custom data attribute
         "javascript_2",
         "result_2",
         "frame_prevent_a_popover_opening",
-        "a_note_on_beforetoggle_event_coalescing",
         "other_examples",
         "specifications",
         "browser_compatibility",
@@ -422813,15 +424066,23 @@ node is inserted in.`,
           title: "DOM"
         }
       ],
-      links: [],
+      links: [
+        "https://www.w3.org/TR/xml/#dt-name"
+      ],
       imgs: [],
       ids: [
         "syntax",
         "parameters",
-        "namespace",
-        "name",
+        "namespaceuri",
+        "qualifiedname",
+        "prefix",
+        "localname",
         "value",
         "return_value",
+        "exceptions",
+        "namespaceerror",
+        "invalidcharactererror",
+        "typeerror",
         "examples",
         "basic_usage",
         "trusted_types",
@@ -427173,9 +428434,7 @@ invoked that matches the specified group of selectors.`,
         browserCompat: [
           "api.Element.toggleAttribute"
         ],
-        summary: `The toggleAttribute() method of the
-Element interface toggles a Boolean attribute (removing it if it is
-present and adding it if it is not present) on the given element.`,
+        summary: "The toggleAttribute() method of the Element interface toggles a Boolean attribute on the given element, removing it if present and adding it if not present.",
         popularity: 0.0005534633241500433,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -427202,6 +428461,7 @@ present and adding it if it is not present) on the given element.`,
         "exceptions",
         "invalidcharactererror",
         "examples",
+        "basic_usage",
         "html",
         "javascript",
         "result",
@@ -429290,7 +430550,9 @@ If the attribute already exists, the value is updated; otherwise a new attribute
       ids: [
         "syntax",
         "parameters",
-        "name",
+        "qualifiedname",
+        "prefix",
+        "localname",
         "value",
         "return_value",
         "exceptions",
@@ -470041,9 +471303,7 @@ and false if it is not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "DeprecationReport",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       specifications: [
         {
@@ -474143,7 +475403,7 @@ on history navigation.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -474151,11 +475411,11 @@ on history navigation.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -497424,7 +498684,9 @@ It is used internally when invoking structuredClone(), to transfer data between 
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "User Preferences API",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       specifications: [
         {
@@ -524639,15 +525901,11 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         },
         {
@@ -524655,7 +525913,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -524663,7 +525925,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         }
       ],
@@ -531021,51 +532283,7 @@ this statement has no effect.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531073,15 +532291,11 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531089,71 +532303,15 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531161,11 +532319,51 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531177,26 +532375,6 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2026 Language Specification"
         },
@@ -531205,7 +532383,83 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -531213,15 +532467,23 @@ this statement has no effect.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -535445,7 +536707,7 @@ be different.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -535453,23 +536715,7 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -535477,7 +536723,19 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2026 Language Specification"
         },
         {
@@ -535485,7 +536743,11 @@ be different.`,
           title: "ECMAScript® 2026 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2026 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2026 Language Specification"
         }
       ],
@@ -588760,22 +590022,6 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
@@ -588784,7 +590030,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -603261,7 +604523,14 @@ CORP is an additional layer of protection beyond the default same-origin policy.
       ],
       ids: [
         "identifying_a_cors_issue",
+        "client-side_considerations",
+        "avoid_triggering_a_preflight",
+        "use_no-cors_mode_for_opaque_responses",
+        "use_a_proxy_server",
         "cors_error_messages",
+        "avoid_triggering_a_preflight_2",
+        "use_no-cors_mode_for_opaque_responses_2",
+        "use_a_proxy_server_2",
         "see_also"
       ]
     }
@@ -603382,6 +604651,7 @@ or not the resource can be accessed by content operating within the current orig
         "reason",
         "what_went_wrong",
         "examples_for_common_web_servers",
+        "if_you_dont_control_the_server",
         "see_also"
       ]
     }
