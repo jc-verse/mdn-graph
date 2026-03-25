@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-0168n41y.js";
+} from "./chunk-2bncpat5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -188,7 +188,17 @@ var warnings_processed_default = {
                 }
               }
             }
-          }
+          },
+          slug: "/en-US/docs/Games",
+          messages: [
+            {
+              message: "Broken external link",
+              data: [
+                "https://html5gameengine.com/",
+                "The operation timed out."
+              ]
+            }
+          ]
         },
         glossary: {
           children: {
@@ -1269,6 +1279,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            sql: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SQL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sqlzoo.net/wiki/SQL_Tutorial",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
                 }
               ]
             },
@@ -2637,8 +2660,15 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -2650,6 +2680,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2670,7 +2707,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "https://emberjs.com/",
                             "The operation timed out."
                           ]
                         }
@@ -2684,20 +2721,7 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/",
-                            "unknown certificate verification error"
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4667,13 +4691,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/computed.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4704,13 +4721,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -6705,21 +6715,21 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/",
-                            "unknown certificate verification error"
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/docs/latest/rules/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -6732,7 +6742,7 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
@@ -6745,27 +6755,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/",
-                            "unknown certificate verification error"
+                            "https://emberjs.com/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "https://mochajs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -16754,19 +16751,6 @@ option::checkmark {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/sending-form-data/get-method.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     styling_web_forms: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
@@ -16854,7 +16838,7 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://eslint.org/",
-                                "The operation timed out."
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -17406,8 +17390,35 @@ body {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.andyroid.net/",
                             503
+                          ]
+                        }
+                      ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -18479,6 +18490,19 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
+                        tabgroups: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabGroups",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/tab-groups",
+                                502
+                              ]
+                            }
+                          ]
+                        },
                         types: {
                           children: {
                             browsersetting: {
@@ -18673,7 +18697,17 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/tab-groups",
+                            502
+                          ]
+                        }
+                      ]
                     },
                     content_scripts: {
                       children: {
@@ -19209,6 +19243,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "139": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/tab-groups",
+                            502
                           ]
                         }
                       ]
@@ -21567,6 +21614,45 @@ api.DeviceOrientationEvent`,
                 },
                 element: {
                   children: {
+                    gethtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/getHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html",
+                            "https://securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html"
+                          ]
+                        }
+                      ]
+                    },
+                    innerhtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/innerHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html",
+                            "https://securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html"
+                          ]
+                        }
+                      ]
+                    },
+                    outerhtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/outerHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html",
+                            "https://securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html"
+                          ]
+                        }
+                      ]
+                    },
                     setattributens: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/setAttributeNS",
@@ -23862,6 +23948,36 @@ xhr.send();
                     }
                   }
                 },
+                shadowroot: {
+                  children: {
+                    gethtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ShadowRoot/getHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html",
+                            "https://securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html"
+                          ]
+                        }
+                      ]
+                    },
+                    innerhtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ShadowRoot/innerHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html",
+                            "https://securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass.html"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -24408,13 +24524,6 @@ env(viewport-segment-width 0 1)
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.dspguide.com/CH20.PDF",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     }
@@ -24575,19 +24684,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.totaljs.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -24973,6 +25069,489 @@ setTimeout(function () {
                   children: {
                     anchor_positioning: {
                       children: {
+                        anchored_container_queries: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)',
+                                "  container-type: anchored;",
+                                "6:19 - 6:27",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries
+[declaration-property-value-no-unknown] Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)
+~~~
+.tooltip {
+  position: absolute;
+  position-anchor: --my-anchor;
+  position-area: top;
+  position-try-fallbacks: flip-block;
+  container-type: anchored;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)',
+                                "  container-type: anchored;",
+                                "79:19 - 79:27",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries
+[declaration-property-value-no-unknown] Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.anchor {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: blue;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+.infobox {
+  color: white;
+  background-color: black;
+  font-size: 1.4em;
+  padding: 10px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.infobox::before {
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 0.5;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@supports not (container-type: anchored) {
+  body::before {
+    content: "Your browser does not support anchored container queries.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+.anchor {
+  anchor-name: --my-anchor;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --my-anchor;
+  position-area: top;
+  position-try-fallbacks: bottom;
+  container-type: anchored;
+}
+
+.infobox::before {
+  content: "▼";
+  position: absolute;
+  top: 105%;
+}
+
+@container anchored(fallback: bottom) {
+  .infobox::before {
+    content: "▲";
+    bottom: 100%;
+    top: auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)',
+                                "  container-type: anchored;",
+                                "57:19 - 57:27",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries
+[declaration-property-value-no-unknown] Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.anchor {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: blue;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+@supports not (container-type: anchored) {
+  body::before {
+    content: "Your browser does not support anchored container queries.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+.anchor {
+  anchor-name: --my-anchor;
+  position: absolute;
+}
+
+.infobox {
+  position: absolute;
+  position-anchor: --my-anchor;
+  position-area: top left;
+  position-try-fallbacks:
+    flip-block,
+    flip-inline,
+    flip-block flip-inline;
+  container-type: anchored;
+}
+
+.infobox div {
+  color: white;
+  background-color: black;
+  font-size: 1.4em;
+  padding: 10px;
+  margin: 1px;
+
+  border-radius: 10px 10px 0 10px;
+}
+
+@container anchored(fallback: flip-block) {
+  .infobox div {
+    border-radius: 10px 0 10px 10px;
+  }
+}
+
+@container anchored(fallback: flip-inline) {
+  .infobox div {
+    border-radius: 10px 10px 10px 0;
+  }
+}
+
+@container anchored(fallback: flip-block flip-inline) {
+  .infobox div {
+    border-radius: 0 10px 10px 10px;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "shorthand-property-no-redundant-values",
+                                'Expected "10px 10px 0 10px" to be "10px 10px 0" (shorthand-property-no-redundant-values)',
+                                "  border-radius: 10px 10px 0 10px;",
+                                "67:18 - 67:34",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries
+[shorthand-property-no-redundant-values] Expected "10px 10px 0 10px" to be "10px 10px 0" (shorthand-property-no-redundant-values)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.anchor {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: blue;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+@supports not (container-type: anchored) {
+  body::before {
+    content: "Your browser does not support anchored container queries.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+.anchor {
+  anchor-name: --my-anchor;
+  position: absolute;
+}
+
+.infobox {
+  position: absolute;
+  position-anchor: --my-anchor;
+  position-area: top left;
+  position-try-fallbacks:
+    flip-block,
+    flip-inline,
+    flip-block flip-inline;
+  container-type: anchored;
+}
+
+.infobox div {
+  color: white;
+  background-color: black;
+  font-size: 1.4em;
+  padding: 10px;
+  margin: 1px;
+
+  border-radius: 10px 10px 0 10px;
+}
+
+@container anchored(fallback: flip-block) {
+  .infobox div {
+    border-radius: 10px 0 10px 10px;
+  }
+}
+
+@container anchored(fallback: flip-inline) {
+  .infobox div {
+    border-radius: 10px 10px 10px 0;
+  }
+}
+
+@container anchored(fallback: flip-block flip-inline) {
+  .infobox div {
+    border-radius: 0 10px 10px 10px;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "shorthand-property-no-redundant-values",
+                                'Expected "0 10px 10px 10px" to be "0 10px 10px" (shorthand-property-no-redundant-values)',
+                                "    border-radius: 0 10px 10px 10px;",
+                                "84:20 - 84:36",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Anchored_container_queries
+[shorthand-property-no-redundant-values] Expected "0 10px 10px 10px" to be "0 10px 10px" (shorthand-property-no-redundant-values)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+.anchor {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: blue;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+@supports not (container-type: anchored) {
+  body::before {
+    content: "Your browser does not support anchored container queries.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+.anchor {
+  anchor-name: --my-anchor;
+  position: absolute;
+}
+
+.infobox {
+  position: absolute;
+  position-anchor: --my-anchor;
+  position-area: top left;
+  position-try-fallbacks:
+    flip-block,
+    flip-inline,
+    flip-block flip-inline;
+  container-type: anchored;
+}
+
+.infobox div {
+  color: white;
+  background-color: black;
+  font-size: 1.4em;
+  padding: 10px;
+  margin: 1px;
+
+  border-radius: 10px 10px 0 10px;
+}
+
+@container anchored(fallback: flip-block) {
+  .infobox div {
+    border-radius: 10px 0 10px 10px;
+  }
+}
+
+@container anchored(fallback: flip-inline) {
+  .infobox div {
+    border-radius: 10px 10px 10px 0;
+  }
+}
+
+@container anchored(fallback: flip-block flip-inline) {
+  .infobox div {
+    border-radius: 0 10px 10px 10px;
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        try_options_hiding: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)',
+                                "  container-type: anchored;",
+                                "6:19 - 6:27",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding
+[declaration-property-value-no-unknown] Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)
+~~~
+.tooltip {
+  position: absolute;
+  position-anchor: --myAnchor;
+  position-area: top;
+  position-try-fallbacks: flip-block;
+  container-type: anchored;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "value-keyword-case",
+                                'Expected "--myAnchor" to be "--myanchor" (value-keyword-case)',
+                                "  position-anchor: --myAnchor;",
+                                "3:20 - 3:30",
+                                `/en-US/docs/Web/CSS/Guides/Anchor_positioning/Try_options_hiding
+[value-keyword-case] Expected "--myAnchor" to be "--myanchor" (value-keyword-case)
+~~~
+.tooltip {
+  position: absolute;
+  position-anchor: --myAnchor;
+  position-area: top;
+  position-try-fallbacks: flip-block;
+  container-type: anchored;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         using: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Anchor_positioning/Using",
@@ -44428,6 +45007,54 @@ body {
     text-align: center;
     padding: 1rem 0;
   }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "container-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-type",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)',
+                                "  container-type: anchored;",
+                                "6:19 - 6:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/container-type
+[declaration-property-value-no-unknown] Unexpected unknown value "anchored" for property "container-type" (declaration-property-value-no-unknown)
+~~~
+.tooltip {
+  position: absolute;
+  position-anchor: --myAnchor;
+  position-area: top;
+  position-try-fallbacks: flip-block;
+  container-type: anchored;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "value-keyword-case",
+                                'Expected "--myAnchor" to be "--myanchor" (value-keyword-case)',
+                                "  position-anchor: --myAnchor;",
+                                "3:20 - 3:30",
+                                `/en-US/docs/Web/CSS/Reference/Properties/container-type
+[value-keyword-case] Expected "--myAnchor" to be "--myanchor" (value-keyword-case)
+~~~
+.tooltip {
+  position: absolute;
+  position-anchor: --myAnchor;
+  position-area: top;
+  position-try-fallbacks: flip-block;
+  container-type: anchored;
 }
 ~~~
 `
@@ -74373,19 +75000,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        section: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/section",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2020/01/html5-article-section/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
-                        },
                         select: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/select",
@@ -74690,33 +75304,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "content-security-policy": {
-                          children: {
-                            "object-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/object-src",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://csp.withgoogle.com/docs/strict-csp.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://csp.withgoogle.com/docs/strict-csp.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
@@ -75163,14 +75750,14 @@ doIt(); // returns "finally"
                     },
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
+                        audio_codecs: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "https://via-la.com/licensing-programs/aac/",
                                 "The operation timed out."
                               ]
                             }
@@ -75197,6 +75784,20 @@ doIt(); // returns "finally"
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://via-la.com/licensing-programs/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -76290,6 +76891,16 @@ svg.elements.feSpotLight.z`
             },
             webdriver: {
               children: {
+                how_to: {
+                  children: {},
+                  slug: "/en-US/docs/Web/WebDriver/How_to",
+                  messages: [
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
                 reference: {
                   children: {
                     bidi: {
@@ -76461,6 +77072,42 @@ svg.elements.feSpotLight.z`
                                   children: {},
                                   slug: "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/status",
                                   messages: [
+                                    {
+                                      message: "Unexpected page type",
+                                      data: [
+                                        "webdriver-command"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                subscribe: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/subscribe",
+                                  messages: [
+                                    {
+                                      message: "Code with space",
+                                      data: [
+                                        "invalid argument"
+                                      ]
+                                    },
+                                    {
+                                      message: "Unexpected page type",
+                                      data: [
+                                        "webdriver-command"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                unsubscribe: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/unsubscribe",
+                                  messages: [
+                                    {
+                                      message: "Code with space",
+                                      data: [
+                                        "invalid argument"
+                                      ]
+                                    },
                                     {
                                       message: "Unexpected page type",
                                       data: [
@@ -76770,7 +77417,16 @@ svg.elements.feSpotLight.z`
                     }
                   }
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/WebDriver",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/WebDriver/How_to"
+                  ]
+                }
+              ]
             },
             xml: {
               children: {
