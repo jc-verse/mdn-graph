@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6s59g7cx.js";
+} from "./chunk-0j0emnzd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,6 +39,23 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                control_mechanisms: {
+                  children: {
+                    mobile_touch: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phaserplugins.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -67,13 +84,6 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
                 {
                   message: "HTTP link",
                   data: [
@@ -246,19 +256,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            camel_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Camel_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
                 }
               ]
             },
@@ -450,6 +447,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -912,19 +929,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kebab_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Kebab_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -932,6 +936,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1305,19 +1322,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            snake_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snake_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             soap: {
               children: {},
               slug: "/en-US/docs/Glossary/SOAP",
@@ -1639,19 +1643,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://humanrights.gov.au/resource-hub/resources-for-organisations-businesses/disability-resources-employers/guidelines-equal-access-digital-goods-and-services",
-                            "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -16714,6 +16705,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -16754,27 +16758,6 @@ textarea:focus {
 </picture>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -17551,6 +17534,20 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
                             "The operation timed out."
                           ]
@@ -17558,7 +17555,7 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.eclipse.org/",
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
                             "The operation timed out."
                           ]
                         }
@@ -17574,14 +17571,14 @@ padding-left: 20px;
                         }
                       ]
                     },
-                    how_much_does_it_cost: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.eclipse.org/",
+                            "https://www.gnu.org/software/emacs/",
                             "The operation timed out."
                           ]
                         }
@@ -17952,17 +17949,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -17986,17 +17983,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -18005,10 +18002,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -19148,24 +19145,43 @@ webextensions.manifest.options_ui`,
                             "http://asmjs.org/spec/latest/",
                             ""
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    "125": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/125",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
+                            "https://whattrainisitnow.com/release/?version=125",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "130": {
+                    "127": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=130",
+                            "https://whattrainisitnow.com/release/?version=127",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "132": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/132",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=132",
                             "The operation timed out."
                           ]
                         }
@@ -19184,27 +19200,27 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "138": {
+                    "137": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=138",
+                            "https://whattrainisitnow.com/release/?version=137",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "139": {
+                    "140": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=139",
+                            "https://whattrainisitnow.com/release/?version=140",
                             "The operation timed out."
                           ]
                         }
@@ -19223,27 +19239,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "145": {
+                    "147": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/147",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=148",
+                            "https://whattrainisitnow.com/release/?version=147",
                             "The operation timed out."
                           ]
                         }
@@ -19257,6 +19260,26 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=149",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "150": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=150",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -20100,19 +20123,6 @@ api.MessagePort`,
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
                         "Expected:",
                         "api.COEPViolationReport"
-                      ]
-                    }
-                  ]
-                },
-                console: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/console",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://profiler.firefox.com/docs/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21732,31 +21742,17 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                geolocationcoordinates: {
+                gamepad: {
                   children: {
-                    altitude: {
+                    displayid: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/GeolocationCoordinates/altitude",
+                      slug: "/en-US/docs/Web/API/Gamepad/displayId",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
                           ]
                         }
                       ]
@@ -23017,15 +23013,28 @@ aside {
                 },
                 navigator: {
                   children: {
-                    share: {
+                    activevrdisplays: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/share",
+                      slug: "/en-US/docs/Web/API/Navigator/activeVRDisplays",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://wpt.live/web-share/",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    getvrdisplays: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/getVRDisplays",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
                           ]
                         }
                       ]
@@ -24329,19 +24338,6 @@ xhr.send();
                     }
                   ]
                 },
-                trusted_types_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Trusted_Types_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wpt.live/trusted-types/script-enforcement-001.html",
-                        "Unable to connect. Is the computer able to access the url?"
-                      ]
-                    }
-                  ]
-                },
                 ui_events: {
                   children: {},
                   slug: "/en-US/docs/Web/API/UI_Events",
@@ -24432,6 +24428,860 @@ env(viewport-segment-width 0 1)
                       data: [
                         "https://wicg.github.io/visual-viewport/examples/fixed-to-viewport.html",
                         404
+                      ]
+                    }
+                  ]
+                },
+                vrdisplay: {
+                  children: {
+                    cancelanimationframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/cancelAnimationFrame",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    capabilities: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/capabilities",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    depthfar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/depthFar",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    depthnear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/depthNear",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    displayid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/displayId",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    displayname: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/displayName",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    exitpresent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/exitPresent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    geteyeparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/getEyeParameters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    getframedata: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/getFrameData",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    getimmediatepose: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/getImmediatePose",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    getlayers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/getLayers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    getpose: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/getPose",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    isconnected: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/isConnected",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    ispresenting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/isPresenting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    requestanimationframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/requestAnimationFrame",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    requestpresent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/requestPresent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    resetpose: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/resetPose",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    stageparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/stageParameters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    submitframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplay/submitFrame",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRDisplay",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrdisplaycapabilities: {
+                  children: {
+                    canpresent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/canPresent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    hasexternaldisplay: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasExternalDisplay",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    hasorientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasOrientation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    hasposition: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasPosition",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    maxlayers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/maxLayers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRDisplayCapabilities",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrdisplayevent: {
+                  children: {
+                    display: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayEvent/display",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    reason: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayEvent/reason",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplayevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRDisplayEvent/VRDisplayEvent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRDisplayEvent",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vreyeparameters: {
+                  children: {
+                    fieldofview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/fieldOfView",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    maximumfieldofview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/maximumFieldOfView",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    minimumfieldofview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/minimumFieldOfView",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    offset: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/offset",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    renderheight: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/renderHeight",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    renderwidth: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VREyeParameters/renderWidth",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VREyeParameters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrfieldofview: {
+                  children: {
+                    downdegrees: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFieldOfView/downDegrees",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    leftdegrees: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFieldOfView/leftDegrees",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    rightdegrees: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFieldOfView/rightDegrees",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    updegrees: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFieldOfView/upDegrees",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRFieldOfView",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrframedata: {
+                  children: {
+                    leftprojectionmatrix: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/leftProjectionMatrix",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    leftviewmatrix: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/leftViewMatrix",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    pose: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/pose",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    rightprojectionmatrix: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/rightProjectionMatrix",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    rightviewmatrix: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/rightViewMatrix",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    timestamp: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/timestamp",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrframedata: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRFrameData/VRFrameData",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRFrameData",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrlayerinit: {
+                  children: {
+                    leftbounds: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRLayerInit/leftBounds",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    rightbounds: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRLayerInit/rightBounds",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    source: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRLayerInit/source",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRLayerInit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrpose: {
+                  children: {
+                    angularacceleration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/angularAcceleration",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    angularvelocity: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/angularVelocity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    linearacceleration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/linearAcceleration",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    linearvelocity: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/linearVelocity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    orientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/orientation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    position: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRPose/position",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRPose",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
+                      ]
+                    }
+                  ]
+                },
+                vrstageparameters: {
+                  children: {
+                    sittingtostandingtransform: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRStageParameters/sittingToStandingTransform",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    sizex: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRStageParameters/sizeX",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    sizey: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/VRStageParameters/sizeY",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/VRStageParameters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
                       ]
                     }
                   ]
@@ -24780,15 +25630,15 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
-                websockets_api: {
+                webvr_api: {
                   children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  slug: "/en-US/docs/Web/API/WebVR_API",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.asyncapi.com/blog/websocket-part1",
-                        "The operation timed out."
+                        "https://github.com/immersive-web/webxr-polyfill",
+                        502
                       ]
                     }
                   ]
@@ -24823,6 +25673,19 @@ api.Window.sessionStorage`,
                           data: [
                             "https://filmmakeriq.com/wp-content/uploads/2016/09/Pan-Tilt.png",
                             "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
+                    startup_and_shutdown: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
                           ]
                         }
                       ]
@@ -24893,6 +25756,71 @@ setTimeout(function () {
                           message: "Not in BCD",
                           data: [
                             "api.Window.sizeToContent"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplayactivate_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplayactivate_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplayconnect_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplayconnect_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaydeactivate_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaydeactivate_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaydisconnect_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaydisconnect_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaypresentchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaypresentchange_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/immersive-web/webxr-polyfill",
+                            502
                           ]
                         }
                       ]
@@ -39947,19 +40875,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         }
                       }
                     },
-                    scoping: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Guides/Scoping",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css.oddbird.net/scope/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     scroll_anchoring: {
                       children: {
                         overview: {
@@ -40174,23 +41089,6 @@ div::after {
                           ]
                         }
                       ]
-                    },
-                    text: {
-                      children: {
-                        wrapping_breaking_text: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     transforms: {
                       children: {
@@ -41500,13 +42398,6 @@ input[type="range"] {
                       message: "Broken anchor",
                       data: [
                         "#related_concepts"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css.oddbird.net/scope/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -65665,13 +66556,6 @@ linear(start, middle, end)
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://linear-easing-generator.netlify.app/",
-                                    "The operation timed out."
-                                  ]
                                 }
                               ]
                             },
@@ -65881,13 +66765,6 @@ li {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://linear-easing-generator.netlify.app/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -75463,6 +76340,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
@@ -75718,19 +76608,6 @@ let z = 1;
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/repl",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -75972,68 +76849,6 @@ doIt(); // returns "finally"
                 }
               }
             },
-            performance: {
-              children: {},
-              slug: "/en-US/docs/Web/Performance",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             privacy: {
               children: {
                 guides: {
@@ -76064,19 +76879,6 @@ doIt(); // returns "finally"
                         }
                       ]
                     },
-                    referer_header_colon__privacy_and_security_concerns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://geekthis.net/post/hide-http-referer-headers/",
-                            "certificate has expired"
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -76098,6 +76900,13 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/content-blocking",
+                                    502
+                                  ]
                                 }
                               ]
                             },
@@ -76108,6 +76917,13 @@ doIt(); // returns "finally"
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/content-blocking",
+                                    502
+                                  ]
                                 }
                               ]
                             },
@@ -76147,6 +76963,13 @@ doIt(); // returns "finally"
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/content-blocking",
+                            502
                           ]
                         }
                       ]
