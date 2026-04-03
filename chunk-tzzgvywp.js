@@ -35592,6 +35592,7 @@ Firefox 149 was released on March 24, 2026.`,
         "https://bugzil.la/2010125",
         "https://bugzil.la/1976074",
         "https://bugzil.la/2008916",
+        "https://bugzil.la/2017797",
         "https://bugzil.la/1998668",
         "https://bugzil.la/1966073",
         "https://bugzil.la/1773312",
@@ -35613,6 +35614,7 @@ Firefox 149 was released on March 24, 2026.`,
         "https://bugzil.la/2013477",
         "https://bugzil.la/1799344",
         "https://bugzil.la/2011516",
+        "https://bugzil.la/2017797",
         "https://bugzil.la/2011234",
         "https://bugzil.la/2015559",
         "https://bugzil.la/2001318",
@@ -52090,18 +52092,6 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
@@ -52115,6 +52105,18 @@ Each request method has its own semantics, but some characteristics are shared a
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         }
       ],
@@ -82912,7 +82914,7 @@ Firefox supports several extensions to CSS, which are prefixed with -moz-.`,
         "-moz-prefixed_property_values",
         "global_values",
         "background-image",
-        "order-style_and_outline-style",
+        "border-style_and_outline-style",
         "color_keywords",
         "empty-cells",
         "font-family",
@@ -119080,23 +119082,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -119104,11 +119090,27 @@ The image can be left to its natural size, stretched, or constrained to fit the 
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -119116,7 +119118,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -132299,43 +132301,43 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Elision",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ObjectLiteral",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArrayLiteral",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Arguments",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoverParenthesizedExpressionAndArrowParameterList",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-NamedImports",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-NamedExports",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-QuantifierPrefix",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-InvalidBracedQuantifier",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132506,7 +132508,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-try-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132557,7 +132559,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-empty-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132598,7 +132600,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-while-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -132644,7 +132646,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-break-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132688,7 +132690,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-throw-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132731,7 +132733,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-variable-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -132781,7 +132783,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -132826,7 +132828,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-expression-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132866,7 +132868,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132906,7 +132908,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-return-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -132949,7 +132951,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133012,7 +133014,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-WithClause",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133068,7 +133070,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-for-in-and-for-of-statements",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133121,7 +133123,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133177,7 +133179,7 @@ JavaScript syntax would expect one.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-labelled-statements",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133226,7 +133228,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-debugger-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133268,7 +133270,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133315,7 +133317,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133362,7 +133364,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-exports",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133409,7 +133411,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-if-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133456,7 +133458,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-for-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133505,7 +133507,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-let-and-const-declarations",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133552,7 +133554,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-with-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133596,7 +133598,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-for-in-and-for-of-statements",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133641,7 +133643,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-continue-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133684,7 +133686,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -133743,7 +133745,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-do-while-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133787,7 +133789,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-switch-statement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133835,7 +133837,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-for-in-and-for-of-statements",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133884,7 +133886,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-block",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -133975,7 +133977,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134059,7 +134061,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134115,7 +134117,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134174,7 +134176,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlock",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134220,7 +134222,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-static-semantics-constructormethod",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134264,7 +134266,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FieldDefinition",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134310,11 +134312,11 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-PrivateIdentifier",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-00OK517S",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -134367,7 +134369,7 @@ this statement has no effect.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138466,11 +138468,11 @@ when it was attempted to delete a property, but that property is non-configurabl
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/memory-model.html",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html",
@@ -138535,7 +138537,7 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138581,7 +138583,7 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138622,7 +138624,7 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138662,7 +138664,7 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138702,11 +138704,11 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -138773,7 +138775,7 @@ non-Boolean value.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -138824,208 +138826,208 @@ non-Boolean value.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139155,7 +139157,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139197,7 +139199,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139238,7 +139240,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139280,7 +139282,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139330,7 +139332,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139372,7 +139374,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139418,7 +139420,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139463,7 +139465,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139542,7 +139544,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139586,7 +139588,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139626,7 +139628,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139667,7 +139669,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139707,7 +139709,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139761,7 +139763,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139805,7 +139807,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139857,7 +139859,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139898,7 +139900,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -139950,7 +139952,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -139990,7 +139992,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140030,7 +140032,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140073,7 +140075,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140113,7 +140115,7 @@ expression and then returns undefined.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140156,7 +140158,7 @@ otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140200,7 +140202,7 @@ otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140240,7 +140242,7 @@ otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140282,7 +140284,7 @@ otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140322,7 +140324,7 @@ otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -140365,7 +140367,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140409,7 +140411,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140451,7 +140453,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140492,7 +140494,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -140535,7 +140537,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -140581,7 +140583,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140633,7 +140635,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140728,7 +140730,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140772,7 +140774,7 @@ operand can be converted to true; otherwise, returns true.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140816,7 +140818,7 @@ be different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140858,7 +140860,7 @@ be different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140899,7 +140901,7 @@ be different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -140941,7 +140943,7 @@ be different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -140981,7 +140983,7 @@ be different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141024,7 +141026,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141069,7 +141071,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141126,7 +141128,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141172,7 +141174,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141217,7 +141219,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141260,7 +141262,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141304,7 +141306,7 @@ it attempts to convert and compare operands that are of different types.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141347,7 +141349,7 @@ operand is greater than the right operand, and false otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141391,7 +141393,7 @@ operand is greater than the right operand, and false otherwise.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141438,7 +141440,7 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141480,15 +141482,15 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141540,7 +141542,7 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -141587,7 +141589,7 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141634,7 +141636,7 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141675,7 +141677,7 @@ different.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141719,7 +141721,7 @@ This operator is frequently used as an alternative to an if...else statement.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141768,7 +141770,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141811,7 +141813,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141856,7 +141858,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -141904,7 +141906,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -141957,7 +141959,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142005,7 +142007,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142047,7 +142049,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142088,7 +142090,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142130,7 +142132,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142177,7 +142179,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142277,7 +142279,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142345,7 +142347,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iteration",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142522,7 +142524,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-method-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142573,7 +142575,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-method-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142628,7 +142630,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142687,7 +142689,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-arrow-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142737,7 +142739,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-method-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142786,7 +142788,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-arguments-exotic-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142830,7 +142832,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-arguments-exotic-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142869,7 +142871,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-arguments-exotic-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -142918,11 +142920,11 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-createunmappedargumentsobject",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-createmappedargumentsobject",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -142963,7 +142965,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143006,7 +143008,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143052,7 +143054,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-template-literals",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143103,7 +143105,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143148,7 +143150,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143188,7 +143190,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143229,7 +143231,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.intersection",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143276,7 +143278,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143361,7 +143363,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.isdisjointfrom",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143408,7 +143410,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143450,7 +143452,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.issupersetof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143497,7 +143499,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.symmetricdifference",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143544,7 +143546,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143586,7 +143588,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.issubsetof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143633,7 +143635,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.union",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143680,7 +143682,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.add",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143722,7 +143724,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set.prototype.size",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143761,7 +143763,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143802,7 +143804,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143845,7 +143847,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143886,7 +143888,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.clear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -143927,7 +143929,7 @@ operand.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.difference",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -143975,7 +143977,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -144022,7 +144024,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144068,7 +144070,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-object",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144138,7 +144140,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.find",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144227,7 +144229,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.flatmap",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144277,7 +144279,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.filter",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144325,7 +144327,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -144365,7 +144367,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.some",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144412,7 +144414,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.from",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144460,7 +144462,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.concat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144508,7 +144510,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.every",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144555,7 +144557,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.reduce",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144606,7 +144608,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.map",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144654,7 +144656,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.toarray",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144747,7 +144749,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.drop",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144851,7 +144853,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -144898,7 +144900,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.take",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145026,7 +145028,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145066,7 +145068,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-float16array",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145152,7 +145154,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-typeerror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145196,7 +145198,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145241,7 +145243,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.fromhex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145288,7 +145290,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145343,7 +145345,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145385,7 +145387,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfromhex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145436,7 +145438,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tohex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145479,7 +145481,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tobase64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145533,7 +145535,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfrombase64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145587,7 +145589,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.frombase64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145687,7 +145689,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asynciteratorprototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145730,7 +145732,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asynciteratorprototype-asynciterator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145770,7 +145772,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-decodeuricomponent-encodeduricomponent",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145817,7 +145819,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145865,7 +145867,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -145907,7 +145909,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.gettime",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145950,7 +145952,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcmonth",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -145991,7 +145993,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype-%symbol.toprimitive%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146036,7 +146038,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcmilliseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146077,7 +146079,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -146188,7 +146190,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tojson",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146231,7 +146233,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcmilliseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146274,7 +146276,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146333,7 +146335,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setdate",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146376,7 +146378,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcdate",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146417,7 +146419,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.gettimezoneoffset",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -146467,7 +146469,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146508,7 +146510,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setmilliseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146551,7 +146553,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutchours",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146592,7 +146594,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcminutes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146637,7 +146639,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcfullyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146682,7 +146684,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.utc",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146732,7 +146734,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocaledatestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-date.prototype.tolocaledatestring",
@@ -146782,7 +146784,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getfullyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146824,7 +146826,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutchours",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146870,7 +146872,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146911,7 +146913,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146953,7 +146955,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getday",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -146997,7 +146999,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-date.prototype.getyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -147043,7 +147045,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.sethours",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147089,7 +147091,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.now",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -147134,7 +147136,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.toutcstring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -147181,7 +147183,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147225,7 +147227,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.gethours",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147266,7 +147268,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getdate",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147307,7 +147309,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcdate",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147350,7 +147352,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocalestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-date.prototype.tolocalestring",
@@ -147400,7 +147402,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setfullyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147445,7 +147447,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.settime",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147487,7 +147489,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcday",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147530,7 +147532,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-date.prototype.setyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -147574,7 +147576,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.toisostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -147619,7 +147621,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.todatestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147661,7 +147663,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.totimestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147703,7 +147705,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setmonth",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147747,7 +147749,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcminutes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147788,7 +147790,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getminutes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147829,7 +147831,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setminutes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147874,7 +147876,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcmonth",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147918,7 +147920,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -147960,7 +147962,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.setutcseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148004,7 +148006,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getmonth",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148046,7 +148048,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getmilliseconds",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148087,7 +148089,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.parse",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148132,7 +148134,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.getutcfullyear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148174,7 +148176,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocaletimestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-date.prototype.tolocaletimestring",
@@ -148266,7 +148268,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.try",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148313,7 +148315,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.catch",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148359,7 +148361,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148446,7 +148448,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.allsettled",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148495,7 +148497,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148542,7 +148544,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.reject",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148587,7 +148589,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.race",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148636,7 +148638,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.finally",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148682,7 +148684,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.then",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148731,7 +148733,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-promise-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148774,7 +148776,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.resolve",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148821,7 +148823,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.withResolvers",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148870,7 +148872,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.all",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -148917,7 +148919,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.any",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -148965,7 +148967,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-weak-ref-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149016,7 +149018,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-weak-ref-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149059,7 +149061,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-weak-ref.prototype.deref",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149100,7 +149102,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-json-object",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149255,7 +149257,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-json.stringify",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149318,7 +149320,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-json.parse",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149375,7 +149377,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generatorfunction-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149416,11 +149418,11 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generatorfunction.prototype.prototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generatorfunction-instances-prototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149458,7 +149460,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generatorfunction-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149497,7 +149499,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-parseint-string-radix",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149544,7 +149546,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149590,7 +149592,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149632,7 +149634,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-escape-string",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149677,7 +149679,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149725,7 +149727,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149767,7 +149769,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.fromasync",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149822,7 +149824,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149868,7 +149870,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -149916,7 +149918,7 @@ for each value in this set, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-properties-of-array-instances-length",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -149960,7 +149962,7 @@ an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.push",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150009,7 +150011,7 @@ an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype-%symbol.unscopables%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150050,7 +150052,7 @@ an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150178,7 +150180,7 @@ If no elements satisfy the testing function, undefined is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findlast",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150236,7 +150238,7 @@ If no values satisfy the testing function, undefined is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.find",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150292,7 +150294,7 @@ If no values satisfy the testing function, undefined is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.at",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150341,7 +150343,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150389,7 +150391,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.toreversed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150435,7 +150437,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flatmap",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150491,7 +150493,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tosorted",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150538,7 +150540,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.filter",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150595,7 +150597,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150644,7 +150646,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -150689,7 +150691,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.some",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150745,7 +150747,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.from",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150802,7 +150804,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reverse",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150852,7 +150854,7 @@ elements concatenated into it recursively up to the specified depth.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tospliced",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150902,7 +150904,7 @@ given element can be found in the array, or -1 if it is not present.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -150954,7 +150956,7 @@ This method does not change the existing arrays, but instead returns a new array
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.concat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151006,7 +151008,7 @@ This method does not change the existing arrays, but instead returns a new array
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.every",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151062,7 +151064,7 @@ This method does not change the existing arrays, but instead returns a new array
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduce",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151128,7 +151130,7 @@ the index of items in that array. The original array will not be modified.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.slice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151185,7 +151187,7 @@ string (such as a comma ",").`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tolocalestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-array.prototype.tolocalestring",
@@ -151237,7 +151239,7 @@ removing or replacing existing elements and/or adding new elements in place.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.splice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151297,7 +151299,7 @@ array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.pop",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -151343,7 +151345,7 @@ every element in the calling array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.map",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151402,7 +151404,7 @@ beginning of an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.unshift",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151449,7 +151451,7 @@ beginning of an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.isarray",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151497,7 +151499,7 @@ beginning of an array and returns the new length of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.with",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151550,7 +151552,7 @@ arguments.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.of",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151597,7 +151599,7 @@ arguments.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.copywithin",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151647,7 +151649,7 @@ arguments.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-array-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151693,7 +151695,7 @@ false as appropriate.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.includes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151745,7 +151747,7 @@ If no elements satisfy the testing function, -1 is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findindex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151799,7 +151801,7 @@ If no elements satisfy the testing function, -1 is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.fill",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151852,7 +151854,7 @@ only one item, then that item will be returned without using the separator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.join",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151902,7 +151904,7 @@ searched backwards, starting at fromIndex.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.lastindexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -151952,7 +151954,7 @@ searched backwards, starting at fromIndex.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduceright",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152012,7 +152014,7 @@ specified array and its elements.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -152057,7 +152059,7 @@ If no elements satisfy the testing function, -1 is returned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findlastindex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152113,7 +152115,7 @@ of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.shift",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -152157,7 +152159,7 @@ of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152207,7 +152209,7 @@ of the array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.sort",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152269,7 +152271,7 @@ for each array element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152326,7 +152328,7 @@ for each array element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-eval-x",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152385,7 +152387,7 @@ for each array element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-boolean-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152436,7 +152438,7 @@ for each array element.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-boolean-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -152481,7 +152483,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-boolean.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -152523,7 +152525,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-boolean.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -152565,7 +152567,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-globalthis",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152612,7 +152614,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -152660,7 +152662,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153091,7 +153093,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-value-properties-of-the-global-object-infinity",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153131,7 +153133,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153179,7 +153181,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153217,7 +153219,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-aggregate-error-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153263,7 +153265,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153311,7 +153313,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153353,7 +153355,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-parsefloat-string",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153399,7 +153401,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-finalization-registry-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153453,7 +153455,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-finalization-registry-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153494,7 +153496,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-finalization-registry.prototype.unregister",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153538,7 +153540,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/managing-memory.html#sec-finalization-registry.prototype.register",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153584,7 +153586,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-async-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153625,7 +153627,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-async-function-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153664,7 +153666,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-urierror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153708,7 +153710,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153753,7 +153755,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-instances-length",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153793,7 +153795,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -153881,7 +153883,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype.bind",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -153931,7 +153933,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-instances-prototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154007,7 +154009,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype.apply",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -154054,7 +154056,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype.call",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154100,7 +154102,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154188,7 +154190,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-instances-name",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -154244,7 +154246,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154287,7 +154289,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype-%symbol.hasinstance%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -154333,7 +154335,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-encodeuri-uri",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -154383,7 +154385,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -154439,7 +154441,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy.revocable",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154484,7 +154486,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-set-p-v-receiver",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154532,7 +154534,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-get-p-receiver",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154579,7 +154581,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-delete-p",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154625,7 +154627,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154681,7 +154683,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-preventextensions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154726,7 +154728,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-defineownproperty-p-desc",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154773,7 +154775,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-getprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154820,7 +154822,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-hasproperty-p",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154866,7 +154868,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-call-thisargument-argumentslist",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154913,7 +154915,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-setprototypeof-v",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -154960,7 +154962,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-ownpropertykeys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155005,7 +155007,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-isextensible",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155050,7 +155052,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-getownproperty-p",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155096,7 +155098,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-proxy-object-internal-methods-and-internal-slots-construct-argumentslist-newtarget",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155143,7 +155145,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155188,7 +155190,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.throw",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155234,7 +155236,7 @@ Boolean object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.return",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155284,7 +155286,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator.prototype.next",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155331,7 +155333,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.set",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155376,7 +155378,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.get",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155418,7 +155420,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -155476,7 +155478,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsert",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -155524,7 +155526,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155566,7 +155568,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -155608,7 +155610,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155650,7 +155652,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsertcomputed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -155699,7 +155701,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -155819,7 +155821,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-installerrorcause",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155898,7 +155900,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error.prototype.message",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -155972,7 +155974,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156022,7 +156024,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error.iserror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156103,7 +156105,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error.prototype.name",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156177,7 +156179,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156265,7 +156267,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-value-properties-of-the-global-object-nan",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156310,7 +156312,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.replace",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156351,7 +156353,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.iterator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156394,7 +156396,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.prototype-%symbol.toprimitive%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156436,7 +156438,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156514,7 +156516,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.asynciterator",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156554,7 +156556,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.hasinstance",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156595,7 +156597,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.split",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156636,7 +156638,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.match",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156678,7 +156680,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.toprimitive",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156720,7 +156722,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156762,7 +156764,7 @@ generator.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.isconcatspreadable",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156847,7 +156849,7 @@ key from the global symbol registry for the given symbol.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.keyfor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -156889,7 +156891,7 @@ key from the global symbol registry for the given symbol.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.matchall",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -156972,7 +156974,7 @@ key from the global symbol registry for the given symbol.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.prototype.description",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157014,7 +157016,7 @@ key from the global symbol registry for the given symbol.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.unscopables",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157058,7 +157060,7 @@ key from the global symbol registry for the given symbol.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157104,7 +157106,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.for",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157147,7 +157149,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.search",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157188,7 +157190,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.species",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157230,7 +157232,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157273,7 +157275,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol.tostringtag",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157318,7 +157320,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgeneratorfunction-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157359,11 +157361,11 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgeneratorfunction-prototype-prototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgeneratorfunction-instances-prototype",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157401,7 +157403,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgeneratorfunction-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157440,7 +157442,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-dataview.prototype.buffer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157479,7 +157481,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getbigint64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157524,7 +157526,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getfloat16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157571,7 +157573,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157643,7 +157645,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setfloat16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -157691,7 +157693,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-dataview.prototype.bytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157730,7 +157732,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setint32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157776,7 +157778,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setuint16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157822,7 +157824,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getuint32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157867,7 +157869,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getfloat64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157912,7 +157914,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setuint8",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -157957,7 +157959,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getuint16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158002,7 +158004,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setfloat32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158048,7 +158050,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getfloat32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158093,7 +158095,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setfloat64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158139,7 +158141,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-dataview.prototype.byteoffset",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158178,7 +158180,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setint8",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158223,7 +158225,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setbiguint64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158269,7 +158271,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getuint8",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158313,7 +158315,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getbiguint64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158358,7 +158360,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getint32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158403,7 +158405,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -158451,7 +158453,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setbigint64",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158497,7 +158499,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setint16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158543,7 +158545,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getint8",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158587,7 +158589,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.setuint32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158633,7 +158635,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getint16",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158678,7 +158680,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.set",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158722,7 +158724,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158765,7 +158767,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158806,7 +158808,7 @@ a new symbol gets created in the global symbol registry with this key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158848,7 +158850,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -158924,7 +158926,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -158966,7 +158968,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsert",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159014,7 +159016,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159056,7 +159058,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.groupby",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159105,7 +159107,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map.prototype.size",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159144,7 +159146,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159187,7 +159189,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159228,7 +159230,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159270,7 +159272,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsertcomputed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159319,7 +159321,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159360,7 +159362,7 @@ Any value (both objects and primitive values) may be used as either a key or a v
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.clear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159402,7 +159404,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159449,7 +159451,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.set",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159500,7 +159502,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.get",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159549,7 +159551,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.deleteproperty",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159597,7 +159599,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect-object",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -159653,7 +159655,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.preventextensions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159701,7 +159703,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.defineproperty",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159751,7 +159753,7 @@ pair in this map, in insertion order.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.getprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159801,7 +159803,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159849,7 +159851,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.apply",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159899,7 +159901,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.setprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159947,7 +159949,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.ownkeys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -159995,7 +159997,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.isextensible",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160043,7 +160045,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.getownpropertydescriptor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160092,7 +160094,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.construct",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160143,7 +160145,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160191,7 +160193,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160233,7 +160235,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160280,7 +160282,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160322,7 +160324,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-unescape-string",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160367,7 +160369,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-isfinite-number",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160410,7 +160412,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160473,7 +160475,7 @@ as a function.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint.asuintn",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160522,7 +160524,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160563,7 +160565,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint.asintn",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160657,7 +160659,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160703,7 +160705,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160749,7 +160751,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log2e",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160789,7 +160791,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160833,7 +160835,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.round",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160876,7 +160878,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -160919,7 +160921,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.acosh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -160965,7 +160967,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.ceil",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161008,7 +161010,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math-object",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161101,7 +161103,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.atan2",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161148,7 +161150,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log10",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161194,7 +161196,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.min",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161238,7 +161240,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sinh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161283,7 +161285,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log2",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161328,7 +161330,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.fround",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161376,7 +161378,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.asinh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161422,7 +161424,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.pi",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161462,7 +161464,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.pow",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161506,7 +161508,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.floor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161550,7 +161552,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sin",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161593,7 +161595,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.max",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161637,7 +161639,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.ln2",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161677,7 +161679,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.exp",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161720,7 +161722,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt1_2",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161760,7 +161762,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.cos",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -161803,7 +161805,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161848,7 +161850,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.expm1",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161893,7 +161895,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.imul",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161942,7 +161944,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -161988,7 +161990,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sign",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162034,7 +162036,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.clz32",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162082,7 +162084,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.hypot",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162127,7 +162129,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log1p",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162173,7 +162175,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.ln10",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162213,7 +162215,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.atan",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162256,7 +162258,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.cosh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162302,7 +162304,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt2",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162342,7 +162344,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162387,7 +162389,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log10e",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162427,7 +162429,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.cbrt",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162473,7 +162475,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.atanh",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162519,7 +162521,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.random",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162563,7 +162565,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.asin",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162606,7 +162608,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sumprecise",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162654,7 +162656,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.f16round",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162702,7 +162704,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.abs",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162746,7 +162748,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.acos",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162789,7 +162791,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.e",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162829,7 +162831,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocalelowercase",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-string.prototype.tolocalelowercase",
@@ -162876,7 +162878,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.replace",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -162934,7 +162936,7 @@ of a BigInt object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.fromcharcode",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -162978,7 +162980,7 @@ Form of this string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.normalize",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163033,7 +163035,7 @@ Form of this string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.padstart",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163080,7 +163082,7 @@ Form of this string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-properties-of-string-instances-length",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163125,7 +163127,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163235,7 +163237,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.bold",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163280,7 +163282,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.big",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163323,7 +163325,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.at",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163371,7 +163373,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.sup",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163414,7 +163416,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.replaceall",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163466,7 +163468,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.link",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163512,7 +163514,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.blink",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163555,7 +163557,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.split",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163611,7 +163613,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.small",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163654,7 +163656,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.raw",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163707,7 +163709,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.match",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163757,7 +163759,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163802,7 +163804,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trim",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -163843,7 +163845,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.towellformed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -163889,7 +163891,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.indexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -163937,7 +163939,7 @@ sequence of characters.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -163980,7 +163982,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.concat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164023,7 +164025,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.endswith",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164072,7 +164074,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.matchall",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164122,7 +164124,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.charat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164167,7 +164169,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.fromcodepoint",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164216,7 +164218,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.localecompare",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-String.prototype.localeCompare",
@@ -164272,7 +164274,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.strike",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164315,7 +164317,7 @@ the string arguments to this string and returns a new string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.charcodeat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164361,7 +164363,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.slice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164406,7 +164408,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.substring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164456,7 +164458,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.anchor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164502,7 +164504,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.fixed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164545,7 +164547,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.startswith",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164594,7 +164596,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolowercase",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164636,7 +164638,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.touppercase",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164681,7 +164683,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.fontcolor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164726,7 +164728,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -164768,7 +164770,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.codepointat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164815,7 +164817,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.includes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164867,7 +164869,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.fontsize",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164912,7 +164914,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.search",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -164957,7 +164959,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trimend",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165002,7 +165004,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.iswellformed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165047,7 +165049,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocaleuppercase",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-string.prototype.tolocaleuppercase",
@@ -165096,7 +165098,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.sub",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165139,7 +165141,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.lastindexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -165186,7 +165188,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.italics",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165229,7 +165231,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -165271,7 +165273,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.trimstart",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165316,7 +165318,7 @@ returns it as a new string, without modifying the original string.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.padend",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165363,7 +165365,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.repeat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165412,7 +165414,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.substr",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165460,7 +165462,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.dotAll",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165541,7 +165543,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-regular-expression-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165672,7 +165674,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.flags",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165714,7 +165716,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.multiline",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -165753,7 +165755,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype-%symbol.replace%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165800,7 +165802,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.global",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -165839,7 +165841,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.sticky",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165883,7 +165885,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.escape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -165930,7 +165932,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype.exec",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -165979,7 +165981,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype-%symbol.search%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166025,7 +166027,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.hasIndices",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166106,7 +166108,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-regexp.prototype.compile",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166150,7 +166152,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.source",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166190,7 +166192,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-properties-of-regexp-instances",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166234,7 +166236,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.unicode",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166274,7 +166276,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.unicodesets",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166315,7 +166317,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype.test",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166359,7 +166361,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype-%symbol.match%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166445,7 +166447,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166541,7 +166543,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166584,7 +166586,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp-prototype-%symbol.matchall%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166671,7 +166673,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166714,7 +166716,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.prototype-%symbol.split%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166761,7 +166763,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.ignorecase",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166803,7 +166805,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics-object",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166864,7 +166866,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.store",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -166910,7 +166912,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.compareexchange",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -166960,7 +166962,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.load",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167005,7 +167007,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167102,7 +167104,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.exchange",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167148,7 +167150,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.add",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167194,7 +167196,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.notify",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167240,7 +167242,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.wait",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167287,7 +167289,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.or",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167334,7 +167336,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.islockfree",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167376,7 +167378,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.sub",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167422,7 +167424,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.and",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -167469,7 +167471,7 @@ which contains the specified number of copies of this string, concatenated toget
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.xor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -171659,7 +171661,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-undefined",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -171701,7 +171703,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -171749,7 +171751,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -171791,7 +171793,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.isprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -171836,7 +171838,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.propertyisenumerable",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -171883,7 +171885,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -171932,7 +171934,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__proto__",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -171977,7 +171979,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.is",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172024,7 +172026,7 @@ Intl.DateTimeFormat object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172075,7 +172077,7 @@ it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.hasownproperty",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172122,7 +172124,7 @@ it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172212,7 +172214,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.assign",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172269,7 +172271,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.create",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172318,7 +172320,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownpropertysymbols",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172365,7 +172367,7 @@ object). It also prevents the object's prototype from being re-assigned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.preventextensions",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172409,7 +172411,7 @@ object). It also prevents the object's prototype from being re-assigned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.defineproperty",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172469,7 +172471,7 @@ object). It also prevents the object's prototype from being re-assigned.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__defineSetter__",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172521,7 +172523,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172568,7 +172570,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.hasown",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172619,7 +172621,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownpropertynames",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172665,7 +172667,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.setprototypeof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172718,7 +172720,7 @@ object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172763,7 +172765,7 @@ is extensible (whether it can have new properties added to it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.isextensible",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172807,7 +172809,7 @@ is extensible (whether it can have new properties added to it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.freeze",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172854,7 +172856,7 @@ is extensible (whether it can have new properties added to it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.issealed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172898,7 +172900,7 @@ is extensible (whether it can have new properties added to it).`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -172940,7 +172942,7 @@ modifies existing properties directly on an object, returning the object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.defineproperties",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -172993,7 +172995,7 @@ own property descriptors of a given object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownpropertydescriptors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173046,7 +173048,7 @@ own property descriptors of a given object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.groupby",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173097,7 +173099,7 @@ own property descriptors of a given object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__lookupSetter__",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173144,7 +173146,7 @@ own property descriptors of a given object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__lookupGetter__",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173193,7 +173195,7 @@ configuration.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownpropertydescriptor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173245,7 +173247,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.isfrozen",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173289,7 +173291,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.tolocalestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173334,7 +173336,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173377,7 +173379,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173424,7 +173426,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.prototype.__defineGetter__",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173473,7 +173475,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173520,7 +173522,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.seal",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173564,7 +173566,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.fromentries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173614,7 +173616,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173662,7 +173664,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -173872,7 +173874,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-syntaxerror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173916,7 +173918,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -173961,7 +173963,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-encodeuricomponent-uricomponent",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174011,7 +174013,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174076,7 +174078,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-sharedarraybuffer.prototype.bytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174114,7 +174116,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-sharedarraybuffer.prototype.growable",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174152,7 +174154,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer.prototype.grow",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174197,7 +174199,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer.prototype.slice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174240,7 +174242,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174283,7 +174285,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-sharedarraybuffer-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174328,7 +174330,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-sharedarraybuffer.prototype.maxbytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174366,7 +174368,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer.prototype.detached",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174407,7 +174409,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174467,7 +174469,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer.prototype.bytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174506,7 +174508,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.resize",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174552,7 +174554,7 @@ frozen.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer.prototype.resizable",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174594,7 +174596,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.isview",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174636,7 +174638,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.transfertofixedlength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174683,7 +174685,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.slice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174726,7 +174728,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer.prototype.transfer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174775,7 +174777,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174818,7 +174820,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-arraybuffer-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -174867,7 +174869,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/structured-data.html#sec-get-arraybuffer.prototype.maxbytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174906,7 +174908,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgenerator-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174951,7 +174953,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgenerator-prototype-throw",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -174994,7 +174996,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgenerator-prototype-return",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -175039,7 +175041,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asyncgenerator-prototype-next",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -175083,7 +175085,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -175134,7 +175136,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -175176,7 +175178,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.add",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -175220,7 +175222,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -175262,7 +175264,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -175304,7 +175306,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -175352,7 +175354,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -185881,7 +185883,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-rangeerror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -185926,7 +185928,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -185971,7 +185973,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-evalerror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186014,7 +186016,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186058,7 +186060,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-isnan-number",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186100,7 +186102,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/global-object.html#sec-decodeuri-encodeduri",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186147,7 +186149,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186225,7 +186227,7 @@ or a DataView.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.issafeinteger",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186274,7 +186276,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.parseint",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186320,7 +186322,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.positive_infinity",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186365,7 +186367,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.max_safe_integer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186410,7 +186412,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.min_safe_integer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186454,7 +186456,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.tofixed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186503,7 +186505,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.isinteger",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186549,7 +186551,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.valueof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186591,7 +186593,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.parsefloat",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186636,7 +186638,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.negative_infinity",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186681,7 +186683,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.max_value",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186721,7 +186723,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.toprecision",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186766,7 +186768,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.tolocalestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma402/#sup-number.prototype.tolocalestring",
@@ -186816,7 +186818,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.nan",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186856,7 +186858,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.isfinite",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186902,7 +186904,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.min_value",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -186944,7 +186946,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -186991,7 +186993,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.epsilon",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187035,7 +187037,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.isnan",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187082,7 +187084,7 @@ returns an integer of the specified radix or base.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number-constructor",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187127,7 +187129,7 @@ this number in exponential notation.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.toexponential",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187177,7 +187179,7 @@ array, reading input values from a specified array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.set",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187225,7 +187227,7 @@ array, reading input values from a specified array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%typedarray%.prototype.buffer",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -187265,7 +187267,7 @@ array, reading input values from a specified array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187310,7 +187312,7 @@ array, reading input values from a specified array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187355,7 +187357,7 @@ array, reading input values from a specified array.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%typedarray%.prototype.length",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -187400,7 +187402,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187504,7 +187506,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.findlast",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187554,7 +187556,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%typedarray%.prototype.bytelength",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -187593,7 +187595,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.find",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187643,7 +187645,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.at",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187690,7 +187692,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.toreversed",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187733,7 +187735,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tosorted",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187777,7 +187779,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.filter",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187826,7 +187828,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype-%symbol.iterator%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187870,7 +187872,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%typedarray%.prototype.byteoffset",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -187908,7 +187910,7 @@ methods that can be used with any typed array containing elements of any type.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.some",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -187960,7 +187962,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.from",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188013,7 +188015,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.reverse",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188059,7 +188061,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.indexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188105,7 +188107,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.every",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188154,7 +188156,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.reduce",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188206,7 +188208,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.slice",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188253,7 +188255,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tolocalestring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -188297,7 +188299,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.map",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188347,7 +188349,7 @@ Array.from().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.with",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188396,7 +188398,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.of",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188441,7 +188443,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.copywithin",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188488,7 +188490,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%typedarray%-%symbol.species%",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188532,7 +188534,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.includes",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188578,7 +188580,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.findindex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188628,7 +188630,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.fill",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188675,7 +188677,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.join",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188720,7 +188722,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.lastindexof",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188766,7 +188768,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.reduceright",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188816,7 +188818,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.tostring",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -188858,7 +188860,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.findlastindex",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188908,7 +188910,7 @@ Array.of().`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -188956,7 +188958,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.subarray",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189002,7 +189004,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.sort",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189051,7 +189053,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray.bytes_per_element",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189091,7 +189093,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%typedarray%.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189530,7 +189532,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard-referenceerror",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189574,7 +189576,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189618,48 +189620,48 @@ offset is exclusive.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189722,7 +189724,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189764,7 +189766,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189809,7 +189811,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189849,7 +189851,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189890,7 +189892,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -189931,7 +189933,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -189972,7 +189974,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190013,7 +190015,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190055,7 +190057,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -190099,7 +190101,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190141,7 +190143,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190182,7 +190184,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190226,7 +190228,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190268,7 +190270,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -190318,7 +190320,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -190382,7 +190384,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190427,7 +190429,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -190468,7 +190470,7 @@ offset is exclusive.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -191405,91 +191407,11 @@ This article describes how to set up an image map, and some downsides to conside
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
@@ -191497,11 +191419,19 @@ This article describes how to set up an image map, and some downsides to conside
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
@@ -191513,11 +191443,7 @@ This article describes how to set up an image map, and some downsides to conside
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
@@ -191525,12 +191451,88 @@ This article describes how to set up an image map, and some downsides to conside
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
         }
       ],
       links: [
@@ -205894,15 +205896,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -205910,11 +205904,19 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -235632,7 +235634,7 @@ key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -235676,7 +235678,7 @@ key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -235717,7 +235719,7 @@ key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -235809,7 +235811,7 @@ object has an element with the specified key.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -235855,7 +235857,7 @@ map.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map.prototype.size",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -235894,7 +235896,7 @@ map.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -235937,7 +235939,7 @@ each element of the map.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -415072,7 +415074,7 @@ resolves when the registration completes.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415112,7 +415114,7 @@ resolves when the registration completes.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415208,7 +415210,7 @@ resolves when the registration completes.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415293,7 +415295,7 @@ Highlight object which can hold a collection of Range objects to be styled using
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.add",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415336,7 +415338,7 @@ Highlight object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-set.prototype.size",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415427,7 +415429,7 @@ Highlight object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415469,7 +415471,7 @@ Highlight object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415510,7 +415512,7 @@ Highlight object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.clear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -415593,7 +415595,7 @@ Highlight object.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -454910,13 +454912,14 @@ document, as used by the same-origin policy.`,
         "formatblock",
         "forwarddelete",
         "heading",
-        "highlightcolor",
+        "hilitecolor",
         "increasefontsize",
         "indent",
         "insertbronreturn",
         "inserthorizontalrule",
         "inserthtml",
         "insertimage",
+        "insertlinebreak",
         "insertorderedlist",
         "insertunorderedlist",
         "insertparagraph",
@@ -460047,11 +460050,11 @@ SpeechGrammarList object instance.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         }
       ],
@@ -508056,7 +508059,7 @@ SpeechSynthesisUtterance interface gets and sets the text that will be synthesiz
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.set",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508101,7 +508104,7 @@ SpeechSynthesisUtterance interface gets and sets the text that will be synthesiz
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508143,7 +508146,7 @@ SpeechSynthesisUtterance interface gets and sets the text that will be synthesiz
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.keys",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508184,7 +508187,7 @@ SpeechSynthesisUtterance interface gets and sets the text that will be synthesiz
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508283,7 +508286,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508325,7 +508328,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map.prototype.size",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508365,7 +508368,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.delete",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508407,7 +508410,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.values",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508448,7 +508451,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.clear",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -508542,7 +508545,7 @@ It is accessed via CSS.highlights.`,
       specifications: [
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -595924,7 +595927,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -595979,7 +595982,7 @@ WebAssembly decoding or validation.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -596027,7 +596030,7 @@ WebAssembly decoding or validation.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -596084,7 +596087,7 @@ WebAssembly specifies a trap.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -597399,7 +597402,7 @@ This function is useful if it is necessary to compile a module before it can be 
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
@@ -597457,7 +597460,7 @@ from the start function).`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors",
-          title: "ECMAScript® 2026 Language Specification"
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [
