@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tsf54rnz.js";
+} from "./chunk-drz9gmdr.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,23 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                control_mechanisms: {
-                  children: {
-                    mobile_touch: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaserplugins.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
@@ -88,7 +71,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
@@ -1630,19 +1613,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3c.github.io/html-aria/",
-                            503
-                          ]
-                        }
-                      ]
                     },
                     what_is_accessibility: {
                       children: {},
@@ -16773,29 +16743,39 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    first_steps: {
+                    express_nodejs: {
                       children: {
-                        web_frameworks: {
+                        mongoose: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.java.com/",
-                                403
+                                "https://mongoosejs.com/",
+                                503
                               ]
                             },
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.java.com/",
-                                403
+                                "https://mongoosejs.com/",
+                                503
                               ]
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mongoosejs.com/",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -17577,6 +17557,13 @@ padding-left: 20px;
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/products/textwrangler/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://www.vegascreativesoftware.com/us/sound-forge-pro/",
@@ -17588,6 +17575,19 @@ padding-left: 20px;
                           data: [
                             "https://en.wikipedia.org/wiki/List_of_FTP_server_software",
                             404
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.barebones.com/products/textwrangler/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -17808,19 +17808,6 @@ color: rgb(31 41 59 / 26%);
                     },
                     page_types: {
                       children: {
-                        aria_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/ARIA_Page_Template",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         css_function_page_template: {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template",
@@ -19169,40 +19156,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "30": {
+                    "122": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=30",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=120",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "121": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=121",
+                            "https://whattrainisitnow.com/release/?version=122",
                             "The operation timed out."
                           ]
                         }
@@ -19234,27 +19195,40 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "130": {
+                    "127": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=130",
+                            "https://whattrainisitnow.com/release/?version=127",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "133": {
+                    "128": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/133",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=133",
+                            "https://whattrainisitnow.com/release/?version=128",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "132": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/132",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=132",
                             "The operation timed out."
                           ]
                         }
@@ -19273,6 +19247,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "135": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=135",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "136": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
@@ -19281,19 +19268,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "138": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=138",
                             "The operation timed out."
                           ]
                         }
@@ -19325,27 +19299,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "142": {
+                    "141": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=142",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "144": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=144",
+                            "https://whattrainisitnow.com/release/?version=141",
                             "The operation timed out."
                           ]
                         }
@@ -19364,19 +19325,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "146": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/146",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=146",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "147": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/147",
@@ -19390,19 +19338,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=148",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -19411,13 +19346,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=149",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19559,7 +19487,17 @@ webextensions.manifest.options_ui`,
                     }
                   }
                 }
-              }
+              },
+              slug: "/en-US/docs/Mozilla/Firefox",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://whattrainisitnow.com/calendar/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
             }
           },
           slug: "/en-US/docs/Mozilla",
@@ -19590,6 +19528,23 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -19603,62 +19558,6 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        roles: {
-                          children: {
-                            figure_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/figure_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
-                            img_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
-                            list_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/list_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
-                            listitem_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listitem_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     }
@@ -20176,17 +20075,7 @@ body {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Canvas_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 channel_messaging_api: {
                   children: {
@@ -20339,7 +20228,7 @@ api.MessagePort`,
                       message: "Broken external link",
                       data: [
                         "https://profiler.firefox.com/docs/",
-                        "The operation timed out."
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -21843,19 +21732,6 @@ api.DeviceOrientationEvent`,
                 },
                 element: {
                   children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     setattributens: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/setAttributeNS",
@@ -21864,23 +21740,6 @@ api.DeviceOrientationEvent`,
                           message: "Broken anchor",
                           data: [
                             "#namespaceURI"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                elementinternals: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -23177,23 +23036,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.google.com/googleplay/answer/7021273",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -23219,6 +23061,25 @@ aside {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                performanceresourcetiming: {
+                  children: {
+                    contenttype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceResourceTiming/contentType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
                           ]
                         }
                       ]
@@ -24222,6 +24083,23 @@ xhr.send();
                     }
                   }
                 },
+                service_worker_api: {
+                  children: {
+                    using_service_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/progressive-web-apps/#service-workers"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -24771,17 +24649,7 @@ env(viewport-segment-width 0 1)
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -24938,19 +24806,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://websocketking.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -41514,13 +41369,6 @@ section {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-transform.moro.es/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -41742,19 +41590,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        breadcrumb_navigation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/using-the-aria-current-attribute/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -50512,19 +50347,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        transform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-transform.moro.es/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -74715,19 +74537,6 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
-                        abbr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/abbr",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -74755,26 +74564,6 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        base: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/base",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -74798,19 +74587,6 @@ function onclick(event) {
                             }
                           ]
                         },
-                        blockquote: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/blockquote",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://heydonworks.com/article/the-blockquote-element/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         br: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/br",
@@ -74818,65 +74594,6 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        canvas: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/canvas",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        cite: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/cite",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        col: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/col",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        colgroup: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/colgroup",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -74887,19 +74604,6 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        dd: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dd",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75005,32 +74709,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        dt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dt",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         embed: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/embed",
@@ -75038,26 +74716,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        fencedframe: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/fencedframe",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75071,32 +74729,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        figcaption: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figcaption",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        figure: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         form: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/form",
@@ -75104,32 +74736,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        geolocation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/geolocation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        head: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/head",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75150,13 +74756,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75466,32 +75065,6 @@ html.elements.input.switch`,
                                 }
                               ]
                             },
-                            color: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/color",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
-                            date: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/date",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
                             "datetime-local": {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local",
@@ -75499,13 +75072,6 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
                                 }
                               ]
                             },
@@ -75519,32 +75085,6 @@ html.elements.input.switch`,
                                 }
                               ]
                             },
-                            file: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/file",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
-                            hidden: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/hidden",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
                             month: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/month",
@@ -75552,13 +75092,6 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
                                 }
                               ]
                             },
@@ -75579,13 +75112,6 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
                                 }
                               ]
                             },
@@ -75629,19 +75155,6 @@ html.elements.input.switch`,
                                 }
                               ]
                             },
-                            time: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/time",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            },
                             url: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/url",
@@ -75659,13 +75172,6 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://w3c.github.io/html-aria/",
-                                    503
-                                  ]
                                 }
                               ]
                             }
@@ -75679,13 +75185,6 @@ html.elements.input.switch`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox#switch",
                                 []
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75696,39 +75195,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        label: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/label",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        legend: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/legend",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75752,71 +75218,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        map: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/map",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        meta: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meta",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        noscript: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noscript",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        object: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/object",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -75827,19 +75228,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        param: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/param",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         picture: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/picture",
@@ -75847,26 +75235,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        rp: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rp",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75877,39 +75245,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        ruby: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ruby",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        script: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/script",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -75923,45 +75258,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        slot: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/slot",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        source: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/source",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        span: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/span",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         style: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/style",
@@ -75969,39 +75265,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        summary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/summary",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        template: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/template",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -76015,32 +75278,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        title: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/title",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        track: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/track",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         u: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/u",
@@ -76051,19 +75288,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        var: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/var",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         video: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/video",
@@ -76071,26 +75295,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        wbr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/wbr",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/html-aria/",
-                                503
-                              ]
                             }
                           ]
                         }
@@ -76228,6 +75432,26 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/cookies/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -76882,56 +76106,56 @@ doIt(); // returns "finally"
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 }
               ]
@@ -76963,6 +76187,19 @@ doIt(); // returns "finally"
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -77039,6 +76276,19 @@ doIt(); // returns "finally"
                           ]
                         }
                       ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -77056,6 +76306,20 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
                   ]
                 }
               ]
