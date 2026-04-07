@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ekwyy7nn.js";
+} from "./chunk-25mcfbm0.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -38,17 +38,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.meta.com/quest/",
-                        500
-                      ]
-                    }
-                  ]
+                  }
                 },
                 control_mechanisms: {
                   children: {
@@ -94,6 +84,13 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
                 {
                   message: "HTTP link",
                   data: [
@@ -215,17 +212,7 @@ var warnings_processed_default = {
                 }
               }
             }
-          },
-          slug: "/en-US/docs/Games",
-          messages: [
-            {
-              message: "Broken external link",
-              data: [
-                "https://html5gameengine.com/",
-                521
-              ]
-            }
-          ]
+          }
         },
         glossary: {
           children: {
@@ -316,6 +303,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            color_wheel: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Color_wheel",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
+                    403
+                  ]
                 }
               ]
             },
@@ -980,19 +980,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            microsoft_internet_explorer: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Microsoft_Internet_Explorer",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://death-to-ie11.com/",
-                    403
-                  ]
-                }
-              ]
-            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1020,19 +1007,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            "node.js": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Node.js",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-                    "https://nodejs.org/learn/getting-started/introduction-to-nodejs"
-                  ]
                 }
               ]
             },
@@ -1329,6 +1303,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://jamstack.org/generators/",
+                    "Unable to connect. Is the computer able to access the url?"
+                  ]
                 }
               ]
             },
@@ -1633,19 +1620,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://humanrights.gov.au/resource-hub/resources-for-organisations-businesses/disability-resources-employers/guidelines-equal-access-digital-goods-and-services",
-                            "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -6705,753 +6679,6 @@ button:active {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "16:21 - 16:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "17:15 - 17:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "26:21 - 26:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "28:15 - 28:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "39:15 - 39:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: #fff;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: #fff;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select,
-::picker(select) {
-  appearance: base-select;
-  width: 200px;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-}
-
-::picker(select) {
-  border: none;
-}
-
-optgroup {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  padding: 10px 0 0 0;
-  margin-top: 5px;
-}
-
-optgroup legend {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "HTML code issue",
                           data: [
                             "element-permitted-content",
@@ -7524,1777 +6751,6 @@ option:focus {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "14:21 - 14:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "16:15 - 16:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "22:15 - 22:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "14:21 - 14:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "16:15 - 16:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "22:15 - 22:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-select {
-  height: 44px;
-  overflow: hidden;
-  transition: 0.6s height;
-  interpolate-size: allow-keywords;
-}
-
-select:hover,
-select:has(option:focus) {
-  height: fit-content;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "14:21 - 14:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "16:15 - 16:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "22:15 - 22:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: #fff;",
-                            "29:15 - 29:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-select {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #eee;
-  width: 200px;
-  height: 130px;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-  height: 40px;
-  outline: none;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-p {
-  width: 90%;
-  margin: 0 auto;
-}
-
-select {
-  width: 100%;
-  height: fit-content;
-}
-
-.wrapper {
-  display: flex;
-  width: fit-content;
-}
-
-option {
-  padding: 10px 30px;
-  position: relative;
-}
-
-option::checkmark {
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  font-size: 1.5rem;
-  color: red;
-  text-shadow: 1px 1px 1px black;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -9515,1686 +6971,6 @@ option:focus {
     </div>
   </select>
 </p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "14:21 - 14:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "16:15 - 16:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
-                            "  border: 1px solid #bbb;",
-                            "24:21 - 24:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#bbb" to be "#bbbbbb" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "31:15 - 31:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
-                            "  border: 1px solid #bbb;",
-                            "38:21 - 38:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#bbb" to be "#bbbbbb" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "49:15 - 49:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: #fff;",
-                            "54:15 - 54:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "74:21 - 74:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eef" to be "#eeeeff" (color-hex-length)',
-                            "  background: #eef;",
-                            "75:15 - 75:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#eef" to be "#eeeeff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "79:10 - 79:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  outline: 2px dotted #666;",
-                            "84:23 - 84:27",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: #fff;",
-                            "54:15 - 54:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select_listboxes
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-select {
-  appearance: base-select;
-}
-
-.wrapper {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  background: #ddd;
-  width: 250px;
-}
-
-.filter input {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bbb;
-  width: 95%;
-  margin: 8px auto;
-}
-
-.options {
-  padding: 0 5px;
-  background: #ddd;
-}
-
-select {
-  height: 200px;
-  overflow-y: scroll;
-  width: 100%;
-  border: 1px solid #bbb;
-}
-
-.edit {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-option {
-  background: #eee;
-  padding: 10px;
-}
-
-option:nth-of-type(odd) {
-  background: #fff;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-input,
-option,
-a {
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  border: 1px solid #999;
-  background: #eef;
-}
-
-.edit a {
-  color: #333;
-}
-
-a:hover,
-a:focus {
-  outline: 2px dotted #666;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-@supports not (appearance: base-select) {
-  body::before {
-    content: "Your browser does not support \`appearance: base-select\`.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
 ~~~
 `
                           ]
@@ -16754,27 +12530,6 @@ textarea:focus {
                     }
                   }
                 },
-                "server-side": {
-                  children: {
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -17321,6 +13076,20 @@ body {
                             "https://www.andyroid.net/",
                             503
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -17547,26 +13316,6 @@ padding-left: 20px;
                           data: []
                         }
                       ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.vegascreativesoftware.com/us/sound-forge-pro/",
-                            "https://www.vegascreativesoftware.com/"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://en.wikipedia.org/wiki/List_of_FTP_server_software",
-                            404
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -17635,7 +13384,17 @@ padding-left: 20px;
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/MDN/Community/Discussions",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/products/mdn-plus",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 issues: {
                   children: {
@@ -17849,8 +13608,68 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
+                        browsersettings: {
+                          children: {
+                            zoomfullpage: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomFullPage",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            zoomsitespecific: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomSiteSpecific",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/about-config-editor-firefox",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        commands: {
+                          children: {
+                            openshortcutsettings: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/openShortcutSettings",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         contentscripts: {
                           children: {
+                            register: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/register",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             registeredcontentscript: {
                               children: {
                                 unregister: {
@@ -18234,124 +14053,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        omnibox: {
-                          children: {
-                            ondeletesuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputcancelled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputCancelled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputentered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputEntered",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputentereddisposition: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/OnInputEnteredDisposition",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputstarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputStarted",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            setdefaultsuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/setDefaultSuggestion",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            suggestresult: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/SuggestResult",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/omnibox",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         permissions: {
                           children: {
                             remove: {
@@ -18394,6 +14095,53 @@ color: rgb(31 41 59 / 26%);
                               ]
                             }
                           ]
+                        },
+                        privacy: {
+                          children: {
+                            network: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/network",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/https-only-prefs",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        proxy: {
+                          children: {
+                            proxyinfo: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/ProxyInfo",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/connection-settings-firefox",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            settings: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         scripting: {
                           children: {
@@ -18566,6 +14314,19 @@ color: rgb(31 41 59 / 26%);
                         },
                         userscripts_legacy: {
                           children: {
+                            register: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/register",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             registereduserscript: {
                               children: {
                                 unregister: {
@@ -18750,6 +14511,19 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
+                    examples: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -18768,6 +14542,91 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        commands: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        host_permissions: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/host_permissions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/extensions-button",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        incognito: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        optional_host_permissions: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_host_permissions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/manage-optional-permissions-extensions",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        optional_permissions: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/manage-optional-permissions-extensions",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        protocol_handlers: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         version: {
                           children: {
                             format: {
@@ -18822,84 +14681,41 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    your_second_webextension: {
+                    work_with_contextual_identities: {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
                       messages: [
                         {
-                          message: "Broken anchor",
+                          message: "Broken external link",
                           data: [
-                            "#the-content-script"
+                            "https://support.mozilla.org/en-US/kb/containers?redirectlocale=en-US&as=u&redirectslug=containers-experiment&utm_source=inproduct",
+                            "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    working_with_the_tabs_api: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API",
+                      messages: [
                         {
-                          message: "HTML code issue",
+                          message: "Broken external link",
                           data: [
-                            "doctype-style",
-                            "DOCTYPE should be lowercase",
-                            "<!DOCTYPE ",
-                            "1:1",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
-[doctype-style] DOCTYPE should be lowercase
-~~~
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="choose_beast.css" />
-  </head>
-
-  <body>
-    <div id="popup-content">
-      <button>Frog</button>
-      <button>Turtle</button>
-      <button>Snake</button>
-      <button type="reset">Reset</button>
-    </div>
-    <div id="error-content" class="hidden">
-      <p>Can't beastify this web page.</p>
-      <p>Try a different page.</p>
-    </div>
-    <script src="choose_beast.js"></script>
-  </body>
-</html>
-~~~
-`
+                            "https://support.mozilla.org/en-US/kb/split-view-firefox",
+                            "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    your_first_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension",
+                      messages: [
                         {
-                          message: "HTML code issue",
+                          message: "Broken external link",
                           data: [
-                            "element-required-attributes",
-                            '<html> is missing required "lang" attribute',
-                            "html",
-                            "2:2",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
-[element-required-attributes] <html> is missing required "lang" attribute
-~~~
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="choose_beast.css" />
-  </head>
-
-  <body>
-    <div id="popup-content">
-      <button>Frog</button>
-      <button>Turtle</button>
-      <button>Snake</button>
-      <button type="reset">Reset</button>
-    </div>
-    <div id="error-content" class="hidden">
-      <p>Can't beastify this web page.</p>
-      <p>Try a different page.</p>
-    </div>
-    <script src="choose_beast.js"></script>
-  </body>
-</html>
-~~~
-`
+                            "https://support.mozilla.org/en-US/kb/extensions-private-browsing",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -18921,6 +14737,13 @@ webextensions.manifest.options_ui`,
                 {
                   message: "Unreachable via sidebar",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://support.mozilla.org/en-US/kb/use-firefox-another-language",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -18951,7 +14774,14 @@ webextensions.manifest.options_ui`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.rtalabel.org/?content=howto",
+                        "https://support.mozilla.org/en-US/kb/about-config-editor-firefox",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/kb/privacy-preserving-attribution",
                         "The operation timed out."
                       ]
                     }
@@ -19257,14 +15087,53 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "30": {
+                    "24": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/24",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=30",
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/24.0a2/auroranotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "45": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/45",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/tab-groups-removal",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "68": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/68",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/firefox-android-openh264",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "109": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/extensions-button",
                             "The operation timed out."
                           ]
                         }
@@ -19283,6 +15152,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "124": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/how-use-firefox-containers",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "125": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/125",
@@ -19296,40 +15178,47 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "127": {
+                    "128": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=127",
+                            "https://support.mozilla.org/en-US/kb/privacy-preserving-attribution",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "130": {
+                    "129": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=130",
+                            "https://support.mozilla.org/en-US/kb/dns-over-https-doh-faqs",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/faq-encrypted-client-hello",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "133": {
+                    "135": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/133",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=133",
+                            "https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox",
                             "The operation timed out."
                           ]
                         }
@@ -19348,40 +15237,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "139": {
+                    "138": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=139",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=140",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
+                            "https://whattrainisitnow.com/release/?version=138",
                             "The operation timed out."
                           ]
                         }
@@ -19400,19 +15263,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "143": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=143",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "144": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
@@ -19426,14 +15276,40 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "145": {
+                    "146": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/146",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=145",
+                            "https://whattrainisitnow.com/release/?version=146",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "147": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/147",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=147",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "148": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=148",
                             "The operation timed out."
                           ]
                         }
@@ -19447,6 +15323,19 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
+                          ]
+                        }
+                      ]
+                    },
+                    "150": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=150",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19862,6 +15751,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.verywellhealth.com/eye-cones-5088699",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -19919,6 +15815,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ds.gpii.net/learn/accessibility-masterlist",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -20290,6 +16193,19 @@ api.MessagePort`,
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
                         "Expected:",
                         "api.COEPViolationReport"
+                      ]
+                    }
+                  ]
+                },
+                console: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/console",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://profiler.firefox.com/docs/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21431,44 +17347,6 @@ li:nth-of-type(3n + 1) {
                   slug: "/en-US/docs/Web/API/DeprecationReport",
                   messages: [
                     {
-                      message: "JS code issue",
-                      data: [
-                        "spaced-comment",
-                        "Expected space or tab after '//' in comment.",
-                        "    //console.log(report);",
-                        "14:5 - 14:27",
-                        `/en-US/docs/Web/API/DeprecationReport
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const options = {
-  types: ["deprecation"],
-  buffered: true,
-};
-
-const observer = new ReportingObserver((reports, observer) => {
-  reports.forEach((report) => {
-    //console.log(report);
-    log(JSON.stringify(report, null, 2));
-  });
-}, options);
-
-// Start the observer
-observer.observe();
-
-const xhr = new XMLHttpRequest();
-xhr.open("GET", "/", false); // false = synchronous (deprecated)
-xhr.send();
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "api.DeprecationReport"
@@ -21710,132 +17588,6 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
-                },
-                document: {
-                  children: {
-                    createattribute: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createAttribute",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#localName"
-                          ]
-                        }
-                      ]
-                    },
-                    createattributens: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createAttributeNS",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#namespaceURI"
-                          ]
-                        }
-                      ]
-                    },
-                    createelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createElement",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#localName"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#customElementRegistry"
-                          ]
-                        }
-                      ]
-                    },
-                    createelementns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createElementNS",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#namespaceURI"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#customElementRegistry"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                domimplementation: {
-                  children: {
-                    createdocument: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMImplementation/createDocument",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#namespaceURI"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                element: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    setattributens: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setAttributeNS",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#namespaceURI"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                elementinternals: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 fetchevent: {
                   children: {
@@ -23706,133 +19458,6 @@ button:interest-source {
                     }
                   }
                 },
-                preferencemanager: {
-                  children: {
-                    colorscheme: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceManager/colorScheme",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
-                          ]
-                        }
-                      ]
-                    },
-                    contrast: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceManager/contrast",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
-                          ]
-                        }
-                      ]
-                    },
-                    reduceddata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceManager/reducedData",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
-                          ]
-                        }
-                      ]
-                    },
-                    reducedmotion: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceManager/reducedMotion",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
-                          ]
-                        }
-                      ]
-                    },
-                    reducedtransparency: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceManager/reducedTransparency",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PreferenceManager",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-color-scheme"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-contrast"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-motion"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-transparency"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/Reference/Reference/At-rules/@media/prefers-reduced-data"
-                      ]
-                    }
-                  ]
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -23887,68 +19512,6 @@ button:interest-source {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Push_API/Best_Practices"
-                      ]
-                    }
-                  ]
-                },
-                reporting_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Reporting_API",
-                  messages: [
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "spaced-comment",
-                        "Expected space or tab after '//' in comment.",
-                        "    //console.log(report);",
-                        "14:5 - 14:27",
-                        `/en-US/docs/Web/API/Reporting_API
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const options = {
-  types: ["deprecation"],
-  buffered: true,
-};
-
-const observer = new ReportingObserver((reports, observer) => {
-  reports.forEach((report) => {
-    //console.log(report);
-    log(JSON.stringify(report, null, 2));
-  });
-}, options);
-
-// Start the observer
-observer.observe();
-
-const xhr = new XMLHttpRequest();
-xhr.open("GET", "/", false); // false = synchronous (deprecated)
-xhr.send();
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                reportingobserver: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReportingObserver",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/ReportingObserver"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "reporting_api_example.png"
                       ]
                     }
                   ]
@@ -24149,23 +19712,6 @@ xhr.send();
                             "api.EventSource",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                service_worker_api: {
-                  children: {
-                    using_service_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/progressive-web-apps/#service-workers"
                           ]
                         }
                       ]
@@ -24471,72 +20017,6 @@ xhr.send();
                     }
                   ]
                 },
-                url_pattern_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/URL_Pattern_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/kenchris/urlpattern-polyfill",
-                        502
-                      ]
-                    }
-                  ]
-                },
-                urlpattern: {
-                  children: {
-                    exec: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URLPattern/exec",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/kenchris/urlpattern-polyfill",
-                            502
-                          ]
-                        }
-                      ]
-                    },
-                    test: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URLPattern/test",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/kenchris/urlpattern-polyfill",
-                            502
-                          ]
-                        }
-                      ]
-                    },
-                    urlpattern: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URLPattern/URLPattern",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/kenchris/urlpattern-polyfill",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/URLPattern",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/kenchris/urlpattern-polyfill",
-                        502
-                      ]
-                    }
-                  ]
-                },
                 view_transition_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/View_Transition_API",
@@ -24824,23 +20304,6 @@ env(viewport-segment-width 0 1)
                     }
                   ]
                 },
-                web_components: {
-                  children: {
-                    using_custom_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_components/Using_custom_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/web-components-examples/tree/main/popup-info-box-web-component",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 web_crypto_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Web_Crypto_API",
@@ -25012,19 +20475,6 @@ api.Window.sessionStorage`,
                 },
                 window: {
                   children: {
-                    load_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/load_event",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/Performance/Guides/Lazy_loading",
-                            "#images_iframes_video_audio"
-                          ]
-                        }
-                      ]
-                    },
                     setinterval: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/setInterval",
@@ -26020,6 +21470,23 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    cascade: {
+                      children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
                               ]
                             }
                           ]
@@ -27742,521 +23209,6 @@ rgb(from red r g b / alpha)
                         }
                       }
                     },
-                    conditional_rules: {
-                      children: {
-                        "container_scroll-state_queries": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#000" to be "#000000" (color-hex-length)',
-                                "  border: 1px solid #000;",
-                                "33:21 - 33:25",
-                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 90%;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.bar {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background-color: #0009;
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  left: 5px;
-  right: 5px;
-}
-
-#top-bar {
-  top: -50px;
-  transition: 0.6s translate;
-}
-
-#bottom-bar {
-  bottom: -50px;
-  transition: 0.6s translate;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrolled: block-start) {
-  #top-bar {
-    translate: 0 55px;
-  }
-}
-
-@container scroller scroll-state(scrolled: block-end) {
-  #bottom-bar {
-    translate: 0 -55px;
-  }
-}
-
-@supports not (container-type: scroll-state) {
-  body::before {
-    content: "Your browser does not support \`scroll-state\` container queries.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#0009" to be "#00000099" (color-hex-length)',
-                                "  background-color: #0009;",
-                                "34:21 - 34:26",
-                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
-[color-hex-length] Expected "#0009" to be "#00000099" (color-hex-length)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 90%;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.bar {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background-color: #0009;
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  left: 5px;
-  right: 5px;
-}
-
-#top-bar {
-  top: -50px;
-  transition: 0.6s translate;
-}
-
-#bottom-bar {
-  bottom: -50px;
-  transition: 0.6s translate;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrolled: block-start) {
-  #top-bar {
-    translate: 0 55px;
-  }
-}
-
-@container scroller scroll-state(scrolled: block-end) {
-  #bottom-bar {
-    translate: 0 -55px;
-  }
-}
-
-@supports not (container-type: scroll-state) {
-  body::before {
-    content: "Your browser does not support \`scroll-state\` container queries.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "#000" to be "black" (color-named)',
-                                "  border: 1px solid #000;",
-                                "33:21 - 33:25",
-                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 90%;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.bar {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background-color: #0009;
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  left: 5px;
-  right: 5px;
-}
-
-#top-bar {
-  top: -50px;
-  transition: 0.6s translate;
-}
-
-#bottom-bar {
-  bottom: -50px;
-  transition: 0.6s translate;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrolled: block-start) {
-  #top-bar {
-    translate: 0 55px;
-  }
-}
-
-@container scroller scroll-state(scrolled: block-end) {
-  #bottom-bar {
-    translate: 0 -55px;
-  }
-}
-
-@supports not (container-type: scroll-state) {
-  body::before {
-    content: "Your browser does not support \`scroll-state\` container queries.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "8:16 - 8:21",
-                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 90%;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.bar {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background-color: #0009;
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  left: 5px;
-  right: 5px;
-}
-
-#top-bar {
-  top: -50px;
-  transition: 0.6s translate;
-}
-
-#bottom-bar {
-  bottom: -50px;
-  transition: 0.6s translate;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrolled: block-start) {
-  #top-bar {
-    translate: 0 55px;
-  }
-}
-
-@container scroller scroll-state(scrolled: block-end) {
-  #bottom-bar {
-    translate: 0 -55px;
-  }
-}
-
-@supports not (container-type: scroll-state) {
-  body::before {
-    content: "Your browser does not support \`scroll-state\` container queries.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "8:23 - 8:32",
-                                `/en-US/docs/Web/CSS/Guides/Conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 90%;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.bar {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background-color: #0009;
-  padding: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  left: 5px;
-  right: 5px;
-}
-
-#top-bar {
-  top: -50px;
-  transition: 0.6s translate;
-}
-
-#bottom-bar {
-  bottom: -50px;
-  transition: 0.6s translate;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrolled: block-start) {
-  #top-bar {
-    translate: 0 55px;
-  }
-}
-
-@container scroller scroll-state(scrolled: block-end) {
-  #bottom-bar {
-    translate: 0 -55px;
-  }
-}
-
-@supports not (container-type: scroll-state) {
-  body::before {
-    content: "Your browser does not support \`scroll-state\` container queries.";
-    color: black;
-    background-color: wheat;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 40%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     custom_functions_and_mixins: {
                       children: {
                         using_custom_functions: {
@@ -28487,13 +23439,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.oddbird.net/2025/04/11/custom-functions/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -28771,19 +23716,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        relationship_with_other_layout_methods: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ericwbailey.design/published/display-contents-considered-harmful/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -40449,19 +35381,6 @@ div::after {
                         }
                       ]
                     },
-                    shapes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Guides/Shapes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sarasoueidan.com/blog/css-shapes/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     transforms: {
                       children: {
                         using: {
@@ -41785,19 +36704,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        breadcrumb_navigation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/using-the-aria-current-attribute/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -42720,13 +37626,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                                    404
-                                  ]
                                 }
                               ]
                             },
@@ -42747,13 +37646,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                                    404
-                                  ]
                                 }
                               ]
                             },
@@ -42764,13 +37656,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                                    404
-                                  ]
                                 }
                               ]
                             },
@@ -42781,13 +37666,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                                    404
-                                  ]
                                 }
                               ]
                             },
@@ -43028,13 +37906,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/en-US/questions/1271928",
-                                    502
-                                  ]
                                 }
                               ]
                             },
@@ -44311,6 +39182,45 @@ blockquote {
                             }
                           ]
                         },
+                        "break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         caret: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/caret",
@@ -44494,268 +39404,6 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-height",
                           messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "31:16 - 31:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  column-width: 150px;
-  column-rule: 2px solid red;
-  gap: 3em 2em;
-  padding: 0 2em;
-  column-height: 95vh;
-  column-wrap: wrap;
-}
-
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-html {
-  scroll-snap-type: y mandatory;
-}
-
-::column {
-  scroll-snap-align: start;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-height: 15em) {
-  body::before {
-    content: "Your browser does not support the 'column-height' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "31:23 - 31:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  column-width: 150px;
-  column-rule: 2px solid red;
-  gap: 3em 2em;
-  padding: 0 2em;
-  column-height: 95vh;
-  column-wrap: wrap;
-}
-
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-html {
-  scroll-snap-type: y mandatory;
-}
-
-::column {
-  scroll-snap-align: start;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-height: 15em) {
-  body::before {
-    content: "Your browser does not support the 'column-height' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "14:16 - 14:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-height: 15em) {
-  body::before {
-    content: "Your browser does not support the 'column-height' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-
-body {
-  column-count: 3;
-  column-height: 20em;
-  column-rule: 2px solid red;
-  gap: 3em 2em;
-  padding: 0 2em;
-}
-
-form {
-  border: 1px solid black;
-  background-color: white;
-  padding: 10px;
-  position: fixed;
-  bottom: 1px;
-  right: 1px;
-}
-
-form div {
-  display: flex;
-  gap: 1em;
-  align-items: center;
-  justify-content: space-between;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "14:23 - 14:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-height
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-height: 15em) {
-  body::before {
-    content: "Your browser does not support the 'column-height' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-
-body {
-  column-count: 3;
-  column-height: 20em;
-  column-rule: 2px solid red;
-  gap: 3em 2em;
-  padding: 0 2em;
-}
-
-form {
-  border: 1px solid black;
-  background-color: white;
-  padding: 10px;
-  position: fixed;
-  bottom: 1px;
-  right: 1px;
-}
-
-form div {
-  display: flex;
-  gap: 1em;
-  align-items: center;
-  justify-content: space-between;
-}
-~~~
-`
-                              ]
-                            },
                             {
                               message: "HTML code issue",
                               data: [
@@ -45314,136 +39962,6 @@ form div {
     <input type="range" min="10" max="30" value="20" id="column-height" />
   </div>
 </form>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "column-wrap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-wrap",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "22:16 - 22:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-wrap
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  column-count: 3;
-  gap: 3em 2em;
-  padding: 0 2em;
-  column-height: 90vh;
-  column-wrap: nowrap;
-}
-
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-wrap: wrap) {
-  body::before {
-    content: "Your browser does not support the 'column-wrap' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-
-form {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: white;
-  padding: 5px;
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "22:23 - 22:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-wrap
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  column-count: 3;
-  gap: 3em 2em;
-  padding: 0 2em;
-  column-height: 90vh;
-  column-wrap: nowrap;
-}
-
-h1 {
-  column-span: all;
-}
-
-p:first-of-type {
-  margin-top: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-@supports not (column-wrap: wrap) {
-  body::before {
-    content: "Your browser does not support the 'column-wrap' property.";
-    background-color: wheat;
-    position: fixed;
-    inset: 40% 0;
-    height: fit-content;
-    text-align: center;
-    padding: 1rem 0;
-  }
-}
-
-form {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: white;
-  padding: 5px;
-  border: 1px solid black;
-}
 ~~~
 `
                               ]
@@ -47524,102 +42042,6 @@ button {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "letter-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:16 - 2:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/letter-spacing
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.x-small {
-  font-size: 0.8em;
-}
-
-.small {
-  font-size: 1.3em;
-}
-
-.medium {
-  font-size: 2em;
-}
-
-.large {
-  font-size: 3em;
-}
-
-.x-large {
-  font-size: 3.5em;
-}
-
-p {
-  letter-spacing: 8px;
-}
-
-p:has(~ form > input:checked) {
-  letter-spacing: 12%;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:23 - 2:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/letter-spacing
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.x-small {
-  font-size: 0.8em;
-}
-
-.small {
-  font-size: 1.3em;
-}
-
-.medium {
-  font-size: 2em;
-}
-
-.large {
-  font-size: 3em;
-}
-
-.x-large {
-  font-size: 3.5em;
-}
-
-p {
-  letter-spacing: 8px;
-}
-
-p:has(~ form > input:checked) {
-  letter-spacing: 12%;
-}
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -51235,97 +45657,7 @@ word-spacing: 50%;
 [declaration-property-value-no-unknown] Unexpected unknown value "15%" for property "word-spacing" (declaration-property-value-no-unknown)
 ~~~
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.x-small {
-  font-size: 0.8em;
-}
-
-.small {
-  font-size: 1.3em;
-}
-
-.medium {
-  font-size: 2em;
-}
-
-.large {
-  font-size: 3em;
-}
-
-.x-large {
-  font-size: 3.5em;
-}
-
-p {
-  word-spacing: 10px;
-}
-
-p:has(~ form > input:checked) {
-  word-spacing: 15%;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:16 - 2:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/word-spacing
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.x-small {
-  font-size: 0.8em;
-}
-
-.small {
-  font-size: 1.3em;
-}
-
-.medium {
-  font-size: 2em;
-}
-
-.large {
-  font-size: 3em;
-}
-
-.x-large {
-  font-size: 3.5em;
-}
-
-p {
-  word-spacing: 10px;
-}
-
-p:has(~ form > input:checked) {
-  word-spacing: 15%;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:23 - 2:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/word-spacing
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .x-small {
@@ -71052,18 +65384,6 @@ progress(3em, 0, 100)
                               ]
                             },
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/hsl"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/API/Math/random"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -71281,9 +65601,9 @@ progress(3em, 0, 100)
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(element-shared, 10px, 200px);
   height: random(element-shared, 10px, 200px);
 }
@@ -71301,9 +65621,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(element-shared, 10px, 200px);
   height: random(element-shared, 10px, 200px);
 }
@@ -71321,9 +65641,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(element-shared, 10px, 200px);
   height: random(element-shared, 10px, 200px);
 }
@@ -71341,89 +65661,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
-  width: random(element-shared, 10px, 200px);
-  height: random(element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "A" to be "a" (selector-type-case)',
-                                "A,",
-                                "1:1 - 1:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "A" to be "a" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(element-shared, 10px, 200px);
-  height: random(element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "B" to be "b" (selector-type-case)',
-                                "B,",
-                                "2:1 - 2:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "B" to be "b" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(element-shared, 10px, 200px);
-  height: random(element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "C" to be "c" (selector-type-case)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "C" to be "c" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(element-shared, 10px, 200px);
-  height: random(element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
-~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(element-shared, 10px, 200px);
   height: random(element-shared, 10px, 200px);
 }
@@ -71441,9 +65681,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name, 10px, 200px);
   height: random(--custom-name, 10px, 200px);
 }
@@ -71461,9 +65701,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name, 10px, 200px);
   height: random(--custom-name, 10px, 200px);
 }
@@ -71481,9 +65721,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name, 10px, 200px);
   height: random(--custom-name, 10px, 200px);
 }
@@ -71501,89 +65741,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
-  width: random(--custom-name, 10px, 200px);
-  height: random(--custom-name, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "A" to be "a" (selector-type-case)',
-                                "A,",
-                                "1:1 - 1:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "A" to be "a" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name, 10px, 200px);
-  height: random(--custom-name, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "B" to be "b" (selector-type-case)',
-                                "B,",
-                                "2:1 - 2:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "B" to be "b" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name, 10px, 200px);
-  height: random(--custom-name, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "C" to be "c" (selector-type-case)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "C" to be "c" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name, 10px, 200px);
-  height: random(--custom-name, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
-~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name, 10px, 200px);
   height: random(--custom-name, 10px, 200px);
 }
@@ -71601,9 +65761,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name element-shared, , 10px, 200px)" for property "width" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name element-shared, , 10px, 200px);
   height: random(--custom-name element-shared, 10px, 200px);
 }
@@ -71621,9 +65781,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [declaration-property-value-no-unknown] Unexpected unknown value "random(--custom-name element-shared, 10px, 200px)" for property "height" (declaration-property-value-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name element-shared, , 10px, 200px);
   height: random(--custom-name element-shared, 10px, 200px);
 }
@@ -71641,9 +65801,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name element-shared, , 10px, 200px);
   height: random(--custom-name element-shared, 10px, 200px);
 }
@@ -71661,89 +65821,9 @@ C {
                                 `/en-US/docs/Web/CSS/Reference/Values/random
 [function-no-unknown] Unexpected unknown function "random" (function-no-unknown)
 ~~~
-A,
-B,
-C {
-  width: random(--custom-name element-shared, , 10px, 200px);
-  height: random(--custom-name element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "A" to be "a" (selector-type-case)',
-                                "A,",
-                                "1:1 - 1:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "A" to be "a" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name element-shared, , 10px, 200px);
-  height: random(--custom-name element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "B" to be "b" (selector-type-case)',
-                                "B,",
-                                "2:1 - 2:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "B" to be "b" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name element-shared, , 10px, 200px);
-  height: random(--custom-name element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "C" to be "c" (selector-type-case)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "C" to be "c" (selector-type-case)
-~~~
-A,
-B,
-C {
-  width: random(--custom-name element-shared, , 10px, 200px);
-  height: random(--custom-name element-shared, 10px, 200px);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
-                                "C {",
-                                "3:1 - 3:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
-~~~
-A,
-B,
-C {
+.a,
+.b,
+.c {
   width: random(--custom-name element-shared, , 10px, 200px);
   height: random(--custom-name element-shared, 10px, 200px);
 }
@@ -72165,9 +66245,9 @@ C {
 :root {
   --random-angle: random(0deg, 360deg);
 }
-A,
-B,
-C {
+.a,
+.b,
+.c {
   background-color: hsl(var(--random-angle) 100% 50%);
   height: var(--defaultSize);
   width: var(--defaultSize);
@@ -72194,125 +66274,9 @@ C {
 :root {
   --random-angle: random(0deg, 360deg);
 }
-A,
-B,
-C {
-  background-color: hsl(var(--random-angle) 100% 50%);
-  height: var(--defaultSize);
-  width: var(--defaultSize);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "A" to be "a" (selector-type-case)',
-                                "A,",
-                                "9:1 - 9:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "A" to be "a" (selector-type-case)
-~~~
-@property --defaultSize {
-  syntax: "<length> | <percentage>";
-  inherits: true;
-  initial-value: random(100px, 200px);
-}
-:root {
-  --random-angle: random(0deg, 360deg);
-}
-A,
-B,
-C {
-  background-color: hsl(var(--random-angle) 100% 50%);
-  height: var(--defaultSize);
-  width: var(--defaultSize);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "B" to be "b" (selector-type-case)',
-                                "B,",
-                                "10:1 - 10:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "B" to be "b" (selector-type-case)
-~~~
-@property --defaultSize {
-  syntax: "<length> | <percentage>";
-  inherits: true;
-  initial-value: random(100px, 200px);
-}
-:root {
-  --random-angle: random(0deg, 360deg);
-}
-A,
-B,
-C {
-  background-color: hsl(var(--random-angle) 100% 50%);
-  height: var(--defaultSize);
-  width: var(--defaultSize);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-case",
-                                'Expected "C" to be "c" (selector-type-case)',
-                                "C {",
-                                "11:1 - 11:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-case] Expected "C" to be "c" (selector-type-case)
-~~~
-@property --defaultSize {
-  syntax: "<length> | <percentage>";
-  inherits: true;
-  initial-value: random(100px, 200px);
-}
-:root {
-  --random-angle: random(0deg, 360deg);
-}
-A,
-B,
-C {
-  background-color: hsl(var(--random-angle) 100% 50%);
-  height: var(--defaultSize);
-  width: var(--defaultSize);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "C" (selector-type-no-unknown)',
-                                "C {",
-                                "11:1 - 11:2",
-                                `/en-US/docs/Web/CSS/Reference/Values/random
-[selector-type-no-unknown] Unexpected unknown type selector "C" (selector-type-no-unknown)
-~~~
-@property --defaultSize {
-  syntax: "<length> | <percentage>";
-  inherits: true;
-  initial-value: random(100px, 200px);
-}
-:root {
-  --random-angle: random(0deg, 360deg);
-}
-A,
-B,
-C {
+.a,
+.b,
+.c {
   background-color: hsl(var(--random-angle) 100% 50%);
   height: var(--defaultSize);
   width: var(--defaultSize);
@@ -75828,6 +69792,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/global-privacy-control?as=u&utm_source=inproduct",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             "language-detector": {
@@ -75867,6 +69844,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/global-privacy-control?as=u&utm_source=inproduct",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -75929,40 +69919,10 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
-                guide: {
-                  children: {
-                    memory_management: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Memory_management",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://nodejs.org/en/learn/getting-started/debugging",
-                            "https://nodejs.org/learn/getting-started/debugging"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     classes: {
                       children: {}
-                    },
-                    execution_model: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Execution_model",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
-                            "https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick"
-                          ]
-                        }
-                      ]
                     },
                     global_objects: {
                       children: {
@@ -76091,6 +70051,19 @@ let z = 1;
                           ]
                         }
                       }
+                    },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/repl",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     lexical_grammar: {
                       children: {},
@@ -76268,6 +70241,19 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
+                        },
+                        webaudio_playbackrate_explained: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hyperaud.io/lab/pbr-test/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
@@ -76326,12 +70312,87 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
+                        },
+                        webrtc_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/WebRTC_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/firefox-android-openh264",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
                   }
                 }
               }
+            },
+            performance: {
+              children: {},
+              slug: "/en-US/docs/Web/Performance",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
             },
             privacy: {
               children: {
@@ -76360,6 +70421,26 @@ doIt(); // returns "finally"
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    state_partitioning: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/State_Partitioning",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/site-information-panel",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/about-config-editor-firefox",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -76434,6 +70515,20 @@ doIt(); // returns "finally"
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/site-information-panel",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/what-happened-tracking-protection",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -76469,19 +70564,6 @@ doIt(); // returns "finally"
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Glossary/single_sign-on"
-                          ]
-                        }
-                      ]
-                    },
-                    otp: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Authentication/OTP",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://ente.io/auth/",
-                            "https://ente.com/auth/"
                           ]
                         }
                       ]
@@ -77931,7 +72013,21 @@ svg.elements.feSpotLight.z`
             xml: {
               children: {
                 guides: {
-                  children: {},
+                  children: {
+                    opensearch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
