@@ -1457,7 +1457,7 @@ var nodes_default = [
         "news://gnu.emacs.help",
         "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
         "https://wiki.gnome.org/Apps/Gedit",
-        "https://discourse.gnome.org/tag/gedit",
+        "https://discourse.gnome.org/tag/gedit/27",
         "irc://irc.gnome.org/%23gedit",
         "https://gedit-text-editor.org/user-manuals/gedit/",
         "https://wiki.gnome.org/Apps/Gedit/ThirdPartyPlugins",
@@ -9164,7 +9164,6 @@ In this lesson, we will take a look at some of the most frequently used value ty
         "https://castingwords.com/",
         "https://www.rev.com/",
         "https://trint.com/",
-        "https://transcribear.com/",
         "https://www.youtube.com/watch?v=mwF-PpJOjMs",
         "https://mdn.github.io/learning-area/accessibility/multimedia/audio-transcript-ui/",
         "https://github.com/mdn/learning-area/tree/main/accessibility/multimedia/audio-transcript-ui"
@@ -13677,7 +13676,6 @@ We'll expand on each of these subtopics in more detail later on in the module.`,
         "https://developer.chrome.com/docs/devtools/device-mode/",
         "https://developer.android.com/studio/",
         "https://developer.android.com/studio/run/emulator.html",
-        "https://www.andyroid.net/",
         "https://help.apple.com/simulator/mac/current/",
         "https://developer.apple.com/xcode/",
         "https://www.parallels.com/",
@@ -25552,7 +25550,7 @@ This approach is used to improve application performance, especially on initial 
         "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo",
         "https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg",
         "https://nodejs.org/en/blog/announcements/foundation-v4-announce/",
-        "https://www.libreoffice.org/about-us/who-are-we/"
+        "https://www.libreoffice.org/who-are-we/"
       ],
       imgs: [],
       ids: [
@@ -32182,8 +32180,8 @@ This prevents congestion when a network's capabilities are unknown or exceeded �
       },
       links: [
         "https://www.firefox.com/en-US/",
-        "https://www.firefox.com/en-US/browsers/mobile/",
-        "https://www.firefox.com/en-US/browsers/mobile/",
+        "https://www.firefox.com/en-US/mobile/",
+        "https://www.firefox.com/en-US/mobile/",
         "https://www.firefox.com/en-US/browsers/enterprise/",
         "https://www.firefox.com/en-US/channel/desktop/developer/",
         "https://www.firefox.com/en-US/channel/desktop/#nightly",
@@ -37622,6 +37620,104 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_f64_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_f64_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The trunc_f64_s instruction removes the fractional part of an f64 value and outputs it as a signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/trunc_f64_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_f64_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_f64_s",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/wrap_i64",
+    links: {},
+    data: {
+      metadata: {
+        title: "wrap_i64: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The wrap_i64 instruction, is used to convert numbers of type i64 to type i32. If the number is larger than what an i32 can hold this operation will wrap, resulting in a different number.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/wrap_i64",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "wrap_i64",
+        status: []
+      },
+      links: [
+        "https://en.wikipedia.org/wiki/Modular_arithmetic"
+      ],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/lt_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "lt_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The lt_u instruction, short for less than unsigned, checks if an unsigned integer is less than another unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/lt_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "lt_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "lt_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_lt_u_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_lt_u",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/Numeric/rotr",
     links: {},
     data: {
@@ -37636,31 +37732,6 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "rotr",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/promote",
-    links: {},
-    data: {
-      metadata: {
-        title: "promote: Wasm text instruction",
-        pageType: "webassembly-instruction",
-        summary: "The promote instruction is used to convert (promote) numbers of type f32 to type f64.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/promote",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "promote",
         status: []
       },
       links: [],
@@ -37697,13 +37768,122 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The trunc instruction, short for truncate, is used for getting the value of a floating point number without its fractional part.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/trunc",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_trunc_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_trunc",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/le_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "le_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The le_s instruction, short for less or equal signed, checks if a signed integer is less than or equal to another signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/le_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "le_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "le_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_le_s_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_le_s",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_f32_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_f32_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The trunc_f32_u instruction removes the fractional part of an f32 value and outputs it as an unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/trunc_f32_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_f32_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_f32_u",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/Numeric/popcnt",
     links: {},
     data: {
       metadata: {
         title: "popcnt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The popcnt instructions, short for population count, are used to count the amount of 1s in a numbers binary representation.",
+        summary: "The popcnt instruction, short for population count, is used to count the amount of 1s in a number's binary representation.",
         popularity: 0.0008425782895660722,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37717,7 +37897,90 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "popcnt",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_popcnt_usage",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_popcnt"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/gt_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "gt_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The gt_u instruction, short for greater than unsigned, checks if an unsigned integer is greater than another unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/gt_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "gt_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "gt_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_gt_u_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_gt_u",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_f32_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "trunc_f32_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The trunc_f32_s instruction removes the fractional part of an f32 value and outputs it as a signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/trunc_f32_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "trunc_f32_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "trunc_f32_s",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "see_also"
       ]
     }
   },
@@ -37778,7 +38041,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "xor: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The xor instructions, are used for performing a bitwise XOR, similar to the ^ operator in other languages.",
+        summary: "The xor instruction is used for performing a bitwise XOR, similar to the ^ operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37792,7 +38055,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "xor",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_xor_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_xor"
       ]
     }
   },
@@ -37803,7 +38079,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "add: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The add instructions are used for adding up two numbers, similar to the + operator in other languages.",
+        summary: "The add instruction is used for adding up two numbers, similar to the + operator in other languages.",
         popularity: 0.0012694846229462154,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37817,7 +38093,59 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "add",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_addition",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_add"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ge_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "ge_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The ge_u instruction, short for greater or equal unsigned, checks if an unsigned integer is greater than or equal to another unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/ge_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "ge_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "ge_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_ge_u_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_ge_u",
+        "see_also"
       ]
     }
   },
@@ -37843,6 +38171,45 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       ids: [
         "try_it",
         "syntax"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/le_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "le_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The le_u instruction, short for less or equal unsigned, checks if an unsigned integer is less than or equal to another unsigned integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/le_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "le_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "le_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_le_u_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_le_u",
+        "see_also"
       ]
     }
   },
@@ -37878,7 +38245,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "and: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The and instructions are used for performing a bitwise AND, similar to the & operator in other languages.",
+        summary: "The and instruction is used for performing a bitwise AND, similar to the & operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37886,6 +38253,44 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "and",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "and",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_and_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_and"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/promote_32",
+    links: {},
+    data: {
+      metadata: {
+        title: "promote_32: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The promote_32 instruction is used to convert (promote) numbers of type f32 to type f64.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/promote_32",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "promote_32",
         status: []
       },
       links: [],
@@ -37903,7 +38308,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "neg: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The neg instructions, short for negate, are used to negate a number. That is, turn a positive number into a negative number and a negative number into a positive number.",
+        summary: "The neg instruction, short for negate, is used to negate a number. That is, it turns a positive number into a negative number and a negative number into a positive number.",
         popularity: 0.001786265973880073,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37917,7 +38322,19 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "neg",
+        "type",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_negation",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_neg"
       ]
     }
   },
@@ -37928,7 +38345,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "ne: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The ne instructions, short for not equal, check if two numbers are not equal. If the numbers are not equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The ne instruction, short for not equal, checks if two numbers are not equal.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37942,7 +38359,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "ne",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_non-equality_testing",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_ne"
       ]
     }
   },
@@ -37953,7 +38383,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "div: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The div instructions, short for division, are used for dividing one number by another, similar to the / operator in other languages.",
+        summary: "The div instruction, short for division, is used for dividing one number by another, similar to the / operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37967,7 +38397,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "div",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_division",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_div"
       ]
     }
   },
@@ -37978,7 +38421,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "ge: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The ge instructions, short for greater or equal, check if a number is greater than or equal to another number. If the first number is greater than or equal to the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The ge instruction, short for greater or equal, checks if a floating point number is greater than or equal to another floating point number.",
         popularity: 0.0007695548378036793,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -37992,7 +38435,21 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "ge",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_ge_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_ge",
+        "see_also"
       ]
     }
   },
@@ -38020,11 +38477,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "const",
         "comparison",
         "eq",
+        "eqz",
         "ne",
         "gt",
+        "gt_s",
+        "gt_u",
         "lt",
+        "lt_s",
+        "lt_u",
         "ge",
+        "ge_s",
+        "ge_u",
         "le",
+        "le_s",
+        "le_u",
         "arithmetic",
         "add",
         "sub",
@@ -38033,11 +38499,15 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "rem",
         "conversion",
         "extend",
-        "wrap",
-        "promote",
+        "wrap_i64",
+        "promote_32",
         "demote",
         "convert",
-        "trunc_to_int",
+        "trunc",
+        "trunc_f32_s",
+        "trunc_f32_u",
+        "trunc_f64_s",
+        "trunc_f64_u",
         "reinterpret",
         "floating_point_specific_instructions",
         "min",
@@ -38045,7 +38515,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "nearest",
         "ceil",
         "floor",
-        "trunc_to_float",
+        "trunc_2",
         "abs",
         "neg",
         "sqrt",
@@ -38055,7 +38525,8 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "or",
         "xor",
         "shl",
-        "shr",
+        "shr_s",
+        "shr_u",
         "rotl",
         "rotr",
         "clz",
@@ -38065,54 +38536,34 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_float",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_f64_u",
     links: {},
     data: {
       metadata: {
-        title: "trunc (to float): Wasm text instruction",
+        title: "trunc_f64_u: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc instructions, short for truncate, are used for getting the value of a number without its fractional part.",
+        summary: "The trunc_f64_u instruction removes the fractional part of an f64 value and outputs it as an unsigned integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/trunc_float",
+          folder: "en-us/webassembly/reference/numeric/trunc_f64_u",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "trunc (to float)",
+        short_title: "trunc_f64_u",
         status: []
       },
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/wrap",
-    links: {},
-    data: {
-      metadata: {
-        title: "wrap: Wasm text instruction",
-        pageType: "webassembly-instruction",
-        summary: "The wrap instruction, is used to convert numbers of type i64 to type i32. If the number is larger than what an i32 can hold this operation will wrap, resulting in a different number.",
-        popularity: 0.0007920235921921078,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/wrap",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "wrap",
-        status: []
-      },
-      links: [
-        "https://en.wikipedia.org/wiki/Modular_arithmetic"
-      ],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "trunc_f64_u",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "see_also"
       ]
     }
   },
@@ -38123,7 +38574,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "gt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The gt instructions, short for greater than, check if a number is greater than another number. If the first number is greater than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The gt instruction, short for greater than, checks if a floating point number is greater than another floating point number.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38137,7 +38588,21 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "gt",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_gt_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_gt",
+        "see_also"
       ]
     }
   },
@@ -38148,7 +38613,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "eq: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The eq instructions, short for equal, check if two numbers are equal. If both numbers are equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The eq instruction, short for equal, checks if two numbers are equal.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38162,7 +38627,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "eq",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_eq_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_eq"
       ]
     }
   },
@@ -38173,7 +38651,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "shl: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The shl instructions, short for shift-left, are used for performing a bitwise left-shift, similar to the << operator in other languages.",
+        summary: "The shl instruction, short for shift-left, is used for performing a bitwise left-shift, similar to the << operator in other languages.",
         popularity: 0.000758320460609465,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38187,7 +38665,22 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "shl",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "examples",
+        "basic_usage",
+        "simd_left_shift",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_shl",
+        "see_also"
       ]
     }
   },
@@ -38198,7 +38691,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "nearest: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The nearest instructions are used for getting the value of a number rounded to the nearest integer.",
+        summary: "The nearest instruction is used for rounding the value of a floating point number to the nearest whole number.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38212,7 +38705,19 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "nearest",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_nearest_rounding",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_nearest"
       ]
     }
   },
@@ -38223,7 +38728,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "le: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The le instructions, short for less or equal, check if a number is less than or equal to another number. If the first number is less than or equal to the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The le instruction, short for less or equal, checks if a floating point number is less than or equal to another floating point number.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38237,7 +38742,21 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "le",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_le_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_le",
+        "see_also"
       ]
     }
   },
@@ -38248,7 +38767,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "ceil: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The ceil instructions are used for getting the value of a number rounded up to the next integer.",
+        summary: "The ceil instruction is used for getting the value of a number rounded up to the next integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38262,7 +38781,19 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "ceil",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_ceil_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_ceil"
       ]
     }
   },
@@ -38273,7 +38804,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "or: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The or instructions are used for performing a bitwise OR, similar to the | operator in other languages.",
+        summary: "The or instruction is used for performing a bitwise OR, similar to the | operator in other languages.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38287,7 +38818,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "or",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_or_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_or"
       ]
     }
   },
@@ -38317,27 +38861,41 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/shr",
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/ge_s",
     links: {},
     data: {
       metadata: {
-        title: "shr: Wasm text instruction",
+        title: "ge_s: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The shr instructions, short for shift-right, are used for performing a bitwise right-shift, similar to the >>> operator in other languages.",
-        popularity: 0.000988625193090858,
+        summary: "The ge_s instruction, short for greater or equal signed, checks if a signed integer is greater than or equal to another signed integer.",
+        popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/numeric/shr",
+          folder: "en-us/webassembly/reference/numeric/ge_s",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "shr",
+        short_title: "ge_s",
         status: []
       },
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "ge_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_ge_s_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_ge_s",
+        "see_also"
       ]
     }
   },
@@ -38348,7 +38906,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "floor: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The floor instructions are used for getting the value of a number rounded down to the next integer.",
+        summary: "The floor instruction is used for getting the value of a number rounded down to the next integer.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38362,7 +38920,19 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "floor",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_floor_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_floor"
       ]
     }
   },
@@ -38373,7 +38943,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "sqrt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The sqrt instructions, short for square root, are used to get the square root of a number.",
+        summary: "The sqrt instruction, short for square root, is used to get the square root of a number.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38387,7 +38957,19 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "sqrt",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_sqrt_usage",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_sqrt"
       ]
     }
   },
@@ -38398,7 +38980,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "max: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The max instructions are used for getting the higher of two numbers.",
+        summary: "The max instruction is used for getting the higher of two floating point numbers.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38412,7 +38994,21 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "max",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_max_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_max",
+        "see_also"
       ]
     }
   },
@@ -38442,13 +39038,52 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/gt_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "gt_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The gt_s instruction, short for greater than signed, checks if a signed integer is greater than another signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/gt_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "gt_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "gt_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_gt_s_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_gt_s",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/Numeric/sub",
     links: {},
     data: {
       metadata: {
         title: "sub: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The sub instructions, short for subtraction, are used for subtracting one number from another number, similar to the - operator in other languages.",
+        summary: "The sub instruction, short for subtraction, is used for subtracting one number from another number, similar to the - operator in other languages.",
         popularity: 0.001954781631793287,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38462,7 +39097,59 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "sub",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_subtraction",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_sub"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/lt_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "lt_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The lt_s instruction, short for less than signed, checks if a signed integer is less than another signed integer.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/lt_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "lt_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "lt_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_lt_s_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_lt_s",
+        "see_also"
       ]
     }
   },
@@ -38498,7 +39185,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "lt: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The lt instructions, short for less than, check if a number is less than another number. If the first number is less than the second number equal 1 will be pushed on to the stack, otherwise 0 will be pushed on to the stack.",
+        summary: "The lt instruction, short for less than, checks if a floating point number is less than another floating point number.",
         popularity: 0.0007695548378036793,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38512,7 +39199,59 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "lt",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_lt_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_lt",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/shr_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "shr_s: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The shr_s instructions, short for shift-right signed, are used for performing a bitwise right-shift on signed integers, similar to the >>> operator in other languages.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/shr_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shr_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shr_s",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "simd_right_shift",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_shr_s",
+        "see_also"
       ]
     }
   },
@@ -38523,7 +39262,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "mul: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The mul instructions, short for multiplication, are used for multiplying one number by another number, similar to the * operator in other languages.",
+        summary: "The mul instruction, short for multiplication, is used for multiplying one number by another number, similar to the * operator in other languages.",
         popularity: 0.0008257267237747508,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38537,32 +39276,20 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/Numeric/trunc_int",
-    links: {},
-    data: {
-      metadata: {
-        title: "trunc (to int): Wasm text instruction",
-        pageType: "webassembly-instruction",
-        summary: "The trunc instructions, short for truncate, are used for converting floating points to integers. It's named truncate since it truncates the fractional part of the number when doing the conversion. There are signed and unsigned versions of this instruction.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/numeric/trunc_int",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "trunc (to int)",
-        status: []
-      },
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "mul",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_multiplication",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_mul"
       ]
     }
   },
@@ -38591,7 +39318,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "value_type",
         "const",
         "type",
-        "value",
+        "output",
         "binary_encoding"
       ]
     }
@@ -38603,7 +39330,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "abs: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The abs instructions, short for absolute, are used to get the absolute value of a number. That is, it returns x if x is positive, and the negation of x if x is negative.",
+        summary: "The abs instruction, short for absolute, is used to get the absolute value of a number. That is, it returns x if x is positive, and the negation of x if x is negative.",
         popularity: 0.0007639376492065721,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38617,7 +39344,89 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "abs",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_abs",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_abs"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/shr_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "shr_u: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The shr_u instructions, short for shift-right unsigned, are used for performing a bitwise right-shift on unsigned integers, similar to the >>> operator in other languages.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/shr_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "shr_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "shr_u",
+        "type",
+        "input",
+        "shift_value",
+        "output",
+        "binary_encoding",
+        "simd_right_shift",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_shr_u",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/Numeric/eqz",
+    links: {},
+    data: {
+      metadata: {
+        title: "eqz: Wasm text instruction",
+        pageType: "webassembly-instruction",
+        summary: "The eqz instruction checks if a number is equal to zero.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/numeric/eqz",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "eqz",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "eqz",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "see_also"
       ]
     }
   },
@@ -38628,7 +39437,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       metadata: {
         title: "min: Wasm text instruction",
         pageType: "webassembly-instruction",
-        summary: "The min instructions are used for getting the lower of two numbers.",
+        summary: "The min instruction is used for getting the lower of two numbers.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -38642,7 +39451,21 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "value_type",
+        "min",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "examples",
+        "simd_min_example",
+        "javascript",
+        "wasm",
+        "result",
+        "frame_simd_min",
+        "see_also"
       ]
     }
   },
@@ -39600,44 +40423,6 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc",
-    links: {},
-    data: {
-      metadata: {
-        title: "trunc: Wasm SIMD conversion instruction",
-        pageType: "webassembly-instruction",
-        browserCompat: [
-          "webassembly.simd.trunc"
-        ],
-        summary: "The trunc SIMD conversion instruction rounds the value in each lane of a v128 value interpretation to the nearest integer towards zero with a magnitude not larger than the input.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/simd/conversion/trunc",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "trunc",
-        status: []
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax",
-        "value_type",
-        "trunc",
-        "type",
-        "input",
-        "output",
-        "binary_encoding",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
     id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_u",
     links: {},
     data: {
@@ -39976,10 +40761,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "shuffle",
         "splat",
         "swizzle",
-        "round_values",
-        "ceil",
-        "floor",
-        "trunc",
+        "simd-specific_trunc_instructions",
         "trunc_sat_f32x4_s",
         "trunc_sat_f32x4_u",
         "trunc_sat_f64x2_s_zero",
@@ -40015,82 +40797,6 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "syntax",
         "value_type",
         "trunc_sat_f32x4_s",
-        "type",
-        "input",
-        "output",
-        "binary_encoding",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/ceil",
-    links: {},
-    data: {
-      metadata: {
-        title: "ceil: Wasm SIMD conversion instruction",
-        pageType: "webassembly-instruction",
-        browserCompat: [
-          "webassembly.simd.ceil"
-        ],
-        summary: "The ceil SIMD conversion instruction rounds the value in each lane of a v128 value interpretation up to the nearest integer above.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/simd/conversion/ceil",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "ceil",
-        status: []
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax",
-        "value_type",
-        "ceil",
-        "type",
-        "input",
-        "output",
-        "binary_encoding",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/floor",
-    links: {},
-    data: {
-      metadata: {
-        title: "floor: Wasm SIMD conversion instruction",
-        pageType: "webassembly-instruction",
-        browserCompat: [
-          "webassembly.simd.floor"
-        ],
-        summary: "The floor SIMD conversion instruction rounds the value in each lane of a v128 value interpretation down to the nearest integer below.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/simd/conversion/floor",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "floor",
-        status: []
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax",
-        "value_type",
-        "floor",
         "type",
         "input",
         "output",
@@ -40217,11 +40923,172 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/min_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "min_s: Wasm SIMD arithmetic instruction",
+        pageType: "webassembly-instruction",
+        summary: "The min_s instruction compares two v128 signed integer value interpretations and returns a new interpretation with each lane set to the lower of that lane index's value on the two inputs.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/arithmetic/min_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "min_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "min_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/min_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "min_u: Wasm SIMD arithmetic instruction",
+        pageType: "webassembly-instruction",
+        summary: "The min_u instruction compares two v128 unsigned integer value interpretations and returns a new interpretation with each lane set to the lower of that lane index's value on the two inputs.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/arithmetic/min_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "min_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "min_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebAssembly SIMD-specific arithmetic instructions",
+        pageType: "landing-page",
+        summary: "WebAssembly SIMD-specific arithmetic instructions.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/arithmetic",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Arithmetic instructions",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "min_and_max",
+        "max_s",
+        "max_u",
+        "min_s",
+        "min_u",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/max_u",
+    links: {},
+    data: {
+      metadata: {
+        title: "max_u: Wasm SIMD arithmetic instruction",
+        pageType: "webassembly-instruction",
+        summary: "The max_u instruction compares two v128 unsigned integer value interpretations and returns a new interpretation with each lane set to the greater of that lane index's value on the two inputs.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/arithmetic/max_u",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "max_u",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "max_u",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/max_s",
+    links: {},
+    data: {
+      metadata: {
+        title: "max_s: Wasm SIMD arithmetic instruction",
+        pageType: "webassembly-instruction",
+        summary: "The max_s instruction compares two v128 signed integer value interpretations and returns a new interpretation with each lane set to the greater of that lane index's value on the two inputs.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/arithmetic/max_s",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "max_s",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "max_s",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/SIMD",
     links: {},
     data: {
       metadata: {
-        title: "WebAssembly SIMD instructions",
+        title: "WebAssembly SIMD-specific instructions",
         pageType: "landing-page",
         summary: "WebAssembly SIMD (single instruction, multiple data) instructions.",
         popularity: null,
@@ -40230,7 +41097,7 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
           folder: "en-us/webassembly/reference/simd",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "WebAssembly SIMD instructions",
+        short_title: "WebAssembly SIMD-specific instructions",
         status: []
       },
       links: [],
@@ -40245,13 +41112,165 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/not",
+    links: {},
+    data: {
+      metadata: {
+        title: "not: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.not"
+        ],
+        summary: "The not SIMD bitwise instruction performs a bitwise NOT on each byte of a v128 value and returns a new v128 value containing the result.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/not",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "not",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "v128.not",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/andnot",
+    links: {},
+    data: {
+      metadata: {
+        title: "andnot: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.andnot"
+        ],
+        summary: "The andnot SIMD bitwise instruction takes two v128 input values. It performs a bitwise AND on the first value and a second value equal to the result of performing a bitwise NOT on each byte of the second original value. It returns a new v128 value containing the result.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/andnot",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "andnot",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "v128.andnot",
+        "type",
+        "input1",
+        "input2",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/bitselect",
+    links: {},
+    data: {
+      metadata: {
+        title: "bitselect: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.bitselect"
+        ],
+        summary: "The bitselect SIMD bitwise instruction takes three v128 values as inputs — two inputs and a mask value — and returns a new v128 value with each byte calculated using the formula output = (input1 AND mask) OR (input2 AND NOT mask).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/bitselect",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "bitselect",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "v128.bitselect",
+        "type",
+        "input1",
+        "input2",
+        "mask",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/all_true",
+    links: {},
+    data: {
+      metadata: {
+        title: "all_true: Wasm SIMD bitwise instruction",
+        pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.simd.all_true"
+        ],
+        summary: "The all_true SIMD bitwise instruction tests whether all lanes of a v128 input value are non-zero.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/webassembly/reference/simd/bitwise/all_true",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "all_true",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "try_it",
+        "syntax",
+        "value_type",
+        "all_true",
+        "type",
+        "input",
+        "output",
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise",
     links: {},
     data: {
       metadata: {
-        title: "WebAssembly SIMD bitwise instructions",
+        title: "WebAssembly SIMD-specific bitwise instructions",
         pageType: "landing-page",
-        summary: "WebAssembly SIMD bitwise instructions.",
+        summary: "WebAssembly SIMD-specific bitwise instructions.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -40264,30 +41283,35 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       links: [],
       imgs: [],
       ids: [
-        "shl",
-        "shr_s",
-        "shr_u"
+        "bitwise_logic",
+        "all_true",
+        "andnot",
+        "any_true",
+        "bitmask",
+        "bitselect",
+        "not",
+        "see_also"
       ]
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shl",
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/any_true",
     links: {},
     data: {
       metadata: {
-        title: "shl: Wasm SIMD bitwise instruction",
+        title: "any_true: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.shl"
+          "webassembly.simd.any_true"
         ],
-        summary: "The shl SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the left by the same specified amount.",
+        summary: "The any_true SIMD bitwise instruction tests whether an v128 input value contains any non-zero bits.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/simd/bitwise/shl",
+          folder: "en-us/webassembly/reference/simd/bitwise/any_true",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "shl",
+        short_title: "any_true",
         status: []
       },
       specifications: [],
@@ -40296,11 +41320,9 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
       ids: [
         "try_it",
         "syntax",
-        "value_type",
-        "shl",
+        "v128.any_true",
         "type",
         "input",
-        "shift_value",
         "output",
         "binary_encoding",
         "specifications",
@@ -40310,23 +41332,23 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
     }
   },
   {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shr_s",
+    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/bitmask",
     links: {},
     data: {
       metadata: {
-        title: "shr_s: Wasm SIMD bitwise instruction",
+        title: "bitmask: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.shr_s"
+          "webassembly.simd.bitmask"
         ],
-        summary: "The shr_s SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the right by the same specified amount, outputting signed values. This is an arithmetic right shift.",
+        summary: "The bitmask SIMD bitwise instruction inspects the most significant bit (MSB) of each lane of a v128 value interpretation. This is the sign bit if the lane is treated as signed. The instruction's output value is equal to all of those bits collected into a single i32, with lane 0's MSB in bit 0 of the result, lane 1's MSB in bit 1, and so on.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
-          folder: "en-us/webassembly/reference/simd/bitwise/shr_s",
+          folder: "en-us/webassembly/reference/simd/bitwise/bitmask",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "shr_s",
+        short_title: "bitmask",
         status: []
       },
       specifications: [],
@@ -40336,49 +41358,9 @@ After you report an issue, the issue gets triaged. Issue triaging is typically d
         "try_it",
         "syntax",
         "value_type",
-        "shr_s",
+        "bitmask",
         "type",
         "input",
-        "shift_value",
-        "output",
-        "binary_encoding",
-        "specifications",
-        "browser_compatibility",
-        "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/WebAssembly/Reference/SIMD/bitwise/shr_u",
-    links: {},
-    data: {
-      metadata: {
-        title: "shr_u: Wasm SIMD bitwise instruction",
-        pageType: "webassembly-instruction",
-        browserCompat: [
-          "webassembly.simd.shr_u"
-        ],
-        summary: "The shr_u SIMD bitwise instruction shifts the bits in each lane of a v128 value interpretation to the right by the same specified amount, outputting unsigned values. This is a logical right shift.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/webassembly/reference/simd/bitwise/shr_u",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "shr_u",
-        status: []
-      },
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "try_it",
-        "syntax",
-        "value_type",
-        "shr_u",
-        "type",
-        "input",
-        "shift_value",
         "output",
         "binary_encoding",
         "specifications",
@@ -45553,7 +46535,7 @@ This article explains how to get up and running with A-Frame, and how to use it 
         "https://orb.enclavegames.com/",
         "https://phaser.io/",
         "https://github.com/phaserjs/phaser",
-        "https://phaser.io/docs/",
+        "https://docs.phaser.io/",
         "https://labs.phaser.io/",
         "https://github.com/EnclaveGames/Cyber-Orb",
         "https://webdesign.tutsplus.com/getting-started-with-phaser-building-monster-wants-candy--cms-21723t",
@@ -46092,7 +47074,7 @@ This article explains how to get up and running with A-Frame, and how to use it 
       },
       links: [
         "https://labs.phaser.io/",
-        "https://phaser.io/docs/",
+        "https://docs.phaser.io/",
         "https://phaser.discourse.group/"
       ],
       imgs: [],
@@ -54111,7 +55093,9 @@ Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=150",
+        "https://bugzil.la/1819581",
         "https://bugzil.la/2023569",
+        "https://bugzil.la/2022176",
         "https://bugzil.la/1914596",
         "https://bugzil.la/1550635",
         "https://bugzil.la/2018095",
@@ -54122,6 +55106,7 @@ Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "html",
         "css",
         "apis",
         "dom",
@@ -92356,19 +93341,19 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -102980,9 +103965,7 @@ An empty Allow value indicates that the resource allows no request methods, whic
         "https://bugzil.la/1763310",
         "https://www.firefox.com/en-US/firefox/127.0/releasenotes/",
         "https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ios/user_agent.md",
-        "https://github.com/mozilla-mobile/firefox-ios/issues/6620",
-        "https://wiki.mozilla.org/B2G/User_Agent/Device_Model_Inclusion_Requirements",
-        "https://hg-edge.mozilla.org/releases"
+        "https://github.com/mozilla-mobile/firefox-ios/issues/6620"
       ],
       imgs: [],
       ids: [
@@ -102995,11 +103978,6 @@ An empty Allow value indicates that the resource allows no request methods, whic
         "focus_for_android",
         "firefox_for_ios",
         "focus_for_ios",
-        "firefox_for_fire_tv",
-        "firefox_for_echo_show",
-        "firefox_os",
-        "device-specific_user_agent_strings",
-        "firefox_os_version_number",
         "see_also"
       ]
     }
@@ -159932,19 +160910,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -159952,87 +160918,15 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160040,15 +160934,51 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160056,7 +160986,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160064,7 +160994,79 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160076,63 +161078,39 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -162262,15 +163240,7 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -162282,11 +163252,19 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -162294,7 +163272,7 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -180750,23 +181728,7 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         },
         {
@@ -180774,7 +181736,23 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -229849,6 +230827,49 @@ event is announcing.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/WebTransportSendStream/getWriter",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebTransportSendStream: getWriter() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.WebTransportSendStream.getWriter"
+        ],
+        summary: "The getWriter() method of the WebTransportSendStream interface returns a new WebTransportWriter object and locks the stream to that instance. While the stream is locked, no other writer can be acquired until this one is released.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/webtransportsendstream/getwriter",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "getWriter()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webtransport/#dom-webtransportsendstream-getwriter",
+          title: "WebTransport"
+        }
+      ],
+      links: [
+        "https://developer.chrome.com/docs/capabilities/web-apis/webtransport"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "exceptions",
+        "typeerror",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/WebTransportSendStream/sendOrder",
     links: {},
     data: {
@@ -229962,9 +230983,10 @@ event is announcing.`,
       imgs: [],
       ids: [
         "instance_properties",
-        "webtransportsendstream.getstats",
-        "instance_methods",
         "webtransportsendstream.sendorder",
+        "instance_methods",
+        "webtransportsendstream.getstats",
+        "webtransportsendstream.getwriter",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -247125,6 +248147,49 @@ individualization-request.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/TimeEvent/initTimeEvent",
+    links: {},
+    data: {
+      metadata: {
+        title: "TimeEvent: initTimeEvent() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.TimeEvent.initTimeEvent"
+        ],
+        summary: "The TimeEvent.initTimeEvent() method initializes the value of a TimeEvent created using Document.createEvent().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/timeevent/inittimeevent",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "initTimeEvent()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://svgwg.org/specs/animations/#__svg__TimeEvent__initTimeEvent",
+          title: "SVG Animations Level 2"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "type",
+        "view",
+        "detail",
+        "return_value",
+        "examples",
+        "dispatching_a_repeatevent",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/TimeEvent",
     links: {},
     data: {
@@ -247160,6 +248225,78 @@ individualization-request.`,
         "timeevent.inittimeevent",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/TimeEvent/detail",
+    links: {},
+    data: {
+      metadata: {
+        title: "TimeEvent: detail property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.TimeEvent.detail"
+        ],
+        summary: "The TimeEvent.detail read-only property provides contextual information about the event, depending on the event type.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/timeevent/detail",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "detail",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://svgwg.org/specs/animations/#__svg__TimeEvent__detail",
+          title: "SVG Animations Level 2"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/TimeEvent/view",
+    links: {},
+    data: {
+      metadata: {
+        title: "TimeEvent: view property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.TimeEvent.view"
+        ],
+        summary: "The TimeEvent.view read-only property identifies the WindowProxy from which the event was generated.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/timeevent/view",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "view",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://svgwg.org/specs/animations/#__svg__TimeEvent__view",
+          title: "SVG Animations Level 2"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -282289,6 +283426,44 @@ You can use the RTCPeerConnection interface's onremovestream property to set a h
     }
   },
   {
+    id: "/en-US/docs/Web/API/RTCPeerConnection/idpLoginUrl",
+    links: {},
+    data: {
+      metadata: {
+        title: "RTCPeerConnection: idpLoginUrl property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.RTCPeerConnection.idpLoginUrl"
+        ],
+        summary: "The idpLoginUrl read-only property of the RTCPeerConnection interface returns a string containing the URL endpoint the application can open to log users in to the identity provider (IdP). This value is null until the IdP indicates that login is needed.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/rtcpeerconnection/idploginurl",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "idpLoginUrl",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-identity/#dom-rtcpeerconnection-idploginurl",
+          title: "Identity for WebRTC 1.0"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "handling_an_idp_login_requirement",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCPeerConnection/signalingstatechange_event",
     links: {},
     data: {
@@ -282409,6 +283584,7 @@ It provides methods to connect to a remote peer, maintain and monitor the connec
         "currentremotedescription",
         "iceconnectionstate",
         "icegatheringstate",
+        "idploginurl",
         "localdescription",
         "peeridentity",
         "pendinglocaldescription",
@@ -358848,9 +360024,7 @@ status bar.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/mt795399(v=vs.85)"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "instance_methods",
@@ -375165,6 +376339,89 @@ current handle.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/RTCIdentityAssertion/name",
+    links: {},
+    data: {
+      metadata: {
+        title: "RTCIdentityAssertion: name property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.RTCIdentityAssertion.name"
+        ],
+        summary: "The name property of the RTCIdentityAssertion interface indicates the verified peer identity. It is a string in an email address-like format (for example, user@example.com), as defined by RFC 5322.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/rtcidentityassertion/name",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "name",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-identity/#dom-rtcidentityassertion-name",
+          title: "Identity for WebRTC 1.0"
+        }
+      ],
+      links: [
+        "https://datatracker.ietf.org/doc/html/rfc5322",
+        "https://datatracker.ietf.org/doc/html/rfc5322"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_verified_peer_identity_name",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/RTCIdentityAssertion/idp",
+    links: {},
+    data: {
+      metadata: {
+        title: "RTCIdentityAssertion: idp property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.RTCIdentityAssertion.idp"
+        ],
+        summary: "The idp property of the RTCIdentityAssertion interface indicates the domain name of the identity provider (IdP) that validated the identity assertion (a verified claim of the remote peer's identity).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/rtcidentityassertion/idp",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "idp",
+        status: [
+          "experimental"
+        ]
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-identity/#dom-rtcidentityassertion-idp",
+          title: "Identity for WebRTC 1.0"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "displaying_the_identity_provider_domain",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCIdentityAssertion",
     links: {},
     data: {
@@ -375198,8 +376455,11 @@ current handle.`,
         "instance_properties",
         "rtcidentityassertion.idp",
         "rtcidentityassertion.name",
+        "examples",
+        "accessing_the_remote_peers_identity",
         "specifications",
-        "browser_compatibility"
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -494851,11 +496111,11 @@ by the user agent.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         },
         {
@@ -547053,103 +548313,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
@@ -547161,15 +548325,47 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -547177,7 +548373,71 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         }
       ],
@@ -552801,6 +554061,162 @@ This article lists guides and references for various features you may use when i
         "webxr",
         "webvr",
         "web_audio_spatialization_basics"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Threat_modeling",
+    links: {},
+    data: {
+      metadata: {
+        title: "Threat modeling",
+        pageType: "guide",
+        summary: "Threat modeling is a process that can help identify and understand potential security risks in applications and websites. It can help you understand the specific vulnerabilities of your application, the browser environment, and the user's interaction with your UI. This article describes what a threat model is and how to perform threat modeling, providing a lightweight overview and walking through the threat modeling process.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/threat_modeling",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Threat modeling",
+        status: []
+      },
+      links: [
+        "https://www.threatmodelingmanifesto.org",
+        "https://www.threatmodelingmanifesto.org",
+        "https://w3c.github.io/threat-model-web/",
+        "https://w3c.github.io/threat-model-web/",
+        "https://owasp.org/Top10/2025/",
+        "https://w3c.github.io/threat-modeling-guide/#curatorial-storytelling",
+        "https://www.threatmodelingmanifesto.org",
+        "https://www.threatmodelingmanifesto.org",
+        "https://w3c.github.io/threat-modeling-guide/",
+        "https://w3c.github.io/threat-model-web/",
+        "https://github.com/OWASP/threat-modeling-playbook",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html"
+      ],
+      imgs: [],
+      ids: [
+        "threat_modeling_frameworks_and_tools",
+        "example_threat_model",
+        "what_is_a_threat",
+        "what_is_threat_modeling",
+        "how_to_do_threat_modeling",
+        "questions_to_be_answered",
+        "1._what_are_we_working_on",
+        "components",
+        "assets",
+        "data_flows_and_trust_boundaries",
+        "external_dependencies",
+        "stakeholders",
+        "2._what_can_go_wrong",
+        "3._what_are_we_going_to_do_about_it",
+        "4._did_we_do_a_good_enough_job",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Threat_modeling/Example_threat_model",
+    links: {},
+    data: {
+      metadata: {
+        title: "Example threat model",
+        pageType: "guide",
+        summary: "This threat model covers the blog website itself, including user interaction and backend services.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/threat_modeling/example_threat_model",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Example threat model",
+        status: []
+      },
+      links: [
+        "https://w3c.github.io/threat-model-web/"
+      ],
+      imgs: [
+        "/en-US/docs/Web/Security/Threat_modeling/Example_threat_model/diagram.svg"
+      ],
+      ids: [
+        "overview",
+        "1._what_are_we_working_on",
+        "assumptions_and_scope",
+        "trust_boundaries",
+        "components",
+        "assets",
+        "data_flows",
+        "external_dependencies",
+        "stakeholders",
+        "2._what_can_go_wrong",
+        "identified_threats",
+        "3._what_are_we_going_to_do_about_it",
+        "threat_responses",
+        "4._did_we_do_a_good_enough_job",
+        "review_status",
+        "follow-up_actions",
+        "notes",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/Security/Threat_modeling/Frameworks",
+    links: {},
+    data: {
+      metadata: {
+        title: "Threat modeling frameworks and tools",
+        pageType: "guide",
+        summary: "Threat modeling is a process that can help developers identify and understand potential security risks in applications and websites.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/security/threat_modeling/frameworks",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Threat modeling frameworks and tools",
+        status: []
+      },
+      links: [
+        "https://www.threatmodelingmanifesto.org",
+        "https://en.wikipedia.org/wiki/STRIDE_model",
+        "https://linddun.org",
+        "https://datatracker.ietf.org/doc/rfc9620/",
+        "https://w3ctag.github.io/ethical-web-principles/",
+        "https://www.w3.org/TR/security-privacy-questionnaire/#missing-questions",
+        "https://datatracker.ietf.org/doc/html/rfc6973",
+        "https://datatracker.ietf.org/doc/html/rfc3552",
+        "https://github.com/defuse/ictm",
+        "https://owasp.org/www-project-threat-dragon/",
+        "https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool",
+        "https://www.threatmodelingmanifesto.org",
+        "https://w3c.github.io/threat-modeling-guide/",
+        "https://w3c.github.io/threat-model-web/",
+        "https://github.com/OWASP/threat-modeling-playbook",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html"
+      ],
+      imgs: [],
+      ids: [
+        "frameworks",
+        "stride",
+        "spoofing",
+        "tampering",
+        "repudiation",
+        "information_disclosure",
+        "denial_of_service_dos",
+        "elevation_of_privilege",
+        "linddun",
+        "linking",
+        "identifying",
+        "non-repudiation",
+        "detecting",
+        "data_disclosure",
+        "unawareness",
+        "non-compliance",
+        "other_resources",
+        "threat_modeling_tools",
+        "see_also"
       ]
     }
   },
@@ -565360,12 +566776,20 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "constituent_properties",
         "syntax",
         "values",
-        "single-easing-function",
-        "single-animation-iteration-count",
+        "keyframes-name",
+        "animation-duration",
+        "easing-function",
+        "animation-delay",
         "single-animation-direction",
+        "single-animation-iteration-count",
         "single-animation-fill-mode",
         "single-animation-play-state",
+        "single-animation-timeline",
         "description",
+        "animation-name",
+        "time_values",
+        "animation-timeline",
+        "animation-fill-mode_and_new_stacking_contexts",
         "accessibility",
         "formal_definition",
         "formal_syntax",
@@ -573634,15 +575058,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -573650,7 +575070,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -573662,16 +575082,20 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -599692,7 +601116,7 @@ Users are able to indicate their color-scheme preference through their operating
         browserCompat: [
           "css.types.color.color-mix"
         ],
-        summary: "The color-mix() functional notation takes two <color> values and returns the result of mixing them in a given colorspace by a given amount.",
+        summary: "The color-mix() functional notation takes one or more <color> values and returns the result of mixing them in a given colorspace by a given amount.",
         popularity: 0.037444179188316246,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
