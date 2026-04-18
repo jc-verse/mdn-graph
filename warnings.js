@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zekghb1y.js";
+} from "./chunk-qwxcqmzr.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -21,23 +21,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            publishing_games: {
-              children: {
-                game_promotion: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://indiegamesplus.com/",
-                        503
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             techniques: {
               children: {
                 "3d_on_the_web": {
@@ -56,6 +39,19 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                audio_for_web_games: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -388,13 +384,6 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -1387,7 +1376,7 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
-                    "https://vitepress.dev/",
+                    "https://astro.build/",
                     "The operation timed out."
                   ]
                 }
@@ -2718,6 +2707,20 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/accessibility/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/addons-and-dependencies/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2728,13 +2731,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -2749,13 +2745,6 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://guides.emberjs.com/release/tutorial/part-1/",
                             "The operation timed out."
                           ]
@@ -2763,14 +2752,21 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/classes/route/",
                             "The operation timed out."
                           ]
                         }
@@ -2783,6 +2779,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2803,28 +2806,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
                             "unknown certificate verification error"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v2.vuejs.org/v2/guide/comparison.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitepress.dev/",
+                            "https://astro.build/",
                             "The operation timed out."
                           ]
                         }
@@ -2844,21 +2833,28 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://v2.vuejs.org/v2/api/",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
+                            "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    react_resources: {
+                    react_getting_started: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
-                            "The operation timed out."
+                            "https://vite.dev/guide/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -4838,27 +4834,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4886,13 +4861,6 @@ body {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4903,27 +4871,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4934,13 +4881,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/lifecycle.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4951,13 +4891,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/api/built-in-directives.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -4968,6 +4901,20 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -5763,6 +5710,19 @@ caption {
                         }
                       ]
                     },
+                    splash_page: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Splash_page",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/shared-assets/images/examples/learn/crawlies/bee.jpg",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         links: {
@@ -6400,6 +6360,19 @@ span {
                         }
                       ]
                     },
+                    pseudo_classes_and_elements: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cssarrowplease.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6934,6 +6907,13 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://vite.dev/guide/",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
@@ -6947,13 +6927,6 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylelint.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
@@ -6961,14 +6934,20 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
+                            "https://www.netlify.com/",
                             "unknown certificate verification error"
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.netlify.com/",
+                            "https://vite.dev/guide/",
                             "unknown certificate verification error"
                           ]
                         }
@@ -12829,13 +12808,6 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -12855,12 +12827,22 @@ textarea:focus {
                                 "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
-                            },
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
+                                "https://itemsapi.com/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -13472,19 +13454,6 @@ body {
                     }
                   }
                 },
-                web_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://resilientwebdesign.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 your_first_website: {
                   children: {
                     publishing_your_website: {
@@ -13726,21 +13695,7 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://howdns.works/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -13836,19 +13791,6 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -13885,13 +13827,6 @@ color: rgb(31 41 59 / 26%);
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -14016,6 +13951,19 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
+                },
+                writing_style_guide: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://imageoptim.com/",
+                        502
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15257,6 +15205,18 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "150": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/revert-rule"
+                          ]
+                        }
+                      ]
+                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -15685,13 +15645,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://linkinghub.elsevier.com/retrieve/pii/S0960982217304062",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -17172,7 +17125,16 @@ li:nth-of-type(3n + 1) {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/CSS_Painting_API",
+                  messages: [
+                    {
+                      message: "Missing image",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Painting_API/guide/boxbg.png"
+                      ]
+                    }
+                  ]
                 },
                 css_properties_and_values_api: {
                   children: {
@@ -22142,6 +22104,23 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    cascade: {
+                      children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
                               ]
                             }
                           ]
@@ -38585,6 +38564,13 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+                                    502
+                                  ]
                                 }
                               ]
                             },
@@ -68953,6 +68939,66 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        ":active CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":active-view-transition CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":active-view-transition-type() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::after CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":any-link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":autofill CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::backdrop CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::before CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":blank CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":buffering CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Class selectors"
                       ]
                     },
@@ -68965,7 +69011,199 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        ":checked CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::checkmark CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::column CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::cue CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":current CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "<dashed-function>: CSS custom functions"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":default CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":defined CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::details-content CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":dir() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":disabled CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":empty CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":enabled CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::file-selector-button CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":first CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":first-child CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::first-letter CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::first-line CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":first-of-type CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":focus CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":focus-visible CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":focus-within CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":fullscreen CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":future CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::grammar-error CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":has() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":has-slotted CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":heading CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":heading() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::highlight() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":host CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":host() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":hover CSS pseudo-class"
                       ]
                     },
                     {
@@ -68977,7 +69215,97 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        ":in-range CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":indeterminate CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":interest-source CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":interest-target CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":invalid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":is() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Keyframe selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":lang() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":last-child CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":last-of-type CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":left CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":local-link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::marker CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":modal CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":muted CSS pseudo-class"
                       ]
                     },
                     {
@@ -68995,7 +69323,223 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        ":not() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":nth-child() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":nth-last-child() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":nth-last-of-type() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":nth-of-type() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":only-child CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":only-of-type CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":open CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":optional CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":out-of-range CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::part() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":past CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":paused CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::picker() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::picker-icon CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":picture-in-picture CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::placeholder CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":placeholder-shown CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":playing CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":popover-open CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":read-only CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":read-write CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":required CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":right CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":root CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Selector list"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":scope CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::scroll-button() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::scroll-marker CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::scroll-marker-group CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::search-text CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":seeking CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::selection CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::slotted() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::spelling-error CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":stalled CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":state() CSS pseudo-class"
                       ]
                     },
                     {
@@ -69007,7 +69551,109 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        ":target CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":target-after CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":target-before CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":target-current CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::target-text CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Universal selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":user-invalid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":user-valid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":valid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::view-transition CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::view-transition-group() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::view-transition-image-pair() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::view-transition-new() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "::view-transition-old() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":visited CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":volume-locked CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":where() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        ":xr-overlay CSS pseudo-class"
                       ]
                     }
                   ]
@@ -70688,6 +71334,36 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        set: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+                          messages: [
+                            {
+                              message: "Missing image",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricdifference/diagram.svg"
+                              ]
+                            },
+                            {
+                              message: "Missing image",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isdisjointfrom/diagram.svg"
+                              ]
+                            },
+                            {
+                              message: "Missing image",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/issubsetof/diagram.svg"
+                              ]
+                            },
+                            {
+                              message: "Missing image",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/issupersetof/diagram.svg"
+                              ]
+                            }
+                          ]
+                        },
                         undefined: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
@@ -70959,10 +71635,24 @@ doIt(); // returns "finally"
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
                           messages: [
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/aac/",
-                                "https://www.via-la.com/licensing-programs/aac/"
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/AMR-NB.AMR.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/Overview-lic.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -70981,6 +71671,13 @@ doIt(); // returns "finally"
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "Unable to connect. Is the computer able to access the url?"
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.apple.com/documentation/quicktime-file-format",
+                                502
+                              ]
                             }
                           ]
                         },
@@ -70989,45 +71686,45 @@ doIt(); // returns "finally"
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/avc-h-264/",
-                                "https://www.via-la.com/licensing-programs/avc-h-264/"
+                                "The operation timed out."
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/avc-h-264/",
-                                "https://www.via-la.com/licensing-programs/avc-h-264/"
+                                "The operation timed out."
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "https://www.via-la.com/licensing-programs/hevc-vvc/"
+                                "The operation timed out."
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "https://www.via-la.com/licensing-programs/hevc-vvc/"
+                                "The operation timed out."
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/mpeg-4-visual/",
-                                "https://www.via-la.com/licensing-programs/mpeg-4-visual/"
+                                "The operation timed out."
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/",
-                                "https://www.via-la.com/"
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -71038,10 +71735,10 @@ doIt(); // returns "finally"
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
                                 "https://via-la.com/licensing-programs/mpeg-2/",
-                                "https://www.via-la.com/licensing-programs/mpeg-2/"
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -72822,6 +73519,23 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
+            guides: {
+              children: {
+                c_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/C_to_Wasm",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://en.cppreference.com/w/c/program/atexit",
+                        "https://en.cppreference.com/c/program/atexit"
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
             reference: {
               children: {
                 control_flow: {

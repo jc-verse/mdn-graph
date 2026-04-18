@@ -4968,9 +4968,7 @@ var nodes_default = [
         short_title: "Test: Links",
         status: []
       },
-      links: [
-        "mailto:whales@example.com"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "links_1",
@@ -47948,6 +47946,7 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1998245",
         "https://bugzil.la/2014060",
         "https://bugzil.la/2014404",
+        "https://bugzil.la/2014098",
         "https://bugzil.la/2018797",
         "https://bugzil.la/1916277",
         "https://bugzil.la/2018900",
@@ -55102,8 +55101,11 @@ Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`
         "https://bugzil.la/2023569",
         "https://bugzil.la/2020775",
         "https://bugzil.la/1825427",
+        "https://bugzil.la/2017307",
+        "https://bugzil.la/1837436",
         "https://bugzil.la/2022176",
         "https://bugzil.la/1914596",
+        "https://bugzil.la/2019904",
         "https://bugzil.la/1550635",
         "https://bugzil.la/2018095",
         "https://bugzil.la/2003840",
@@ -55119,6 +55121,7 @@ Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`
         "https://bugzil.la/2022549",
         "https://bugzil.la/2016369",
         "https://bugzil.la/2014060",
+        "https://bugzil.la/2014098",
         "https://bugzil.la/2018797",
         "https://bugzil.la/2018900",
         "https://bugzil.la/1916277"
@@ -67537,8 +67540,6 @@ In the listeners, you can:`,
       },
       links: [
         "https://crbug.com/1185241",
-        "mailto:blue@mozilla.org",
-        "mailto:red@mozilla.org",
         "https://developer.chrome.com/docs/extensions/reference/api/runtime#event-onMessageExternal",
         "https://chromium.googlesource.com/chromium/src/+/master/extensions/common/api/runtime.json"
       ],
@@ -93366,11 +93367,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
@@ -93378,7 +93375,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -93386,11 +93387,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -122492,11 +122493,11 @@ for each value in this set, in insertion order.`,
       imgs: [
         "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/difference/diagram.svg",
         "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection/diagram.svg",
-        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference/diagram.svg",
+        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricdifference/diagram.svg",
         "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/union/diagram.svg",
-        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom/diagram.svg",
-        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf/diagram.svg",
-        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf/diagram.svg"
+        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/isdisjointfrom/diagram.svg",
+        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/issubsetof/diagram.svg",
+        "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/issupersetof/diagram.svg"
       ],
       ids: [
         "description",
@@ -160935,7 +160936,27 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160943,7 +160964,83 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160951,11 +161048,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160963,7 +161056,75 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160975,167 +161136,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -163269,7 +163270,7 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163281,11 +163282,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163293,19 +163298,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -166885,7 +166886,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#SwitchElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#SwitchElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -166927,7 +166928,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167190,7 +167191,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#DescriptionAndTitleElements",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#DescriptionAndTitleElements",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167354,7 +167355,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#StyleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#StyleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167397,7 +167398,7 @@ This chapter describes JavaScript regular expressions. It provides a brief overv
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#NewDocument",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#NewDocument",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167490,7 +167491,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/paths.html#PathElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/paths.html#PathElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167532,7 +167533,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#StopElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167615,7 +167616,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#PatternElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#PatternElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167750,7 +167751,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#PolylineElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#PolylineElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167834,7 +167835,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#LineElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#LineElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167879,7 +167880,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#PolygonElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#PolygonElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -167961,7 +167962,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168012,7 +168013,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#RectElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#RectElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168059,7 +168060,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168148,7 +168149,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168240,7 +168241,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#ScriptElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#ScriptElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168415,7 +168416,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#ImageElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#ImageElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168657,7 +168658,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#ForeignObjectElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168871,7 +168872,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#EllipseElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#EllipseElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168915,7 +168916,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#CircleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#CircleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168959,7 +168960,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#Head",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#Head",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -168998,7 +168999,7 @@ It is used within a lighting filter primitive: <feDiffuseLighting> or <feSpecula
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#ViewElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#ViewElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169086,7 +169087,7 @@ The text must be enclosed in the <textPath> element and its href attribute is us
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextPathElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169134,7 +169135,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#UseElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#UseElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169182,7 +169183,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#TitleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#TitleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169222,7 +169223,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#AElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#AElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169272,7 +169273,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#MetadataElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#MetadataElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169443,7 +169444,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#GElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#GElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169598,7 +169599,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169651,7 +169652,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#SymbolElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#SymbolElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -169822,7 +169823,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#AElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
@@ -169834,11 +169835,11 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
           title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#ImageElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
@@ -169846,23 +169847,23 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
           title: "SVG Animations Level 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#PatternElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#PatternElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#ScriptElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextPathElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#UseElementHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#UseElementHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170042,7 +170043,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
           title: "CSS Overflow Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#OverflowAndClipProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170220,7 +170221,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerUnitsAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerUnitsAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170260,7 +170261,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementCYAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170347,7 +170348,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
           title: "CSS Text Decoration Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextDecorationProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170472,7 +170473,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternContentUnitsAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#PatternElementPatternContentUnitsAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170512,7 +170513,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextPathElementStartOffsetAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementStartOffsetAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170668,7 +170669,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeWidth",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeWidth",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -170749,7 +170750,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#ObjectAndGroupOpacityProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171016,7 +171017,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementLengthAdjustAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextElementLengthAdjustAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171150,7 +171151,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Fonts Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#:~:text=font-stretch",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#:~:text=font-stretch",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171225,7 +171226,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#LangSpaceAttrs",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#LangSpaceAttrs",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171270,7 +171271,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Text Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#WordSpacingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#WordSpacingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171352,7 +171353,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Text Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextWhiteSpace",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextWhiteSpace",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171464,7 +171465,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#WhitespaceProcessingXMLSpaceAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#WhitespaceProcessingXMLSpaceAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171504,7 +171505,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#FillOpacity",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#FillOpacity",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171579,7 +171580,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerEndProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerEndProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171619,7 +171620,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#VectorEffectProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171704,7 +171705,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#ElementSpecificStyling",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#ElementSpecificStyling",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171759,7 +171760,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "SVG Animations Level 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#SpecifyingFillPaint",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#SpecifyingFillPaint",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171864,7 +171865,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFRAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementFRAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -171945,7 +171946,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#LineJoin",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#LineJoin",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172188,7 +172189,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextPathElementSpacingAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementSpacingAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172269,11 +172270,11 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementSpreadMethodAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementSpreadMethodAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementSpreadMethodAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementSpreadMethodAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172322,7 +172323,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerHeightAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerHeightAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172364,7 +172365,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Transforms Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#PresentationAttributes",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#PresentationAttributes",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172407,7 +172408,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextAnchorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextAnchorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172450,7 +172451,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementCXAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172576,7 +172577,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#tabindexattribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#tabindexattribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172617,7 +172618,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#StopColorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172696,7 +172697,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#AlignmentBaselineProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#AlignmentBaselineProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172752,7 +172753,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY2Attribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementY2Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172795,7 +172796,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#OrientAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#OrientAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172870,7 +172871,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172919,7 +172920,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Overflow Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextOverflowProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextOverflowProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -172988,7 +172989,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#ElementSpecificStyling",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#ElementSpecificStyling",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173025,7 +173026,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerWidthAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerWidthAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173181,7 +173182,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextPathElementSideAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementSideAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173302,7 +173303,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#GlyphOrientationVerticalProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#GlyphOrientationVerticalProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173339,7 +173340,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#WindingRule",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#WindingRule",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173422,7 +173423,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementRAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementRAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173576,7 +173577,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#XLinkHrefAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#XLinkHrefAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173629,7 +173630,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Text Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#LetterSpacingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#LetterSpacingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173672,7 +173673,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Writing Modes Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#WritingModeProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#WritingModeProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173746,11 +173747,11 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientTransformAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementGradientTransformAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientTransformAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementGradientTransformAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173831,7 +173832,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#LineCaps",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#LineCaps",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -173916,7 +173917,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFXAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementFXAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -174530,7 +174531,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#Core.attrib",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#Core.attrib",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -174573,7 +174574,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Writing Modes Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#DirectionProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#DirectionProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -174708,7 +174709,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/paths.html#DProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/paths.html#DProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
@@ -174789,7 +174790,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX2Attribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementX2Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175153,7 +175154,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeDashing",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeDashing",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175292,7 +175293,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ShapeRendering",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ShapeRendering",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175372,7 +175373,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFYAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementFYAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175416,7 +175417,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Display Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#VisibilityControl",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#VisibilityControl",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175499,7 +175500,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementX1Attribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementX1Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175542,7 +175543,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#PaintOrderProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175625,7 +175626,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextElementTextLengthAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextElementTextLengthAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175710,7 +175711,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#LangSpaceAttrs",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#LangSpaceAttrs",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175853,7 +175854,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeMiterlimitProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeMiterlimitProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175891,7 +175892,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerMidProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerMidProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -175970,7 +175971,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerStartProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerStartProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176052,7 +176053,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Images Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ImageRendering",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ImageRendering",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176126,11 +176127,11 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementGradientUnitsAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176465,7 +176466,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternUnitsAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#PatternElementPatternUnitsAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176664,7 +176665,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ColorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176738,7 +176739,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#autofocusattribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#autofocusattribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176860,7 +176861,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Transforms Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#TransformProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#TransformProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -176925,7 +176926,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#DominantBaselineProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#DominantBaselineProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177021,7 +177022,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementY1Attribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementY1Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177108,7 +177109,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeDashoffsetProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeDashoffsetProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177181,7 +177182,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#AElementTargetAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#AElementTargetAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177261,7 +177262,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#StopOpacityProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopOpacityProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177298,7 +177299,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#TextRenderingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#TextRenderingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177389,7 +177390,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#GlyphOrientationHorizontalProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#GlyphOrientationHorizontalProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177425,7 +177426,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeOpacity",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeOpacity",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177463,7 +177464,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#StyleElementMediaAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#StyleElementMediaAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177541,7 +177542,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#DataAttributes",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#DataAttributes",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177578,7 +177579,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#PointerEventsProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177728,7 +177729,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternTransformAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#PatternElementPatternTransformAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177807,7 +177808,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "Filter Effects Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#ImageElementCrossoriginAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#ImageElementCrossoriginAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177883,7 +177884,7 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#SpecifyingStrokePaint",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#SpecifyingStrokePaint",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -177968,7 +177969,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#BaselineShiftProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#BaselineShiftProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -178208,7 +178209,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Display Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#VisibilityControl",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#VisibilityControl",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -178250,7 +178251,7 @@ For an animation element, this is the point at which the animation should begin.
           title: "CSS Fonts Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#FontVariantProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#FontVariantProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -181753,7 +181754,7 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -181761,15 +181762,15 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -181777,7 +181778,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         }
       ],
@@ -206833,7 +206834,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -206871,7 +206872,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__startOffset",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__startOffset",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -206909,7 +206910,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__spacing",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__spacing",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -206947,7 +206948,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextPathElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextPathElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -206995,7 +206996,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__method",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__method",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208456,7 +208457,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refY",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__refY",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208492,7 +208493,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208531,7 +208532,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientAngle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orientAngle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208567,7 +208568,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerHeight",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerHeight",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208603,7 +208604,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orient",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orient",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208646,7 +208647,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerWidth",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerWidth",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208682,7 +208683,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientType",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orientType",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208721,7 +208722,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAuto",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAuto",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208759,7 +208760,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#InterfaceSVGMarkerElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#InterfaceSVGMarkerElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208816,7 +208817,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refX",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__refX",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208852,7 +208853,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208888,7 +208889,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -208940,7 +208941,7 @@ If there is no need to change task priorities, then AbortController can be used 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAngle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAngle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -209919,7 +209920,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -209961,7 +209962,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__getItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210002,7 +210003,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__initialize",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210043,7 +210044,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210085,7 +210086,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210128,7 +210129,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGLengthList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGLengthList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210180,7 +210181,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210216,7 +210217,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210257,7 +210258,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__length",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -210293,7 +210294,7 @@ event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__clear",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213335,7 +213336,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213372,7 +213373,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213409,7 +213410,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213446,7 +213447,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__rx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__rx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213483,7 +213484,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__ry",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__ry",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213520,7 +213521,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGRectElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -213557,7 +213558,7 @@ It returns an iterator object that yields the key-value pairs of the report in i
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGRectElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGRectElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -218948,7 +218949,7 @@ event.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__ownerSVGElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGElement__ownerSVGElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -219193,7 +219194,7 @@ This object can be used to get and set the inline styles of an element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -219285,7 +219286,7 @@ This object can be used to get and set the inline styles of an element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#ErrorEvent",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#ErrorEvent",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -219358,7 +219359,7 @@ This object can be used to get and set the inline styles of an element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#LoadEvent",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#LoadEvent",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -219395,7 +219396,7 @@ This object can be used to get and set the inline styles of an element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__viewportElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGElement__viewportElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -223047,7 +223048,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -223087,7 +223088,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#InterfaceSVGScriptElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#InterfaceSVGScriptElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -223126,7 +223127,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#__svg__SVGScriptElement__type",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#__svg__SVGScriptElement__type",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -226798,7 +226799,7 @@ GPUPipelineError interface defines the reason the pipeline creation failed in a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -226835,7 +226836,7 @@ GPUPipelineError interface defines the reason the pipeline creation failed in a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPolylineElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGPolylineElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -226874,7 +226875,7 @@ GPUPipelineError interface defines the reason the pipeline creation failed in a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -228405,7 +228406,7 @@ referenceNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSwitchElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGSwitchElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -232871,7 +232872,7 @@ a message or description associated with the given error name.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -232908,7 +232909,7 @@ a message or description associated with the given error name.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPolygonElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGPolygonElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -232947,7 +232948,7 @@ a message or description associated with the given error name.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -233856,6 +233857,11 @@ its y coordinate must be 0).`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
+        "css",
+        "javascript",
+        "result",
+        "frame_basic_usage",
         "specifications",
         "browser_compatibility"
       ]
@@ -233894,6 +233900,11 @@ its y coordinate must be 0).`,
         "cssfontfacerule.style",
         "instance_methods",
         "examples",
+        "accessing_font-face_properties",
+        "css",
+        "javascript",
+        "result",
+        "frame_accessing_font-face_properties",
         "specifications",
         "browser_compatibility"
       ]
@@ -242111,7 +242122,7 @@ XRSession the event is about.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242150,7 +242161,7 @@ XRSession the event is about.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242189,7 +242200,7 @@ XRSession the event is about.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242228,7 +242239,7 @@ geometry attributes on all the elements contained in the target element).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242276,7 +242287,7 @@ geometry attributes on all the elements contained in the target element).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGGraphicsElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242318,7 +242329,7 @@ geometry attributes on all the elements contained in the target element).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -242353,7 +242364,7 @@ geometry attributes on all the elements contained in the target element).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__transform",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__transform",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -245760,7 +245771,7 @@ that caused a given pointer event.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -245797,7 +245808,7 @@ that caused a given pointer event.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedAngle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedAngle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -245835,7 +245846,7 @@ that caused a given pointer event.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -251193,7 +251204,7 @@ a new string.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -251231,7 +251242,7 @@ a new string.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -251270,7 +251281,7 @@ a new string.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -253209,7 +253220,7 @@ XRFrame.getPose().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -253246,7 +253257,7 @@ XRFrame.getPose().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -253283,7 +253294,7 @@ XRFrame.getPose().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -253320,7 +253331,7 @@ XRFrame.getPose().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -253357,7 +253368,7 @@ XRFrame.getPose().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#InterfaceSVGForeignObjectElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#InterfaceSVGForeignObjectElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -259693,7 +259704,7 @@ ScrollTimeline interface returns an enumerated value representing the scroll axi
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -259730,7 +259741,7 @@ ScrollTimeline interface returns an enumerated value representing the scroll axi
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGAnimatedPreserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#InterfaceSVGAnimatedPreserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -259768,7 +259779,7 @@ ScrollTimeline interface returns an enumerated value representing the scroll axi
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -266397,7 +266408,7 @@ JSON form of the point object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -266434,7 +266445,7 @@ JSON form of the point object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedInteger",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedInteger",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -266472,7 +266483,7 @@ JSON form of the point object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -271809,7 +271820,7 @@ farther away.`,
       ],
       links: [],
       imgs: [
-        "/en-US/docs/Web/API/CSS_Painting_API/Guide/boxbg.png"
+        "/en-US/docs/Web/API/CSS_Painting_API/guide/boxbg.png"
       ],
       ids: [
         "concepts_and_usage",
@@ -271853,7 +271864,7 @@ farther away.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGUnitTypes",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGUnitTypes",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -273541,7 +273552,7 @@ the user.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -273578,7 +273589,7 @@ the user.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedNumberList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedNumberList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -273616,7 +273627,7 @@ the user.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -278468,7 +278479,7 @@ value of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDescElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGDescElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -289834,7 +289845,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -289873,7 +289884,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -289915,7 +289926,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -289954,7 +289965,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__lengthAdjust",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__lengthAdjust",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -289992,7 +290003,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290035,7 +290046,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextContentElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextContentElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290086,7 +290097,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290126,7 +290137,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290168,7 +290179,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__textLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__textLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290206,7 +290217,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -290249,7 +290260,7 @@ getAll() method instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -298622,7 +298633,7 @@ XRSession to which the input source list change event applies.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTSpanElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTSpanElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -302955,7 +302966,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -302992,7 +303003,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303030,7 +303041,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__checkIntersection",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__checkIntersection",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303072,7 +303083,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303109,7 +303120,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__checkEnclosure",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__checkEnclosure",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303151,7 +303162,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303189,7 +303200,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__deselectAll",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__deselectAll",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303226,7 +303237,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303303,7 +303314,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303380,7 +303391,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303418,7 +303429,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303455,7 +303466,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGSVGElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303548,7 +303559,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303588,7 +303599,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303626,7 +303637,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303664,7 +303675,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentTranslate",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__currentTranslate",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303700,7 +303711,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303741,7 +303752,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303778,7 +303789,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentScale",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__currentScale",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303814,7 +303825,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -303891,7 +303902,7 @@ specified context (or the default context if no context is specified).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306408,7 +306419,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306449,7 +306460,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__getItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306489,7 +306500,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__initialize",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306529,7 +306540,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306570,7 +306581,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306612,7 +306623,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGNumberList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGNumberList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306657,7 +306668,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306692,7 +306703,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306732,7 +306743,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__length",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -306767,7 +306778,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__clear",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -312339,7 +312350,7 @@ of the title bar area in desktop Progressive Web Apps, and an event to know when
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGViewElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#InterfaceSVGViewElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -312378,7 +312389,7 @@ of the title bar area in desktop Progressive Web Apps, and an event to know when
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -312415,7 +312426,7 @@ of the title bar area in desktop Progressive Web Apps, and an event to know when
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -318636,7 +318647,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSymbolElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGSymbolElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -318674,7 +318685,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -318712,7 +318723,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -319527,7 +319538,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -319565,7 +319576,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedEnumeration",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedEnumeration",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -319604,7 +319615,7 @@ original matrix with a scale transform applied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -321926,7 +321937,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__newValueSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__newValueSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -321973,7 +321984,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__unitType",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__unitType",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322010,7 +322021,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__valueInSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__valueInSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322047,7 +322058,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAngle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAngle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322095,7 +322106,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__valueAsString",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__valueAsString",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322133,7 +322144,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__convertToSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__convertToSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322174,7 +322185,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__value",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAngle__value",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -322211,7 +322222,7 @@ USB.requestDevice().`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326311,7 +326322,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326347,7 +326358,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGUseElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326384,7 +326395,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGUseElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326421,7 +326432,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGUseElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326458,7 +326469,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGUseElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -326495,7 +326506,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGUseElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -343019,7 +343030,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -343056,7 +343067,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__spreadMethod",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGGradientElement__spreadMethod",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -343093,7 +343104,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientTransform",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientTransform",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -343130,7 +343141,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGGradientElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#InterfaceSVGGradientElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -343175,7 +343186,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -354168,7 +354179,7 @@ CSSMathInvert interface returns a CSSNumericValue object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGNumber",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGNumber",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -354205,7 +354216,7 @@ CSSMathInvert interface returns a CSSNumericValue object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNumber__value",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNumber__value",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -367985,7 +367996,7 @@ operation's data (as a DataTransfer object).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__y2",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGLineElement__y2",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -368022,7 +368033,7 @@ operation's data (as a DataTransfer object).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__x2",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGLineElement__x2",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -368059,7 +368070,7 @@ operation's data (as a DataTransfer object).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGLineElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGLineElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -368100,7 +368111,7 @@ operation's data (as a DataTransfer object).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__x1",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGLineElement__x1",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -368137,7 +368148,7 @@ operation's data (as a DataTransfer object).`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__y1",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGLineElement__y1",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377169,7 +377180,7 @@ GPUError interface provides a human-readable message that explains why the error
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377213,7 +377224,7 @@ pathLength attribute and returns the total length of the path, in user units.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__pathLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__pathLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377248,7 +377259,7 @@ pathLength attribute and returns the total length of the path, in user units.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInFill",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInFill",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377293,7 +377304,7 @@ point at a given distance along the path.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377331,7 +377342,7 @@ point at a given distance along the path.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGGeometryElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -377373,7 +377384,7 @@ the user agent's computed value for the total length of the path in user units.`
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -379615,7 +379626,7 @@ containing the password of the credential.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/paths.html#InterfaceSVGPathElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/paths.html#InterfaceSVGPathElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -390770,7 +390781,7 @@ invoked that matches the specified group of selectors.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①",
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselector①",
           title: "DOM"
         }
       ],
@@ -397709,7 +397720,7 @@ SyncEvent() constructor.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -397746,7 +397757,7 @@ SyncEvent() constructor.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGAnimatedTransformList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#InterfaceSVGAnimatedTransformList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -397784,7 +397795,7 @@ SyncEvent() constructor.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399651,7 +399662,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399693,7 +399704,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__getItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399734,7 +399745,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__initialize",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399775,7 +399786,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399817,7 +399828,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399860,7 +399871,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPointList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGPointList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399906,7 +399917,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399942,7 +399953,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -399983,7 +399994,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__length",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -400019,7 +400030,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__clear",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401773,7 +401784,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401817,7 +401828,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__getItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401860,7 +401871,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__initialize",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401903,7 +401914,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401947,7 +401958,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -401992,7 +402003,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGTransformList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#InterfaceSVGTransformList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402042,7 +402053,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402080,7 +402091,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402123,7 +402134,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__consolidate",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransformList__consolidate",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402165,7 +402176,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402206,7 +402217,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__length",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -402244,7 +402255,7 @@ of the individual transform property in CSS.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__clear",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -416843,7 +416854,7 @@ NotRestoredReasonDetails interface returns a string describing a reason that the
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDefsElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGDefsElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -420186,7 +420197,7 @@ The requested Lock is passed to a callback, while the function itself returns a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedString__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -420221,7 +420232,7 @@ The requested Lock is passed to a callback, while the function itself returns a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedString",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedString",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -420260,7 +420271,7 @@ The requested Lock is passed to a callback, while the function itself returns a 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -421680,7 +421691,7 @@ method should be used instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y2",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y2",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -421717,7 +421728,7 @@ method should be used instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x2",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x2",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -421754,7 +421765,7 @@ method should be used instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGLinearGradientElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#InterfaceSVGLinearGradientElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -421794,7 +421805,7 @@ method should be used instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x1",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x1",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -421831,7 +421842,7 @@ method should be used instead.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y1",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y1",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -430309,7 +430320,7 @@ current service worker is controlling.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__disabled",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#__svg__SVGStyleElement__disabled",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -430356,7 +430367,7 @@ current service worker is controlling.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#InterfaceSVGStyleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#InterfaceSVGStyleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -430409,7 +430420,7 @@ The value reflects the associated SVG <style> element's type attribute.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__type",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#__svg__SVGStyleElement__type",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -430447,7 +430458,7 @@ It may be used to select between alternate style sheets.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__title",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#__svg__SVGStyleElement__title",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -430487,7 +430498,7 @@ It may be used to select between alternate style sheets.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__media",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/styling.html#__svg__SVGStyleElement__media",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -442102,7 +442113,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443528,7 +443539,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setMatrix",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setMatrix",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443571,7 +443582,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__angle",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__angle",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443608,7 +443619,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setRotate",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setRotate",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443653,7 +443664,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGTransform",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#InterfaceSVGTransform",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443706,7 +443717,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewX",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setSkewX",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443749,7 +443760,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__type",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__type",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443786,7 +443797,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setTranslate",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setTranslate",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443829,7 +443840,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setScale",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setScale",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -443911,7 +443922,7 @@ It implements the same shape as a TransformStream, allowing it to be used in Rea
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewY",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__setSkewY",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -444349,7 +444360,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -444386,7 +444397,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedRect",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedRect",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -444424,7 +444435,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -444981,7 +444992,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cy",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cy",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445018,7 +445029,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fr",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fr",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445055,7 +445066,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445092,7 +445103,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__r",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__r",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445129,7 +445140,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445166,7 +445177,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGRadialGradientElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#InterfaceSVGRadialGradientElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -445208,7 +445219,7 @@ Element or SVGElement.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fy",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fy",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -454047,7 +454058,7 @@ returns the last child of the node, or null if there are no child nodes.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#EndEvent",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#EndEvent",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -454165,7 +454176,7 @@ returns the last child of the node, or null if there are no child nodes.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -454201,7 +454212,7 @@ returns the last child of the node, or null if there are no child nodes.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#BeginEvent",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#BeginEvent",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -454283,7 +454294,7 @@ returns the last child of the node, or null if there are no child nodes.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#RepeatEvent",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#RepeatEvent",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -454456,7 +454467,7 @@ returns the last child of the node, or null if there are no child nodes.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -456964,7 +456975,7 @@ GPURenderBundleEncoder interface sets the GPUBindGroup to use for subsequent ren
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__align",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__align",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -457001,7 +457012,7 @@ GPURenderBundleEncoder interface sets the GPUBindGroup to use for subsequent ren
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGPreserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#InterfaceSVGPreserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -457054,7 +457065,7 @@ GPURenderBundleEncoder interface sets the GPUBindGroup to use for subsequent ren
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__meetOrSlice",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__meetOrSlice",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463316,7 +463327,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__removeItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463357,7 +463368,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__getItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463397,7 +463408,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__initialize",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463437,7 +463448,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463478,7 +463489,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__replaceItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463520,7 +463531,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGStringList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGStringList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463565,7 +463576,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__numberOfItems",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463600,7 +463611,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__appendItem",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463640,7 +463651,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__length",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463675,7 +463686,7 @@ any standard media control user interface the device might offer.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGNameList__clear",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463716,7 +463727,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463756,7 +463767,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463794,7 +463805,7 @@ corresponding to the height attribute of the given
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463873,7 +463884,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463956,7 +463967,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -463991,7 +464002,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#InterfaceSVGImageElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#InterfaceSVGImageElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -464040,7 +464051,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#PreserveAspectRatioAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -464075,7 +464086,7 @@ element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -466188,7 +466199,7 @@ descriptor value. This value gets updated when the value of the descriptor is re
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGMetadataElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGMetadataElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -467098,7 +467109,7 @@ AudioWorkletNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__cy",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGCircleElement__cy",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -467138,7 +467149,7 @@ AudioWorkletNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__cx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGCircleElement__cx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -467178,7 +467189,7 @@ AudioWorkletNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__r",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGCircleElement__r",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -467218,7 +467229,7 @@ AudioWorkletNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGCircleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGCircleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -468230,7 +468241,7 @@ GPUValidationError object instance.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGStopElement__offset",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGStopElement__offset",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -468267,7 +468278,7 @@ GPUValidationError object instance.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGStopElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#InterfaceSVGStopElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -469684,7 +469695,7 @@ service worker context.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -469721,7 +469732,7 @@ service worker context.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedNumber",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedNumber",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -469759,7 +469770,7 @@ service worker context.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474277,7 +474288,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474314,7 +474325,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__dx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__dx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474351,7 +474362,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__dy",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__dy",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474388,7 +474399,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474425,7 +474436,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextPositioningElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextPositioningElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474466,7 +474477,7 @@ remote resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__rotate",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__rotate",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -474989,7 +475000,7 @@ language used in the video track.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGTitleElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGTitleElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -484487,7 +484498,7 @@ resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -484523,7 +484534,7 @@ resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedLengthList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedLengthList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -484561,7 +484572,7 @@ resource.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -496142,11 +496153,11 @@ by the user agent.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
@@ -496154,7 +496165,7 @@ by the user agent.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -499583,7 +499594,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -504564,7 +504575,7 @@ documents.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#__svg__SVGDocument__rootElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGDocument__rootElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -512580,7 +512591,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -512938,7 +512949,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGGElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGGElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517729,7 +517740,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517768,7 +517779,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__text",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__text",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517834,7 +517845,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__rel",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__rel",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517872,7 +517883,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__download",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__download",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517939,7 +517950,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__ping",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__ping",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -517975,7 +517986,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__relList",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__relList",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -518075,7 +518086,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__hreflang",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__hreflang",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -518173,7 +518184,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#InterfaceSVGAElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -518232,7 +518243,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__type",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__type",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -518392,7 +518403,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__target",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/linking.html#__svg__SVGAElement__target",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519087,7 +519098,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519123,7 +519134,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519160,7 +519171,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternContentUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__patternContentUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519197,7 +519208,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__height",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__height",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519234,7 +519245,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__width",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__width",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519271,7 +519282,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__x",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__x",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519308,7 +519319,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGPatternElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#InterfaceSVGPatternElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519354,7 +519365,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519391,7 +519402,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519428,7 +519439,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__patternUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -519465,7 +519476,7 @@ Deprecated
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternTransform",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#__svg__SVGPatternElement__patternTransform",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -522149,7 +522160,7 @@ indicating whether the sensor has a reading.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__cy",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGEllipseElement__cy",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -522186,7 +522197,7 @@ indicating whether the sensor has a reading.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__cx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGEllipseElement__cx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -522223,7 +522234,7 @@ indicating whether the sensor has a reading.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__rx",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGEllipseElement__rx",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -522260,7 +522271,7 @@ indicating whether the sensor has a reading.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__ry",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGEllipseElement__ry",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -522297,7 +522308,7 @@ indicating whether the sensor has a reading.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGEllipseElement",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#InterfaceSVGEllipseElement",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -528647,7 +528658,7 @@ barcodes in images.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -528683,7 +528694,7 @@ barcodes in images.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedBoolean",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGAnimatedBoolean",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -528721,7 +528732,7 @@ barcodes in images.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533172,7 +533183,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__newValueSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__newValueSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533217,7 +533228,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__unitType",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__unitType",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533254,7 +533265,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__valueInSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__valueInSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533291,7 +533302,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#InterfaceSVGLength",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGLength",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533346,7 +533357,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__valueAsString",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__valueAsString",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533384,7 +533395,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__convertToSpecifiedUnits",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__convertToSpecifiedUnits",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -533425,7 +533436,7 @@ string containing the name of the encoding algorithm used by the current TextEnc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__value",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGLength__value",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -548402,23 +548413,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
@@ -548430,28 +548425,48 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
           title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -548462,23 +548477,11 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -548486,11 +548489,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -548498,15 +548497,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
@@ -548518,15 +548509,35 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         }
       ],
@@ -557463,7 +557474,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
           title: "CSS Overflow Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#OverflowAndClipProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -557685,7 +557696,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#Y",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#Y",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -558163,7 +558174,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#CY",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#CY",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -558750,7 +558761,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
           title: "CSS Text Decoration Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextDecorationProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -560290,7 +560301,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#ObjectAndGroupOpacityProperties",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -562610,7 +562621,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Text Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#WordSpacingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#WordSpacingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -563066,7 +563077,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Text Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextWhiteSpace",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextWhiteSpace",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -564363,7 +564374,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerEndProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerEndProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -564410,7 +564421,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#VectorEffectProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -564802,7 +564813,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#FillProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#FillProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -566939,6 +566950,9 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "values",
         "none",
         "filter-value-list",
+        "description",
+        "backdrop_root",
+        "frame_backdrop_root",
         "formal_definition",
         "formal_syntax",
         "backdrop-filter",
@@ -567112,7 +567126,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextAnchorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextAnchorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -567486,7 +567500,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#CX",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#CX",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -567692,7 +567706,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#StopColorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -567743,7 +567757,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#AlignmentBaselineProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#AlignmentBaselineProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -567975,7 +567989,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -568027,7 +568041,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Overflow Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#TextOverflowProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#TextOverflowProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -570039,7 +570053,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#R",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#R",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -571638,7 +571652,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Text Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#LetterSpacingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#LetterSpacingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -571755,7 +571769,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Writing Modes Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#WritingModeProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#WritingModeProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -573673,7 +573687,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#RX",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#RX",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -574247,7 +574261,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#RY",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#RY",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -574576,7 +574590,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Writing Modes Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#DirectionProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#DirectionProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -574957,7 +574971,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/geometry.html#X",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#X",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -575009,7 +575023,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/paths.html#TheDProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/paths.html#TheDProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -575127,31 +575141,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -575163,8 +575157,28 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -577358,7 +577372,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ShapeRendering",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ShapeRendering",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -577814,7 +577828,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
           title: "CSS Display Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#VisibilityControl",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#VisibilityControl",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -577998,7 +578012,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#PaintOrderProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -579622,7 +579636,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerMidProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerMidProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -579843,7 +579857,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerStartProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerStartProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -579953,7 +579967,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
           title: "CSS Images Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ImageRendering",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ImageRendering",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -583044,7 +583058,7 @@ transform: scale() can be used as an alternative to this property.`,
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#ColorProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -583666,7 +583680,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
           title: "CSS Transforms Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/coords.html#TransformProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/coords.html#TransformProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -583851,7 +583865,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#DominantBaselineProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#DominantBaselineProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -584681,7 +584695,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/pservers.html#StopOpacityProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopOpacityProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -584830,7 +584844,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#TextRenderingProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#TextRenderingProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -585556,7 +585570,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/interact.html#PointerEventsProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -586309,7 +586323,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#StrokeProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#StrokeProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -586550,7 +586564,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
           title: "CSS Inline Layout Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#BaselineShiftProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#BaselineShiftProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -586707,7 +586721,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/painting.html#MarkerShorthand",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerShorthand",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -587491,7 +587505,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
           title: "CSS Display Module Level 3"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/render.html#VisibilityControl",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/render.html#VisibilityControl",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -587610,7 +587624,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
           title: "CSS Fonts Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://svgwg.org/svg2-draft/text.html#FontVariantProperty",
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/text.html#FontVariantProperty",
           title: "Scalable Vector Graphics (SVG) 2"
         }
       ],
@@ -603770,7 +603784,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":modal",
+        title: ":modal CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.modal"
@@ -603817,7 +603831,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::scroll-button()",
+        title: "::scroll-button() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.scroll-button"
@@ -603881,7 +603895,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":popover-open",
+        title: ":popover-open CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.popover-open"
@@ -603922,7 +603936,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":required",
+        title: ":required CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.required"
@@ -603972,7 +603986,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":right",
+        title: ":right CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.right"
@@ -604052,7 +604066,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-meter-inner-element",
+        title: "::-webkit-meter-inner-element CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-meter-inner-element"
@@ -604133,7 +604147,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":-moz-broken",
+        title: ":-moz-broken CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-broken"
@@ -604173,7 +604187,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":-moz-handler-blocked",
+        title: ":-moz-handler-blocked CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-handler-blocked CSS pseudo-class is a Mozilla extension that matches elements that can't be displayed because their handlers have been blocked.",
         popularity: 0.001258250245752001,
@@ -604201,7 +604215,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-meter-optimum-value",
+        title: "::-webkit-meter-optimum-value CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-meter-optimum-value"
@@ -604239,7 +604253,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":dir()",
+        title: ":dir() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.dir"
@@ -604291,7 +604305,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":picture-in-picture",
+        title: ":picture-in-picture CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.picture-in-picture"
@@ -604331,7 +604345,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":nth-last-child()",
+        title: ":nth-last-child() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.nth-last-child"
@@ -604402,7 +604416,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":hover",
+        title: ":hover CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.hover"
@@ -604452,7 +604466,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":-moz-window-inactive",
+        title: ":-moz-window-inactive CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-window-inactive"
@@ -604531,7 +604545,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":-moz-locale-dir(ltr)",
+        title: ":-moz-locale-dir(ltr) CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: 'The :-moz-locale-dir(ltr) CSS pseudo-class is a Mozilla extension that matches an element if the user interface is being displayed left-to-right. This is determined by the preference intl.uidirection.locale (where locale is the current locale) being set to "ltr".',
         popularity: 0.0012076955483780367,
@@ -604633,7 +604647,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":buffering",
+        title: ":buffering CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.buffering"
@@ -604675,7 +604689,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":has-slotted",
+        title: ":has-slotted CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.has-slotted"
@@ -604715,7 +604729,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":-moz-user-disabled",
+        title: ":-moz-user-disabled CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-user-disabled CSS pseudo-class is a Mozilla extension that matches elements representing images that were not loaded because images have been entirely disabled by the user's preferences.",
         popularity: 0.005156579132144362,
@@ -604745,7 +604759,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::-moz-range-track",
+        title: "::-moz-range-track CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-range-track"
@@ -604854,7 +604868,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::view-transition-new()",
+        title: "::view-transition-new() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.view-transition-new"
@@ -604900,7 +604914,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-progress-value",
+        title: "::-webkit-progress-value CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-progress-value"
@@ -604940,7 +604954,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":first-of-type",
+        title: ":first-of-type CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.first-of-type"
@@ -604988,7 +605002,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::selection",
+        title: "::selection CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.selection"
@@ -605036,7 +605050,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::placeholder",
+        title: "::placeholder CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.placeholder"
@@ -605097,7 +605111,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::view-transition",
+        title: "::view-transition CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.view-transition"
@@ -605136,7 +605150,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":placeholder-shown",
+        title: ":placeholder-shown CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.placeholder-shown"
@@ -605193,7 +605207,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: "::file-selector-button",
+        title: "::file-selector-button CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.file-selector-button"
@@ -605241,7 +605255,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":is()",
+        title: ":is() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.is"
@@ -605331,7 +605345,7 @@ User agents based on WebKit or Blink (such as Safari and Chrome) support several
     links: {},
     data: {
       metadata: {
-        title: ":playing",
+        title: ":playing CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.playing"
@@ -605374,7 +605388,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":interest-source",
+        title: ":interest-source CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.interest-source"
@@ -605418,7 +605432,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::part()",
+        title: "::part() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.part"
@@ -605461,7 +605475,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":focus-within",
+        title: ":focus-within CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.focus-within"
@@ -605505,7 +605519,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-handler-crashed",
+        title: ":-moz-handler-crashed CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-handler-crashed CSS pseudo-class is a Mozilla extension that matches elements that can't be displayed because the plugin responsible for drawing them has crashed.",
         popularity: 0.0012301643027664653,
@@ -605533,7 +605547,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":active-view-transition-type()",
+        title: ":active-view-transition-type() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.active-view-transition-type"
@@ -605580,7 +605594,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":heading()",
+        title: ":heading() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.headingfunction"
@@ -605623,7 +605637,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-progress-inner-element",
+        title: "::-webkit-progress-inner-element CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-progress-inner-element"
@@ -605664,7 +605678,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":current",
+        title: ":current CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.current"
@@ -605708,7 +605722,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::after",
+        title: "::after CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.after"
@@ -605770,7 +605784,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::grammar-error",
+        title: "::grammar-error CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.grammar-error"
@@ -605813,7 +605827,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::details-content",
+        title: "::details-content CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.details-content"
@@ -605861,7 +605875,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":lang()",
+        title: ":lang() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.lang"
@@ -605912,7 +605926,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":has()",
+        title: ":has() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.has"
@@ -605969,7 +605983,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":visited",
+        title: ":visited CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.visited"
@@ -606016,7 +606030,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":fullscreen",
+        title: ":fullscreen CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.fullscreen"
@@ -606060,7 +606074,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":first",
+        title: ":first CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.first"
@@ -606099,7 +606113,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":blank",
+        title: ":blank CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :blank CSS pseudo-class selects empty user input elements (e.g., <input> or <textarea>).",
         popularity: 0.005768852689229041,
@@ -606142,7 +606156,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":defined",
+        title: ":defined CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.defined"
@@ -606188,7 +606202,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":autofill",
+        title: ":autofill CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.autofill"
@@ -606235,7 +606249,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":left",
+        title: ":left CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.left"
@@ -606273,7 +606287,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::first-letter",
+        title: "::first-letter CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.first-letter"
@@ -606327,7 +606341,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-moz-list-bullet",
+        title: "::-moz-list-bullet CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-list-bullet"
@@ -606366,7 +606380,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":checked",
+        title: ":checked CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.checked"
@@ -606418,7 +606432,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-loading",
+        title: ":-moz-loading CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-loading CSS pseudo-class is a Mozilla extension that matches elements that can't be displayed because they have not started loading, such as images that haven't started to arrive yet. Note that images that are in the process of loading are not matched by this pseudo-class.",
         popularity: 0.0012694846229462154,
@@ -606448,7 +606462,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-moz-meter-bar",
+        title: "::-moz-meter-bar CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-meter-bar"
@@ -606485,7 +606499,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-only-whitespace",
+        title: ":-moz-only-whitespace CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-only-whitespace"
@@ -606574,7 +606588,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-moz-list-number",
+        title: "::-moz-list-number CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-list-number"
@@ -606612,7 +606626,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":active",
+        title: ":active CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.active"
@@ -606664,7 +606678,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":read-only",
+        title: ":read-only CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.read-only"
@@ -606710,7 +606724,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":user-invalid",
+        title: ":user-invalid CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.user-invalid"
@@ -606753,7 +606767,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::search-text",
+        title: "::search-text CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.search-text"
@@ -606802,7 +606816,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::view-transition-group()",
+        title: "::view-transition-group() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.view-transition-group"
@@ -606848,7 +606862,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-search-results-button",
+        title: "::-webkit-search-results-button CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-search-results-button"
@@ -606880,7 +606894,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-drag-over",
+        title: ":-moz-drag-over CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-drag-over CSS pseudo-class is a Mozilla extension that matches an element when a dragover event is called on it.",
         popularity: 0.0016851565791321443,
@@ -606914,7 +606928,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":root",
+        title: ":root CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.root"
@@ -606952,7 +606966,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":host-context()",
+        title: ":host-context() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.host-context"
@@ -606996,7 +607010,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-progress-bar",
+        title: "::-webkit-progress-bar CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-progress-bar"
@@ -607175,7 +607189,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":xr-overlay",
+        title: ":xr-overlay CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.xr-overlay"
@@ -607216,7 +607230,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":open",
+        title: ":open CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.open"
@@ -607268,7 +607282,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":where()",
+        title: ":where() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.where"
@@ -607313,7 +607327,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":default",
+        title: ":default CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.default"
@@ -607420,7 +607434,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-submit-invalid",
+        title: ":-moz-submit-invalid CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-submit-invalid"
@@ -607452,7 +607466,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::view-transition-image-pair()",
+        title: "::view-transition-image-pair() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.view-transition-image-pair"
@@ -607496,7 +607510,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-moz-progress-bar",
+        title: "::-moz-progress-bar CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-progress-bar"
@@ -607534,7 +607548,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":-moz-handler-disabled",
+        title: ":-moz-handler-disabled CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-handler-disabled CSS pseudo-class is a Mozilla extension that matches elements that can't be displayed because their handlers have been disabled by the user.",
         popularity: 0.001213312736975144,
@@ -607562,7 +607576,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":enabled",
+        title: ":enabled CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.enabled"
@@ -607608,7 +607622,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":active-view-transition",
+        title: ":active-view-transition CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.active-view-transition"
@@ -607647,7 +607661,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":focus",
+        title: ":focus CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.focus"
@@ -607700,7 +607714,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::highlight()",
+        title: "::highlight() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.highlight"
@@ -607748,7 +607762,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":empty",
+        title: ":empty CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.empty"
@@ -607798,7 +607812,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":first-child",
+        title: ":first-child CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.first-child"
@@ -607846,7 +607860,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::picker()",
+        title: "::picker() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.picker"
@@ -607890,7 +607904,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::spelling-error",
+        title: "::spelling-error CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.spelling-error"
@@ -607933,7 +607947,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":future",
+        title: ":future CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.future"
@@ -607973,7 +607987,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-slider-thumb",
+        title: "::-webkit-slider-thumb CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-slider-thumb"
@@ -608009,7 +608023,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::slotted()",
+        title: "::slotted() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.slotted"
@@ -608050,7 +608064,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":target-before",
+        title: ":target-before CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.target-before"
@@ -608096,7 +608110,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: "::-moz-range-progress",
+        title: "::-moz-range-progress CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-range-progress"
@@ -608138,7 +608152,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":interest-target",
+        title: ":interest-target CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.interest-target"
@@ -608182,7 +608196,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":any-link",
+        title: ":any-link CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.any-link"
@@ -608224,7 +608238,7 @@ An element is considered to be playing if it is currently playing the media reso
     links: {},
     data: {
       metadata: {
-        title: ":stalled",
+        title: ":stalled CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.stalled"
@@ -608270,7 +608284,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: ":-moz-first-node",
+        title: ":-moz-first-node CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-first-node"
@@ -608308,7 +608322,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-meter-even-less-good-value",
+        title: "::-webkit-meter-even-less-good-value CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-meter-even-less-good-value"
@@ -608346,7 +608360,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: "::view-transition-old()",
+        title: "::view-transition-old() CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.view-transition-old"
@@ -608475,7 +608489,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: ":invalid",
+        title: ":invalid CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.invalid"
@@ -608533,7 +608547,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: ":user-valid",
+        title: ":user-valid CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.user-valid"
@@ -608576,7 +608590,7 @@ This is different from :buffering in that the media element is unexpectedly not 
     links: {},
     data: {
       metadata: {
-        title: ":seeking",
+        title: ":seeking CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.seeking"
@@ -608672,7 +608686,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::checkmark",
+        title: "::checkmark CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.checkmark"
@@ -608714,7 +608728,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::marker",
+        title: "::marker CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.marker"
@@ -608757,7 +608771,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::picker-icon",
+        title: "::picker-icon CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.picker-icon"
@@ -608796,7 +608810,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":nth-last-of-type()",
+        title: ":nth-last-of-type() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.nth-last-of-type"
@@ -608839,7 +608853,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":nth-child()",
+        title: ":nth-child() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.nth-child"
@@ -608953,7 +608967,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":target-current",
+        title: ":target-current CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.target-current"
@@ -608995,7 +609009,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":state()",
+        title: ":state() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.state"
@@ -609037,7 +609051,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-meter-bar",
+        title: "::-webkit-meter-bar CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-meter-bar"
@@ -609076,7 +609090,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::column",
+        title: "::column CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.column"
@@ -609127,7 +609141,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":disabled",
+        title: ":disabled CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.disabled"
@@ -609174,7 +609188,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":link",
+        title: ":link CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.link"
@@ -609261,7 +609275,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":target-after",
+        title: ":target-after CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.target-after"
@@ -609307,7 +609321,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":last-child",
+        title: ":last-child CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.last-child"
@@ -609395,7 +609409,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::first-line",
+        title: "::first-line CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.first-line"
@@ -609446,7 +609460,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::scroll-marker",
+        title: "::scroll-marker CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.scroll-marker"
@@ -609497,7 +609511,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":focus-visible",
+        title: ":focus-visible CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.focus-visible"
@@ -609546,7 +609560,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":host",
+        title: ":host CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.host"
@@ -609588,7 +609602,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":last-of-type",
+        title: ":last-of-type CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.last-of-type"
@@ -609641,7 +609655,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::before",
+        title: "::before CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.before"
@@ -609797,7 +609811,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":only-of-type",
+        title: ":only-of-type CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.only-of-type"
@@ -609840,7 +609854,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":only-child",
+        title: ":only-child CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.only-child"
@@ -609888,7 +609902,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":read-write",
+        title: ":read-write CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.read-write"
@@ -609934,7 +609948,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":not()",
+        title: ":not() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.not"
@@ -609984,7 +609998,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-slider-runnable-track",
+        title: "::-webkit-slider-runnable-track CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-slider-runnable-track"
@@ -610019,7 +610033,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::scroll-marker-group",
+        title: "::scroll-marker-group CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.scroll-marker-group"
@@ -610070,7 +610084,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::backdrop",
+        title: "::backdrop CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.backdrop"
@@ -610115,7 +610129,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":muted",
+        title: ":muted CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.muted"
@@ -610157,7 +610171,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":volume-locked",
+        title: ":volume-locked CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.volume-locked"
@@ -610199,7 +610213,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":-moz-locale-dir(rtl)",
+        title: ":-moz-locale-dir(rtl) CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: 'The :-moz-locale-dir(rtl) CSS pseudo-class is a Mozilla extension that matches an element if the user interface is being displayed right-to-left. This is determined by the preference intl.uidirection.locale (where locale is the current locale) being set to "rtl".',
         popularity: 0.0013088049431259651,
@@ -610232,7 +610246,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":indeterminate",
+        title: ":indeterminate CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.indeterminate"
@@ -610284,7 +610298,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-inner-spin-button",
+        title: "::-webkit-inner-spin-button CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-inner-spin-button"
@@ -610322,7 +610336,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":nth-of-type()",
+        title: ":nth-of-type() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.nth-of-type"
@@ -610366,7 +610380,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-search-cancel-button",
+        title: "::-webkit-search-cancel-button CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-search-cancel-button"
@@ -610398,7 +610412,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":past",
+        title: ":past CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.past"
@@ -610438,7 +610452,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":local-link",
+        title: ":local-link CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :local-link CSS pseudo-class represents a link to the same document. Therefore an element that is the source anchor of a hyperlink whose target's absolute URL matches the element's own document URL.",
         popularity: 0.002544586434489538,
@@ -610478,7 +610492,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-moz-focus-inner",
+        title: "::-moz-focus-inner CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-focus-inner"
@@ -610516,7 +610530,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":valid",
+        title: ":valid CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.valid"
@@ -610563,7 +610577,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::-moz-color-swatch",
+        title: "::-moz-color-swatch CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-color-swatch"
@@ -610600,7 +610614,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: ":host()",
+        title: ":host() CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.hostfunction"
@@ -610685,7 +610699,7 @@ A resource is considered to be seeking if the user has requested playback of a s
     links: {},
     data: {
       metadata: {
-        title: "::cue",
+        title: "::cue CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.cue"
@@ -610729,7 +610743,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":scope",
+        title: ":scope CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.scope"
@@ -610778,7 +610792,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":-moz-last-node",
+        title: ":-moz-last-node CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.-moz-last-node"
@@ -610816,7 +610830,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":out-of-range",
+        title: ":out-of-range CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.out-of-range"
@@ -610862,7 +610876,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":target",
+        title: ":target CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.target"
@@ -610911,7 +610925,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":-moz-suppressed",
+        title: ":-moz-suppressed CSS pseudo-class",
         pageType: "css-pseudo-class",
         summary: "The :-moz-suppressed CSS pseudo-class is a Mozilla extension that matches elements representing images that were suppressed because loading images from the specified site has been blocked.",
         popularity: 0.0012413986799606797,
@@ -610941,7 +610955,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":paused",
+        title: ":paused CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.paused"
@@ -610983,7 +610997,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":heading",
+        title: ":heading CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.heading"
@@ -611028,7 +611042,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-meter-suboptimum-value",
+        title: "::-webkit-meter-suboptimum-value CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-meter-suboptimum-value"
@@ -611066,7 +611080,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":optional",
+        title: ":optional CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.optional"
@@ -611116,7 +611130,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: "::target-text",
+        title: "::target-text CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.target-text"
@@ -611156,7 +611170,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: ":in-range",
+        title: ":in-range CSS pseudo-class",
         pageType: "css-pseudo-class",
         browserCompat: [
           "css.selectors.in-range"
@@ -611202,7 +611216,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: "::-moz-range-thumb",
+        title: "::-moz-range-thumb CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-moz-range-thumb"
@@ -611244,7 +611258,7 @@ This can be used to style captions and other cues in media with VTT tracks.`,
     links: {},
     data: {
       metadata: {
-        title: "::-webkit-scrollbar",
+        title: "::-webkit-scrollbar CSS pseudo-element",
         pageType: "css-pseudo-element",
         browserCompat: [
           "css.selectors.-webkit-scrollbar",
