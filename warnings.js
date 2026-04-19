@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-qwxcqmzr.js";
+} from "./chunk-39h3nycd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,19 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -356,6 +343,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            color_wheel: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Color_wheel",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
+                    403
+                  ]
+                }
+              ]
+            },
             constant: {
               children: {},
               slug: "/en-US/docs/Glossary/Constant",
@@ -384,6 +384,13 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -507,6 +514,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -956,6 +983,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://people.eecs.berkeley.edu/~messer/netappc/Supplements/10-idl.pdf",
+                    403
+                  ]
                 }
               ]
             },
@@ -976,6 +1010,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1366,19 +1413,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            ssg: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SSG",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://astro.build/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2707,20 +2741,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/accessibility/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/addons-and-dependencies/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2731,6 +2751,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/installation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2752,6 +2779,13 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
                             "The operation timed out."
                           ]
@@ -2759,14 +2793,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "https://guides.emberjs.com/release/routing/controllers/",
                             "The operation timed out."
                           ]
                         }
@@ -2779,13 +2806,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2807,13 +2827,20 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://astro.build/",
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
                             "The operation timed out."
                           ]
                         }
@@ -2829,20 +2856,6 @@ ul li {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v2.vuejs.org/v2/api/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2854,7 +2867,7 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4834,6 +4847,27 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4861,6 +4895,20 @@ body {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/scaling-up/sfc.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4871,6 +4919,27 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4881,6 +4950,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/template-refs.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -4891,6 +4967,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4906,14 +4989,14 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://vuejs.org/guide/extras/composition-api-faq.html",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://vuejs.org/guide/extras/composition-api-faq.html",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4932,6 +5015,19 @@ body {
                 },
                 scripting: {
                   children: {
+                    events: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Events",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/events/preventdefault-validation.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -5465,6 +5561,13 @@ button {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://picryl.com/",
                             403
                           ]
@@ -5706,19 +5809,6 @@ caption {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    splash_page: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Splash_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/shared-assets/images/examples/learn/crawlies/bee.jpg",
-                            503
                           ]
                         }
                       ]
@@ -6357,17 +6447,11 @@ span {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        }
-                      ]
-                    },
-                    pseudo_classes_and_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cssarrowplease.com/",
+                            "https://sass-lang.com/documentation/at-rules/use/",
                             "The operation timed out."
                           ]
                         }
@@ -6475,6 +6559,20 @@ li {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -6565,6 +6663,23 @@ li {
             },
             extensions: {
               children: {
+                async_js: {
+                  children: {
+                    sequencing_animations: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Async_JS/Sequencing_animations",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/tree/main/javascript/asynchronous/sequencing-animations/start",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 "client-side_apis": {
                   children: {
                     video_and_audio_apis: {
@@ -6908,7 +7023,7 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -6927,15 +7042,22 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://stylelint.io/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6948,7 +7070,7 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://vite.dev/guide/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12767,6 +12889,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12827,22 +12962,12 @@ textarea:focus {
                                 "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
+                            },
                             {
                               message: "Broken external link",
                               data: [
-                                "https://itemsapi.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -13387,6 +13512,19 @@ body {
                         }
                       ]
                     },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -13406,23 +13544,6 @@ body {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    installing_software: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     workflows_and_processes: {
@@ -13440,35 +13561,35 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://asana.com/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://asana.com/",
-                            "unknown certificate verification error"
+                            "The operation timed out."
                           ]
                         }
                       ]
                     }
                   }
                 },
+                web_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://resilientwebdesign.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 your_first_website: {
                   children: {
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13675,6 +13796,33 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13682,6 +13830,32 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_are_browser_developer_tools: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/sources-tab/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -13829,6 +14003,13 @@ color: rgb(31 41 59 / 26%);
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -13951,19 +14132,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://imageoptim.com/",
-                        502
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -14070,17 +14238,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -14104,17 +14272,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -14123,10 +14291,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -20779,6 +20947,19 @@ env(viewport-segment-width 0 1)
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -38564,13 +38745,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
-                                    502
-                                  ]
                                 }
                               ]
                             },
@@ -68939,6 +69113,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "abs() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "acos() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":active CSS pseudo-class"
                       ]
                     },
@@ -68963,7 +69149,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "anchor() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "anchor-size() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":any-link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "asin() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "atan() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "atan2() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "attr() CSS function"
                       ]
                     },
                     {
@@ -68993,6 +69215,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "blur() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "brightness() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":buffering CSS pseudo-class"
                       ]
                     },
@@ -69011,6 +69245,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "calc() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "calc-size() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":checked CSS pseudo-class"
                       ]
                     },
@@ -69023,7 +69269,79 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "circle() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "clamp() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color-mix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::column CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "conic-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contrast() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contrast-color() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "cos() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "counter() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "counters() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "cross-fade() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "cubic-bezier() CSS function"
                       ]
                     },
                     {
@@ -69065,6 +69383,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "device-cmyk() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":dir() CSS pseudo-class"
                       ]
                     },
@@ -69077,6 +69401,30 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "drop-shadow() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "dynamic-range-limit-mix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "element() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ellipse() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":empty CSS pseudo-class"
                       ]
                     },
@@ -69084,6 +69432,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":enabled CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "env() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "exp() CSS function"
                       ]
                     },
                     {
@@ -69125,6 +69485,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "fit-content() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":focus CSS pseudo-class"
                       ]
                     },
@@ -69156,6 +69522,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "::grammar-error CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grayscale() CSS function"
                       ]
                     },
                     {
@@ -69209,7 +69581,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "hsl() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hue-rotate() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hwb() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hypot() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "ID selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "if() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "image() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "image-set() CSS function"
                       ]
                     },
                     {
@@ -69222,6 +69636,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":indeterminate CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset() CSS function"
                       ]
                     },
                     {
@@ -69245,6 +69665,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "invert() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":is() CSS pseudo-class"
                       ]
                     },
@@ -69252,6 +69678,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "Keyframe selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "lab() CSS function"
                       ]
                     },
                     {
@@ -69275,7 +69707,37 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "layer() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "lch() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":left CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "light-dark() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "linear() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "linear-gradient() CSS function"
                       ]
                     },
                     {
@@ -69293,7 +69755,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "log() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::marker CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "matrix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "matrix3d() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "max() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "min() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "minmax() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mod() CSS function"
                       ]
                     },
                     {
@@ -69353,6 +69857,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "oklab() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "oklch() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":only-child CSS pseudo-class"
                       ]
                     },
@@ -69360,6 +69876,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":only-of-type CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "opacity() CSS function"
                       ]
                     },
                     {
@@ -69383,6 +69905,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "paint() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "palette-mix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::part() CSS pseudo-element"
                       ]
                     },
@@ -69395,7 +69929,19 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "path() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":paused CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "perspective() CSS function"
                       ]
                     },
                     {
@@ -69437,7 +69983,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "polygon() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":popover-open CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "pow() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "progress() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "radial-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "random() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ray() CSS function"
                       ]
                     },
                     {
@@ -69455,7 +70037,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "rect() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rem() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "repeat() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "repeating-conic-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "repeating-linear-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "repeating-radial-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":required CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rgb() CSS function"
                       ]
                     },
                     {
@@ -69473,13 +70097,91 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "rotate() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rotate3d() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rotateX() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rotateY() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rotateZ() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "round() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Selector list"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "saturate() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scale() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scale3d() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scaleX() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scaleY() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scaleZ() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":scope CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll() CSS function"
                       ]
                     },
                     {
@@ -69521,6 +70223,60 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "sepia() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "shape() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "sibling-count() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "sibling-index() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "sign() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "sin() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "skew() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "skewX() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "skewY() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::slotted() CSS pseudo-element"
                       ]
                     },
@@ -69528,6 +70284,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "::spelling-error CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "sqrt() CSS function"
                       ]
                     },
                     {
@@ -69545,7 +70307,31 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "steps() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "superellipse() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "symbols() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Type selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "tan() CSS function"
                       ]
                     },
                     {
@@ -69581,7 +70367,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "translate() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "translate3d() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "translateX() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "translateY() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "translateZ() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "type() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Universal selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "url() CSS function"
                       ]
                     },
                     {
@@ -69600,6 +70428,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":valid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "var() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "view() CSS function"
                       ]
                     },
                     {
@@ -69654,6 +70494,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":xr-overlay CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "xywh() CSS function"
                       ]
                     }
                   ]
@@ -71025,6 +71871,26 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/cookies/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cors: {
                       children: {
                         errors: {
@@ -71088,7 +71954,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     iframe_credentialless: {
                       children: {},
@@ -71141,6 +72017,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
@@ -71263,6 +72152,23 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
+                guide: {
+                  children: {
+                    regular_expressions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://regex101.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     classes: {
@@ -71640,20 +72546,6 @@ doIt(); // returns "finally"
                                 "https://via-la.com/licensing-programs/aac/",
                                 "The operation timed out."
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://voiceage.com/AMR-NB.AMR.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://voiceage.com/Overview-lic.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -71670,13 +72562,6 @@ doIt(); // returns "finally"
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "Unable to connect. Is the computer able to access the url?"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.apple.com/documentation/quicktime-file-format",
-                                502
                               ]
                             }
                           ]
@@ -71786,6 +72671,19 @@ doIt(); // returns "finally"
                         }
                       ]
                     },
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -71859,6 +72757,19 @@ doIt(); // returns "finally"
                           ]
                         }
                       ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -71876,6 +72787,20 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
                   ]
                 }
               ]

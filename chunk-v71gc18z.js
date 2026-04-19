@@ -93367,19 +93367,11 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -93387,7 +93379,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
@@ -160936,171 +160936,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161108,11 +160944,55 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161120,11 +161000,47 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161136,7 +161052,91 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -163266,23 +163266,11 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163290,7 +163278,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163298,15 +163290,23 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -181754,6 +181754,10 @@ and Legendre symbols.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
@@ -181762,7 +181766,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -181774,11 +181778,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         }
       ],
@@ -496157,15 +496157,15 @@ by the user agent.`,
           title: "Web Audio API"
         },
         {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          title: "Web Audio API"
+        },
+        {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         },
         {
           bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -548413,11 +548413,27 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
@@ -548425,23 +548441,11 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
@@ -548449,55 +548453,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -548509,15 +548465,39 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
@@ -548525,19 +548505,39 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         }
       ],
@@ -556377,7 +556377,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "palette-mix()",
+        title: "palette-mix() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.font-palette.palette-mix_function"
@@ -557837,7 +557837,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll()",
+        title: "scroll() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.animation-timeline.scroll"
@@ -557977,7 +557977,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "view()",
+        title: "view() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.animation-timeline.view"
@@ -575137,15 +575137,19 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -575153,19 +575157,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -575173,7 +575169,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -588529,7 +588529,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "layer()",
+        title: "layer() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.at-rules.import.layer"
@@ -593074,7 +593074,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "sibling-index()",
+        title: "sibling-index() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.sibling-index"
@@ -593124,7 +593124,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "counter()",
+        title: "counter() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.counter"
@@ -593291,7 +593291,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "superellipse()",
+        title: "superellipse() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.superellipse"
@@ -593397,7 +593397,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "exp()",
+        title: "exp() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.exp"
@@ -593516,7 +593516,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "path()",
+        title: "path() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.path"
@@ -593572,7 +593572,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "polygon()",
+        title: "polygon() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.polygon"
@@ -593631,7 +593631,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "rect()",
+        title: "rect() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.rect"
@@ -593683,7 +593683,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "inset()",
+        title: "inset() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.inset"
@@ -593798,7 +593798,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "ellipse()",
+        title: "ellipse() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.ellipse"
@@ -593859,7 +593859,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "circle()",
+        title: "circle() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.circle"
@@ -593918,7 +593918,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "shape()",
+        title: "shape() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.shape"
@@ -594012,7 +594012,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "xywh()",
+        title: "xywh() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.basic-shape.xywh"
@@ -594393,7 +594393,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "sign()",
+        title: "sign() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.sign"
@@ -594679,7 +594679,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "cos()",
+        title: "cos() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.cos"
@@ -594874,7 +594874,7 @@ For text content, this keyword causes the content to wrap at every opportunity (
     links: {},
     data: {
       metadata: {
-        title: "translate()",
+        title: "translate() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.translate"
@@ -594937,7 +594937,7 @@ directions. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "scale3d()",
+        title: "scale3d() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.scale3d"
@@ -595002,7 +595002,7 @@ result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "translateX()",
+        title: "translateX() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.translateX"
@@ -595058,7 +595058,7 @@ result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "perspective()",
+        title: "perspective() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.perspective"
@@ -595113,7 +595113,7 @@ user and the z=0 plane, the perspective from which the viewer would be if the 2-
     links: {},
     data: {
       metadata: {
-        title: "skewY()",
+        title: "skewY() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.skewY"
@@ -595168,7 +595168,7 @@ direction on the 2D plane. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "rotateX()",
+        title: "rotateX() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.rotateX"
@@ -595222,7 +595222,7 @@ x-axis (horizontal) without deforming it. Its result is a <transform-function> d
     links: {},
     data: {
       metadata: {
-        title: "scaleY()",
+        title: "scaleY() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.scaleY"
@@ -595277,7 +595277,7 @@ y-axis (vertically). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "skewX()",
+        title: "skewX() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.skewX"
@@ -595332,7 +595332,7 @@ horizontal direction on the 2D plane. Its result is a <transform-function> data 
     links: {},
     data: {
       metadata: {
-        title: "rotateZ()",
+        title: "rotateZ() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.rotateZ"
@@ -595386,7 +595386,7 @@ z-axis without deforming it. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "scaleZ()",
+        title: "scaleZ() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.scaleZ"
@@ -595441,7 +595441,7 @@ z-axis. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "matrix3d()",
+        title: "matrix3d() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.matrix3d"
@@ -595503,7 +595503,7 @@ Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "scale()",
+        title: "scale() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.scale"
@@ -595653,7 +595653,7 @@ different scales. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "rotateY()",
+        title: "rotateY() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.rotateY"
@@ -595707,7 +595707,7 @@ y-axis (vertical) without deforming it. Its result is a <transform-function> dat
     links: {},
     data: {
       metadata: {
-        title: "skew()",
+        title: "skew() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.skew"
@@ -595769,7 +595769,7 @@ plane. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "translateY()",
+        title: "translateY() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.translateY"
@@ -595825,7 +595825,7 @@ is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "translateZ()",
+        title: "translateZ() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.translateZ"
@@ -595879,7 +595879,7 @@ closer to or farther away from the viewer. Its result is a <transform-function> 
     links: {},
     data: {
       metadata: {
-        title: "rotate()",
+        title: "rotate() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.rotate"
@@ -595940,7 +595940,7 @@ type.`,
     links: {},
     data: {
       metadata: {
-        title: "matrix()",
+        title: "matrix() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.matrix"
@@ -595995,7 +595995,7 @@ a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "rotate3d()",
+        title: "rotate3d() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.rotate3d"
@@ -596058,7 +596058,7 @@ fixed axis in 3D space, without deforming it. Its result is a <transform-functio
     links: {},
     data: {
       metadata: {
-        title: "scaleX()",
+        title: "scaleX() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.scaleX"
@@ -596113,7 +596113,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "translate3d()",
+        title: "translate3d() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.transform-function.translate3d"
@@ -596482,7 +596482,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "mod()",
+        title: "mod() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.mod"
@@ -596676,7 +596676,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "round()",
+        title: "round() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.round"
@@ -596963,7 +596963,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "repeat()",
+        title: "repeat() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.grid-template-columns.repeat"
@@ -597253,7 +597253,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "cubic-bezier()",
+        title: "cubic-bezier() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.easing-function.cubic-bezier"
@@ -597309,7 +597309,7 @@ As an <easing-function>, it can be used to smooth out the start and end of the i
     links: {},
     data: {
       metadata: {
-        title: "linear()",
+        title: "linear() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.easing-function.linear-function"
@@ -597359,7 +597359,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "steps()",
+        title: "steps() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.easing-function.steps"
@@ -597616,7 +597616,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "anchor-size()",
+        title: "anchor-size() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.anchor-size"
@@ -597723,7 +597723,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "-moz-image-rect",
+        title: "-moz-image-rect() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.-moz-image-rect"
@@ -597735,7 +597735,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
           folder: "en-us/web/css/reference/values/-moz-image-rect",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "-moz-image-rect",
+        short_title: "-moz-image-rect()",
         status: [
           "deprecated",
           "non-standard"
@@ -597847,7 +597847,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "radial-gradient()",
+        title: "radial-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.radial-gradient"
@@ -597930,7 +597930,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "repeating-linear-gradient()",
+        title: "repeating-linear-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.repeating-linear-gradient"
@@ -598094,7 +598094,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "linear-gradient()",
+        title: "linear-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.linear-gradient"
@@ -598174,7 +598174,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "repeating-conic-gradient()",
+        title: "repeating-conic-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.repeating-conic-gradient"
@@ -598256,7 +598256,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "repeating-radial-gradient()",
+        title: "repeating-radial-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.repeating-radial-gradient"
@@ -598333,7 +598333,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "conic-gradient()",
+        title: "conic-gradient() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.gradient.conic-gradient"
@@ -598419,7 +598419,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "fit-content()",
+        title: "fit-content() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.grid-template-columns.fit-content",
@@ -598478,7 +598478,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "url()",
+        title: "url() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.url"
@@ -598579,7 +598579,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "ray()",
+        title: "ray() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.ray"
@@ -598642,7 +598642,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "pow()",
+        title: "pow() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.pow"
@@ -598697,7 +598697,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "paint()",
+        title: "paint() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.image.paint"
@@ -598744,7 +598744,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "image-set()",
+        title: "image-set() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.image.image-set"
@@ -598807,7 +598807,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "image()",
+        title: "image() CSS function",
         pageType: "css-function",
         summary: "The image() CSS function defines an <image> in a similar fashion to the url() function, but with added functionality including specifying the image's directionality, displaying just a part of that image defined by a media fragment, and specifying a solid color as a fallback in case none of the specified images are able to be rendered.",
         popularity: 0.00474652436455554,
@@ -598959,7 +598959,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "calc()",
+        title: "calc() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.calc"
@@ -599024,7 +599024,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "if()",
+        title: "if() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.if"
@@ -599152,7 +599152,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "acos()",
+        title: "acos() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.acos"
@@ -599205,7 +599205,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "element()",
+        title: "element() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.image.element"
@@ -599299,7 +599299,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "tan()",
+        title: "tan() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.tan"
@@ -599388,7 +599388,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "type()",
+        title: "type() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.type"
@@ -599461,7 +599461,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "env()",
+        title: "env() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.env"
@@ -599633,7 +599633,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "var()",
+        title: "var() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.var"
@@ -599805,7 +599805,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "sibling-count()",
+        title: "sibling-count() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.sibling-count"
@@ -599849,7 +599849,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "calc-size()",
+        title: "calc-size() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.calc-size"
@@ -600017,7 +600017,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "opacity()",
+        title: "opacity() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.opacity"
@@ -600062,7 +600062,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "sepia()",
+        title: "sepia() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.sepia"
@@ -600107,7 +600107,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "hue-rotate()",
+        title: "hue-rotate() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.hue-rotate"
@@ -600160,7 +600160,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "invert()",
+        title: "invert() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.invert"
@@ -600208,7 +600208,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "drop-shadow()",
+        title: "drop-shadow() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.drop-shadow"
@@ -600256,7 +600256,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "contrast()",
+        title: "contrast() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.contrast"
@@ -600306,7 +600306,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "blur()",
+        title: "blur() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.blur"
@@ -600416,7 +600416,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "grayscale()",
+        title: "grayscale() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.grayscale"
@@ -600461,7 +600461,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "brightness()",
+        title: "brightness() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.brightness"
@@ -600513,7 +600513,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "saturate()",
+        title: "saturate() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.filter-function.saturate"
@@ -600606,7 +600606,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "clamp()",
+        title: "clamp() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.clamp"
@@ -600662,7 +600662,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "random()",
+        title: "random() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.random"
@@ -600936,7 +600936,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "cross-fade()",
+        title: "cross-fade() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.image.cross-fade"
@@ -600998,7 +600998,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "rem()",
+        title: "rem() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.rem"
@@ -601046,7 +601046,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "light-dark()",
+        title: "light-dark() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.light-dark"
@@ -601117,7 +601117,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "oklab()",
+        title: "oklab() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.oklab"
@@ -601202,7 +601202,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "color-mix()",
+        title: "color-mix() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.color-mix"
@@ -601273,7 +601273,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "oklch()",
+        title: "oklch() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.oklch"
@@ -601361,7 +601361,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "lch()",
+        title: "lch() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.lch"
@@ -601447,7 +601447,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "contrast-color()",
+        title: "contrast-color() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.contrast-color"
@@ -601624,7 +601624,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "hsl()",
+        title: "hsl() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.hsl"
@@ -601707,7 +601707,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "hwb()",
+        title: "hwb() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.hwb"
@@ -601774,7 +601774,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "rgb()",
+        title: "rgb() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.rgb"
@@ -601847,7 +601847,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "device-cmyk()",
+        title: "device-cmyk() CSS function",
         pageType: "css-function",
         summary: "The device-cmyk() functional notation is used to express CMYK colors in a device dependent way, specifying the cyan, magenta, yellow, and black components.",
         popularity: 0.002392922342367645,
@@ -601892,7 +601892,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "color()",
+        title: "color() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.color"
@@ -601981,7 +601981,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "lab()",
+        title: "lab() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.color.lab"
@@ -602066,7 +602066,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "progress()",
+        title: "progress() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.progress"
@@ -602134,7 +602134,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "sqrt()",
+        title: "sqrt() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.sqrt"
@@ -602188,7 +602188,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "atan2()",
+        title: "atan2() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.atan2"
@@ -602279,7 +602279,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "max()",
+        title: "max() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.max"
@@ -602331,7 +602331,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "sin()",
+        title: "sin() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.sin"
@@ -602450,7 +602450,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "hypot()",
+        title: "hypot() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.hypot"
@@ -602504,7 +602504,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "asin()",
+        title: "asin() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.asin"
@@ -602557,7 +602557,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "symbols()",
+        title: "symbols() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.list-style-type.symbols"
@@ -602702,7 +602702,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "attr()",
+        title: "attr() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.attr"
@@ -602795,7 +602795,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "anchor()",
+        title: "anchor() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.anchor"
@@ -602881,7 +602881,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "atan()",
+        title: "atan() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.atan"
@@ -602934,7 +602934,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "counters()",
+        title: "counters() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.counters"
@@ -603145,7 +603145,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "log()",
+        title: "log() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.log"
@@ -603319,7 +603319,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "abs()",
+        title: "abs() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.abs"
@@ -603370,7 +603370,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "minmax()",
+        title: "minmax() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.properties.grid-template-columns.minmax"
@@ -603520,7 +603520,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "min()",
+        title: "min() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.min"
@@ -603607,7 +603607,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "dynamic-range-limit-mix()",
+        title: "dynamic-range-limit-mix() CSS function",
         pageType: "css-function",
         browserCompat: [
           "css.types.dynamic-range-limit-mix"
