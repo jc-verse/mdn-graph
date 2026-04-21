@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-m59t4aa3.js";
+} from "./chunk-kg5eyf9b.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -343,19 +343,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            color_wheel: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Color_wheel",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
-                    403
-                  ]
-                }
-              ]
-            },
             constant: {
               children: {},
               slug: "/en-US/docs/Glossary/Constant",
@@ -384,7 +371,14 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1354,7 +1348,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1706,7 +1700,7 @@ span {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -2684,6 +2678,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/v3.18.0/components/conditional-content/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2694,6 +2695,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2708,7 +2716,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://guides.emberjs.com/release/ember-inspector/installation/",
                             "The operation timed out."
                           ]
                         }
@@ -2732,14 +2740,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
                             "The operation timed out."
                           ]
                         },
@@ -2759,13 +2760,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2779,6 +2773,19 @@ ul li {
                         }
                       ]
                     },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v2.vuejs.org/v2/guide/comparison.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2787,13 +2794,19 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    react_components: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://eslint.org/",
                             "The operation timed out."
                           ]
                         }
@@ -3779,13 +3792,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://redux.js.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4806,7 +4812,14 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6275,7 +6288,14 @@ span {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6814,8 +6834,22 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://eslint.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6827,15 +6861,15 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://eslint.org/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12702,187 +12736,21 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    django: {
-                      children: {
-                        admin_site: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Admin_site",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/intro/tutorial02/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/howto/deployment/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/gunicorn/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/install/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/howto/windows/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        generic_views: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Generic_views",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/class-based-views/generic-display/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/pagination/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/pagination/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/class-based-views/generic-display/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/class-based-views/generic-display/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/pagination/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        models: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Models",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/models/constraints/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/models/constraints/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/models/constraints/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/intro/tutorial02/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        testing: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/testing/advanced/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/contrib/staticfiles/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/testing/advanced/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
-                        web_application_security: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/middleware/",
-                                503
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     express_nodejs: {
                       children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         skeleton_website: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
@@ -12891,7 +12759,14 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://sass-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -13455,23 +13330,6 @@ body {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    installing_software: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     workflows_and_processes: {
@@ -13482,7 +13340,14 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.productplan.com/learn/agile-vs-waterfall/",
+                            "https://www.productplan.com/learn/agile-vs-waterfall"
                           ]
                         }
                       ]
@@ -13504,19 +13369,6 @@ body {
                 },
                 your_first_website: {
                   children: {
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13852,26 +13704,6 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://creativecommons.org/licenses/by-sa/2.5/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://creativecommons.org/licenses/by-sa/2.5/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -13908,7 +13740,14 @@ color: rgb(31 41 59 / 26%);
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14032,19 +13871,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://creativecommons.org/licenses/by-sa/2.5/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15302,18 +15128,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "150": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/revert-rule"
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -15463,13 +15277,6 @@ webextensions.manifest.options_ui`,
             {
               message: "Unreachable via page",
               data: []
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://www.thunderbird.net/download/?utm_source=developer.mozilla.org&utm_medium=referral&utm_campaign=mdn-mozilla-products",
-                "The operation timed out."
-              ]
             }
           ]
         },
@@ -15489,23 +15296,6 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    guides: {
-                      children: {
-                        live_regions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     reference: {
                       children: {
                         attributes: {
@@ -15744,13 +15534,6 @@ color: color(xyz-d65 0.59 0.28 0.96);
 color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
                           ]
                         },
                         {
@@ -16187,6 +15970,87 @@ api.MessagePort`,
                       ]
                     }
                   ]
+                },
+                crashreport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CrashReport",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.CrashReport"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.ReportingObserver.ReportingObserver.options_parameter.types_property.crash",
+                        "Expected:",
+                        "api.CrashReport"
+                      ]
+                    }
+                  ]
+                },
+                crashreportcontext: {
+                  children: {
+                    delete: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CrashReportContext/delete",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Octal literals are not allowed. Use the syntax '0o31'.",
+                            "  operationThatMightCrash(00031);",
+                            "5:16",
+                            `/en-US/docs/Web/API/CrashReportContext/delete
+[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o31'.
+~~~
+window.crashReport.initialize(1024).then(() => {
+  // Set a possible crash-causing value, and try
+  // running an operation that may cause a crash
+  window.crashReport.set("crash-arg", "00031");
+  operationThatMightCrash(00031);
+  // Delete the key-value pair if it doesn't cause a crash
+  window.crashReport.delete("crash-arg");
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    set: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CrashReportContext/set",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Octal literals are not allowed. Use the syntax '0o31'.",
+                            "  operationThatMightCrash(00031);",
+                            "5:16",
+                            `/en-US/docs/Web/API/CrashReportContext/set
+[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o31'.
+~~~
+window.crashReport.initialize(1024).then(() => {
+  // Set a possible crash-causing value, and try
+  // running an operation that may cause a crash
+  window.crashReport.set("crash-arg", "00031");
+  operationThatMightCrash(00031);
+  // Delete the key-value pair if it doesn't cause a crash
+  window.crashReport.delete("crash-arg");
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 cspviolationreport: {
                   children: {
@@ -20983,19 +20847,6 @@ env(viewport-segment-width 0 1)
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -22321,23 +22172,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    cascade: {
-                      children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
                               ]
                             }
                           ]
@@ -33880,14 +33714,14 @@ blockquote p::after {
                               message: "Broken external link",
                               data: [
                                 "https://sass-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
                               ]
                             },
                             {
                               message: "Broken external link",
                               data: [
                                 "https://sass-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -33899,7 +33733,7 @@ blockquote p::after {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -67770,6 +67604,175 @@ css.properties.grid-template-rows.repeat`
                             }
                           ]
                         },
+                        "revert-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/revert-rule",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)',
+                                "  color: revert-rule;",
+                                "21:10 - 21:21",
+                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: system-ui;
+}
+
+@supports not (color: revert-rule) {
+  body::before {
+    content: "Your browser doesn't support the revert-rule keyword yet.";
+    background-color: wheat;
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+p {
+  color: blue;
+  font-weight: bold;
+}
+
+p.special {
+  color: revert-rule;
+  border: 1px solid currentcolor;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "value-keyword-case",
+                                'Expected "currentcolor" to be "currentColor" (value-keyword-case)',
+                                "  border: 1px solid currentcolor;",
+                                "22:21 - 22:33",
+                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
+[value-keyword-case] Expected "currentcolor" to be "currentColor" (value-keyword-case)
+~~~
+body {
+  font-family: system-ui;
+}
+
+@supports not (color: revert-rule) {
+  body::before {
+    content: "Your browser doesn't support the revert-rule keyword yet.";
+    background-color: wheat;
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+p {
+  color: blue;
+  font-weight: bold;
+}
+
+p.special {
+  color: revert-rule;
+  border: 1px solid currentcolor;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-style",
+                                "Inline style is not allowed",
+                                'style="color: revert-rule"',
+                                "1:4",
+                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
+[no-inline-style] Inline style is not allowed
+~~~
+<p style="color: revert-rule">This text uses the stylesheet color.</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)',
+                                "  color: revert-rule;",
+                                "19:10 - 19:21",
+                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: system-ui;
+}
+
+@supports not (color: revert-rule) {
+  body::before {
+    content: "Your browser doesn't support the revert-rule keyword yet.";
+    background-color: wheat;
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+p {
+  color: red;
+}
+p.a {
+  color: revert-rule;
+}
+p.b {
+  color: revert-rule;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)',
+                                "  color: revert-rule;",
+                                "22:10 - 22:21",
+                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "revert-rule" for property "color" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: system-ui;
+}
+
+@supports not (color: revert-rule) {
+  body::before {
+    content: "Your browser doesn't support the revert-rule keyword yet.";
+    background-color: wheat;
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+p {
+  color: red;
+}
+p.a {
+  color: revert-rule;
+}
+p.b {
+  color: revert-rule;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "rule-list": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/rule-list",
@@ -69121,7 +69124,16 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Values",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Values/revert-rule"
+                          ]
+                        }
+                      ]
                     },
                     webkit_extensions: {
                       children: {},
@@ -69143,6 +69155,30 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "-webkit-text-fill-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "-webkit-text-stroke CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "-webkit-text-stroke-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "-webkit-text-stroke-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Attribute selectors"
                       ]
                     },
@@ -69150,6 +69186,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "abs() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<absolute-size> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "accent-color CSS property"
                       ]
                     },
                     {
@@ -69191,7 +69239,55 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "align-content CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "align-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "align-self CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "alignment-baseline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "all CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<alpha-value> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "anchor() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "anchor-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "anchor-scope CSS property"
                       ]
                     },
                     {
@@ -69203,7 +69299,109 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<angle-percentage> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<angle> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-composition CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-delay CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-direction CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-duration CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-fill-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-iteration-count CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-play-state CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-range CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-range-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-range-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-timeline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "animation-timing-function CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":any-link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "appearance CSS property"
                       ]
                     },
                     {
@@ -69216,6 +69414,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "asin() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "aspect-ratio CSS property"
                       ]
                     },
                     {
@@ -69245,13 +69449,139 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<axis> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::backdrop CSS pseudo-element"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "backdrop-filter CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "backface-visibility CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-attachment CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-blend-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-clip CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-image CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-origin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-position-x CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-position-y CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-repeat CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-repeat-x CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-repeat-y CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "background-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "base-palette CSS at-rule descriptor (@font-palette-values)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<baseline-position> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "baseline-shift CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "baseline-source CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<basic-shape> CSS type"
                       ]
                     },
                     {
@@ -69269,7 +69599,433 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<blend-mode> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "block-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "blur() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-end-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-end-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-end-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-start-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-start-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-start-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-block-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom-left-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom-right-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-bottom-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-collapse CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-end-end-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-end-start-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image-outset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image-repeat CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image-slice CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image-source CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-image-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-end-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-end-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-end-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-start-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-start-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-start-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-inline-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-left-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-left-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-left-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-right CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-right-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-right-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-right-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-spacing CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-start-end-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-start-start-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top-left-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top-right-radius CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-top-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "border-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "box-decoration-break CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<box-edge> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "box-shadow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "box-sizing CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "break-after CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "break-before CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "break-inside CSS property"
                       ]
                     },
                     {
@@ -69305,7 +70061,55 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<calc-keyword> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "calc-size() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<calc-sum> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "caption-side CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "caret CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "caret-animation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "caret-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "caret-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@charset CSS at-rule"
                       ]
                     },
                     {
@@ -69335,7 +70139,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "clear CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "clip-path CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "clip-rule CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "color() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color-interpolation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color-interpolation-filters CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<color-interpolation-method> CSS type"
                       ]
                     },
                     {
@@ -69347,13 +70193,187 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "@color-profile CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "color-scheme CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<color> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::column CSS pseudo-element"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "column-count CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-fill CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-gap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-rule CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-rule-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-rule-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-rule-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-span CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "column-wrap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "columns CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "conic-gradient() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain-intrinsic-block-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain-intrinsic-height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain-intrinsic-inline-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain-intrinsic-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "contain-intrinsic-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@container CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "container CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "container-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "container-type CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "content CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<content-distribution> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<content-position> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "content-visibility CSS property"
                       ]
                     },
                     {
@@ -69371,6 +70391,114 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "corner-block-end-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-block-start-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-bottom-left-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-bottom-right-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-bottom-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-end-end-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-end-start-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-inline-end-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-inline-start-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-left-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-right-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<corner-shape-value> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-start-end-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-start-start-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-top-left-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-top-right-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "corner-top-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "cos() CSS function"
                       ]
                     },
@@ -69378,6 +70506,30 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "counter() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "counter-increment CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "counter-reset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "counter-set CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@counter-style CSS at-rule"
                       ]
                     },
                     {
@@ -69413,7 +70565,49 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
-                        "<dashed-function>: CSS custom functions"
+                        "cursor CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<custom-ident> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@custom-media CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "cx CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "cy CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "d CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<dashed-function> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<dashed-ident> CSS type"
                       ]
                     },
                     {
@@ -69449,7 +70643,19 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<dimension> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":dir() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "direction CSS property"
                       ]
                     },
                     {
@@ -69461,13 +70667,73 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "display CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-box> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-inside> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-internal> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-legacy> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-listitem> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<display-outside> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "dominant-baseline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "drop-shadow() CSS function"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "dynamic-range-limit CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "dynamic-range-limit-mix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<easing-function> CSS type"
                       ]
                     },
                     {
@@ -69486,6 +70752,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":empty CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "empty-cells CSS property"
                       ]
                     },
                     {
@@ -69515,7 +70787,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "field-sizing CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::file-selector-button CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "fill CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "fill-opacity CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "fill-rule CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "filter CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<filter-function> CSS type"
                       ]
                     },
                     {
@@ -69551,7 +70859,79 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "fit-content CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "fit-content() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-basis CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-direction CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-flow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-grow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-shrink CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flex-wrap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<flex> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "float CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flood-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "flood-opacity CSS property"
                       ]
                     },
                     {
@@ -69575,6 +70955,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "font CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "font-display CSS at-rule descriptor (@font-face)"
                       ]
                     },
@@ -69582,6 +70968,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "font-display CSS at-rule descriptor (@font-feature-values)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@font-face CSS at-rule"
                       ]
                     },
                     {
@@ -69599,7 +70991,67 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "font-family CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "font-feature-settings CSS at-rule descriptor (@font-face)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-feature-settings CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@font-feature-values CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-kerning CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-language-override CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-optical-sizing CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-palette CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@font-palette-values CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-size-adjust CSS property"
                       ]
                     },
                     {
@@ -69611,7 +71063,97 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "font-stretch CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "font-style CSS at-rule descriptor (@font-face)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-synthesis CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-synthesis-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-synthesis-small-caps CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-synthesis-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-synthesis-weight CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-alternates CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-caps CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-east-asian CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-emoji CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-ligatures CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-numeric CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-variant-position CSS property"
                       ]
                     },
                     {
@@ -69623,7 +71165,19 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "font-variation-settings CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "font-weight CSS at-rule descriptor (@font-face)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "font-weight CSS property"
                       ]
                     },
                     {
@@ -69635,13 +71189,61 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "font-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "forced-color-adjust CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<frequency-percentage> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<frequency> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":fullscreen CSS pseudo-class"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "@function CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":future CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "gap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<generic-family> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<gradient> CSS type"
                       ]
                     },
                     {
@@ -69654,6 +71256,102 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "grayscale() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-area CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-auto-columns CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-auto-flow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-auto-rows CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-column CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-column-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-column-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-row CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-row-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-row-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-template CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-template-areas CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-template-columns CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "grid-template-rows CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hanging-punctuation CSS property"
                       ]
                     },
                     {
@@ -69678,6 +71376,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":heading() CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<hex-color> CSS type"
                       ]
                     },
                     {
@@ -69713,13 +71423,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<hue-interpolation-method> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "hue-rotate() CSS function"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "<hue> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "hwb() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hyphenate-character CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hyphenate-limit-chars CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "hyphens CSS property"
                       ]
                     },
                     {
@@ -69737,6 +71477,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<ident> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "if() CSS function"
                       ]
                     },
@@ -69749,7 +71495,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "image-orientation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "image-rendering CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "image-resolution CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "image-set() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<image> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@import CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "!important CSS keyword"
                       ]
                     },
                     {
@@ -69767,7 +71549,25 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "inherit CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "inherits CSS at-rule descriptor (@property)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "initial CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "initial-letter CSS property"
                       ]
                     },
                     {
@@ -69779,7 +71579,85 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "inline-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "inset() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "inset-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<integer> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "interactivity CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "interest-delay CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "interest-delay-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "interest-delay-start CSS property"
                       ]
                     },
                     {
@@ -69792,6 +71670,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":interest-target CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "interpolate-size CSS property"
                       ]
                     },
                     {
@@ -69815,7 +71699,37 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "isolation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "justify-content CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "justify-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "justify-self CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Keyframe selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@keyframes CSS at-rule"
                       ]
                     },
                     {
@@ -69845,6 +71759,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "@layer CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "layer() CSS function"
                       ]
                     },
@@ -69857,7 +71777,31 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":left CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<length-percentage> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<length> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "letter-spacing CSS property"
                       ]
                     },
                     {
@@ -69869,7 +71813,43 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "lighting-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "line-break CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "line-clamp CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "line-gap-override CSS at-rule descriptor (@font-face)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "line-height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "line-height-step CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<line-style> CSS type"
                       ]
                     },
                     {
@@ -69893,6 +71873,30 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "list-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "list-style-image CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "list-style-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "list-style-type CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":local-link CSS pseudo-class"
                       ]
                     },
@@ -69905,7 +71909,223 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "margin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-right CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-top CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "margin-trim CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "marker CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::marker CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "marker-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "marker-mid CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "marker-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-outset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-repeat CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-slice CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-source CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-border-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-clip CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-composite CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-image CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-origin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-repeat CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mask-type CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "math-depth CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "math-shift CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "math-style CSS property"
                       ]
                     },
                     {
@@ -69929,13 +72149,85 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "max-block-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "max-content CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "max-height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "max-inline-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "max-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@media CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "min() CSS function"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "min-block-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "min-content CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "min-height CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "min-inline-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "min-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "minmax() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "mix-blend-mode CSS property"
                       ]
                     },
                     {
@@ -69960,6 +72252,18 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "Namespace separator"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<named-color> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@namespace CSS at-rule"
                       ]
                     },
                     {
@@ -70007,6 +72311,66 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<number> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "object-fit CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "object-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "object-view-box CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset-anchor CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset-distance CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset-path CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "offset-rotate CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "oklab() CSS function"
                       ]
                     },
@@ -70031,6 +72395,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "opacity CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "opacity() CSS function"
                       ]
                     },
@@ -70049,7 +72419,115 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "order CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "orphans CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":out-of-range CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "outline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "outline-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "outline-offset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "outline-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "outline-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-anchor CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-clip-margin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<overflow-position> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-wrap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-x CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overflow-y CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<overflow> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overlay CSS property"
                       ]
                     },
                     {
@@ -70061,7 +72539,115 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "overscroll-behavior CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overscroll-behavior-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overscroll-behavior-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overscroll-behavior-x CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "overscroll-behavior-y CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "pad CSS at-rule descriptor (@counter-style)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-right CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "padding-top CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@page CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "page CSS property"
                       ]
                     },
                     {
@@ -70074,6 +72660,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "paint() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "paint-order CSS property"
                       ]
                     },
                     {
@@ -70109,7 +72701,25 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<percentage> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "perspective CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "perspective() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "perspective-origin CSS property"
                       ]
                     },
                     {
@@ -70133,6 +72743,24 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "place-content CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "place-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "place-self CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::placeholder CSS pseudo-element"
                       ]
                     },
@@ -70151,6 +72779,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "pointer-events CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "polygon() CSS function"
                       ]
                     },
@@ -70158,6 +72792,66 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":popover-open CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-anchor CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-area CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<position-area> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@position-try CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-try CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-try-fallbacks CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-try-order CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "position-visibility CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<position> CSS type"
                       ]
                     },
                     {
@@ -70175,7 +72869,31 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "print-color-adjust CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "progress() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@property CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "quotes CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "r CSS property"
                       ]
                     },
                     {
@@ -70199,6 +72917,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<ratio> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "ray() CSS function"
                       ]
                     },
@@ -70217,7 +72941,25 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "reading-flow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "reading-order CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "rect() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<relative-size> CSS type"
                       ]
                     },
                     {
@@ -70259,7 +73001,37 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "resize CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<resolution> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "revert CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "revert-layer CSS keyword"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "rgb() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "right CSS property"
                       ]
                     },
                     {
@@ -70272,6 +73044,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":root CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rotate CSS property"
                       ]
                     },
                     {
@@ -70313,6 +73091,48 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "row-gap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ruby-align CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ruby-overhang CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ruby-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<rule-list> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rx CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "ry CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Selector list"
                       ]
                     },
@@ -70320,6 +73140,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "saturate() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scale CSS property"
                       ]
                     },
                     {
@@ -70355,6 +73181,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "@scope CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":scope CSS pseudo-class"
                       ]
                     },
@@ -70367,7 +73199,85 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "scroll-behavior CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::scroll-button() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-initial-target CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-right CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-margin-top CSS property"
                       ]
                     },
                     {
@@ -70379,7 +73289,139 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "scroll-marker-group CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::scroll-marker-group CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-block CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-block-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-block-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-bottom CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-inline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-inline-end CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-inline-start CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-left CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-right CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-padding-top CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-snap-align CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-snap-stop CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-snap-type CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-target-group CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-timeline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-timeline-axis CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scroll-timeline-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scrollbar-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scrollbar-gutter CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "scrollbar-width CSS property"
                       ]
                     },
                     {
@@ -70403,6 +73445,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<self-position> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "sepia() CSS function"
                       ]
                     },
@@ -70410,6 +73458,30 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "shape() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "shape-image-threshold CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "shape-margin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "shape-outside CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "shape-rendering CSS property"
                       ]
                     },
                     {
@@ -70481,6 +73553,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "speak-as CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::spelling-error CSS pseudo-element"
                       ]
                     },
@@ -70505,6 +73583,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "@starting-style CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":state() CSS pseudo-class"
                       ]
                     },
@@ -70517,6 +73601,72 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "stop-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stop-opacity CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<string> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-dasharray CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-dashoffset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-linecap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-linejoin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-miterlimit CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-opacity CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "stroke-width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "suffix CSS at-rule descriptor (@counter-style)"
                       ]
                     },
@@ -70524,6 +73674,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "superellipse() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@supports CSS at-rule"
                       ]
                     },
                     {
@@ -70553,7 +73709,25 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<system-color> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "Type selectors"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "tab-size CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "table-layout CSS property"
                       ]
                     },
                     {
@@ -70590,6 +73764,318 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "::target-text CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-align CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-align-last CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-anchor CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-autospace CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-box CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-box-edge CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-box-trim CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-combine-upright CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-inset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-line CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-skip-ink CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-decoration-thickness CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<text-edge> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-emphasis CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-emphasis-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-emphasis-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-emphasis-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-indent CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-justify CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-orientation CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-overflow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-rendering CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-shadow CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-size-adjust CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-spacing-trim CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-transform CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-underline-offset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-underline-position CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-wrap CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-wrap-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "text-wrap-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<time-percentage> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<time> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<timeline-range-name> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "timeline-scope CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "top CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "touch-action CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform-box CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "<transform-function> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform-origin CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition-behavior CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition-delay CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition-duration CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition-property CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transition-timing-function CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "translate CSS property"
                       ]
                     },
                     {
@@ -70637,7 +74123,19 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "unicode-bidi CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "unicode-range CSS at-rule descriptor (@font-face)"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "unset CSS keyword"
                       ]
                     },
                     {
@@ -70649,7 +74147,19 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<url> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":user-invalid CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "user-select CSS property"
                       ]
                     },
                     {
@@ -70673,13 +74183,61 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "vector-effect CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "vertical-align CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "view() CSS function"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "view-timeline CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "view-timeline-axis CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "view-timeline-inset CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "view-timeline-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "@view-transition CSS at-rule"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::view-transition CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "view-transition-class CSS property"
                       ]
                     },
                     {
@@ -70697,6 +74255,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "view-transition-name CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "::view-transition-new() CSS pseudo-element"
                       ]
                     },
@@ -70704,6 +74268,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "::view-transition-old() CSS pseudo-element"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "visibility CSS property"
                       ]
                     },
                     {
@@ -70727,6 +74297,60 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "white-space CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "white-space-collapse CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "widows CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "width CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "will-change CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "word-break CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "word-spacing CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "writing-mode CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "x CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         ":xr-overlay CSS pseudo-class"
                       ]
                     },
@@ -70734,6 +74358,24 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "xywh() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "y CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "z-index CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "zoom CSS property"
                       ]
                     }
                   ]
@@ -72627,6 +76269,13 @@ doIt(); // returns "finally"
                           data: [
                             "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
                             404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.tug.org/texlive/",
+                            "The operation timed out."
                           ]
                         }
                       ]

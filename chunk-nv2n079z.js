@@ -53934,21 +53934,21 @@ Firefox 95 was released on December 7, 2021.`,
     links: {},
     data: {
       metadata: {
-        title: "Firefox 151 release notes for developers (Nightly)",
+        title: "Firefox 151 release notes for developers (Beta)",
         pageType: "firefox-release-notes-active",
         summary: `This article provides information about the changes in Firefox 151 that affect developers.
-Firefox 151 is the current Nightly version of Firefox and ships on May 19, 2026.`,
+Firefox 151 is the current Beta version of Firefox and ships on May 19, 2026.`,
         popularity: 0.0018031175396713943,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/mozilla/firefox/releases/151",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 151 (Nightly)",
+        short_title: "Firefox 151 (Beta)",
         status: []
       },
       links: [
-        "https://www.firefox.com/en-US/channel/desktop/#nightly",
+        "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=151"
       ],
       imgs: [],
@@ -55078,24 +55078,25 @@ Firefox 143 was released on September 16, 2025.`,
     links: {},
     data: {
       metadata: {
-        title: "Firefox 150 release notes for developers (Beta)",
+        title: "Firefox 150 release notes for developers (Stable)",
         pageType: "firefox-release-notes-active",
         summary: `This article provides information about the changes in Firefox 150 that affect developers.
-Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`,
+Firefox 150 was released on April 21, 2026.`,
         popularity: 0.008060665636848758,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
           folder: "en-us/mozilla/firefox/releases/150",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 150 (Beta)",
+        short_title: "Firefox 150 (Stable)",
         status: []
       },
       links: [
-        "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=150",
         "https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_details/index.html#response-tab",
         "https://bugzil.la/2016679",
+        "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#viewing-common-pseudo-classes",
+        "https://bugzil.la/2014442",
         "https://bugzil.la/1819581",
         "https://bugzil.la/2024171",
         "https://bugzil.la/2023569",
@@ -55132,6 +55133,7 @@ Firefox 150 is the current Beta version of Firefox and ships on April 21, 2026.`
         "developer_tools",
         "html",
         "css",
+        "javascript",
         "apis",
         "dom",
         "webdriver_conformance_webdriver_bidi_marionette",
@@ -58570,6 +58572,36 @@ Firefox 51 was released on January 24, 2017. This article lists key changes that
     }
   },
   {
+    id: "/en-US/docs/Mozilla/Firefox/Releases/152",
+    links: {},
+    data: {
+      metadata: {
+        title: "Firefox 152 release notes for developers (Nightly)",
+        pageType: "firefox-release-notes-active",
+        summary: `This article provides information about the changes in Firefox 152 that affect developers.
+Firefox 152 is the current Nightly version of Firefox and ships on June 16, 2026.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/mozilla/firefox/releases/152",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Firefox 152 (Nightly)",
+        status: []
+      },
+      links: [
+        "https://www.firefox.com/en-US/channel/desktop/#nightly",
+        "https://whattrainisitnow.com/release/?version=152"
+      ],
+      imgs: [],
+      ids: [
+        "changes_for_web_developers",
+        "changes_for_add-on_developers",
+        "experimental_web_features"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Mozilla/Firefox/Releases/103",
     links: {},
     data: {
@@ -59190,8 +59222,8 @@ Firefox 50 was released on November 15, 2016. This article lists key changes tha
     links: {},
     data: {
       metadata: {
-        title: "Firefox 149 release notes for developers (Stable)",
-        pageType: "firefox-release-notes-active",
+        title: "Firefox 149 release notes for developers",
+        pageType: "firefox-release-notes",
         summary: `This article provides information about the changes in Firefox 149 that affect developers.
 Firefox 149 was released on March 24, 2026.`,
         popularity: 0.02227776997612695,
@@ -59200,7 +59232,7 @@ Firefox 149 was released on March 24, 2026.`,
           folder: "en-us/mozilla/firefox/releases/149",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Firefox 149 (Stable)",
+        short_title: "Firefox 149",
         status: []
       },
       links: [
@@ -61709,8 +61741,9 @@ Firefox 144 was released on October 14, 2025.`,
         "https://extensionworkshop.com/documentation/develop/firefox-builtin-data-consent/",
         "https://en.wikipedia.org/wiki/Universally_unique_identifier",
         "https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/",
-        "https://extensionworkshop.com/documentation/manage/updating-your-extension/",
+        "https://support.mozilla.org/en-US/kb/root-certificate-expiration",
         "https://addons.mozilla.org/api/v5/applications/firefox/",
+        "https://extensionworkshop.com/documentation/manage/updating-your-extension/",
         "https://en.wikipedia.org/wiki/Universally_unique_identifier"
       ],
       imgs: [],
@@ -93372,7 +93405,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -93380,7 +93413,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
@@ -93392,11 +93429,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -160948,15 +160981,31 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160964,7 +161013,11 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160972,19 +161025,47 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -160996,87 +161077,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161084,39 +161085,15 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161124,19 +161101,31 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -161144,7 +161133,51 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -163274,7 +163307,7 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163282,23 +163315,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163306,11 +163331,19 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -181762,15 +181795,7 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -181778,7 +181803,15 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -181786,7 +181819,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         }
       ],
@@ -277218,6 +277251,10 @@ one video track in the media element.`,
           title: "Content Security Policy Level 3"
         },
         {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/",
+          title: "Crash Reporting"
+        },
+        {
           bcdSpecificationURL: "https://wicg.github.io/deprecation-reporting/#deprecationreportbody",
           title: "Deprecation Reporting"
         },
@@ -277243,11 +277280,13 @@ one video track in the media element.`,
         "report_types",
         "generating_reports_via_webdriver",
         "interfaces",
+        "crashreportcontext",
         "reportingobserver",
         "related_interfaces",
         "securitypolicyviolationevent",
         "dictionaries",
         "coepviolationreport",
+        "crashreport",
         "cspviolationreport",
         "deprecationreport",
         "interventionreport",
@@ -362981,6 +363020,7 @@ previously scheduled with window.requestIdleCallback().`,
         "window.clientinformation",
         "window.closed",
         "window.cookiestore",
+        "window.crashreport",
         "window.credentialless",
         "window.crossoriginisolated",
         "window.crypto",
@@ -365194,6 +365234,44 @@ Window interface returns a Promise that fulfills with a ScreenDetails object ins
         "return_value",
         "exceptions",
         "notallowederror",
+        "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Window/crashReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "Window: crashReport property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.Window.crashReport"
+        ],
+        summary: `The crashReport read-only property of the Window interface returns a CrashReportContext object that enables arbitrary data to be recorded for the current top-level browsing context.
+The data is then included in CrashReport objects that are sent to a reporting endpoint when a browser crash occurs.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/window/crashreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "crashReport",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/#dom-window-crashreport",
+          title: "Crash Reporting"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -478625,6 +478703,180 @@ Closing a session means that licenses and keys associated with it are no longer 
     }
   },
   {
+    id: "/en-US/docs/Web/API/CrashReportContext/delete",
+    links: {},
+    data: {
+      metadata: {
+        title: "CrashReportContext: delete() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CrashReportContext.delete"
+        ],
+        summary: "The delete() method of the CrashReportContext interface deletes a previously-stored key-value pair.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/crashreportcontext/delete",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "delete()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/#dom-crashreportcontext-delete",
+          title: "Crash Reporting"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "key",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CrashReportContext/set",
+    links: {},
+    data: {
+      metadata: {
+        title: "CrashReportContext: set() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CrashReportContext.set"
+        ],
+        summary: "The set() method of the CrashReportContext interface stores a key-value pair in the memory initialized by initialize().",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/crashreportcontext/set",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "set()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/#dom-crashreportcontext-set",
+          title: "Crash Reporting"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "key",
+        "value",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CrashReportContext/initialize",
+    links: {},
+    data: {
+      metadata: {
+        title: "CrashReportContext: initialize() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.CrashReportContext.initialize"
+        ],
+        summary: "The initialize() method of the CrashReportContext interface initializes a portion of memory to be used for storing crash report data specified by set(). This must be called before any other method is invoked on the object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/crashreportcontext/initialize",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "initialize()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/#dom-crashreportcontext-initialize",
+          title: "Crash Reporting"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "length",
+        "return_value",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CrashReportContext",
+    links: {},
+    data: {
+      metadata: {
+        title: "CrashReportContext",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.CrashReportContext"
+        ],
+        summary: "The CrashReportContext interface of the Reporting API provides methods enabling arbitrary data to be recorded for the current top-level browsing context, which is then added to a CrashReport and sent to a reporting endpoint when a browser crash occurs.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/crashreportcontext",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "CrashReportContext",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/crash-reporting/#crashreportcontext",
+          title: "Crash Reporting"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_methods",
+        "crashreportcontext.delete",
+        "crashreportcontext.initialize",
+        "crashreportcontext.set",
+        "description",
+        "examples",
+        "recording_data_in_a_crash_report",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/RTCCodecStats/transportId",
     links: {},
     data: {
@@ -487877,6 +488129,54 @@ sdp, are contained in the generated JSON.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/CrashReport",
+    links: {},
+    data: {
+      metadata: {
+        title: "CrashReport",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.ReportingObserver.ReportingObserver.options_parameter.types_property.crash"
+        ],
+        summary: "The CrashReport dictionary of the Reporting API represents a crash report.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/crashreport",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "CrashReport",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "age",
+        "type",
+        "url",
+        "user_agent",
+        "body",
+        "crash_report_api",
+        "is_top_level",
+        "reason",
+        "oom",
+        "unresponsive",
+        "stack",
+        "visibility_state",
+        "visible",
+        "hidden",
+        "description",
+        "examples",
+        "sending_a_report_to_a_reporting_endpoint",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/BackgroundFetchManager/getIds",
     links: {},
     data: {
@@ -496215,7 +496515,7 @@ by the user agent.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
@@ -496227,7 +496527,7 @@ by the user agent.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
           title: "Web Audio API"
         }
       ],
@@ -539051,7 +539351,7 @@ If specified, you define a theme color using a content attribute in the <meta> e
     links: {},
     data: {
       metadata: {
-        title: "<meta> name attribute",
+        title: "<meta name> HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.meta.name"
@@ -539065,7 +539365,7 @@ The metadata is document-level metadata that applies to the whole page.`,
           folder: "en-us/web/html/reference/elements/meta/name",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "<meta> name",
+        short_title: "<meta name>",
         status: []
       },
       specifications: [
@@ -539203,7 +539503,7 @@ If specified, you define the color scheme using a content attribute in the <meta
     links: {},
     data: {
       metadata: {
-        title: "<meta> http-equiv attribute",
+        title: "<meta http-equiv> HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.meta.http-equiv"
@@ -539216,7 +539516,7 @@ The metadata is document-level metadata that applies to the whole page.`,
           folder: "en-us/web/html/reference/elements/meta/http-equiv",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "<meta> http-equiv",
+        short_title: "<meta http-equiv>",
         status: []
       },
       specifications: [
@@ -540674,7 +540974,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<script> type attribute",
+        title: "<script type> HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.script.type"
@@ -540686,7 +540986,7 @@ The metadata is document-level metadata that applies to the whole page.`,
           folder: "en-us/web/html/reference/elements/script/type",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "<script>",
+        short_title: "<script type>",
         status: []
       },
       specifications: [
@@ -546041,7 +546341,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: minlength",
+        title: "minlength HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.minlength",
@@ -546250,7 +546550,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: rel",
+        title: "rel HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.link.rel",
@@ -546658,7 +546958,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: content",
+        title: "content HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.meta.content"
@@ -546697,7 +546997,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: multiple",
+        title: "multiple HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.multiple",
@@ -546749,7 +547049,7 @@ It takes a string as its value, and the expected syntax varies depending on the 
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: dirname",
+        title: "dirname HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.textarea.dirname",
@@ -546796,7 +547096,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: placeholder",
+        title: "placeholder HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.placeholder",
@@ -546843,7 +547143,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: pattern",
+        title: "pattern HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.pattern"
@@ -546887,7 +547187,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: form",
+        title: "form HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.button.form",
@@ -546943,7 +547243,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: capture",
+        title: "capture HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.capture"
@@ -546981,7 +547281,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: readonly",
+        title: "readonly HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.readonly",
@@ -547032,7 +547332,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: disabled",
+        title: "disabled HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.button.disabled",
@@ -547130,7 +547430,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: maxlength",
+        title: "maxlength HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.maxlength",
@@ -547177,7 +547477,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: accept",
+        title: "accept HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.accept"
@@ -547225,7 +547525,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: step",
+        title: "step HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.step"
@@ -547265,7 +547565,7 @@ When used, the element's text directionality value is included in form submissio
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: fetchpriority",
+        title: "fetchpriority HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.img.fetchpriority",
@@ -547318,7 +547618,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: max",
+        title: "max HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.max",
@@ -547368,7 +547668,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: elementtiming",
+        title: "elementtiming HTML attribute",
         pageType: "html-attribute",
         summary: 'The elementtiming attribute is used to indicate that an element is flagged for tracking by PerformanceObserver objects using the "element" type. For more details, see the PerformanceElementTiming interface.',
         popularity: 0.002808594298553574,
@@ -547394,7 +547694,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: size",
+        title: "size HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.select.size",
@@ -547439,7 +547739,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: for",
+        title: "for HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.label.for",
@@ -547483,7 +547783,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: crossorigin",
+        title: "crossorigin HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.audio.crossorigin",
@@ -547535,7 +547835,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: required",
+        title: "required HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.required",
@@ -547592,7 +547892,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: integrity",
+        title: "integrity HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.link.integrity",
@@ -547644,7 +547944,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: min",
+        title: "min HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.input.min",
@@ -547690,7 +547990,7 @@ This in turn allows the browser to increase or decrease the priority, and potent
     links: {},
     data: {
       metadata: {
-        title: "HTML attribute: autocomplete",
+        title: "autocomplete HTML attribute",
         pageType: "html-attribute",
         browserCompat: [
           "html.elements.form.autocomplete",
@@ -548475,11 +548775,47 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -548487,31 +548823,39 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -548523,67 +548867,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
@@ -548591,16 +548875,32 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
         }
       ],
       links: [
@@ -555952,7 +556252,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "-webkit-text-stroke-color",
+        title: "-webkit-text-stroke-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-text-stroke-color"
@@ -556003,7 +556303,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "place-items",
+        title: "place-items CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.place-items"
@@ -556061,7 +556361,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "forced-color-adjust",
+        title: "forced-color-adjust CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.forced-color-adjust"
@@ -556116,7 +556416,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-mode",
+        title: "mask-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-mode"
@@ -556172,7 +556472,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-top-style",
+        title: "border-top-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-top-style"
@@ -556221,7 +556521,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-target-group",
+        title: "scroll-target-group CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-target-group"
@@ -556280,7 +556580,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-snap-align",
+        title: "scroll-snap-align CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-snap-align"
@@ -556328,7 +556628,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "image-orientation",
+        title: "image-orientation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.image-orientation"
@@ -556382,7 +556682,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-size-adjust",
+        title: "font-size-adjust CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-size-adjust"
@@ -556500,7 +556800,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-palette",
+        title: "font-palette CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-palette"
@@ -556568,7 +556868,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-image-slice",
+        title: "border-image-slice CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-image-slice"
@@ -556625,7 +556925,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "box-shadow",
+        title: "box-shadow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-shadow"
@@ -556689,7 +556989,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-synthesis",
+        title: "font-synthesis CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.font-synthesis"
@@ -556745,7 +557045,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-variant-alternates",
+        title: "font-variant-alternates CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-alternates"
@@ -556805,7 +557105,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-smooth",
+        title: "font-smooth CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-smooth"
@@ -556855,7 +557155,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-color",
+        title: "text-decoration-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-color"
@@ -556905,7 +557205,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-composite",
+        title: "mask-composite CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-composite"
@@ -556964,7 +557264,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-width",
+        title: "border-width CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-width"
@@ -557017,7 +557317,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-border",
+        title: "mask-border CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.mask-border"
@@ -557091,7 +557391,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "box-align",
+        title: "box-align CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-align"
@@ -557136,7 +557436,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-inline",
+        title: "scroll-padding-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-padding-inline"
@@ -557185,7 +557485,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-timeline-axis",
+        title: "scroll-timeline-axis CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-timeline-axis"
@@ -557235,7 +557535,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "contain-intrinsic-height",
+        title: "contain-intrinsic-height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.contain-intrinsic-height"
@@ -557284,7 +557584,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-type",
+        title: "mask-type CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-type"
@@ -557338,7 +557638,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "column-rule",
+        title: "column-rule CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.column-rule"
@@ -557403,7 +557703,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-right-style",
+        title: "border-right-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-right-style"
@@ -557452,7 +557752,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "transition",
+        title: "transition CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.transition"
@@ -557515,7 +557815,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "overflow",
+        title: "overflow CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.overflow"
@@ -557578,7 +557878,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "animation-direction",
+        title: "animation-direction CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-direction"
@@ -557632,7 +557932,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "corner-bottom-right-shape",
+        title: "corner-bottom-right-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-bottom-right-shape"
@@ -557685,7 +557985,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "padding-inline-end",
+        title: "padding-inline-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-inline-end"
@@ -557741,7 +558041,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "y",
+        title: "y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.y"
@@ -557793,7 +558093,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "offset-distance",
+        title: "offset-distance CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.offset-distance"
@@ -557844,7 +558144,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "hyphens",
+        title: "hyphens CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.hyphens"
@@ -557954,7 +558254,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "animation-timeline",
+        title: "animation-timeline CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-timeline"
@@ -558093,7 +558393,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "color-interpolation-filters",
+        title: "color-interpolation-filters CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.color-interpolation-filters"
@@ -558140,7 +558440,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "list-style",
+        title: "list-style CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.list-style"
@@ -558219,7 +558519,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "cy",
+        title: "cy CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.cy"
@@ -558270,7 +558570,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "block-size",
+        title: "block-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.block-size"
@@ -558339,7 +558639,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "resize",
+        title: "resize CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.resize"
@@ -558399,7 +558699,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "offset-path",
+        title: "offset-path CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.offset-path"
@@ -558509,7 +558809,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "margin-right",
+        title: "margin-right CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-right"
@@ -558563,7 +558863,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-initial-target",
+        title: "scroll-initial-target CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-initial-target"
@@ -558616,7 +558916,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "view-timeline-axis",
+        title: "view-timeline-axis CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.view-timeline-axis"
@@ -558666,7 +558966,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "anchor-name",
+        title: "anchor-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.anchor-name"
@@ -558729,7 +559029,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-repeat",
+        title: "mask-repeat CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-repeat"
@@ -558802,7 +559102,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "text-decoration",
+        title: "text-decoration CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.text-decoration"
@@ -558866,7 +559166,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "contain-intrinsic-inline-size",
+        title: "contain-intrinsic-inline-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.contain-intrinsic-inline-size"
@@ -558915,7 +559215,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "all",
+        title: "all CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.all"
@@ -558980,7 +559280,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "background-clip",
+        title: "background-clip CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-clip"
@@ -559043,7 +559343,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "grid-template-rows",
+        title: "grid-template-rows CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-template-rows"
@@ -559127,7 +559427,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-synthesis-small-caps",
+        title: "font-synthesis-small-caps CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-synthesis-small-caps"
@@ -559177,7 +559477,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "margin-trim",
+        title: "margin-trim CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-trim"
@@ -559230,7 +559530,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "margin-block-start",
+        title: "margin-block-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-block-start"
@@ -559287,7 +559587,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "clip-rule",
+        title: "clip-rule CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.clip-rule"
@@ -559345,7 +559645,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-inline-style",
+        title: "border-inline-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-style"
@@ -559396,7 +559696,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-variant-east-asian",
+        title: "font-variant-east-asian CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-east-asian"
@@ -559455,7 +559755,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "min-block-size",
+        title: "min-block-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.min-block-size"
@@ -559524,7 +559824,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-block-start",
+        title: "border-block-start CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-block-start"
@@ -559578,7 +559878,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "overlay",
+        title: "overlay CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overlay"
@@ -559631,7 +559931,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-inline-end-style",
+        title: "border-inline-end-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-end-style"
@@ -559682,7 +559982,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "isolation",
+        title: "isolation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.isolation"
@@ -559734,7 +560034,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-feature-settings",
+        title: "font-feature-settings CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-feature-settings"
@@ -559790,7 +560090,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "math-style",
+        title: "math-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.math-style"
@@ -559840,7 +560140,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-weight",
+        title: "font-weight CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-weight"
@@ -559904,7 +560204,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "caret-shape",
+        title: "caret-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.caret-shape"
@@ -559968,7 +560268,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "stroke-width",
+        title: "stroke-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-width"
@@ -560023,7 +560323,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "background-position-y",
+        title: "background-position-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-position-y"
@@ -560084,7 +560384,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-style",
+        title: "font-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-style"
@@ -560139,7 +560439,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-block-end",
+        title: "scroll-margin-block-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-block-end"
@@ -560184,7 +560484,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "animation-duration",
+        title: "animation-duration CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-duration"
@@ -560235,7 +560535,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "text-orientation",
+        title: "text-orientation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-orientation"
@@ -560290,7 +560590,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "transition-property",
+        title: "transition-property CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transition-property"
@@ -560342,7 +560642,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "opacity",
+        title: "opacity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.opacity"
@@ -560409,7 +560709,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "position-try-fallbacks",
+        title: "position-try-fallbacks CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position-try-fallbacks"
@@ -560481,7 +560781,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "inset-block-end",
+        title: "inset-block-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.inset-block-end"
@@ -560536,7 +560836,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "translate",
+        title: "translate CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.translate"
@@ -560591,7 +560891,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-image-source",
+        title: "border-image-source CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-image-source"
@@ -560650,7 +560950,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "box-orient",
+        title: "box-orient CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-orient"
@@ -560698,7 +560998,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "contain-intrinsic-block-size",
+        title: "contain-intrinsic-block-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.contain-intrinsic-block-size"
@@ -560747,7 +561047,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "text-box-edge",
+        title: "text-box-edge CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-box-edge"
@@ -560799,7 +561099,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "animation-play-state",
+        title: "animation-play-state CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-play-state"
@@ -560851,7 +561151,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "height",
+        title: "height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.height"
@@ -560933,7 +561233,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "grid-template-columns",
+        title: "grid-template-columns CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-template-columns"
@@ -561019,7 +561319,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "user-select",
+        title: "user-select CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.user-select"
@@ -561072,7 +561372,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "shape-margin",
+        title: "shape-margin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.shape-margin"
@@ -561124,7 +561424,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "grid-column-end",
+        title: "grid-column-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-column-end"
@@ -561181,7 +561481,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-block-end",
+        title: "scroll-padding-block-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-block-end"
@@ -561229,7 +561529,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "margin-left",
+        title: "margin-left CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-left"
@@ -561287,7 +561587,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "overscroll-behavior-y",
+        title: "overscroll-behavior-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overscroll-behavior-y"
@@ -561334,7 +561634,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "padding-left",
+        title: "padding-left CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-left"
@@ -561383,7 +561683,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "overflow-inline",
+        title: "overflow-inline CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-inline"
@@ -561436,7 +561736,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask",
+        title: "mask CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.mask"
@@ -561528,7 +561828,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "min-inline-size",
+        title: "min-inline-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.min-inline-size"
@@ -561597,7 +561897,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-inline-end-color",
+        title: "border-inline-end-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-end-color"
@@ -561651,7 +561951,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "column-fill",
+        title: "column-fill CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-fill"
@@ -561702,7 +562002,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "max-block-size",
+        title: "max-block-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.max-block-size"
@@ -561781,7 +562081,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-bottom-color",
+        title: "border-bottom-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-bottom-color"
@@ -561837,7 +562137,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "view-timeline-inset",
+        title: "view-timeline-inset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.view-timeline-inset"
@@ -561889,7 +562189,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "-webkit-text-stroke",
+        title: "-webkit-text-stroke CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.-webkit-text-stroke"
@@ -561944,7 +562244,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "background",
+        title: "background CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.background"
@@ -562039,7 +562339,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "field-sizing",
+        title: "field-sizing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.field-sizing"
@@ -562097,7 +562397,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "border-image-repeat",
+        title: "border-image-repeat CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-image-repeat"
@@ -562149,7 +562449,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "transition-delay",
+        title: "transition-delay CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transition-delay"
@@ -562200,7 +562500,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "font-stretch",
+        title: "font-stretch CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-stretch"
@@ -562257,7 +562557,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "box-flex",
+        title: "box-flex CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-flex"
@@ -562296,7 +562596,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
     links: {},
     data: {
       metadata: {
-        title: "mask-origin",
+        title: "mask-origin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-origin"
@@ -562361,7 +562661,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "inline-size",
+        title: "inline-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.inline-size"
@@ -562430,7 +562730,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "font-variant-ligatures",
+        title: "font-variant-ligatures CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-ligatures"
@@ -562489,7 +562789,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-line",
+        title: "text-decoration-line CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-line"
@@ -562544,7 +562844,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "touch-action",
+        title: "touch-action CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.touch-action"
@@ -562607,7 +562907,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "caption-side",
+        title: "caption-side CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.caption-side"
@@ -562662,7 +562962,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "word-spacing",
+        title: "word-spacing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.word-spacing"
@@ -562726,7 +563026,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "corner-right-shape",
+        title: "corner-right-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-right-shape"
@@ -562782,7 +563082,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-right",
+        title: "border-right CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-right"
@@ -562838,7 +563138,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "content",
+        title: "content CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.content"
@@ -562993,7 +563293,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-block-start-width",
+        title: "border-block-start-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-start-width"
@@ -563044,7 +563344,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "grid-template",
+        title: "grid-template CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.grid-template"
@@ -563118,7 +563418,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "white-space",
+        title: "white-space CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.white-space"
@@ -563190,7 +563490,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "overscroll-behavior-inline",
+        title: "overscroll-behavior-inline CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overscroll-behavior-inline"
@@ -563241,7 +563541,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-left-style",
+        title: "border-left-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-left-style"
@@ -563290,7 +563590,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "ruby-position",
+        title: "ruby-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.ruby-position"
@@ -563356,7 +563656,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-image-outset",
+        title: "border-image-outset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-image-outset"
@@ -563407,7 +563707,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "fill-opacity",
+        title: "fill-opacity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.fill-opacity"
@@ -563460,7 +563760,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "font-variant-emoji",
+        title: "font-variant-emoji CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-emoji"
@@ -563516,7 +563816,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "ruby-align",
+        title: "ruby-align CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.ruby-align"
@@ -563583,7 +563883,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "box-decoration-break",
+        title: "box-decoration-break CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-decoration-break"
@@ -563634,7 +563934,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-right-color",
+        title: "border-right-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-right-color"
@@ -563690,7 +563990,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "border-left-color",
+        title: "border-left-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-left-color"
@@ -563746,7 +564046,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "outline-width",
+        title: "outline-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.outline-width"
@@ -563801,7 +564101,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "page-break-before",
+        title: "page-break-before CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.page-break-before"
@@ -563860,7 +564160,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "padding-inline",
+        title: "padding-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.padding-inline"
@@ -563917,7 +564217,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
     links: {},
     data: {
       metadata: {
-        title: "baseline-source",
+        title: "baseline-source CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.baseline-source"
@@ -563969,7 +564269,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "margin",
+        title: "margin CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.margin"
@@ -564032,7 +564332,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "corner-left-shape",
+        title: "corner-left-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-left-shape"
@@ -564088,7 +564388,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "grid-auto-columns",
+        title: "grid-auto-columns CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-auto-columns"
@@ -564151,7 +564451,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "float",
+        title: "float CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.float"
@@ -564213,7 +564513,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "text-spacing-trim",
+        title: "text-spacing-trim CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-spacing-trim"
@@ -564275,7 +564575,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "-moz-user-input",
+        title: "-moz-user-input CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-moz-user-input"
@@ -564316,7 +564616,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "math-depth",
+        title: "math-depth CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.math-depth"
@@ -564369,7 +564669,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "text-emphasis-color",
+        title: "text-emphasis-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-emphasis-color"
@@ -564419,7 +564719,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "marker-end",
+        title: "marker-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.marker-end"
@@ -564466,7 +564766,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "vector-effect",
+        title: "vector-effect CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.vector-effect"
@@ -564514,7 +564814,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "position-try-order",
+        title: "position-try-order CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position-try-order"
@@ -564571,7 +564871,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "vertical-align",
+        title: "vertical-align CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.vertical-align"
@@ -564654,7 +564954,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "-moz-orient",
+        title: "-moz-orient CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-moz-orient"
@@ -564701,7 +565001,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "overflow-anchor",
+        title: "overflow-anchor CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-anchor"
@@ -564748,7 +565048,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "scrollbar-gutter",
+        title: "scrollbar-gutter CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scrollbar-gutter"
@@ -564803,7 +565103,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "border-start-end-radius",
+        title: "border-start-end-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-start-end-radius"
@@ -564858,7 +565158,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "fill",
+        title: "fill CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.fill"
@@ -564938,7 +565238,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "font-variant-numeric",
+        title: "font-variant-numeric CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-numeric"
@@ -564993,7 +565293,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "break-inside",
+        title: "break-inside CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.break-inside"
@@ -565057,7 +565357,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "clip",
+        title: "clip CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.clip"
@@ -565107,7 +565407,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "stroke-linejoin",
+        title: "stroke-linejoin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-linejoin"
@@ -565161,7 +565461,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "box-ordinal-group",
+        title: "box-ordinal-group CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-ordinal-group"
@@ -565202,7 +565502,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "-webkit-text-fill-color",
+        title: "-webkit-text-fill-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-text-fill-color"
@@ -565253,7 +565553,7 @@ The values allow for choosing between aligning to the box's first baseline, last
     links: {},
     data: {
       metadata: {
-        title: "print-color-adjust",
+        title: "print-color-adjust CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.print-color-adjust"
@@ -565305,7 +565605,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "cursor",
+        title: "cursor CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.cursor"
@@ -565328,7 +565628,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
       ],
       links: [
         "https://bugzil.la/275173",
-        "https://bugzil.la/275174"
+        "https://bugzil.la/275174",
+        "https://drafts.csswg.org/css-ui-4/"
       ],
       imgs: [
         "/en-US/docs/Web/CSS/Reference/Properties/cursor/default.gif",
@@ -565375,6 +565676,9 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "keyword",
         "formal_definition",
         "formal_syntax",
+        "cursor",
+        "<cursor-image>",
+        "<cursor-predefined>",
         "usage_notes",
         "icon_size_limits",
         "supported_image_file_formats",
@@ -565393,7 +565697,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-inset",
+        title: "text-decoration-inset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-inset"
@@ -565453,7 +565757,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "bottom",
+        title: "bottom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.bottom"
@@ -565514,7 +565818,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "-moz-force-broken-image-icon",
+        title: "-moz-force-broken-image-icon CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-moz-force-broken-image-icon"
@@ -565562,7 +565866,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "transform-style",
+        title: "transform-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transform-style"
@@ -565616,7 +565920,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-block-start-color",
+        title: "border-block-start-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-start-color"
@@ -565672,7 +565976,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "orphans",
+        title: "orphans CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.orphans"
@@ -565723,7 +566027,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "width",
+        title: "width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.width"
@@ -565823,7 +566127,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "font-family",
+        title: "font-family CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-family"
@@ -565893,7 +566197,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "align-content",
+        title: "align-content CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.align-content"
@@ -565965,7 +566269,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "contain-intrinsic-size",
+        title: "contain-intrinsic-size CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.contain-intrinsic-size"
@@ -566025,7 +566329,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-top",
+        title: "scroll-margin-top CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-top"
@@ -566070,7 +566374,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "perspective",
+        title: "perspective CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.perspective"
@@ -566118,7 +566422,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-transform",
+        title: "text-transform CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-transform"
@@ -566199,7 +566503,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-emphasis-style",
+        title: "text-emphasis-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-emphasis-style"
@@ -566253,7 +566557,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-inline-width",
+        title: "border-inline-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-width"
@@ -566303,7 +566607,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "line-break",
+        title: "line-break CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.line-break"
@@ -566358,7 +566662,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-block-style",
+        title: "border-block-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-style"
@@ -566410,7 +566714,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "outline-offset",
+        title: "outline-offset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.outline-offset"
@@ -566461,7 +566765,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "line-height-step",
+        title: "line-height-step CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.line-height-step"
@@ -566505,7 +566809,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "grid-area",
+        title: "grid-area CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.grid-area"
@@ -566563,7 +566867,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-position-x",
+        title: "-webkit-mask-position-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-mask-position-x"
@@ -566608,7 +566912,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "-webkit-box-reflect",
+        title: "-webkit-box-reflect CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-box-reflect"
@@ -566662,7 +566966,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "min-height",
+        title: "min-height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.min-height"
@@ -566729,7 +567033,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "padding-right",
+        title: "padding-right CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-right"
@@ -566778,7 +567082,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "overflow-clip-margin",
+        title: "overflow-clip-margin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-clip-margin"
@@ -566826,7 +567130,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "scroll-marker-group",
+        title: "scroll-marker-group CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-marker-group"
@@ -566880,7 +567184,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "animation",
+        title: "animation CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.animation"
@@ -566980,7 +567284,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "backdrop-filter",
+        title: "backdrop-filter CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.backdrop-filter"
@@ -567046,7 +567350,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "place-content",
+        title: "place-content CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.place-content"
@@ -567116,7 +567420,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "transform-origin",
+        title: "transform-origin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transform-origin"
@@ -567171,7 +567475,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-anchor",
+        title: "text-anchor CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-anchor"
@@ -567218,7 +567522,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-image-width",
+        title: "border-image-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-image-width"
@@ -567274,7 +567578,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-left",
+        title: "scroll-margin-left CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-left"
@@ -567319,7 +567623,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "mask-clip",
+        title: "mask-clip CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-clip"
@@ -567383,7 +567687,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "animation-iteration-count",
+        title: "animation-iteration-count CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-iteration-count"
@@ -567435,7 +567739,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "counter-reset",
+        title: "counter-reset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.counter-reset"
@@ -567497,7 +567801,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-bottom",
+        title: "scroll-padding-bottom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-bottom"
@@ -567545,7 +567849,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "cx",
+        title: "cx CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.cx"
@@ -567602,7 +567906,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "-webkit-touch-callout",
+        title: "-webkit-touch-callout CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-touch-callout"
@@ -567645,7 +567949,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-inline-start-color",
+        title: "border-inline-start-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-start-color"
@@ -567699,7 +568003,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-box",
+        title: "text-box CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.text-box"
@@ -567751,7 +568055,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "stop-color",
+        title: "stop-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stop-color"
@@ -567798,7 +568102,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "alignment-baseline",
+        title: "alignment-baseline CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.alignment-baseline"
@@ -567855,7 +568159,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "corner-bottom-left-shape",
+        title: "corner-bottom-left-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-bottom-left-shape"
@@ -567908,7 +568212,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "outline-color",
+        title: "outline-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.outline-color"
@@ -567971,7 +568275,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "inset-inline",
+        title: "inset-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.inset-inline"
@@ -568034,7 +568338,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "color-interpolation",
+        title: "color-interpolation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.color-interpolation"
@@ -568082,7 +568386,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-overflow",
+        title: "text-overflow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-overflow"
@@ -568147,7 +568451,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "overscroll-behavior-block",
+        title: "overscroll-behavior-block CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overscroll-behavior-block"
@@ -568198,7 +568502,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "font-variant-position",
+        title: "font-variant-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-position"
@@ -568249,7 +568553,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "background-origin",
+        title: "background-origin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-origin"
@@ -568301,7 +568605,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "transform-box",
+        title: "transform-box CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transform-box"
@@ -568351,7 +568655,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-top-left-radius",
+        title: "border-top-left-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-top-left-radius"
@@ -568412,7 +568716,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "interactivity",
+        title: "interactivity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.interactivity"
@@ -568476,7 +568780,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "border-block-color",
+        title: "border-block-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-color"
@@ -568533,7 +568837,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "background-attachment",
+        title: "background-attachment CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-attachment"
@@ -568591,7 +568895,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "text-align-last",
+        title: "text-align-last CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-align-last"
@@ -568646,7 +568950,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
     links: {},
     data: {
       metadata: {
-        title: "container-name",
+        title: "container-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.container-name"
@@ -568695,7 +568999,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-color",
+        title: "border-color CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-color"
@@ -568757,7 +569061,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-top",
+        title: "border-top CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-top"
@@ -568813,7 +569117,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "background-image",
+        title: "background-image CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-image"
@@ -568883,7 +569187,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "position-visibility",
+        title: "position-visibility CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position-visibility"
@@ -568937,7 +569241,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-wrap-mode",
+        title: "text-wrap-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-wrap-mode"
@@ -568993,7 +569297,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "object-fit",
+        title: "object-fit CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.object-fit"
@@ -569049,7 +569353,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "view-timeline",
+        title: "view-timeline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.view-timeline"
@@ -569107,7 +569411,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-radius",
+        title: "border-radius CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-radius"
@@ -569172,7 +569476,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "margin-inline-start",
+        title: "margin-inline-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-inline-start"
@@ -569229,7 +569533,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "overscroll-behavior-x",
+        title: "overscroll-behavior-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overscroll-behavior-x"
@@ -569278,7 +569582,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-block-end-width",
+        title: "border-block-end-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-end-width"
@@ -569329,7 +569633,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "flex-direction",
+        title: "flex-direction CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flex-direction"
@@ -569386,7 +569690,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "left",
+        title: "left CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.left"
@@ -569447,7 +569751,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-block",
+        title: "scroll-padding-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-padding-block"
@@ -569496,7 +569800,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-inline-start",
+        title: "border-inline-start CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-inline-start"
@@ -569549,7 +569853,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "animation-timing-function",
+        title: "animation-timing-function CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-timing-function"
@@ -569633,7 +569937,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "fill-rule",
+        title: "fill-rule CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.fill-rule"
@@ -569683,7 +569987,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "counter-increment",
+        title: "counter-increment CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.counter-increment"
@@ -569738,7 +570042,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "flex-wrap",
+        title: "flex-wrap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flex-wrap"
@@ -569790,7 +570094,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "row-gap",
+        title: "row-gap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.row-gap"
@@ -569849,7 +570153,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "corner-top-left-shape",
+        title: "corner-top-left-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-top-left-shape"
@@ -569902,7 +570206,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "position",
+        title: "position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position"
@@ -569985,7 +570289,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "interpolate-size",
+        title: "interpolate-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.interpolate-size"
@@ -570041,7 +570345,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "order",
+        title: "order CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.order"
@@ -570098,7 +570402,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "r",
+        title: "r CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.r"
@@ -570151,7 +570455,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "inset-block",
+        title: "inset-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.inset-block"
@@ -570214,7 +570518,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "math-shift",
+        title: "math-shift CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.math-shift"
@@ -570314,7 +570618,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-inline-end",
+        title: "border-inline-end CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-inline-end"
@@ -570367,7 +570671,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "overflow-y",
+        title: "overflow-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-y"
@@ -570421,7 +570725,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-bottom-width",
+        title: "border-bottom-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-bottom-width"
@@ -570472,7 +570776,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "reading-flow",
+        title: "reading-flow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.reading-flow"
@@ -570542,7 +570846,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "grid-auto-rows",
+        title: "grid-auto-rows CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-auto-rows"
@@ -570605,7 +570909,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "page-break-after",
+        title: "page-break-after CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.page-break-after"
@@ -570664,7 +570968,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "column-rule-color",
+        title: "column-rule-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-rule-color"
@@ -570721,7 +571025,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "background-blend-mode",
+        title: "background-blend-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-blend-mode"
@@ -570771,7 +571075,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-top",
+        title: "scroll-padding-top CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-top"
@@ -570819,7 +571123,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "justify-content",
+        title: "justify-content CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.justify-content"
@@ -570897,7 +571201,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "table-layout",
+        title: "table-layout CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.table-layout"
@@ -570948,7 +571252,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-underline-offset",
+        title: "text-underline-offset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-underline-offset"
@@ -570999,7 +571303,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "inset-inline-start",
+        title: "inset-inline-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.inset-inline-start"
@@ -571054,7 +571358,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "outline-style",
+        title: "outline-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.outline-style"
@@ -571135,7 +571439,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "corner-block-start-shape",
+        title: "corner-block-start-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-block-start-shape"
@@ -571191,7 +571495,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "animation-range-end",
+        title: "animation-range-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-range-end"
@@ -571247,7 +571551,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "align-items",
+        title: "align-items CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.align-items"
@@ -571316,7 +571620,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "animation-delay",
+        title: "animation-delay CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-delay"
@@ -571366,7 +571670,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-end-start-radius",
+        title: "border-end-start-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-end-start-radius"
@@ -571421,7 +571725,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-block-width",
+        title: "border-block-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-width"
@@ -571473,7 +571777,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "offset-anchor",
+        title: "offset-anchor CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.offset-anchor"
@@ -571531,7 +571835,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "line-clamp",
+        title: "line-clamp CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.line-clamp"
@@ -571585,7 +571889,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "reading-order",
+        title: "reading-order CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.reading-order"
@@ -571642,7 +571946,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "counter-set",
+        title: "counter-set CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.counter-set"
@@ -571693,7 +571997,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "letter-spacing",
+        title: "letter-spacing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.letter-spacing"
@@ -571759,7 +572063,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "flex-shrink",
+        title: "flex-shrink CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flex-shrink"
@@ -571810,7 +572114,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "writing-mode",
+        title: "writing-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.writing-mode"
@@ -571881,7 +572185,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "transition-timing-function",
+        title: "transition-timing-function CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transition-timing-function"
@@ -571957,7 +572261,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "outline",
+        title: "outline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.outline"
@@ -572027,7 +572331,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-size-adjust",
+        title: "text-size-adjust CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-size-adjust"
@@ -572079,7 +572383,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "font-width",
+        title: "font-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-width"
@@ -572142,7 +572446,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-start-start-radius",
+        title: "border-start-start-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-start-start-radius"
@@ -572197,7 +572501,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "inset-block-start",
+        title: "inset-block-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.inset-block-start"
@@ -572252,7 +572556,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "empty-cells",
+        title: "empty-cells CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.empty-cells"
@@ -572303,7 +572607,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "view-transition-class",
+        title: "view-transition-class CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.view-transition-class"
@@ -572351,7 +572655,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-repeat-y",
+        title: "-webkit-mask-repeat-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-mask-repeat-y"
@@ -572395,7 +572699,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-inline-start-width",
+        title: "border-inline-start-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-start-width"
@@ -572444,7 +572748,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scrollbar-color",
+        title: "scrollbar-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scrollbar-color"
@@ -572495,7 +572799,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "transition-duration",
+        title: "transition-duration CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transition-duration"
@@ -572546,7 +572850,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-block-end-color",
+        title: "border-block-end-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-end-color"
@@ -572602,7 +572906,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "position-area",
+        title: "position-area CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position-area"
@@ -572669,7 +572973,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "stroke-linecap",
+        title: "stroke-linecap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-linecap"
@@ -572720,7 +573024,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-inline-end",
+        title: "scroll-margin-inline-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-inline-end"
@@ -572771,7 +573075,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "z-index",
+        title: "z-index CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.z-index"
@@ -572824,7 +573128,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "transition-behavior",
+        title: "transition-behavior CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transition-behavior"
@@ -572878,7 +573182,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "flex-flow",
+        title: "flex-flow CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.flex-flow"
@@ -572926,7 +573230,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-image",
+        title: "border-image CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-image"
@@ -573015,7 +573319,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "font-size",
+        title: "font-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-size"
@@ -573085,7 +573389,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "flood-color",
+        title: "flood-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flood-color"
@@ -573134,7 +573438,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "inset",
+        title: "inset CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.inset"
@@ -573197,7 +573501,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-emphasis-position",
+        title: "text-emphasis-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-emphasis-position"
@@ -573258,7 +573562,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "padding-bottom",
+        title: "padding-bottom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-bottom"
@@ -573309,7 +573613,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-shadow",
+        title: "text-shadow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-shadow"
@@ -573362,7 +573666,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "box-pack",
+        title: "box-pack CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-pack"
@@ -573407,7 +573711,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "offset",
+        title: "offset CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.offset"
@@ -573508,7 +573812,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "corner-top-right-shape",
+        title: "corner-top-right-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-top-right-shape"
@@ -573561,7 +573865,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "object-view-box",
+        title: "object-view-box CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.object-view-box"
@@ -573638,7 +573942,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "animation-name",
+        title: "animation-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-name"
@@ -573691,7 +573995,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "mask-border-mode",
+        title: "mask-border-mode CSS property",
         pageType: "css-property",
         summary: "The mask-border-mode CSS property specifies the blending mode used in a mask border.",
         popularity: 0.0018761409914337872,
@@ -573732,7 +574036,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "rx",
+        title: "rx CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.rx"
@@ -573795,7 +574099,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-block",
+        title: "border-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-block"
@@ -573852,7 +574156,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scale",
+        title: "scale CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scale"
@@ -573905,7 +574209,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "interest-delay",
+        title: "interest-delay CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.interest-delay"
@@ -573961,7 +574265,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "ruby-overhang",
+        title: "ruby-overhang CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.ruby-overhang"
@@ -574013,7 +574317,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "column-count",
+        title: "column-count CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-count"
@@ -574066,7 +574370,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-wrap-style",
+        title: "text-wrap-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-wrap-style"
@@ -574120,7 +574424,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "max-width",
+        title: "max-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.max-width"
@@ -574193,7 +574497,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "text-emphasis",
+        title: "text-emphasis CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.text-emphasis"
@@ -574255,7 +574559,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-collapse",
+        title: "border-collapse CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-collapse"
@@ -574306,7 +574610,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "ry",
+        title: "ry CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.ry"
@@ -574369,7 +574673,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "scroll-behavior",
+        title: "scroll-behavior CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-behavior"
@@ -574419,7 +574723,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "grid-auto-flow",
+        title: "grid-auto-flow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-auto-flow"
@@ -574473,7 +574777,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-left-width",
+        title: "border-left-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-left-width"
@@ -574524,7 +574828,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "place-self",
+        title: "place-self CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.place-self"
@@ -574590,7 +574894,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "box-flex-group",
+        title: "box-flex-group CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-flex-group"
@@ -574631,7 +574935,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "direction",
+        title: "direction CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.direction"
@@ -574684,7 +574988,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "corner-inline-start-shape",
+        title: "corner-inline-start-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-inline-start-shape"
@@ -574740,7 +575044,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "speak-as",
+        title: "speak-as CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.speak-as"
@@ -574792,7 +575096,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "column-rule-width",
+        title: "column-rule-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-rule-width"
@@ -574851,7 +575155,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "interest-delay-end",
+        title: "interest-delay-end CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.interest-delay-end"
@@ -574904,7 +575208,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "animation-range-start",
+        title: "animation-range-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-range-start"
@@ -574961,7 +575265,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border-block-end",
+        title: "border-block-end CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-block-end"
@@ -575016,7 +575320,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "x",
+        title: "x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.x"
@@ -575068,7 +575372,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "d",
+        title: "d CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.d"
@@ -575123,7 +575427,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "border",
+        title: "border CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border"
@@ -575180,7 +575484,7 @@ When a containment context is given a name, it can be specifically targeted usin
     links: {},
     data: {
       metadata: {
-        title: "caret",
+        title: "caret CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.caret"
@@ -575199,15 +575503,15 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -575215,27 +575519,27 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -575337,7 +575641,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font-synthesis-weight",
+        title: "font-synthesis-weight CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-synthesis-weight"
@@ -575387,7 +575691,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "overscroll-behavior",
+        title: "overscroll-behavior CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.overscroll-behavior"
@@ -575442,7 +575746,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "border-end-end-radius",
+        title: "border-end-end-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-end-end-radius"
@@ -575497,7 +575801,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "mask-border-source",
+        title: "mask-border-source CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-border-source"
@@ -575555,7 +575859,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "column-height",
+        title: "column-height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-height"
@@ -575618,7 +575922,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "interest-delay-start",
+        title: "interest-delay-start CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.interest-delay-start"
@@ -575676,7 +575980,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "grid-column",
+        title: "grid-column CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.grid-column"
@@ -575734,7 +576038,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font-optical-sizing",
+        title: "font-optical-sizing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-optical-sizing"
@@ -575783,7 +576087,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "mask-border-outset",
+        title: "mask-border-outset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-border-outset"
@@ -575829,7 +576133,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "column-gap",
+        title: "column-gap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-gap"
@@ -575903,7 +576207,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "padding-top",
+        title: "padding-top CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-top"
@@ -575954,7 +576258,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "dynamic-range-limit",
+        title: "dynamic-range-limit CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.dynamic-range-limit"
@@ -576011,7 +576315,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "break-before",
+        title: "break-before CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.break-before"
@@ -576088,7 +576392,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "padding-block-end",
+        title: "padding-block-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-block-end"
@@ -576144,7 +576448,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "margin-block-end",
+        title: "margin-block-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-block-end"
@@ -576201,7 +576505,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-block-start",
+        title: "scroll-margin-block-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-block-start"
@@ -576246,7 +576550,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font",
+        title: "font CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.font"
@@ -576328,7 +576632,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "clip-path",
+        title: "clip-path CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.clip-path"
@@ -576454,7 +576758,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "inset-inline-end",
+        title: "inset-inline-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.inset-inline-end"
@@ -576509,7 +576813,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "page",
+        title: "page CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.page"
@@ -576555,7 +576859,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font-variant-caps",
+        title: "font-variant-caps CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variant-caps"
@@ -576615,7 +576919,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "align-self",
+        title: "align-self CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.align-self"
@@ -576683,7 +576987,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "overflow-block",
+        title: "overflow-block CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-block"
@@ -576735,7 +577039,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "mask-size",
+        title: "mask-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-size"
@@ -576800,7 +577104,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "stroke-dasharray",
+        title: "stroke-dasharray CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-dasharray"
@@ -576864,7 +577168,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "-webkit-text-security",
+        title: "-webkit-text-security CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-text-security"
@@ -576904,7 +577208,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "animation-composition",
+        title: "animation-composition CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-composition"
@@ -576957,7 +577261,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font-synthesis-style",
+        title: "font-synthesis-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-synthesis-style"
@@ -577013,7 +577317,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "font-kerning",
+        title: "font-kerning CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-kerning"
@@ -577067,7 +577371,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "gap",
+        title: "gap CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.gap"
@@ -577141,7 +577445,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "background-repeat",
+        title: "background-repeat CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-repeat"
@@ -577199,7 +577503,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "border-block-end-style",
+        title: "border-block-end-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-end-style"
@@ -577250,7 +577554,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-style",
+        title: "text-decoration-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-style"
@@ -577305,7 +577609,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
     links: {},
     data: {
       metadata: {
-        title: "background-size",
+        title: "background-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-size"
@@ -577364,7 +577668,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
     links: {},
     data: {
       metadata: {
-        title: "grid-template-areas",
+        title: "grid-template-areas CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-template-areas"
@@ -577416,7 +577720,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
     links: {},
     data: {
       metadata: {
-        title: "shape-rendering",
+        title: "shape-rendering CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.shape-rendering"
@@ -577465,7 +577769,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin",
+        title: "scroll-margin CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-margin"
@@ -577518,7 +577822,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "position-anchor",
+        title: "position-anchor CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.position-anchor"
@@ -577579,7 +577883,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "grid",
+        title: "grid CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.grid"
@@ -577655,7 +577959,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "-webkit-tap-highlight-color",
+        title: "-webkit-tap-highlight-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-tap-highlight-color"
@@ -577693,7 +577997,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "max-inline-size",
+        title: "max-inline-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.max-inline-size"
@@ -577762,7 +578066,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "margin-top",
+        title: "margin-top CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-top"
@@ -577816,7 +578120,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-inline",
+        title: "scroll-margin-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-margin-inline"
@@ -577869,7 +578173,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "visibility",
+        title: "visibility CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.visibility"
@@ -577931,7 +578235,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "justify-self",
+        title: "justify-self CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.justify-self"
@@ -578000,7 +578304,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "font-variation-settings",
+        title: "font-variation-settings CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-variation-settings"
@@ -578057,7 +578361,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "paint-order",
+        title: "paint-order CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.paint-order"
@@ -578113,7 +578417,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "corner-end-end-shape",
+        title: "corner-end-end-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-end-end-shape"
@@ -578166,7 +578470,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "box-lines",
+        title: "box-lines CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-lines"
@@ -578207,7 +578511,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-block",
+        title: "scroll-margin-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-margin-block"
@@ -578254,7 +578558,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "image-resolution",
+        title: "image-resolution CSS property",
         pageType: "css-property",
         summary: "The image-resolution CSS property specifies the intrinsic resolution of all raster images used in or on the element. It affects content images such as replaced elements and generated content, and decorative images such as background-image images.",
         popularity: 0.004465664934700183,
@@ -578302,7 +578606,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "animation-range",
+        title: "animation-range CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.animation-range"
@@ -578362,7 +578666,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "widows",
+        title: "widows CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.widows"
@@ -578417,7 +578721,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "list-style-image",
+        title: "list-style-image CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.list-style-image"
@@ -578486,7 +578790,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "hyphenate-limit-chars",
+        title: "hyphenate-limit-chars CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.hyphenate-limit-chars"
@@ -578539,7 +578843,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "corner-start-start-shape",
+        title: "corner-start-start-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-start-start-shape"
@@ -578592,7 +578896,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-inline-end-width",
+        title: "border-inline-end-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-end-width"
@@ -578643,7 +578947,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "corner-shape",
+        title: "corner-shape CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.corner-shape"
@@ -578726,7 +579030,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "user-modify",
+        title: "user-modify CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.user-modify"
@@ -578769,7 +579073,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-thickness",
+        title: "text-decoration-thickness CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-thickness"
@@ -578826,7 +579130,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "unicode-bidi",
+        title: "unicode-bidi CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.unicode-bidi"
@@ -578880,7 +579184,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-inline-end",
+        title: "scroll-padding-inline-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-inline-end"
@@ -578928,7 +579232,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "view-transition-name",
+        title: "view-transition-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.view-transition-name"
@@ -578986,7 +579290,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "perspective-origin",
+        title: "perspective-origin CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.perspective-origin"
@@ -579040,7 +579344,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "column-wrap",
+        title: "column-wrap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-wrap"
@@ -579099,7 +579403,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "flex",
+        title: "flex CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.flex"
@@ -579175,7 +579479,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-indent",
+        title: "text-indent CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-indent"
@@ -579240,7 +579544,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "break-after",
+        title: "break-after CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.break-after"
@@ -579317,7 +579621,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "corner-block-end-shape",
+        title: "corner-block-end-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-block-end-shape"
@@ -579373,7 +579677,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-right",
+        title: "scroll-margin-right CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-right"
@@ -579418,7 +579722,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "will-change",
+        title: "will-change CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.will-change"
@@ -579469,7 +579773,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "line-height",
+        title: "line-height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.line-height"
@@ -579530,7 +579834,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-bottom",
+        title: "scroll-margin-bottom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-bottom"
@@ -579575,7 +579879,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-inline-color",
+        title: "border-inline-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-color"
@@ -579632,7 +579936,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "stroke-miterlimit",
+        title: "stroke-miterlimit CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-miterlimit"
@@ -579681,7 +579985,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "marker-mid",
+        title: "marker-mid CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.marker-mid"
@@ -579728,7 +580032,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "background-position",
+        title: "background-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-position"
@@ -579788,7 +580092,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "-webkit-text-stroke-width",
+        title: "-webkit-text-stroke-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-text-stroke-width"
@@ -579841,7 +580145,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "background-position-x",
+        title: "background-position-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-position-x"
@@ -579902,7 +580206,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "marker-start",
+        title: "marker-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.marker-start"
@@ -579949,7 +580253,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "hanging-punctuation",
+        title: "hanging-punctuation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.hanging-punctuation"
@@ -580008,7 +580312,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "image-rendering",
+        title: "image-rendering CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.image-rendering"
@@ -580064,7 +580368,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-right",
+        title: "scroll-padding-right CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-right"
@@ -580112,7 +580416,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "min-width",
+        title: "min-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.min-width"
@@ -580179,7 +580483,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "rotate",
+        title: "rotate CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.rotate"
@@ -580232,7 +580536,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "container-type",
+        title: "container-type CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.container-type"
@@ -580290,7 +580594,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "mask-border-slice",
+        title: "mask-border-slice CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-border-slice"
@@ -580340,7 +580644,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "appearance",
+        title: "appearance CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.appearance"
@@ -580415,7 +580719,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "max-height",
+        title: "max-height CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.max-height"
@@ -580484,7 +580788,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-bottom",
+        title: "border-bottom CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-bottom"
@@ -580540,7 +580844,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-bottom-left-radius",
+        title: "border-bottom-left-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-bottom-left-radius"
@@ -580601,7 +580905,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "caret-color",
+        title: "caret-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.caret-color"
@@ -580656,7 +580960,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "margin-block",
+        title: "margin-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.margin-block"
@@ -580714,7 +581018,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "animation-fill-mode",
+        title: "animation-fill-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.animation-fill-mode"
@@ -580768,7 +581072,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-autospace",
+        title: "text-autospace CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-autospace"
@@ -580822,7 +581126,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "top",
+        title: "top CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.top"
@@ -580879,7 +581183,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "box-direction",
+        title: "box-direction CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-direction"
@@ -580921,7 +581225,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "margin-inline",
+        title: "margin-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.margin-inline"
@@ -580979,7 +581283,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "scroll-margin-inline-start",
+        title: "scroll-margin-inline-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-margin-inline-start"
@@ -581030,7 +581334,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-bottom-right-radius",
+        title: "border-bottom-right-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-bottom-right-radius"
@@ -581091,7 +581395,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-box-trim",
+        title: "text-box-trim CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-box-trim"
@@ -581149,7 +581453,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "caret-animation",
+        title: "caret-animation CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.caret-animation"
@@ -581206,7 +581510,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-skip",
+        title: "text-decoration-skip CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-skip"
@@ -581266,7 +581570,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-spacing",
+        title: "border-spacing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-spacing"
@@ -581317,7 +581621,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "border-inline",
+        title: "border-inline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-inline"
@@ -581374,7 +581678,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "accent-color",
+        title: "accent-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.accent-color"
@@ -581426,7 +581730,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "text-wrap",
+        title: "text-wrap CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.text-wrap"
@@ -581487,7 +581791,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "white-space-collapse",
+        title: "white-space-collapse CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.white-space-collapse"
@@ -581539,7 +581843,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-repeat-x",
+        title: "-webkit-mask-repeat-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-mask-repeat-x"
@@ -581583,7 +581887,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
     links: {},
     data: {
       metadata: {
-        title: "zoom",
+        title: "zoom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.zoom"
@@ -581649,7 +581953,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "content-visibility",
+        title: "content-visibility CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.content-visibility"
@@ -581715,7 +582019,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "backface-visibility",
+        title: "backface-visibility CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.backface-visibility"
@@ -581766,7 +582070,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-position-y",
+        title: "-webkit-mask-position-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-mask-position-y"
@@ -581811,7 +582115,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "overflow-x",
+        title: "overflow-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-x"
@@ -581864,7 +582168,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "border-left",
+        title: "border-left CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-left"
@@ -581920,7 +582224,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "border-top-right-radius",
+        title: "border-top-right-radius CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-top-right-radius"
@@ -581981,7 +582285,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "shape-outside",
+        title: "shape-outside CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.shape-outside"
@@ -582092,7 +582396,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "column-width",
+        title: "column-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-width"
@@ -582150,7 +582454,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "list-style-position",
+        title: "list-style-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.list-style-position"
@@ -582203,7 +582507,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "columns",
+        title: "columns CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.columns"
@@ -582268,7 +582572,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "margin-bottom",
+        title: "margin-bottom CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-bottom"
@@ -582328,7 +582632,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "scroll-timeline-name",
+        title: "scroll-timeline-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-timeline-name"
@@ -582378,7 +582682,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "justify-items",
+        title: "justify-items CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.justify-items"
@@ -582446,7 +582750,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "scrollbar-width",
+        title: "scrollbar-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scrollbar-width"
@@ -582500,7 +582804,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "mask-border-width",
+        title: "mask-border-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-border-width"
@@ -582549,7 +582853,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "padding-block-start",
+        title: "padding-block-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-block-start"
@@ -582605,7 +582909,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "border-bottom-style",
+        title: "border-bottom-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-bottom-style"
@@ -582654,7 +582958,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "mask-border-repeat",
+        title: "mask-border-repeat CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-border-repeat"
@@ -582702,7 +583006,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "column-span",
+        title: "column-span CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-span"
@@ -582755,7 +583059,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding",
+        title: "scroll-padding CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-padding"
@@ -582804,7 +583108,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "grid-column-start",
+        title: "grid-column-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-column-start"
@@ -582861,7 +583165,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "right",
+        title: "right CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.right"
@@ -582927,7 +583231,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "corner-start-end-shape",
+        title: "corner-start-end-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-start-end-shape"
@@ -582980,7 +583284,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "quotes",
+        title: "quotes CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.quotes"
@@ -583047,7 +583351,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "font-synthesis-position",
+        title: "font-synthesis-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-synthesis-position"
@@ -583099,7 +583403,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "color",
+        title: "color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.color"
@@ -583154,7 +583458,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "hyphenate-character",
+        title: "hyphenate-character CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.hyphenate-character"
@@ -583204,7 +583508,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "clear",
+        title: "clear CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.clear"
@@ -583271,7 +583575,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "border-inline-start-style",
+        title: "border-inline-start-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-inline-start-style"
@@ -583320,7 +583624,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "flood-opacity",
+        title: "flood-opacity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flood-opacity"
@@ -583373,7 +583677,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-box-image",
+        title: "-webkit-mask-box-image CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.-webkit-mask-box-image"
@@ -583424,7 +583728,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "offset-rotate",
+        title: "offset-rotate CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.offset-rotate"
@@ -583476,7 +583780,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "corner-bottom-shape",
+        title: "corner-bottom-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-bottom-shape"
@@ -583532,7 +583836,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "list-style-type",
+        title: "list-style-type CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.list-style-type"
@@ -583670,7 +583974,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "-moz-float-edge",
+        title: "-moz-float-edge CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-moz-float-edge"
@@ -583716,7 +584020,7 @@ transform: scale() can be used as an alternative to this property.`,
     links: {},
     data: {
       metadata: {
-        title: "transform",
+        title: "transform CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.transform"
@@ -583811,7 +584115,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "text-underline-position",
+        title: "text-underline-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-underline-position"
@@ -583863,7 +584167,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "-moz-user-focus",
+        title: "-moz-user-focus CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-moz-user-focus"
@@ -583906,7 +584210,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "dominant-baseline",
+        title: "dominant-baseline CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.dominant-baseline"
@@ -583964,7 +584268,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "scroll-timeline",
+        title: "scroll-timeline CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.scroll-timeline"
@@ -584018,7 +584322,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "container",
+        title: "container CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.container"
@@ -584067,7 +584371,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "border-top-width",
+        title: "border-top-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-top-width"
@@ -584117,7 +584421,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "grid-row-start",
+        title: "grid-row-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-row-start"
@@ -584174,7 +584478,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "stroke-dashoffset",
+        title: "stroke-dashoffset CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-dashoffset"
@@ -584224,7 +584528,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "box-sizing",
+        title: "box-sizing CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.box-sizing"
@@ -584276,7 +584580,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "padding-block",
+        title: "padding-block CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.padding-block"
@@ -584331,7 +584635,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-inline-start",
+        title: "scroll-padding-inline-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-inline-start"
@@ -584379,7 +584683,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "anchor-scope",
+        title: "anchor-scope CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.anchor-scope"
@@ -584437,7 +584741,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
     links: {},
     data: {
       metadata: {
-        title: "contain",
+        title: "contain CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.contain"
@@ -584500,7 +584804,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "background-repeat-x",
+        title: "background-repeat-x CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-repeat-x"
@@ -584557,7 +584861,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "border-style",
+        title: "border-style CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.border-style"
@@ -584620,7 +584924,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "offset-position",
+        title: "offset-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.offset-position"
@@ -584681,7 +584985,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "background-color",
+        title: "background-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-color"
@@ -584740,7 +585044,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "stop-opacity",
+        title: "stop-opacity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stop-opacity"
@@ -584788,7 +585092,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "-webkit-mask-composite",
+        title: "-webkit-mask-composite CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.-webkit-mask-composite"
@@ -584837,7 +585141,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "scroll-snap-stop",
+        title: "scroll-snap-stop CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-snap-stop"
@@ -584889,7 +585193,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "text-rendering",
+        title: "text-rendering CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-rendering"
@@ -584946,7 +585250,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "tab-size",
+        title: "tab-size CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.tab-size"
@@ -584999,7 +585303,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "grid-row",
+        title: "grid-row CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.grid-row"
@@ -585057,7 +585361,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "stroke-opacity",
+        title: "stroke-opacity CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke-opacity"
@@ -585110,7 +585414,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "view-timeline-name",
+        title: "view-timeline-name CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.view-timeline-name"
@@ -585161,7 +585465,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "margin-inline-end",
+        title: "margin-inline-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.margin-inline-end"
@@ -585218,7 +585522,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "lighting-color",
+        title: "lighting-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.lighting-color"
@@ -585267,7 +585571,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "-webkit-border-before",
+        title: "-webkit-border-before CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.-webkit-border-before"
@@ -585322,7 +585626,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "border-top-color",
+        title: "border-top-color CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-top-color"
@@ -585378,7 +585682,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "text-decoration-skip-ink",
+        title: "text-decoration-skip-ink CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-decoration-skip-ink"
@@ -585431,7 +585735,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "grid-row-end",
+        title: "grid-row-end CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.grid-row-end"
@@ -585488,7 +585792,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "timeline-scope",
+        title: "timeline-scope CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.timeline-scope"
@@ -585539,7 +585843,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "flex-basis",
+        title: "flex-basis CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flex-basis"
@@ -585611,7 +585915,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "pointer-events",
+        title: "pointer-events CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.pointer-events"
@@ -585678,7 +585982,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "padding-inline-start",
+        title: "padding-inline-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.padding-inline-start"
@@ -585734,7 +586038,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "page-break-inside",
+        title: "page-break-inside CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.page-break-inside"
@@ -585788,7 +586092,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "border-block-start-style",
+        title: "border-block-start-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-block-start-style"
@@ -585839,7 +586143,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "filter",
+        title: "filter CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.filter"
@@ -585912,7 +586216,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "text-align",
+        title: "text-align CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-align"
@@ -585989,7 +586293,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "border-right-width",
+        title: "border-right-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.border-right-width"
@@ -586040,7 +586344,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "font-language-override",
+        title: "font-language-override CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.font-language-override"
@@ -586091,7 +586395,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "overflow-wrap",
+        title: "overflow-wrap CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.overflow-wrap"
@@ -586143,7 +586447,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "corner-inline-end-shape",
+        title: "corner-inline-end-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-inline-end-shape"
@@ -586199,7 +586503,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "initial-letter",
+        title: "initial-letter CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.initial-letter"
@@ -586258,7 +586562,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "flex-grow",
+        title: "flex-grow CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.flex-grow"
@@ -586310,7 +586614,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "scroll-snap-type",
+        title: "scroll-snap-type CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-snap-type"
@@ -586368,7 +586672,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "stroke",
+        title: "stroke CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.stroke"
@@ -586442,7 +586746,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "text-combine-upright",
+        title: "text-combine-upright CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-combine-upright"
@@ -586495,7 +586799,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "padding",
+        title: "padding CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.padding"
@@ -586551,7 +586855,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "position-try",
+        title: "position-try CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.position-try"
@@ -586605,7 +586909,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "baseline-shift",
+        title: "baseline-shift CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.baseline-shift"
@@ -586662,7 +586966,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "corner-top-shape",
+        title: "corner-top-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-top-shape"
@@ -586718,7 +587022,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-left",
+        title: "scroll-padding-left CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-left"
@@ -586766,7 +587070,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "marker",
+        title: "marker CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.marker"
@@ -586813,7 +587117,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "scroll-padding-block-start",
+        title: "scroll-padding-block-start CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.scroll-padding-block-start"
@@ -586861,7 +587165,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "mix-blend-mode",
+        title: "mix-blend-mode CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mix-blend-mode"
@@ -586928,7 +587232,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "mask-position",
+        title: "mask-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-position"
@@ -586986,7 +587290,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "aspect-ratio",
+        title: "aspect-ratio CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.aspect-ratio"
@@ -587041,7 +587345,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "corner-end-start-shape",
+        title: "corner-end-start-shape CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.corner-end-start-shape"
@@ -587094,7 +587398,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "shape-image-threshold",
+        title: "shape-image-threshold CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.shape-image-threshold"
@@ -587146,7 +587450,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "text-justify",
+        title: "text-justify CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.text-justify"
@@ -587196,7 +587500,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "mask-image",
+        title: "mask-image CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.mask-image"
@@ -587278,7 +587582,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "contain-intrinsic-width",
+        title: "contain-intrinsic-width CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.contain-intrinsic-width"
@@ -587327,7 +587631,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "color-scheme",
+        title: "color-scheme CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.color-scheme"
@@ -587378,7 +587682,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "column-rule-style",
+        title: "column-rule-style CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.column-rule-style"
@@ -587437,7 +587741,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "word-break",
+        title: "word-break CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.word-break"
@@ -587489,7 +587793,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "background-repeat-y",
+        title: "background-repeat-y CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.background-repeat-y"
@@ -587546,7 +587850,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "display",
+        title: "display CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.display"
@@ -587665,7 +587969,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "font-variant",
+        title: "font-variant CSS property",
         pageType: "css-shorthand-property",
         browserCompat: [
           "css.properties.font-variant"
@@ -587738,7 +588042,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "object-position",
+        title: "object-position CSS property",
         pageType: "css-property",
         browserCompat: [
           "css.properties.object-position"
@@ -588181,7 +588485,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "@counter-style",
+        title: "@counter-style CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.counter-style"
@@ -588493,7 +588797,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
     links: {},
     data: {
       metadata: {
-        title: "@import",
+        title: "@import CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.import"
@@ -588632,7 +588936,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@layer",
+        title: "@layer CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.layer"
@@ -588802,7 +589106,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@font-palette-values",
+        title: "@font-palette-values CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.font-palette-values"
@@ -588905,7 +589209,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@view-transition",
+        title: "@view-transition CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.view-transition"
@@ -589006,7 +589310,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@page",
+        title: "@page CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.page"
@@ -589627,7 +589931,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@font-face",
+        title: "@font-face CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.font-face"
@@ -589930,7 +590234,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@namespace",
+        title: "@namespace CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.namespace"
@@ -589976,7 +590280,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "@charset",
+        title: "@charset CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.charset"
@@ -590020,7 +590324,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "dynamic-range",
+        title: "dynamic-range CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.dynamic-range"
@@ -590059,7 +590363,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "device-posture",
+        title: "device-posture CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.device-posture"
@@ -590102,7 +590406,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "any-hover",
+        title: "any-hover CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.any-hover"
@@ -590146,7 +590450,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "inverted-colors",
+        title: "inverted-colors CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.inverted-colors"
@@ -590190,7 +590494,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "height",
+        title: "height CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.height"
@@ -590231,7 +590535,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "color-index",
+        title: "color-index CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.color-index"
@@ -590274,7 +590578,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "overflow-inline",
+        title: "overflow-inline CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.overflow-inline"
@@ -590316,7 +590620,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "video-dynamic-range",
+        title: "video-dynamic-range CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.video-dynamic-range"
@@ -590354,7 +590658,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
     links: {},
     data: {
       metadata: {
-        title: "prefers-color-scheme",
+        title: "prefers-color-scheme CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.prefers-color-scheme"
@@ -590410,7 +590714,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "pointer",
+        title: "pointer CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.pointer"
@@ -590454,7 +590758,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "device-width",
+        title: "device-width CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.device-width"
@@ -590494,7 +590798,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "device-height",
+        title: "device-height CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.device-height"
@@ -590534,7 +590838,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "width",
+        title: "width CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.width"
@@ -590575,7 +590879,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "prefers-reduced-motion",
+        title: "prefers-reduced-motion CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.prefers-reduced-motion"
@@ -590625,7 +590929,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "monochrome",
+        title: "monochrome CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.monochrome"
@@ -590665,7 +590969,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "orientation",
+        title: "orientation CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.orientation"
@@ -590713,7 +591017,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "update",
+        title: "update CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.update"
@@ -590757,7 +591061,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "prefers-contrast",
+        title: "prefers-contrast CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.prefers-contrast"
@@ -590803,7 +591107,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "device-aspect-ratio",
+        title: "device-aspect-ratio CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.device-aspect-ratio"
@@ -590842,7 +591146,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "hover",
+        title: "hover CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.hover"
@@ -590885,7 +591189,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "any-pointer",
+        title: "any-pointer CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.any-pointer"
@@ -590929,7 +591233,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-webkit-transition",
+        title: "-webkit-transition CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-webkit-transition"
@@ -590967,7 +591271,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "@media",
+        title: "@media CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.media"
@@ -591073,7 +591377,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-webkit-animation",
+        title: "-webkit-animation CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-webkit-animation"
@@ -591113,7 +591417,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "color-gamut",
+        title: "color-gamut CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.color-gamut"
@@ -591161,7 +591465,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "display-mode",
+        title: "display-mode CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.display-mode"
@@ -591206,7 +591510,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "overflow-block",
+        title: "overflow-block CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.overflow-block"
@@ -591251,7 +591555,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "resolution",
+        title: "resolution CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.resolution"
@@ -591292,7 +591596,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-moz-device-pixel-ratio",
+        title: "-moz-device-pixel-ratio CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-moz-device-pixel-ratio"
@@ -591330,7 +591634,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "horizontal-viewport-segments",
+        title: "horizontal-viewport-segments CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.horizontal-viewport-segments"
@@ -591374,7 +591678,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "grid",
+        title: "grid CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.grid"
@@ -591415,7 +591719,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-webkit-transform-3d",
+        title: "-webkit-transform-3d CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-webkit-transform-3d"
@@ -591456,7 +591760,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "scripting",
+        title: "scripting CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.scripting"
@@ -591500,7 +591804,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "prefers-reduced-data",
+        title: "prefers-reduced-data CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.prefers-reduced-data"
@@ -591546,7 +591850,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "forced-colors",
+        title: "forced-colors CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.forced-colors"
@@ -591597,7 +591901,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "scan",
+        title: "scan CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.scan"
@@ -591641,7 +591945,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-webkit-device-pixel-ratio",
+        title: "-webkit-device-pixel-ratio CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-webkit-device-pixel-ratio"
@@ -591687,7 +591991,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "color",
+        title: "color CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.color"
@@ -591728,7 +592032,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "vertical-viewport-segments",
+        title: "vertical-viewport-segments CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.vertical-viewport-segments"
@@ -591772,7 +592076,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "-webkit-transform-2d",
+        title: "-webkit-transform-2d CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.-webkit-transform-2d"
@@ -591811,7 +592115,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "prefers-reduced-transparency",
+        title: "prefers-reduced-transparency CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.prefers-reduced-transparency"
@@ -591855,7 +592159,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "aspect-ratio",
+        title: "aspect-ratio CSS media feature",
         pageType: "css-media-feature",
         browserCompat: [
           "css.at-rules.media.aspect-ratio"
@@ -591896,7 +592200,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "shape",
+        title: "shape CSS media feature",
         pageType: "css-media-feature",
         summary: "The shape CSS media feature can be used to test the shape of the device to distinguish rectangular and round displays.",
         popularity: 0.0008762814211487151,
@@ -591938,7 +592242,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "@color-profile",
+        title: "@color-profile CSS at-rule",
         pageType: "css-at-rule",
         summary: "The @color-profile CSS at-rule defines and names a color profile which can later be used in the color() function to specify a color.",
         popularity: 0.009543603426485045,
@@ -591985,7 +592289,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "@function",
+        title: "@function CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.function"
@@ -592058,7 +592362,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "@font-feature-values",
+        title: "@font-feature-values CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.font-feature-values"
@@ -592182,7 +592486,7 @@ A user indicates their preference through an operating system setting (e.g., lig
     links: {},
     data: {
       metadata: {
-        title: "@starting-style",
+        title: "@starting-style CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.starting-style"
@@ -592290,7 +592594,7 @@ If required but missing or invalid, the entire @property rule is invalid and ign
     links: {},
     data: {
       metadata: {
-        title: "@property",
+        title: "@property CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.property"
@@ -592455,7 +592759,7 @@ It is a required descriptor; if missing or invalid, the entire @property rule is
     links: {},
     data: {
       metadata: {
-        title: "@scope",
+        title: "@scope CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.scope",
@@ -592538,7 +592842,7 @@ It is a required descriptor; if missing or invalid, the entire @property rule is
     links: {},
     data: {
       metadata: {
-        title: "@supports",
+        title: "@supports CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.supports"
@@ -592644,7 +592948,7 @@ The rule must be placed at the top level of your code or nested inside any other
     links: {},
     data: {
       metadata: {
-        title: "@custom-media",
+        title: "@custom-media CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.custom-media"
@@ -592702,7 +593006,7 @@ The rule must be placed at the top level of your code or nested inside any other
     links: {},
     data: {
       metadata: {
-        title: "@container",
+        title: "@container CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.container"
@@ -592837,7 +593141,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
     links: {},
     data: {
       metadata: {
-        title: "@document",
+        title: "@document CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.document"
@@ -592885,7 +593189,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
     links: {},
     data: {
       metadata: {
-        title: "@keyframes",
+        title: "@keyframes CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.keyframes"
@@ -592941,7 +593245,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
     links: {},
     data: {
       metadata: {
-        title: "@position-try",
+        title: "@position-try CSS at-rule",
         pageType: "css-at-rule",
         browserCompat: [
           "css.at-rules.position-try"
@@ -593031,7 +593335,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
     links: {},
     data: {
       metadata: {
-        title: "<display-legacy>",
+        title: "<display-legacy> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.inline-block",
@@ -593087,7 +593391,7 @@ The condition is evaluated when the queried container size, <style-feature>, or 
     links: {},
     data: {
       metadata: {
-        title: "max-content",
+        title: "max-content CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.properties.width.max-content"
@@ -593263,7 +593567,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<ratio>",
+        title: "<ratio> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.ratio"
@@ -593313,7 +593617,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<relative-size>",
+        title: "<relative-size> CSS type",
         pageType: "css-type",
         summary: "The <relative-size> CSS data type describes relative size keywords. The <relative-size> keywords define a size relative to the computed size of the parent element. This data type is used in the font shorthand and font-size properties.",
         popularity: 0.002050273837944109,
@@ -593404,7 +593708,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<corner-shape-value>",
+        title: "<corner-shape-value> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.corner-shape-value"
@@ -593518,7 +593822,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<display-inside>",
+        title: "<display-inside> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.flow-root",
@@ -593796,7 +594100,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<basic-shape>",
+        title: "<basic-shape> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.basic-shape"
@@ -594126,7 +594430,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<text-edge>",
+        title: "<text-edge> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.text-edge"
@@ -594348,7 +594652,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "!important",
+        title: "!important CSS keyword",
         pageType: "css-keyword",
         summary: "A ! delimiter followed by the important keyword marks the declaration as important. The !important flag alters the rules selecting declarations inside the cascade. A declaration that is not important is called normal.",
         popularity: 0.017621120629125124,
@@ -594382,7 +594686,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<blend-mode>",
+        title: "<blend-mode> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.blend-mode"
@@ -594505,7 +594809,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<number>",
+        title: "<number> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.number"
@@ -594545,7 +594849,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<dimension>",
+        title: "<dimension> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.dimension"
@@ -594584,7 +594888,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<box-edge>",
+        title: "<box-edge> CSS type",
         pageType: "css-type",
         summary: "The <box-edge> value types represent a box edge keyword, such as content-box and border-box. The box-edge keywords are used to define different aspects of an element's box model and how elements are positioned and rendered on screen.",
         popularity: 0.0021570004212891447,
@@ -594630,7 +594934,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "revert",
+        title: "revert CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.types.global_keywords.revert"
@@ -594681,7 +594985,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<display-box>",
+        title: "<display-box> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.contents"
@@ -594795,7 +595099,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "<angle-percentage>",
+        title: "<angle-percentage> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.angle-percentage"
@@ -594835,7 +595139,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
     links: {},
     data: {
       metadata: {
-        title: "min-content",
+        title: "min-content CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.properties.width.min-content"
@@ -594884,7 +595188,7 @@ For text content, this keyword causes the content to wrap at every opportunity (
     links: {},
     data: {
       metadata: {
-        title: "revert-layer",
+        title: "revert-layer CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.types.global_keywords.revert-layer"
@@ -595631,7 +595935,7 @@ different scales. Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<transform-function>",
+        title: "<transform-function> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.transform-function"
@@ -596239,7 +596543,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<line-style>",
+        title: "<line-style> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.line-style"
@@ -596299,7 +596603,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<display-listitem>",
+        title: "<display-listitem> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.list-item"
@@ -596345,7 +596649,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<system-color>",
+        title: "<system-color> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color.system-color"
@@ -596390,7 +596694,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<position>",
+        title: "<position> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.position"
@@ -596441,7 +596745,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<length-percentage>",
+        title: "<length-percentage> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.length-percentage"
@@ -596488,7 +596792,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<angle>",
+        title: "<angle> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.angle"
@@ -596592,7 +596896,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "rule-list",
+        title: "<rule-list> CSS type",
         pageType: "css-type",
         summary: "The <rule-list> CSS data type represents a sequence of zero or more CSS rules. It is used to define places in CSS where multiple rules may appear, such as the top level of a stylesheet or inside grouping at-rules like @media or @supports.",
         popularity: 0.00187052380283668,
@@ -596601,7 +596905,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
           folder: "en-us/web/css/reference/values/rule-list",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "rule-list",
+        short_title: "<rule-list>",
         status: []
       },
       specifications: [
@@ -596629,7 +596933,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "fit-content",
+        title: "fit-content CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.properties.width.fit-content"
@@ -596673,7 +596977,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<color-interpolation-method>",
+        title: "<color-interpolation-method> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color.color-mix",
@@ -596829,6 +597133,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
         "inherit",
         "revert",
         "revert-layer",
+        "revert-rule",
         "unset",
         "custom-ident",
         "dashed-ident",
@@ -596884,7 +597189,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<ident>",
+        title: "<ident> CSS type",
         pageType: "css-type",
         summary: "The <ident> CSS data type denotes an arbitrary string used as an identifier.",
         popularity: 0.004173571127650611,
@@ -596923,7 +597228,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<custom-ident>",
+        title: "<custom-ident> CSS type",
         pageType: "css-type",
         summary: "The <custom-ident> CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity.",
         popularity: 0.004055610167111361,
@@ -596983,7 +597288,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<percentage>",
+        title: "<percentage> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.percentage"
@@ -597097,7 +597402,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "inherit",
+        title: "inherit CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.types.global_keywords.inherit"
@@ -597147,7 +597452,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<integer>",
+        title: "<integer> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.integer"
@@ -597189,7 +597494,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<display-internal>",
+        title: "<display-internal> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.table-row-group",
@@ -597265,7 +597570,7 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
     links: {},
     data: {
       metadata: {
-        title: "<display-outside>",
+        title: "<display-outside> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.display.block",
@@ -597477,7 +597782,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<easing-function>",
+        title: "<easing-function> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.easing-function"
@@ -597553,7 +597858,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<calc-sum>",
+        title: "<calc-sum> CSS type",
         pageType: "css-type",
         summary: "The <calc-sum> CSS data type represents an expression which performs a calculation in any CSS math function. The expression executes a basic arithmetic operation of addition and subtraction between two values.",
         popularity: 0.0019154613116135375,
@@ -597595,7 +597900,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<flex>",
+        title: "<flex> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.flex"
@@ -597634,7 +597939,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<frequency-percentage>",
+        title: "<frequency-percentage> CSS type",
         pageType: "css-type",
         summary: "The <frequency-percentage> CSS data type represents a value that can be either a <frequency> or a <percentage>. Frequency values, e.g., the pitch of a speaking voice, are not currently used in any CSS properties.",
         popularity: 0.0012020783597809295,
@@ -597743,7 +598048,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<axis>",
+        title: "<axis> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.axis"
@@ -597831,7 +598136,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<content-position>",
+        title: "<content-position> CSS type",
         pageType: "css-type",
         summary: "The <content-position> enumerated value type is used by justify-content and align-content properties, and the place-content shorthand, to align the box's contents within itself.",
         popularity: 0.0013818283948883584,
@@ -597869,7 +598174,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<self-position>",
+        title: "<self-position> CSS type",
         pageType: "css-type",
         summary: "The <self-position> enumerated value data type is used by the justify-self and align-self properties, and the place-self shorthand, to align the box within its alignment container. It is also used by the justify-items and align-items properties, and the place-items shorthand, to specify default values for justify-self and align-self.",
         popularity: 0.0015110237326218228,
@@ -598063,7 +598368,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<gradient>",
+        title: "<gradient> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.gradient"
@@ -598597,7 +598902,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<dashed-function>: CSS custom functions",
+        title: "<dashed-function> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.dashed-function"
@@ -598925,7 +599230,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<image>",
+        title: "<image> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.image"
@@ -598984,7 +599289,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<content-distribution>",
+        title: "<content-distribution> CSS type",
         pageType: "css-type",
         summary: "The <content-distribution> enumerated value type is used by justify-content and align-content properties, and the place-content shorthand, to distribute a container's extra space among its alignment subjects.",
         popularity: 0.0014997893554276084,
@@ -599152,7 +599457,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
     links: {},
     data: {
       metadata: {
-        title: "<hue-interpolation-method>",
+        title: "<hue-interpolation-method> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.gradient.conic-gradient.hue_interpolation_method"
@@ -599414,7 +599719,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<baseline-position>",
+        title: "<baseline-position> CSS type",
         pageType: "css-type",
         summary: "The <baseline-position> enumerated value type represents the baseline keyword values and first and last modifiers, used for the align-content, align-items, align-self, justify-items and justify-self properties as well as the place-content, place-items, and place-self shorthand properties.",
         popularity: 0.0017244768993118944,
@@ -599599,7 +599904,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<timeline-range-name>",
+        title: "<timeline-range-name> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.timeline-range-name"
@@ -599648,7 +599953,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<overflow>",
+        title: "<overflow> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.overflow"
@@ -599767,7 +600072,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<generic-family>",
+        title: "<generic-family> CSS type",
         pageType: "css-type",
         summary: "The <generic-family> CSS data type represents the keyword values for generic font families used in the font shorthand and font-family longhand properties. The <generic-family> represents one or more locally-installed fonts belonging to that category of fonts.",
         popularity: 0.002190703552871788,
@@ -599819,7 +600124,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<resolution>",
+        title: "<resolution> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.resolution"
@@ -599990,7 +600295,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<absolute-size>",
+        title: "<absolute-size> CSS type",
         pageType: "css-type",
         summary: "The <absolute-size> CSS data type describes the absolute size keywords. This data type is used in the font shorthand and font-size properties.",
         popularity: 0.0038196882460328607,
@@ -600033,11 +600338,58 @@ It is used as a component of the <color-interpolation-method> data type.`,
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Values/revert-rule",
+    links: {},
+    data: {
+      metadata: {
+        title: "revert-rule",
+        pageType: "css-keyword",
+        browserCompat: [
+          "css.types.global_keywords.revert-rule"
+        ],
+        summary: "The revert-rule CSS-wide keyword rolls back the cascaded value of a property to the value it would have had if the current style rule had not been present. The cascade then determines the value from the remaining declarations — this could be another rule in the same cascade layer, a rule in a different layer, a different style origin, or a default value (inherited or initial).",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/values/revert-rule",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "revert-rule",
+        status: []
+      },
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "revert-rule_vs._revert-layer_vs._revert",
+        "examples",
+        "rolling_back_to_the_previous_rule",
+        "html",
+        "css",
+        "result",
+        "frame_rolling_back_to_the_previous_rule",
+        "reverting_from_a_style_attribute",
+        "html_2",
+        "css_2",
+        "result_2",
+        "frame_reverting_from_a_style_attribute",
+        "chaining_multiple_revert-rule_values",
+        "html_3",
+        "css_3",
+        "result_3",
+        "frame_chaining_multiple_revert-rule_values",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Values/time-percentage",
     links: {},
     data: {
       metadata: {
-        title: "<time-percentage>",
+        title: "<time-percentage> CSS type",
         pageType: "css-type",
         summary: "The <time-percentage> CSS data type represents a value that can be either a <time> or a <percentage>.",
         popularity: 0.0014267659036652156,
@@ -600415,7 +600767,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<filter-function>",
+        title: "<filter-function> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.filter-function"
@@ -600622,7 +600974,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "unset",
+        title: "unset CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.types.global_keywords.unset"
@@ -600804,7 +601156,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<named-color>",
+        title: "<named-color> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color.named-color"
@@ -600860,7 +601212,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<string>",
+        title: "<string> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.string"
@@ -600901,7 +601253,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
     links: {},
     data: {
       metadata: {
-        title: "<position-area>",
+        title: "<position-area> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.properties.position-area"
@@ -601558,7 +601910,7 @@ It can be used for many basic image manipulations, such as tinting an image with
     links: {},
     data: {
       metadata: {
-        title: "<color>",
+        title: "<color> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color"
@@ -602304,7 +602656,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "<url>",
+        title: "<url> CSS type",
         pageType: "css-type",
         summary: "The <url> CSS data type is a pointer to a resource.",
         popularity: 0.005381266676028648,
@@ -602444,7 +602796,7 @@ A <color> may also include an alpha-channel transparency value, indicating how t
     links: {},
     data: {
       metadata: {
-        title: "<hue>",
+        title: "<hue> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color.hsl",
@@ -602677,7 +603029,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<length>",
+        title: "<length> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.length"
@@ -603074,7 +603426,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<calc-keyword>",
+        title: "<calc-keyword> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.calc-keyword"
@@ -603125,7 +603477,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<alpha-value>",
+        title: "<alpha-value> CSS type",
         pageType: "css-type",
         summary: "The <alpha-value> CSS data type represents a value that can be either a <number> or a <percentage>, specifying the alpha channel or transparency of a color.",
         popularity: 0.0027299536581940737,
@@ -603166,7 +603518,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "initial",
+        title: "initial CSS keyword",
         pageType: "css-keyword",
         browserCompat: [
           "css.types.global_keywords.initial"
@@ -603263,7 +603615,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<time>",
+        title: "<time> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.time"
@@ -603305,7 +603657,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<frequency>",
+        title: "<frequency> CSS type",
         pageType: "css-type",
         summary: "The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.",
         popularity: 0.0017076253335205729,
@@ -603344,7 +603696,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<dashed-ident>",
+        title: "<dashed-ident> CSS type",
         pageType: "css-type",
         summary: "The <dashed-ident> CSS data type is a case-sensitive <custom-ident> starting with two dashes that denotes an arbitrary string used as an identifier.",
         popularity: 0.002623227074849038,
@@ -603487,7 +603839,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<shape>",
+        title: "<shape> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.shape"
@@ -603535,7 +603887,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<hex-color>",
+        title: "<hex-color> CSS type",
         pageType: "css-type",
         browserCompat: [
           "css.types.color.rgb_hexadecimal_notation"
@@ -603634,7 +603986,7 @@ It is used in the color functions that accept hue expressed as a single value, s
     links: {},
     data: {
       metadata: {
-        title: "<overflow-position>",
+        title: "<overflow-position> CSS type",
         pageType: "css-type",
         summary: "The <overflow-position> enumerated value type defines how an alignment subject that is larger than its alignment container will overflow that container. For example, if centered items are wider than their container, the overflow may be displayed beyond the viewport's start edge, which can't be scrolled to. The <overflow-position> value defines whether the alignment mode should be overridden to ensure the content is visible (safe) or if the alignment mode must be adhered to (unsafe).",
         popularity: 0.00159528156157843,
