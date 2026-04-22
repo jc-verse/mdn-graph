@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kg5eyf9b.js";
+} from "./chunk-6vha7fgd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -371,13 +371,6 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -973,6 +966,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            layout_viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Layout_viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1161,6 +1167,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            progressive_enhancement: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1363,6 +1382,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vitepress.dev/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             ssr: {
               children: {},
               slug: "/en-US/docs/Glossary/SSR",
@@ -1420,6 +1452,32 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
+            visual_viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Visual_Viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2678,13 +2736,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/v3.18.0/components/conditional-content/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2699,7 +2750,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://empress-blog.netlify.app/welcome/",
+                            "https://guides.emberjs.com/release/accessibility/",
                             "The operation timed out."
                           ]
                         }
@@ -2717,7 +2768,7 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/ember-inspector/installation/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -2733,7 +2784,14 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "https://guides.emberjs.com/release/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         },
@@ -2780,7 +2838,35 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://v2.vuejs.org/v2/guide/comparison.html",
+                            "https://reactnative.dev/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gohugo.io/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitepress.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -2799,14 +2885,21 @@ ul li {
                         }
                       ]
                     },
-                    react_components: {
+                    react_getting_started: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://reactnative.dev/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -3762,6 +3855,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://reactnative.dev/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4811,14 +4911,14 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://vite.dev/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylus-lang.com/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -4841,6 +4941,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/lifecycle.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -4861,6 +4968,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4878,6 +4992,19 @@ body {
                 },
                 scripting: {
                   children: {
+                    event_bubbling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/js/events_order.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -6290,13 +6417,6 @@ span {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -6827,6 +6947,19 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    deployment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitest.dev/guide/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     introducing_complete_toolchain: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
@@ -6834,14 +6967,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
+                            "https://vite.dev/",
                             "The operation timed out."
                           ]
                         },
@@ -6849,6 +6975,20 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
                             "The operation timed out."
                           ]
                         }
@@ -6861,14 +7001,34 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://vite.dev/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -12738,19 +12898,6 @@ textarea:focus {
                   children: {
                     express_nodejs: {
                       children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         skeleton_website: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
@@ -12759,13 +12906,6 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
                                 "The operation timed out."
                               ]
                             }
@@ -13316,6 +13456,13 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://www.itprotoday.com/",
@@ -13330,6 +13477,23 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    installing_software: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 soft_skills: {
                   children: {
                     workflows_and_processes: {
@@ -13344,6 +13508,20 @@ body {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://asana.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://asana.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://www.productplan.com/learn/agile-vs-waterfall/",
@@ -13354,21 +13532,21 @@ body {
                     }
                   }
                 },
-                web_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://resilientwebdesign.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 your_first_website: {
                   children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13597,6 +13775,19 @@ padding-left: 20px;
                           data: []
                         }
                       ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.vegascreativesoftware.com/sound-forge/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -13740,13 +13931,6 @@ color: rgb(31 41 59 / 26%);
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -14741,6 +14925,82 @@ webextensions.api.clipboard`,
                         }
                       ]
                     },
+                    use_the_web_authn_api: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "p` encoding described in "
+                          ]
+                        },
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "a'–",
+                            "Text after code:",
+                            "p` encoding described in "
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "doctype-style",
+                            "DOCTYPE should be lowercase",
+                            "<!DOCTYPE ",
+                            "1:1",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api
+[doctype-style] DOCTYPE should be lowercase
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebAuthn Extension</title>
+  </head>
+  <body>
+    <h1>WebAuthn</h1>
+    <textarea id="optionsText" placeholder="Enter options JSON here"></textarea>
+    <button id="registerButton">Register (navigator.credentials.create)</button>
+    <button id="authButton">Authenticate (navigator.credentials.get)</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<html> is missing required "lang" attribute',
+                            "html",
+                            "2:2",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api
+[element-required-attributes] <html> is missing required "lang" attribute
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebAuthn Extension</title>
+  </head>
+  <body>
+    <h1>WebAuthn</h1>
+    <textarea id="optionsText" placeholder="Enter options JSON here"></textarea>
+    <button id="registerButton">Register (navigator.credentials.create)</button>
+    <button id="authButton">Authenticate (navigator.credentials.get)</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     user_interface: {
                       children: {
                         browser_styles: {
@@ -14761,6 +15021,19 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        popups: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -14771,6 +15044,12 @@ webextensions.manifest.options_ui`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api"
                       ]
                     }
                   ]
@@ -15539,6 +15818,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://colortutorial.design/microColorsC.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -15587,8 +15873,22 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://colortutorial.design/hsb.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://colortutorial.design/",
+                            "unknown certificate verification error"
                           ]
                         },
                         {
@@ -17455,6 +17755,47 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
+                },
+                element: {
+                  children: {
+                    attributes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/attributes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://quirksmode.org/dom/core/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                eventtarget: {
+                  children: {
+                    addeventlistener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/js/events_order.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/js/this.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 fetchevent: {
                   children: {
@@ -19543,6 +19884,44 @@ aside {
                       data: [
                         "syntax",
                         "JSON Parse error: Unrecognized token '/'",
+                        `{
+  "type": "permissions-policy-violation",
+  "url": "https://example.com/",
+  "body": {
+    "sourceFile": "https://example.com/",
+    "lineNumber": 44,
+    "columnNumber": 29,
+    "featureId": "geolocation",
+    "disposition": "enforce", // Policy was enforced!
+    "message": "Permissions policy violation: geolocation access has been blocked because of a permissions policy applied to the current document."
+  }
+}
+`,
+                        null,
+                        `/en-US/docs/Web/API/PermissionsPolicyViolationReport
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+{
+  "type": "permissions-policy-violation",
+  "url": "https://example.com/",
+  "body": {
+    "sourceFile": "https://example.com/",
+    "lineNumber": 44,
+    "columnNumber": 29,
+    "featureId": "geolocation",
+    "disposition": "enforce", // Policy was enforced!
+    "message": "Permissions policy violation: geolocation access has been blocked because of a permissions policy applied to the current document."
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JSON code issue",
+                      data: [
+                        "syntax",
+                        "JSON Parse error: Unrecognized token '/'",
                         `[
   {
     "age": 48512,
@@ -20425,6 +20804,23 @@ button:interest-source {
                     }
                   }
                 },
+                service_worker_api: {
+                  children: {
+                    using_service_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -20745,6 +21141,13 @@ button:interest-source {
                       data: [
                         "/en-US/docs/Web/API/View_Transition_API/Using_types"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://http203-playlist.netlify.app/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -21056,7 +21459,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -21314,6 +21731,23 @@ setTimeout(function () {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -75884,6 +76318,64 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        "permissions-policy-report-only": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only",
+                          messages: [
+                            {
+                              message: "JSON code issue",
+                              data: [
+                                "syntax",
+                                "JSON Parse error: Unrecognized token '/'",
+                                `[
+  {
+    "age": 48512,
+    "body": {
+      "columnNumber": 29,
+      "disposition": "report", // A violation that is reported but not enforced
+      "lineNumber": 44,
+      "message": "Permissions policy violation: geolocation access has been blocked because of a permissions policy applied to the current document.",
+      "featureId": "geolocation",
+      "sourceFile": "https://example.com/"
+    },
+    "type": "permissions-policy-violation",
+    "url": "https://example.com/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+  }
+]
+`,
+                                null,
+                                `/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+[
+  {
+    "age": 48512,
+    "body": {
+      "columnNumber": 29,
+      "disposition": "report", // A violation that is reported but not enforced
+      "lineNumber": 44,
+      "message": "Permissions policy violation: geolocation access has been blocked because of a permissions policy applied to the current document.",
+      "featureId": "geolocation",
+      "sourceFile": "https://example.com/"
+    },
+    "type": "permissions-policy-violation",
+    "url": "https://example.com/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+  }
+]
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "http.headers.Permissions-Policy-Report-Only"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             "language-detector": {
@@ -75975,6 +76467,12 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only"
                           ]
                         }
                       ]
@@ -76148,6 +76646,19 @@ let z = 1;
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/repl",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -76269,13 +76780,6 @@ doIt(); // returns "finally"
                           data: [
                             "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
                             404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.tug.org/texlive/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -77531,6 +78035,27 @@ svg.elements.feSpotLight.z`
                       }
                     }
                   }
+                },
+                tutorials: {
+                  children: {
+                    svg_from_scratch: {
+                      children: {
+                        tools_for_svg: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://imagemagick.org/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               }
             },
@@ -78263,14 +78788,336 @@ svg.elements.feSpotLight.z`
                 simd: {
                   children: {
                     arithmetic: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic",
-                      messages: [
-                        {
-                          message: "Unreachable via page",
-                          data: []
+                      children: {
+                        add_sat_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/add_sat_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        add_sat_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/add_sat_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        dot_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/dot_i16x8_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.dot_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extadd_pairwise_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extadd_pairwise_i16x8_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extadd_pairwise_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extadd_pairwise_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extadd_pairwise_i16x8_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extadd_pairwise_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extadd_pairwise_i8x16_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extadd_pairwise_i8x16_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extadd_pairwise_i8x16_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extadd_pairwise_i8x16_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extadd_pairwise_i8x16_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extadd_pairwise_i8x16_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i16x8_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extmul_high_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i16x8_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extmul_high_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i32x4_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extmul_high_i32x4_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i32x4_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extmul_high_i32x4_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i8x16_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i8x16_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extmul_high_i8x16_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_high_i8x16_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_high_i8x16_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extmul_high_i8x16_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i16x8_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extmul_low_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i16x8_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extmul_low_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i32x4_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extmul_low_i32x4_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i32x4_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extmul_low_i32x4_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i8x16_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i8x16_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extmul_low_i8x16_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extmul_low_i8x16_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/extmul_low_i8x16_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extmul_low_i8x16_u"
+                              ]
+                            }
+                          ]
+                        },
+                        q15mulr_sat_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/q15mulr_sat_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            },
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.q15mulr_sat_s"
+                              ]
+                            }
+                          ]
+                        },
+                        sub_sat_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/sub_sat_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        sub_sat_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic/sub_sat_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
                         }
-                      ]
+                      }
                     },
                     bitwise: {
                       children: {
@@ -78330,6 +79177,198 @@ svg.elements.feSpotLight.z`
                     },
                     conversion: {
                       children: {
+                        extend_high_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i16x8_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extend_high_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_high_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i16x8_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extend_high_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_high_i32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i32x4_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extend_high_i32x4_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_high_i32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i32x4_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extend_high_i32x4_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_high_i8x16_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i8x16_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extend_high_i8x16_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_high_i8x16_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_high_i8x16_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extend_high_i8x16_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i16x8_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extend_low_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i16x8_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i32x4.extend_low_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i32x4_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extend_low_i32x4_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i32x4_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i64x2.extend_low_i32x4_u"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i8x16_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i8x16_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extend_low_i8x16_s"
+                              ]
+                            }
+                          ]
+                        },
+                        extend_low_i8x16_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/extend_low_i8x16_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.extend_low_i8x16_u"
+                              ]
+                            }
+                          ]
+                        },
+                        narrow_i16x8_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/narrow_i16x8_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i8x16.narrow_i16x8_s"
+                              ]
+                            }
+                          ]
+                        },
+                        narrow_i16x8_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/narrow_i16x8_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i8x16.narrow_i16x8_u"
+                              ]
+                            }
+                          ]
+                        },
+                        narrow_i32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/narrow_i32x4_s",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.narrow_i32x4_s"
+                              ]
+                            }
+                          ]
+                        },
+                        narrow_i32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/narrow_i32x4_u",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "i16x8.narrow_i32x4_u"
+                              ]
+                            }
+                          ]
+                        },
                         shuffle: {
                           children: {},
                           slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/shuffle",
@@ -78349,14 +79388,54 @@ svg.elements.feSpotLight.z`
                               data: []
                             }
                           ]
+                        },
+                        trunc_sat_f32x4_s: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_s",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        trunc_sat_f32x4_u: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_u",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        trunc_sat_f64x2_s_zero: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_s_zero",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
+                        },
+                        trunc_sat_f64x2_u_zero: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_u_zero",
+                          messages: [
+                            {
+                              message: "Try it should not have content",
+                              data: []
+                            }
+                          ]
                         }
                       }
                     },
-                    load: {
+                    load_store: {
                       children: {
                         load16_lane: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load16_lane",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load16_lane",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78368,7 +79447,7 @@ svg.elements.feSpotLight.z`
                         },
                         load16_splat: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load16_splat",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load16_splat",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78380,7 +79459,7 @@ svg.elements.feSpotLight.z`
                         },
                         load16x4_s: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load16x4_s",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load16x4_s",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78392,7 +79471,7 @@ svg.elements.feSpotLight.z`
                         },
                         load16x4_u: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load16x4_u",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load16x4_u",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78404,7 +79483,7 @@ svg.elements.feSpotLight.z`
                         },
                         load32_lane: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load32_lane",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load32_lane",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78416,7 +79495,7 @@ svg.elements.feSpotLight.z`
                         },
                         load32_splat: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load32_splat",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load32_splat",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78428,7 +79507,7 @@ svg.elements.feSpotLight.z`
                         },
                         load32_zero: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load32_zero",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load32_zero",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78440,7 +79519,7 @@ svg.elements.feSpotLight.z`
                         },
                         load32x2_s: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load32x2_s",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load32x2_s",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78452,7 +79531,7 @@ svg.elements.feSpotLight.z`
                         },
                         load32x2_u: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load32x2_u",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load32x2_u",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78464,7 +79543,7 @@ svg.elements.feSpotLight.z`
                         },
                         load64_lane: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load64_lane",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load64_lane",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78476,7 +79555,7 @@ svg.elements.feSpotLight.z`
                         },
                         load64_splat: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load64_splat",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load64_splat",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78488,7 +79567,7 @@ svg.elements.feSpotLight.z`
                         },
                         load64_zero: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load64_zero",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load64_zero",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78500,7 +79579,7 @@ svg.elements.feSpotLight.z`
                         },
                         load8_lane: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load8_lane",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load8_lane",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78512,7 +79591,7 @@ svg.elements.feSpotLight.z`
                         },
                         load8_splat: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load8_splat",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load8_splat",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78524,7 +79603,7 @@ svg.elements.feSpotLight.z`
                         },
                         load8x8_s: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load8x8_s",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load8x8_s",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78536,7 +79615,7 @@ svg.elements.feSpotLight.z`
                         },
                         load8x8_u: {
                           children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load/load8x8_u",
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/load8x8_u",
                           messages: [
                             {
                               message: "Code with underscore",
@@ -78545,19 +79624,58 @@ svg.elements.feSpotLight.z`
                               ]
                             }
                           ]
+                        },
+                        store16_lane: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/store16_lane",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "v128.store16_lane"
+                              ]
+                            }
+                          ]
+                        },
+                        store32_lane: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/store32_lane",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "v128.store32_lane"
+                              ]
+                            }
+                          ]
+                        },
+                        store64_lane: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/store64_lane",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "v128.store64_lane"
+                              ]
+                            }
+                          ]
+                        },
+                        store8_lane: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/load_store/store8_lane",
+                          messages: [
+                            {
+                              message: "Code with underscore",
+                              data: [
+                                "v128.store8_lane"
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/WebAssembly/Reference/SIMD",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/WebAssembly/Reference/SIMD/arithmetic"
-                      ]
-                    }
-                  ]
+                  }
                 }
               }
             }
