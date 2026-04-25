@@ -31,9 +31,9 @@ var __toESM = (mod, isNodeMode, target) => {
 var __commonJS = (cb, mod) => () => (mod || cb((mod = { exports: {} }).exports, mod), mod.exports);
 // data/last-update.json
 var last_update_default = {
-  commitHash: "dc4a0e708bed278ea7794eaef5ea83ed368b409f",
-  commitTimestamp: 1776992732000,
-  buildTimestamp: 1776994211105
+  commitHash: "5ae8d1a1cb0f8d845168183536cd65684cc9406e",
+  commitTimestamp: 1777048109000,
+  buildTimestamp: 1777080206542
 };
 
 export { __toESM, __commonJS, last_update_default };

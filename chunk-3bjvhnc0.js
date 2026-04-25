@@ -8474,7 +8474,6 @@ In this lesson, we will take a look at some of the most frequently used value ty
         "https://www.fontsquirrel.com/",
         "https://www.dafont.com/",
         "https://everythingfonts.com/",
-        "https://www.fonts.com/",
         "https://www.myfonts.com/",
         "https://www.linotype.com/",
         "https://www.monotype.com/",
@@ -95264,7 +95263,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         },
         {
@@ -95272,15 +95271,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
@@ -95288,7 +95287,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -106028,7 +106027,12 @@ This allows testing and fixing of Permissions Policy issues before a policy is d
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-report-only-http-header-field",
+          title: "Permissions Policy"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -162877,55 +162881,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -162937,123 +162893,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163061,7 +162901,27 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163069,11 +162929,155 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -165203,7 +165207,35 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165215,35 +165247,7 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -183691,15 +183695,11 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -183707,7 +183707,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -183715,7 +183719,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -539196,7 +539200,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<wbr>: The Line Break Opportunity element",
+        title: "<wbr> HTML line break opportunity element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.wbr"
@@ -539242,7 +539246,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<pre>: The Preformatted Text element",
+        title: "<pre> HTML preformatted text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.pre"
@@ -539296,7 +539300,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<canvas>: The Graphics Canvas element",
+        title: "<canvas> HTML graphics canvas element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.canvas"
@@ -539359,7 +539363,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<li>: The List Item element",
+        title: "<li> HTML list item element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.li"
@@ -539409,7 +539413,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<p>: The Paragraph element",
+        title: "<p> HTML paragraph element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.p"
@@ -539458,7 +539462,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<mark>: The Mark Text element",
+        title: "<mark> HTML mark text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.mark"
@@ -539508,7 +539512,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<textarea>: The Textarea element",
+        title: "<textarea> HTML textarea element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.textarea"
@@ -539582,7 +539586,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<br>: The Line Break element",
+        title: "<br> HTML line break element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.br"
@@ -539630,7 +539634,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<strong>: The Strong Importance element",
+        title: "<strong> HTML strong importance element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.strong"
@@ -539678,7 +539682,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<figcaption>: The Figure Caption element",
+        title: "<figcaption> HTML figure caption element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.figcaption"
@@ -539719,7 +539723,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<output>: The Output element",
+        title: "<output> HTML output element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.output"
@@ -539762,7 +539766,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<video>: The Video Embed element",
+        title: "<video> HTML video embed element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.video"
@@ -539872,7 +539876,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<body>: The Document Body element",
+        title: "<body> HTML document body element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.body"
@@ -539947,7 +539951,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<noscript>: The Noscript element",
+        title: "<noscript> HTML noscript element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.noscript"
@@ -539990,7 +539994,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<dl>: The Description List element",
+        title: "<dl> HTML description list element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dl"
@@ -540052,7 +540056,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<slot>: The Web Component Slot element",
+        title: "<slot> HTML web component slot element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.slot"
@@ -540099,7 +540103,7 @@ receiving audio.`,
     links: {},
     data: {
       metadata: {
-        title: "<link>: The External Resource Link element",
+        title: "<link> HTML external resource link element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.link"
@@ -540177,7 +540181,7 @@ This element is most commonly used to link to stylesheets, but is also used to e
     links: {},
     data: {
       metadata: {
-        title: "<head>: The Document Metadata (Header) element",
+        title: "<head> HTML document metadata (header) element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.head"
@@ -540218,7 +540222,7 @@ This element is most commonly used to link to stylesheets, but is also used to e
     links: {},
     data: {
       metadata: {
-        title: "<audio>: The Embed Audio element",
+        title: "<audio> HTML embed audio element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.audio"
@@ -540313,7 +540317,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<em>: The Emphasis element",
+        title: "<em> HTML emphasis element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.em"
@@ -540358,7 +540362,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<kbd>: The Keyboard Input element",
+        title: "<kbd> HTML keyboard input element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.kbd"
@@ -540419,7 +540423,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<td>: The Table Data Cell element",
+        title: "<td> HTML table data cell element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.td"
@@ -540488,7 +540492,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<span>: The Content Span element",
+        title: "<span> HTML content span element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.span"
@@ -540538,7 +540542,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<legend>: The Field Set Legend element",
+        title: "<legend> HTML field set legend element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.legend"
@@ -540579,7 +540583,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<template>: The Content Template element",
+        title: "<template> HTML content template element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.template"
@@ -540643,7 +540647,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<ul>: The Unordered List element",
+        title: "<ul> HTML unordered list element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.ul"
@@ -540694,7 +540698,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<main>: The Main element",
+        title: "<main> HTML main element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.main"
@@ -540744,7 +540748,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<h1>–<h6>: The HTML Section Heading elements",
+        title: "<h1>–<h6> HTML section heading elements",
         pageType: "html-element",
         browserCompat: [
           "html.elements.h1",
@@ -540761,7 +540765,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
           folder: "en-us/web/html/reference/elements/heading_elements",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "<h1>",
+        short_title: "<h1>–<h6>",
         status: []
       },
       specifications: [
@@ -540817,7 +540821,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<style>: The Style Information element",
+        title: "<style> HTML style information element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.style"
@@ -540873,7 +540877,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<menu>: The Menu element",
+        title: "<menu> HTML menu element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.menu"
@@ -540919,7 +540923,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<th>: The Table Header element",
+        title: "<th> HTML table header element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.th"
@@ -540988,7 +540992,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<header>: The Header element",
+        title: "<header> HTML header element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.header"
@@ -541038,7 +541042,7 @@ It can also be the destination for streamed media, using a MediaStream.`,
     links: {},
     data: {
       metadata: {
-        title: "<u>: The Unarticulated Annotation (Underline) element",
+        title: "<u> HTML unarticulated annotation (underline) element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.u"
@@ -541409,7 +541413,7 @@ If specified, you define the color scheme using a content attribute in the <meta
     links: {},
     data: {
       metadata: {
-        title: "<meta>: The metadata element",
+        title: "<meta> HTML metadata element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.meta"
@@ -541509,7 +541513,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<article>: The Article Contents element",
+        title: "<article> HTML article contents element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.article"
@@ -541551,7 +541555,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<hr>: The Thematic Break (Horizontal Rule) element",
+        title: "<hr> HTML thematic break (horizontal rule) element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.hr"
@@ -541598,7 +541602,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<q>: The Inline Quotation element",
+        title: "<q> HTML inline quotation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.q"
@@ -541640,7 +541644,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<form>: The Form element",
+        title: "<form> HTML form element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.form"
@@ -541695,7 +541699,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<option>: The HTML Option element",
+        title: "<option> HTML option element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.option"
@@ -541740,7 +541744,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<label>: The Label element",
+        title: "<label> HTML label element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.label"
@@ -541792,7 +541796,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<nobr>: The Non-Breaking Text element",
+        title: "<nobr> HTML non-breaking text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.nobr"
@@ -541829,7 +541833,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<rtc>: The Ruby Text Container element",
+        title: "<rtc> HTML ruby text container element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.rtc"
@@ -541872,7 +541876,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<aside>: The Aside element",
+        title: "<aside> HTML aside element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.aside"
@@ -541915,7 +541919,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<dialog>: The Dialog element",
+        title: "<dialog> HTML dialog element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dialog"
@@ -542012,7 +542016,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<small>: The Side Comment element",
+        title: "<small> HTML side comment element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.small"
@@ -542058,7 +542062,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<acronym>",
+        title: "<acronym> HTML acronym or abbreviation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.acronym"
@@ -542101,7 +542105,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<rp>: The Ruby Fallback Parenthesis element",
+        title: "<rp> HTML ruby fallback parenthesis element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.rp"
@@ -542149,7 +542153,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<dt>: The Description Term element",
+        title: "<dt> HTML description term element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dt"
@@ -542190,7 +542194,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<blockquote>: The Block Quotation element",
+        title: "<blockquote> HTML block quotation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.blockquote"
@@ -542236,7 +542240,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<frameset>",
+        title: "<frameset> HTML frameset element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.frameset"
@@ -542278,7 +542282,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<source>: The Media or Image Source element",
+        title: "<source> HTML media or image source element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.source"
@@ -542331,7 +542335,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<embed>: The Embed External Content element",
+        title: "<embed> HTML embed external content element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.embed"
@@ -542381,7 +542385,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<dfn>: The Definition element",
+        title: "<dfn> HTML definition element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dfn"
@@ -542435,7 +542439,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<cite>: The Citation element",
+        title: "<cite> HTML citation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.cite"
@@ -542479,7 +542483,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<tfoot>: The Table Foot element",
+        title: "<tfoot> HTML table foot element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.tfoot"
@@ -542530,7 +542534,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<code>: The Inline Code element",
+        title: "<code> HTML inline code element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.code"
@@ -542572,7 +542576,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<dir>: The Directory element",
+        title: "<dir> HTML directory element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dir"
@@ -542612,7 +542616,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<col>: The Table Column element",
+        title: "<col> HTML table column element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.col"
@@ -542666,7 +542670,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<ins>: The Inserted Text element",
+        title: "<ins> HTML inserted text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.ins"
@@ -542713,7 +542717,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<script>: The Script element",
+        title: "<script> HTML script element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.script"
@@ -542967,7 +542971,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<bdo>: The Bidirectional Text Override element",
+        title: "<bdo> HTML bidirectional text override element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.bdo"
@@ -543010,7 +543014,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<area>: The Image Map Area element",
+        title: "<area> HTML image map area element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.area"
@@ -543060,7 +543064,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<select>: The HTML Select element",
+        title: "<select> HTML select element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.select"
@@ -543121,7 +543125,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<div>: The Content Division element",
+        title: "<div> HTML content division element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.div"
@@ -543172,7 +543176,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<thead>: The Table Head element",
+        title: "<thead> HTML table head element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.thead"
@@ -543231,7 +543235,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<rt>: The Ruby Text element",
+        title: "<rt> HTML ruby text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.rt"
@@ -543275,7 +543279,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<samp>: The Sample Output element",
+        title: "<samp> HTML sample output element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.samp"
@@ -543325,7 +543329,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<colgroup>: The Table Column Group element",
+        title: "<colgroup> HTML table column group element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.colgroup"
@@ -543379,7 +543383,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<img>: The Image Embed element",
+        title: "<img> HTML image embed element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.img"
@@ -543486,7 +543490,7 @@ The metadata is document-level metadata that applies to the whole page.`,
     links: {},
     data: {
       metadata: {
-        title: "<track>: The Embed Text Track element",
+        title: "<track> HTML embed text track element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.track"
@@ -543542,7 +543546,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<rb>: The Ruby Base element",
+        title: "<rb> HTML ruby base element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.rb"
@@ -543589,7 +543593,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<base>: The Document Base URL element",
+        title: "<base> HTML document base URL element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.base"
@@ -543636,7 +543640,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<tbody>: The Table Body element",
+        title: "<tbody> HTML table body element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.tbody"
@@ -543697,7 +543701,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<selectedcontent>: The selected option display element",
+        title: "<selectedcontent> HTML selected option display element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.selectedcontent"
@@ -543741,7 +543745,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<fieldset>: The Field Set element",
+        title: "<fieldset> HTML field set element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.fieldset"
@@ -543833,7 +543837,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<s>: The Strikethrough element",
+        title: "<s> HTML strikethrough element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.s"
@@ -543878,7 +543882,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<font>",
+        title: "<font> HTML font element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.font"
@@ -543919,7 +543923,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<ruby>: The Ruby Annotation element",
+        title: "<ruby> HTML ruby annotation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.ruby"
@@ -543967,7 +543971,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<button>: The Button element",
+        title: "<button> HTML button element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.button"
@@ -544064,7 +544068,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<meter>: The HTML Meter element",
+        title: "<meter> HTML meter element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.meter"
@@ -544117,7 +544121,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<map>: The Image Map element",
+        title: "<map> HTML image map element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.map"
@@ -544163,7 +544167,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<var>: The Variable element",
+        title: "<var> HTML variable element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.var"
@@ -544214,7 +544218,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<ol>: The Ordered List element",
+        title: "<ol> HTML ordered list element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.ol"
@@ -544273,7 +544277,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<strike>",
+        title: "<strike> HTML strikethrough element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.strike"
@@ -544317,7 +544321,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<sup>: The Superscript element",
+        title: "<sup> HTML superscript element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.sup"
@@ -544369,7 +544373,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<dd>: The Description Details element",
+        title: "<dd> HTML description details element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.dd"
@@ -544410,7 +544414,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<object>: The External Object element",
+        title: "<object> HTML external object element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.object"
@@ -544469,7 +544473,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<tr>: The Table Row element",
+        title: "<tr> HTML table row element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.tr"
@@ -544538,7 +544542,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<noframes>: The Frame Fallback element",
+        title: "<noframes> HTML frame fallback element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.noframes"
@@ -544577,7 +544581,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<footer>: The Footer element",
+        title: "<footer> HTML footer element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.footer"
@@ -544622,7 +544626,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<iframe>: The Inline Frame element",
+        title: "<iframe> HTML inline frame element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.iframe"
@@ -544726,7 +544730,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<hgroup>: The Heading Group element",
+        title: "<hgroup> HTML heading group element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.hgroup"
@@ -544768,7 +544772,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<del>: The Deleted Text element",
+        title: "<del> HTML deleted text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.del"
@@ -544815,7 +544819,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<fencedframe>: The Fenced Frame element",
+        title: "<fencedframe> HTML fenced frame element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.fencedframe"
@@ -544869,7 +544873,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<details>: The Details disclosure element",
+        title: "<details> HTML details disclosure element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.details"
@@ -544925,7 +544929,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<tt>: The Teletype Text element",
+        title: "<tt> HTML teletype text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.tt"
@@ -544974,7 +544978,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<address>: The Contact Address element",
+        title: "<address> HTML contact address element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.address"
@@ -545016,7 +545020,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<progress>: The Progress Indicator element",
+        title: "<progress> HTML progress indicator element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.progress"
@@ -545068,7 +545072,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<table>: The Table element",
+        title: "<table> HTML table element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.table"
@@ -545165,7 +545169,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<caption>: The Table Caption element",
+        title: "<caption> HTML table caption element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.caption"
@@ -545212,7 +545216,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<sub>: The Subscript element",
+        title: "<sub> HTML subscript element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.sub"
@@ -545263,7 +545267,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<center>: The Centered Text element",
+        title: "<center> HTML centered text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.center"
@@ -545310,7 +545314,7 @@ Each track element lets you specify a timed text track (or time-based data) that
     links: {},
     data: {
       metadata: {
-        title: "<b>: The Bring Attention To element",
+        title: "<b> HTML bring attention to element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.b"
@@ -546329,7 +546333,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<input>: The HTML Input element",
+        title: "<input> HTML input element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.input"
@@ -547017,7 +547021,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<section>: The Generic Section element",
+        title: "<section> HTML generic section element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.section"
@@ -547069,7 +547073,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<picture>: The Picture element",
+        title: "<picture> HTML picture element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.picture"
@@ -547115,7 +547119,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<datalist>: The HTML Data List element",
+        title: "<datalist> HTML data list element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.datalist"
@@ -547165,7 +547169,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<html>: The HTML Document / Root element",
+        title: "<html> HTML document root element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.html"
@@ -547208,7 +547212,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<plaintext>: The Plain Text element (Deprecated)",
+        title: "<plaintext> HTML plain text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.plaintext"
@@ -547247,7 +547251,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<bdi>: The Bidirectional Isolate element",
+        title: "<bdi> HTML bidirectional isolate element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.bdi"
@@ -547296,7 +547300,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<title>: The Document Title element",
+        title: "<title> HTML document title element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.title"
@@ -547341,7 +547345,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<frame>",
+        title: "<frame> HTML frame element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.frame"
@@ -547388,7 +547392,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<summary>: The Disclosure Summary element",
+        title: "<summary> HTML disclosure summary element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.summary"
@@ -547446,7 +547450,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<a>: The Anchor element",
+        title: "<a> HTML anchor element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.a"
@@ -547563,7 +547567,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<i>: The Idiomatic Text element",
+        title: "<i> HTML idiomatic text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.i"
@@ -547605,7 +547609,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<time>: The (Date) Time element",
+        title: "<time> HTML time (date) element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.time"
@@ -547658,7 +547662,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<noembed>: The Embed Fallback element",
+        title: "<noembed> HTML embed fallback element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.noembed"
@@ -547696,7 +547700,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<search>: The generic search element",
+        title: "<search> HTML generic search element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.search"
@@ -547748,7 +547752,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<optgroup>: The Option Group element",
+        title: "<optgroup> HTML option group element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.optgroup"
@@ -547791,7 +547795,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<param>: The Object Parameter element",
+        title: "<param> HTML object parameter element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.param"
@@ -547836,7 +547840,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<geolocation>: The geolocation element",
+        title: "<geolocation> HTML geolocation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.geolocation"
@@ -547920,7 +547924,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<big>: The Bigger Text element",
+        title: "<big> HTML bigger text element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.big"
@@ -547969,7 +547973,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<marquee>: The Marquee element",
+        title: "<marquee> HTML marquee element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.marquee"
@@ -548022,7 +548026,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<nav>: The Navigation Section element",
+        title: "<nav> HTML navigation section element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.nav"
@@ -548064,7 +548068,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<data>: The Data element",
+        title: "<data> HTML data element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.data"
@@ -548106,7 +548110,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<figure>: The Figure with Optional Caption element",
+        title: "<figure> HTML figure with optional caption element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.figure"
@@ -548160,7 +548164,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<abbr>: The Abbreviation element",
+        title: "<abbr> HTML abbreviation element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.abbr"
@@ -548225,7 +548229,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
     links: {},
     data: {
       metadata: {
-        title: "<xmp>",
+        title: "<xmp> HTML plain text rendering element",
         pageType: "html-element",
         browserCompat: [
           "html.elements.xmp"
@@ -550728,55 +550732,23 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -550784,15 +550756,91 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
           title: "VirtualKeyboard API"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
@@ -550808,52 +550856,8 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
         }
       ],
       links: [
@@ -577456,7 +577460,19 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -577464,27 +577480,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -577492,12 +577488,20 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -602311,7 +602315,12 @@ It is used as a component of the <color-interpolation-method> data type.`,
         short_title: "revert-rule",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword",
+          title: "CSS Cascading and Inheritance Level 5"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -602998,7 +603007,8 @@ It is used as a component of the <color-interpolation-method> data type.`,
       links: [
         "https://css-tricks.com/snippets/css/fluid-typography/",
         "https://drafts.csswg.org/css-values-4/",
-        "https://mdn.github.io/css-examples/min-max-clamp/"
+        "https://mdn.github.io/css-examples/min-max-clamp/",
+        "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html"
       ],
       imgs: [],
       ids: [
@@ -603019,6 +603029,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "min_max_and_clamp_comparison",
         "html",
         "css",
+        "accessibility",
         "specifications",
         "browser_compatibility",
         "see_also"
