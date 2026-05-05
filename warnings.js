@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-cp6kew3s.js";
+} from "./chunk-scxbrh51.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -23,19 +23,6 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "https://www.sevenson.com.au/blog/sat/"
-                      ]
-                    }
-                  ]
-                },
                 "3d_on_the_web": {
                   children: {
                     glsl_shaders: {
@@ -52,19 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -369,6 +343,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            color_wheel: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Color_wheel",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
+                    403
+                  ]
+                }
+              ]
+            },
             constant: {
               children: {},
               slug: "/en-US/docs/Glossary/Constant",
@@ -397,6 +384,13 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -2707,6 +2701,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2717,6 +2718,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/installation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2731,28 +2739,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
                             "The operation timed out."
                           ]
                         }
@@ -2765,13 +2752,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2782,6 +2762,33 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/automated-testing/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2793,19 +2800,6 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
                             "The operation timed out."
                           ]
                         }
@@ -3791,13 +3785,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://redux.js.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4820,6 +4807,13 @@ body {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4840,13 +4834,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/template-refs.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4884,32 +4871,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    conditionals: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Conditionals",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/simple-ternary.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -5436,15 +5397,35 @@ button {
                         }
                       ]
                     },
+                    general_embedding_technologies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://creativecommons.org/public-domain/cc0/",
-                            "https://creativecommons.org/2008/04/16/cc0-betadiscussion-draft-2/"
+                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/CC0",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -6859,19 +6840,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     introducing_complete_toolchain: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
@@ -12772,6 +12740,13 @@ textarea:focus {
                                 "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -13314,39 +13289,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.endtest.io/",
-                            "https://endtest.io/"
-                          ]
-                        }
-                      ]
-                    },
-                    your_own_automation_environment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.itprotoday.com/",
-                            "https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.endtest.io/",
-                            "https://endtest.io/"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -13386,13 +13328,6 @@ body {
                           data: [
                             "https://www.truemark.dev/blog/web-development-team-structure-role-process/",
                             "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.productplan.com/learn/agile-vs-waterfall/",
-                            "https://www.productplan.com/learn/agile-vs-waterfall"
                           ]
                         }
                       ]
@@ -13620,19 +13555,6 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "https://lists.gnu.org/mailman/listinfo/help-gnu-emacs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13650,8 +13572,8 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webkit.org/web-inspector/elements-tab/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://webkit.org/web-inspector/console-command-line-api/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13666,21 +13588,7 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://howdns.works/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -13744,10 +13652,10 @@ padding-left: 20px;
                   slug: "/en-US/docs/MDN/Community/Getting_started",
                   messages: [
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://creativecommons.org/public-domain/cc0/",
-                        "https://creativecommons.org/2008/04/16/cc0-betadiscussion-draft-2/"
+                        "https://wiki.creativecommons.org/wiki/CC0",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13789,6 +13697,19 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -13825,6 +13746,13 @@ color: rgb(31 41 59 / 26%);
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -13955,10 +13883,10 @@ color: rgb(31 41 59 / 26%);
                   slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
                   messages: [
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://creativecommons.org/public-domain/cc0/",
-                        "https://creativecommons.org/2008/04/16/cc0-betadiscussion-draft-2/"
+                        "https://wiki.creativecommons.org/wiki/CC0",
+                        "The operation timed out."
                       ]
                     },
                     {
@@ -14456,24 +14384,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         storage: {
                           children: {
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/onChanged",
-                              messages: [
-                                {
-                                  message: "Code with space",
-                                  data: [
-                                    "storage areas"
-                                  ]
-                                },
-                                {
-                                  message: "Code with space",
-                                  data: [
-                                    "storage areas"
-                                  ]
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -14862,20 +14772,6 @@ webextensions.api.clipboard`,
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api",
                       messages: [
                         {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            "p` encoding described in "
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "a'–",
-                            "Text after code:",
-                            "p` encoding described in "
-                          ]
-                        },
-                        {
                           message: "HTML code issue",
                           data: [
                             "doctype-style",
@@ -14955,26 +14851,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    working_with_the_tabs_api: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/tabs-tabs-tabs/tabs.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/tabs-tabs-tabs/tabs.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -15030,13 +14906,6 @@ webextensions.manifest.options_ui`,
                       message: "Code with underscore",
                       data: [
                         "security.restrict_to_adults.respect_platform"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.rtalabel.org/?content=howto",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15328,6 +15197,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "15": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/15",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.opus-codec.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15341,6 +15223,123 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "51": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://xiph.org/flac/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "120": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=120",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "122": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=122",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "124": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=124",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "137": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=137",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "138": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=138",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "139": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=139",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "141": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=141",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "143": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=143",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -15349,6 +15348,19 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
+                          ]
+                        }
+                      ]
+                    },
+                    "151": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/151",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=151",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15390,6 +15402,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via page",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www-archive.mozilla.org/projects/xforms/",
+                                "unknown certificate verification error"
+                              ]
                             }
                           ]
                         }
@@ -15524,21 +15543,7 @@ webextensions.manifest.options_ui`,
                     reference: {
                       children: {
                         attributes: {
-                          children: {
-                            "aria-hidden": {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-hidden",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://fontawesome.com/",
-                                    502
-                                  ]
-                                }
-                              ]
-                            }
-                          },
+                          children: {},
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -15785,13 +15790,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -15901,41 +15899,28 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
             },
             api: {
               children: {
-                aescbcparams: {
+                aesgcmparams: {
                   children: {},
-                  slug: "/en-US/docs/Web/API/AesCbcParams",
+                  slug: "/en-US/docs/Web/API/AesGcmParams",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                aesctrparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AesCtrParams",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
+                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
                         "The operation timed out."
                       ]
                     },
                     {
                       message: "Broken external link",
                       data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
+                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
                         "The operation timed out."
                       ]
                     },
                     {
                       message: "Broken external link",
                       data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
+                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
                         "The operation timed out."
                       ]
                     }
@@ -16298,66 +16283,6 @@ api.MessagePort`,
                       ]
                     }
                   ]
-                },
-                crashreportcontext: {
-                  children: {
-                    delete: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CrashReportContext/delete",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o31'.",
-                            "  operationThatMightCrash(00031);",
-                            "5:16",
-                            `/en-US/docs/Web/API/CrashReportContext/delete
-[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o31'.
-~~~
-window.crashReport.initialize(1024).then(() => {
-  // Set a possible crash-causing value, and try
-  // running an operation that may cause a crash
-  window.crashReport.set("crash-arg", "00031");
-  operationThatMightCrash(00031);
-  // Delete the key-value pair if it doesn't cause a crash
-  window.crashReport.delete("crash-arg");
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    set: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CrashReportContext/set",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o31'.",
-                            "  operationThatMightCrash(00031);",
-                            "5:16",
-                            `/en-US/docs/Web/API/CrashReportContext/set
-[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o31'.
-~~~
-window.crashReport.initialize(1024).then(() => {
-  // Set a possible crash-causing value, and try
-  // running an operation that may cause a crash
-  window.crashReport.set("crash-arg", "00031");
-  operationThatMightCrash(00031);
-  // Delete the key-value pair if it doesn't cause a crash
-  window.crashReport.delete("crash-arg");
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 cspviolationreport: {
                   children: {
@@ -17472,22 +17397,6 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                cssmathclamp: {
-                  children: {
-                    value: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSMathClamp/value",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/CSSMathClamp/value"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 customelementregistry: {
                   children: {
                     upgrade: {
@@ -17820,6 +17729,19 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                geolocation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -17971,763 +17893,6 @@ output {
   font-family: "Courier New", monospace;
   width: 95%;
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sizes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
-                      messages: [
-                        {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            " (960px`) so that the last media query is selected.\nThen alternately press each of the buttons and note how the layout size of the image is changed."
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 600px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 620px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-#resizable {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "24:21 - 24:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 600px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 620px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-#resizable {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f5f5f5" to be "whitesmoke" (color-named)',
-                            "  background: #f5f5f5;",
-                            "41:15 - 41:22",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-named] Expected "#f5f5f5" to be "whitesmoke" (color-named)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 600px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 620px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-#resizable {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 400px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 600px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-
-#controls {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-#number {
-  width: 60px;
-}
-
-.img-container--sm {
-  width: 100px;
-}
-.img-container--md {
-  width: 200px;
-}
-.img-container--lg {
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "24:21 - 24:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 400px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 600px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-
-#controls {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-#number {
-  width: 60px;
-}
-
-.img-container--sm {
-  width: 100px;
-}
-.img-container--md {
-  width: 200px;
-}
-.img-container--lg {
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f5f5f5" to be "whitesmoke" (color-named)',
-                            "  background: #f5f5f5;",
-                            "41:15 - 41:22",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-named] Expected "#f5f5f5" to be "whitesmoke" (color-named)
-~~~
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-#scroll-container {
-  height: 400px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-}
-#spacer {
-  height: 600px;
-}
-#demo-wrap {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 16px;
-}
-.img-container {
-  border: 2px solid #ccc;
-  overflow: hidden;
-}
-.img-square {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-.img-square img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.label {
-  font-size: 13px;
-  padding: 6px 10px;
-  background: #f5f5f5;
-}
-
-#controls {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-#number {
-  width: 60px;
-}
-
-.img-container--sm {
-  width: 100px;
-}
-.img-container--md {
-  width: 200px;
-}
-.img-container--lg {
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '  resizable.style.width = px + "px";',
-                            "15:27 - 15:36",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[prefer-template] Unexpected string concatenation.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const slider = document.getElementById("slider");
-const number = document.getElementById("number");
-const resizable = document.getElementById("resizable");
-const resizableImg = resizable.querySelector("img");
-const resizableLabel = resizable.querySelector(".label strong");
-
-function setSize(px) {
-  px = Math.min(700, Math.max(100, px));
-  resizable.style.width = px + "px";
-  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate
-  resizableLabel.textContent = px + "px";
-  slider.value = px;
-  number.value = px;
-}
-
-slider.addEventListener("input", () => setSize(parseInt(slider.value)));
-number.addEventListener("input", () => setSize(parseInt(number.value)));
-
-// Logging
-const images = document.querySelectorAll(".img-square img");
-
-images.forEach((img) => {
-  if (img.complete) {
-    log(\`Already cached: \${img.currentSrc} (\${img.offsetWidth}px)\`);
-  }
-  img.addEventListener("load", () => {
-    log(\`Loaded: \${img.currentSrc} (\${img.offsetWidth}px container)\`);
-  });
-});
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        log(\`Entered viewport: \${img.alt}\`);
-        observer.unobserve(img);
-      }
-    });
-  },
-  {
-    root: document.getElementById("scroll-container"),
-    rootMargin: "0px",
-    threshold: 0.1,
-  },
-);
-
-images.forEach((img) => observer.observe(img));
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate',
-                            "16:24 - 16:33",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[prefer-template] Unexpected string concatenation.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const slider = document.getElementById("slider");
-const number = document.getElementById("number");
-const resizable = document.getElementById("resizable");
-const resizableImg = resizable.querySelector("img");
-const resizableLabel = resizable.querySelector(".label strong");
-
-function setSize(px) {
-  px = Math.min(700, Math.max(100, px));
-  resizable.style.width = px + "px";
-  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate
-  resizableLabel.textContent = px + "px";
-  slider.value = px;
-  number.value = px;
-}
-
-slider.addEventListener("input", () => setSize(parseInt(slider.value)));
-number.addEventListener("input", () => setSize(parseInt(number.value)));
-
-// Logging
-const images = document.querySelectorAll(".img-square img");
-
-images.forEach((img) => {
-  if (img.complete) {
-    log(\`Already cached: \${img.currentSrc} (\${img.offsetWidth}px)\`);
-  }
-  img.addEventListener("load", () => {
-    log(\`Loaded: \${img.currentSrc} (\${img.offsetWidth}px container)\`);
-  });
-});
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        log(\`Entered viewport: \${img.alt}\`);
-        observer.unobserve(img);
-      }
-    });
-  },
-  {
-    root: document.getElementById("scroll-container"),
-    rootMargin: "0px",
-    threshold: 0.1,
-  },
-);
-
-images.forEach((img) => observer.observe(img));
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '  resizableLabel.textContent = px + "px";',
-                            "17:32 - 17:41",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[prefer-template] Unexpected string concatenation.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const slider = document.getElementById("slider");
-const number = document.getElementById("number");
-const resizable = document.getElementById("resizable");
-const resizableImg = resizable.querySelector("img");
-const resizableLabel = resizable.querySelector(".label strong");
-
-function setSize(px) {
-  px = Math.min(700, Math.max(100, px));
-  resizable.style.width = px + "px";
-  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate
-  resizableLabel.textContent = px + "px";
-  slider.value = px;
-  number.value = px;
-}
-
-slider.addEventListener("input", () => setSize(parseInt(slider.value)));
-number.addEventListener("input", () => setSize(parseInt(number.value)));
-
-// Logging
-const images = document.querySelectorAll(".img-square img");
-
-images.forEach((img) => {
-  if (img.complete) {
-    log(\`Already cached: \${img.currentSrc} (\${img.offsetWidth}px)\`);
-  }
-  img.addEventListener("load", () => {
-    log(\`Loaded: \${img.currentSrc} (\${img.offsetWidth}px container)\`);
-  });
-});
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        log(\`Entered viewport: \${img.alt}\`);
-        observer.unobserve(img);
-      }
-    });
-  },
-  {
-    root: document.getElementById("scroll-container"),
-    rootMargin: "0px",
-    threshold: 0.1,
-  },
-);
-
-images.forEach((img) => observer.observe(img));
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "radix",
-                            "Missing radix parameter.",
-                            'slider.addEventListener("input", () => setSize(parseInt(slider.value)));',
-                            "22:48 - 22:70",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[radix] Missing radix parameter.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const slider = document.getElementById("slider");
-const number = document.getElementById("number");
-const resizable = document.getElementById("resizable");
-const resizableImg = resizable.querySelector("img");
-const resizableLabel = resizable.querySelector(".label strong");
-
-function setSize(px) {
-  px = Math.min(700, Math.max(100, px));
-  resizable.style.width = px + "px";
-  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate
-  resizableLabel.textContent = px + "px";
-  slider.value = px;
-  number.value = px;
-}
-
-slider.addEventListener("input", () => setSize(parseInt(slider.value)));
-number.addEventListener("input", () => setSize(parseInt(number.value)));
-
-// Logging
-const images = document.querySelectorAll(".img-square img");
-
-images.forEach((img) => {
-  if (img.complete) {
-    log(\`Already cached: \${img.currentSrc} (\${img.offsetWidth}px)\`);
-  }
-  img.addEventListener("load", () => {
-    log(\`Loaded: \${img.currentSrc} (\${img.offsetWidth}px container)\`);
-  });
-});
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        log(\`Entered viewport: \${img.alt}\`);
-        observer.unobserve(img);
-      }
-    });
-  },
-  {
-    root: document.getElementById("scroll-container"),
-    rootMargin: "0px",
-    threshold: 0.1,
-  },
-);
-
-images.forEach((img) => observer.observe(img));
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "radix",
-                            "Missing radix parameter.",
-                            'number.addEventListener("input", () => setSize(parseInt(number.value)));',
-                            "23:48 - 23:70",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[radix] Missing radix parameter.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.innerText = \`\${logElement.innerText}\${text}\\n\`;
-  logElement.scrollTop = logElement.scrollHeight;
-}
-
-const slider = document.getElementById("slider");
-const number = document.getElementById("number");
-const resizable = document.getElementById("resizable");
-const resizableImg = resizable.querySelector("img");
-const resizableLabel = resizable.querySelector(".label strong");
-
-function setSize(px) {
-  px = Math.min(700, Math.max(100, px));
-  resizable.style.width = px + "px";
-  resizableImg.sizes = px + "px"; // update sizes so browser can pick new srcset candidate
-  resizableLabel.textContent = px + "px";
-  slider.value = px;
-  number.value = px;
-}
-
-slider.addEventListener("input", () => setSize(parseInt(slider.value)));
-number.addEventListener("input", () => setSize(parseInt(number.value)));
-
-// Logging
-const images = document.querySelectorAll(".img-square img");
-
-images.forEach((img) => {
-  if (img.complete) {
-    log(\`Already cached: \${img.currentSrc} (\${img.offsetWidth}px)\`);
-  }
-  img.addEventListener("load", () => {
-    log(\`Loaded: \${img.currentSrc} (\${img.offsetWidth}px container)\`);
-  });
-});
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const img = entry.target;
-        log(\`Entered viewport: \${img.alt}\`);
-        observer.unobserve(img);
-      }
-    });
-  },
-  {
-    root: document.getElementById("scroll-container"),
-    rootMargin: "0px",
-    threshold: 0.1,
-  },
-);
-
-images.forEach((img) => observer.observe(img));
 ~~~
 `
                           ]
@@ -20856,23 +20021,6 @@ button:interest-source {
                     }
                   }
                 },
-                subtlecrypto: {
-                  children: {
-                    encrypt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/encrypt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgaelement: {
                   children: {
                     hash: {
@@ -21030,18 +20178,6 @@ button:interest-source {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/async"
-                      ]
-                    }
-                  ]
-                },
-                timeevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/TimeEvent",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/TimeEvent"
                       ]
                     }
                   ]
@@ -21540,19 +20676,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.asyncapi.com/blog/websocket-part1",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -22428,60 +21551,6 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds",
                           messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-url-quotes",
-                                'Expected quotes around "url" function argument (function-url-quotes)',
-                                "  background-image: url(a.png), url(b.png), url(c.png);",
-                                "2:25 - 2:30",
-                                `/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-.element {
-  background-image: url(a.png), url(b.png), url(c.png);
-  background-position: left top;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-url-quotes",
-                                'Expected quotes around "url" function argument (function-url-quotes)',
-                                "  background-image: url(a.png), url(b.png), url(c.png);",
-                                "2:37 - 2:42",
-                                `/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-.element {
-  background-image: url(a.png), url(b.png), url(c.png);
-  background-position: left top;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-url-quotes",
-                                'Expected quotes around "url" function argument (function-url-quotes)',
-                                "  background-image: url(a.png), url(b.png), url(c.png);",
-                                "2:49 - 2:54",
-                                `/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-.element {
-  background-image: url(a.png), url(b.png), url(c.png);
-  background-position: left top;
-}
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -37729,43 +36798,10 @@ input[type="range"] {
                             {
                               message: "CSS code issue",
                               data: [
-                                "import-notation",
-                                'Expected "url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap"" (import-notation)',
-                                '@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap");',
-                                "10:9 - 10:89",
-                                `/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap"" (import-notation)
-~~~
-:lang(ja) {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-}
-:lang(mn-Mong) {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap");
-
-:lang(ja),
-:lang(mn-Mong) {
-  float: left;
-}
-
-:lang(mn-Mong) {
-  font-family: "Noto Sans Mongolian", sans-serif;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "no-invalid-position-at-import-rule",
                                 "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
-                                '@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap");',
-                                "10:1 - 10:89",
+                                '@import "https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap";',
+                                "10:1 - 10:84",
                                 `/en-US/docs/Web/CSS/Guides/Writing_modes/Writing_mode_systems
 [no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
 ~~~
@@ -37778,7 +36814,7 @@ input[type="range"] {
   text-orientation: mixed;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian&display=swap";
 
 :lang(ja),
 :lang(mn-Mong) {
@@ -39424,6 +38460,19 @@ text:nth-of-type(8) {
                               ]
                             }
                           }
+                        },
+                        "aspect-ratio": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "backdrop-filter": {
                           children: {},
@@ -47779,24 +46828,6 @@ a:target-after {
                             {
                               message: "CSS code issue",
                               data: [
-                                "color-function-alias-notation",
-                                'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                                "  background-color: rgba(0 0 0 / 0.5);",
-                                "2:21 - 2:25",
-                                `/en-US/docs/Web/CSS/Reference/Selectors/:xr-overlay
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-:xr-overlay {
-  background-color: rgba(0 0 0 / 0.5);
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "selector-pseudo-class-no-unknown",
                                 'Unexpected unknown pseudo-class selector ":xr-overlay" (selector-pseudo-class-no-unknown)',
                                 ":xr-overlay {",
@@ -47805,7 +46836,7 @@ a:target-after {
 [selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":xr-overlay" (selector-pseudo-class-no-unknown)
 ~~~
 :xr-overlay {
-  background-color: rgba(0 0 0 / 0.5);
+  background-color: rgb(0 0 0 / 0.5);
   color: white;
 }
 ~~~
@@ -49009,15 +48040,15 @@ body {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
-                                'Cannot parse property value "attr(svg|myattr type(*), green)" for property "fill" (declaration-property-value-no-unknown)',
-                                "  fill: attr(svg|myattr type(*), green);",
+                                'Cannot parse property value "attr(svg|myAttr type(*), green)" for property "fill" (declaration-property-value-no-unknown)',
+                                "  fill: attr(svg|myAttr type(*), green);",
                                 "3:9 - 3:40",
                                 `/en-US/docs/Web/CSS/Reference/Values/attr
-[declaration-property-value-no-unknown] Cannot parse property value "attr(svg|myattr type(*), green)" for property "fill" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "attr(svg|myAttr type(*), green)" for property "fill" (declaration-property-value-no-unknown)
 ~~~
 @namespace svg url("http://www.w3.org/2000/svg");
 a {
-  fill: attr(svg|myattr type(*), green);
+  fill: attr(svg|myAttr type(*), green);
 }
 ~~~
 `
@@ -75999,41 +75030,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        meta: {
-                          children: {
-                            name: {
-                              children: {
-                                robots: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/robots",
-                                  messages: [
-                                    {
-                                      message: "Redirected external link",
-                                      data: [
-                                        "https://www.bing.com/webmasters/help/which-robots-metatags-does-bing-support-5198d240",
-                                        "https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240"
-                                      ]
-                                    },
-                                    {
-                                      message: "Redirected external link",
-                                      data: [
-                                        "https://www.bing.com/webmasters/help/which-robots-metatags-does-bing-support-5198d240",
-                                        "https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240"
-                                      ]
-                                    },
-                                    {
-                                      message: "Redirected external link",
-                                      data: [
-                                        "https://www.bing.com/webmasters/help/which-robots-metatags-does-bing-support-5198d240",
-                                        "https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          }
-                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -76230,19 +75226,6 @@ html.elements.input.switch`,
                         }
                       ]
                     },
-                    caching: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Caching",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.mnot.net/cache_docs/",
-                            "https://mnot.net/cache_docs/"
-                          ]
-                        }
-                      ]
-                    },
                     compression_dictionary_transport: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
@@ -76328,7 +75311,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     iframe_credentialless: {
                       children: {},
@@ -76381,32 +75374,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "alt-svc": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Alt-Svc",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.mnot.net/blog/2016/03/09/alt-svc",
-                                "https://mnot.net/blog/2016/alt-svc"
-                              ]
-                            }
-                          ]
-                        },
-                        "cache-control": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.mnot.net/cache_docs/",
-                                "https://mnot.net/cache_docs/"
-                              ]
-                            }
-                          ]
-                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -76822,6 +75789,23 @@ let z = 1;
                         }
                       ]
                     },
+                    regular_expressions: {
+                      children: {
+                        unicode_character_class_escape: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -76979,6 +75963,26 @@ doIt(); // returns "finally"
                             }
                           ]
                         },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.icecast.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xiph.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -77011,10 +76015,37 @@ doIt(); // returns "finally"
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
                           messages: [
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
-                                "https://via-la.com/licensing-programs/aac/",
-                                "https://www.via-la.com/licensing-programs/aac/"
+                                "https://xiph.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xiph.org/vorbis/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://xiph.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xiph.org/oggz/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -77030,8 +76061,29 @@ doIt(); // returns "finally"
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.xiph.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://xiph.org/ogg/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://xiph.org/flac/format.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -77041,48 +76093,6 @@ doIt(); // returns "finally"
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/avc-h-264/",
-                                "https://www.via-la.com/licensing-programs/avc-h-264/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/avc-h-264/",
-                                "https://www.via-la.com/licensing-programs/avc-h-264/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "https://www.via-la.com/licensing-programs/hevc-vvc/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/hevc-vvc/",
-                                "https://www.via-la.com/licensing-programs/hevc-vvc/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/licensing-programs/mpeg-4-visual/",
-                                "https://www.via-la.com/licensing-programs/mpeg-4-visual/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://via-la.com/",
-                                "https://www.via-la.com/"
-                              ]
-                            },
-                            {
                               message: "Broken external link",
                               data: [
                                 "https://about.att.com/innovation/ip/patents",
@@ -77090,10 +76100,10 @@ doIt(); // returns "finally"
                               ]
                             },
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
-                                "https://via-la.com/licensing-programs/mpeg-2/",
-                                "https://www.via-la.com/licensing-programs/mpeg-2/"
+                                "https://xiph.org/",
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -77101,6 +76111,20 @@ doIt(); // returns "finally"
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xiph.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.theora.org/doc/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -77354,12 +76378,6 @@ doIt(); // returns "finally"
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/security-privacy-questionnaire/#missing-questions"
-                          ]
                         }
                       ]
                     },
@@ -78406,18 +77424,6 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
-                                      message: "Broken anchor",
-                                      data: [
-                                        "#console-entry-fields"
-                                      ]
-                                    },
-                                    {
-                                      message: "Broken anchor",
-                                      data: [
-                                        "#common-fields"
-                                      ]
-                                    },
-                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-event"
@@ -78927,23 +77933,6 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
-            guides: {
-              children: {
-                c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://en.cppreference.com/w/c/program/atexit",
-                        "https://en.cppreference.com/c/program/atexit"
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             reference: {
               children: {
                 control_flow: {
