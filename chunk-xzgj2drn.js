@@ -95415,19 +95415,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
@@ -95435,11 +95423,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         }
       ],
@@ -163029,71 +163029,11 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163101,11 +163041,39 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163113,11 +163081,31 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163129,55 +163117,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163185,7 +163125,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163193,19 +163133,51 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163213,11 +163185,39 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163225,11 +163225,11 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -165359,11 +165359,7 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165371,7 +165367,7 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165379,19 +165375,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165399,7 +165387,19 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -183847,11 +183847,7 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -183859,11 +183855,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -183871,7 +183867,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         }
       ],
@@ -196595,7 +196595,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Invalid cookie domain",
+        title: "invalid cookie domain error code",
         pageType: "webdriver-error",
         summary: "The invalid cookie domain error is a WebDriver error that occurs when an illegal attempt was made to set a cookie under a different domain than that of the current document.",
         popularity: 0.0009712361012764818,
@@ -196604,7 +196604,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/invalidcookiedomain",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Invalid cookie domain",
+        short_title: "invalid cookie domain",
         status: []
       },
       links: [],
@@ -196622,7 +196622,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Insecure certificate",
+        title: "insecure certificate error code",
         pageType: "webdriver-error",
         summary: "The insecure certificate error is a WebDriver error that occurs when the remotely controlled browser hits a certificate warning of any kind. This is usually the result of navigating to a website with an expired or invalid TLS certificate. Examples of invalid certificates include self-signed, revoked, and cryptographically insecure certificates.",
         popularity: 0.000732015386676363,
@@ -196631,7 +196631,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/insecurecertificate",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Insecure certificate",
+        short_title: "insecure certificate",
         status: []
       },
       links: [
@@ -196649,7 +196649,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Unknown error",
+        title: "unknown error code",
         pageType: "webdriver-error",
         summary: "The unknown element error is a WebDriver error that occurs when an unspecified error occurs in the driver whilst processing a command.",
         popularity: 0.0008324880868084129,
@@ -196658,7 +196658,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/unknownerror",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Unknown error",
+        short_title: "unknown",
         status: []
       },
       links: [],
@@ -196673,7 +196673,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "JavaScript error",
+        title: "javascript error code",
         pageType: "webdriver-error",
         summary: "The JavaScript error is a WebDriver error that occurs when a script the supplied by the user fails to execute.",
         popularity: null,
@@ -196682,7 +196682,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/javascripterror",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "JavaScript error",
+        short_title: "javascript",
         status: []
       },
       links: [],
@@ -196698,7 +196698,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Invalid argument",
+        title: "invalid argument error code",
         pageType: "webdriver-error",
         summary: "The invalid argument error is a WebDriver error that occurs when the arguments passed to a command are either invalid or malformed.",
         popularity: 0.0006889556580483417,
@@ -196707,7 +196707,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/invalidargument",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Invalid argument",
+        short_title: "invalid argument",
         status: []
       },
       links: [],
@@ -196723,7 +196723,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Invalid session ID",
+        title: "invalid session id error code",
         pageType: "webdriver-error",
         summary: "The invalid session ID error is a WebDriver error that occurs when the server does not recognize the unique session identifier. This happens if the session has been deleted or if the session ID is invalid.",
         popularity: 0.001052571144240522,
@@ -196732,7 +196732,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/invalidsessionid",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Invalid session ID",
+        short_title: "invalid session id",
         status: []
       },
       links: [],
@@ -196750,7 +196750,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Invalid selector",
+        title: "invalid selector error code",
         pageType: "webdriver-error",
         summary: "The invalid selector error is a WebDriver error that occurs when an element retrieval command is used with an unknown web element selector strategy.",
         popularity: null,
@@ -196759,7 +196759,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/invalidselector",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Invalid selector",
+        short_title: "invalid selector",
         status: []
       },
       links: [],
@@ -196774,7 +196774,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Stale element reference",
+        title: "stale element reference error code",
         pageType: "webdriver-error",
         summary: "The stale element reference error is a WebDriver error that occurs because the referenced web element is no longer attached to the DOM.",
         popularity: 0.0007989971867643963,
@@ -196783,7 +196783,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/staleelementreference",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Stale element reference",
+        short_title: "stale element reference",
         status: []
       },
       links: [],
@@ -196801,7 +196801,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Unknown method",
+        title: "unknown method error code",
         pageType: "webdriver-error",
         summary: "The unknown method error is a WebDriver error that occurs when the driver does not recognize the HTTP request method used for the endpoint.",
         popularity: null,
@@ -196810,7 +196810,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/unknownmethod",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Unknown method",
+        short_title: "unknown method",
         status: []
       },
       links: [],
@@ -196861,7 +196861,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Unknown command",
+        title: "unknown command error code",
         pageType: "webdriver-error",
         summary: "The unknown command error is a WebDriver error that occurs when the driver does not recognize the command/HTTP endpoint.",
         popularity: null,
@@ -196870,7 +196870,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/unknowncommand",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Unknown command",
+        short_title: "unknown command",
         status: []
       },
       links: [],
@@ -196886,7 +196886,7 @@ The main interface to using XPath is the evaluate function of the document objec
     links: {},
     data: {
       metadata: {
-        title: "Script timeout",
+        title: "script timeout error code",
         pageType: "webdriver-error",
         summary: "The script timeout error is a WebDriver error that occurs when a script the user has provided did not complete before the session's script timeout duration expired.",
         popularity: null,
@@ -196895,7 +196895,7 @@ The main interface to using XPath is the evaluate function of the document objec
           folder: "en-us/web/webdriver/reference/errors/scripttimeout",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "Script timeout",
+        short_title: "script timeout",
         status: []
       },
       links: [],
@@ -197663,7 +197663,7 @@ Commands are used to control the behavior of a user agent, discover and manipula
         browserCompat: [
           "webdriver.classic.CloseWindow"
         ],
-        summary: "The Close Window command of the WebDriver API closes the current top-level browsing context (window or tab) and returns with the list of currently open WebWindows. If it is the last window that is being closed, the WebDriver session will implicitly be deleted. Subsequent commands after the session is ended will therefore cause invalid session ID errors.",
+        summary: "The Close Window command of the WebDriver API closes the current top-level browsing context (window or tab) and returns with the list of currently open WebWindows. If it is the last window that is being closed, the WebDriver session will implicitly be deleted. Subsequent commands after the session is ended will therefore cause invalid session id errors.",
         popularity: 0.0006889556580483417,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -197992,7 +197992,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/session/status",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "session.status",
+        short_title: "status",
         status: []
       },
       specifications: [
@@ -198036,7 +198036,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/session/unsubscribe",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "session.unsubscribe",
+        short_title: "unsubscribe",
         status: []
       },
       specifications: [
@@ -198082,7 +198082,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/session/subscribe",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "session.subscribe",
+        short_title: "subscribe",
         status: []
       },
       specifications: [
@@ -198166,7 +198166,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/session/new",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "session.new",
+        short_title: "new",
         status: []
       },
       specifications: [
@@ -198230,7 +198230,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/session/end",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "session.end",
+        short_title: "end",
         status: [
           "experimental"
         ]
@@ -198374,7 +198374,7 @@ Each module represents a collection of related commands and events used in speci
           folder: "en-us/web/webdriver/reference/bidi/modules/log/entryadded",
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
-        short_title: "log.entryAdded",
+        short_title: "entryAdded",
         status: []
       },
       specifications: [
@@ -224298,6 +224298,7 @@ It is used internally when invoking structuredClone(), to transfer data between 
         "importing_scripts_and_libraries",
         "shared_workers",
         "spawning_a_shared_worker",
+        "shared_worker_lifetime",
         "sending_messages_to_and_from_a_shared_worker",
         "about_thread_safety",
         "content_security_policy",
@@ -280913,15 +280914,97 @@ value of the individual transform property in CSS.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/WebCodecs_API/Using_the_WebCodecs_API",
+    links: {},
+    data: {
+      metadata: {
+        title: "Using the WebCodecs API",
+        pageType: "guide",
+        summary: "This guide covers the basic usage patterns of the WebCodecs API, including how to encode and decode video and audio, as well as how to use VideoFrame and AudioData.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/webcodecs_api/using_the_webcodecs_api",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Using the WebCodecs API",
+        status: []
+      },
+      links: [],
+      imgs: [],
+      ids: [
+        "encoding_video",
+        "decoding_video",
+        "videoframe",
+        "creating_video_frames",
+        "consuming_video_frames",
+        "canvas2d",
+        "bitmaprenderer",
+        "webgpu",
+        "memory",
+        "audio",
+        "playback",
+        "encoding",
+        "decoding",
+        "audiodata",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts",
+    links: {},
+    data: {
+      metadata: {
+        title: "Video processing concepts",
+        pageType: "guide",
+        summary: `Before working with the WebCodecs API, it is helpful to understand some foundational concepts around how video works, how it is compressed, and how video files are structured.
+This guide covers the key concepts: video frames, codecs, encoding and decoding, containers, and muxing and demuxing.`,
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/webcodecs_api/video_processing_concepts",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Video processing concepts",
+        status: []
+      },
+      links: [
+        "https://www.w3.org/TR/mse-byte-stream-format-webm/",
+        "https://github.com/alfg/quick-dive-into-mp4",
+        "https://mediabunny.dev/"
+      ],
+      imgs: [
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/video-frames.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/dct.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/bitrate-ladder.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/frame-diff.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/key-frames.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/containers.png",
+        "/en-US/docs/Web/API/WebCodecs_API/Video_processing_concepts/decoder-demuxer.png"
+      ],
+      ids: [
+        "video_frames",
+        "codecs",
+        "spatial_compression",
+        "temporal_compression",
+        "encoding_and_decoding",
+        "codec_compatibility",
+        "encoding_is_expensive",
+        "hardware_acceleration",
+        "containers",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/WebCodecs_API",
     links: {},
     data: {
       metadata: {
         title: "WebCodecs API",
         pageType: "web-api-overview",
-        summary: `The WebCodecs API gives web developers low-level access to the individual frames of a video stream and chunks of audio.
-It is useful for web applications that require full control over the way media is processed.
-For example, video or audio editors, and video conferencing.`,
+        summary: "The WebCodecs API enables web developers to encode and decode video and audio in the browser efficiently (using hardware acceleration) and with very low-level control (processing on a per-frame basis).",
         popularity: 0.0098750310986929,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -280932,20 +281015,47 @@ For example, video or audio editors, and video conferencing.`,
         status: []
       },
       links: [
+        "https://webcodecsfundamentals.org/basics/encoded-video-chunk/#key-frames",
         "https://w3c.github.io/webcodecs/#codec-processing-model-section",
-        "https://github.com/gpac/mp4box.js/",
-        "https://github.com/jscodec/jswebm",
-        "https://developer.chrome.com/docs/web-platform/best-practices/webcodecs",
+        "https://webcodecsfundamentals.org/datasets/codec-support-table/",
+        "https://mediabunny.dev/",
+        "https://github.com/bilibili/web-demuxer",
+        "https://mediabunny.dev/",
+        "https://webcodecsfundamentals.org/basics/muxing/",
         "https://developer.chrome.com/docs/web-platform/best-practices/webcodecs",
         "https://w3c.github.io/webcodecs/samples/",
+        "https://webcodecsfundamentals.org/",
         "https://webrtchacks.com/real-time-video-processing-with-webcodecs-and-streams-processing-pipelines-part-1/",
         "https://webrtchacks.com/video-frame-processing-on-the-web-webassembly-webgpu-webgl-webcodecs-webnn-and-webtransport/"
       ],
-      imgs: [],
+      imgs: [
+        "/en-US/docs/Web/API/WebCodecs_API/video-encoder-decoder.png",
+        "/en-US/docs/Web/API/WebCodecs_API/audio-encoder-decoder.png",
+        "/en-US/docs/Web/API/WebCodecs_API/video-frame.png",
+        "/en-US/docs/Web/API/WebCodecs_API/audio-data.png",
+        "/en-US/docs/Web/API/WebCodecs_API/decoder-demuxer.png"
+      ],
       ids: [
-        "concepts_and_usage",
+        "concepts",
+        "video",
+        "audio",
         "processing_model",
-        "demuxing",
+        "codecs",
+        "video_codecs",
+        "h.264_avc",
+        "vp9",
+        "av1",
+        "h.265_hevc",
+        "audio_codecs",
+        "opus",
+        "aac",
+        "mp3",
+        "pcm",
+        "muxing_and_demuxing",
+        "guides",
+        "video_processing_concepts",
+        "using_the_webcodecs_api",
+        "codec_selection",
         "interfaces",
         "audiodecoder",
         "videodecoder",
@@ -280960,6 +281070,90 @@ For example, video or audio editors, and video conferencing.`,
         "imagetracklist",
         "imagetrack",
         "examples",
+        "basic_usage",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/WebCodecs_API/Codec_selection",
+    links: {},
+    data: {
+      metadata: {
+        title: "Codec selection",
+        pageType: "guide",
+        summary: "While developers commonly refer to codecs by their code identifier string, such as vp9 or h264, there are many configuration profiles, levels, and other parameters that control exactly how the data is encoded and decoded.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/webcodecs_api/codec_selection",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Codec selection",
+        status: []
+      },
+      links: [
+        "https://mediabunny.dev/",
+        "https://github.com/bilibili/web-demuxer",
+        "https://aomedia.org/",
+        "https://webcodecsfundamentals.org/codecs/avc1.42001f.html",
+        "https://webcodecsfundamentals.org/codecs/avc1.4d0034.html",
+        "https://webcodecsfundamentals.org/codecs/avc1.42003e.html",
+        "https://webcodecsfundamentals.org/codecs/avc1.64003e.html",
+        "https://webcodecsfundamentals.org/codecs/vp09.00.30.08.00.html",
+        "https://webcodecsfundamentals.org/codecs/vp09.00.40.08.00.html",
+        "https://webcodecsfundamentals.org/codecs/vp09.00.50.08.00.html",
+        "https://webcodecsfundamentals.org/codecs/vp09.00.61.08.00.html",
+        "https://webcodecsfundamentals.org/codecs/av01.0.05M.08.html",
+        "https://webcodecsfundamentals.org/codecs/av01.0.08M.08.html",
+        "https://webcodecsfundamentals.org/codecs/av01.0.12M.08.html",
+        "https://webcodecsfundamentals.org/codecs/hev1.1.6.L120.B0.html",
+        "https://webcodecsfundamentals.org/codecs/hvc1.1.6.L150.B0.html",
+        "https://webcodecsfundamentals.org/codecs/hvc1.1.6.L180.B0.html",
+        "https://webcodecsfundamentals.org/datasets/codec-support-table/",
+        "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "https://webcodecsfundamentals.org/codecs/opus.html",
+        "https://webcodecsfundamentals.org/codecs/opus.html",
+        "https://webcodecsfundamentals.org/codecs/mp4a.40.2.html",
+        "https://webcodecsfundamentals.org/codecs/mp4a.40.2.html",
+        "https://webcodecsfundamentals.org/codecs/mp3.html",
+        "https://webcodecsfundamentals.org/codecs/mp3.html",
+        "https://webcodecsfundamentals.org/codecs/flac.html",
+        "https://webcodecsfundamentals.org/codecs/flac.html",
+        "https://webcodecsfundamentals.org/codecs/vorbis.html",
+        "https://webcodecsfundamentals.org/codecs/vorbis.html",
+        "https://webcodecsfundamentals.org/codecs/pcm-f32.html",
+        "https://webcodecsfundamentals.org/codecs/pcm-f32.html",
+        "https://zenodo.org/records/19187467",
+        "https://webcodecsfundamentals.org/datasets/codec-support-table/"
+      ],
+      imgs: [],
+      ids: [
+        "decoding_vs_encoding",
+        "video_codecs",
+        "video_codec_families",
+        "h.264_avc",
+        "vp9",
+        "av1",
+        "hevc_h.265",
+        "codec-container_compatibility",
+        "codec_string_selection",
+        "h.264",
+        "vp9_2",
+        "av1_2",
+        "hevc",
+        "codec_string_format",
+        "h.264_2",
+        "vp9_3",
+        "av1_3",
+        "hevc_2",
+        "audio_codecs",
+        "opus",
+        "aac",
+        "mp3_and_pcm",
+        "audio_codec_string_reference",
+        "common_use_cases",
+        "checking_support_at_runtime",
         "see_also"
       ]
     }
@@ -289291,7 +289485,7 @@ see Matching event listeners for removal.`,
         browserCompat: [
           "api.PreferenceObject.clearOverride"
         ],
-        summary: "The clearOverride method of the PreferenceObject interface resets the must be provided value.",
+        summary: "The clearOverride method of the PreferenceObject interface resets the override value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -289377,7 +289571,7 @@ see Matching event listeners for removal.`,
         browserCompat: [
           "api.PreferenceObject.requestOverride"
         ],
-        summary: "The requestOverride method of the PreferenceObject interface sets an must be provided value for a particular preference.",
+        summary: "The requestOverride method of the PreferenceObject interface sets an override value for a particular preference.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -370648,6 +370842,7 @@ the shared worker.`,
         "type",
         "credentials",
         "name_2",
+        "extendedlifetime",
         "samesitecookies",
         "all",
         "none",
@@ -370659,6 +370854,9 @@ the shared worker.`,
         "description",
         "examples",
         "basic_usage",
+        "constructing_an_already_running_worker_will_reuse_the_existing_worker",
+        "constructing_a_shared_worker_with_options",
+        "shared_workers_with_different_options",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -370675,7 +370873,8 @@ the shared worker.`,
         browserCompat: [
           "api.SharedWorker"
         ],
-        summary: "The SharedWorker interface represents a specific kind of worker that can be accessed from several browsing contexts, such as multiple windows or iframes. Shared workers implement a different interface than dedicated workers, have a different global scope (SharedWorkerGlobalScope), and their constructor is not exposed in DedicatedWorkerGlobalScope, so they cannot be instantiated from dedicated workers.",
+        summary: `The SharedWorker interface represents a specific kind of worker that can be accessed from several browsing contexts, such as multiple windows or iframes.
+Shared workers implement a different interface than dedicated workers, have a different global scope (SharedWorkerGlobalScope), and their constructor is not exposed in DedicatedWorkerGlobalScope, so they cannot be instantiated from dedicated workers.`,
         popularity: 0.010487436128069202,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -370693,8 +370892,7 @@ the shared worker.`,
       ],
       links: [
         "https://github.com/mdn/dom-examples/tree/main/web-workers/simple-shared-worker",
-        "https://mdn.github.io/dom-examples/web-workers/simple-shared-worker/",
-        "https://html.spec.whatwg.org/multipage/workers.html#the-worker's-lifetime"
+        "https://mdn.github.io/dom-examples/web-workers/simple-shared-worker/"
       ],
       imgs: [],
       ids: [
@@ -370706,6 +370904,7 @@ the shared worker.`,
         "error",
         "instance_methods",
         "example",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -498742,11 +498941,11 @@ by the user agent.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
           title: "Web Audio API"
         },
         {
@@ -498754,7 +498953,7 @@ by the user agent.`,
           title: "Web Audio API"
         },
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
           title: "Web Audio API"
         }
       ],
@@ -551002,7 +551201,11 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
@@ -551010,11 +551213,27 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -551022,15 +551241,75 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
@@ -551042,92 +551321,12 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
           title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
         }
       ],
       links: [
@@ -574888,7 +575087,7 @@ When a containment context is given a name, it can be specifically targeted usin
         browserCompat: [
           "css.properties.view-transition-class"
         ],
-        summary: "The view-transition-class CSS property provides the selected elements with an identifying class (a <custom-ident>), providing an additional method of styling the view transitions for those elements.",
+        summary: "The view-transition-class CSS property provides the selected elements with one or more identifying classes (<custom-ident>s), providing an additional method of styling the view transitions for those elements.",
         popularity: 0.004401661148642183,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -574920,6 +575119,8 @@ When a containment context is given a name, it can be specifically targeted usin
         "formal_syntax",
         "view-transition-class",
         "examples",
+        "styling_a_shared_class_across_multiple_elements",
+        "using_multiple_classes_on_a_single_element",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -577779,15 +577980,11 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -577795,7 +577992,23 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -577807,19 +578020,7 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
