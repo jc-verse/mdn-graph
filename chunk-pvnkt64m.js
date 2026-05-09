@@ -95415,15 +95415,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -95431,15 +95423,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         }
       ],
@@ -98668,12 +98668,7 @@ It lets users indicate whether they would prefer privacy rather than personalize
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#attribution-reporting-eligible",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -99626,12 +99621,7 @@ This header is included as part of a response to a request that contains the Att
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#parse-source-registration-json",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -101509,12 +101499,7 @@ For example, Accept-Encoding is included in a 415 Unsupported Media Type respons
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#create-an-attribution-trigger",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [
         "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
       ],
@@ -104278,12 +104263,7 @@ video input devices.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#permission-policy-integration",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -163029,75 +163009,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163105,91 +163017,15 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163197,27 +163033,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163225,11 +163041,199 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -165359,23 +165363,11 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165383,11 +165375,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165395,11 +165391,27 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -172059,7 +172071,12 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
         short_title: "attributeType",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/SVG11/animate.html#AttributeTypeAttribute",
+          title: "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -172353,6 +172370,10 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
         status: []
       },
       specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#CyProperty",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
         {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementCYAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
@@ -172721,6 +172742,10 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
         status: []
       },
       specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fedropshadow-stddeviation",
+          title: "Filter Effects Module Level 1"
+        },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation",
           title: "Filter Effects Module Level 1"
@@ -174544,6 +174569,10 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#CxProperty",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementCXAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
@@ -174846,6 +174875,10 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#LineElementY2Attribute",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementY2Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
@@ -175049,7 +175082,12 @@ For an animation element, this is the point at which the animation should begin.
         short_title: "requiredExtensions",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/struct.html#RequiredExtensionsAttribute",
+          title: "Scalable Vector Graphics (SVG) 2"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -175515,6 +175553,10 @@ For an animation element, this is the point at which the animation should begin.
         status: []
       },
       specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/geometry.html#RProperty",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
         {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#RadialGradientElementRAttribute",
           title: "Scalable Vector Graphics (SVG) 2"
@@ -176883,6 +176925,10 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#LineElementX2Attribute",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementX2Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
@@ -177593,6 +177639,10 @@ For an animation element, this is the point at which the animation should begin.
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#LineElementX1Attribute",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementX1Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
         }
@@ -178183,7 +178233,12 @@ For an animation element, this is the point at which the animation should begin.
         short_title: "rotate",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://svgwg.org/specs/animations/#RotateAttribute",
+          title: "SVG Animations Level 2"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -178599,7 +178654,12 @@ For an animation element, this is the point at which the animation should begin.
           "deprecated"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/SVG11/struct.html#SVGElementBaseProfileAttribute",
+          title: "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -179114,6 +179174,10 @@ For an animation element, this is the point at which the animation should begin.
         status: []
       },
       specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/shapes.html#LineElementY1Attribute",
+          title: "Scalable Vector Graphics (SVG) 2"
+        },
         {
           bcdSpecificationURL: "https://w3c.github.io/svgwg/svg2-draft/pservers.html#LinearGradientElementY1Attribute",
           title: "Scalable Vector Graphics (SVG) 2"
@@ -180018,7 +180082,12 @@ For an animation element, this is the point at which the animation should begin.
           "deprecated"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/SVG11/linking.html#XLinkShowAttribute",
+          title: "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"
+        }
+      ],
       links: [
         "https://www.w3.org/TR/xlink/#show-att"
       ],
@@ -183847,23 +183916,19 @@ and Legendre symbols.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -183872,6 +183937,10 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -202001,7 +202070,7 @@ read from, or written to, compatible NFC devices; e.g., NFC tags supporting NDEF
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-constructor",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-constructor",
           title: "Web NFC"
         }
       ],
@@ -202063,7 +202132,7 @@ as smart poster and external type records.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-torecords",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-torecords",
           title: "Web NFC"
         }
       ],
@@ -202107,7 +202176,7 @@ absolute or relative URL used to identify the record.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-id",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-id",
           title: "Web NFC"
         }
       ],
@@ -202144,7 +202213,7 @@ absolute or relative URL used to identify the record.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord",
           title: "Web NFC"
         }
       ],
@@ -202193,7 +202262,7 @@ a textual payload, or null if one was not supplied.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-lang",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-lang",
           title: "Web NFC"
         }
       ],
@@ -202233,7 +202302,7 @@ a textual payload, or null otherwise.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-encoding",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-encoding",
           title: "Web NFC"
         }
       ],
@@ -202271,7 +202340,7 @@ property of the NDEFRecord interface returns the record type of the record.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-recordtype",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-recordtype",
           title: "Web NFC"
         }
       ],
@@ -202318,7 +202387,7 @@ property of the NDEFRecord interface returns the MIME type of the record. This v
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-mediatype",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-mediatype",
           title: "Web NFC"
         }
       ],
@@ -202358,7 +202427,7 @@ DataView containing the raw bytes of the record's payload.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefrecord-data",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-data",
           title: "Web NFC"
         }
       ],
@@ -203819,7 +203888,7 @@ object with a given location and dimensions.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domrectreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -207290,7 +207359,12 @@ the callback.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap",
+          title: "Encrypted Media Extensions"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -207330,7 +207404,12 @@ insertion order.`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap",
+          title: "Encrypted Media Extensions"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -207405,7 +207484,12 @@ values for each element in the status map, in insertion order.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap",
+          title: "Encrypted Media Extensions"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -207439,7 +207523,12 @@ keys for each element in the status map, in insertion order.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap",
+          title: "Encrypted Media Extensions"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -207473,7 +207562,7 @@ keys for each element in the status map, in insertion order.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#mediakeystatusmap-interface",
+          bcdSpecificationURL: "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap",
           title: "Encrypted Media Extensions"
         }
       ],
@@ -209623,7 +209712,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-firstuieventtimestamp",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-firstuieventtimestamp",
           title: "Long Animation Frames API"
         }
       ],
@@ -209662,7 +209751,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-scripts",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-scripts",
           title: "Long Animation Frames API"
         }
       ],
@@ -209740,7 +209829,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#sec-PerformanceLongAnimationFrameTiming",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#sec-PerformanceLongAnimationFrameTiming",
           title: "Long Animation Frames API"
         }
       ],
@@ -209793,7 +209882,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-styleandlayoutstart",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-styleandlayoutstart",
           title: "Long Animation Frames API"
         }
       ],
@@ -209871,7 +209960,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-renderstart",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-renderstart",
           title: "Long Animation Frames API"
         }
       ],
@@ -209910,7 +209999,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-blockingduration",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-blockingduration",
           title: "Long Animation Frames API"
         }
       ],
@@ -209953,7 +210042,7 @@ names.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-tojson",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-tojson",
           title: "Long Animation Frames API"
         }
       ],
@@ -215294,7 +215383,16 @@ in the result (also referred to as "n-best alternatives".)`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#rtcstatsreport-object",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        },
+        {
+          bcdSpecificationURL: "https://webidl.spec.whatwg.org/#dfn-maplike",
+          title: "Web IDL"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -215422,7 +215520,16 @@ It returns an iterator object that yields the key-value pairs of the report in i
         short_title: "[Symbol.iterator]",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#rtcstatsreport-object",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        },
+        {
+          bcdSpecificationURL: "https://webidl.spec.whatwg.org/#dfn-maplike",
+          title: "Web IDL"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -217211,7 +217318,12 @@ deprecated and modern browsers return true in all cases.`,
         short_title: "y",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry-1/#dom-domrect-y",
+          title: "Geometry Interfaces Module Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -217241,7 +217353,12 @@ deprecated and modern browsers return true in all cases.`,
         short_title: "height",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry-1/#dom-domrect-height",
+          title: "Geometry Interfaces Module Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -217271,7 +217388,12 @@ deprecated and modern browsers return true in all cases.`,
         short_title: "width",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry-1/#dom-domrect-width",
+          title: "Geometry Interfaces Module Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -217301,7 +217423,12 @@ deprecated and modern browsers return true in all cases.`,
         short_title: "x",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry-1/#dom-domrect-x",
+          title: "Geometry Interfaces Module Level 1"
+        }
+      ],
       links: [
         "https://w3c.github.io/svgwg/svg2-draft/geometry.html#XProperty"
       ],
@@ -225410,7 +225537,12 @@ SpeechSynthesisErrorEvent interface returns an error code indicating what has go
         short_title: "async",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/scripting.html#dom-script-async",
+          title: "HTML"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -230550,12 +230682,7 @@ referenceNode.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#element-attrdef-a-attributionsrc",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [
         "https://github.com/privacysandbox/aggregation-service",
         "https://arapi-home.web.app/",
@@ -230649,7 +230776,7 @@ referenceNode.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#the-ndefreader-object",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#the-ndefreader-object",
           title: "Web NFC"
         }
       ],
@@ -234400,7 +234527,7 @@ or false if not.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/cssom-view/#the-mediaquerylist-interface",
+          bcdSpecificationURL: "https://drafts.csswg.org/cssom-view/#mediaquerylist",
           title: "CSSOM View Module"
         }
       ],
@@ -242029,7 +242156,12 @@ The higher the value, the more bandwidth you can assume is available for incomin
           "deprecated"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#eventdef-scriptprocessornode-audioprocess",
+          title: "Web Audio API"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -242070,7 +242202,7 @@ The higher the value, the more bandwidth you can assume is available for incomin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-scriptprocessornode-buffersize",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#ScriptProcessorNode",
           title: "Web Audio API"
         }
       ],
@@ -253597,7 +253729,12 @@ a new string.`,
         short_title: "statechange",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#dom-rtcdtlstransport-onstatechange",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -253760,7 +253897,12 @@ Datagram Transport Layer Security (DTLS) transport state.`,
         short_title: "error",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#dom-rtcdtlstransport-onerror",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -256508,7 +256650,7 @@ It is accessed via CSS.highlights.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-highlight-api/#highlight-registry",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-highlight-api/#highlightregistry",
           title: "CSS Custom Highlight API Module Level 1"
         }
       ],
@@ -268257,7 +268399,7 @@ read-only version of the DOMPoint object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMPoint",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dompointreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -279605,7 +279747,7 @@ one video track in the media element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-constructor",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreadingevent-constructor",
           title: "Web NFC"
         }
       ],
@@ -279665,7 +279807,7 @@ one video track in the media element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-serialnumber",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreadingevent-serialnumber",
           title: "Web NFC"
         }
       ],
@@ -279703,7 +279845,7 @@ one video track in the media element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-message",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreadingevent-message",
           title: "Web NFC"
         }
       ],
@@ -279741,7 +279883,7 @@ one video track in the media element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreadingevent",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreadingevent",
           title: "Web NFC"
         }
       ],
@@ -284322,7 +284464,12 @@ GPUCanvasContext interface removes any previously-set context configuration, and
         short_title: "StorageEvent()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webstorage.html#the-storageevent-interface",
+          title: "HTML"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -289125,11 +289272,19 @@ to write code that responds to an end to the streaming process.`,
           title: "Geometry Interfaces Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMQuad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dompointreadonly",
           title: "Geometry Interfaces Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domquad",
+          title: "Geometry Interfaces Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domrect",
+          title: "Geometry Interfaces Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domrectreadonly",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -291014,7 +291169,7 @@ SpeechGrammar object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefmessage-constructor",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefmessage-constructor",
           title: "Web NFC"
         }
       ],
@@ -291070,7 +291225,7 @@ SpeechGrammar object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefmessage",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefmessage",
           title: "Web NFC"
         }
       ],
@@ -291112,7 +291267,7 @@ present in the NDEF message.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefmessage-records",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefmessage-records",
           title: "Web NFC"
         }
       ],
@@ -292076,7 +292231,12 @@ This method is called on the global Permissions object navigator.permissions.`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://xhr.spec.whatwg.org/#interface-formdata",
+          title: "XMLHttpRequest"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -292199,7 +292359,12 @@ This method is called on the global Permissions object navigator.permissions.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://xhr.spec.whatwg.org/#interface-formdata",
+          title: "XMLHttpRequest"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -292233,7 +292398,12 @@ This method is called on the global Permissions object navigator.permissions.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://xhr.spec.whatwg.org/#interface-formdata",
+          title: "XMLHttpRequest"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -293511,7 +293681,7 @@ object has an element with the specified key.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://wicg.github.io/keyboard-map/#keyboardlayoutmap-interface",
+          bcdSpecificationURL: "https://wicg.github.io/keyboard-map/#keyboardlayoutmap",
           title: "Keyboard Map"
         }
       ],
@@ -294371,7 +294541,12 @@ values passed. The passed values must be of the same type.`,
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://fetch.spec.whatwg.org/#dom-fetchlaterresult-activated",
+          title: "Fetch"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -300795,7 +300970,12 @@ The high resolution timers are needed for accurate benchmarking instead of the l
         short_title: "statechange",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#dom-rtcsctptransport-onstatechange",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -302360,7 +302540,7 @@ DOMHighResTimeStamp immediately before dispatching the FetchEvent if a Service W
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/resource-timing/#resources-included-in-the-performanceresourcetiming-interface",
+          bcdSpecificationURL: "https://w3c.github.io/resource-timing/#performanceresourcetiming",
           title: "Resource Timing"
         }
       ],
@@ -309414,7 +309594,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-sourcecharposition",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-sourcecharposition",
           title: "Long Animation Frames API"
         }
       ],
@@ -309453,7 +309633,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-pauseduration",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-pauseduration",
           title: "Long Animation Frames API"
         }
       ],
@@ -309492,7 +309672,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-window",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-window",
           title: "Long Animation Frames API"
         }
       ],
@@ -309531,7 +309711,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#sec-PerformanceScriptTiming",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#sec-PerformanceScriptTiming",
           title: "Long Animation Frames API"
         }
       ],
@@ -309589,7 +309769,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-sourceurl",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-sourceurl",
           title: "Long Animation Frames API"
         }
       ],
@@ -309628,7 +309808,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-invokertype",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-invokertype",
           title: "Long Animation Frames API"
         }
       ],
@@ -309673,7 +309853,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-windowattribution",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-windowattribution",
           title: "Long Animation Frames API"
         }
       ],
@@ -309717,7 +309897,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-forcedstyleandlayoutduration",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-forcedstyleandlayoutduration",
           title: "Long Animation Frames API"
         }
       ],
@@ -309758,7 +309938,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-sourcefunctionname",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-sourcefunctionname",
           title: "Long Animation Frames API"
         }
       ],
@@ -309797,7 +309977,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-executionstart",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-executionstart",
           title: "Long Animation Frames API"
         }
       ],
@@ -309836,7 +310016,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-invoker",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-invoker",
           title: "Long Animation Frames API"
         }
       ],
@@ -309875,7 +310055,7 @@ Highlight object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-tojson",
+          bcdSpecificationURL: "https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-tojson",
           title: "Long Animation Frames API"
         }
       ],
@@ -316551,7 +316731,7 @@ the DedicatedWorkerGlobalScope.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://immersive-web.github.io/webxr-hand-input/#xrhand-interface",
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr-hand-input/#xrhand",
           title: "WebXR Hand Input Module - Level 1"
         }
       ],
@@ -317013,7 +317193,7 @@ which represents an event signaling that a MediaStreamTrack has been added to or
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-midi-api/#midiinputmap-interface",
+          bcdSpecificationURL: "https://webaudio.github.io/web-midi-api/#dom-midiinputmap",
           title: "Web MIDI API"
         }
       ],
@@ -317335,12 +317515,7 @@ It behaves in the same way as the text and innerText properties.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -321043,7 +321218,12 @@ original matrix with a scale transform applied.`,
         short_title: "toString()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#dommatrixreadonly-stringification-behavior",
+          title: "Geometry Interfaces Module Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -325019,7 +325199,7 @@ getBounds() returns a DOMRect object representing the smallest rectangle that fu
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMQuad",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domquad",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -368091,12 +368271,7 @@ the application running the script.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-window-sharedstorage",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -369599,12 +369774,7 @@ XMLHttpRequest interface indicates that you want the request's response to be ab
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#dom-xmlhttprequest-setattributionreporting",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -380857,12 +381027,7 @@ If the constraint isn't supported, it's not included in the list, so this value 
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -380900,12 +381065,7 @@ SharedStorageWorkletGlobalScope interface contains a WorkletSharedStorage object
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-sharedstorage",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -380940,12 +381100,7 @@ SharedStorageWorkletGlobalScope interface registers an operation defined inside 
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-register",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -381575,7 +381730,12 @@ list.`,
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray",
+          title: "WebXR Device API"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -381620,7 +381780,12 @@ array. Each item in the array is an XRInputSource object.`,
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray",
+          title: "WebXR Device API"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -381659,7 +381824,12 @@ array, from first to last.`,
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray",
+          title: "WebXR Device API"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -381699,7 +381869,12 @@ of input sources.`,
           "experimental"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray",
+          title: "WebXR Device API"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -381737,7 +381912,7 @@ of input sources.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray-interface",
+          bcdSpecificationURL: "https://immersive-web.github.io/webxr/#xrinputsourcearray",
           title: "WebXR Device API"
         }
       ],
@@ -387601,7 +387776,7 @@ Request object.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://fetch.spec.whatwg.org/#ref-for-dom-request①",
+          bcdSpecificationURL: "https://fetch.spec.whatwg.org/#dom-request",
           title: "Fetch"
         }
       ],
@@ -389493,7 +389668,12 @@ GPUPipelineLayout interface provides a label that can be used to identify the ob
         short_title: "CommandEvent()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#commandevent",
+          title: "HTML"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -391993,9 +392173,7 @@ Strings are inserted as equivalent Text nodes.`,
         browserCompat: [
           "api.Element.requestFullscreen"
         ],
-        summary: `The Element.requestFullscreen()
-method issues an asynchronous request to make the element be displayed in fullscreen
-mode.`,
+        summary: "The requestFullscreen() method of the Element interface issues an asynchronous request to display the element in fullscreen mode.",
         popularity: 0.010635752971121275,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -392017,6 +392195,9 @@ mode.`,
         "syntax",
         "parameters",
         "options",
+        "keyboardlock",
+        "none",
+        "browser",
         "navigationui",
         "hide",
         "show",
@@ -392025,13 +392206,19 @@ mode.`,
         "return_value",
         "exceptions",
         "typeerror",
-        "security",
-        "usage_notes",
+        "notsupportederror",
+        "description",
         "compatible_elements",
         "detecting_fullscreen_activation",
+        "keyboard_locking",
+        "security_considerations",
         "examples",
         "requesting_fullscreen_mode",
         "frame_requesting_fullscreen_mode",
+        "using_keyboard_lock",
+        "javascript",
+        "results",
+        "frame_using_keyboard_lock",
         "using_navigationui",
         "using_the_screen_option",
         "specifications",
@@ -407664,12 +407851,7 @@ equivalent to document.createElement('img').`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -408607,7 +408789,12 @@ CSSUnparsedValue.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#cssunparsedvalue",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -408647,7 +408834,12 @@ pairs in the same order as that provided by a for...in loop (the difference bein
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#cssunparsedvalue",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -408683,7 +408875,12 @@ values for each index in the CSSUnparsedValue object.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#cssunparsedvalue",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -408718,7 +408915,12 @@ for each index in the array.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#cssunparsedvalue",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -415059,12 +415261,7 @@ path).`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/attribution-reporting-api/#dom-htmlattributionsrcelementutils-attributionsrc",
-          title: "Attribution Reporting"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -416134,7 +416331,12 @@ retry a payment after an error occurs during processing.`,
         short_title: "toJSON()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webidl.spec.whatwg.org/#default-tojson-steps",
+          title: "Web IDL"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -425679,7 +425881,7 @@ string is unique among all file systems currently exposed by the File and Direct
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreader-onreading",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreader-onreading",
           title: "Web NFC"
         }
       ],
@@ -425719,7 +425921,7 @@ string is unique among all file systems currently exposed by the File and Direct
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreader-onreadingerror",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreader-onreadingerror",
           title: "Web NFC"
         }
       ],
@@ -425758,7 +425960,7 @@ string is unique among all file systems currently exposed by the File and Direct
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#the-ndefreader-object",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#the-ndefreader-object",
           title: "Web NFC"
         }
       ],
@@ -425808,7 +426010,7 @@ field.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreader-constructor",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreader-constructor",
           title: "Web NFC"
         }
       ],
@@ -425847,7 +426049,7 @@ field.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreader-scan",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreader-scan",
           title: "Web NFC"
         }
       ],
@@ -425895,7 +426097,7 @@ field.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/web-nfc/#dom-ndefreader-write",
+          bcdSpecificationURL: "https://w3c-cg.github.io/web-nfc/#dom-ndefreader-write",
           title: "Web NFC"
         }
       ],
@@ -433661,7 +433863,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -433886,7 +434093,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -433918,7 +434130,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "has()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -433992,7 +434209,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -434060,7 +434282,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -434269,7 +434496,12 @@ It may be used to select between alternate style sheets.`,
         short_title: "size",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+          title: "CSS Font Loading Module Level 3"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -434302,12 +434534,7 @@ It may be used to select between alternate style sheets.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#sharedstorageworklet",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -445752,7 +445979,12 @@ One observer has one set of thresholds and one root, but can watch multiple targ
         short_title: "scrollMargin",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-scrollmargin",
+          title: "Intersection Observer"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -445791,7 +446023,7 @@ One observer has one set of thresholds and one root, but can watch multiple targ
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-midi-api/#midiinputmap-interface",
+          bcdSpecificationURL: "https://webaudio.github.io/web-midi-api/#dom-midioutputmap",
           title: "Web MIDI API"
         }
       ],
@@ -461434,7 +461666,12 @@ insertion order.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#interface-domtokenlist",
+          title: "DOM"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -461524,7 +461761,12 @@ Arrays which have [key, value] pairs, each representing a single token.`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#interface-domtokenlist",
+          title: "DOM"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -461605,7 +461847,12 @@ The individual values are strings.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#interface-domtokenlist",
+          title: "DOM"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -461641,7 +461888,12 @@ The keys are unsigned integers.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#interface-domtokenlist",
+          title: "DOM"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -478576,7 +478828,12 @@ CSSTransformValue interface returns whether the transform is 2D or 3D.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#transformvalue-objects",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -478618,7 +478875,12 @@ properties in the prototype chain as well).`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#transformvalue-objects",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -478654,7 +478916,12 @@ each index in the CSSTransformValue object.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#transformvalue-objects",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -478730,7 +478997,12 @@ for each index in the array.`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#transformvalue-objects",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -480883,7 +481155,7 @@ Closing a session means that licenses and keys associated with it are no longer 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/performance-timeline/#dom-performanceentry",
+          bcdSpecificationURL: "https://w3c.github.io/performance-timeline/#performanceentry",
           title: "Performance Timeline"
         }
       ],
@@ -487538,7 +487810,7 @@ object with a given location and dimensions.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#DOMRect",
+          bcdSpecificationURL: "https://drafts.csswg.org/geometry/#domrect",
           title: "Geometry Interfaces Module Level 1"
         }
       ],
@@ -490352,7 +490624,12 @@ specified object.`,
           "deprecated"
         ]
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webrtc-pc/#dom-sessiondescription",
+          title: "WebRTC: Real-Time Communication in Browsers"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -497474,7 +497751,7 @@ Notification() constructor.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://notifications.spec.whatwg.org/#api",
+          bcdSpecificationURL: "https://notifications.spec.whatwg.org/#notification",
           title: "Notifications API"
         }
       ],
@@ -498688,7 +498965,7 @@ process of generating, validating, and submitting a payment request.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/payment-request/#constructor",
+          bcdSpecificationURL: "https://w3c.github.io/payment-request/#dom-paymentrequest",
           title: "Payment Request API"
         }
       ],
@@ -498941,19 +499218,7 @@ by the user agent.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime",
-          title: "Web Audio API"
-        },
-        {
-          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent",
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#AudioProcessingEvent",
           title: "Web Audio API"
         }
       ],
@@ -507614,12 +507879,7 @@ DOM nodes can be added to build an offscreen DOM tree.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://privacycg.github.io/requestStorageAccessFor/#dom-document-requeststorageaccessfor",
-          title: "requestStorageAccessFor API"
-        }
-      ],
+      specifications: [],
       links: [
         "https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-opaque",
         "https://webkit.org/blog/8124/introducing-storage-access-api/"
@@ -510879,12 +511139,7 @@ the directory entry.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#sharedstorage",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [
         "https://privacysandbox.google.com/private-advertising/select-url/creative-rotation",
         "https://privacysandbox.google.com/private-advertising/select-url/ab-testing",
@@ -514274,7 +514529,12 @@ provided function once for each element of StylePropertyMapReadOnly.`,
         short_title: "forEach()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#stylepropertymapreadonly",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -514357,7 +514617,12 @@ well).`,
         short_title: "entries()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#stylepropertymapreadonly",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -514433,7 +514698,12 @@ StylePropertyMapReadOnly object.`,
         short_title: "values()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#stylepropertymapreadonly",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -514468,7 +514738,12 @@ in StylePropertyMapReadOnly`,
         short_title: "keys()",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#stylepropertymapreadonly",
+          title: "CSS Typed OM Level 1"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -514503,7 +514778,7 @@ in StylePropertyMapReadOnly`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#the-stylepropertymap",
+          bcdSpecificationURL: "https://drafts.css-houdini.org/css-typed-om/#stylepropertymapreadonly",
           title: "CSS Typed OM Level 1"
         }
       ],
@@ -514714,7 +514989,7 @@ object for the first value of the specified property.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/performance-timeline/#dom-performanceobserver",
+          bcdSpecificationURL: "https://w3c.github.io/performance-timeline/#performanceobserver",
           title: "Performance Timeline"
         }
       ],
@@ -516510,12 +516785,7 @@ with the associated stream to error.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorage-delete",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -516553,12 +516823,7 @@ with the associated stream to error.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorage-set",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -516599,12 +516864,7 @@ with the associated stream to error.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#sharedstorage",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -516642,12 +516902,7 @@ with the associated stream to error.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorage-clear",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -516684,12 +516939,7 @@ with the associated stream to error.`,
           "deprecated"
         ]
       },
-      specifications: [
-        {
-          bcdSpecificationURL: "https://wicg.github.io/shared-storage/#dom-sharedstorage-append",
-          title: "Shared Storage API"
-        }
-      ],
+      specifications: [],
       links: [],
       imgs: [],
       ids: [
@@ -533731,7 +533981,7 @@ This will be a URL or null.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#report-violation",
+          bcdSpecificationURL: "https://w3c.github.io/webappsec-csp/#securitypolicyviolationevent",
           title: "Content Security Policy Level 3"
         }
       ],
@@ -551201,39 +551451,11 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -551241,43 +551463,11 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -551285,31 +551475,19 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -551321,12 +551499,88 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
         }
       ],
       links: [
@@ -559410,7 +559664,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#box-shadow",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow",
           title: "CSS Backgrounds and Borders Module Level 3"
         }
       ],
@@ -561061,12 +561315,8 @@ If the securely loaded web page only includes images, scripts, and other resourc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#dimension-properties",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-logical/#propdef-block-size",
           title: "CSS Logical Properties and Values Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
-          title: "CSS Box Sizing Module Level 4"
         }
       ],
       links: [
@@ -562814,7 +563064,7 @@ If the securely loaded web page only includes images, scripts, and other resourc
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-y",
           title: "CSS Backgrounds Module Level 4"
         }
       ],
@@ -565629,7 +565879,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-content/#content-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-content/#propdef-content",
           title: "CSS Generated Content Module Level 3"
         }
       ],
@@ -567851,7 +568101,7 @@ The values allow for choosing between aligning to the box's first baseline, last
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#clip-property",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#propdef-clip",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -568519,8 +568769,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-4/#sizing-values",
-          title: "CSS Box Sizing Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-sizing-3/#propdef-width",
+          title: "CSS Box Sizing Module Level 3"
         }
       ],
       links: [
@@ -571147,7 +571397,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#border-radius",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#propdef-border-top-left-radius",
           title: "CSS Backgrounds and Borders Module Level 3"
         }
       ],
@@ -571903,7 +572153,7 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#border-radius",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#propdef-border-radius",
           title: "CSS Backgrounds and Borders Module Level 3"
         }
       ],
@@ -577980,23 +578230,11 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -578004,15 +578242,11 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -578020,7 +578254,23 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -579131,7 +579381,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#the-clip-path",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-masking/#propdef-clip-path",
           title: "CSS Masking Module Level 1"
         }
       ],
@@ -582043,16 +582293,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-break/#break-between",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-break/#propdef-break-after",
           title: "CSS Fragmentation Module Level 3"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-regions/#region-flow-break",
-          title: "CSS Regions Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside",
-          title: "CSS Multi-column Layout Module Level 1"
         }
       ],
       links: [
@@ -582644,7 +582886,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-x",
           title: "CSS Backgrounds Module Level 4"
         }
       ],
@@ -582982,7 +583224,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-transforms-2/#individual-transforms",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-transforms-2/#propdef-rotate",
           title: "CSS Transforms Module Level 2"
         }
       ],
@@ -584725,7 +584967,7 @@ transform: scale() can be used as an alternative to this property.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#border-radius",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#propdef-border-top-right-radius",
           title: "CSS Backgrounds and Borders Module Level 3"
         }
       ],
@@ -584897,12 +585139,8 @@ transform: scale() can be used as an alternative to this property.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-sizing/#column-sizing",
-          title: "CSS Box Sizing Module Level 3"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-multicol/#cw",
-          title: "CSS Multi-column Layout Module Level 1"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-multicol-2/#propdef-column-width",
+          title: "CSS Multi-column Layout Module Level 2"
         }
       ],
       links: [
@@ -595267,6 +595505,10 @@ It is a required descriptor; if missing or invalid, the entire @property rule is
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
           title: "CSS Cascading and Inheritance Level 6"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-nesting/#nesting-at-scope",
+          title: "CSS Nesting Module Level 1"
         }
       ],
       links: [
@@ -599201,7 +599443,7 @@ x-axis (horizontally). Its result is a <transform-function> data type.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-values/#position",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-values/#typedef-position",
           title: "CSS Values and Units Module Level 4"
         }
       ],
@@ -600010,7 +600252,56 @@ The keyword ensures that the element is never smaller than its minimum intrinsic
         short_title: "<display-internal>",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-row-group",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-header-group",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-footer-group",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-row",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-cell",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-column-group",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-column",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-table-caption",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-ruby-base",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-ruby-text",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-ruby-base-container",
+          title: "CSS Display Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-display-4/#valdef-display-ruby-text-container",
+          title: "CSS Display Module Level 4"
+        }
+      ],
       links: [
         "https://drafts.csswg.org/css-display-4/"
       ],
@@ -600968,8 +601259,8 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-images-4/#linear-gradients",
-          title: "CSS Images Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-images-3/#funcdef-linear-gradient",
+          title: "CSS Images Module Level 3"
         }
       ],
       links: [
@@ -601455,7 +601746,7 @@ As an <easing-function>, it creates transitions where the interpolation occurs a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/motion/#ray-function",
+          bcdSpecificationURL: "https://drafts.csswg.org/motion/#funcdef-ray",
           title: "Motion Path Module Level 1"
         }
       ],
@@ -610216,7 +610507,7 @@ An element is considered to be playing if it is currently playing the media reso
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/selectors/#zero-matches",
+          bcdSpecificationURL: "https://drafts.csswg.org/selectors/#where-pseudo",
           title: "Selectors Level 4"
         }
       ],
@@ -612589,7 +612880,7 @@ A resource is considered to be seeking if the user has requested playback of a s
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-pseudo/#generated-content",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-pseudo/#selectordef-before",
           title: "CSS Pseudo-Elements Module Level 4"
         }
       ],
@@ -623487,7 +623778,7 @@ The HTML is the same in each example, so it's visible in the first section, and 
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/cssom-view/#the-mediaquerylist-interface",
+          bcdSpecificationURL: "https://drafts.csswg.org/cssom-view/#mediaquerylist",
           title: "CSSOM View Module"
         }
       ],

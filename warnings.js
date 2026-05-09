@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-1x0pxdw3.js";
+} from "./chunk-c6qmkwgg.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -38,14 +38,17 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
+                  }
+                },
+                audio_for_web_games: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
                   messages: [
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://www.unrealengine.com/en-US",
-                        "https://www.unrealengine.com/"
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        403
                       ]
                     }
                   ]
@@ -273,6 +276,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            bitwise_flags: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Bitwise_flags",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.hendrik-erz.de/post/bitwise-flags-are-beautiful-and-heres-why",
+                    500
+                  ]
+                }
+              ]
+            },
             blink_element: {
               children: {},
               slug: "/en-US/docs/Glossary/blink_element",
@@ -383,13 +399,6 @@ var warnings_processed_default = {
                     "https://sass-lang.com/",
                     "The operation timed out."
                   ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -410,6 +419,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            developer_tools: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Developer_Tools",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://getfirebug.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1363,19 +1385,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            spa: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SPA",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://vuejs.org/",
-                    500
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1383,6 +1392,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://jamstack.org/generators/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2711,13 +2733,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2732,14 +2747,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://api.emberjs.com/ember/3.16/classes/Ember.Templates.helpers",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/3.15/functions/@glimmer%2Ftracking/tracked",
+                            "https://guides.emberjs.com/release/ember-inspector/installation/",
                             "The operation timed out."
                           ]
                         }
@@ -2763,13 +2771,6 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://api.emberjs.com/ember/release/",
                             "The operation timed out."
                           ]
@@ -2777,14 +2778,21 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "https://guides.emberjs.com/release/ember-inspector/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
                             "The operation timed out."
                           ]
                         }
@@ -2797,6 +2805,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2807,6 +2822,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/automated-testing/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2817,15 +2839,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -2850,8 +2865,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            500
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4831,13 +4846,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/reactivity-fundamentals.html",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -4848,6 +4856,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/component-basics.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4863,20 +4878,13 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://vuejs.org/guide/introduction.html",
-                            500
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -4899,13 +4907,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/template-refs.html",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -4930,8 +4931,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/",
-                            500
+                            "https://v3-migration.vuejs.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6362,6 +6363,13 @@ span {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6899,14 +6907,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            500
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
                             "The operation timed out."
                           ]
                         }
@@ -6919,6 +6934,13 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
@@ -6926,21 +6948,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/",
-                            500
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            500
+                            "https://date-fns.org/docs/Getting-Started",
+                            503
                           ]
                         }
                       ]
@@ -12819,13 +12828,6 @@ textarea:focus {
                                 "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -13774,13 +13776,6 @@ color: rgb(31 41 59 / 26%);
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -13912,7 +13907,7 @@ color: rgb(31 41 59 / 26%);
                       message: "Broken external link",
                       data: [
                         "https://imageoptim.com/",
-                        "The operation timed out."
+                        502
                       ]
                     }
                   ]
@@ -14022,17 +14017,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -14056,17 +14051,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -14075,10 +14070,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -15216,6 +15211,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "12": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://getfirebug.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15225,71 +15233,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=120",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "135": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=135",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "145": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15321,13 +15264,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/HTMLTemplateElement/shadowRootSlotAssignment"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Element/requestFullscreen",
-                            "#keyboardlock"
                           ]
                         }
                       ]
@@ -15750,6 +15686,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.verywellhealth.com/eye-cones-5088699",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -15807,13 +15750,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gif-2-mp4.com/",
-                            "The operation timed out."
                           ]
                         },
                         {
@@ -16004,7 +15940,22 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Attribution_Reporting_API",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
                 },
                 audio_output_devices_api: {
                   children: {},
@@ -17337,6 +17288,301 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
+                cssprimitivevalue: {
+                  children: {
+                    getcountervalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getCounterValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    getfloatvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getFloatValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    getrectvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getRectValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    getrgbcolorvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getRGBColorValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    getstringvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getStringValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    primitivetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/primitiveType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    setfloatvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/setFloatValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    setstringvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/setStringValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSSPrimitiveValue",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                cssstyledeclaration: {
+                  children: {
+                    getpropertycssvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssvalue: {
+                  children: {
+                    csstext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSValue/cssText",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    cssvaluetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSValue/cssValueType",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSSValue",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                cssvaluelist: {
+                  children: {
+                    item: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSValueList/item",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    length: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSValueList/length",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSSValueList",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
                 customelementregistry: {
                   children: {
                     upgrade: {
@@ -17612,6 +17858,223 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
+                document: {
+                  children: {
+                    execcommand: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/execCommand",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    featurepolicy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/featurePolicy",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccessfor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                domerror: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/DOMError",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                element: {
+                  children: {
+                    requestfullscreen: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/requestFullscreen",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-lonely-if",
+                            "Unexpected if as the only statement in an else block.",
+                            `    if (event.key === "Enter" || event.key === "F") {
+      // Otherwise enter fullscreen mode
+      video.requestFullscreen({ keyboardLock: "browser" }).catch((err) => {
+        console.error(\`Error enabling fullscreen: \${err.message}\`);
+      });
+    }`,
+                            "14:5 - 19:6",
+                            `/en-US/docs/Web/API/Element/requestFullscreen
+[no-lonely-if] Unexpected if as the only statement in an else block.
+~~~
+const video = document.querySelector("video");
+
+document.addEventListener("keydown", (event) => {
+  // Check if we're in fullscreen mode
+  if (document.fullscreenElement) {
+    // Cancel exiting via the Escape key
+    if (event.key === "Escape") {
+      event.preventDefault();
+      // Do whatever else you might want to do when escape is pressed
+    }
+  } else {
+    // Open full screen if Enter or F is pressed.
+    // Note that "F" is case-sensitive (uppercase):
+    if (event.key === "Enter" || event.key === "F") {
+      // Otherwise enter fullscreen mode
+      video.requestFullscreen({ keyboardLock: "browser" }).catch((err) => {
+        console.error(\`Error enabling fullscreen: \${err.message}\`);
+      });
+    }
+  }
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                featurepolicy: {
+                  children: {
+                    allowedfeatures: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FeaturePolicy/allowedFeatures",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    allowsfeature: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FeaturePolicy/allowsFeature",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    features: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FeaturePolicy/features",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    getallowlistforfeature: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FeaturePolicy/getAllowlistForFeature",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FeaturePolicy",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        [
+                          "experimental",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -17669,6 +18132,19 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                geolocation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 gpudevice: {
                   children: {
                     createbindgrouplayout: {
@@ -17698,6 +18174,50 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
+                },
+                headers: {
+                  children: {
+                    entries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Headers/entries",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    },
+                    foreach: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Headers/forEach",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    },
+                    keys: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Headers/keys",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Headers/values",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    }
+                  }
                 },
                 history_api: {
                   children: {},
@@ -17745,6 +18265,43 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
+                },
+                htmlanchorelement: {
+                  children: {
+                    attributionsourceid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLAnchorElement/attributionSourceId",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    attributionsrc: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLAnchorElement/attributionSrc",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlgeolocationelement: {
                   children: {
@@ -17811,8 +18368,48 @@ geolocation {
                     }
                   }
                 },
+                htmliframeelement: {
+                  children: {
+                    featurepolicy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/featurePolicy",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 htmlimageelement: {
                   children: {
+                    attributionsrc: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/attributionSrc",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
                     crossorigin: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
@@ -17894,6 +18491,28 @@ output {
                       ]
                     }
                   ]
+                },
+                htmlscriptelement: {
+                  children: {
+                    attributionsrc: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLScriptElement/attributionSrc",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 integrityviolationreport: {
                   children: {},
@@ -18888,6 +19507,97 @@ aside {
                     }
                   }
                 },
+                merchantvalidationevent: {
+                  children: {
+                    complete: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/complete",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    merchantvalidationevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/MerchantValidationEvent",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    methodname: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/methodName",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    validationurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/validationURL",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/MerchantValidationEvent",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
                 mouseevent: {
                   children: {
                     mozinputsource: {
@@ -18932,6 +19642,40 @@ aside {
                     }
                   }
                 },
+                nodelist: {
+                  children: {
+                    entries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NodeList/entries",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    },
+                    keys: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NodeList/keys",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NodeList/values",
+                      messages: [
+                        {
+                          message: "Missing specifications macro",
+                          data: []
+                        }
+                      ]
+                    }
+                  }
+                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -18943,6 +19687,28 @@ aside {
                       ]
                     }
                   ]
+                },
+                paymentrequest: {
+                  children: {
+                    merchantvalidation_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PaymentRequest/merchantvalidation_event",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 performance_api: {
                   children: {
@@ -19879,6 +20645,28 @@ button:interest-source {
                     }
                   }
                 },
+                rtcrtptransceiver: {
+                  children: {
+                    stopped: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpTransceiver/stopped",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -19917,6 +20705,46 @@ button:interest-source {
                     }
                   }
                 },
+                screen: {
+                  children: {
+                    lockorientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Screen/lockOrientation",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    unlockorientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Screen/unlockOrientation",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 "server-sent_events": {
                   children: {
                     "using_server-sent_events": {
@@ -19935,6 +20763,115 @@ button:interest-source {
                       ]
                     }
                   }
+                },
+                shared_storage_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Shared_Storage_API",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                sharedstorage: {
+                  children: {
+                    append: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorage/append",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    clear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorage/clear",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    delete: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorage/delete",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    set: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorage/set",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SharedStorage",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
                 },
                 sharedstorageoperation: {
                   children: {},
@@ -19994,6 +20931,79 @@ button:interest-source {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
+                      ]
+                    }
+                  ]
+                },
+                sharedstorageworklet: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SharedStorageWorklet",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                sharedstorageworkletglobalscope: {
+                  children: {
+                    register: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorageWorkletGlobalScope/register",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    sharedstorage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SharedStorageWorkletGlobalScope/sharedStorage",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SharedStorageWorkletGlobalScope",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ]
                       ]
                     }
                   ]
@@ -20559,6 +21569,19 @@ env(viewport-segment-width 0 1)
                     }
                   ]
                 },
+                web_midi_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_MIDI_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/",
+                        "certificate has expired"
+                      ]
+                    }
+                  ]
+                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -20580,7 +21603,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -21001,6 +22038,115 @@ for (let i = 0; i < 60; i++) {
                     }
                   }
                 },
+                websocketstream: {
+                  children: {
+                    close: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSocketStream/close",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    closed: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSocketStream/closed",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    opened: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSocketStream/opened",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    url: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSocketStream/url",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    websocketstream: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSocketStream/WebSocketStream",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "experimental",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/WebSocketStream",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        [
+                          "experimental",
+                          "non-standard"
+                        ]
+                      ]
+                    }
+                  ]
+                },
                 webvtt_api: {
                   children: {
                     web_video_text_tracks_format: {
@@ -21116,6 +22262,24 @@ setTimeout(function () {
                         }
                       ]
                     },
+                    sharedstorage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/sharedStorage",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
                     sizetocontent: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/sizeToContent",
@@ -21201,6 +22365,23 @@ setTimeout(function () {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -21352,6 +22533,28 @@ setTimeout(function () {
                       ]
                     }
                   ]
+                },
+                xmlhttprequest: {
+                  children: {
+                    setattributionreporting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest/setAttributionReporting",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 xrwebgllayer: {
                   children: {
@@ -38416,6 +39619,13 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.a11yproject.com/posts/understanding-vestibular-disorders/",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
                                 }
                               ]
                             },
@@ -75572,26 +76782,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    cookies: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/cookies/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cors: {
                       children: {
                         errors: {
@@ -75655,7 +76845,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     iframe_credentialless: {
                       children: {},
@@ -75708,6 +76908,60 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        "attribution-reporting-eligible": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Eligible",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "deprecated"
+                                ],
+                                [
+                                  "deprecated",
+                                  "non-standard"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        "attribution-reporting-register-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Source",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "deprecated"
+                                ],
+                                [
+                                  "deprecated",
+                                  "non-standard"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        "attribution-reporting-register-trigger": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Trigger",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "deprecated"
+                                ],
+                                [
+                                  "deprecated",
+                                  "non-standard"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -75720,6 +76974,20 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        "content-security-policy": {
+                          children: {
+                            "block-all-mixed-content": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content",
+                              messages: [
+                                {
+                                  message: "Missing specifications macro",
+                                  data: []
+                                }
+                              ]
+                            }
+                          }
                         },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
@@ -75796,6 +77064,24 @@ http.headers.Use-As-Dictionary`,
                         },
                         "permissions-policy": {
                           children: {
+                            "attribution-reporting": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/attribution-reporting",
+                              messages: [
+                                {
+                                  message: "Page status inconsistent with BCD",
+                                  data: [
+                                    [
+                                      "deprecated"
+                                    ],
+                                    [
+                                      "deprecated",
+                                      "non-standard"
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
                             "language-detector": {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/language-detector",
@@ -75940,10 +77226,41 @@ http.headers.Use-As-Dictionary`,
             },
             javascript: {
               children: {
+                guide: {
+                  children: {
+                    modules: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     global_objects: {
                       children: {
@@ -76380,19 +77697,6 @@ doIt(); // returns "finally"
                         }
                       ]
                     },
-                    referer_header_colon__privacy_and_security_concerns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -76466,19 +77770,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -76496,20 +77787,6 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
                   ]
                 }
               ]
