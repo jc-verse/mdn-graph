@@ -35626,7 +35626,8 @@ These documents assume that you've read the contribution guidelines, are familia
         status: []
       },
       links: [
-        "https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html"
+        "https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html",
+        "https://github.com/mdn/museum"
       ],
       imgs: [],
       ids: [
@@ -35637,6 +35638,7 @@ These documents assume that you've read the contribution guidelines, are familia
         "how_to_document_an_http_header",
         "how_to_document_web_errors",
         "how_to_research_a_technology",
+        "how_to_retire_a_section_of_content",
         "how_to_use_structured_data",
         "how_to_write_an_api_reference",
         "how_to_write_in_markdown"
@@ -35685,6 +35687,74 @@ These documents assume that you've read the contribution guidelines, are familia
         "example",
         "opening_an_issue",
         "creating_the_pages"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/MDN/Writing_guidelines/Howto/Retiring_content/Retired_content",
+    links: {},
+    data: {
+      metadata: {
+        title: "Retired content",
+        pageType: "mdn-writing-guide",
+        summary: "This page lists sections of MDN Web Docs that have been retired. Each entry includes a link to the archived content in the MDN Museum repository and to the GitHub issue or discussion where the retirement decision was made.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/mdn/writing_guidelines/howto/retiring_content/retired_content",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Retired content",
+        status: []
+      },
+      links: [
+        "https://github.com/mdn/museum",
+        "https://github.com/mdn/museum/tree/main/canvas-raycaster",
+        "https://github.com/mdn/mdn/issues/193",
+        "https://github.com/mdn/museum/tree/main/webvr",
+        "https://github.com/mdn/museum/pull/6"
+      ],
+      imgs: [],
+      ids: [
+        "retired_sections",
+        "canvas_raycaster",
+        "webvr"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/MDN/Writing_guidelines/Howto/Retiring_content",
+    links: {},
+    data: {
+      metadata: {
+        title: "How to retire a section of content",
+        pageType: "mdn-writing-guide",
+        summary: "This article describes the process for retiring entire sections of MDN Web Docs content, known as retirement. Retirement is different from deleting or moving individual pages; it applies when a whole section is no longer actively maintained, relevant, or aligned with MDN's goals and needs to be retired in a planned and transparent way. Retired content is not permanently deleted — it is always archived in the MDN Museum repository.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/mdn/writing_guidelines/howto/retiring_content",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Retiring content",
+        status: []
+      },
+      links: [
+        "https://github.com/mdn/museum",
+        "https://github.com/orgs/mdn/discussions",
+        "https://github.com/orgs/mdn/discussions",
+        "https://github.com/mdn/museum",
+        "https://github.com/mdn/fred/"
+      ],
+      imgs: [],
+      ids: [
+        "when_to_consider_retiring_content",
+        "the_retirement_process",
+        "phase_1_decision_process",
+        "phase_2_removing_content",
+        "add_a_retirement_notice_banner",
+        "archive_and_remove_the_content",
+        "see_also"
       ]
     }
   },
@@ -36162,6 +36232,7 @@ For guidelines about prose and other content, see the writing style guide.`,
         "how_to_write_for_mdn_web_docs",
         "how_to_research_a_technology",
         "how_to_create_move_and_delete_pages",
+        "how_to_retire_a_section_of_content",
         "how_to_use_markdown",
         "adding_images_and_media",
         "how_to_document_a_css_property",
@@ -57053,6 +57124,9 @@ Firefox 150 was released on April 21, 2026.`,
         "https://bugzil.la/2019904",
         "https://bugzil.la/1550635",
         "https://bugzil.la/2018095",
+        "https://bugzil.la/1814459",
+        "https://bugzil.la/1561441",
+        "https://bugzil.la/2018843",
         "https://bugzil.la/2003840",
         "https://bugzil.la/1993079",
         "https://bugzil.la/1994996",
@@ -57081,6 +57155,7 @@ Firefox 150 was released on April 21, 2026.`,
         "javascript",
         "apis",
         "dom",
+        "media_webrtc_and_web_audio",
         "webdriver_conformance_webdriver_bidi_marionette",
         "general",
         "webdriver_bidi",
@@ -95415,7 +95490,11 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -95423,11 +95502,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -95435,11 +95510,11 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         }
       ],
@@ -114103,7 +114178,7 @@ condition is written. It must appear in parenthesis after the if keyword.`,
       metadata: {
         title: "TypeError: Iterator/AsyncIterator constructor can't be used directly",
         pageType: "javascript-error",
-        summary: `The JavaScript exception "Iterator constructor can't be used directly" or "AsyncIterator constructor can't be used directly" occurs when you try to use the Iterator() or AsyncIterator() constructors directly to create instances. These constructors are abstract classes and should only be inherited from.`,
+        summary: `The JavaScript exception "Iterator constructor can't be used directly" or "AsyncIterator constructor can't be used directly" occurs when you try to use the Iterator() or AsyncIterator constructors directly to create instances. These constructors are abstract classes and should only be inherited from.`,
         popularity: 0.0016123476164047997,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -163013,31 +163088,11 @@ operand but attempts to convert it into a number, if it isn't already.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163049,23 +163104,7 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163073,123 +163112,15 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163197,27 +163128,39 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163225,11 +163168,99 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -163237,7 +163268,51 @@ operand but attempts to convert it into a number, if it isn't already.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -165367,11 +165442,7 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165379,7 +165450,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165391,15 +165470,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -165407,15 +165482,15 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -183924,15 +183999,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -183941,6 +184008,14 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -327736,7 +327811,8 @@ the DOM.`,
         browserCompat: [
           "api.CSSContainerRule.containerName"
         ],
-        summary: "The read-only containerName property of the CSSContainerRule interface represents the container name of the associated CSS @container at-rule.",
+        summary: `The read-only containerName property of the CSSContainerRule interface represents the name of the container condition for a container rule that only defines one container condition.
+If there are multiple container conditions, the value is set to the empty string.`,
         popularity: 0.0037605496335138657,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -327756,8 +327832,19 @@ the DOM.`,
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
-        "frame_examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "results",
+        "frame_basic_usage",
+        "multiple_container_conditions",
+        "css_2",
+        "javascript_2",
+        "results_2",
+        "frame_multiple_container_conditions",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -327794,14 +327881,71 @@ the DOM.`,
       imgs: [],
       ids: [
         "instance_properties",
+        "csscontainerrule.conditions",
         "csscontainerrule.containername",
         "csscontainerrule.containerquery",
         "instance_methods",
+        "description",
         "examples",
-        "unnamed_container_rule",
-        "frame_unnamed_container_rule",
-        "named_container_rule",
-        "frame_named_container_rule",
+        "feature_testing",
+        "unnamed_container_condition",
+        "html",
+        "css",
+        "javascript",
+        "results",
+        "frame_unnamed_container_condition",
+        "named_container_condition",
+        "css_2",
+        "results_2",
+        "frame_named_container_condition",
+        "multiple_container_conditions",
+        "css_3",
+        "results_3",
+        "frame_multiple_container_conditions",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/CSSContainerRule/conditions",
+    links: {},
+    data: {
+      metadata: {
+        title: "CSSContainerRule: conditions property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.CSSContainerRule.conditions"
+        ],
+        summary: "The read-only conditions property of the CSSContainerRule interface represents an associated CSS @container at-rule as an array of objects, where each object represents a single container condition.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/csscontainerrule/conditions",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "conditions",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-conditional-5/#dom-csscontainerrule-conditions",
+          title: "CSS Conditional Rules Module Level 5"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "description",
+        "examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "results",
+        "frame_basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -327818,7 +327962,8 @@ the DOM.`,
         browserCompat: [
           "api.CSSContainerRule.containerQuery"
         ],
-        summary: "The read-only containerQuery property of the CSSContainerRule interface returns a string representing the container conditions that are evaluated when the container changes size in order to determine if the styles in the associated @container are applied.",
+        summary: `The read-only containerQuery property of the CSSContainerRule interface represents the query part of the container condition for a container rule that only defines one container condition.
+If there are multiple container conditions, the value is set to the empty string.`,
         popularity: 0.00385145350506191,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -327838,8 +327983,19 @@ the DOM.`,
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
-        "frame_examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "results",
+        "frame_basic_usage",
+        "multiple_container_conditions",
+        "css_2",
+        "javascript_2",
+        "results_2",
+        "frame_multiple_container_conditions",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -431331,6 +431487,7 @@ instance), the audio from which can then be played and manipulated.`,
         "instance_properties",
         "audiocontext.baselatency",
         "audiocontext.outputlatency",
+        "audiocontext.playbackstats",
         "audiocontext.sinkid",
         "instance_methods",
         "audiocontext.close",
@@ -431491,6 +431648,44 @@ AudioNode.`,
         "notallowederror",
         "notfounderror",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioContext/playbackStats",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioContext: playbackStats property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioContext.playbackStats"
+        ],
+        summary: "The playbackStats read-only property of the AudioContext interface returns an AudioPlaybackStats object providing access to duration, underrun, and latency statistics for the AudioContext. These statistics allow you to measure audio delay and glitches.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audiocontext/playbackstats",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "playbackStats",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audiocontext-playbackstats",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -471188,7 +471383,6 @@ GPUValidationError object instance.`,
         "deprecated_html_element_interfaces",
         "obsolete_html_element_interfaces",
         "web_app_and_browser_integration_interfaces",
-        "deprecated_web_app_and_browser_integration_interfaces",
         "obsolete_web_app_and_browser_integration_interfaces",
         "form_support_interfaces",
         "canvas_and_image_interfaces",
@@ -482997,6 +483191,7 @@ The official term for this is spatialization, and this article will cover the ba
         "mediastreamaudiodestinationnode",
         "data_analysis_and_visualization",
         "analysernode",
+        "audioplaybackstats",
         "splitting_and_merging_audio_channels",
         "channelsplitternode",
         "channelmergernode",
@@ -485988,6 +486183,372 @@ or null if the element is not in a namespace.`,
         "frame_example",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/underrunEvents",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: underrunEvents property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.underrunEvents"
+        ],
+        summary: "The underrunEvents read-only property of the AudioPlaybackStats interface indicates the number of underrun events since the audio context was initialized.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/underrunevents",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "underrunEvents",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-underrunevents",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/averageLatency",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: averageLatency property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.averageLatency"
+        ],
+        summary: "The averageLatency read-only property of the AudioPlaybackStats interface is a number indicating the average latency since the audio context was initialized or since AudioPlaybackStats.resetLatency() was last called.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/averagelatency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "averageLatency",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-averagelatency",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/maximumLatency",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: maximumLatency property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.maximumLatency"
+        ],
+        summary: "The maximumLatency read-only property of the AudioPlaybackStats interface is a number indicating the maximum latency since the audio context was initialized or since AudioPlaybackStats.resetLatency() was last called.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/maximumlatency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "maximumLatency",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-maximumlatency",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/minimumLatency",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: minimumLatency property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.minimumLatency"
+        ],
+        summary: "The minimumLatency read-only property of the AudioPlaybackStats interface is a number indicating the minimum latency since the audio context was initialized or since AudioPlaybackStats.resetLatency() was last called.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/minimumlatency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "minimumLatency",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-minimumlatency",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.AudioPlaybackStats"
+        ],
+        summary: "The AudioPlaybackStats interface of the Web Audio API provides access to duration, underrun, and latency statistics for the associated AudioContext. These statistics allow you to measure audio delay and glitches.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "AudioPlaybackStats",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#AudioPlaybackStats",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "description",
+        "audio_latency",
+        "underrun",
+        "underrun_statistics_provided_by_the_interface",
+        "underrun_frame",
+        "underrun_event",
+        "latency_statistics_provided_by_the_interface",
+        "instance_properties",
+        "audioplaybackstats.averagelatency",
+        "audioplaybackstats.minimumlatency",
+        "audioplaybackstats.maximumlatency",
+        "audioplaybackstats.totalduration",
+        "audioplaybackstats.underrunduration",
+        "audioplaybackstats.underrunevents",
+        "instance_methods",
+        "audioplaybackstats.resetlatency",
+        "audioplaybackstats.tojson",
+        "examples",
+        "reporting_audio_playback_stats",
+        "html",
+        "javascript",
+        "result",
+        "frame_playback-stats",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/totalDuration",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: totalDuration property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.totalDuration"
+        ],
+        summary: "The totalDuration read-only property of the AudioPlaybackStats interface is a number indicating the total duration of all audio frames since the audio context was initialized.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/totalduration",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "totalDuration",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-totalduration",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/resetLatency",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: resetLatency() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.AudioPlaybackStats.resetLatency"
+        ],
+        summary: "The resetLatency() method of the AudioPlaybackStats interface resets the start of the interval during which latency statistics are measured to the BaseAudioContext.currentTime.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/resetlatency",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "resetLatency()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-resetlatency",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/underrunDuration",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: underrunDuration property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.AudioPlaybackStats.underrunDuration"
+        ],
+        summary: "The underrunDuration read-only property of the AudioPlaybackStats interface is a number indicating the total duration of the underrun events since the audio context was initialized.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/underrunduration",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "underrunDuration",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-underrunduration",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/AudioPlaybackStats/toJSON",
+    links: {},
+    data: {
+      metadata: {
+        title: "AudioPlaybackStats: toJSON() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.AudioPlaybackStats.toJSON"
+        ],
+        summary: "The toJSON() method of the AudioPlaybackStats interface is a serializer; it returns a JSON representation of the AudioPlaybackStats object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/audioplaybackstats/tojson",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "toJSON()",
+        status: []
+      },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-tojson",
+          title: "Web Audio API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "using_the_tojson_method",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -551510,39 +552071,7 @@ is an enumerated attribute defining what action label (or icon) to present for t
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
         },
         {
@@ -551550,19 +552079,15 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
@@ -551570,15 +552095,35 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -551586,8 +552131,12 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -551598,15 +552147,19 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -551618,15 +552171,27 @@ is an enumerated attribute defining what action label (or icon) to present for t
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
@@ -551636,10 +552201,6 @@ is an enumerated attribute defining what action label (or icon) to present for t
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
           title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
         }
       ],
       links: [
@@ -569993,7 +570554,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/",
         "https://css-tricks.com/introduction-reduced-motion-media-query/",
         "https://webkit.org/blog/7551/responsive-design-for-motion/",
-        "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html",
+        "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide",
         "https://drafts.csswg.org/css-animations-1/",
         "https://drafts.csswg.org/css-animations-2/",
         "https://drafts.csswg.org/css-easing-2/",
@@ -570049,13 +570610,16 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "<step-position>",
         "<length-percentage>",
         "examples",
-        "sun_rise",
-        "frame_sun_rise",
-        "animating_multiple_properties",
-        "frame_animating_multiple_properties",
+        "basic_usage_a_sunrise",
+        "html",
+        "css",
+        "results",
+        "frame_basic_usage_a_sunrise",
         "applying_multiple_animations",
+        "results_2",
         "frame_applying_multiple_animations",
         "cascading_multiple_animations",
+        "results_3",
         "frame_cascading_multiple_animations",
         "specifications",
         "browser_compatibility",
@@ -578289,7 +578853,11 @@ When a containment context is given a name, it can be specifically targeted usin
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -578301,14 +578869,6 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
@@ -578317,19 +578877,23 @@ When a containment context is given a name, it can be specifically targeted usin
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -580263,6 +580827,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
       imgs: [],
       ids: [
         "try_it",
+        "constituent_properties",
         "syntax",
         "description",
         "values",
@@ -580618,7 +581183,8 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.position-anchor"
         ],
-        summary: "The position-anchor CSS property specifies the anchor name of the anchor element (i.e., an element that has an anchor name set on it via the anchor-name property) a positioned element is associated with.",
+        summary: `The position-anchor CSS property specifies the default anchor element for a positioned element.
+This default is used by position-area and position-try, and by anchor functions (anchor() and anchor-size()) when no <anchor-name> argument is provided to those functions.`,
         popularity: 0.01731479532275659,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -580642,9 +581208,11 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
       ids: [
         "syntax",
         "values",
+        "normal",
         "auto",
         "none",
         "dashed-ident",
+        "match-parent",
         "description",
         "formal_definition",
         "formal_syntax",
