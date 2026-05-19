@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-m8scg6km.js";
+} from "./chunk-51f81618.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -23,6 +23,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.metanetsoftware.com/technique/tutorialA.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {
                     glsl_shaders: {
@@ -77,13 +90,6 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaserplugins.com/",
                             "The operation timed out."
                           ]
                         }
@@ -350,19 +356,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            color_wheel: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Color_wheel",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
-                    403
-                  ]
-                }
-              ]
-            },
             constant: {
               children: {},
               slug: "/en-US/docs/Glossary/Constant",
@@ -400,6 +393,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            developer_tools: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Developer_Tools",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://getfirebug.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -960,19 +966,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            interaction_to_next_paint: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Interaction_to_next_paint",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/optimize-inp",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2747,6 +2740,19 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -5335,13 +5341,6 @@ button {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://picryl.com/",
                             403
                           ]
@@ -6398,19 +6397,6 @@ li {
                       ]
                     }
                   ]
-                },
-                version_control: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Version_control",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sourcetreeapp.com/",
-                        403
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -6743,6 +6729,23 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12609,17 +12612,549 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    first_steps: {
+                    express_nodejs: {
                       children: {
-                        web_frameworks: {
+                        deployment: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "https://expressjs.com/en/advanced/best-practice-performance.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/advanced/best-practice-security.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/advanced/best-practice-performance.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/advanced/best-practice-performance.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/advanced/best-practice-security.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/generator.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/installing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/generator.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        displaying_data: {
+                          children: {
+                            home_page: {
+                              children: {},
+                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Home_page",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://expressjs.com/en/5x/api.html",
+                                    404
+                                  ]
+                                }
+                              ]
+                            },
+                            template_primer: {
+                              children: {},
+                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Template_primer",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://expressjs.com/en/guide/using-template-engines.html",
+                                    404
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-template-engines.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/resources/middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/changelog/",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/hello-world.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/resources/middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/resources/middleware/morgan.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/writing-middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/static-files.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/faq.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/error-handling.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-template-engines.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/basic-routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-template-engines.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/writing-middleware.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/static-files.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/error-handling.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        mongoose: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.rackspace.com/data/rackspace-dbaas",
                                 "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        routes: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/routes",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/basic-routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/error-handling.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/basic-routing.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/routing.html",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/generator.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/hello-world.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-template-engines.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/database-integration.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/hello-world.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/5x/api.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/starter/generator.html",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://expressjs.com/en/guide/using-template-engines.html",
+                                404
                               ]
                             }
                           ]
@@ -14677,6 +15212,12 @@ webextensions.manifest.options_ui`,
                     {
                       message: "Code with underscore",
                       data: [
+                        "mathml.href_link_on_non_anchor_element.disabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
                         "dom.multiple_import_maps.enabled"
                       ]
                     },
@@ -14981,6 +15522,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "12": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://getfirebug.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15174,23 +15728,6 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    guides: {
-                      children: {
-                        live_regions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     reference: {
                       children: {
                         attributes: {
@@ -15749,17 +16286,7 @@ body {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Canvas_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 channel_messaging_api: {
                   children: {
@@ -17651,37 +18178,6 @@ customElements.define("my-article", MyArticle);
                             "api.Gamepad",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                geolocationcoordinates: {
-                  children: {
-                    altitude: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GeolocationCoordinates/altitude",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
                           ]
                         }
                       ]
@@ -20601,17 +21097,7 @@ h1 {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -21737,23 +22223,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    cascade: {
-                      children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
                               ]
                             }
                           ]
@@ -23983,13 +24452,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://alastairc.uk/2017/06/the-responsive-order-conflict/",
-                                "certificate has expired"
                               ]
                             }
                           ]
@@ -75306,13 +75768,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -75439,13 +75894,6 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/IFrame_credentialless",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://spectreattack.com/spectre.pdf",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -75734,7 +76182,7 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/docs/options",
+                            "https://babeljs.io/",
                             "The operation timed out."
                           ]
                         },
@@ -75753,6 +76201,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     classes: {
                       children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         static_initialization_blocks: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks",
@@ -75939,19 +76400,6 @@ let z = 1;
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/repl",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -75974,19 +76422,6 @@ let z = 1;
                     },
                     operators: {
                       children: {
-                        await: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://typescript-eslint.io/rules/return-await/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -76221,13 +76656,6 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://videojs.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://jplayer.org/",
                             "The operation timed out."
                           ]
@@ -76402,27 +76830,6 @@ doIt(); // returns "finally"
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                how_to: {
-                  children: {
-                    define_app_icons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://maskable.app/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
