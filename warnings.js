@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-51f81618.js";
+} from "./chunk-bdmbd402.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -92,6 +92,13 @@ var warnings_processed_default = {
                             "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phaserplugins.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -124,6 +131,13 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
                 {
                   message: "HTTP link",
                   data: [
@@ -396,19 +410,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            developer_tools: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Developer_Tools",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://getfirebug.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             dmz: {
               children: {},
               slug: "/en-US/docs/Glossary/DMZ",
@@ -507,6 +508,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -976,6 +997,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2740,19 +2774,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5341,6 +5362,13 @@ button {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://picryl.com/",
                             403
                           ]
@@ -6744,7 +6772,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://mochajs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -12564,6 +12592,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12619,38 +12660,38 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                404
+                                "https://expressjs.com/en/advanced/best-practice-performance/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-security.html",
-                                404
+                                "https://expressjs.com/en/advanced/best-practice-security/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                404
+                                "https://expressjs.com/en/advanced/best-practice-performance/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                404
+                                "https://expressjs.com/en/advanced/best-practice-performance/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-security.html",
-                                404
+                                "https://expressjs.com/en/advanced/best-practice-security/"
                               ]
                             }
                           ]
@@ -12660,24 +12701,24 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/generator.html",
-                                404
+                                "https://expressjs.com/en/starter/generator/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/installing.html",
-                                404
+                                "https://expressjs.com/en/starter/installing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/generator.html",
-                                404
+                                "https://expressjs.com/en/starter/generator/"
                               ]
                             }
                           ]
@@ -12689,10 +12730,10 @@ textarea:focus {
                               slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Home_page",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "Redirected external link",
                                   data: [
                                     "https://expressjs.com/en/5x/api.html",
-                                    404
+                                    "https://expressjs.com/en/5x/api/"
                                   ]
                                 }
                               ]
@@ -12702,10 +12743,10 @@ textarea:focus {
                               slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Template_primer",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "Redirected external link",
                                   data: [
                                     "https://expressjs.com/en/guide/using-template-engines.html",
-                                    404
+                                    "https://expressjs.com/en/guide/using-template-engines/"
                                   ]
                                 }
                               ]
@@ -12714,10 +12755,10 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-template-engines.html",
-                                404
+                                "https://expressjs.com/en/guide/using-template-engines/"
                               ]
                             }
                           ]
@@ -12727,10 +12768,10 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/resources/middleware.html",
-                                404
+                                "https://expressjs.com/en/resources/middleware/"
                               ]
                             },
                             {
@@ -12741,213 +12782,213 @@ textarea:focus {
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/hello-world.html",
-                                404
+                                "https://expressjs.com/en/starter/hello-world/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/resources/middleware.html",
-                                404
+                                "https://expressjs.com/en/resources/middleware/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/resources/middleware/morgan.html",
-                                404
+                                "https://expressjs.com/en/resources/middleware/morgan/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-middleware.html",
-                                404
+                                "https://expressjs.com/en/guide/using-middleware/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/writing-middleware.html",
-                                404
+                                "https://expressjs.com/en/guide/writing-middleware/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/static-files.html",
-                                404
+                                "https://expressjs.com/en/starter/static-files/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/faq.html",
-                                404
+                                "https://expressjs.com/en/starter/faq/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/error-handling.html",
-                                404
+                                "https://expressjs.com/en/guide/error-handling/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-template-engines.html",
-                                404
+                                "https://expressjs.com/en/guide/using-template-engines/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/basic-routing.html",
-                                404
+                                "https://expressjs.com/en/starter/basic-routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-template-engines.html",
-                                404
+                                "https://expressjs.com/en/guide/using-template-engines/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-middleware.html",
-                                404
+                                "https://expressjs.com/en/guide/using-middleware/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/writing-middleware.html",
-                                404
+                                "https://expressjs.com/en/guide/writing-middleware/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/static-files.html",
-                                404
+                                "https://expressjs.com/en/starter/static-files/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/error-handling.html",
-                                404
+                                "https://expressjs.com/en/guide/error-handling/"
                               ]
                             }
                           ]
@@ -12957,31 +12998,24 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             },
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.rackspace.com/data/rackspace-dbaas",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             }
                           ]
@@ -12991,94 +13025,94 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/routes",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/basic-routing.html",
-                                404
+                                "https://expressjs.com/en/starter/basic-routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/error-handling.html",
-                                404
+                                "https://expressjs.com/en/guide/error-handling/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/basic-routing.html",
-                                404
+                                "https://expressjs.com/en/starter/basic-routing/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/routing.html",
-                                404
+                                "https://expressjs.com/en/guide/routing/"
                               ]
                             }
                           ]
@@ -13088,73 +13122,73 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/generator.html",
-                                404
+                                "https://expressjs.com/en/starter/generator/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/hello-world.html",
-                                404
+                                "https://expressjs.com/en/starter/hello-world/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-template-engines.html",
-                                404
+                                "https://expressjs.com/en/guide/using-template-engines/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/database-integration.html",
-                                404
+                                "https://expressjs.com/en/guide/database-integration/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/api.html",
-                                404
+                                "https://expressjs.com/en/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/hello-world.html",
-                                404
+                                "https://expressjs.com/en/starter/hello-world/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/api.html",
-                                404
+                                "https://expressjs.com/en/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/5x/api.html",
-                                404
+                                "https://expressjs.com/en/5x/api/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/generator.html",
-                                404
+                                "https://expressjs.com/en/starter/generator/"
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/guide/using-template-engines.html",
-                                404
+                                "https://expressjs.com/en/guide/using-template-engines/"
                               ]
                             }
                           ]
@@ -13698,6 +13732,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -13913,6 +13960,19 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13920,6 +13980,19 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -15522,19 +15595,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "12": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://getfirebug.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15973,13 +16033,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://colortutorial.design/microColorsC.html",
                             "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
                           ]
                         },
                         {
@@ -16427,6 +16480,19 @@ api.MessagePort`,
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
                         "Expected:",
                         "api.COEPViolationReport"
+                      ]
+                    }
+                  ]
+                },
+                console: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/console",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://profiler.firefox.com/docs/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -75941,6 +76007,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -76182,13 +76261,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://exploringjs.com/es6/ch_modules.html",
                             404
                           ]
@@ -76201,19 +76273,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     classes: {
                       children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         static_initialization_blocks: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks",
@@ -76303,7 +76362,7 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken external link",
                               data: [
                                 "http://bluebirdjs.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -76422,6 +76481,19 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        grouping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://standardjs.com/rules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -76461,6 +76533,13 @@ let z = 1;
                               data: [
                                 "https://2ality.com/2017/07/regexp-unicode-property-escapes.html",
                                 404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -76706,6 +76785,68 @@ doIt(); // returns "finally"
                   }
                 }
               }
+            },
+            performance: {
+              children: {},
+              slug: "/en-US/docs/Web/Performance",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://profiler.firefox.com/docs/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
             },
             privacy: {
               children: {
