@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-djh6f81x.js";
+} from "./chunk-hr4pysw5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -30,7 +30,7 @@ var warnings_processed_default = {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.metanetsoftware.com/technique/tutorialA.html",
+                        "https://www.sevenson.com.au/blog/sat/",
                         "The operation timed out."
                       ]
                     }
@@ -90,6 +90,13 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phaserplugins.com/",
                             "The operation timed out."
                           ]
                         }
@@ -1732,6 +1739,19 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.nichd.nih.gov/health/topics/learningdisabilities",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -5383,30 +5403,10 @@ button {
                         }
                       ]
                     },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/CC0",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -14044,19 +14044,6 @@ padding-left: 20px;
                     }
                   }
                 },
-                getting_started: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Getting_started",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/CC0",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 issues: {
                   children: {
                     content_suggestions_feature_proposals: {
@@ -14281,19 +14268,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/CC0",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15610,104 +15584,6 @@ webextensions.manifest.options_ui`,
                             "http://asmjs.org/spec/latest/",
                             ""
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    "30": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=30",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "121": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=121",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "122": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=122",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "128": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=128",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "131": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/131",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=131",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -15860,17 +15736,7 @@ webextensions.manifest.options_ui`,
                     }
                   }
                 }
-              },
-              slug: "/en-US/docs/Mozilla/Firefox",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://hg-edge.mozilla.org/mozilla-central/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
+              }
             }
           },
           slug: "/en-US/docs/Mozilla",
@@ -15901,6 +15767,23 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -18518,37 +18401,6 @@ customElements.define("my-article", MyArticle);
                     }
                   }
                 },
-                geolocationcoordinates: {
-                  children: {
-                    altitude: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GeolocationCoordinates/altitude",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gis-lab.info/docs/nima-tr8350.2-wgs84fin.pdf",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -19633,6 +19485,23 @@ code {
                     }
                   }
                 },
+                media_source_extensions_api: {
+                  children: {
+                    transcoding_assets_for_mse: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.bento4.com/downloads/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
@@ -19777,6 +19646,40 @@ aside {
                         {
                           message: "Page status not backed by BCD",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                notification: {
+                  children: {
+                    actions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Notification/actions",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    maxactions_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Notification/maxActions_static",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
                         }
                       ]
                     }
@@ -21235,6 +21138,73 @@ button:interest-source {
                     }
                   }
                 },
+                usbconfiguration: {
+                  children: {
+                    configurationname: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/USBConfiguration/configurationName",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    configurationvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/USBConfiguration/configurationValue",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    usbconfiguration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/USBConfiguration/USBConfiguration",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/USBConfiguration",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 view_transition_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/View_Transition_API",
@@ -21243,13 +21213,6 @@ button:interest-source {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/View_Transition_API/Using_types"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://stackdiary.com/view-transitions-api/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21694,27 +21657,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgl_api: {
-                  children: {
-                    tutorial: {
-                      children: {
-                        getting_started_with_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -21801,7 +21743,17 @@ api.Window.sessionStorage`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -24994,13 +24946,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         },
@@ -25088,19 +25033,6 @@ css.at-rules.font-face.WOFF_2`,
                     },
                     grid_layout: {
                       children: {
-                        accessibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         basic_concepts: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
@@ -41612,13 +41544,6 @@ ellipse {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         },
@@ -43078,19 +43003,6 @@ p {
                             }
                           ]
                         },
-                        "initial-letter": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/initial-letter",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.oddbird.net/2017/01/03/initial-letter/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         inset: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/inset",
@@ -44210,13 +44122,6 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         },
@@ -68532,18 +68437,6 @@ css.properties.list-style-type.symbols`
                             }
                           ]
                         },
-                        "timeline-range-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/timeline-range-name",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "css.types.timeline-range-name"
-                              ]
-                            }
-                          ]
-                        },
                         "transform-function": {
                           children: {
                             matrix3d: {
@@ -76441,6 +76334,26 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/cookies/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cors: {
                       children: {
                         errors: {
@@ -77164,6 +77077,19 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        grouping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://standardjs.com/rules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -77302,6 +77228,19 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
+                        },
+                        while: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/docs/latest/rules/no-cond-assign",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -77363,6 +77302,24 @@ doIt(); // returns "finally"
                                 "mathml.global_attributes.data_attributes",
                                 "Expected:",
                                 "mathml.global_attributes.data-*"
+                              ]
+                            }
+                          ]
+                        },
+                        href: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "non-standard"
+                                ],
+                                [
+                                  "deprecated",
+                                  "non-standard"
+                                ]
                               ]
                             }
                           ]
@@ -77479,6 +77436,19 @@ doIt(); // returns "finally"
                         }
                       ]
                     },
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -77552,6 +77522,19 @@ doIt(); // returns "finally"
                           ]
                         }
                       ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -77569,6 +77552,27 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.permissionspolicy.com/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -80161,6 +80165,392 @@ svg.elements.feSpotLight.z`
                     }
                   ]
                 },
+                exception_handling: {
+                  children: {
+                    throw: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/throw",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        }
+                      ]
+                    },
+                    throw_ref: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/throw_ref",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        }
+                      ]
+                    },
+                    try_table: {
+                      children: {
+                        catch: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch",
+                          messages: [
+                            {
+                              message: "Missing BCD table",
+                              data: [
+                                "(key invalid)"
+                              ]
+                            }
+                          ]
+                        },
+                        catch_all: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all",
+                          messages: [
+                            {
+                              message: "Missing BCD table",
+                              data: [
+                                "(key invalid)"
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "object-shorthand",
+                                "Expected method shorthand.",
+                                `  log: () => {
+    console.log("An error was caught!");
+  },`,
+                                "7:3 - 9:4",
+                                `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all
+[object-shorthand] Expected method shorthand.
+~~~
+// Define error tag in JS
+const myErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
+
+// Import the tag and the log function into the module
+const env = {
+  my_error: myErrorTag,
+  log: () => {
+    console.log("An error was caught!");
+  },
+};
+
+WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { env }).then(
+  // Negative value causes function to throw
+  (result) => result.instance.exports.try_and_catch(-1),
+);
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        catch_all_ref: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all_ref",
+                          messages: [
+                            {
+                              message: "Missing BCD table",
+                              data: [
+                                "(key invalid)"
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "object-shorthand",
+                                "Expected method shorthand.",
+                                `  log: () => {
+    console.log("An error was caught!");
+  },`,
+                                "7:3 - 9:4",
+                                `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all_ref
+[object-shorthand] Expected method shorthand.
+~~~
+// Define error tag in JS
+const myErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
+
+// Import the tag and the log function into the module
+const env = {
+  my_error: myErrorTag,
+  log: () => {
+    console.log("An error was caught!");
+  },
+};
+
+WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { env }).then(
+  // Negative value causes function to throw
+  (result) => result.instance.exports.try_and_catch(-1),
+);
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        catch_ref: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_ref",
+                          messages: [
+                            {
+                              message: "Missing BCD table",
+                              data: [
+                                "(key invalid)"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            "        log: (code) => {\n          output.textContent += `Error code: ${code} | `;\n        },",
+                            "13:9 - 15:10",
+                            `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table
+[object-shorthand] Expected method shorthand.
+~~~
+const output = document.querySelector("p");
+
+const typeErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
+const rangeErrorTag = new WebAssembly.Tag({ parameters: ["i32", "i32"] });
+
+async function init() {
+  const { instance } = await WebAssembly.instantiateStreaming(
+    fetch("{%wasm-url%}"),
+    {
+      env: {
+        type_error: typeErrorTag,
+        range_error: rangeErrorTag,
+        log: (code) => {
+          output.textContent += \`Error code: \${code} | \`;
+        },
+      },
+    },
+  );
+
+  instance.exports.try_multiple(-1); // Throws type_error, logs 10
+  instance.exports.try_multiple(101); // Throws range_error, logs 99
+  instance.exports.try_multiple(50); // Doesn't throw
+}
+
+init();
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                javascript_interface: {
+                  children: {
+                    exception: {
+                      children: {
+                        exception: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception",
+                          messages: [
+                            {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception",
+                      messages: [
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Expression expected.",
+                            'WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )',
+                            "5:16",
+                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception
+[syntax] Parsing error: Expression expected.
+~~~
+const env = {
+  my_error: myErrorTag,
+};
+
+WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    jstag_static: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `        do_work: () => {
+          throw new Error("An exception was thrown in JS");
+        },`,
+                            "8:9 - 10:10",
+                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static
+[object-shorthand] Expected method shorthand.
+~~~
+async function run() {
+  const { instance } = await WebAssembly.instantiateStreaming(
+    fetch("{%wasm-url%}"),
+    {
+      env: {
+        js_tag: WebAssembly.JSTag,
+        // This JS function throws, which Wasm will catch via JSTag
+        do_work: () => {
+          throw new Error("An exception was thrown in JS");
+        },
+        log: (error) => {
+          // errRef is the JS Error object passed back as an externref
+          console.log(error.message);
+        },
+      },
+    },
+  );
+
+  instance.exports.try_and_catch();
+}
+
+run();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `        log: (error) => {
+          // errRef is the JS Error object passed back as an externref
+          console.log(error.message);
+        },`,
+                            "11:9 - 14:10",
+                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static
+[object-shorthand] Expected method shorthand.
+~~~
+async function run() {
+  const { instance } = await WebAssembly.instantiateStreaming(
+    fetch("{%wasm-url%}"),
+    {
+      env: {
+        js_tag: WebAssembly.JSTag,
+        // This JS function throws, which Wasm will catch via JSTag
+        do_work: () => {
+          throw new Error("An exception was thrown in JS");
+        },
+        log: (error) => {
+          // errRef is the JS Error object passed back as an externref
+          console.log(error.message);
+        },
+      },
+    },
+  );
+
+  instance.exports.try_and_catch();
+}
+
+run();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Unexpected page type",
+                          data: [
+                            "webassembly-static-property"
+                          ]
+                        }
+                      ]
+                    },
+                    tag: {
+                      children: {
+                        type: {
+                          children: {},
+                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/type",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-unused-labels",
+                                "'parameters:' is defined but never used.",
+                                '  parameters: ["i32", "i64"];',
+                                "2:3 - 2:13",
+                                `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/type
+[no-unused-labels] 'parameters:' is defined but never used.
+~~~
+{
+  parameters: ["i32", "i64"];
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/WebAssembly/Reference/Types/exnref"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Expression expected.",
+                            'WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )',
+                            "5:16",
+                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag
+[syntax] Parsing error: Expression expected.
+~~~
+const env = {
+  my_error: myErrorTag,
+};
+
+WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 simd: {
                   children: {
                     arithmetic: {
@@ -81055,6 +81445,18 @@ svg.elements.feSpotLight.z`
                 },
                 value_types: {
                   children: {
+                    exnref: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/Value_types/exnref",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        }
+                      ]
+                    },
                     i32: {
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Value_types/i32",
@@ -81069,7 +81471,16 @@ svg.elements.feSpotLight.z`
                     }
                   }
                 }
-              }
+              },
+              slug: "/en-US/docs/WebAssembly/Reference",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/WebAssembly/Reference/Exception_handling"
+                  ]
+                }
+              ]
             }
           }
         }
