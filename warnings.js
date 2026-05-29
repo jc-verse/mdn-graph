@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kta9q550.js";
+} from "./chunk-bqhbhacx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,36 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_monetization: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_monetization",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.html5gamedevs.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.html5gamedevs.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             techniques: {
               children: {
@@ -523,6 +553,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             grid_areas: {
               children: {},
               slug: "/en-US/docs/Glossary/Grid_Areas",
@@ -1005,6 +1055,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1239,6 +1302,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            python: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Python",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.alphacodingskills.com/python/python-tutorial.php",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             repo: {
               children: {},
               slug: "/en-US/docs/Glossary/Repo",
@@ -1286,19 +1362,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            search_engine: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Search_engine",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.webopedia.com/definitions/search-engine/",
-                    403
-                  ]
                 }
               ]
             },
@@ -2820,19 +2883,6 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
                             "The operation timed out."
                           ]
                         }
@@ -5423,10 +5473,44 @@ button {
                         }
                       ]
                     },
+                    general_embedding_technologies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/CC0",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -5671,19 +5755,6 @@ caption {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    structuring_documents: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.color-blindness.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6869,13 +6940,6 @@ button:active {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -12699,6 +12763,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -13307,19 +13384,6 @@ textarea:focus {
                 },
                 testing: {
                   children: {
-                    automated_testing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://testingbot.com/members/user/edit",
-                            500
-                          ]
-                        }
-                      ]
-                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -14109,6 +14173,27 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://packagecontrol.io/",
                             500
                           ]
@@ -14122,6 +14207,19 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -14194,6 +14292,19 @@ padding-left: 20px;
                     }
                   }
                 },
+                getting_started: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Getting_started",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/CC0",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 issues: {
                   children: {
                     content_suggestions_feature_proposals: {
@@ -14215,6 +14326,32 @@ padding-left: 20px;
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                open_source_etiquette: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
+                        "unknown certificate verification error"
+                      ]
+                    }
+                  ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -14251,6 +14388,19 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -14425,6 +14575,26 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
+                },
+                writing_style_guide: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/CC0",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://imageoptim.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15909,25 +16079,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
-                        502
-                      ]
-                    }
-                  ]
-                }
-              }
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -15942,6 +16094,23 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -19838,6 +20007,19 @@ aside {
                     }
                   }
                 },
+                ovr_multiview2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OVR_multiview2",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.arm.com/community/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -22751,23 +22933,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    cascade: {
-                      children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
                               ]
                             }
                           ]
@@ -36524,7 +36689,2129 @@ article.snapDisabled ul {
                       ]
                     },
                     "scroll-driven_animations": {
-                      children: {},
+                      children: {
+                        timeline_insets: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "  </article>",
+                                "24:0 - 24:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+  <article>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll down ⇩</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <section class="one animated_element">
+      <div>
+        <i>Animated Element</i>
+        <span></span>
+      </div>
+    </section>
+    <section class="double">
+      <div>
+        <i id="A" class="animated_element">A</i>
+        <i id="B" class="animated_element">B</i>
+      </div>
+    </section>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll up ⇧</p>
+  </article>
+</main>
+
+<fieldset>
+  <legend>Select the height of the animated element</legend>
+
+  <label><input name="height" value="50" type="radio" checked /> 50px</label>
+  <label><input name="height" value="250" type="radio" /> 250px</label>
+  <label><input name="height" value="500" type="radio" /> 500px</label>
+</fieldset>
+<fieldset class="double">
+  <legend>Select the animation range</legend>
+
+  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
+  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
+</fieldset>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                                "    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),",
+                                "15:5 - 15:9",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 1em;
+  animation-range-end: 125px;
+}
+
+:root {
+  --start: 1em;
+  --end: 125px;
+}
+
+article {
+  background-image: linear-gradient(
+    to top,
+    transparent calc(var(--start) - 1px),
+    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),
+    transparent calc(var(--start) + 1px) calc(var(--end) - 1px),
+    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),
+    transparent calc(var(--end) + 1px)
+  );
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                                "    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),",
+                                "17:5 - 17:9",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 1em;
+  animation-range-end: 125px;
+}
+
+:root {
+  --start: 1em;
+  --end: 125px;
+}
+
+article {
+  background-image: linear-gradient(
+    to top,
+    transparent calc(var(--start) - 1px),
+    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),
+    transparent calc(var(--start) + 1px) calc(var(--end) - 1px),
+    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),
+    transparent calc(var(--end) + 1px)
+  );
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "  </article>",
+                                "24:0 - 24:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+  <article>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll down ⇩</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <section class="one animated_element">
+      <div>
+        <i>Animated Element</i>
+        <span></span>
+      </div>
+    </section>
+    <section class="double">
+      <div>
+        <i id="A" class="animated_element">A</i>
+        <i id="B" class="animated_element">B</i>
+      </div>
+    </section>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll up ⇧</p>
+  </article>
+</main>
+
+<fieldset>
+  <legend>Select the height of the animated element</legend>
+
+  <label><input name="height" value="50" type="radio" checked /> 50px</label>
+  <label><input name="height" value="250" type="radio" /> 250px</label>
+  <label><input name="height" value="500" type="radio" /> 500px</label>
+</fieldset>
+<fieldset class="double">
+  <legend>Select the animation range</legend>
+
+  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
+  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
+</fieldset>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 49.5px 50.5px,",
+                                "35:7 - 35:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 50px;
+  animation-range-end: entry 100px;
+}
+
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 99.5px 100.5px,",
+                                "37:7 - 37:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 50px;
+  animation-range-end: entry 100px;
+}
+
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 49.5px 50.5px,",
+                                "51:7 - 51:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: entry 60px;
+  animation-range-end: exit 75px;
+}
+
+article {
+  background-image: linear-gradient(
+    to top,
+    transparent 59.5px,
+    blue 59.5px 60.5px,
+    transparent 60.5px 74.5px,
+    red 74.5px 75.5px,
+    transparent 75.5px /* 174.5px,
+    green 174.5px 154.5px,
+    transparent 175.5px*/
+  );
+}
+.animated_element {
+  align-self: flex-end;
+}
+
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 99.5px 100.5px,",
+                                "53:7 - 53:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: entry 60px;
+  animation-range-end: exit 75px;
+}
+
+article {
+  background-image: linear-gradient(
+    to top,
+    transparent 59.5px,
+    blue 59.5px 60.5px,
+    transparent 60.5px 74.5px,
+    red 74.5px 75.5px,
+    transparent 75.5px /* 174.5px,
+    green 174.5px 154.5px,
+    transparent 175.5px*/
+  );
+}
+.animated_element {
+  align-self: flex-end;
+}
+
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "  </article>",
+                                "24:0 - 24:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+  <article>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll down ⇩</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <section class="one animated_element">
+      <div>
+        <i>Animated Element</i>
+        <span></span>
+      </div>
+    </section>
+    <section class="double">
+      <div>
+        <i id="A" class="animated_element">A</i>
+        <i id="B" class="animated_element">B</i>
+      </div>
+    </section>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll up ⇧</p>
+  </article>
+</main>
+
+<fieldset>
+  <legend>Select the height of the animated element</legend>
+
+  <label><input name="height" value="50" type="radio" checked /> 50px</label>
+  <label><input name="height" value="250" type="radio" /> 250px</label>
+  <label><input name="height" value="500" type="radio" /> 500px</label>
+</fieldset>
+<fieldset class="double">
+  <legend>Select the animation range</legend>
+
+  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
+  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
+</fieldset>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#3333" to be "#33333333" (color-hex-length)',
+                                "    #3333 calc(20% - 1px) calc(20% + 1px),",
+                                "10:5 - 10:10",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 20%;
+  animation-range-end: 60%;
+}
+
+i {
+  background-image: linear-gradient(
+    to bottom,
+    transparent calc(20% - 1px),
+    #3333 calc(20% - 1px) calc(20% + 1px),
+    transparent calc(20% + 1px) calc(60% - 1px),
+    #3333 calc(60% - 1px) calc(60% + 1px),
+    transparent calc(60% + 1px)
+  );
+}
+article {
+  --total: calc(var(--animElHeight) + 250px);
+  background-image:
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.2 - 1px),
+      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
+      transparent calc(var(--total) * 0.2 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.6 - 1px),
+      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
+      transparent calc(var(--total) * 0.6 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+        calc(var(--containerHeight) * 0.2 + 0.5px),
+      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
+        calc(var(--containerHeight) * 0.6 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+        calc(var(--containerHeight) * 0.6 + 0.5px),
+      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
+    );
+  background-position: local, local, fixed;
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#3333" to be "#33333333" (color-hex-length)',
+                                "    #3333 calc(60% - 1px) calc(60% + 1px),",
+                                "12:5 - 12:10",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 20%;
+  animation-range-end: 60%;
+}
+
+i {
+  background-image: linear-gradient(
+    to bottom,
+    transparent calc(20% - 1px),
+    #3333 calc(20% - 1px) calc(20% + 1px),
+    transparent calc(20% + 1px) calc(60% - 1px),
+    #3333 calc(60% - 1px) calc(60% + 1px),
+    transparent calc(60% + 1px)
+  );
+}
+article {
+  --total: calc(var(--animElHeight) + 250px);
+  background-image:
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.2 - 1px),
+      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
+      transparent calc(var(--total) * 0.2 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.6 - 1px),
+      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
+      transparent calc(var(--total) * 0.6 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+        calc(var(--containerHeight) * 0.2 + 0.5px),
+      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
+        calc(var(--containerHeight) * 0.6 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+        calc(var(--containerHeight) * 0.6 + 0.5px),
+      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
+    );
+  background-position: local, local, fixed;
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#3333" to be "#33333333" (color-hex-length)',
+                                "      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)",
+                                "34:7 - 34:12",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 20%;
+  animation-range-end: 60%;
+}
+
+i {
+  background-image: linear-gradient(
+    to bottom,
+    transparent calc(20% - 1px),
+    #3333 calc(20% - 1px) calc(20% + 1px),
+    transparent calc(20% + 1px) calc(60% - 1px),
+    #3333 calc(60% - 1px) calc(60% + 1px),
+    transparent calc(60% + 1px)
+  );
+}
+article {
+  --total: calc(var(--animElHeight) + 250px);
+  background-image:
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.2 - 1px),
+      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
+      transparent calc(var(--total) * 0.2 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.6 - 1px),
+      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
+      transparent calc(var(--total) * 0.6 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+        calc(var(--containerHeight) * 0.2 + 0.5px),
+      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
+        calc(var(--containerHeight) * 0.6 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+        calc(var(--containerHeight) * 0.6 + 0.5px),
+      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
+    );
+  background-position: local, local, fixed;
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#3333" to be "#33333333" (color-hex-length)',
+                                "      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)",
+                                "38:7 - 38:12",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
+~~~
+.animated_element {
+  animation-range-start: 20%;
+  animation-range-end: 60%;
+}
+
+i {
+  background-image: linear-gradient(
+    to bottom,
+    transparent calc(20% - 1px),
+    #3333 calc(20% - 1px) calc(20% + 1px),
+    transparent calc(20% + 1px) calc(60% - 1px),
+    #3333 calc(60% - 1px) calc(60% + 1px),
+    transparent calc(60% + 1px)
+  );
+}
+article {
+  --total: calc(var(--animElHeight) + 250px);
+  background-image:
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.2 - 1px),
+      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
+      transparent calc(var(--total) * 0.2 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.6 - 1px),
+      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
+      transparent calc(var(--total) * 0.6 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+        calc(var(--containerHeight) * 0.2 + 0.5px),
+      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
+        calc(var(--containerHeight) * 0.6 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+        calc(var(--containerHeight) * 0.6 + 0.5px),
+      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
+    );
+  background-position: local, local, fixed;
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "local" for property "background-position" (declaration-property-value-no-unknown)',
+                                "  background-position: local, local, fixed;",
+                                "42:24 - 42:29",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[declaration-property-value-no-unknown] Unexpected unknown value "local" for property "background-position" (declaration-property-value-no-unknown)
+~~~
+.animated_element {
+  animation-range-start: 20%;
+  animation-range-end: 60%;
+}
+
+i {
+  background-image: linear-gradient(
+    to bottom,
+    transparent calc(20% - 1px),
+    #3333 calc(20% - 1px) calc(20% + 1px),
+    transparent calc(20% + 1px) calc(60% - 1px),
+    #3333 calc(60% - 1px) calc(60% + 1px),
+    transparent calc(60% + 1px)
+  );
+}
+article {
+  --total: calc(var(--animElHeight) + 250px);
+  background-image:
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.2 - 1px),
+      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
+      transparent calc(var(--total) * 0.2 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--total) * 0.6 - 1px),
+      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
+      transparent calc(var(--total) * 0.6 + 1px)
+    ),
+    linear-gradient(
+      to top,
+      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+        calc(var(--containerHeight) * 0.2 + 0.5px),
+      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
+        calc(var(--containerHeight) * 0.6 - 0.5px),
+      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+        calc(var(--containerHeight) * 0.6 + 0.5px),
+      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
+    );
+  background-position: local, local, fixed;
+}
+
+@layer {
+  :root {
+    --animElHeight: 50px;
+    --animElHeightWord: "50px";
+    --barColor: black;
+    padding-top: 20px;
+    --containerHeight: 250px;
+  }
+  body:has(input[value="250"]:checked) {
+    --animElHeight: 250px;
+    --animElHeightWord: "250px";
+  }
+  body:has(input[value="500"]:checked) {
+    --animElHeight: 500px;
+    --animElHeightWord: "500px";
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: var(--containerHeight);
+    box-sizing: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  section {
+    --clr: yellow;
+    --words: "Animation not started";
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  .one,
+  .double i {
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+  }
+  i,
+  .animated_element {
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    height: var(--animElHeight);
+    line-height: var(--animElHeight);
+  }
+  span {
+    background-color: hsl(from var(--clr) h s 90%);
+    border: 5px solid hsl(from var(--clr) h s 20%);
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  span,
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+  span::before {
+    content: var(--words);
+  }
+  span {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  i::after {
+    content: " ( " var(--animElHeightWord) " )";
+  }
+  label {
+    padding-right: 2em;
+  }
+  legend {
+    margin-top: 2em;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+      --words: "Currently animating";
+    }
+    to {
+      --clr: red;
+      --words: "Animation complete";
+    }
+  }
+  body::before {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.double {
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "  </article>",
+                                "24:0 - 24:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+  <article>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll down ⇩</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <section class="one animated_element">
+      <div>
+        <i>Animated Element</i>
+        <span></span>
+      </div>
+    </section>
+    <section class="double">
+      <div>
+        <i id="A" class="animated_element">A</i>
+        <i id="B" class="animated_element">B</i>
+      </div>
+    </section>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Scroll up ⇧</p>
+  </article>
+</main>
+
+<fieldset>
+  <legend>Select the height of the animated element</legend>
+
+  <label><input name="height" value="50" type="radio" checked /> 50px</label>
+  <label><input name="height" value="250" type="radio" /> 250px</label>
+  <label><input name="height" value="500" type="radio" /> 500px</label>
+</fieldset>
+<fieldset class="double">
+  <legend>Select the animation range</legend>
+
+  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
+  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
+</fieldset>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 49.5px 50.5px,",
+                                "30:7 - 30:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.animated_element {
+  animation-range-start: exit-crossing -20%;
+  animation-range-end: exit-crossing 20%;
+}
+
+article {
+  background-image: none;
+}
+body .animated_element {
+  align-self: start;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#666" to be "#666666" (color-hex-length)',
+                                "      #666 99.5px 100.5px,",
+                                "32:7 - 32:11",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.animated_element {
+  animation-range-start: exit-crossing -20%;
+  animation-range-end: exit-crossing 20%;
+}
+
+article {
+  background-image: none;
+}
+body .animated_element {
+  align-self: start;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unclosed block (CssSyntaxError)",
+                                ".animated_element {",
+                                "93:1",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
+[CssSyntaxError] Unclosed block (CssSyntaxError)
+~~~
+@layer setup {
+  #A {
+    height: 50px;
+  }
+  #B {
+    height: 250px;
+  }
+  #C {
+    height: 500px;
+  }
+  div {
+    display: flex;
+    gap: 1em;
+  }
+  main {
+    padding: 20px 0 0 20px;
+    margin-bottom: 2em;
+  }
+  article {
+    outline: 3px dashed;
+    width: 475px;
+    margin: auto;
+    overflow: scroll;
+    position: relative;
+    height: 250px;
+    box-sizing: content-box;
+    background-image: linear-gradient(
+      to top,
+      transparent 49.5px,
+      #666 49.5px 50.5px,
+      transparent 50.5px 99.5px,
+      #666 99.5px 100.5px,
+      transparent 100.5px
+    );
+    background-origin: content-box;
+  }
+
+  p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .animated_element {
+    --clr: yellow;
+    background-color: hsl(from var(--clr) h s calc(l * 1.4));
+    display: block;
+    animation: showAnim step-end 1 forwards;
+    animation-timeline: view();
+    flex: 1 0 auto;
+  }
+
+  i {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @keyframes showAnim {
+    from {
+      --clr: green;
+    }
+    to {
+      --clr: red;
+    }
+  }
+  @layer no-support {
+    @supports not (animation-timeline: view()) {
+      body::before {
+        content: "Your browser doesn't support view progress scrolling.";
+        background-color: wheat;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.animated_element {
+  animation-range-start: contain 25%;
+  animation-range-end: contain 75%;
+}
+
+article {
+  background-image: linear-gradient(
+    transparent 25%,
+    #ededed 25% 75%,
+    transparent 75%
+  );
+}
+body .animated_element {
+  align-self: center;
+}
+
+.animated_element {
+  background-image:
+    linear-gradient(black, black), linear-gradient(black, black);
+  background-size: 1px 1px;
+  background-position:
+    center 25%,
+    center 75%;
+  background-repeat: repeat-x;
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
                       messages: [
                         {
@@ -37977,19 +40264,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        grid_wrapper: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-irl.info/more-flexibility-with-minmax/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -75053,132 +77327,13 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
             html: {
               children: {
                 guides: {
-                  children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/Guides",
                   messages: [
                     {
                       message: "Broken anchor",
                       data: [
                         "#elements_without_a_category"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -75227,26 +77382,6 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -75307,17 +77442,7 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         size: {
                           children: {},
@@ -76518,6 +78643,13 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -76647,6 +78779,26 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
+                    evolution_of_http: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3techs.com/technologies/details/ce-http2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3techs.com/technologies/details/ce-http3",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     iframe_credentialless: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/IFrame_credentialless",
@@ -76715,6 +78867,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -77085,13 +79250,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://exploringjs.com/es6/ch_modules.html",
                             404
                           ]
@@ -77104,19 +79262,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     classes: {
                       children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         static_initialization_blocks: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks",
@@ -77580,13 +79725,6 @@ doIt(); // returns "finally"
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "certificate has expired"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
-                                "unable to verify the first certificate"
                               ]
                             }
                           ]
