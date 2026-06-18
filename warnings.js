@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6qv2amcj.js";
+} from "./chunk-j988mqkx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1329,19 +1329,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            sgml: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SGML",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.tei-c.org/Vault/GL/P3/SG.htm",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2782,13 +2769,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://empress-blog.netlify.app/welcome/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3782,13 +3762,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://livebook.manning.com/book/svelte-and-sapper-in-action/welcome",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -14067,13 +14040,6 @@ padding-left: 20px;
                             "https://www.gnu.org/software/emacs/manual/efaq.html",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -15990,18 +15956,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Web/API/SVGTextPathElement/side"
                           ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/AnimationEvent/animation"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/TransitionEvent/animation"
-                          ]
                         }
                       ]
                     },
@@ -16158,56 +16112,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        420
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        420
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
-                        420
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7290363",
-                        420
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                    420
-                  ]
-                }
-              ]
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -16222,6 +16127,23 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -16851,7 +16773,17 @@ body {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Canvas_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 channel_messaging_api: {
                   children: {
@@ -18824,19 +18756,6 @@ customElements.define("my-article", MyArticle);
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    insertadjacenttext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/insertAdjacentText",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/insert-adjacent/insertAdjacentText.html",
-                            503
                           ]
                         }
                       ]
@@ -21976,6 +21895,13 @@ h1 {
                     {
                       message: "Broken external link",
                       data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://ptsjs.org/guide/sound-0800",
                         "The operation timed out."
                       ]
@@ -22142,6 +22068,13 @@ api.Window.sessionStorage`,
                   children: {},
                   slug: "/en-US/docs/Web/API/WebSockets_API",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "Redirected external link",
                       data: [
@@ -78117,119 +78050,7 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
             html: {
               children: {
                 guides: {
-                  children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/Guides",
                   messages: [
                     {
@@ -78237,32 +78058,11 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       data: [
                         "#elements_without_a_category"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
                 how_to: {
-                  children: {
-                    add_a_hit_map_on_top_of_an_image: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.goethe-verlag.com/book2/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/How_to",
                   messages: [
                     {
@@ -78305,26 +78105,6 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -78385,17 +78165,7 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         size: {
                           children: {},
@@ -80073,6 +79843,19 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://helmetjs.github.io/",
                                 "https://helmet.js.org/"
+                              ]
+                            }
+                          ]
+                        },
+                        "x-xss-protection": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://portswigger.net/research/abusing-chromes-xss-auditor-to-steal-tokens",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -81860,6 +81643,27 @@ svg.elements.feSpotLight.z`
                 }
               }
             },
+            uri: {
+              children: {
+                guides: {
+                  children: {
+                    "choosing_between_www_and_non-www_urls": {
+                      children: {},
+                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.chrisfinke.com/2011/07/25/what-do-people-type-in-the-address-bar/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
             webdriver: {
               children: {
                 how_to: {
@@ -81927,6 +81731,60 @@ svg.elements.feSpotLight.z`
                                       message: "Code with space",
                                       data: [
                                         "unsupported operation"
+                                      ]
+                                    },
+                                    {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* Without optional parameters */
+{
+  "method": "browser.createUserContext",
+  "params": {}
+}
+
+/* With optional parameters */
+{
+  "method": "browser.createUserContext",
+  "params": {
+    "acceptInsecureCerts": true,
+    "proxy": {
+      "proxyType": "manual",
+      "httpProxy": "127.0.0.1:80"
+    },
+    "unhandledPromptBehavior": {
+      "default": "accept"
+    }
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browser/createUserContext
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* Without optional parameters */
+{
+  "method": "browser.createUserContext",
+  "params": {}
+}
+
+/* With optional parameters */
+{
+  "method": "browser.createUserContext",
+  "params": {
+    "acceptInsecureCerts": true,
+    "proxy": {
+      "proxyType": "manual",
+      "httpProxy": "127.0.0.1:80"
+    },
+    "unhandledPromptBehavior": {
+      "default": "accept"
+    }
+  }
+}
+~~~
+`
                                       ]
                                     },
                                     {
@@ -82014,6 +81872,64 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
+  "method": "browser.setDownloadBehavior",
+  "params": {
+    "downloadBehavior": {
+      "type": "allowed",
+      "destinationFolder": "/tmp/downloads"
+    }
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browser.setDownloadBehavior",
+  "params": {
+    "downloadBehavior": {
+      "type": "allowed",
+      "destinationFolder": "/tmp/downloads"
+    },
+    "userContexts": ["4e4b1f6d-3f1a-4b2e-9f8c-1a2b3c4d5e6f"]
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browser/setDownloadBehavior
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* With required parameters */
+{
+  "method": "browser.setDownloadBehavior",
+  "params": {
+    "downloadBehavior": {
+      "type": "allowed",
+      "destinationFolder": "/tmp/downloads"
+    }
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browser.setDownloadBehavior",
+  "params": {
+    "downloadBehavior": {
+      "type": "allowed",
+      "destinationFolder": "/tmp/downloads"
+    },
+    "userContexts": ["4e4b1f6d-3f1a-4b2e-9f8c-1a2b3c4d5e6f"]
+  }
+}
+~~~
+`
+                                      ]
+                                    },
+                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-command"
@@ -82096,6 +82012,52 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
+  "method": "browsingContext.close",
+  "params": {
+    "context": "93ee5bd6-d256-4608-a002-9a8995cc0e5f"
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browsingContext.close",
+  "params": {
+    "context": "93ee5bd6-d256-4608-a002-9a8995cc0e5f",
+    "promptUnload": true
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/close
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* With required parameters */
+{
+  "method": "browsingContext.close",
+  "params": {
+    "context": "93ee5bd6-d256-4608-a002-9a8995cc0e5f"
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browsingContext.close",
+  "params": {
+    "context": "93ee5bd6-d256-4608-a002-9a8995cc0e5f",
+    "promptUnload": true
+  }
+}
+~~~
+`
+                                      ]
+                                    },
+                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-command"
@@ -82153,6 +82115,56 @@ svg.elements.feSpotLight.z`
                                       message: "Code with space",
                                       data: [
                                         "unsupported operation"
+                                      ]
+                                    },
+                                    {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
+  "method": "browsingContext.create",
+  "params": {
+    "type": "window"
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browsingContext.create",
+  "params": {
+    "type": "tab",
+    "background": true,
+    "referenceContext": "93ee5bd6-d256-4608-a002-9a8995cc0e5f",
+    "userContext": "4e4b1f6d-3f1a-4b2e-9f8c-1a2b3c4d5e6f"
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/create
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* With required parameters */
+{
+  "method": "browsingContext.create",
+  "params": {
+    "type": "window"
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "browsingContext.create",
+  "params": {
+    "type": "tab",
+    "background": true,
+    "referenceContext": "93ee5bd6-d256-4608-a002-9a8995cc0e5f",
+    "userContext": "4e4b1f6d-3f1a-4b2e-9f8c-1a2b3c4d5e6f"
+  }
+}
+~~~
+`
                                       ]
                                     },
                                     {
@@ -82486,19 +82498,46 @@ svg.elements.feSpotLight.z`
                                       message: "JSON code issue",
                                       data: [
                                         "syntax",
-                                        "JSON Parse error: Property name must be a string literal",
-                                        `{
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
   "method": "input.performActions",
   "params": {
-    "context": "<contextId>",
+    "context": "5f07e3ca-ecac-465e-b9ef-49000c196ecf",
     "actions": [
       {
-        "type": "<outerType>",
-        "id": "<sourceId>",
+        "type": "key",
+        "id": "keyboard1",
         "actions": [
           {
-            "type": "<innerType>",
-            ...
+            "type": "keyDown",
+            "value": "a"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "input.performActions",
+  "params": {
+    "context": "5f07e3ca-ecac-465e-b9ef-49000c196ecf",
+    "actions": [
+      {
+        "type": "pointer",
+        "id": "mouse1",
+        "parameters": {
+          "pointerType": "mouse"
+        },
+        "actions": [
+          {
+            "type": "pointerMove",
+            "x": 100,
+            "y": 200,
+            "duration": 300,
+            "origin": "viewport"
           }
         ]
       }
@@ -82508,20 +82547,47 @@ svg.elements.feSpotLight.z`
 `,
                                         null,
                                         `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/input/performActions
-[syntax] JSON Parse error: Property name must be a string literal
+[syntax] JSON Parse error: Unrecognized token '/'
 ~~~
+/* With required parameters */
 {
   "method": "input.performActions",
   "params": {
-    "context": "<contextId>",
+    "context": "5f07e3ca-ecac-465e-b9ef-49000c196ecf",
     "actions": [
       {
-        "type": "<outerType>",
-        "id": "<sourceId>",
+        "type": "key",
+        "id": "keyboard1",
         "actions": [
           {
-            "type": "<innerType>",
-            ...
+            "type": "keyDown",
+            "value": "a"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "input.performActions",
+  "params": {
+    "context": "5f07e3ca-ecac-465e-b9ef-49000c196ecf",
+    "actions": [
+      {
+        "type": "pointer",
+        "id": "mouse1",
+        "parameters": {
+          "pointerType": "mouse"
+        },
+        "actions": [
+          {
+            "type": "pointerMove",
+            "x": 100,
+            "y": 200,
+            "duration": 300,
+            "origin": "viewport"
           }
         ]
       }
@@ -82753,36 +82819,6 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
-                                      message: "JSON code issue",
-                                      data: [
-                                        "syntax",
-                                        "JSON Parse error: Unexpected token '.'",
-                                        `{
-  "method": "input.setFiles",
-  "params": {
-    "context": "<contextId>",
-    "element": "<elementId>",
-    "files": ["<filePath>", ...]
-  }
-}
-`,
-                                        null,
-                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/input/setFiles
-[syntax] JSON Parse error: Unexpected token '.'
-~~~
-{
-  "method": "input.setFiles",
-  "params": {
-    "context": "<contextId>",
-    "element": "<elementId>",
-    "files": ["<filePath>", ...]
-  }
-}
-~~~
-`
-                                      ]
-                                    },
-                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-command"
@@ -82914,6 +82950,92 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
+  "method": "session.new",
+  "params": {
+    "capabilities": {}
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "session.new",
+  "params": {
+    "capabilities": {
+      "alwaysMatch": {
+        "acceptInsecureCerts": true,
+        "proxy": {
+          "proxyType": "manual",
+          "httpProxy": "127.0.0.1:80"
+        },
+        "unhandledPromptBehavior": {
+          "default": "accept"
+        }
+      },
+      "firstMatch": [
+        {
+          "browserName": "firefox",
+          "platformName": "mac"
+        },
+        {
+          "browserName": "chrome",
+          "platformName": "windows"
+        }
+      ]
+    }
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/new
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* With required parameters */
+{
+  "method": "session.new",
+  "params": {
+    "capabilities": {}
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "session.new",
+  "params": {
+    "capabilities": {
+      "alwaysMatch": {
+        "acceptInsecureCerts": true,
+        "proxy": {
+          "proxyType": "manual",
+          "httpProxy": "127.0.0.1:80"
+        },
+        "unhandledPromptBehavior": {
+          "default": "accept"
+        }
+      },
+      "firstMatch": [
+        {
+          "browserName": "firefox",
+          "platformName": "mac"
+        },
+        {
+          "browserName": "chrome",
+          "platformName": "windows"
+        }
+      ]
+    }
+  }
+}
+~~~
+`
+                                      ]
+                                    },
+                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-command"
@@ -82944,6 +83066,52 @@ svg.elements.feSpotLight.z`
                                       ]
                                     },
                                     {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* With required parameters */
+{
+  "method": "session.subscribe",
+  "params": {
+    "events": ["log.entryAdded"]
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "session.subscribe",
+  "params": {
+    "events": ["log.entryAdded"],
+    "contexts": ["93ee5bd6-d256-4608-a002-9a8995cc0e5f"]
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/subscribe
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* With required parameters */
+{
+  "method": "session.subscribe",
+  "params": {
+    "events": ["log.entryAdded"]
+  }
+}
+
+/* With required and optional parameters */
+{
+  "method": "session.subscribe",
+  "params": {
+    "events": ["log.entryAdded"],
+    "contexts": ["93ee5bd6-d256-4608-a002-9a8995cc0e5f"]
+  }
+}
+~~~
+`
+                                      ]
+                                    },
+                                    {
                                       message: "Unexpected page type",
                                       data: [
                                         "webdriver-command"
@@ -82959,6 +83127,50 @@ svg.elements.feSpotLight.z`
                                       message: "Code with space",
                                       data: [
                                         "invalid argument"
+                                      ]
+                                    },
+                                    {
+                                      message: "JSON code issue",
+                                      data: [
+                                        "syntax",
+                                        "JSON Parse error: Unrecognized token '/'",
+                                        `/* Using event name */
+{
+  "method": "session.unsubscribe",
+  "params": {
+    "events": ["log.entryAdded"]
+  }
+}
+
+/* Using subscription ID */
+{
+  "method": "session.unsubscribe",
+  "params": {
+    "subscriptions": ["a1b2c3d4-e5f6-7890-abcd-ef1234567890"]
+  }
+}
+`,
+                                        null,
+                                        `/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/session/unsubscribe
+[syntax] JSON Parse error: Unrecognized token '/'
+~~~
+/* Using event name */
+{
+  "method": "session.unsubscribe",
+  "params": {
+    "events": ["log.entryAdded"]
+  }
+}
+
+/* Using subscription ID */
+{
+  "method": "session.unsubscribe",
+  "params": {
+    "subscriptions": ["a1b2c3d4-e5f6-7890-abcd-ef1234567890"]
+  }
+}
+~~~
+`
                                       ]
                                     },
                                     {
