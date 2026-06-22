@@ -5863,7 +5863,7 @@ var nodes_default = [
       },
       flaws: {},
       links: [
-        "https://www.rfc-editor.org/rfc/rfc9110.html#name-language-tags",
+        "https://www.rfc-editor.org/info/rfc9110/#name-language-tags",
         "https://github.com/CLD2Owners/cld2",
         "https://github.com/mdn/webextensions-examples/tree/main/menu-accesskey-visible",
         "https://github.com/mdn/webextensions-examples/tree/main/menu-demo",
@@ -11359,8 +11359,8 @@ If you only need to listen for changes in one storage area, use storage.StorageA
       flaws: {},
       links: [
         "https://support.mozilla.org/en-US/kb/connection-settings-firefox",
-        "https://www.rfc-editor.org/rfc/rfc9298.html",
-        "https://www.rfc-editor.org/rfc/rfc9298.html#name-client-configuration"
+        "https://www.rfc-editor.org/info/rfc9298/",
+        "https://www.rfc-editor.org/info/rfc9298/#name-client-configuration"
       ],
       imgs: [],
       ids: [
@@ -46331,7 +46331,7 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
         "https://datatracker.ietf.org/doc/html/rfc7233#section-5.4.1",
         "https://www.iana.org/assignments/media-types/media-types.xhtml#multipart",
         "https://www.iana.org/assignments/media-types/media-types.xhtml#text",
-        "https://www.rfc-editor.org/rfc/rfc9239.html",
+        "https://www.rfc-editor.org/info/rfc9239/",
         "https://html.spec.whatwg.org/multipage/scripting.html#scriptingLanguages:text/javascript",
         "https://mimesniff.spec.whatwg.org/",
         "https://github.com/h5bp/server-configs-apache/blob/main/h5bp/web_performance/compression.conf"
@@ -46393,7 +46393,7 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
         "https://www.iana.org/assignments/media-types/media-types.xhtml",
         "https://en.wikipedia.org/wiki/AbiWord",
         "https://html.spec.whatwg.org/multipage/#scriptingLanguages",
-        "https://www.rfc-editor.org/rfc/rfc9239",
+        "https://www.rfc-editor.org/info/rfc9239/",
         "https://www.adobe.com/acrobat/about-adobe-pdf.html",
         "https://datatracker.ietf.org/doc/html/rfc7303#section-4.1",
         "https://en.wikipedia.org/wiki/3GP_and_3G2",
@@ -46506,16 +46506,16 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc6455",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc6455/",
+          title: "The WebSocket Protocol"
         },
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7230",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc7230/",
+          title: "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing"
         },
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7540",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc7540/",
+          title: "Hypertext Transfer Protocol Version 2 (HTTP/2)"
         }
       ],
       links: [
@@ -46581,14 +46581,14 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9842",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9842/",
+          title: "Compression Dictionary Transport"
         }
       ],
       links: [
         "https://github.com/WICG/compression-dictionary-transport/blob/main/examples.md",
         "https://github.com/google/brotli/blob/master/research/dictionary_generator.cc",
-        "https://www.rfc-editor.org/rfc/rfc9842",
+        "https://www.rfc-editor.org/info/rfc9842/",
         "https://use-as-dictionary.com/"
       ],
       imgs: [],
@@ -46664,8 +46664,8 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.502",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.502",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -46699,7 +46699,7 @@ MIME types are defined and standardized in IETF's RFC 6838.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc6585#section-3",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc6585/#section-3",
           title: "RFC 6585"
         }
       ],
@@ -46879,7 +46879,7 @@ It is used in the context of HTTP delta encodings.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3229.html#section-10.4.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3229/#section-10.4.1",
           title: "Unknown specification"
         }
       ],
@@ -46916,7 +46916,7 @@ It is used in the context of HTTP delta encodings.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc5842#section-7.2",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc5842/#section-7.2",
           title: "RFC 5842"
         }
       ],
@@ -46952,7 +46952,7 @@ This mechanism of asking the client to slow down the rate of requests is commonl
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc6585#section-4",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc6585/#section-4",
           title: "RFC 6585"
         }
       ],
@@ -46990,8 +46990,8 @@ The client should continue with a request or discard the 100 response if the req
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.100",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.100",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47025,7 +47025,7 @@ The client should continue with a request or discard the 100 response if the req
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc4918#section-11.4",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc4918/#section-11.4",
           title: "RFC 4918"
         }
       ],
@@ -47098,8 +47098,8 @@ This can be sent by a server that is not configured to produce responses for the
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#name-421-misdirected-request",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#name-421-misdirected-request",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -47138,8 +47138,8 @@ The request failure is tied to application logic, such as insufficient permissio
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.403",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.403",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -47175,8 +47175,8 @@ The request failure is tied to application logic, such as insufficient permissio
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.302",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.302",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -47250,7 +47250,7 @@ This status is not generated by origin servers, but by intercepting proxies that
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc6585#section-6",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc6585/#section-6",
           title: "RFC 6585"
         }
       ],
@@ -47322,8 +47322,8 @@ The response body contains the requested ranges of data as specified in the Rang
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.206",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.206",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47398,8 +47398,8 @@ A 200 OK response is cacheable by default.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.200",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.200",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47506,14 +47506,14 @@ This status code is only sent if the server expects the request to take signific
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc2518.html#section-10.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc2518/#section-10.1",
           title: "Unknown specification"
         }
       ],
       links: [
         "https://datatracker.ietf.org/doc/html/rfc2518",
         "https://datatracker.ietf.org/doc/html/rfc4918",
-        "https://www.rfc-editor.org/rfc/rfc4918#section-21.4"
+        "https://www.rfc-editor.org/info/rfc4918/#section-21.4"
       ],
       imgs: [],
       ids: [
@@ -47579,8 +47579,8 @@ This status code is only sent if the server expects the request to take signific
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.407",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.407",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47668,7 +47668,7 @@ Preloaded resources indicated by early hints are fetched by the client as soon a
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc8297#section-3",
+        "https://www.rfc-editor.org/info/rfc8297/#section-3",
         "https://blog.cloudflare.com/early-hints-performance/"
       ],
       imgs: [],
@@ -47705,7 +47705,7 @@ Its response body should contain information in WebDAV's XML format.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc4918#section-11.3",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc4918/#section-11.3",
           title: "RFC 4918"
         }
       ],
@@ -47740,7 +47740,7 @@ Its response body should contain information in WebDAV's XML format.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc2295#section-8.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc2295/#section-8.1",
           title: "RFC 2295"
         }
       ],
@@ -47781,8 +47781,8 @@ The most likely reason for this response is that the document doesn't contain su
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.416",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.416",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47816,8 +47816,8 @@ The most likely reason for this response is that the document doesn't contain su
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.406",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.406",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47852,8 +47852,8 @@ A 204 response is cacheable by default, and an ETag header is included in such c
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.204",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.204",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47889,8 +47889,8 @@ This status code is commonly sent as the result of a POST request.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.201",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.201",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -47925,8 +47925,8 @@ A 410 response is cacheable by default.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.410",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.410",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -47963,7 +47963,7 @@ This response is used exclusively in the context of Web Distributed Authoring an
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc4918#section-11.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc4918/#section-11.1",
           title: "RFC 4918"
         }
       ],
@@ -47999,8 +47999,8 @@ This is similar to a 502 Bad Gateway, except that in a 504 status, the proxy or 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.504",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.504",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48034,8 +48034,8 @@ This is similar to a 502 Bad Gateway, except that in a 504 status, the proxy or 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.501",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.501",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -48073,7 +48073,7 @@ The request may be resubmitted after reducing the size of the request headers.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc6585#section-5",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc6585/#section-5",
           title: "RFC 6585"
         }
       ],
@@ -48223,8 +48223,8 @@ The reason for a 400 response is typically due to malformed request syntax, inva
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.307",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.307",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48293,7 +48293,7 @@ The reason for a 400 response is typically due to malformed request syntax, inva
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc2774#section-7",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc2774/#section-7",
           title: "RFC 2774"
         }
       ],
@@ -48330,8 +48330,8 @@ The reason for a 400 response is typically due to malformed request syntax, inva
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.301",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.301",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -48476,8 +48476,8 @@ The server might close the connection or return a Retry-After header field.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.304",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.304",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -48515,7 +48515,7 @@ The server might close the connection or return a Retry-After header field.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc4918#section-11.5",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc4918/#section-11.5",
           title: "RFC 4918"
         }
       ],
@@ -48551,8 +48551,8 @@ This response is used exclusively in the context of Web Distributed Authoring an
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc5842.html#section-7.1",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc5842/#section-7.1",
+          title: "RFC 5842"
         }
       ],
       links: [],
@@ -48588,8 +48588,8 @@ In that case, the request (usually an upload or a modification of a resource) ca
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.412",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.412",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48625,8 +48625,8 @@ This error is a generic "catch-all" response to server issues, indicating that t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.500",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.500",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48660,8 +48660,8 @@ This error is a generic "catch-all" response to server issues, indicating that t
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.503",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.503",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48696,8 +48696,8 @@ Links that lead to a 404 page are often called broken or dead links and can be s
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.404",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.404",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -48737,8 +48737,8 @@ This status code is sent with an HTTP WWW-Authenticate response header that cont
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.401",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.401",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48809,8 +48809,8 @@ This status code is sent with an HTTP WWW-Authenticate response header that cont
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.409",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.409",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -48880,8 +48880,8 @@ The actual processing of the request is not guaranteed; a task or action may fai
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.303",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.303",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -48956,17 +48956,17 @@ This error is a reference to Hyper Text Coffee Pot Control Protocol defined in A
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc2324#section-2.3.2",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc2324/#section-2.3.2",
           title: "RFC 2324"
         },
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#name-418-unused",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#name-418-unused",
+          title: "HTTP Semantics"
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc2324",
-        "https://www.rfc-editor.org/rfc/rfc9110",
+        "https://www.rfc-editor.org/info/rfc2324/",
+        "https://www.rfc-editor.org/info/rfc9110/",
         "https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol"
       ],
       imgs: [],
@@ -48997,8 +48997,8 @@ This error is a reference to Hyper Text Coffee Pot Control Protocol defined in A
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#status.205",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#status.205",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -49079,11 +49079,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -49091,19 +49087,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         }
       ],
@@ -49146,8 +49146,8 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#TRACE",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#TRACE",
+          title: "HTTP Semantics"
         }
       ],
       links: [
@@ -49228,7 +49228,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc5789",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc5789/",
           title: "RFC 5789"
         }
       ],
@@ -49268,8 +49268,8 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#PUT",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#PUT",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -49400,8 +49400,8 @@ A client can specify a URL with this method, or an asterisk (*) to refer to the 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110.html#name-delete",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#name-delete",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -51498,7 +51498,7 @@ These rules dictate whether the same URL with different URL parameters should be
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc8941"
+        "https://www.rfc-editor.org/info/rfc8941/"
       ],
       imgs: [],
       ids: [
@@ -54028,8 +54028,8 @@ video input devices.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7240#section-2",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc7240/#section-2",
+          title: "Prefer Header for HTTP"
         }
       ],
       links: [
@@ -54469,7 +54469,7 @@ More than one Warning header may appear in a response.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc9111#field.warning",
+        "https://www.rfc-editor.org/info/rfc9111/#field.warning",
         "https://www.iana.org/assignments/http-warn-codes/http-warn-codes.xhtml"
       ],
       imgs: [],
@@ -55108,7 +55108,7 @@ Aside from the HTTP header, you can set this policy in HTML.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc8446#appendix-E.5"
+        "https://www.rfc-editor.org/info/rfc8446/#appendix-E.5"
       ],
       imgs: [],
       ids: [
@@ -55830,8 +55830,8 @@ For example, if a user agent needs to request resources included in a page, or f
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc7240#section-3",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc7240/#section-3",
+          title: "Prefer Header for HTTP"
         }
       ],
       links: [
@@ -56134,7 +56134,7 @@ One benefit of using the Link header is that the browser can start preconnecting
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc7230.html#section-3.2.6",
+        "https://www.rfc-editor.org/info/rfc7230/#section-3.2.6",
         "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
         "https://web.dev/articles/fetch-priority?hl=en#browser_priority_and_fetchpriority"
       ],
@@ -56582,7 +56582,7 @@ A user indicates their preference through an operating system setting (for examp
       ],
       links: [
         "https://datatracker.ietf.org/doc/html/rfc5987#section-3.2",
-        "https://www.rfc-editor.org/rfc/rfc2183#section-2.3"
+        "https://www.rfc-editor.org/info/rfc2183/#section-2.3"
       ],
       imgs: [],
       ids: [
@@ -57897,7 +57897,7 @@ For example, a server receiving a PATCH request with an unsupported media type c
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc5789#section-3.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc5789/#section-3.1",
           title: "RFC 5789"
         }
       ],
@@ -59125,8 +59125,8 @@ For example: "Windows" or "Android".`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc9110#field.expect",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc9110/#field.expect",
+          title: "HTTP Semantics"
         }
       ],
       links: [],
@@ -60230,7 +60230,7 @@ It can be used validate the integrity of the whole selected representation once 
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc8941#name-byte-sequences",
+        "https://www.rfc-editor.org/info/rfc8941/#name-byte-sequences",
         "https://developer.ebay.com/develop/guides/digital-signatures-for-apis"
       ],
       imgs: [],
@@ -60760,7 +60760,7 @@ A recipient can use the Content-Digest to validate the HTTP message content for 
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc8941#name-byte-sequences",
+        "https://www.rfc-editor.org/info/rfc8941/#name-byte-sequences",
         "https://developer.ebay.com/develop/guides/digital-signatures-for-apis"
       ],
       imgs: [],
@@ -67721,7 +67721,7 @@ contains a list of IDs of <th> elements that are headers for this specific cell.
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc4572#section-5"
+        "https://www.rfc-editor.org/info/rfc4572/#section-5"
       ],
       imgs: [],
       ids: [
@@ -85431,11 +85431,11 @@ already CLOSED, this method does nothing.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-1.4",
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.1.5",
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.4.1",
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.1.6",
-        "https://www.rfc-editor.org/rfc/rfc6455.html"
+        "https://www.rfc-editor.org/info/rfc6455/#section-1.4",
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.1.5",
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.4.1",
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.1.6",
+        "https://www.rfc-editor.org/info/rfc6455/"
       ],
       imgs: [],
       ids: [
@@ -85536,7 +85536,7 @@ already CLOSED, this method does nothing.`,
       ],
       links: [
         "https://www.iana.org/assignments/websocket/websocket.xml#subprotocol-name",
-        "https://www.rfc-editor.org/rfc/rfc6455.html"
+        "https://www.rfc-editor.org/info/rfc6455/"
       ],
       imgs: [],
       ids: [
@@ -114351,7 +114351,7 @@ containing all MessagePort objects sent with the message, in order.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc4572#section-5"
+        "https://www.rfc-editor.org/info/rfc4572/#section-5"
       ],
       imgs: [],
       ids: [
@@ -127463,7 +127463,7 @@ The higher the value, the more bandwidth you can assume is available for incomin
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7",
+        "https://www.rfc-editor.org/info/rfc5280/#section-4.1.2.7",
         "https://www.iana.org/assignments/cose/cose.xhtml#algorithms"
       ],
       imgs: [],
@@ -127553,8 +127553,8 @@ The higher the value, the more bandwidth you can assume is available for incomin
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7",
-        "https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7"
+        "https://www.rfc-editor.org/info/rfc5280/#section-4.1.2.7",
+        "https://www.rfc-editor.org/info/rfc5280/#section-4.1.2.7"
       ],
       imgs: [],
       ids: [
@@ -149425,8 +149425,8 @@ NodeList of the <label> elements associated with the
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.1.6",
-        "https://www.rfc-editor.org/rfc/rfc6455.html"
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.1.6",
+        "https://www.rfc-editor.org/info/rfc6455/"
       ],
       imgs: [],
       ids: [
@@ -149503,13 +149503,13 @@ NodeList of the <label> elements associated with the
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.1.5",
-        "https://www.rfc-editor.org/rfc/rfc6455.html#section-7.1.5",
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.1.5",
+        "https://www.rfc-editor.org/info/rfc6455/#section-7.1.5",
         "https://mailarchive.ietf.org/arch/msg/hybi/P_1vbD9uyHl63nbIIbFxKMfSwcM/",
         "https://mailarchive.ietf.org/arch/msg/hybi/P_1vbD9uyHl63nbIIbFxKMfSwcM/",
         "https://mailarchive.ietf.org/arch/msg/hybi/VOLI2xp4tzFnIFYespe6oOtpFXA/",
         "https://www.iana.org/assignments/websocket/websocket.xml#close-code-number",
-        "https://www.rfc-editor.org/rfc/rfc6455.html",
+        "https://www.rfc-editor.org/info/rfc6455/",
         "https://www.iana.org/assignments/websocket/websocket.xml#close-code-number"
       ],
       imgs: [],
@@ -158718,9 +158718,9 @@ which is being handled by the RTCRtpSender.`,
       links: [
         "https://en.wikipedia.org/wiki/DBFS",
         "https://en.wikipedia.org/wiki/Sound_pressure#Sound_pressure_level",
-        "https://www.rfc-editor.org/rfc/rfc6464",
+        "https://www.rfc-editor.org/info/rfc6464/",
         "https://datatracker.ietf.org/doc/html/rfc3550",
-        "https://www.rfc-editor.org/rfc/rfc3551#section-6",
+        "https://www.rfc-editor.org/info/rfc3551/#section-6",
         "https://datatracker.ietf.org/doc/html/rfc3551",
         "https://datatracker.ietf.org/doc/html/rfc3550",
         "https://en.wikipedia.org/wiki/Serial_number_arithmetic"
@@ -163317,7 +163317,7 @@ access to the GET decoded query arguments contained in the URL.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc3986#section-1.2.3",
+        "https://www.rfc-editor.org/info/rfc3986/#section-1.2.3",
         "https://url.spec.whatwg.org/#special-scheme"
       ],
       imgs: [],
@@ -163448,7 +163448,7 @@ a string containing the whole URL.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc3986#section-1.2.3"
+        "https://www.rfc-editor.org/info/rfc3986/#section-1.2.3"
       ],
       imgs: [],
       ids: [
@@ -163491,7 +163491,7 @@ a string containing the whole URL.`,
       ],
       links: [
         "https://en.wikipedia.org/wiki/Internationalized_domain_name",
-        "https://www.rfc-editor.org/rfc/rfc3986#section-1.2.3",
+        "https://www.rfc-editor.org/info/rfc3986/#section-1.2.3",
         "https://url.spec.whatwg.org/#special-scheme"
       ],
       imgs: [],
@@ -163658,7 +163658,7 @@ URL.toString().`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc3986#section-1.2.3",
+        "https://www.rfc-editor.org/info/rfc3986/#section-1.2.3",
         "https://url.spec.whatwg.org/#special-scheme"
       ],
       imgs: [],
@@ -272362,7 +272362,7 @@ This enables use cases such as end-to-end encryption of encoded frames by third-
       flaws: {},
       links: [
         "https://datatracker.ietf.org/doc/html/rfc8260",
-        "https://www.rfc-editor.org/rfc/rfc8841.html"
+        "https://www.rfc-editor.org/info/rfc8841/"
       ],
       imgs: [],
       ids: [
@@ -282553,10 +282553,10 @@ a value of 0 for this attribute.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc7932",
-        "https://www.rfc-editor.org/rfc/rfc1952",
-        "https://www.rfc-editor.org/rfc/rfc1950",
-        "https://www.rfc-editor.org/rfc/rfc1951",
+        "https://www.rfc-editor.org/info/rfc7932/",
+        "https://www.rfc-editor.org/info/rfc1952/",
+        "https://www.rfc-editor.org/info/rfc1950/",
+        "https://www.rfc-editor.org/info/rfc1951/",
         "https://datatracker.ietf.org/doc/html/rfc8478"
       ],
       imgs: [],
@@ -286109,6 +286109,7 @@ with the request.`,
         "request.headers",
         "request.integrity",
         "request.ishistorynavigation",
+        "request.isreloadnavigation",
         "request.keepalive",
         "request.method",
         "request.mode",
@@ -286624,6 +286625,45 @@ The response is always decoded using UTF-8.`,
         "exceptions",
         "typeerror",
         "examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Request/isReloadNavigation",
+    links: {},
+    data: {
+      metadata: {
+        title: "Request: isReloadNavigation property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.Request.isReloadNavigation"
+        ],
+        summary: "The isReloadNavigation read-only property of the Request interface is a boolean indicating whether the request is a user-triggered reload.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/request/isreloadnavigation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "isReloadNavigation",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://fetch.spec.whatwg.org/#dom-request-isreloadnavigation",
+          title: "Fetch"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -296901,7 +296941,7 @@ as a string:`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc3551#section-6"
+        "https://www.rfc-editor.org/info/rfc3551/#section-6"
       ],
       imgs: [],
       ids: [
@@ -319433,10 +319473,10 @@ with the associated stream to error.`,
         }
       ],
       links: [
-        "https://www.rfc-editor.org/rfc/rfc7932",
-        "https://www.rfc-editor.org/rfc/rfc1952",
-        "https://www.rfc-editor.org/rfc/rfc1950",
-        "https://www.rfc-editor.org/rfc/rfc1951",
+        "https://www.rfc-editor.org/info/rfc7932/",
+        "https://www.rfc-editor.org/info/rfc1952/",
+        "https://www.rfc-editor.org/info/rfc1950/",
+        "https://www.rfc-editor.org/info/rfc1951/",
         "https://datatracker.ietf.org/doc/html/rfc8478"
       ],
       imgs: [],
@@ -337077,7 +337117,7 @@ the form when the event was fired.`,
       ],
       links: [
         "https://w3c.github.io/webcodecs/codec_registry.html#audio-codec-registry",
-        "https://www.rfc-editor.org/rfc/rfc6716#section-2.1.5"
+        "https://www.rfc-editor.org/info/rfc6716/#section-2.1.5"
       ],
       imgs: [],
       ids: [
@@ -412640,7 +412680,7 @@ The most common type of URI is a Uniform Resource Locator (URL), which is known 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986.html",
           title: "Unknown specification"
         }
       ],
@@ -412776,7 +412816,7 @@ It contains data, usually organized in hierarchical form, to identify a resource
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html#section-3.3",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986/#section-3.3",
           title: "Unknown specification"
         }
       ],
@@ -412885,7 +412925,7 @@ It contains data, usually organized in hierarchical form, to identify a resource
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html#section-3.5",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986/#section-3.5",
           title: "Unknown specification"
         }
       ],
@@ -412986,7 +413026,7 @@ The scheme may affect how the rest of the URI is structured and interpreted.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html#section-3.1",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986/#section-3.1",
           title: "Unknown specification"
         }
       ],
@@ -413278,7 +413318,7 @@ URNs provide globally-unique names for resources as opposed to providing informa
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html#section-3.2",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986/#section-3.2",
           title: "Unknown specification"
         }
       ],
@@ -413326,7 +413366,7 @@ It contains non-hierarchical data to identify a resource within the scope of the
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://www.rfc-editor.org/rfc/rfc3986.html#section-3.4",
+          bcdSpecificationURL: "https://www.rfc-editor.org/info/rfc3986/#section-3.4",
           title: "Unknown specification"
         }
       ],
@@ -415654,19 +415694,15 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -415682,19 +415718,7 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -415702,7 +415726,23 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -456953,7 +456993,7 @@ pair in this map, in insertion order.`,
         "https://github.com/unicode-org/cldr/blob/main/common/bcp47/timezone.xml",
         "https://datatracker.ietf.org/doc/html/rfc9557",
         "https://datatracker.ietf.org/doc/html/rfc3339",
-        "https://www.rfc-editor.org/rfc/rfc9557.html#name-update-to-rfc-3339"
+        "https://www.rfc-editor.org/info/rfc9557/#name-update-to-rfc-3339"
       ],
       imgs: [],
       ids: [
@@ -471468,39 +471508,19 @@ Boolean object.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -471508,27 +471528,27 @@ Boolean object.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -471540,39 +471560,35 @@ Boolean object.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -471584,87 +471600,15 @@ Boolean object.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -471672,7 +471616,51 @@ Boolean object.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -471680,19 +471668,71 @@ Boolean object.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -510264,31 +510304,15 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -510300,11 +510324,27 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -566410,7 +566450,7 @@ This page describes how users can install such math fonts to properly display Ma
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -566418,11 +566458,15 @@ This page describes how users can install such math fonts to properly display Ma
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -566430,11 +566474,7 @@ This page describes how users can install such math fonts to properly display Ma
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         }
       ],
@@ -571257,7 +571297,7 @@ This page lists web platform features available only after user activation.`,
         "https://en.wikipedia.org/wiki/Signalling_System_No._7",
         "https://en.wikipedia.org/wiki/SIM_swap_scam",
         "https://wicg.github.io/sms-one-time-codes/",
-        "https://www.rfc-editor.org/rfc/rfc6238",
+        "https://www.rfc-editor.org/info/rfc6238/",
         "https://datatracker.ietf.org/doc/html/rfc6238",
         "https://datatracker.ietf.org/doc/html/rfc4226",
         "https://pyauth.github.io/pyotp/",
@@ -571506,9 +571546,9 @@ This page lists web platform features available only after user activation.`,
         "https://datatracker.ietf.org/doc/html/rfc6749",
         "https://openid.net/specs/openid-connect-core-1_0.html",
         "https://www.jwt.io/",
-        "https://www.rfc-editor.org/rfc/rfc9700.html",
+        "https://www.rfc-editor.org/info/rfc9700/",
         "https://datatracker.ietf.org/doc/html/rfc6749#section-2.1",
-        "https://www.rfc-editor.org/rfc/rfc9700.html#name-client-authentication",
+        "https://www.rfc-editor.org/info/rfc9700/#name-client-authentication",
         "https://datatracker.ietf.org/doc/html/rfc7636",
         "https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics#name-nonce",
         "https://datatracker.ietf.org/doc/html/rfc9700#name-pkce-downgrade-attack",
@@ -576900,8 +576940,16 @@ This article describes how to improve page load times based on common knowledge 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -576912,67 +576960,7 @@ This article describes how to improve page load times based on common knowledge 
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
@@ -576980,11 +576968,23 @@ This article describes how to improve page load times based on common knowledge 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
         },
         {
@@ -576996,11 +576996,39 @@ This article describes how to improve page load times based on common knowledge 
           title: "CSS Style Attributes"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
@@ -577008,15 +577036,19 @@ This article describes how to improve page load times based on common knowledge 
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
@@ -577024,11 +577056,19 @@ This article describes how to improve page load times based on common knowledge 
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         }
       ],
@@ -581056,7 +581096,7 @@ When used, the element's text directionality value is included in form submissio
       links: [
         "https://support.apple.com/en-us/102602",
         "https://www.mozilla.org/en-US/products/vpn/",
-        "https://www.rfc-editor.org/rfc/rfc8941",
+        "https://www.rfc-editor.org/info/rfc8941/",
         "https://developer.chrome.com/docs/web-platform/prerender-pages"
       ],
       imgs: [],
@@ -594079,7 +594119,7 @@ This was referred to as a "payload" in HTTP/1.1, but message "content" distingui
       },
       flaws: {},
       links: [
-        "https://www.rfc-editor.org/rfc/rfc4122",
+        "https://www.rfc-editor.org/info/rfc4122/",
         "https://en.wikipedia.org/wiki/UUID"
       ],
       imgs: [],
@@ -595362,7 +595402,7 @@ Once active, the state lasts for the duration of the session.`,
       },
       flaws: {},
       links: [
-        "https://www.rfc-editor.org/rfc/rfc7301",
+        "https://www.rfc-editor.org/info/rfc7301/",
         "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml#alpn-protocol-ids"
       ],
       imgs: [],
