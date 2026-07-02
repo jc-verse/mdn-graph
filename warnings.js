@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-p22hcc2s.js";
+} from "./chunk-kfzm4tf6.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -13,20 +13,6 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Introduction",
               messages: [
                 {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
                   message: "HTTP link",
                   data: [
                     "http://asmjs.org/spec/latest/",
@@ -35,93 +21,10 @@ var warnings_processed_default = {
                 }
               ]
             },
-            publishing_games: {
-              children: {
-                game_promotion: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dopresskit.com/",
-                        415
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.metanetsoftware.com/technique/tutorialA.html",
-                        415
-                      ]
-                    }
-                  ]
-                },
                 "3d_on_the_web": {
                   children: {
-                    "building_up_a_basic_demo_with_a-frame": {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/donmccurdy/aframe-gamepad-controls",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    building_up_a_basic_demo_with_playcanvas: {
-                      children: {
-                        engine: {
-                          children: {},
-                          slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/kripken/ammo.js/",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/kripken/ammo.js/",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    "building_up_a_basic_demo_with_three.js": {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mrdoob/three.js/archive/master.zip",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     glsl_shaders: {
                       children: {},
                       slug: "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
@@ -137,19 +40,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 control_mechanisms: {
                   children: {
                     desktop_with_mouse_and_keyboard: {
@@ -160,14 +50,14 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Keyboard.html",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.KeyCode.html",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -180,32 +70,19 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Touch.html",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
                     }
                   }
-                },
-                tilemaps: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Tilemaps",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mozdevs/gamedev-js-tiles/blob/gh-pages/square/no-scroll.js",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -228,54 +105,12 @@ var warnings_processed_default = {
                         "http://asmjs.org/",
                         ""
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/emscripten-core/emscripten",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/emscripten-core/emscripten",
-                        "429 Retry-After: 300"
-                      ]
                     }
                   ]
                 }
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki/Tutorial",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/emscripten-core/emscripten/wiki",
-                    "429 Retry-After: 300"
-                  ]
-                },
                 {
                   message: "HTTP link",
                   data: [
@@ -303,46 +138,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                "2d_breakout_game_pure_javascript": {
-                  children: {
-                    build_the_brick_field: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Build_the_brick_field",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/end3r/Gamedev-Canvas-workshop/blob/gh-pages/lesson06.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    paddle_and_keyboard_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/end3r/Gamedev-Canvas-workshop/blob/gh-pages/lesson04.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/end3r/Gamedev-Canvas-workshop",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
                 },
                 html5_gamedev_phaser_device_orientation: {
                   children: {},
@@ -449,27 +244,6 @@ var warnings_processed_default = {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/phaserjs/phaser",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/EnclaveGames/Cyber-Orb",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/EnclaveGames/Cyber-Orb",
-                        "429 Retry-After: 300"
-                      ]
                     }
                   ]
                 }
@@ -488,36 +262,6 @@ var warnings_processed_default = {
                   data: []
                 }
               ]
-            },
-            algorithm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Algorithm",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.bigocheatsheet.com/",
-                    415
-                  ]
-                }
-              ]
-            },
-            baseline: {
-              children: {
-                compatibility: {
-                  children: {},
-                  slug: "/en-US/docs/Glossary/Baseline/Compatibility",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/web-platform-dx/web-features",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                }
-              }
             },
             blink_element: {
               children: {},
@@ -639,19 +383,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            debounce: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Debounce",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://css-tricks.com/debouncing-throttling-explained-examples/",
-                    415
-                  ]
                 }
               ]
             },
@@ -1165,26 +896,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gzip_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/gzip_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.zlib.net/feldspar.html",
-                    415
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gzip.org/",
-                    415
-                  ]
-                }
-              ]
-            },
             hash_routing: {
               children: {},
               slug: "/en-US/docs/Glossary/Hash_routing",
@@ -1275,19 +986,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            jitter: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Jitter",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
-                    415
-                  ]
                 }
               ]
             },
@@ -1571,19 +1269,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            rest: {
-              children: {},
-              slug: "/en-US/docs/Glossary/REST",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html",
-                    415
-                  ]
-                }
-              ]
-            },
             ril: {
               children: {},
               slug: "/en-US/docs/Glossary/RIL",
@@ -1780,32 +1465,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            throttle: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Throttle",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://css-tricks.com/debouncing-throttling-explained-examples/",
-                    415
-                  ]
-                }
-              ]
-            },
-            time_to_interactive: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Time_to_interactive",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/WICG/time-to-interactive",
-                    "429 Retry-After: 300"
-                  ]
-                }
-              ]
-            },
             tofu: {
               children: {},
               slug: "/en-US/docs/Glossary/TOFU",
@@ -1898,26 +1557,6 @@ var warnings_processed_default = {
                   data: []
                 }
               ]
-            },
-            zstandard_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Zstandard_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/Cyan4973/FiniteStateEntropy",
-                    "429 Retry-After: 300"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/facebook/zstd",
-                    "429 Retry-After: 300"
-                  ]
-                }
-              ]
             }
           }
         },
@@ -1927,13 +1566,6 @@ var warnings_processed_default = {
               children: {},
               slug: "/en-US/docs/Learn_web_development/About",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "429 Retry-After: 300"
-                  ]
-                },
                 {
                   message: "Broken external link",
                   data: [
@@ -1947,72 +1579,6 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
-                    css_and_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/accessibility/css/form-css.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/accessibility/css/table-css.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/accessibility/native-keyboard-accessibility.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/accessibility/fake-div-buttons.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    mobile: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Mobile",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/accessibility/mobile/simple-button-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    multimedia: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/accessibility/multimedia/custom-controls.css",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         "wai-aria": {
@@ -2161,26 +1727,6 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/accessibility/css/validation.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/accessibility/fake-div-buttons.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     what_is_accessibility: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
@@ -2205,45 +1751,6 @@ var warnings_processed_default = {
                 },
                 css_layout: {
                   children: {
-                    flexbox: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    floats: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Floats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/snippets/css/drop-caps/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    grids: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Grids",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/complete-guide-css-grid-layout/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
                     introduction: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction",
@@ -2285,24 +1792,10 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/fluid-grid-calc.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://getskeleton.com/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/grids/html-skeleton.html",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -2615,60 +2108,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/positioning/3_absolute-positioning.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/positioning/4_positioning-context.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/positioning/6_fixed-positioning.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/positioning/7_sticky-positioning.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    practical_positioning_examples: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Practical_positioning_examples",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/css-layout/practical-positioning-examples/tabs-manual.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    responsive_design: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/a-complete-guide-to-css-media-queries/",
-                            415
                           ]
                         }
                       ]
@@ -3339,10 +2778,10 @@ ul li {
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://github.com/ef4/prember",
-                            "429 Retry-After: 300"
+                            "https://www.notion.so/Editors-Tooling-5da96f0b2baf4ce1bf3fd58e3b60c7f6",
+                            "https://app.notion.com/p/Editors-Tooling-5da96f0b2baf4ce1bf3fd58e3b60c7f6?__dm_a=1"
                           ]
                         }
                       ]
@@ -3368,8 +2807,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/pzuraq/ember-box",
-                            "429 Retry-After: 300"
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3391,26 +2830,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v2.vuejs.org/v2/guide/comparison.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/ember-fastboot/ember-cli-fastboot",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -4364,20 +3783,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/integrations",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/rollup/awesome",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -5363,13 +4768,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/svelte/issues/820",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -5380,48 +4778,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/svelte.dev/issues/853",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/template/blob/master/scripts/setupTypeScript.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/language-tools/blob/master/docs/preprocessors/typescript.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/language-tools/blob/master/docs/preprocessors/typescript.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/language-tools/blob/master/docs/preprocessors/typescript.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -5462,13 +4818,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/todo-vue",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -5479,20 +4828,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/vuejs/core/blob/main/CHANGELOG.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/vuejs/create-vue/releases/tag/v3.10.3",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -5537,8 +4872,8 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/vuejs/core/discussions",
-                            "429 Retry-After: 300"
+                            "https://cli.vuejs.org/guide/deployment.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5553,119 +4888,10 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/todo-vue",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 scripting: {
                   children: {
-                    a_first_splash: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    build_your_own_function: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-start.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    conditionals: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Conditionals",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/allowance-updater.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/simple-switch.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/simple-ternary.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/tools-testing/cross-browser-testing/javascript/fetch-fixed",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    dom_scripting: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/document-manipulation/dom-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/document-manipulation/dom-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    events: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Events",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/events/random-color-eventobject.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     functions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Functions",
@@ -5760,92 +4986,6 @@ for (let i = 0; i <= 1; i++) {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/random-canvas-circles.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    json: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/JSON",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/json/heroes-finished-json-parse.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    loops: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/contact-search.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/do-while.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    network_requests: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Network_requests",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/fetching-data/fetch-start.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    return_values: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Return_values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/loops/random-canvas-circles.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-library-finished.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    strings: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/first-splash/number-guessing-game.html",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -6181,26 +5321,6 @@ button {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/what-is-js/apply-javascript-internal.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    what_went_wrong: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/troubleshooting/number-game-errors.html",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     }
@@ -6298,71 +5418,6 @@ button {
                         }
                       ]
                     },
-                    creating_links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/navigation-menu-start/social.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/debugging-html/debug-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/other-embedding-technologies/iframe-detail.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    headings_and_paragraphs: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    html_forms: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/html-inputs-and-labels-a-love-story/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
@@ -6379,100 +5434,6 @@ button {
                           data: [
                             "https://picryl.com/",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    html_table_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/dogs-table.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/animals-table-fixed.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    html_video_and_audio: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/html/multimedia-and-embedding/video-and-audio-content",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/video-and-audio-content/simple-video.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/html/multimedia-and-embedding/video-and-audio-content",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    including_vector_graphics_in_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/svg-properties-and-css/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/scale-svg/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    lists: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Lists",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/html-text-formatting/text-start.html",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -6716,39 +5677,6 @@ caption {
                         }
                       ]
                     },
-                    structuring_documents: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/document_and_website_structure/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    table_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/advanced/items-sold-scope.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/advanced/items-sold-headers.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         links: {
@@ -6770,47 +5698,6 @@ caption {
                           ]
                         }
                       }
-                    },
-                    webpage_metadata: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/title-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/title-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/meta-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/script.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/the-html-head/meta-example.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
@@ -7414,45 +6301,6 @@ span {
                         }
                       ]
                     },
-                    box_model: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/bem-101/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    tables: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/fixing-tables-long-strings/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -7643,253 +6491,27 @@ li {
                 },
                 text_styling: {
                   children: {
-                    styling_lists: {
+                    fundamentals: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists",
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/styling-text/styling-lists/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/styling-text/web-fonts/web-font-start.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/styling-text/web-fonts/web-font-start.css",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/css/styling-text/web-fonts",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/styling-text/web-fonts/google-font.html",
-                            "429 Retry-After: 300"
+                            "https://www.sitepoint.com/moonlighting-css-text-shadow/",
+                            "The operation timed out."
                           ]
                         }
                       ]
                     }
                   }
-                },
-                version_control: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Version_control",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/signup",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/k88hudson/git-flight-rules",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/k88hudson/git-flight-rules",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
                 }
               }
             },
-            educators: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/Educators",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "429 Retry-After: 300"
-                  ]
-                }
-              ]
-            },
             extensions: {
               children: {
-                advanced_javascript_objects: {
-                  children: {
-                    adding_bouncing_balls_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/index-finished.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    object_building_practice: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/main.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 "client-side_apis": {
                   children: {
-                    "client-side_storage": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Client-side_storage",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/client-side-storage/indexeddb/notes/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/client-side-storage/cache-sw/video-store-offline",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/client-side-storage/cache-sw/video-store-offline/sw.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    drawing_graphics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/threejs-video-cube",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/introduction/web-audio/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/introduction/bouncing-balls.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    third_party_apis: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/third-party-apis/mapquest",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/third-party-apis/mapquest/start/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/third-party-apis/mapquest/finished/script.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/third-party-apis/nytimes/start",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/apis/third-party-apis/nytimes/finished/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/third-party-apis/youtube",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     video_and_audio_apis: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
@@ -8223,53 +6845,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/new",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/typicode/husky",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/jsx-eslint/eslint-plugin-react/issues/3977",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/css-modules/css-modules",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/client-toolchain-example",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -8280,33 +6855,6 @@ button:active {
                             "https://babeljs.io/docs/plugins",
                             "https://babeljs.io/docs/plugins/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.travis-ci.com/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     }
@@ -8314,39 +6862,6 @@ button:active {
                 },
                 forms: {
                   children: {
-                    advanced_form_styling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    basic_native_form_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/native-form-widgets/checkable-items.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/toggle-switch-example/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     customizable_select: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
@@ -14125,86 +12640,6 @@ button:active {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/marghoobsuleman/ms-Dropdown",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    how_to_structure_a_web_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/html-form-structure/checkbox-label.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    html5_input_types: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/HTML5_input_types",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/basic-input-examples/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    other_form_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Other_form_controls",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/native-form-widgets/drop-down-content.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/native-form-widgets/other-examples.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/sending-form-data/post-method.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/sending-form-data/python-example.py",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/sending-form-data/templates/form.html",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -14246,40 +12681,6 @@ textarea:focus {
                           data: [
                             "https://www.gnu.org/software/gzip/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/google/zopfli",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/filamentgroup/loadCSS",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-sprites/",
-                            415
                           ]
                         }
                       ]
@@ -14345,36 +12746,6 @@ textarea:focus {
                         }
                       ]
                     },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/django-locallibrary-tutorial",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        tutorial_local_library_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Tutorial_local_library_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/django-locallibrary-tutorial",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     express_nodejs: {
                       children: {
                         deployment: {
@@ -14410,13 +12781,6 @@ textarea:focus {
                               ]
                             },
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/express-locallibrary-tutorial",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
                               message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/advanced/best-practice-performance.html",
@@ -14437,38 +12801,10 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/coreybutler/nvm-windows/releases",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/nvm-sh/nvm",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/nvm-sh/nvm",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
                               message: "Redirected external link",
                               data: [
                                 "https://expressjs.com/en/starter/generator.html",
                                 "https://expressjs.com/en/starter/generator/"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/npm/npx",
-                                "429 Retry-After: 300"
                               ]
                             },
                             {
@@ -14527,19 +12863,6 @@ textarea:focus {
                             }
                           ]
                         },
-                        forms: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/express-locallibrary-tutorial",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -14556,13 +12879,6 @@ textarea:focus {
                               data: [
                                 "https://expressjs.com/en/changelog/",
                                 404
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/expressjs/express/blob/master/History.md",
-                                "429 Retry-After: 300"
                               ]
                             },
                             {
@@ -14976,37 +13292,11 @@ textarea:focus {
                               ]
                             }
                           ]
-                        },
-                        tutorial_local_library_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Tutorial_local_library_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/express-locallibrary-tutorial",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
                     first_steps: {
                       children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         web_frameworks: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
@@ -15014,8 +13304,8 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://github.com/linnovate/mean",
-                                "429 Retry-After: 300"
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -15026,26 +13316,6 @@ textarea:focus {
                 },
                 testing: {
                   children: {
-                    automated_testing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/automation/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/why-npm-scripts/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -15579,26 +13849,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/strategies/hidden-info-panel.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/django-waffle/django-waffle",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -15608,26 +13858,6 @@ body {
               children: {
                 environment_setup: {
                   children: {
-                    command_line: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/typicode/husky",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sharkdp/bat",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     installing_software: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
@@ -15662,19 +13892,6 @@ body {
                 },
                 soft_skills: {
                   children: {
-                    collaboration_and_teamwork: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Collaboration_and_teamwork",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     workflows_and_processes: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
@@ -15699,45 +13916,6 @@ body {
                 },
                 your_first_website: {
                   children: {
-                    adding_interactivity: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/beginner-html-site-scripted/blob/main/scripts/main.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    creating_the_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/beginner-html-site/blob/main/index.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/new",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -15951,15 +14129,22 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/adobe/brackets/wiki",
-                            "429 Retry-After: 300"
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/notepad-plus-plus/nppPluginList",
-                            "429 Retry-After: 300"
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -15994,19 +14179,6 @@ padding-left: 20px;
                         }
                       ]
                     },
-                    using_github_pages: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Using_GitHub_pages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/signup",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -16014,8 +14186,8 @@ padding-left: 20px;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/GoogleChromeLabs/text-app",
-                            "429 Retry-After: 300"
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16075,26 +14247,6 @@ padding-left: 20px;
           children: {
             community: {
               children: {
-                communication_channels: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Communication_channels",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/announcements",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
                 community_participation_guidelines: {
                   children: {},
                   slug: "/en-US/docs/MDN/Community/Community_Participation_Guidelines",
@@ -16103,13 +14255,6 @@ padding-left: 20px;
                       message: "Broken external link",
                       data: [
                         "https://github.com/orgs/mdn/teams/community",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions",
                         "429 Retry-After: 300"
                       ]
                     }
@@ -16124,69 +14269,10 @@ padding-left: 20px;
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Discussions",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/announcements",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/browser-compatibility-data",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/content",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/localization",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/67",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/platform",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 getting_started: {
                   children: {},
@@ -16195,7 +14281,7 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/signup",
+                        "https://github.com/mdn/fred/issues",
                         "429 Retry-After: 300"
                       ]
                     }
@@ -16210,69 +14296,10 @@ padding-left: 20px;
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/mdn/issues/new/choose",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Issues",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/fred",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/fred",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/web-platform-dx/web-features",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 learn_forum: {
                   children: {},
@@ -16291,158 +14318,21 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
+                        "https://github.com/mdn/content/blob/main/CODE_OF_CONDUCT.md",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://github.com/mdn/content/blob/main/README.md",
                         "429 Retry-After: 300"
                       ]
-                    }
-                  ]
-                },
-                our_repositories: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Our_repositories",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/fred",
-                        "429 Retry-After: 300"
-                      ]
                     },
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/mdn/rumba",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/workflows",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/js-examples",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/html-examples",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new?labels=proposal%2Cneeds+triage&template=content-or-feature-suggestion.yml&title=Enter+your+proposal+here",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                roles_teams: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Roles_teams",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/teams",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/teams",
+                        "https://github.com/freeCodeCamp/how-to-contribute-to-open-source",
                         "429 Retry-After: 300"
                       ]
                     }
@@ -16455,7 +14345,42 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
+                        "https://github.com/mdn/translated-content/tree/main/docs",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/nathipg",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/josielrocha",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/clovislima",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://github.com/irvin",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/t7yang",
                         "429 Retry-After: 300"
                       ]
                     },
@@ -16476,6 +14401,20 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
+                        "https://github.com/JasonLamv-t",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/cw118",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://github.com/mozilla-japan/translation",
                         "429 Retry-After: 300"
                       ]
@@ -16483,7 +14422,7 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/hmatrjp",
+                        "https://github.com/mfuji09",
                         "429 Retry-After: 300"
                       ]
                     },
@@ -16511,28 +14450,14 @@ padding-left: 20px;
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/1ilsang",
+                        "https://github.com/sunhpark42",
                         "429 Retry-After: 300"
                       ]
                     },
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/leon-win",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/sashasushko",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/Saionaro",
+                        "https://github.com/yanaklose",
                         "429 Retry-After: 300"
                       ]
                     },
@@ -16547,6 +14472,20 @@ padding-left: 20px;
                       message: "Broken external link",
                       data: [
                         "https://github.com/lex111",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/JuanVqz",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/davbrito",
                         "429 Retry-After: 300"
                       ]
                     },
@@ -16570,6 +14509,27 @@ padding-left: 20px;
                         "https://github.com/mdn/translated-content-de",
                         "429 Retry-After: 300"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/caugner",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mdn/translated-content-it",
+                        "429 Retry-After: 300"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/caugner",
+                        "429 Retry-After: 300"
+                      ]
                     }
                   ]
                 }
@@ -16584,34 +14544,8 @@ padding-left: 20px;
                 }
               ]
             },
-            tutorials: {
-              children: {},
-              slug: "/en-US/docs/MDN/Tutorials",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/BonsaiDen/JavaScript-Garden",
-                    "429 Retry-After: 300"
-                  ]
-                }
-              ]
-            },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -16619,13 +14553,6 @@ padding-left: 20px;
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues/1940",
-                        "429 Retry-After: 300"
-                      ]
                     }
                   ]
                 },
@@ -16655,169 +14582,8 @@ color: rgb(31 41 59 / 26%);
                     }
                   }
                 },
-                criteria_for_inclusion: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Criteria_for_inclusion",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                experimental_deprecated_obsolete: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
                 howto: {
                   children: {
-                    document_a_css_property: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Document_a_CSS_property",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/data/blob/main/docs/updating_css_json.md",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    images_media: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/shared-assets/tree/main/images/diagrams/http",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    json_structured_data: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/JSON_Structured_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/SpecData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    markdown_in_mdn: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues/3512",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/yari/pull/7017",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues/3483",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues/4367",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues/7898",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues/3923",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    research_technology: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Research_technology",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     retiring_content: {
                       children: {
                         retired_content: {
@@ -16830,37 +14596,7 @@ color: rgb(31 41 59 / 26%);
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Retiring_content",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    write_a_new_entry_in_the_glossary: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Write_a_new_entry_in_the_glossary",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/tree/main/files/en-us/glossary",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     write_an_api_reference: {
                       children: {
@@ -16871,20 +14607,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/WebKit/webkit/blob/main/Source/WebCore/html/DOMTokenList.idl",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -16895,121 +14617,15 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/api_list_specs.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/api_list_specs.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/api_list_specs.rs",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Write_an_api_reference",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 },
                 page_structures: {
                   children: {
-                    compatibility_tables: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/api/VRDisplay.json",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    feature_status: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/schemas/compat-data-schema.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/tree/main/docs/data-guidelines",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     links: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Links",
@@ -17025,55 +14641,6 @@ color: rgb(31 41 59 / 26%);
                           data: [
                             "JavaScript arrays"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/list_subpages_for_sidebar.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/quick_links_with_subpages.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/glossary.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/jsxref.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/svgxref.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/http.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/http.rs",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -17086,76 +14653,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/glossary.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/jsxref.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/svgxref.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/http.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/http.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/http.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -17166,27 +14663,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/rfc.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/listsubpages.rs",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/quick_links_with_subpages.rs",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         }
@@ -17201,13 +14677,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/browser-compat-data/tree/main/css/types",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -17218,33 +14687,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/data/blob/main/css/properties.json",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        css_selector_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_selector_page_template",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/data/blob/main/css/selectors.json",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/data/blob/main/css/selectors.md",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -17268,127 +14710,9 @@ color: rgb(31 41 59 / 26%);
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/issues",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/previous_menu_next.rs",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    polyfills: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Polyfills",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/zloirock/core-js/tree/master",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/orgs/mdn/discussions",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    sidebars: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Sidebars",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/tree/main/files/sidebars",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/tree/main/files/sidebars",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    syntax_sections: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/data",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/data/blob/main/css/selectors.json",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/data",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
-                },
-                what_we_write: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/What_we_write",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/mdn/issues/new/choose",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
                 },
                 writing_style_guide: {
                   children: {},
@@ -17397,8 +14721,15 @@ color: rgb(31 41 59 / 26%);
                     {
                       message: "Broken external link",
                       data: [
-                        "https://github.com/mdn/content/blob/main/.vscode/cspell.json",
-                        "429 Retry-After: 300"
+                        "https://imageoptim.com/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.chicagomanualofstyle.org/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17536,17 +14867,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -17570,17 +14901,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "The operation timed out."
+                                        ""
                                       ]
                                     }
                                   ]
@@ -17589,10 +14920,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "The operation timed out."
+                                    ""
                                   ]
                                 }
                               ]
@@ -18583,26 +15914,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            415
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -18991,32 +16302,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "19": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/19.0beta/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -19026,6 +16311,26 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    "136": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19222,54 +16527,10 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    guides: {
-                      children: {
-                        multipart_labels: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Multipart_labels",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://projectcerbera.com/blog/2008/03/",
-                                415
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     reference: {
                       children: {
                         attributes: {
-                          children: {
-                            "aria-disabled": {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-disabled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/making-disabled-buttons-more-inclusive/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            },
-                            "aria-owns": {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-owns",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/focus-management-and-inert/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            }
-                          },
+                          children: {},
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -19282,54 +16543,15 @@ webextensions.manifest.options_ui`,
                         },
                         roles: {
                           children: {
-                            complementary_role: {
+                            alert_role: {
                               children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role",
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
                               messages: [
                                 {
                                   message: "Broken external link",
                                   data: [
-                                    "https://html5doctor.com/aside-revisited/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            },
-                            contentinfo_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/contentinfo_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://html5doctor.com/the-footer-element-update/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            },
-                            main_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://html5doctor.com/the-main-element/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            },
-                            navigation_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://html5doctor.com/nav-element/",
-                                    415
+                                    "https://www.a11yproject.com/posts/how-to-hide-content/",
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -19576,10 +16798,10 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://colortutorial.design/microColorsC.html",
-                            415
+                            "https://colortutorial.design/"
                           ]
                         },
                         {
@@ -19610,10 +16832,10 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://epilepsyontario.org/musicogenic-seizures/",
-                            415
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "https://www.cedars-sinai.org/health-topics"
                           ]
                         },
                         {
@@ -19647,13 +16869,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://colortutorial.design/hsb.html",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
                           ]
@@ -19661,36 +16876,15 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.kirupa.com/html5/toggling_animations_on_off.htm",
-                            415
+                            "https://hardingtest.com/",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://pinetools.com/brightness-contrast-image",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.abilitynet.org.uk/sites/abilitynet.org.uk/files/Epilepsy%20and%20Computing%20Nov%202015.pdf",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/revisiting-prefers-reduced-motion/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://colortutorial.design/",
-                            415
+                            "https://hardingtest.com/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -19719,6 +16913,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/retina-image",
                             403
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "https://www.cedars-sinai.org/health-topics"
                           ]
                         }
                       ]
@@ -19849,17 +17050,7 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Animation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/introduction-reduced-motion-media-query/",
-                        415
-                      ]
-                    }
-                  ]
+                  }
                 },
                 attribution_reporting_api: {
                   children: {
@@ -19967,27 +17158,6 @@ body {
                       data: [
                         "https://www.patrick-wied.at/static/heatmapjs/",
                         "certificate has expired"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://scrawl.rikweb.org.uk/",
-                        415
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://zimjs.com/",
-                        415
                       ]
                     }
                   ]
@@ -20860,19 +18030,6 @@ api.MessagePort`,
                     }
                   ]
                 },
-                css_custom_highlight_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSS_Custom_Highlight_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                        415
-                      ]
-                    }
-                  ]
-                },
                 css_object_model: {
                   children: {
                     css_value_serialization: {
@@ -21535,23 +18692,6 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                css: {
-                  children: {
-                    highlights_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS/highlights_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 customelementregistry: {
                   children: {
                     upgrade: {
@@ -21829,19 +18969,6 @@ api.DeviceOrientationEvent`,
                 },
                 element: {
                   children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     attachshadow: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/attachShadow",
@@ -22095,33 +19222,6 @@ other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
                     }
                   }
                 },
-                elementinternals: {
-                  children: {
-                    ariacurrent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaCurrent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tink.uk/using-the-aria-current-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/ElementInternals",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
-                        415
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -22139,7 +19239,21 @@ other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
                   }
                 },
                 file_api: {
-                  children: {},
+                  children: {
+                    using_files_from_web_applications: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.a11yproject.com/posts/how-to-hide-content/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/File_API",
                   messages: [
                     {
@@ -22179,320 +19293,6 @@ other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
                     }
                   }
                 },
-                highlight: {
-                  children: {
-                    add: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/add",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    clear: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/clear",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    delete: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/delete",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    entries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/entries",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    foreach: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/forEach",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    has: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/has",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    highlight: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/Highlight",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    keys: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/keys",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    priority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/priority",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/size",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/type",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Highlight/values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Highlight",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                        415
-                      ]
-                    }
-                  ]
-                },
-                highlightregistry: {
-                  children: {
-                    clear: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/clear",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    delete: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/delete",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    entries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/entries",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    foreach: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/forEach",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    get: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/get",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    has: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/has",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    keys: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/keys",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    set: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/set",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/size",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HighlightRegistry/values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/HighlightRegistry",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
-                        415
-                      ]
-                    }
-                  ]
-                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -22501,43 +19301,6 @@ other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/History_API/Working_with_the_History_API"
-                      ]
-                    }
-                  ]
-                },
-                hmdvrdevice: {
-                  children: {
-                    geteyeparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HMDVRDevice/getEyeParameters",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/MozillaReality/vr-web-examples/blob/master/threejs-vr-boilerplate/js/VREffect.js",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                houdini_apis: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Houdini_APIs",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/the-css-paint-api/",
-                        415
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/simulating-drop-shadows-with-the-css-paint-api/",
-                        415
                       ]
                     }
                   ]
@@ -22576,23 +19339,6 @@ other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
                       ]
                     }
                   ]
-                },
-                htmlelement: {
-                  children: {
-                    attachinternals: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/attachInternals",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 htmlgeolocationelement: {
                   children: {
@@ -24820,36 +21566,6 @@ self.addEventListener("fetch", (event) => {
                     }
                   }
                 },
-                rtcinboundrtpstreamstats: {
-                  children: {
-                    insertedsamplesfordeceleration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/insertedSamplesForDeceleration",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    removedsamplesforacceleration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/removedSamplesForAcceleration",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -24968,23 +21684,6 @@ self.addEventListener("fetch", (event) => {
                       ]
                     }
                   ]
-                },
-                subtlecrypto: {
-                  children: {
-                    wrapkey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/wrapKey",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/wrap-key/raw.js",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 svgaelement: {
                   children: {
@@ -26247,17 +22946,7 @@ a:focus {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/View_Transition_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://http203-playlist.netlify.app/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 viewport_segments_api: {
                   children: {
@@ -26605,24 +23294,7 @@ h1 {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/form-validation-web-audio/",
-                        415
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -26709,26 +23381,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webcodecs_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebCodecs_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webrtchacks.com/real-time-video-processing-with-webcodecs-and-streams-processing-pipelines-part-1/",
-                        415
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webrtchacks.com/video-frame-processing-on-the-web-webassembly-webgpu-webgl-webcodecs-webnn-and-webtransport/",
-                        415
-                      ]
-                    }
-                  ]
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -26805,6 +23457,13 @@ api.Window.sessionStorage`,
                   slug: "/en-US/docs/Web/API/WebSockets_API",
                   messages: [
                     {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/blog/websocket-part2",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
                       message: "Redirected external link",
                       data: [
                         "https://hexdocs.pm/phoenix/channels.html",
@@ -26826,23 +23485,6 @@ api.Window.sessionStorage`,
                             "html.elements.track",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                webxr_device_api: {
-                  children: {
-                    cameras: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Cameras",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://filmmakeriq.com/wp-content/uploads/2016/09/Pan-Tilt.png",
-                            415
                           ]
                         }
                       ]
@@ -28035,21 +24677,8 @@ body {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://github.com/necolas/normalize.css",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        specificity: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Specificity",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://specifishity.com/",
-                                415
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
                               ]
                             }
                           ]
@@ -29770,17 +26399,7 @@ rgb(from red r g b / alpha)
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Guides/Colors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/css-examples/blob/main/modules/colors.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     conditional_rules: {
                       children: {
@@ -30080,15 +26699,8 @@ p {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://github.com/mdn/dom-examples/tree/main/css-custom-functions/responsive-narrow-wide",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/dom-examples/tree/main/css-custom-functions/gradient-function",
-                                "429 Retry-After: 300"
+                                "https://www.oddbird.net/2025/04/11/custom-functions/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -30620,19 +27232,6 @@ blockquote p::after {
                     },
                     grid_layout: {
                       children: {
-                        accessibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/grid-content-re-ordering-and-accessibility/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         basic_concepts: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
@@ -31958,19 +28557,6 @@ blockquote p::after {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        common_grid_layouts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Common_grid_layouts",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/complete-guide-css-grid-layout/",
-                                415
                               ]
                             }
                           ]
@@ -35180,19 +31766,6 @@ css.properties.grid-template-rows.masonry`,
                     },
                     images: {
                       children: {
-                        implementing_image_sprites: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/snippets/css/perfect-css-sprite-sliding-doors-button/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         using_gradients: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Images/Using_gradients",
@@ -41980,21 +38553,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       }
                     },
                     scroll_snap: {
-                      children: {
-                        basic_concepts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/practical-css-scroll-snapping/",
-                                415
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap",
                       messages: [
                         {
@@ -42087,13 +38646,6 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/practical-css-scroll-snapping/",
-                            415
                           ]
                         }
                       ]
@@ -44319,6 +40871,23 @@ div::after {
                         }
                       ]
                     },
+                    text: {
+                      children: {
+                        wrapping_breaking_text: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     transforms: {
                       children: {
                         using: {
@@ -45414,13 +41983,6 @@ section {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-transform.moro.es/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -45584,13 +42146,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/css-typed-arithmetic/",
-                                415
-                              ]
                             }
                           ]
                         },
@@ -45688,39 +42243,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        breadcrumb_navigation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Breadcrumb_navigation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://tink.uk/using-the-aria-current-attribute/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        contribute_a_recipe: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/css-examples/pulls",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/content/blob/main/files/en-us/web/css/how_to/layout_cookbook/contribute_a_recipe/cookbook_template/index.md?plain=1",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -45913,13 +42435,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/lets-talk-speech-css/",
-                                    415
-                                  ]
                                 }
                               ]
                             },
@@ -46170,26 +42685,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        "@document": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@document",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.userchrome.org/",
-                                415
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/An-Error94/Handy-Scripts/tree/master/%40document-polyfill",
-                                "429 Retry-After: 300"
                               ]
                             }
                           ]
@@ -46990,13 +43485,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/snippets/css/system-font-stack/",
-                                    415
-                                  ]
                                 }
                               ]
                             },
@@ -47007,13 +43495,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/introduction-reduced-motion-media-query/",
-                                    415
-                                  ]
                                 }
                               ]
                             },
@@ -47324,58 +43805,6 @@ so specify a standalone starting-style block. */
                             }
                           ]
                         },
-                        "-webkit-text-fill-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/adding-stroke-to-web-text/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/adding-stroke-to-web-text/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/adding-stroke-to-web-text/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/adding-stroke-to-web-text/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         "alignment-baseline": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline",
@@ -47420,19 +43849,6 @@ text:nth-of-type(8) {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        animation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/introduction-reduced-motion-media-query/",
-                                415
                               ]
                             }
                           ]
@@ -49712,13 +46128,6 @@ div > div {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/flex-grow-is-weird/",
-                                415
-                              ]
                             }
                           ]
                         },
@@ -49844,13 +46253,6 @@ aElem.addEventListener("click", function (e) {
 });
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/snippets/css/system-font-stack/",
-                                415
                               ]
                             }
                           ]
@@ -51044,19 +47446,6 @@ p {
                             }
                           ]
                         },
-                        "hanging-punctuation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hanging-punctuation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/properties/h/hanging-punctuation/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         height: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/height",
@@ -51300,19 +47689,6 @@ button {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "line-clamp": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-clamp",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/line-clampin/",
-                                415
-                              ]
                             }
                           ]
                         },
@@ -52363,19 +48739,6 @@ html {
                             }
                           ]
                         },
-                        "overscroll-behavior": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/css-examples/tree/main/overscroll-behavior",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
                         "overscroll-behavior-block": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block",
@@ -52777,19 +49140,6 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "paint-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/paint-order",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/properties/p/paint-order/",
-                                415
-                              ]
                             }
                           ]
                         },
@@ -54484,19 +50834,6 @@ div {
                             }
                           ]
                         },
-                        transform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-transform.moro.es/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "transform-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
@@ -54588,13 +50925,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/properties/t/transform-origin/",
-                                415
                               ]
                             }
                           ]
@@ -55232,19 +51562,6 @@ body {
                             }
                           ]
                         },
-                        "will-change": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/will-change",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/operasoftware/devopera/pull/330",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
                         "word-spacing": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/word-spacing",
@@ -55328,26 +51645,6 @@ p:has(~ form > input:checked) {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        zoom: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/zoom",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/properties/z/zoom/",
-                                415
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/properties/z/zoom/",
-                                415
-                              ]
                             }
                           ]
                         }
@@ -55646,45 +51943,6 @@ input:-internal-autofill-selected {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        _colon_host: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/web-components-examples/tree/main/host-selectors",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        _colon_host_function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host_function",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/web-components-examples/tree/main/host-selectors",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        "_colon_host-context": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:host-context",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/web-components-examples/tree/main/host-selectors",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -56551,45 +52809,6 @@ input[type="submit"]::-moz-focus-inner {
                             }
                           ]
                         },
-                        "_doublecolon_-moz-range-progress": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-progress",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "_doublecolon_-moz-range-thumb": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-thumb",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "_doublecolon_-moz-range-track": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-track",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         "_doublecolon_-webkit-scrollbar": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
@@ -56607,32 +52826,6 @@ css.selectors.-webkit-scrollbar-corner
 css.selectors.-webkit-resizer`,
                                 "Expected:",
                                 "css.selectors.-webkit-scrollbar"
-                              ]
-                            }
-                          ]
-                        },
-                        "_doublecolon_-webkit-slider-runnable-track": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-runnable-track",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
-                        "_doublecolon_-webkit-slider-thumb": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-thumb",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
-                                415
                               ]
                             }
                           ]
@@ -58008,36 +54201,6 @@ div {
                             }
                           ]
                         },
-                        "basic-shape": {
-                          children: {
-                            path: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/path",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/svg-path-syntax-illustrated-guide/",
-                                    415
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        calc: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/a-complete-guide-to-calc-in-css/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         "calc-sum": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/calc-sum",
@@ -58055,18 +54218,524 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/snippets/css/fluid-typography/",
-                                415
-                              ]
                             }
                           ]
                         },
                         color_value: {
                           children: {
+                            alpha: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/alpha",
+                              messages: [
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-block-no-duplicate-properties",
+                                    'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                                    "    padding: 1rem 0;",
+                                    "36:5 - 36:12",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.3);
+
+  /* Same color, but with alpha set to 80% */
+  --mycolor-80: alpha(from var(--mycolor) / 80%);
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-80);
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "function-no-unknown",
+                                    'Unexpected unknown function "alpha" (function-no-unknown)',
+                                    "  --mycolor-80: alpha(from var(--mycolor) / 80%);",
+                                    "5:17 - 5:22",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[function-no-unknown] Unexpected unknown function "alpha" (function-no-unknown)
+~~~
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.3);
+
+  /* Same color, but with alpha set to 80% */
+  --mycolor-80: alpha(from var(--mycolor) / 80%);
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-80);
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Stylelint backlog",
+                                  data: [
+                                    "lightness-notation",
+                                    'Expected "60%" to be "0.6" (lightness-notation)',
+                                    "  --mycolor: oklch(60% 0.25 315 / 0.3);",
+                                    "2:20 - 2:23",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[lightness-notation] Expected "60%" to be "0.6" (lightness-notation)
+~~~
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.3);
+
+  /* Same color, but with alpha set to 80% */
+  --mycolor-80: alpha(from var(--mycolor) / 80%);
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-80);
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-block-no-duplicate-properties",
+                                    'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                                    "    padding: 1rem 0;",
+                                    "36:5 - 36:12",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.8);
+
+  /* Half the opacity of --mycolor */
+  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-half-opacity);
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "function-no-unknown",
+                                    'Unexpected unknown function "alpha" (function-no-unknown)',
+                                    "  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));",
+                                    "20:27 - 20:32",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[function-no-unknown] Unexpected unknown function "alpha" (function-no-unknown)
+~~~
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.8);
+
+  /* Half the opacity of --mycolor */
+  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-half-opacity);
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Stylelint backlog",
+                                  data: [
+                                    "lightness-notation",
+                                    'Expected "60%" to be "0.6" (lightness-notation)',
+                                    "  --mycolor: oklch(60% 0.25 315 / 0.8);",
+                                    "17:20 - 17:23",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[lightness-notation] Expected "60%" to be "0.6" (lightness-notation)
+~~~
+body {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+div {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --mycolor: oklch(60% 0.25 315 / 0.8);
+
+  /* Half the opacity of --mycolor */
+  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+}
+
+.box1 {
+  background-color: var(--mycolor);
+}
+
+.box2 {
+  background-color: var(--mycolor-half-opacity);
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-block-no-duplicate-properties",
+                                    'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                                    "    padding: 1rem 0;",
+                                    "29:5 - 29:12",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+:root {
+  --brand: oklch(55% 0.22 270);
+}
+
+.card {
+  background-color: var(--brand);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: alpha(from var(--brand) / 40%);
+}
+
+body {
+  padding: 2rem;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "function-no-unknown",
+                                    'Unexpected unknown function "alpha" (function-no-unknown)',
+                                    "  background-color: alpha(from var(--brand) / 40%);",
+                                    "17:21 - 17:26",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[function-no-unknown] Unexpected unknown function "alpha" (function-no-unknown)
+~~~
+:root {
+  --brand: oklch(55% 0.22 270);
+}
+
+.card {
+  background-color: var(--brand);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: alpha(from var(--brand) / 40%);
+}
+
+body {
+  padding: 2rem;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Stylelint backlog",
+                                  data: [
+                                    "lightness-notation",
+                                    'Expected "55%" to be "0.55" (lightness-notation)',
+                                    "  --brand: oklch(55% 0.22 270);",
+                                    "2:18 - 2:21",
+                                    `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
+[lightness-notation] Expected "55%" to be "0.55" (lightness-notation)
+~~~
+:root {
+  --brand: oklch(55% 0.22 270);
+}
+
+.card {
+  background-color: var(--brand);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: alpha(from var(--brand) / 40%);
+}
+
+body {
+  padding: 2rem;
+}
+
+@supports not (color: alpha(from red / 50%)) {
+  body::before {
+    font-family: sans-serif;
+    content: "Your browser does not support the CSS alpha() function.";
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 0;
+
+    z-index: 1;
+    position: fixed;
+    inset: 30% 0 auto;
+  }
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "css.types.color.alpha"
+                                  ]
+                                }
+                              ]
+                            },
                             color: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/color",
@@ -70828,6 +67497,18 @@ css.properties.width.fit-content_function`
                             }
                           ]
                         },
+                        functions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Values/color_value/alpha"
+                              ]
+                            }
+                          ]
+                        },
                         gradient: {
                           children: {
                             "conic-gradient": {
@@ -76863,13 +73544,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/almanac/functions/r/random/",
-                                415
-                              ]
                             }
                           ]
                         },
@@ -78629,6 +75303,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "all CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "alpha() CSS function"
                       ]
                     },
                     {
@@ -83771,29 +80451,113 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
               children: {
                 guides: {
                   children: {
-                    responsive_images: {
+                    microformats: {
                       children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Responsive_images",
+                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/responsive-images/responsive.html",
-                            "429 Retry-After: 300"
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/responsive-images/srcset-resolutions.html",
-                            "429 Retry-After: 300"
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/",
-                            415
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/value-class-pattern",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/rel-values",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/search_engines",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -83806,33 +80570,27 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       data: [
                         "#elements_without_a_category"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://microformats.org/wiki/Main_Page",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
                 how_to: {
                   children: {
-                    add_a_hit_map_on_top_of_an_image: {
+                    use_data_attributes: {
                       children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
+                      slug: "/en-US/docs/Web/HTML/How_to/Use_data_attributes",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://uxmovement.com/mobile/finger-friendly-design-ideal-mobile-touch-target-sizes/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.websiteoptimization.com/",
-                            415
+                            "https://www.sitepoint.com/how-why-use-html5-custom-data-attributes/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -83880,6 +80638,26 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
+                            me: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/RelMeAuth",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/web-sign-in",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -83937,24 +80715,20 @@ html.elements.textarea.disabled`
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/html-examples/tree/main/link-rel-preload/js-and-css",
-                                    "429 Retry-After: 300"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/html-examples/tree/main/link-rel-preload/media",
-                                    "429 Retry-After: 300"
-                                  ]
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://microformats.org/wiki/existing-rel-values",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         size: {
                           children: {},
@@ -84295,6 +81069,19 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/how-to-hide-content/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -84770,13 +81557,6 @@ because the nesting selector cannot represent pseudo-elements. */
                                   data: []
                                 },
                                 {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/indeterminate-checkboxes/",
-                                    415
-                                  ]
-                                },
-                                {
                                   message: "Unexpected BCD keys",
                                   data: [
                                     "Actual:",
@@ -84855,13 +81635,6 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/sliding-nightmare-understanding-range-input/",
-                                    415
-                                  ]
                                 }
                               ]
                             },
@@ -85098,19 +81871,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        is: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/is",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/WICG/webcomponents/issues/1029",
-                                "429 Retry-After: 300"
-                              ]
                             }
                           ]
                         },
@@ -85499,19 +82259,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        "save-data": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/help-users-save-data/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -85525,19 +82272,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        vary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2017/11/understanding-vary-header/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         "want-content-digest": {
                           children: {},
@@ -85660,27 +82394,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/js-examples/tree/main/module-examples/renaming",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/blob/main/module-examples/top-level-await/main.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/blob/main/module-examples/top-level-await/main.js",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://exploringjs.com/es6/ch_modules.html",
                             404
                           ]
@@ -85702,30 +82415,6 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://2ality.com/2021/09/class-static-block.html",
                                 404
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    errors: {
-                      children: {
-                        cyclic_object_value: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/douglascrockford/JSON-js/blob/master/cycle.js",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/douglascrockford/JSON-js/blob/master/cycle.js",
-                                "429 Retry-After: 300"
                               ]
                             }
                           ]
@@ -85765,19 +82454,6 @@ const filteredNumbers = numbers.map((num, index) => {
                                   ]
                                 }
                               ]
-                            },
-                            sort: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/Pimm/mapsort",
-                                    "429 Retry-After: 300"
-                                  ]
-                                }
-                              ]
                             }
                           }
                         },
@@ -85796,19 +82472,6 @@ const filteredNumbers = numbers.map((num, index) => {
                               ]
                             }
                           }
-                        },
-                        error: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/microsoft/TypeScript/wiki/FAQ",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
                         },
                         function: {
                           children: {
@@ -85842,36 +82505,6 @@ const filteredNumbers = numbers.map((num, index) => {
                             }
                           }
                         },
-                        globalthis: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/zloirock/core-js/blob/master/packages/core-js/internals/global-this.js",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        intl: {
-                          children: {
-                            supportedvaluesof: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/unicode-org/cldr/blob/main/common/bcp47/calendar.xml",
-                                    "429 Retry-After: 300"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         iterator: {
                           children: {
                             includes: {
@@ -85889,21 +82522,7 @@ const filteredNumbers = numbers.map((num, index) => {
                           }
                         },
                         json: {
-                          children: {
-                            stringify: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/douglascrockford/JSON-js/blob/master/cycle.js",
-                                    "429 Retry-After: 300"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
+                          children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
                           messages: [
                             {
@@ -85919,30 +82538,9 @@ const filteredNumbers = numbers.map((num, index) => {
                           children: {}
                         },
                         promise: {
-                          children: {
-                            race: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/kudla/promise-status-async/blob/master/lib/promiseState.js",
-                                    "429 Retry-After: 300"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
+                          children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md",
-                                "429 Retry-After: 300"
-                              ]
-                            },
                             {
                               message: "HTTP link",
                               data: [
@@ -85978,19 +82576,6 @@ const filteredNumbers = numbers.map((num, index) => {
                               message: "Missing image",
                               data: [
                                 "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/issupersetof/diagram.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        sharedarraybuffer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md",
-                                "429 Retry-After: 300"
                               ]
                             }
                           ]
@@ -86061,20 +82646,6 @@ let z = 1;
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/facebook/hermes",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.moddable.com/",
-                            415
-                          ]
-                        },
                         {
                           message: "Redirected external link",
                           data: [
@@ -86259,47 +82830,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/fred-wang/mathml.css",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/fred-wang/TeXZilla",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/fred-wang/TeXZilla/wiki/Using-TeXZilla",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/wikimedia/mediawiki-services-mathoid",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.texmacs.org/tmweb/home/welcome.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     fonts: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Fonts",
@@ -86307,8 +82837,8 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
-                            404
+                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -86321,6 +82851,13 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
                             404
                           ]
@@ -86328,35 +82865,57 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/notofonts/math/blob/main/documentation/building-math-fonts/index.md",
-                            "429 Retry-After: 300"
+                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/YuanshengZhao/Garamond-Math",
-                            "429 Retry-After: 300"
+                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
+                            404
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/firamath/firamath",
-                            "429 Retry-After: 300"
+                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
+                            "The operation timed out."
                           ]
-                        }
-                      ]
-                    },
-                    proving_the_pythagorean_theorem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Proving_the_Pythagorean_theorem",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.cut-the-knot.org/pythagoras/proof31.gif",
-                            415
+                            "https://www.gust.org.pl/projects/e-foundry/lm-math",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -86412,19 +82971,6 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
-                        },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/video-dev/hls.js",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
@@ -86441,26 +82987,6 @@ doIt(); // returns "finally"
                           data: [
                             "https://jplayer.org/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/cwilso/AudioContext-MonkeyPatch",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    audio_and_video_manipulation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/chrisdavidmills/threejs-video-cube",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -86480,26 +83006,6 @@ doIt(); // returns "finally"
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "certificate has expired"
-                              ]
-                            }
-                          ]
-                        },
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -86525,47 +83031,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    css_javascript_animation_performance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/myth-busting-css-animations-vs-javascript/",
-                            415
-                          ]
-                        }
-                      ]
-                    },
-                    performance_budgets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/siddharthkp/bundlesize",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.travis-ci.com/",
-                            415
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -86692,206 +83157,10 @@ doIt(); // returns "finally"
                 }
               ]
             },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    making_pwas_installable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/MicrosoftEdge/Demos/tree/main/pwamp",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                how_to: {
-                  children: {
-                    customize_your_app_colors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Customize_your_app_colors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/meta-theme-color-and-trickery/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    cycletracker: {
-                      children: {
-                        html_and_css: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/HTML_and_CSS",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/index.html",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/style.css",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/html_and_css/style.css",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/tree/main/cycletracker/html_and_css",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        secure_connection: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Secure_connection",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/lwsjs/local-web-server/wiki/How-to-get-the-%22green-padlock%22-using-the-built-in-certificate",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        service_workers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/index.html",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/pwa-examples/tree/main/cycletracker",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    js13kgames: {
-                      children: {
-                        loading: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Loading",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/tree/main/js13kpwa",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        offline_service_workers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/tree/main/js13kpwa",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        "re-engageable_notifications_push": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Re-engageable_Notifications_Push",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/serviceworker-cookbook/tree/master/push-payload",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/serviceworker-cookbook/tree/master/push-payload",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/serviceworker-cookbook/blob/master/push-payload/service-worker.js",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/pwa-examples/tree/main/js13kpwa",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             security: {
               children: {
                 attacks: {
                   children: {
-                    prototype_pollution: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/Prototype_pollution",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/KTH-LangSec/server-side-prototype-pollution",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     supply_chain_attacks: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
@@ -86929,19 +83198,6 @@ doIt(); // returns "finally"
                           data: [
                             "/en-US/docs/Web/API/CredentialsContainer/create",
                             "#mediation"
-                          ]
-                        }
-                      ]
-                    },
-                    passwords: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Authentication/Passwords",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/zxcvbn-ts/zxcvbn",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -86997,34 +83253,6 @@ navigator.permissions.query({ name: "local-network-access" })
                             "https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide",
                             "https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-wg?tab=readme-ov-file",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/Secure_Releases/secure-releases.md",
-                            "429 Retry-After: 300"
-                          ]
                         }
                       ]
                     },
@@ -87041,37 +83269,11 @@ navigator.permissions.query({ name: "local-network-access" })
                           ]
                         }
                       }
-                    },
-                    subresource_integrity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Subresource_Integrity",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openssl/openssl/wiki/Binaries",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
                 threat_modeling: {
                   children: {
-                    frameworks: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Threat_modeling/Frameworks",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://linddun.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     pwa_threat_model: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Threat_modeling/PWA_threat_model",
@@ -87113,23 +83315,6 @@ navigator.permissions.query({ name: "local-network-access" })
             },
             svg: {
               children: {
-                guides: {
-                  children: {
-                    linking: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Linking",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codedread.com/",
-                            415
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     attribute: {
@@ -87898,65 +84083,6 @@ svg.elements.feSpotLight.z`
                           message: "w3.org/TR link",
                           data: [
                             "https://www.w3.org/TR/SVG2/#GeometryProperties"
-                          ]
-                        }
-                      ]
-                    },
-                    element: {
-                      children: {
-                        animate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/introduction-reduced-motion-media-query/",
-                                415
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            uri: {
-              children: {
-                guides: {
-                  children: {
-                    "choosing_between_www_and_non-www_urls": {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -90425,21 +86551,7 @@ svg.elements.feSpotLight.z`
             xml: {
               children: {
                 guides: {
-                  children: {
-                    opensearch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
@@ -90493,198 +86605,6 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
-            guides: {
-              children: {
-                concepts: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Concepts",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/proposals/issues/12",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                existing_c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/webmproject/libwebp",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                exported_functions: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Exported_functions",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/other-examples/table-set.html",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                javascript_builtins: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/JavaScript_builtins",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/binaryen",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                rust_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/rustwasm/wasm-bindgen/issues/new",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/nvm-sh/nvm",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                text_format_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Text_format_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/xtuc/webassemblyjs/tree/master/packages/wast-loader",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                understanding_the_text_format: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Understanding_the_text_format",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/spec/blob/main/proposals/multi-value/Overview.md",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/understanding-text-format/add.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/global.wat",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/understanding-text-format/multi-memory.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/understanding-text-format/wasm-table.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/bulk-memory-operations/blob/master/proposals/bulk-memory-operations/Overview.md",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                },
-                using_the_javascript_api: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/template/template.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/template/template.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/memory.wat",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/memory.html",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webassembly-examples/blob/main/template/template.html",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             reference: {
               children: {
                 control_flow: {
@@ -90964,19 +86884,6 @@ WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
                         }
                       ]
                     },
-                    instantiate_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiate_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/wasm_worker.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     jstag_static: {
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static",
@@ -91070,167 +86977,6 @@ run();
                         }
                       ]
                     },
-                    memory: {
-                      children: {
-                        buffer: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/buffer",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/memory.html",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        memory: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/Memory",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/memory.html",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/memory.html",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    module: {
-                      children: {
-                        customsections_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/customSections_static",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/other-examples/custom-section.html",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        exports_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/exports_static",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/wasm_worker.js",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        imports_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/imports_static",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/imports.html",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/wasm_worker.js",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
-                    table: {
-                      children: {
-                        set: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/set",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.html",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.wat",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        },
-                        table: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/Table",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.html",
-                                "429 Retry-After: 300"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.wat",
-                                "429 Retry-After: 300"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.html",
-                            "429 Retry-After: 300"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/table2.wat",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
-                    },
                     tag: {
                       children: {
                         type: {
@@ -91282,19 +87028,6 @@ const env = {
 WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    validate_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/validate_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webassembly-examples/blob/main/js-api-examples/validate.html",
-                            "429 Retry-After: 300"
                           ]
                         }
                       ]
@@ -92232,24 +87965,7 @@ WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
                 }
               ]
             }
-          },
-          slug: "/en-US/docs/WebAssembly",
-          messages: [
-            {
-              message: "Broken external link",
-              data: [
-                "https://github.com/JasonWeathersby/WASMSobel",
-                "429 Retry-After: 300"
-              ]
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://github.com/mdn/webassembly-examples/",
-                "429 Retry-After: 300"
-              ]
-            }
-          ]
+          }
         }
       }
     }
