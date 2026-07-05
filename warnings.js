@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2aw8cwk2.js";
+} from "./chunk-y64dps4v.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -87,7 +87,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.KeyCode.html",
-                            "Was there a typo in the url or port?"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -396,19 +396,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            color_wheel: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Color_wheel",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.bhg.com/decorating/color/basics/color-wheel-color-chart/",
-                    403
-                  ]
                 }
               ]
             },
@@ -1434,6 +1421,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            screen_reader: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Screen_reader",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://support.google.com/accessibility/answer/7031755",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2979,6 +2979,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/3.15/functions/@glimmer%2Ftracking/tracked",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3962,13 +3969,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jscamp.tech/2019/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13029,10 +13029,10 @@ textarea:focus {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "The operation timed out."
+                            "https://cwiki.apache.org/confluence/spaces/HTTPD/pages/115522478/RewriteHTTPToHTTPS"
                           ]
                         }
                       ]
@@ -13406,7 +13406,7 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://www.rackspace.com/data/rackspace-dbaas",
-                                504
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -14165,6 +14165,19 @@ body {
               children: {
                 environment_setup: {
                   children: {
+                    code_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     installing_software: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
@@ -14448,6 +14461,41 @@ padding-left: 20px;
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eclipse.org/",
+                            500
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://support.microsoft.com/en-us/windows",
@@ -14471,10 +14519,44 @@ padding-left: 20px;
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eclipse.org/",
+                            500
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://www.getpaint.net/",
                             "https://paint.net/"
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://notepad-plus-plus.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14623,6 +14705,19 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
+                    images_media: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
+                            "https://photography.tutsplus.com/video/c/production-recording/s/screen-recording"
+                          ]
+                        }
+                      ]
+                    },
                     retiring_content: {
                       children: {
                         retired_content: {
@@ -16341,19 +16436,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "18": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/18",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/18.0beta/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -16922,13 +17004,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -17006,13 +17081,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "Broken external link",
                           data: [
                             "https://www.kirupa.com/html5/toggling_animations_on_off.htm",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://pinetools.com/brightness-contrast-image",
                             415
                           ]
                         },
@@ -17105,7 +17173,17 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.google.com/youtube/answer/2734796?hl=en",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -17325,13 +17403,6 @@ body {
                       data: [
                         "https://www.patrick-wied.at/static/heatmapjs/",
                         "certificate has expired"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
                       ]
                     },
                     {
@@ -21824,7 +21895,21 @@ button:interest-source {
                   }
                 },
                 private_state_token_api: {
-                  children: {},
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Private_State_Token_API/Using",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://boringssl.googlesource.com/boringssl/",
+                            503
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Private_State_Token_API",
                   messages: [
                     {
@@ -23908,13 +23993,6 @@ h1 {
                         "https://css-tricks.com/form-validation-web-audio/",
                         415
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -24101,8 +24179,8 @@ api.Window.sessionStorage`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.asyncapi.com/blog/websocket-part1",
-                        "The operation timed out."
+                        "https://websocketking.com/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     },
                     {
@@ -24113,6 +24191,42 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                webtransportdatagramduplexstream: {
+                  children: {
+                    incominghighwatermark: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebTransportDatagramDuplexStream/incomingHighWaterMark",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    outgoinghighwatermark: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebTransportDatagramDuplexStream/outgoingHighWaterMark",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 webvtt_api: {
                   children: {
@@ -25329,19 +25443,6 @@ body {
                     },
                     cascade: {
                       children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         specificity: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Cascade/Specificity",
@@ -27644,6 +27745,13 @@ p {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -27733,6 +27841,216 @@ css.at-rules.font-face.WOFF_2`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/Guides/Gaps",
                       messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-break"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-cap"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-cap-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-cap-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-junction"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-junction-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-junction-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/column-rule-inset-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-break"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-color"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-cap"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-cap-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-cap-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-junction"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-junction-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-junction-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-inset-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-style"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/row-rule-width"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-break"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-color"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-inset"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-inset-cap"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-inset-end"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-inset-junction"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-inset-start"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-overlap"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-style"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/rule-width"
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -27901,6 +28219,13 @@ blockquote p::after {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -46308,6 +46633,149 @@ p {
                             }
                           ]
                         },
+                        "column-rule-visibility-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)',
+                                "column-rule-visibility-items: all;",
+                                "1:1 - 1:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)
+~~~
+column-rule-visibility-items: all;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)',
+                                "column-rule-visibility-items: around;",
+                                "1:1 - 1:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)
+~~~
+column-rule-visibility-items: around;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)',
+                                "column-rule-visibility-items: between;",
+                                "1:1 - 1:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)
+~~~
+column-rule-visibility-items: between;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)',
+                                "column-rule-visibility-items: normal;",
+                                "1:1 - 1:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)
+~~~
+column-rule-visibility-items: normal;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "    <cite>-- Dr. Seuss<cite>",
+                                "7:2 - 7:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<section id="default-example">
+  <section id="example-element">
+    <p>One fish</p>
+    <p>Two fish</p>
+    <p>Red fish</p>
+    <p>Blue fish</p>
+    <cite>-- Dr. Seuss<cite>
+  </section>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)',
+                                "  column-rule-visibility-items: between;",
+                                "8:3 - 8:31",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "column-rule-visibility-items" (property-no-unknown)
+~~~
+ol {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+  column-rule: dashed 5px blue;
+  column-rule-visibility-items: between;
+}
+li:last-child {
+  grid-row: 4;
+  grid-column: 4;
+}
+
+li {
+  margin-left: 1em;
+}
+@layer no-support {
+  @supports not (column-rule-visibility-items: around) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-visibility-items property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         columns: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
@@ -46801,6 +47269,13 @@ ellipse {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -49481,6 +49956,13 @@ img.opacity:hover {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://tink.uk/flexbox-the-keyboard-navigation-disconnect/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -50197,6 +50679,306 @@ body {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/row-rule"
+                              ]
+                            }
+                          ]
+                        },
+                        "row-rule-visibility-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items",
+                          messages: [
+                            {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items"
+                              ]
+                            },
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/row-rule"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)',
+                                "row-rule-visibility-items: all;",
+                                "1:1 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
+~~~
+row-rule-visibility-items: all;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)',
+                                "row-rule-visibility-items: around;",
+                                "1:1 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
+~~~
+row-rule-visibility-items: around;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)',
+                                "row-rule-visibility-items: between;",
+                                "1:1 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
+~~~
+row-rule-visibility-items: between;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)',
+                                "row-rule-visibility-items: normal;",
+                                "1:1 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
+~~~
+row-rule-visibility-items: normal;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "    <cite>-- Dr. Seuss<cite>",
+                                "7:2 - 7:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<section id="default-example">
+  <section id="example-element">
+    <p>One fish</p>
+    <p>Two fish</p>
+    <p>Red fish</p>
+    <p>Blue fish</p>
+    <cite>-- Dr. Seuss<cite>
+  </section>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)',
+                                "  row-rule-visibility-items: around;",
+                                "8:3 - 8:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
+[property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
+~~~
+ol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+
+  row-rule: dashed 5px blue;
+  row-rule-visibility-items: around;
+}
+li:last-child {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+li {
+  margin-left: 1em;
+}
+@layer no-support {
+  @supports not (row-rule-visibility-items: around) {
+    body::before {
+      content: "Your browser doesn't support the row-rule-visibility-items property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "rule-visibility-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "rule-visibility-items" (property-no-unknown)',
+                                "rule-visibility-items: all;",
+                                "1:1 - 1:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
+~~~
+rule-visibility-items: all;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "rule-visibility-items" (property-no-unknown)',
+                                "rule-visibility-items: around;",
+                                "1:1 - 1:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
+~~~
+rule-visibility-items: around;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "rule-visibility-items" (property-no-unknown)',
+                                "rule-visibility-items: between;",
+                                "1:1 - 1:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
+~~~
+rule-visibility-items: between;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "rule-visibility-items" (property-no-unknown)',
+                                "rule-visibility-items: normal;",
+                                "1:1 - 1:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
+~~~
+rule-visibility-items: normal;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                                "    <cite>-- Dr. Seuss<cite>",
+                                "7:2 - 7:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<section id="default-example">
+  <section id="example-element">
+    <p>One fish</p>
+    <p>Two fish</p>
+    <p>Red fish</p>
+    <p>Blue fish</p>
+    <cite>-- Dr. Seuss<cite>
+  </section>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "rule-visibility-items" (property-no-unknown)',
+                                "  rule-visibility-items: around;",
+                                "10:3 - 10:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
+[property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
+~~~
+ol {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  column-rule: dashed 5px blue;
+  row-rule: solid 5px red;
+
+  rule-visibility-items: around;
+}
+li:last-child {
+  grid-row: 4;
+  grid-column: 4;
+}
+
+li {
+  margin-left: 1em;
+}
+@layer no-support {
+  @supports not (rule-visibility-items: around) {
+    body::before {
+      content: "Your browser doesn't support the rule-visibility-items shorthand";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
                               ]
                             }
                           ]
@@ -52549,6 +53331,24 @@ p:has(~ form > input:checked) {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items"
                           ]
                         }
                       ]
@@ -77307,6 +78107,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "column-rule-visibility-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "column-rule-width CSS property"
                       ]
                     },
@@ -80145,6 +80951,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "row-rule-visibility-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "ruby-align CSS property"
                       ]
                     },
@@ -80164,6 +80976,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "<rule-list> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rule-visibility-items CSS property"
                       ]
                     },
                     {
@@ -83015,6 +83833,24 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        "critical-ch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Critical-CH",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                [
+                                  "experimental"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
                         "cross-origin-embedder-policy-report-only": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only",
@@ -83032,6 +83868,24 @@ http.headers.Use-As-Dictionary`,
                                 "http.headers.Cross-Origin-Embedder-Policy",
                                 "Expected:",
                                 "http.headers.Cross-Origin-Embedder-Policy-Report-Only"
+                              ]
+                            }
+                          ]
+                        },
+                        "idempotency-key": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Idempotency-Key",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                [
+                                  "experimental"
+                                ]
                               ]
                             }
                           ]
@@ -83292,13 +84146,6 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/options",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -83745,8 +84592,8 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
+                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
+                            404
                           ]
                         },
                         {
@@ -83759,71 +84606,8 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
                             404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -84127,6 +84911,23 @@ doIt(); // returns "finally"
             },
             progressive_web_apps: {
               children: {
+                guides: {
+                  children: {
+                    installing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chrome/answer/9658361",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 how_to: {
                   children: {
                     customize_your_app_colors: {
@@ -84166,6 +84967,26 @@ doIt(); // returns "finally"
                 },
                 authentication: {
                   children: {
+                    federated_identity: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Authentication/Federated_identity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.rfc-editor.org/info/rfc9700/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.rfc-editor.org/info/rfc9700/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     passkeys: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Authentication/Passkeys",
