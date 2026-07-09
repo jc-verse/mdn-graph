@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-d1sw7649.js";
+} from "./chunk-rbrstdpr.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -57,7 +57,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.KeyCode.html",
-                            "Was there a typo in the url or port?"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -270,19 +270,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            browser: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Browser",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://www.microsoft.com/en-us/edge",
-                    "https://explore.microsoft.com/en-us/edge?ep=0&form=MA1403&es=325&cs=3090232544"
-                  ]
                 }
               ]
             },
@@ -966,19 +953,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            imap: {
-              children: {},
-              slug: "/en-US/docs/Glossary/IMAP",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://www.rfc-editor.org/info/rfc3501",
-                    "https://www.rfc-editor.org/info/rfc3501/"
-                  ]
-                }
-              ]
-            },
             instance: {
               children: {},
               slug: "/en-US/docs/Glossary/Instance",
@@ -996,6 +970,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            leading: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Leading",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://matthiasott.com/notes/the-thing-with-leading-in-css",
+                    "Unable to connect. Is the computer able to access the url?"
+                  ]
                 }
               ]
             },
@@ -1060,19 +1047,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            microsoft_edge: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Microsoft_Edge",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://www.microsoft.com/en-us/edge",
-                    "https://explore.microsoft.com/en-us/edge?ep=0&form=MA1403&es=325&cs=3090232544"
-                  ]
                 }
               ]
             },
@@ -2789,13 +2763,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.notion.so/Editors-Tooling-5da96f0b2baf4ce1bf3fd58e3b60c7f6",
-                            "https://app.notion.com/p/Editors-Tooling-5da96f0b2baf4ce1bf3fd58e3b60c7f6?__dm_a=1"
-                          ]
                         }
                       ]
                     },
@@ -2816,13 +2783,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12705,562 +12665,17 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/fonts/docs/troubleshooting",
-                            "https://fonts.google.com/faq#troubleshooting"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "https://cwiki.apache.org/confluence/spaces/HTTPD/pages/115522478/RewriteHTTPToHTTPS"
-                          ]
-                        }
-                      ]
-                    },
-                    express_nodejs: {
+                    django: {
                       children: {
                         deployment: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
                           messages: [
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
-                                "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                "https://expressjs.com/en/advanced/best-practice-performance/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/advanced/best-practice-security.html",
-                                "https://expressjs.com/en/advanced/best-practice-security/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                "https://expressjs.com/en/advanced/best-practice-performance/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://helmetjs.github.io/",
-                                "https://helmet.js.org/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/advanced/best-practice-performance.html",
-                                "https://expressjs.com/en/advanced/best-practice-performance/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/advanced/best-practice-security.html",
-                                "https://expressjs.com/en/advanced/best-practice-security/"
-                              ]
-                            }
-                          ]
-                        },
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/generator.html",
-                                "https://expressjs.com/en/starter/generator/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/installing.html",
-                                "https://expressjs.com/en/starter/installing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/generator.html",
-                                "https://expressjs.com/en/starter/generator/"
-                              ]
-                            }
-                          ]
-                        },
-                        displaying_data: {
-                          children: {
-                            home_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Home_page",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://expressjs.com/en/5x/api.html",
-                                    "https://expressjs.com/en/5x/api/"
-                                  ]
-                                }
-                              ]
-                            },
-                            template_primer: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Template_primer",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://expressjs.com/en/guide/using-template-engines.html",
-                                    "https://expressjs.com/en/guide/using-template-engines/"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-template-engines.html",
-                                "https://expressjs.com/en/guide/using-template-engines/"
-                              ]
-                            }
-                          ]
-                        },
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/resources/middleware.html",
-                                "https://expressjs.com/en/resources/middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/hello-world.html",
-                                "https://expressjs.com/en/starter/hello-world/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/resources/middleware.html",
-                                "https://expressjs.com/en/resources/middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/resources/middleware/morgan.html",
-                                "https://expressjs.com/en/resources/middleware/morgan/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-middleware.html",
-                                "https://expressjs.com/en/guide/using-middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/writing-middleware.html",
-                                "https://expressjs.com/en/guide/writing-middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/static-files.html",
-                                "https://expressjs.com/en/starter/static-files/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/faq.html",
-                                "https://expressjs.com/en/starter/faq/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/error-handling.html",
-                                "https://expressjs.com/en/guide/error-handling/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-template-engines.html",
-                                "https://expressjs.com/en/guide/using-template-engines/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/basic-routing.html",
-                                "https://expressjs.com/en/starter/basic-routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-template-engines.html",
-                                "https://expressjs.com/en/guide/using-template-engines/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-middleware.html",
-                                "https://expressjs.com/en/guide/using-middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/writing-middleware.html",
-                                "https://expressjs.com/en/guide/writing-middleware/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/static-files.html",
-                                "https://expressjs.com/en/starter/static-files/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/error-handling.html",
-                                "https://expressjs.com/en/guide/error-handling/"
-                              ]
-                            }
-                          ]
-                        },
-                        mongoose: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            }
-                          ]
-                        },
-                        routes: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/routes",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/basic-routing.html",
-                                "https://expressjs.com/en/starter/basic-routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/error-handling.html",
-                                "https://expressjs.com/en/guide/error-handling/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/basic-routing.html",
-                                "https://expressjs.com/en/starter/basic-routing/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/routing.html",
-                                "https://expressjs.com/en/guide/routing/"
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/generator.html",
-                                "https://expressjs.com/en/starter/generator/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/hello-world.html",
-                                "https://expressjs.com/en/starter/hello-world/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-template-engines.html",
-                                "https://expressjs.com/en/guide/using-template-engines/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/database-integration.html",
-                                "https://expressjs.com/en/guide/database-integration/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/api.html",
-                                "https://expressjs.com/en/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/hello-world.html",
-                                "https://expressjs.com/en/starter/hello-world/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/api.html",
-                                "https://expressjs.com/en/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/5x/api.html",
-                                "https://expressjs.com/en/5x/api/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/starter/generator.html",
-                                "https://expressjs.com/en/starter/generator/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://expressjs.com/en/guide/using-template-engines.html",
-                                "https://expressjs.com/en/guide/using-template-engines/"
+                                "https://www.hetzner.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -13805,15 +13220,22 @@ body {
                         }
                       ]
                     },
-                    introduction: {
+                    testing_strategies: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Introduction",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://www.microsoft.com/en-us/edge/download/insider",
-                            "https://explore.microsoft.com/en-us/edge/download/insider?cc=1&cs=3090232544&form=MA13FJ"
+                            "https://support.google.com/analytics/answer/9304153",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chrome/answer/2364824",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13826,51 +13248,20 @@ body {
               children: {
                 environment_setup: {
                   children: {
-                    installing_software: {
+                    browsing_the_web: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://www.microsoft.com/en-us/edge",
-                            "https://explore.microsoft.com/en-us/edge?ep=0&form=MA1403&es=325&cs=3090232544"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.microsoft.com/en-us/edge/mobile",
-                            "https://explore.microsoft.com/en-us/edge/mobile?ep=2183&es=371&form=MT00OS&cs=3090232544"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://support.microsoft.com/en-gb/windows/manage-photos-and-videos-with-microsoft-photos-app-c0c6422f-d4cb-2e3d-eb65-7069071b2f9b",
-                            "https://support.microsoft.com/en-us/windows/apps/photos/manage-photos-and-videos-with-microsoft-photos-app"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.getpaint.net/",
-                            "https://paint.net/"
+                            "https://support.google.com/websearch/answer/2466433?hl=en",
+                            "The operation timed out."
                           ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://support.microsoft.com/en-us/windows",
-                        "https://support.microsoft.com/en-us/windows/"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 soft_skills: {
                   children: {
@@ -14104,19 +13495,6 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://support.microsoft.com/en-us/windows",
-                            "https://support.microsoft.com/en-us/windows/"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -14124,19 +13502,6 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.getpaint.net/",
-                            "https://paint.net/"
-                          ]
                         }
                       ]
                     }
@@ -14284,19 +13649,6 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
-                    images_media: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
-                            "https://photography.tutsplus.com/video/c/production-recording/s/screen-recording"
-                          ]
-                        }
-                      ]
-                    },
                     retiring_content: {
                       children: {
                         retired_content: {
@@ -15192,132 +14544,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         webrequest: {
                           children: {
-                            onauthrequired: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforeredirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforerequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforesendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onheadersreceived: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onresponsestarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
-                            onsendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
-                              messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "parentDocumentId",
-                                    "Text after code:",
-                                    "Optional"
-                                  ]
-                                }
-                              ]
-                            },
                             streamfilter: {
                               children: {
                                 close: {
@@ -15523,68 +14749,6 @@ webextensions.api.clipboard`,
                         }
                       ]
                     },
-                    use_the_web_authn_api: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "doctype-style",
-                            "DOCTYPE should be lowercase",
-                            "<!DOCTYPE ",
-                            "1:1",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api
-[doctype-style] DOCTYPE should be lowercase
-~~~
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>WebAuthn Extension</title>
-  </head>
-  <body>
-    <h1>WebAuthn</h1>
-    <textarea id="optionsText" placeholder="Enter options JSON here"></textarea>
-    <button id="registerButton">Register (navigator.credentials.create)</button>
-    <button id="authButton">Authenticate (navigator.credentials.get)</button>
-    <script src="popup.js"></script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<html> is missing required "lang" attribute',
-                            "html",
-                            "2:2",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api
-[element-required-attributes] <html> is missing required "lang" attribute
-~~~
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>WebAuthn Extension</title>
-  </head>
-  <body>
-    <h1>WebAuthn</h1>
-    <textarea id="optionsText" placeholder="Enter options JSON here"></textarea>
-    <button id="registerButton">Register (navigator.credentials.create)</button>
-    <button id="authButton">Authenticate (navigator.credentials.get)</button>
-    <script src="popup.js"></script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     user_interface: {
                       children: {
                         browser_styles: {
@@ -15668,12 +14832,6 @@ webextensions.manifest.options_ui`,
                       message: "Code with underscore",
                       data: [
                         "javascript.options.experimental.iterator_includes"
-                      ]
-                    },
-                    {
-                      message: "Code with underscore",
-                      data: [
-                        "javascript.options.experimental.intl_locale_info"
                       ]
                     },
                     {
@@ -16832,22 +15990,6 @@ body {
 api.MessagePort`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                client: {
-                  children: {
-                    url: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Client/url",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/Client/url"
                           ]
                         }
                       ]
@@ -18608,69 +17750,6 @@ api.DeviceOrientationEvent`,
                 },
                 element: {
                   children: {
-                    attachshadow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/attachShadow",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab before '*/' in comment.",
-                            '    this.attachShadow({ mode: "open" /*, slotAssignment: "named"*/ });',
-                            "5:38 - 5:68",
-                            `/en-US/docs/Web/API/Element/attachShadow
-[spaced-comment] Expected space or tab before '*/' in comment.
-~~~
-class MyArticle extends HTMLElement {
-  constructor() {
-    super();
-    // Attach the shadow root
-    this.attachShadow({ mode: "open" /*, slotAssignment: "named"*/ });
-  }
-
-  connectedCallback() {
-    this.render();
-  }
-
-  render() {
-    // Define the internal structure and styles
-    this.shadowRoot.innerHTML = \`
-      <style>
-        .header {
-          background-color: plum;
-        }
-        .meta {
-          background-color: green;
-        }
-        .body {
-          background-color: lightblue;
-        }
-      </style>
-
-      <h2 class="header">
-        <slot name="title"></slot>
-      </h2>
-
-      <div class="meta">
-        <slot name="meta"></slot>
-      </div>
-
-      <div class="body">
-        <slot></slot>
-      </div>
-    \`;
-  }
-}
-
-// Register the component
-customElements.define("my-article", MyArticle);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     getanimations: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/getAnimations",
@@ -18711,148 +17790,6 @@ customElements.define("my-article", MyArticle);
     width: 100%;
   }
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scroll: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scroll",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollby: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollBy",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollintoview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollIntoView",
-                      messages: [
-                        {
-                          message: "Bad DL",
-                          data: [
-                            `: A boolean value:
-
-If true, the top of the elemen`
-                          ]
-                        },
-                        {
-                          message: "Bad DL",
-                          data: [
-                            `: An object with the following properties:
-
-behavi`
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollTo",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    sethtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "camelcase",
-                            "Identifier 'other_element' is not in camel case.",
-                            "other_element.innerHTML = serializedHTML;",
-                            "3:1 - 3:14",
-                            `/en-US/docs/Web/API/Element/setHTML
-[camelcase] Identifier 'other_element' is not in camel case.
-~~~
-div.setHTML(unsafeString); // Safe
-const serializedHTML = div.innerHTML; // No longer sanitized!
-other_element.innerHTML = serializedHTML;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "camelcase",
-                            "Identifier 'other_div' is not in camel case.",
-                            "other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()",
-                            "3:1 - 3:10",
-                            `/en-US/docs/Web/API/Element/setHTML
-[camelcase] Identifier 'other_div' is not in camel case.
-~~~
-div.setHTML(unsafeString); // Safe
-const serializedHTML = div.innerHTML; // Serialized as a plain string
-other_div.setHTML(serializedHTML); // Safe — re-sanitized by setHTML()
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    startviewtransition: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/startViewTransition",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "2:38",
-                            `/en-US/docs/Web/API/Element/startViewTransition
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<p>
-  I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea narwhal
-  asymmetrical.
-</p>
-<section>Slide 1</section>
-<button>Update slide</button>
-<p>
-  Kombucha laborum tempor iceland pour-over. Keytar in echo park gorpcore
-  bespoke.
-</p>
 ~~~
 `
                           ]
@@ -20151,23 +19088,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://apps.microsoft.com/?rtc=1&hl=en-us&gl=us",
-                            "https://apps.microsoft.com/?rtc=1&hl=en-US&gl=US"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -20881,21 +19801,7 @@ button:interest-source {
                   }
                 },
                 private_state_token_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Private_State_Token_API/Using",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://boringssl.googlesource.com/boringssl/",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Private_State_Token_API",
                   messages: [
                     {
@@ -20984,72 +19890,6 @@ button:interest-source {
                       children: {},
                       slug: "/en-US/docs/Web/API/Request/isReloadNavigation",
                       messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `        .then((response) => {
-          return response;
-        })`,
-                            "5:29 - 7:10",
-                            `/en-US/docs/Web/API/Request/isReloadNavigation
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-self.addEventListener("fetch", (event) => {
-  if (event.request.mode === "navigate" && event.request.isReloadNavigation) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          return response;
-        })
-        .catch(() => caches.match(event.request)),
-    );
-  } else {
-    event.respondWith(
-      caches.match(event.request).then((cached) => {
-        return cached || fetch(event.request);
-      }),
-    );
-  }
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `      caches.match(event.request).then((cached) => {
-        return cached || fetch(event.request);
-      }),`,
-                            "12:52 - 14:8",
-                            `/en-US/docs/Web/API/Request/isReloadNavigation
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-self.addEventListener("fetch", (event) => {
-  if (event.request.mode === "navigate" && event.request.isReloadNavigation) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          return response;
-        })
-        .catch(() => caches.match(event.request)),
-    );
-  } else {
-    event.respondWith(
-      caches.match(event.request).then((cached) => {
-        return cached || fetch(event.request);
-      }),
-    );
-  }
-});
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -21460,32 +20300,12 @@ self.addEventListener("fetch", (event) => {
                     }
                   }
                 },
-                svganimatedenumeration: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGAnimatedEnumeration",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#baseval",
-                        "/en-US/docs/Web/API/SVGAnimatedEnumeration/baseVal",
-                        []
-                      ]
-                    }
-                  ]
-                },
                 svgtextpathelement: {
                   children: {
                     side: {
                       children: {},
                       slug: "/en-US/docs/Web/API/SVGTextPathElement/side",
                       messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGTextPathElement/side"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -22079,36 +20899,6 @@ ul::before {
                           ]
                         },
                         {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "2:38",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<p>
-  I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea narwhal
-  asymmetrical.
-</p>
-
-<ul>
-  <li><a href="#">Standard</a></li>
-  <li><a href="#">Standard</a></li>
-  <li><a href="#">Standard</a></li>
-  <li><a href="#">Standard</a></li>
-</ul>
-
-<p>
-  Kombucha laborum tempor iceland pour-over. Keytar in echo park gorpcore
-  bespoke.
-</p>
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "color-hex-length",
@@ -22238,76 +21028,6 @@ section p {
 ::view-transition-new(content) {
   animation: rotate-in 0.3s 0.3s 1 both linear;
 }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "2:38",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<p>
-  I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea narwhal
-  asymmetrical.
-</p>
-
-<section>
-  <p>
-    I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea
-    narwhal asymmetrical. Af health goth shaman in slow-carb godard echo park.
-    Tofu farm-to-table labore salvia tote bag food truck dolore gluten-free
-    poutine kombucha fanny pack +1 franzen lyft fugiat. Chicharrones next level
-    jianbing, enamel pin seitan cardigan bruh snackwave beard incididunt dolor
-    lumber before they sold out dreamcatcher single-origin coffee.
-  </p>
-</section>
-<button>Change!</button>
-
-<p>
-  Kombucha laborum tempor iceland pour-over. Keytar in echo park gorpcore
-  bespoke.
-</p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "8:40",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<p>
-  I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea narwhal
-  asymmetrical.
-</p>
-
-<section>
-  <p>
-    I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea
-    narwhal asymmetrical. Af health goth shaman in slow-carb godard echo park.
-    Tofu farm-to-table labore salvia tote bag food truck dolore gluten-free
-    poutine kombucha fanny pack +1 franzen lyft fugiat. Chicharrones next level
-    jianbing, enamel pin seitan cardigan bruh snackwave beard incididunt dolor
-    lumber before they sold out dreamcatcher single-origin coffee.
-  </p>
-</section>
-<button>Change!</button>
-
-<p>
-  Kombucha laborum tempor iceland pour-over. Keytar in echo park gorpcore
-  bespoke.
-</p>
 ~~~
 `
                           ]
@@ -22542,43 +21262,6 @@ a:focus {
 ::view-transition-new(wrapper) {
   animation: fade-in 0.3s 0.3s 1 both linear;
 }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "2:38",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<p>
-  I'm baby xOXO bespoke cupidatat PBR&B, affogato cronut 3 wolf moon ea narwhal
-  asymmetrical.
-</p>
-<div class="wrapper">
-  <ul class="one">
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-  </ul>
-
-  <ul class="two">
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-    <li><a href="#">Standard</a></li>
-  </ul>
-</div>
-<p>
-  Kombucha laborum tempor iceland pour-over. Keytar in echo park gorpcore
-  bespoke.
-</p>
 ~~~
 `
                           ]
@@ -23098,15 +21781,22 @@ api.Window.sessionStorage`,
                     {
                       message: "Broken external link",
                       data: [
+                        "https://www.asyncapi.com/blog/websocket-part1",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://www.asyncapi.com/blog/websocket-part2",
                         "The operation timed out."
                       ]
                     },
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://hexdocs.pm/phoenix/channels.html",
-                        "https://phoenix.hexdocs.pm/channels.html"
+                        "https://websocketking.com/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -23193,48 +21883,6 @@ api.Window.sessionStorage`,
                 },
                 window: {
                   children: {
-                    scroll: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scroll",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollby: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollBy",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollTo",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "await",
-                            "Text after code:",
-                            "ing its promise resolution as we do so and storing"
-                          ]
-                        }
-                      ]
-                    },
                     setinterval: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/setInterval",
@@ -23628,14 +22276,6 @@ function onVisibilityMaskChange(event) {
                   children: {},
                   slug: "/en-US/docs/Web/API/XRVisibilityMaskChangeEvent",
                   messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#vertices",
-                        "/en-US/docs/Web/API/XRVisibilityMaskChangeEvent/vertices",
-                        []
-                      ]
-                    },
                     {
                       message: "JS code issue",
                       data: [
@@ -24350,23 +22990,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    cascade: {
-                      children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
                               ]
                             }
                           ]
@@ -26119,12 +24742,6 @@ rgb(from red r g b / alpha)
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
                           messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/CSS/Guides/Containment/Container_queries#naming_containment_contexts"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -35540,6 +34157,13 @@ div {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gradient.style/",
+                                "unknown certificate verification error"
+                              ]
                             }
                           ]
                         }
@@ -38548,59 +37172,6 @@ article.snapDisabled ul {
                           slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets",
                           messages: [
                             {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </article>",
-                                "24:0 - 24:7",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-  <article>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll down ⇩</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <section class="one animated_element">
-      <div>
-        <i>Animated Element</i>
-        <span></span>
-      </div>
-    </section>
-    <section class="double">
-      <div>
-        <i id="A" class="animated_element">A</i>
-        <i id="B" class="animated_element">B</i>
-      </div>
-    </section>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll up ⇧</p>
-  </article>
-</main>
-
-<fieldset>
-  <legend>Select the height of the animated element</legend>
-
-  <label><input name="height" value="50" type="radio" checked /> 50px</label>
-  <label><input name="height" value="250" type="radio" /> 250px</label>
-  <label><input name="height" value="500" type="radio" /> 500px</label>
-</fieldset>
-<fieldset class="double">
-  <legend>Select the animation range</legend>
-
-  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
-  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
-</fieldset>
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "color-hex-length",
@@ -38900,59 +37471,6 @@ article {
 .double {
   display: none;
 }
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </article>",
-                                "24:0 - 24:7",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-  <article>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll down ⇩</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <section class="one animated_element">
-      <div>
-        <i>Animated Element</i>
-        <span></span>
-      </div>
-    </section>
-    <section class="double">
-      <div>
-        <i id="A" class="animated_element">A</i>
-        <i id="B" class="animated_element">B</i>
-      </div>
-    </section>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll up ⇧</p>
-  </article>
-</main>
-
-<fieldset>
-  <legend>Select the height of the animated element</legend>
-
-  <label><input name="height" value="50" type="radio" checked /> 50px</label>
-  <label><input name="height" value="250" type="radio" /> 250px</label>
-  <label><input name="height" value="500" type="radio" /> 500px</label>
-</fieldset>
-<fieldset class="double">
-  <legend>Select the animation range</legend>
-
-  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
-  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
-</fieldset>
 ~~~
 `
                               ]
@@ -39361,59 +37879,6 @@ article {
     }
   }
 }
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </article>",
-                                "24:0 - 24:7",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-  <article>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll down ⇩</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <section class="one animated_element">
-      <div>
-        <i>Animated Element</i>
-        <span></span>
-      </div>
-    </section>
-    <section class="double">
-      <div>
-        <i id="A" class="animated_element">A</i>
-        <i id="B" class="animated_element">B</i>
-      </div>
-    </section>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll up ⇧</p>
-  </article>
-</main>
-
-<fieldset>
-  <legend>Select the height of the animated element</legend>
-
-  <label><input name="height" value="50" type="radio" checked /> 50px</label>
-  <label><input name="height" value="250" type="radio" /> 250px</label>
-  <label><input name="height" value="500" type="radio" /> 500px</label>
-</fieldset>
-<fieldset class="double">
-  <legend>Select the animation range</legend>
-
-  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
-  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
-</fieldset>
 ~~~
 `
                               ]
@@ -40289,59 +38754,6 @@ article {
 .double {
   display: none;
 }
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </article>",
-                                "24:0 - 24:7",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[syntax] Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-  <article>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll down ⇩</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <section class="one animated_element">
-      <div>
-        <i>Animated Element</i>
-        <span></span>
-      </div>
-    </section>
-    <section class="double">
-      <div>
-        <i id="A" class="animated_element">A</i>
-        <i id="B" class="animated_element">B</i>
-      </div>
-    </section>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>Scroll up ⇧</p>
-  </article>
-</main>
-
-<fieldset>
-  <legend>Select the height of the animated element</legend>
-
-  <label><input name="height" value="50" type="radio" checked /> 50px</label>
-  <label><input name="height" value="250" type="radio" /> 250px</label>
-  <label><input name="height" value="500" type="radio" /> 500px</label>
-</fieldset>
-<fieldset class="double">
-  <legend>Select the animation range</legend>
-
-  <label><input name="range" value="20" type="radio" checked />20% / 60%</label>
-  <label><input name="range" value="0" type="radio" /> 0% / 100%</label>
-</fieldset>
 ~~~
 `
                               ]
@@ -41857,6 +40269,13 @@ section {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -43334,10 +41753,10 @@ div {
                                   data: []
                                 },
                                 {
-                                  message: "Broken external link",
+                                  message: "Redirected external link",
                                   data: [
                                     "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode",
-                                    "The operation timed out."
+                                    "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode/"
                                   ]
                                 }
                               ]
@@ -45445,29 +43864,6 @@ column-rule-visibility-items: normal;
                               ]
                             },
                             {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "    <cite>-- Dr. Seuss<cite>",
-                                "7:2 - 7:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items
-[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<section id="default-example">
-  <section id="example-element">
-    <p>One fish</p>
-    <p>Two fish</p>
-    <p>Red fish</p>
-    <p>Blue fish</p>
-    <cite>-- Dr. Seuss<cite>
-  </section>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -45556,12 +43952,6 @@ body {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/container-name",
                           messages: [
                             {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Properties/container-name"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "at-rule-prelude-no-invalid",
@@ -45645,6 +44035,19 @@ body {
                             }
                           ]
                         },
+                        content: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://webflow.com/glossary/accessibility-tree",
+                                "https://university.webflow.com/glossary/accessibility-tree"
+                              ]
+                            }
+                          ]
+                        },
                         "counter-increment": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-increment",
@@ -45684,19 +44087,6 @@ i {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://gomakethings.com/hidden-content-for-better-a11y/",
-                                "https://gomakethings.com/articles/hidden-content-for-better-a11y/"
                               ]
                             }
                           ]
@@ -46246,34 +44636,6 @@ rect {
                             }
                           ]
                         },
-                        font: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "prefer-arrow-callback",
-                                "Unexpected function expression.",
-                                `aElem.addEventListener("click", function (e) {
-  e.preventDefault();
-  return false;
-});`,
-                                "2:33 - 5:2",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-const aElem = document.querySelector("a");
-aElem.addEventListener("click", function (e) {
-  e.preventDefault();
-  return false;
-});
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "font-family": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/font-family",
@@ -46366,18 +44728,6 @@ p {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/gap",
                           messages: [
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": The size of the gap as a non-negative <length> v"
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": The size of the gap as a non-negative <percentag"
-                              ]
-                            },
                             {
                               message: "Broken link",
                               data: [
@@ -49356,12 +47706,6 @@ body {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items",
                           messages: [
                             {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items"
-                              ]
-                            },
-                            {
                               message: "Missing data",
                               data: [
                                 "CSS info"
@@ -49435,29 +47779,6 @@ row-rule-visibility-items: between;
 [property-no-unknown] Unexpected unknown property "row-rule-visibility-items" (property-no-unknown)
 ~~~
 row-rule-visibility-items: normal;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "    <cite>-- Dr. Seuss<cite>",
-                                "7:2 - 7:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items
-[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<section id="default-example">
-  <section id="example-element">
-    <p>One fish</p>
-    <p>Two fish</p>
-    <p>Red fish</p>
-    <p>Blue fish</p>
-    <cite>-- Dr. Seuss<cite>
-  </section>
-</section>
 ~~~
 `
                               ]
@@ -49578,29 +47899,6 @@ rule-visibility-items: between;
 [property-no-unknown] Unexpected unknown property "rule-visibility-items" (property-no-unknown)
 ~~~
 rule-visibility-items: normal;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "    <cite>-- Dr. Seuss<cite>",
-                                "7:2 - 7:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items
-[syntax] Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<section id="default-example">
-  <section id="example-element">
-    <p>One fish</p>
-    <p>Two fish</p>
-    <p>Red fish</p>
-    <p>Blue fish</p>
-    <cite>-- Dr. Seuss<cite>
-  </section>
-</section>
 ~~~
 `
                               ]
@@ -51151,6 +49449,19 @@ div {
                             }
                           ]
                         },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "transform-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
@@ -52234,20 +50545,6 @@ input:-internal-autofill-selected {
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://gomakethings.com/hidden-content-for-better-a11y/",
-                                "https://gomakethings.com/articles/hidden-content-for-better-a11y/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://gomakethings.com/hidden-content-for-better-a11y/",
-                                "https://gomakethings.com/articles/hidden-content-for-better-a11y/"
-                              ]
                             }
                           ]
                         },
@@ -54573,18 +52870,18 @@ div {
 [declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
 ~~~
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.3);
+  --my-color: oklch(60% 0.25 315 / 0.3);
 
   /* Same color, but with alpha set to 80% */
-  --mycolor-80: alpha(from var(--mycolor) / 80%);
+  --my-color-80: alpha(from var(--my-color) / 80%);
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-80);
+  background-color: var(--my-color-80);
 }
 
 body {
@@ -54625,24 +52922,24 @@ div {
                                   data: [
                                     "function-no-unknown",
                                     'Unexpected unknown function "alpha" (function-no-unknown)',
-                                    "  --mycolor-80: alpha(from var(--mycolor) / 80%);",
-                                    "5:17 - 5:22",
+                                    "  --my-color-80: alpha(from var(--my-color) / 80%);",
+                                    "5:18 - 5:23",
                                     `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
 [function-no-unknown] Unexpected unknown function "alpha" (function-no-unknown)
 ~~~
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.3);
+  --my-color: oklch(60% 0.25 315 / 0.3);
 
   /* Same color, but with alpha set to 80% */
-  --mycolor-80: alpha(from var(--mycolor) / 80%);
+  --my-color-80: alpha(from var(--my-color) / 80%);
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-80);
+  background-color: var(--my-color-80);
 }
 
 body {
@@ -54683,24 +52980,24 @@ div {
                                   data: [
                                     "lightness-notation",
                                     'Expected "60%" to be "0.6" (lightness-notation)',
-                                    "  --mycolor: oklch(60% 0.25 315 / 0.3);",
-                                    "2:20 - 2:23",
+                                    "  --my-color: oklch(60% 0.25 315 / 0.3);",
+                                    "2:21 - 2:24",
                                     `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
 [lightness-notation] Expected "60%" to be "0.6" (lightness-notation)
 ~~~
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.3);
+  --my-color: oklch(60% 0.25 315 / 0.3);
 
   /* Same color, but with alpha set to 80% */
-  --mycolor-80: alpha(from var(--mycolor) / 80%);
+  --my-color-80: alpha(from var(--my-color) / 80%);
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-80);
+  background-color: var(--my-color-80);
 }
 
 body {
@@ -54762,18 +53059,18 @@ div {
 }
 
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.8);
+  --my-color: oklch(60% 0.25 315 / 0.8);
 
-  /* Half the opacity of --mycolor */
-  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+  /* Half the opacity of --my-color */
+  --my-color-half-opacity: alpha(from var(--my-color) / calc(alpha * 0.5));
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-half-opacity);
+  background-color: var(--my-color-half-opacity);
 }
 
 @supports not (color: alpha(from red / 50%)) {
@@ -54799,8 +53096,8 @@ div {
                                   data: [
                                     "function-no-unknown",
                                     'Unexpected unknown function "alpha" (function-no-unknown)',
-                                    "  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));",
-                                    "20:27 - 20:32",
+                                    "  --my-color-half-opacity: alpha(from var(--my-color) / calc(alpha * 0.5));",
+                                    "20:28 - 20:33",
                                     `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
 [function-no-unknown] Unexpected unknown function "alpha" (function-no-unknown)
 ~~~
@@ -54820,18 +53117,18 @@ div {
 }
 
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.8);
+  --my-color: oklch(60% 0.25 315 / 0.8);
 
-  /* Half the opacity of --mycolor */
-  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+  /* Half the opacity of --my-color */
+  --my-color-half-opacity: alpha(from var(--my-color) / calc(alpha * 0.5));
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-half-opacity);
+  background-color: var(--my-color-half-opacity);
 }
 
 @supports not (color: alpha(from red / 50%)) {
@@ -54857,8 +53154,8 @@ div {
                                   data: [
                                     "lightness-notation",
                                     'Expected "60%" to be "0.6" (lightness-notation)',
-                                    "  --mycolor: oklch(60% 0.25 315 / 0.8);",
-                                    "17:20 - 17:23",
+                                    "  --my-color: oklch(60% 0.25 315 / 0.8);",
+                                    "17:21 - 17:24",
                                     `/en-US/docs/Web/CSS/Reference/Values/color_value/alpha
 [lightness-notation] Expected "60%" to be "0.6" (lightness-notation)
 ~~~
@@ -54878,18 +53175,18 @@ div {
 }
 
 :root {
-  --mycolor: oklch(60% 0.25 315 / 0.8);
+  --my-color: oklch(60% 0.25 315 / 0.8);
 
-  /* Half the opacity of --mycolor */
-  --mycolor-half-opacity: alpha(from var(--mycolor) / calc(alpha * 0.5));
+  /* Half the opacity of --my-color */
+  --my-color-half-opacity: alpha(from var(--my-color) / calc(alpha * 0.5));
 }
 
 .box1 {
-  background-color: var(--mycolor);
+  background-color: var(--my-color);
 }
 
 .box2 {
-  background-color: var(--mycolor-half-opacity);
+  background-color: var(--my-color-half-opacity);
 }
 
 @supports not (color: alpha(from red / 50%)) {
@@ -80815,21 +79112,7 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                   ]
                 },
                 how_to: {
-                  children: {
-                    add_a_hit_map_on_top_of_an_image: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://uxmovement.com/mobile/finger-friendly-design-ideal-mobile-touch-target-sizes/",
-                            "https://uxmovement.com/cgi-sys/suspendedpage.cgi"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/How_to",
                   messages: [
                     {
@@ -81925,45 +80208,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        meta: {
-                          children: {
-                            name: {
-                              children: {
-                                "text-scale": {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/text-scale",
-                                  messages: [
-                                    {
-                                      message: "HTML code issue",
-                                      data: [
-                                        "element-required-attributes",
-                                        '<html> is missing required "lang" attribute',
-                                        "html",
-                                        "2:2",
-                                        `/en-US/docs/Web/HTML/Reference/Elements/meta/name/text-scale
-[element-required-attributes] <html> is missing required "lang" attribute
-~~~
-<!doctype html>
-<html>
-  <head>
-    <meta name="text-scale" content="scale" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <main>Main content</main>
-    <aside>Aside content</aside>
-  </body>
-</html>
-~~~
-`
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          }
-                        },
                         optgroup: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
@@ -82260,26 +80504,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    evolution_of_http: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3techs.com/technologies/details/ce-http2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3techs.com/technologies/details/ce-http3",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     iframe_credentialless: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/IFrame_credentialless",
@@ -82559,19 +80783,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        "x-frame-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://helmetjs.github.io/",
-                                "https://helmet.js.org/"
-                              ]
-                            }
-                          ]
-                        },
                         "x-permitted-cross-domain-policies": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies",
@@ -82640,30 +80851,10 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.microsoft.com/en-us/edge",
-                            "https://explore.microsoft.com/en-us/edge?ep=0&form=MA1403&es=325&cs=3090232544"
-                          ]
-                        }
-                      ]
-                    },
                     modules: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/http-party/http-server",
-                            502
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -82810,19 +81001,6 @@ const filteredNumbers = numbers.map((num, index) => {
                         object: {
                           children: {}
                         },
-                        promise: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-                          messages: [
-                            {
-                              message: "HTTP link",
-                              data: [
-                                "http://bluebirdjs.com/",
-                                "has HTTPS alternative"
-                              ]
-                            }
-                          ]
-                        },
                         set: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
@@ -82937,23 +81115,6 @@ let z = 1;
                     },
                     operators: {
                       children: {
-                        "import.meta": {
-                          children: {
-                            resolve: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://docs.deno.com/api/node/module/~/ImportMeta.resolve",
-                                    "https://docs.deno.com/api/node/module/#ImportMeta"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -83369,22 +81530,6 @@ doIt(); // returns "finally"
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    supply_chain_attacks: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks#using_subresource_integrity"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 authentication: {
                   children: {
                     passkeys: {
@@ -83416,28 +81561,6 @@ doIt(); // returns "finally"
                 },
                 defenses: {
                   children: {
-                    local_network_access: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Local_network_access",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            ".then((result) => { ... });",
-                            "2:16",
-                            `/en-US/docs/Web/Security/Defenses/Local_network_access
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-navigator.permissions.query({ name: "local-network-access" })
-.then((result) => { ... });
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     mixed_content: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Defenses/Mixed_content",
@@ -83449,19 +81572,6 @@ navigator.permissions.query({ name: "local-network-access" })
                             "http.mixed-content",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    operational_security: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Operational_security",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart-guide",
-                            "https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart"
                           ]
                         }
                       ]
@@ -83513,12 +81623,6 @@ navigator.permissions.query({ name: "local-network-access" })
                   data: [
                     "/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie",
                     "#samesite"
-                  ]
-                },
-                {
-                  message: "Bad href",
-                  data: [
-                    "2/en-US/docs/Web/HTTP/Guides/CSP"
                   ]
                 }
               ]
@@ -84287,12 +82391,6 @@ svg.elements.feSpotLight.z`
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/download"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/SVG2/#GeometryProperties"
                           ]
                         }
                       ]
@@ -86771,27 +84869,6 @@ svg.elements.feSpotLight.z`
                       ]
                     }
                   ]
-                },
-                xslt: {
-                  children: {
-                    guides: {
-                      children: {
-                        transforming_xml_with_xslt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://nwalsh.com/docs/tutorials/xsl/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
                 }
               }
             }
@@ -86928,37 +85005,6 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "(key invalid)"
                               ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "object-shorthand",
-                                "Expected method shorthand.",
-                                `  log: () => {
-    console.log("An error was caught!");
-  },`,
-                                "7:3 - 9:4",
-                                `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all
-[object-shorthand] Expected method shorthand.
-~~~
-// Define error tag in JS
-const myErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
-
-// Import the tag and the log function into the module
-const env = {
-  my_error: myErrorTag,
-  log: () => {
-    console.log("An error was caught!");
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { env }).then(
-  // Negative value causes function to throw
-  (result) => result.instance.exports.try_and_catch(-1),
-);
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -86970,37 +85016,6 @@ WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { env }).then(
                               message: "Missing BCD table",
                               data: [
                                 "(key invalid)"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "object-shorthand",
-                                "Expected method shorthand.",
-                                `  log: () => {
-    console.log("An error was caught!");
-  },`,
-                                "7:3 - 9:4",
-                                `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all_ref
-[object-shorthand] Expected method shorthand.
-~~~
-// Define error tag in JS
-const myErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
-
-// Import the tag and the log function into the module
-const env = {
-  my_error: myErrorTag,
-  log: () => {
-    console.log("An error was caught!");
-  },
-};
-
-WebAssembly.instantiateStreaming(fetch("{%wasm-url%}"), { env }).then(
-  // Negative value causes function to throw
-  (result) => result.instance.exports.try_and_catch(-1),
-);
-~~~
-`
                               ]
                             }
                           ]
@@ -87071,50 +85086,6 @@ init();
                 },
                 javascript_interface: {
                   children: {
-                    exception: {
-                      children: {
-                        exception: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception",
-                          messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            'WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )',
-                            "5:16",
-                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception
-[syntax] Parsing error: Expression expected.
-~~~
-const env = {
-  my_error: myErrorTag,
-};
-
-WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     jstag_static: {
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static",
@@ -87122,83 +85093,6 @@ WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `        do_work: () => {
-          throw new Error("An exception was thrown in JS");
-        },`,
-                            "8:9 - 10:10",
-                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static
-[object-shorthand] Expected method shorthand.
-~~~
-async function run() {
-  const { instance } = await WebAssembly.instantiateStreaming(
-    fetch("{%wasm-url%}"),
-    {
-      env: {
-        js_tag: WebAssembly.JSTag,
-        // This JS function throws, which Wasm will catch via JSTag
-        do_work: () => {
-          throw new Error("An exception was thrown in JS");
-        },
-        log: (error) => {
-          // errRef is the JS Error object passed back as an externref
-          console.log(error.message);
-        },
-      },
-    },
-  );
-
-  instance.exports.try_and_catch();
-}
-
-run();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `        log: (error) => {
-          // errRef is the JS Error object passed back as an externref
-          console.log(error.message);
-        },`,
-                            "11:9 - 14:10",
-                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/JSTag_static
-[object-shorthand] Expected method shorthand.
-~~~
-async function run() {
-  const { instance } = await WebAssembly.instantiateStreaming(
-    fetch("{%wasm-url%}"),
-    {
-      env: {
-        js_tag: WebAssembly.JSTag,
-        // This JS function throws, which Wasm will catch via JSTag
-        do_work: () => {
-          throw new Error("An exception was thrown in JS");
-        },
-        log: (error) => {
-          // errRef is the JS Error object passed back as an externref
-          console.log(error.message);
-        },
-      },
-    },
-  );
-
-  instance.exports.try_and_catch();
-}
-
-run();
-~~~
-`
-                          ]
                         },
                         {
                           message: "Unexpected page type",
@@ -87209,56 +85103,13 @@ run();
                       ]
                     },
                     tag: {
-                      children: {
-                        type: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/type",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-unused-labels",
-                                "'parameters:' is defined but never used.",
-                                '  parameters: ["i32", "i64"];',
-                                "2:3 - 2:13",
-                                `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/type
-[no-unused-labels] 'parameters:' is defined but never used.
-~~~
-{
-  parameters: ["i32", "i64"];
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag",
                       messages: [
                         {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/WebAssembly/Reference/Types/exnref"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            'WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )',
-                            "5:16",
-                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag
-[syntax] Parsing error: Expression expected.
-~~~
-const env = {
-  my_error: myErrorTag,
-};
-
-WebAssembly.instantiateStreaming(fetch("module.wasm"), { env }).then( ... )
-~~~
-`
                           ]
                         }
                       ]
