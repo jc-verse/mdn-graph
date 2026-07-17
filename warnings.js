@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xjyaxz9k.js";
+} from "./chunk-mrrgve9j.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -87,7 +87,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Touch.html",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "Was there a typo in the url or port?"
                           ]
                         },
                         {
@@ -128,13 +128,6 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
                 {
                   message: "HTTP link",
                   data: [
@@ -284,19 +277,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            apple_safari: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Apple_Safari",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://bugs.webkit.org/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
                 }
               ]
             },
@@ -4872,13 +4852,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/template-refs.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5438,19 +5411,6 @@ button {
 <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12708,19 +12668,6 @@ textarea:focus {
                         }
                       ]
                     },
-                    measuring_performance: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Measuring_performance",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/devtools/network/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12764,6 +12711,44 @@ textarea:focus {
                           ]
                         }
                       ]
+                    }
+                  }
+                },
+                "server-side": {
+                  children: {
+                    django: {
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html",
+                                "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    express_nodejs: {
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html",
+                                "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/"
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -13302,39 +13287,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugs.webkit.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            500
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            500
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -13530,13 +13482,13 @@ padding-left: 20px;
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
                       ]
                     },
                     {
@@ -13743,6 +13695,26 @@ padding-left: 20px;
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/MDN/Community/Learn_forum"
+                  ]
+                }
+              ]
+            },
+            tutorials: {
+              children: {},
+              slug: "/en-US/docs/MDN/Tutorials",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://exploringjs.com/es5/",
+                    404
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://exploringjs.com/es6/",
+                    404
                   ]
                 }
               ]
@@ -14935,13 +14907,13 @@ webextensions.manifest.options_ui`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird"
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Use_the_web_authn_api"
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird"
                       ]
                     }
                   ]
@@ -15180,7 +15152,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker"
                           ]
                         },
                         {
@@ -15192,7 +15164,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker"
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
                           ]
                         }
                       ]
@@ -15314,104 +15286,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "30": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=30",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "127": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=127",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "129": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=129",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=130",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=137",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "142": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=142",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15553,7 +15427,17 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/3.5/releasenotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     "3.6": {
                       children: {
@@ -15895,13 +15779,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -16195,6 +16072,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     }
                   ]
                 },
+                beacon_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Beacon_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 canvas_api: {
                   children: {
                     tutorial: {
@@ -16389,19 +16279,6 @@ api.MessagePort`,
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.coep",
                         "Expected:",
                         "api.COEPViolationReport"
-                      ]
-                    }
-                  ]
-                },
-                console: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/console",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://profiler.firefox.com/docs/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17208,12 +17085,6 @@ div {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
                         "/en-US/docs/Web/API/CSS_Object_Model/CSS_value_serialization"
                       ]
                     },
@@ -17221,6 +17092,12 @@ div {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
                       ]
                     },
                     {
@@ -18006,13 +17883,7 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Building_and_updating_the_DOM_tree"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
+                        "/en-US/docs/Web/API/Document_Object_Model/Events"
                       ]
                     },
                     {
@@ -18030,7 +17901,13 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Events"
+                        "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Building_and_updating_the_DOM_tree"
                       ]
                     }
                   ]
@@ -19558,7 +19435,7 @@ aside {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
+                        "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
                       ]
                     },
                     {
@@ -19570,7 +19447,7 @@ aside {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
+                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
                       ]
                     }
                   ]
@@ -21745,13 +21622,13 @@ h1 {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+                        "/en-US/docs/Web/API/Web_Animations_API/Tips"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Tips"
+                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
                       ]
                     },
                     {
@@ -21903,17 +21780,7 @@ h1 {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/guide/sound-0800",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -21933,6 +21800,12 @@ h1 {
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/Web_Authentication_API/Authenticator_data"
                       ]
                     },
@@ -21940,12 +21813,6 @@ h1 {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
                       ]
                     }
                   ]
@@ -22011,6 +21878,12 @@ api.Window.sessionStorage`,
                             {
                               message: "No link to child page",
                               data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
                               ]
                             },
@@ -22023,24 +21896,28 @@ api.Window.sessionStorage`,
                             {
                               message: "No link to child page",
                               data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Creating_a_call"
                               ]
                             },
                             {
                               message: "No link to child page",
                               data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call"
                               ]
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/install",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     signaling_and_video_calling: {
                       children: {},
@@ -22078,7 +21955,7 @@ api.Window.sessionStorage`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.asyncapi.com/",
+                        "https://www.asyncapi.com/blog/websocket-part2",
                         "The operation timed out."
                       ]
                     }
@@ -22444,13 +22321,13 @@ setTimeout(function () {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Sending_and_Receiving_Binary_Data"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Sending_and_Receiving_Binary_Data"
                       ]
                     }
                   ]
@@ -23233,6 +23110,636 @@ p {
                         }
                       }
                     },
+                    borders_and_box_decorations: {
+                      children: {
+                        border_shape_nav_menu: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "7:16 - 7:21",
+                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 0;
+  transition: gap 0.6s;
+}
+
+li {
+  width: 160px;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    2px 0px 2px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
+  transition: all 0.6s;
+}
+
+li:nth-child(1) a {
+  background-color: #2de1fc;
+}
+
+li:nth-child(2) a {
+  background-color: #2afc98;
+}
+
+li:nth-child(3) a {
+  background-color: #09e85e;
+}
+
+li:nth-child(4) a {
+  background-color: #16c172;
+}
+
+li:nth-child(even) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small cw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small ccw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+li:nth-child(odd) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small ccw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small cw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+a {
+  padding: 24px;
+}
+
+li {
+  margin-right: -47px;
+}
+
+ul {
+  position: relative;
+  right: 23.5px;
+}
+
+ul:hover,
+ul:has(a:focus) {
+  gap: 30px;
+}
+
+a:hover,
+a:focus {
+  filter: brightness(1.2);
+  scale: 1.1;
+  box-shadow:
+    5px 0px 10px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "7:23 - 7:32",
+                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 0;
+  transition: gap 0.6s;
+}
+
+li {
+  width: 160px;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    2px 0px 2px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
+  transition: all 0.6s;
+}
+
+li:nth-child(1) a {
+  background-color: #2de1fc;
+}
+
+li:nth-child(2) a {
+  background-color: #2afc98;
+}
+
+li:nth-child(3) a {
+  background-color: #09e85e;
+}
+
+li:nth-child(4) a {
+  background-color: #16c172;
+}
+
+li:nth-child(even) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small cw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small ccw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+li:nth-child(odd) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small ccw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small cw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+a {
+  padding: 24px;
+}
+
+li {
+  margin-right: -47px;
+}
+
+ul {
+  position: relative;
+  right: 23.5px;
+}
+
+ul:hover,
+ul:has(a:focus) {
+  gap: 30px;
+}
+
+a:hover,
+a:focus {
+  filter: brightness(1.2);
+  scale: 1.1;
+  box-shadow:
+    5px 0px 10px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: shape(",
+                                "65:3 - 65:15",
+                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 0;
+  transition: gap 0.6s;
+}
+
+li {
+  width: 160px;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    2px 0px 2px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
+  transition: all 0.6s;
+}
+
+li:nth-child(1) a {
+  background-color: #2de1fc;
+}
+
+li:nth-child(2) a {
+  background-color: #2afc98;
+}
+
+li:nth-child(3) a {
+  background-color: #09e85e;
+}
+
+li:nth-child(4) a {
+  background-color: #16c172;
+}
+
+li:nth-child(even) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small cw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small ccw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+li:nth-child(odd) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small ccw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small cw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+a {
+  padding: 24px;
+}
+
+li {
+  margin-right: -47px;
+}
+
+ul {
+  position: relative;
+  right: 23.5px;
+}
+
+ul:hover,
+ul:has(a:focus) {
+  gap: 30px;
+}
+
+a:hover,
+a:focus {
+  filter: brightness(1.2);
+  scale: 1.1;
+  box-shadow:
+    5px 0px 10px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: shape(",
+                                "84:3 - 84:15",
+                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 0;
+  transition: gap 0.6s;
+}
+
+li {
+  width: 160px;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    2px 0px 2px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
+  transition: all 0.6s;
+}
+
+li:nth-child(1) a {
+  background-color: #2de1fc;
+}
+
+li:nth-child(2) a {
+  background-color: #2afc98;
+}
+
+li:nth-child(3) a {
+  background-color: #09e85e;
+}
+
+li:nth-child(4) a {
+  background-color: #16c172;
+}
+
+li:nth-child(even) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small cw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small ccw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+li:nth-child(odd) a {
+  border-shape: shape(
+      from 0% 0%,
+      hline to 33%,
+      arc by 33% 0% of 16% 20% small ccw,
+      hline to 100%,
+      line to 100% 33%,
+      arc by 0% 33% of 20% 16% small cw,
+      line to 100% 100%,
+      hline to 66%,
+      arc by -33% 0% of 16% 20% small cw,
+      hline to 0%,
+      line to 0% 66%,
+      arc by 0% -33% of 20% 16% small ccw,
+      close
+    )
+    content-box;
+}
+
+a {
+  padding: 24px;
+}
+
+li {
+  margin-right: -47px;
+}
+
+ul {
+  position: relative;
+  right: 23.5px;
+}
+
+ul:hover,
+ul:has(a:focus) {
+  gap: 30px;
+}
+
+a:hover,
+a:focus {
+  filter: brightness(1.2);
+  scale: 1.1;
+  box-shadow:
+    5px 0px 10px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     box_alignment: {
                       children: {
                         in_flexbox: {
@@ -23273,6 +23780,23 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    cascade: {
+                      children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                400
                               ]
                             }
                           ]
@@ -42433,6 +42957,19 @@ text:nth-of-type(8) {
                             }
                           }
                         },
+                        "aspect-ratio": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         "backdrop-filter": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter",
@@ -43193,6 +43730,2218 @@ div {
   box-shadow: 1px 1px 3px gray;
   border-radius: 0 20% 50px 30%;
   corner-shape: superellipse(0.5) bevel notch squircle;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-shape",
+                          messages: [
+                            {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "border-shape: rect(5px 198px 189px 0px round 20px);",
+                                "1:1 - 1:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+border-shape: rect(5px 198px 189px 0px round 20px);
+border-bottom: 30px dashed blue;
+border-left: 40px dotted hotpink;
+border-right: 50px double yellow;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "border-shape: shape(",
+                                "1:1 - 1:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+border-shape: shape(
+    from 0% 0%,
+    hline to 33%,
+    arc by 33% 0% of 16% 20% small cw,
+    hline to 100%,
+    line to 100% 33%,
+    arc by 0% 33% of 20% 16% small cw,
+    line to 100% 100%,
+    hline to 66%,
+    arc by -33% 0% of 16% 20% small ccw,
+    hline to 0%,
+    line to 0% 66%,
+    arc by 0% -33% of 20% 16% small ccw,
+    close
+  )
+  content-box;
+padding: 24px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "22:16 - 22:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 300px;
+  anchor-name: --leopard;
+  position: relative;
+  top: 45px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 15px 0;
+  margin: 0 0 -30px -110px;
+  background-color: chartreuse;
+  border: 7px solid rgb(50 50 50);
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.75);
+
+  width: 250px;
+  height: 100px;
+  border-shape: shape(
+      from 50.08% 0%,
+      curve to 97.71% 25.55% with 72.95% 0%/93.9% 8.76%,
+      curve to 97.71% 62.04% with 100.76% 37.96%/100.76% 49.64%,
+      curve to 50.08% 83.94% with 93.9% 75.18%/72.95% 83.94%,
+      curve to 23.41% 82.48% with 36.75% 83.94%/27.22% 83.21%,
+      curve to 17.7% 100% with 21.51% 87.59%/19.22% 94.16%,
+      curve to 11.98% 82.48% with 16.17% 94.16%/13.89% 87.59%,
+      curve to 1.31% 62.04% with 13.5% 81.75%/3.98% 76.64%,
+      curve to 2.45% 25.55% with -0.59% 49.64%/-0.59% 37.96%,
+      curve to 50.08% 0% with 6.26% 8.76%/27.22% 0%,
+      close
+    )
+    content-box;
+
+  text-align: center;
+  line-height: 4;
+
+  position: absolute;
+  position-anchor: --leopard;
+  bottom: anchor(top);
+  left: anchor(right);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "22:23 - 22:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 300px;
+  anchor-name: --leopard;
+  position: relative;
+  top: 45px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 15px 0;
+  margin: 0 0 -30px -110px;
+  background-color: chartreuse;
+  border: 7px solid rgb(50 50 50);
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.75);
+
+  width: 250px;
+  height: 100px;
+  border-shape: shape(
+      from 50.08% 0%,
+      curve to 97.71% 25.55% with 72.95% 0%/93.9% 8.76%,
+      curve to 97.71% 62.04% with 100.76% 37.96%/100.76% 49.64%,
+      curve to 50.08% 83.94% with 93.9% 75.18%/72.95% 83.94%,
+      curve to 23.41% 82.48% with 36.75% 83.94%/27.22% 83.21%,
+      curve to 17.7% 100% with 21.51% 87.59%/19.22% 94.16%,
+      curve to 11.98% 82.48% with 16.17% 94.16%/13.89% 87.59%,
+      curve to 1.31% 62.04% with 13.5% 81.75%/3.98% 76.64%,
+      curve to 2.45% 25.55% with -0.59% 49.64%/-0.59% 37.96%,
+      curve to 50.08% 0% with 6.26% 8.76%/27.22% 0%,
+      close
+    )
+    content-box;
+
+  text-align: center;
+  line-height: 4;
+
+  position: absolute;
+  position-anchor: --leopard;
+  bottom: anchor(top);
+  left: anchor(right);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: shape(",
+                                "32:3 - 32:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 300px;
+  anchor-name: --leopard;
+  position: relative;
+  top: 45px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 15px 0;
+  margin: 0 0 -30px -110px;
+  background-color: chartreuse;
+  border: 7px solid rgb(50 50 50);
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.75);
+
+  width: 250px;
+  height: 100px;
+  border-shape: shape(
+      from 50.08% 0%,
+      curve to 97.71% 25.55% with 72.95% 0%/93.9% 8.76%,
+      curve to 97.71% 62.04% with 100.76% 37.96%/100.76% 49.64%,
+      curve to 50.08% 83.94% with 93.9% 75.18%/72.95% 83.94%,
+      curve to 23.41% 82.48% with 36.75% 83.94%/27.22% 83.21%,
+      curve to 17.7% 100% with 21.51% 87.59%/19.22% 94.16%,
+      curve to 11.98% 82.48% with 16.17% 94.16%/13.89% 87.59%,
+      curve to 1.31% 62.04% with 13.5% 81.75%/3.98% 76.64%,
+      curve to 2.45% 25.55% with -0.59% 49.64%/-0.59% 37.96%,
+      curve to 50.08% 0% with 6.26% 8.76%/27.22% 0%,
+      close
+    )
+    content-box;
+
+  text-align: center;
+  line-height: 4;
+
+  position: absolute;
+  position-anchor: --leopard;
+  bottom: anchor(top);
+  left: anchor(right);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:16 - 15:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:23 - 15:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: circle(50%);",
+                                "28:3 - 28:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:16 - 15:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid hotpink;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:23 - 15:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid hotpink;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);",
+                                "28:3 - 28:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: fit-content;
+  aspect-ratio: 1/1;
+  border: 15px solid hotpink;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:16 - 15:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:23 - 15:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: circle(60%);",
+                                "30:3 - 30:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: ellipse(50% 40%);",
+                                "34:3 - 34:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: inset(10px 20px 10px 20px round 20px);",
+                                "38:3 - 38:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: path(",
+                                "42:3 - 42:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;",
+                                "49:3 - 49:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: rect(10px 500px 130px 20px round 20px);",
+                                "53:3 - 53:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: shape(",
+                                "57:3 - 57:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)",
+                                "74:3 - 74:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: xywh(5% 5% 90% 90% round 20px);",
+                                "79:3 - 79:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+}
+
+.circle {
+  border-shape: circle(60%);
+}
+
+.ellipse {
+  border-shape: ellipse(50% 40%);
+}
+
+.inset {
+  border-shape: inset(10px 20px 10px 20px round 20px);
+}
+
+.path {
+  border-shape: path(
+      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
+    )
+    view-box;
+}
+
+.polygon {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+.rect {
+  border-shape: rect(10px 500px 130px 20px round 20px);
+}
+
+.shape {
+  border-shape: shape(
+    from 0% 64.5%,
+    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
+    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
+    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
+    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
+    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
+    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
+    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
+    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
+    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
+    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
+    close
+  );
+}
+
+.two-polygons {
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
+    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
+}
+
+.xywh {
+  border-shape: xywh(5% 5% 90% 90% round 20px);
+}
+
+form {
+  position: absolute;
+  border: 2px solid black;
+  background: white;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+form select {
+  width: 100%;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:16 - 15:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+p:hover,
+p:focus {
+  animation: morph 1s ease-in-out infinite alternate;
+}
+
+@keyframes morph {
+  from {
+    border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+  }
+  to {
+    border-shape: polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%) view-box;
+  }
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "  font-family: Arial, Helvetica, sans-serif;",
+                                "15:23 - 15:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+p:hover,
+p:focus {
+  animation: morph 1s ease-in-out infinite alternate;
+}
+
+@keyframes morph {
+  from {
+    border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+  }
+  to {
+    border-shape: polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%) view-box;
+  }
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "border-shape" (property-no-unknown)',
+                                "  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;",
+                                "27:3 - 27:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
+[property-no-unknown] Unexpected unknown property "border-shape" (property-no-unknown)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 40px 50px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  width: 550px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+}
+
+p:hover,
+p:focus {
+  animation: morph 1s ease-in-out infinite alternate;
+}
+
+@keyframes morph {
+  from {
+    border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
+  }
+  to {
+    border-shape: polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%) view-box;
+  }
+}
+
+@supports not (border-shape: circle(50%)) {
+  body::before {
+    content: "Your browser does not support the 'border-shape' property.";
+    font-family: sans-serif;
+    background-color: wheat;
+    padding: 1rem 0;
+    text-align: center;
+
+    z-index: 1;
+    position: fixed;
+    inset: 40% 0 auto;
+  }
 }
 ~~~
 `
@@ -50383,12 +53132,6 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope",
                           messages: [
                             {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "color-hex-length",
@@ -50645,7 +53388,13 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope"
+                            "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
                           ]
                         },
                         {
@@ -50657,19 +53406,19 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items"
+                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/row-rule-visibility-items"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
                           ]
                         }
                       ]
@@ -66503,6 +69252,13 @@ css.properties.width.fit-content_function`
                           slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
                           messages: [
                             {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Properties/corner-shape",
+                                "#properties_that_follow_corner_shape"
+                              ]
+                            },
+                            {
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/CSS/Reference/Values/color_value/alpha"
@@ -74963,6 +77719,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "border-shape CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "border-spacing CSS property"
                       ]
                     },
@@ -79475,21 +82237,7 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
             html: {
               children: {
                 guides: {
-                  children: {
-                    responsive_images: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Responsive_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/devtools/network/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/Guides",
                   messages: [
                     {
@@ -79888,6 +82636,19 @@ function onclick(event) {
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         address: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
@@ -79945,6 +82706,19 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -80551,6 +83325,13 @@ html.elements.input.switch`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox#switch",
                                 []
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -80784,13 +83565,6 @@ html.elements.input.switch`,
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugs.webkit.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -81197,19 +83971,7 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Crypto-Version"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Lifetime"
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Redemption-Record"
                           ]
                         },
                         {
@@ -81221,19 +83983,31 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "No link to child page",
                           data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Redemption-Record"
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR"
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Lifetime"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Crypto-Version"
                           ]
                         }
                       ]
@@ -81550,6 +84324,13 @@ let z = 1;
                                 "https://2ality.com/2017/07/regexp-unicode-property-escapes.html",
                                 404
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -81789,68 +84570,6 @@ doIt(); // returns "finally"
                 }
               }
             },
-            performance: {
-              children: {},
-              slug: "/en-US/docs/Web/Performance",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             privacy: {
               children: {
                 guides: {
@@ -81974,23 +84693,6 @@ doIt(); // returns "finally"
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    mitm: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/MITM",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 authentication: {
                   children: {
                     passkeys: {
@@ -82050,19 +84752,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       }
-                    },
-                    transport_layer_security: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Transport_Layer_Security",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://letsencrypt.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -83834,6 +86523,12 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "No link to child page",
                                   data: [
+                                    "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/reload"
+                                  ]
+                                },
+                                {
+                                  message: "No link to child page",
+                                  data: [
                                     "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/navigate"
                                   ]
                                 },
@@ -83841,12 +86536,6 @@ svg.elements.feSpotLight.z`
                                   message: "No link to child page",
                                   data: [
                                     "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/traverseHistory"
-                                  ]
-                                },
-                                {
-                                  message: "No link to child page",
-                                  data: [
-                                    "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/reload"
                                   ]
                                 },
                                 {
@@ -85352,7 +88041,7 @@ svg.elements.feSpotLight.z`
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Related"
+                "/en-US/docs/Games"
               ]
             },
             {
@@ -85364,13 +88053,13 @@ svg.elements.feSpotLight.z`
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Games"
+                "/en-US/docs/Learn_web_development"
               ]
             },
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Learn_web_development"
+                "/en-US/docs/Related"
               ]
             },
             {
