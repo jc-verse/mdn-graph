@@ -344805,23 +344805,11 @@ be allowed to proceed for a given element.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
@@ -344833,35 +344821,11 @@ be allowed to proceed for a given element.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
@@ -344873,43 +344837,11 @@ be allowed to proceed for a given element.`,
           title: "CSS Style Attributes"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -344917,19 +344849,11 @@ be allowed to proceed for a given element.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -344939,6 +344863,82 @@ be allowed to proceed for a given element.`,
         {
           bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
           title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
         }
       ],
       links: [
@@ -397002,15 +397002,7 @@ Each request method has its own semantics, but some characteristics are shared a
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
@@ -397018,11 +397010,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
@@ -399687,7 +399687,7 @@ It was designed for communication between web browsers and web servers, but it c
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -399695,7 +399695,11 @@ It was designed for communication between web browsers and web servers, but it c
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -399703,15 +399707,11 @@ It was designed for communication between web browsers and web servers, but it c
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         }
       ],
@@ -449710,19 +449710,11 @@ This default is used by position-area and position-try, and by anchor functions 
       },
       specifications: [
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -449730,15 +449722,23 @@ This default is used by position-area and position-try, and by anchor functions 
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -449750,7 +449750,7 @@ This default is used by position-area and position-try, and by anchor functions 
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         }
       ],
@@ -528317,26 +528317,6 @@ an attempt to access an object for which you have no permission.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
@@ -528345,15 +528325,7 @@ an attempt to access an object for which you have no permission.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -528361,11 +528333,39 @@ an attempt to access an object for which you have no permission.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -532482,19 +532482,7 @@ it attempts to convert and compare operands that are of different types.`,
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -532502,63 +532490,7 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -532570,43 +532502,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -532614,43 +532514,23 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -532658,31 +532538,71 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -532694,19 +532614,99 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -626868,6 +626868,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "i64: Wasm value type",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.types.i64"
+        ],
         summary: "The i64 value type holds a 64-bit integer.",
         popularity: 0.002152277606794217,
         modified: "1970-01-01T00:00:00.000Z",
@@ -626880,8 +626883,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#syntax-numtype",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#number-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -626891,6 +626894,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         "description",
         "i64_integration_with_javascript_bigint",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -626903,7 +626907,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         title: "externref: Wasm value type",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.types.externref"
         ],
         summary: "The externref value type references a JavaScript value, enabling it to be given to a Wasm module without the need for copying or serializing.",
         popularity: 0.0011686814523378915,
@@ -626917,8 +626921,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#reference-types",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#reference-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -626960,12 +626964,20 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "exnref",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#reference-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
         "syntax",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -626978,7 +626990,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         title: "v128: Wasm value type",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd"
+          "webassembly.types.v128"
         ],
         summary: "The v128 value type is a vector type representing 128-bits of packed integer or floating-point data. A v128 value can be interpreted in several different ways by SIMD instructions.",
         popularity: 0.001163393300969847,
@@ -626990,7 +627002,12 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "v128",
         status: []
       },
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -627010,6 +627027,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "f64: Wasm value type",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.types.f64"
+        ],
         summary: "The f64 value type holds a 64-bit double-precision floating-point value.",
         popularity: 0.0007086122833179977,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627022,8 +627042,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#syntax-numtype",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#number-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [
@@ -627035,6 +627055,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         "description",
         "javascript_boundary",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -627077,6 +627098,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "i32: Wasm value type",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.types.i32"
+        ],
         summary: "The i32 value type holds a 32-bit integer.",
         popularity: 0.000962443548984146,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627089,8 +627113,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#syntax-numtype",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#number-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -627100,6 +627124,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         "description",
         "javascript_boundary",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -627111,6 +627136,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "f32: Wasm value type",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.types.f32"
+        ],
         summary: "The f32 value type holds a 32-bit single-precision floating-point value.",
         popularity: 0.0007297648887901767,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627123,8 +627151,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#syntax-numtype",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#number-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [
@@ -627136,6 +627164,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         "description",
         "javascript_boundary",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -627148,7 +627177,7 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         title: "funcref: Wasm value type",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.types.funcref"
         ],
         summary: "The funcref value type references a function defined in Wasm, enabling higher-order functions to be used across the Wasm and JavaScript language boundaries.",
         popularity: 0.0009730198517202356,
@@ -627162,8 +627191,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       },
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#reference-types",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#reference-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -627191,6 +627220,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "loop: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.loop"
+        ],
         summary: "The loop statement creates a label that can later be branched to with a br. The loop instruction doesn't loop by itself; you need to branch to it to actually create a loop.",
         popularity: 0.0020782434876415903,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627201,11 +627233,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "loop",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfloophrefsyntax-blocktypemathitblocktypehrefsyntax-instrmathitinstrast",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627216,6 +627256,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "drop: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.drop"
+        ],
         summary: "The drop instruction pops a value from the stack, and discards it.",
         popularity: 0.00087783312709543,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627226,11 +627269,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "drop",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-parametricmathsfdrop%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627241,6 +627292,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "block: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.block"
+        ],
         summary: "The block statement creates a label that can later be branched out of with a br.",
         popularity: 0.0008513923702552062,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627251,11 +627305,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "block",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfblockhrefsyntax-blocktypemathitblocktypehrefsyntax-instrmathitinstrast",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627266,6 +627328,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "nop: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.nop"
+        ],
         summary: "nop stands for no-operation. It literally does nothing.",
         popularity: 0.0008408160675191167,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627276,11 +627341,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "nop",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfnop",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627291,6 +627364,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "br_table: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.br_table"
+        ],
         summary: "The br_table statement branches to different loop, block, or if statements, based on an argument.",
         popularity: 0.0008936975811995642,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627301,11 +627377,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "br_table",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfbr_tablelastl_n",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627316,6 +627400,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "return: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.return"
+        ],
         summary: "return returns from a function.",
         popularity: 0.0008196634620469376,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627326,11 +627413,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "return",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfreturn",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627341,6 +627436,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "select: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.select"
+        ],
         summary: "The select instruction, selects one of its first two operands based on whether its third operand is zero or not. It shares some similarities with the ternary operator in other languages (e.g., false ? 10 : 20), but doesn't short-circuit. The instruction may be followed by an immediate value type: select (result T). select (result T) uses a different binary opcode, and allows types besides those introduced by the WebAssembly MVP (i32, i64, f32, f64), for example, it allows selection between two externref values.",
         popularity: 0.0009571553976161014,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627351,13 +627449,21 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "select",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-parametricmathsfselect-tast%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Short-circuit_evaluation"
       ],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627368,6 +627474,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "unreachable: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.unreachable"
+        ],
         summary: "unreachable is used to denote a point in code that should not be reachable. unreachable is an unconditional trap: in the case where an unreachable is reached and executed, the instruction traps.",
         popularity: 0.0007932227052067139,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627378,11 +627487,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "unreachable",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfunreachable",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627429,6 +627546,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "if...else: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.if_else"
+        ],
         summary: "The if statement executes a statement if the last item on the stack is true (non-zero). If the condition is false (0), another statement can be executed.",
         popularity: 0.002369091812884052,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627439,11 +627559,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "if...else",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#control-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627454,6 +627582,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "call: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.call"
+        ],
         summary: "call calls a function, return_call being the tail-call version of it. call_indirect calls a function in a table with the return_call_indirect tail-call version as well.",
         popularity: 0.0027974320736956775,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627464,6 +627595,12 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "call",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfcallx",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://github.com/WebAssembly/tail-call/blob/main/proposals/tail-call/Overview.md",
         "https://v8.dev/blog/wasm-tail-call"
@@ -627474,6 +627611,8 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         "try_it",
         "try_it_2",
         "syntax",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -627485,6 +627624,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "br: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.br"
+        ],
         summary: "The br statement branches to a loop, a block, or an if statement.",
         popularity: 0.0009571553976161014,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627495,11 +627637,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "br",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfbrl",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627510,6 +627660,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "end: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.end"
+        ],
         summary: "end is used to end a block, loop, if, or else. In the other examples we used the s-expression syntax which doesn't require the end, so you won't find it in the other examples here. However, it's still useful to know about since this is what the browsers display in devtools.",
         popularity: 0.0009835961544563251,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627520,11 +627673,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "end",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#control-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -627535,6 +627696,9 @@ Whether you are a beginner, intermediate, or expert at web development, you will
       metadata: {
         title: "br_if: Wasm text instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.br_if"
+        ],
         summary: "The br_if statement branches to a loop, a block, or an if statement, based on a boolean (0 or 1) condition.",
         popularity: 0.000920138338039788,
         modified: "1970-01-01T00:00:00.000Z",
@@ -627545,11 +627709,19 @@ Whether you are a beginner, intermediate, or expert at web development, you will
         short_title: "br_if",
         status: []
       },
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfbr_ifl",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
