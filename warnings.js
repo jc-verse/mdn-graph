@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-qdbd2p4z.js";
+} from "./chunk-05y1kd5y.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -23,19 +23,6 @@ var warnings_processed_default = {
             },
             publishing_games: {
               children: {
-                game_monetization: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_monetization",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.html5gamedevs.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 game_promotion: {
                   children: {},
                   slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
@@ -43,8 +30,8 @@ var warnings_processed_default = {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.html5gamedevs.com/",
-                        "The operation timed out."
+                        "https://dopresskit.com/",
+                        415
                       ]
                     }
                   ]
@@ -53,6 +40,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.metanetsoftware.com/technique/tutorialA.html",
+                        415
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {
                     glsl_shaders: {
@@ -107,7 +107,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
-                            "Was there a typo in the url or port?"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -293,6 +293,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            algorithm: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Algorithm",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.bigocheatsheet.com/",
+                    415
+                  ]
+                }
+              ]
+            },
             blink_element: {
               children: {},
               slug: "/en-US/docs/Glossary/blink_element",
@@ -416,6 +429,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            debounce: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Debounce",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://css-tricks.com/debouncing-throttling-explained-examples/",
+                    415
+                  ]
+                }
+              ]
+            },
             deserialization: {
               children: {},
               slug: "/en-US/docs/Glossary/Deserialization",
@@ -494,6 +520,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            fork: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Fork",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo",
+                    "https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo"
+                  ]
                 }
               ]
             },
@@ -926,6 +965,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gzip_compression: {
+              children: {},
+              slug: "/en-US/docs/Glossary/gzip_compression",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.zlib.net/feldspar.html",
+                    415
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gzip.org/",
+                    415
+                  ]
+                }
+              ]
+            },
             hash_routing: {
               children: {},
               slug: "/en-US/docs/Glossary/Hash_routing",
@@ -1003,6 +1062,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            jitter: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Jitter",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
+                    415
+                  ]
                 }
               ]
             },
@@ -1286,6 +1358,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            rest: {
+              children: {},
+              slug: "/en-US/docs/Glossary/REST",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html",
+                    415
+                  ]
+                }
+              ]
+            },
             ril: {
               children: {},
               slug: "/en-US/docs/Glossary/RIL",
@@ -1482,6 +1567,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            throttle: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Throttle",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://css-tricks.com/debouncing-throttling-explained-examples/",
+                    415
+                  ]
+                }
+              ]
+            },
             tofu: {
               children: {},
               slug: "/en-US/docs/Glossary/TOFU",
@@ -1601,7 +1699,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://forum.scrimba.com/t/where-can-i-find-my-completion-certificate/43?via=mdn",
-                    404
+                    "Unable to connect. Is the computer able to access the url?"
                   ]
                 }
               ]
@@ -1782,6 +1880,45 @@ var warnings_processed_default = {
                 },
                 css_layout: {
                   children: {
+                    flexbox: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    floats: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Floats",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/snippets/css/drop-caps/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    grids: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Grids",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/complete-guide-css-grid-layout/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     introduction: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction",
@@ -2139,6 +2276,19 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    responsive_design: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/a-complete-guide-to-css-media-queries/",
+                            415
                           ]
                         }
                       ]
@@ -2827,13 +2977,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5435,6 +5578,19 @@ button {
                         }
                       ]
                     },
+                    html_forms: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/html-inputs-and-labels-a-love-story/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
@@ -5442,8 +5598,35 @@ button {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://picryl.com/",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    including_vector_graphics_in_html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/svg-properties-and-css/",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/scale-svg/",
+                            415
                           ]
                         }
                       ]
@@ -6311,6 +6494,45 @@ span {
                         }
                       ]
                     },
+                    box_model: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/bem-101/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    tables: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/fixing-tables-long-strings/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6499,15 +6721,53 @@ li {
                     }
                   ]
                 },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 version_control: {
                   children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Version_control",
                   messages: [
                     {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/signup",
+                        403
+                      ]
+                    },
+                    {
                       message: "Redirected external link",
                       data: [
                         "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
                         "https://docs.github.com/en/get-started/start-your-journey/what-is-github"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+                        "https://docs.github.com/en/pull-requests/reference/pull-requests"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts",
+                        "https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests"
                       ]
                     }
                   ]
@@ -6849,8 +7109,45 @@ button:active {
                     }
                   }
                 },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.travis-ci.com/",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 forms: {
                   children: {
+                    advanced_form_styling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     customizable_select: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
@@ -12661,6 +12958,39 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-sprites/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -12716,10 +13046,45 @@ textarea:focus {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
                           messages: [
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.pythonanywhere.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.pythonanywhere.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
                               message: "Redirected external link",
                               data: [
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html",
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.pythonanywhere.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.pythonanywhere.com/pricing/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.pythonanywhere.com/pricing/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -12747,6 +13112,19 @@ textarea:focus {
                 },
                 testing: {
                   children: {
+                    automated_testing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/why-npm-scripts/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -13512,6 +13890,33 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13519,6 +13924,32 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    using_github_pages: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Using_GitHub_pages",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/signup",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -13591,6 +14022,26 @@ padding-left: 20px;
                     }
                   }
                 },
+                getting_started: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Getting_started",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/signup",
+                        403
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests",
+                        "https://docs.github.com/en/pull-requests"
+                      ]
+                    }
+                  ]
+                },
                 issues: {
                   children: {
                     content_suggestions_feature_proposals: {
@@ -13612,6 +14063,40 @@ padding-left: 20px;
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch",
+                        "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review",
+                        "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/requesting-a-pull-request-review"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork",
+                        "https://docs.github.com/en/pull-requests/how-tos/work-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request",
+                        "https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/commenting-on-a-pull-request"
+                      ]
                     }
                   ]
                 }
@@ -13690,6 +14175,13 @@ color: rgb(31 41 59 / 26%);
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
                       messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
+                            "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request"
+                          ]
+                        },
                         {
                           message: "Redirected external link",
                           data: [
@@ -14821,6 +15313,26 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
+                    },
+                    your_second_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            415
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -15457,10 +15969,54 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        multipart_labels: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Multipart_labels",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://projectcerbera.com/blog/2008/03/",
+                                415
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
-                          children: {},
+                          children: {
+                            "aria-disabled": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-disabled",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/making-disabled-buttons-more-inclusive/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            },
+                            "aria-owns": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-owns",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/focus-management-and-inert/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -15470,6 +16026,62 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            complementary_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/aside-revisited/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            },
+                            contentinfo_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/contentinfo_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/the-footer-element-update/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            },
+                            main_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/the-main-element/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            },
+                            navigation_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/nav-element/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -15714,7 +16326,14 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "Broken external link",
                           data: [
                             "https://colortutorial.design/microColorsC.html",
-                            404
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.siegemedia.com/contrast-ratio",
+                            415
                           ]
                         },
                         {
@@ -15775,8 +16394,50 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://colortutorial.design/hsb.html",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.kirupa.com/html5/toggling_animations_on_off.htm",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pinetools.com/brightness-contrast-image",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.abilitynet.org.uk/sites/abilitynet.org.uk/files/Epilepsy%20and%20Computing%20Nov%202015.pdf",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/revisiting-prefers-reduced-motion/",
+                            415
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://colortutorial.design/",
+                            415
                           ]
                         },
                         {
@@ -15949,7 +16610,17 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/introduction-reduced-motion-media-query/",
+                        415
+                      ]
+                    }
+                  ]
                 },
                 attribution_reporting_api: {
                   children: {
@@ -16057,6 +16728,20 @@ body {
                       data: [
                         "https://ptsjs.org/",
                         "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://scrawl.rikweb.org.uk/",
+                        415
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://zimjs.com/",
+                        415
                       ]
                     }
                   ]
@@ -16913,6 +17598,19 @@ api.MessagePort`,
                     }
                   ]
                 },
+                css_custom_highlight_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSS_Custom_Highlight_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                        415
+                      ]
+                    }
+                  ]
+                },
                 css_object_model: {
                   children: {
                     css_value_serialization: {
@@ -17575,6 +18273,23 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
+                css: {
+                  children: {
+                    highlights_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS/highlights_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 customelementregistry: {
                   children: {
                     upgrade: {
@@ -17900,6 +18615,19 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                elementinternals: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ElementInternals",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
+                        415
+                      ]
+                    }
+                  ]
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -17957,6 +18685,320 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                highlight: {
+                  children: {
+                    add: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/add",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    clear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/clear",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    delete: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/delete",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    entries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/entries",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    foreach: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/forEach",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    has: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/has",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    highlight: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/Highlight",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    keys: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/keys",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    priority: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/priority",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    size: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/size",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    type: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/type",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Highlight/values",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Highlight",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                        415
+                      ]
+                    }
+                  ]
+                },
+                highlightregistry: {
+                  children: {
+                    clear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/clear",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    delete: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/delete",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    entries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/entries",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    foreach: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/forEach",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    get: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/get",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    has: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/has",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    keys: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/keys",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    set: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/set",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    size: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/size",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HighlightRegistry/values",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/HighlightRegistry",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/css-custom-highlight-api-early-look/",
+                        415
+                      ]
+                    }
+                  ]
+                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -17976,8 +19018,15 @@ api.DeviceOrientationEvent`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
-                        "unknown certificate verification error"
+                        "https://css-tricks.com/the-css-paint-api/",
+                        415
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/simulating-drop-shadows-with-the-css-paint-api/",
+                        415
                       ]
                     }
                   ]
@@ -18016,6 +19065,23 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
+                },
+                htmlelement: {
+                  children: {
+                    attachinternals: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/attachInternals",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlgeolocationelement: {
                   children: {
@@ -20160,6 +21226,36 @@ button:interest-source {
                     }
                   }
                 },
+                rtcinboundrtpstreamstats: {
+                  children: {
+                    insertedsamplesfordeceleration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/insertedSamplesForDeceleration",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    removedsamplesforacceleration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/removedSamplesForAcceleration",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webrtchacks.com/how-webrtcs-neteq-jitter-buffer-provides-smooth-audio/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -21737,6 +22833,13 @@ h1 {
                     {
                       message: "Broken external link",
                       data: [
+                        "https://css-tricks.com/form-validation-web-audio/",
+                        415
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://ptsjs.org/",
                         "The operation timed out."
                       ]
@@ -21797,6 +22900,19 @@ h1 {
                     }
                   ]
                 },
+                web_midi_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_MIDI_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -21831,6 +22947,26 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
+                      ]
+                    }
+                  ]
+                },
+                webcodecs_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebCodecs_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webrtchacks.com/real-time-video-processing-with-webcodecs-and-streams-processing-pipelines-part-1/",
+                        415
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webrtchacks.com/video-frame-processing-on-the-web-webassembly-webgpu-webgl-webcodecs-webnn-and-webtransport/",
+                        415
                       ]
                     }
                   ]
@@ -21913,8 +23049,8 @@ api.Window.sessionStorage`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.asyncapi.com/",
-                        "The operation timed out."
+                        "https://zeromq.org/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -21981,6 +23117,23 @@ api.Window.sessionStorage`,
                             "html.elements.track",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webxr_device_api: {
+                  children: {
+                    cameras: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Cameras",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://filmmakeriq.com/wp-content/uploads/2016/09/Pan-Tilt.png",
+                            415
                           ]
                         }
                       ]
@@ -23793,6 +24946,13 @@ a:focus {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+                                415
+                              ]
                             }
                           ]
                         }
@@ -23846,15 +25006,15 @@ body {
                     },
                     cascade: {
                       children: {
-                        introduction: {
+                        specificity: {
                           children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Specificity",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                400
+                                "https://specifishity.com/",
+                                415
                               ]
                             }
                           ]
@@ -26601,6 +27761,19 @@ blockquote p::after {
                     },
                     grid_layout: {
                       children: {
+                        accessibility: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Accessibility",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/grid-content-re-ordering-and-accessibility/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         basic_concepts: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
@@ -27926,6 +29099,19 @@ blockquote p::after {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        common_grid_layouts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Common_grid_layouts",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/complete-guide-css-grid-layout/",
+                                415
                               ]
                             }
                           ]
@@ -31135,6 +32321,19 @@ css.properties.grid-template-rows.masonry`,
                     },
                     images: {
                       children: {
+                        implementing_image_sprites: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Images/Implementing_image_sprites",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/snippets/css/perfect-css-sprite-sliding-doors-button/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         using_gradients: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Images/Using_gradients",
@@ -37850,19 +39049,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                     },
                     properties_and_values_api: {
                       children: {
-                        houdini: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Houdini",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
-                        },
                         registering_properties: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties",
@@ -37935,7 +39121,21 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       }
                     },
                     scroll_snap: {
-                      children: {},
+                      children: {
+                        basic_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/practical-css-scroll-snapping/",
+                                415
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap",
                       messages: [
                         {
@@ -38028,6 +39228,13 @@ article.snapDisabled ul {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/practical-css-scroll-snapping/",
+                            415
                           ]
                         }
                       ]
@@ -41299,6 +42506,13 @@ p {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/css-typed-arithmetic/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -41600,6 +42814,13 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/lets-talk-speech-css/",
+                                    415
+                                  ]
                                 }
                               ]
                             },
@@ -41850,6 +43071,19 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        "@document": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@document",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.userchrome.org/",
+                                415
                               ]
                             }
                           ]
@@ -42650,6 +43884,13 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/snippets/css/system-font-stack/",
+                                    415
+                                  ]
                                 }
                               ]
                             },
@@ -42660,6 +43901,13 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/introduction-reduced-motion-media-query/",
+                                    415
+                                  ]
                                 }
                               ]
                             },
@@ -42970,6 +44218,58 @@ so specify a standalone starting-style block. */
                             }
                           ]
                         },
+                        "-webkit-text-fill-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/adding-stroke-to-web-text/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/adding-stroke-to-web-text/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/adding-stroke-to-web-text/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/adding-stroke-to-web-text/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         "alignment-baseline": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline",
@@ -43014,6 +44314,19 @@ text:nth-of-type(8) {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        animation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/introduction-reduced-motion-media-query/",
+                                415
                               ]
                             }
                           ]
@@ -46018,6 +47331,13 @@ p:focus {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -46871,6 +48191,1435 @@ p {
                             }
                           ]
                         },
+                        "column-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/line-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  dotted thick teal,",
+                                "2:20 - 2:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  dotted thick teal,
+  repeat(3, dashed pink 1px, outset olive 5px);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  dotted thick teal,",
+                                "2:20 - 2:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  dotted thick teal,
+  repeat(auto, dashed pink 1px, dashed pink 5px),
+  dotted thick teal;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  dashed medium olive,",
+                                "2:22 - 2:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  dashed medium olive,
+  repeat(auto, dotted pink 1px),
+  inset orange 5px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  dashed maroon 3px,",
+                                "2:20 - 2:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  dashed maroon 3px,
+  dotted navy 5px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  solid maroon 5px,",
+                                "2:19 - 2:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  solid maroon 5px,
+  outset navy 10px,
+  inset olive 1px,
+  outset navy 10px,
+  inset olive 1px,
+  outset navy 10px,
+  inset olive 1px;
+column-rule:
+  solid maroon 5px,
+  repeat(3, outset navy 10px, inset olive 1px);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  solid maroon 5px,",
+                                "10:19 - 10:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  solid maroon 5px,
+  outset navy 10px,
+  inset olive 1px,
+  outset navy 10px,
+  inset olive 1px,
+  outset navy 10px,
+  inset olive 1px;
+column-rule:
+  solid maroon 5px,
+  repeat(3, outset navy 10px, inset olive 1px);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "  solid maroon 5px,",
+                                "2:19 - 2:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+column-rule:
+  solid maroon 5px,
+  repeat(auto, dotted olive 1px, dashed navy 1px),
+  solid maroon 5px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "    maroon dashed,",
+                                "12:18 - 12:19",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 12px;
+  list-style-type: none;
+
+  column-rule: 10px groove maroon;
+}
+
+ul {
+  column-rule:
+    maroon dashed,
+    1px dotted,
+    5px teal,
+    10px orange solid;
+}
+
+@layer no-support {
+  @supports not (column-rule: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "    10px maroon dashed,",
+                                "12:23 - 12:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 12px;
+  list-style-type: none;
+
+  column-rule: 10px groove maroon;
+}
+
+ul {
+  column-rule:
+    10px maroon dashed,
+    repeat(4, dotted olive 3px, dashed teal 3px),
+    10px maroon dashed;
+}
+
+@layer no-support {
+  @supports not (column-rule: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "    10px maroon dashed,",
+                                "12:23 - 12:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 12px;
+  list-style-type: none;
+
+  column-rule: 10px groove maroon;
+}
+
+ul {
+  column-rule:
+    10px maroon dashed,
+    repeat(4, dotted olive 3px, dashed teal 3px),
+    10px maroon dashed;
+}
+
+ul {
+  column-rule:
+    10px groove maroon,
+    repeat(auto, 3px dotted maroon),
+    10px groove maroon;
+}
+
+@layer no-support {
+  @supports not (column-rule: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)',
+                                "    10px groove maroon,",
+                                "19:23 - 19:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 12px;
+  list-style-type: none;
+
+  column-rule: 10px groove maroon;
+}
+
+ul {
+  column-rule:
+    10px maroon dashed,
+    repeat(4, dotted olive 3px, dashed teal 3px),
+    10px maroon dashed;
+}
+
+ul {
+  column-rule:
+    10px groove maroon,
+    repeat(auto, 3px dotted maroon),
+    10px groove maroon;
+}
+
+@layer no-support {
+  @supports not (column-rule: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-color",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: rgb(48 125 222), rgb(222 48 125);",
+                                "1:35 - 1:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: rgb(48 125 222), rgb(222 48 125);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: rgb(48 125 222), repeat(3, rgb(222 48 125));",
+                                "1:35 - 1:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: rgb(48 125 222), repeat(3, rgb(222 48 125));
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: purple, repeat(auto, orange, yellow);",
+                                "1:26 - 1:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: purple, repeat(auto, orange, yellow);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: red, yellow;",
+                                "1:23 - 1:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: red, yellow;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: blue, yellow, red, yellow, red;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: blue, yellow, red, yellow, red;
+column-rule-color: blue, repeat(2, yellow, red);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: blue, repeat(2, yellow, red);",
+                                "2:24 - 2:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: blue, yellow, red, yellow, red;
+column-rule-color: blue, repeat(2, yellow, red);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "column-rule-color: blue, repeat(auto, yellow), red;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+column-rule-color: blue, repeat(auto, yellow), red;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-color: blue;",
+                                "7:3 - 7:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+p {
+  column-count: 5;
+  gap: 7px;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  column-rule-color: blue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "  column-rule-color: blue, yellow, red;",
+                                "21:26 - 21:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+p {
+  column-count: 5;
+  gap: 7px;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: red, blue) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-color property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+
+p {
+  column-rule-color: blue, yellow, red;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                                "  border: 1px solid #ddd;",
+                                "17:21 - 17:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-color:",
+                                "11:3 - 11:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                                "  border: 1px solid #ddd;",
+                                "17:21 - 17:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+ul {
+  column-rule-color: black, repeat(auto, #0003), black;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#0003" to be "#00000033" (color-hex-length)',
+                                "  column-rule-color: black, repeat(auto, #0003), black;",
+                                "21:42 - 21:47",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[color-hex-length] Expected "#0003" to be "#00000033" (color-hex-length)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+ul {
+  column-rule-color: black, repeat(auto, #0003), black;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-color:",
+                                "11:3 - 11:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+ul {
+  column-rule-color: black, repeat(auto, #0003), black;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)',
+                                "  column-rule-color: black, repeat(auto, #0003), black;",
+                                "21:27 - 21:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-color" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 7px;
+  list-style-type: none;
+  column-rule-style: dashed;
+  column-rule-width: 3px;
+
+  --base: yellow;
+  --mixin: blue;
+  column-rule-color:
+    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
+    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
+    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
+}
+li {
+  border: 1px solid #ddd;
+}
+
+ul {
+  column-rule-color: black, repeat(auto, #0003), black;
+}
+
+@layer no-support {
+  @supports not (column-rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-style",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: dashed, dotted;",
+                                "1:26 - 1:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: dashed, dotted;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "repeat(2, inset, outset)" for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: repeat(2, inset, outset), double;",
+                                "1:20 - 1:44",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, inset, outset)" for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: repeat(2, inset, outset), double;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: double, repeat(auto, dashed, solid), double;",
+                                "1:26 - 1:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: double, repeat(auto, dashed, solid), double;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: double, groove;",
+                                "1:26 - 1:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: double, groove;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: solid, outset, inset, outset, inset;",
+                                "1:25 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: solid, outset, inset, outset, inset;
+column-rule-style: solid, repeat(2, outset, inset);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: solid, repeat(2, outset, inset);",
+                                "2:25 - 2:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: solid, outset, inset, outset, inset;
+column-rule-style: solid, repeat(2, outset, inset);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "column-rule-style: solid, repeat(auto, dotted), solid;",
+                                "1:25 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+column-rule-style: solid, repeat(auto, dotted), solid;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-style:",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;",
+                                "9:11 - 9:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-style:",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, groove, double;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;",
+                                "9:11 - 9:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, groove, double;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "  column-rule-style: solid, groove, double;",
+                                "13:27 - 13:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, groove, double;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-style:",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;",
+                                "9:11 - 9:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "  column-rule-style: solid, repeat(3, inset, outset), solid;",
+                                "13:27 - 13:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-style:",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+ul {
+  column-rule-style: solid, repeat(auto, groove), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;",
+                                "9:11 - 9:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+ul {
+  column-rule-style: solid, repeat(auto, groove), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "  column-rule-style: solid, repeat(3, inset, outset), solid;",
+                                "13:27 - 13:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+ul {
+  column-rule-style: solid, repeat(auto, groove), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)',
+                                "  column-rule-style: solid, repeat(auto, groove), solid;",
+                                "17:27 - 17:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-style
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-style" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  gap: 5px;
+  column-rule-width: 3px;
+  column-rule-color: teal;
+
+  column-rule-style:
+    dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden;
+}
+
+ul {
+  column-rule-style: solid, repeat(3, inset, outset), solid;
+}
+
+ul {
+  column-rule-style: solid, repeat(auto, groove), solid;
+}
+
+@layer no-support {
+  @supports not (column-rule-style: solid, groove) {
+    body::before {
+      content: "Your browser doesn't support multiple values for the column-rule-style property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "column-rule-visibility-items": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items",
@@ -46978,6 +49727,600 @@ li {
   @supports not (column-rule-visibility-items: around) {
     body::before {
       content: "Your browser doesn't support the column-rule-visibility-items property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-width",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/line-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/line-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/line-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/line-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: thin, medium, thick;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: thin, medium, thick;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "repeat(2, 1px, thick)" for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: repeat(2, 1px, thick), 10px;",
+                                "1:20 - 1:41",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, 1px, thick)" for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: repeat(2, 1px, thick), 10px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: 10px, repeat(auto, 1px, 2px), 10px;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: 10px, repeat(auto, 1px, 2px), 10px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: thick, 0.25rem;",
+                                "1:25 - 1:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: thick, 0.25rem;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: 1rem, thick, thin, thick, thin, thick, thin;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: 1rem, thick, thin, thick, thin, thick, thin;
+column-rule-width: 1rem, repeat(3, thick, thin);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: 1rem, repeat(3, thick, thin);",
+                                "2:24 - 2:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: 1rem, thick, thin, thick, thin, thick, thin;
+column-rule-width: 1rem, repeat(3, thick, thin);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "column-rule-width: 10px, repeat(auto, thin), 10px;",
+                                "1:24 - 1:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+column-rule-width: 10px, repeat(auto, thin), 10px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:25 - 8:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  column-rule-width: 1px, 5px, 10px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:25 - 8:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  column-rule-width: 1px, 5px, 10px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 1px, 5px, 10px;",
+                                "12:25 - 12:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  column-rule-width: 1px, 5px, 10px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  --base: 0.5vw;
+  --secondary: 1vw;
+  column-rule-width:
+    15px,
+    repeat(
+      4,
+      min(calc(var(--secondary) + 3px), 10px),
+      abs(calc(var(--base) - 2px))
+    ),
+    15px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:25 - 8:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  --base: 0.5vw;
+  --secondary: 1vw;
+  column-rule-width:
+    15px,
+    repeat(
+      4,
+      min(calc(var(--secondary) + 3px), 10px),
+      abs(calc(var(--base) - 2px))
+    ),
+    15px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  --base: 0.5vw;
+  --secondary: 1vw;
+  column-rule-width:
+    15px,
+    repeat(
+      4,
+      min(calc(var(--secondary) + 3px), 10px),
+      abs(calc(var(--base) - 2px))
+    ),
+    15px;
+}
+
+ul {
+  column-rule-width: 5px, repeat(auto, 1px), 5px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;",
+                                "8:25 - 8:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  --base: 0.5vw;
+  --secondary: 1vw;
+  column-rule-width:
+    15px,
+    repeat(
+      4,
+      min(calc(var(--secondary) + 3px), 10px),
+      abs(calc(var(--base) - 2px))
+    ),
+    15px;
+}
+
+ul {
+  column-rule-width: 5px, repeat(auto, 1px), 5px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)',
+                                "  column-rule-width: 5px, repeat(auto, 1px), 5px;",
+                                "25:25 - 25:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-width
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "column-rule-width" (declaration-property-value-no-unknown)
+~~~
+ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  column-rule-style: solid;
+  column-rule-color: teal;
+
+  column-rule-width: 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px;
+}
+
+ul {
+  --base: 0.5vw;
+  --secondary: 1vw;
+  column-rule-width:
+    15px,
+    repeat(
+      4,
+      min(calc(var(--secondary) + 3px), 10px),
+      abs(calc(var(--base) - 2px))
+    ),
+    15px;
+}
+
+ul {
+  column-rule-width: 5px, repeat(auto, 1px), 5px;
+}
+
+@layer no-support {
+  @supports not (column-rule-width: thin, thick) {
+    body::before {
+      content: "Your browser doesn't support the column-rule-width property";
       background-color: wheat;
       display: block;
       text-align: center;
@@ -47619,6 +50962,13 @@ div > div {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/flex-grow-is-weird/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -47716,6 +51066,19 @@ rect {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        font: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/snippets/css/system-font-stack/",
+                                415
                               ]
                             }
                           ]
@@ -48927,6 +52290,19 @@ iframe {
                             }
                           ]
                         },
+                        "hanging-punctuation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hanging-punctuation",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/properties/h/hanging-punctuation/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         height: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/height",
@@ -49170,6 +52546,19 @@ button {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        "line-clamp": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-clamp",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/line-clampin/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -50624,6 +54013,19 @@ p {
                             }
                           ]
                         },
+                        "paint-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/paint-order",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/properties/p/paint-order/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         "perspective-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective-origin",
@@ -50920,14 +54322,6 @@ ul {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/row-rule-style",
                           messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text before code:",
-                                ". The default value is"
-                              ]
-                            },
                             {
                               message: "Missing data",
                               data: [
@@ -52677,16 +56071,6 @@ em {
                             }
                           ]
                         },
-                        "text-overflow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-overflow",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "text-transform": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-transform",
@@ -52835,6 +56219,13 @@ div {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/properties/t/transform-origin/",
+                                415
                               ]
                             }
                           ]
@@ -53572,6 +56963,26 @@ p:has(~ form > input:checked) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        zoom: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/zoom",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/properties/z/zoom/",
+                                415
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/properties/z/zoom/",
+                                415
+                              ]
                             }
                           ]
                         }
@@ -54776,6 +58187,45 @@ input[type="submit"]::-moz-focus-inner {
                             }
                           ]
                         },
+                        "_doublecolon_-moz-range-progress": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-progress",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-range-thumb": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-thumb",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-range-track": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-track",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         "_doublecolon_-webkit-scrollbar": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
@@ -54793,6 +58243,32 @@ css.selectors.-webkit-scrollbar-corner
 css.selectors.-webkit-resizer`,
                                 "Expected:",
                                 "css.selectors.-webkit-scrollbar"
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-slider-runnable-track": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-runnable-track",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-slider-thumb": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-thumb",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/",
+                                415
                               ]
                             }
                           ]
@@ -56168,6 +59644,36 @@ div {
                             }
                           ]
                         },
+                        "basic-shape": {
+                          children: {
+                            path: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/path",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/svg-path-syntax-illustrated-guide/",
+                                    415
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        calc: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/calc",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/a-complete-guide-to-calc-in-css/",
+                                415
+                              ]
+                            }
+                          ]
+                        },
                         "calc-sum": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/calc-sum",
@@ -56185,6 +59691,13 @@ div {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/snippets/css/fluid-typography/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -75518,6 +79031,13 @@ body {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/almanac/functions/r/random/",
+                                415
+                              ]
                             }
                           ]
                         },
@@ -82478,7 +85998,21 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
             html: {
               children: {
                 guides: {
-                  children: {},
+                  children: {
+                    responsive_images: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Responsive_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/HTML/Guides",
                   messages: [
                     {
@@ -82490,7 +86024,34 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                   ]
                 },
                 how_to: {
-                  children: {},
+                  children: {
+                    add_a_hit_map_on_top_of_an_image: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://uxmovement.com/mobile/finger-friendly-design-ideal-mobile-touch-target-sizes/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    "author_fast-loading_html_pages": {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.websiteoptimization.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/HTML/How_to",
                   messages: [
                     {
@@ -83421,6 +86982,13 @@ because the nesting selector cannot represent pseudo-elements. */
                                   data: []
                                 },
                                 {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/indeterminate-checkboxes/",
+                                    415
+                                  ]
+                                },
+                                {
                                   message: "Unexpected BCD keys",
                                   data: [
                                     "Actual:",
@@ -83499,6 +87067,13 @@ html.elements.input.switch`,
                                 {
                                   message: "Try it should not have content",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/sliding-nightmare-understanding-range-input/",
+                                    415
+                                  ]
                                 }
                               ]
                             },
@@ -83848,6 +87423,19 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.php.net/manual/en/function.setcookie.php",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cors: {
                       children: {
                         errors: {
@@ -83964,6 +87552,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -84135,6 +87736,19 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://developer.ebay.com/develop/guides/digital-signatures-for-apis",
                                 403
+                              ]
+                            }
+                          ]
+                        },
+                        "save-data": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/help-users-save-data/",
+                                415
                               ]
                             }
                           ]
@@ -84489,6 +88103,19 @@ let z = 1;
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.moddable.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -84673,6 +88300,19 @@ doIt(); // returns "finally"
                           ]
                         }
                       ]
+                    },
+                    proving_the_pythagorean_theorem: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Proving_the_Pythagorean_theorem",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cut-the-knot.org/pythagoras/proof31.gif",
+                            415
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -84797,6 +88437,40 @@ doIt(); // returns "finally"
                 }
               }
             },
+            performance: {
+              children: {
+                guides: {
+                  children: {
+                    css_javascript_animation_performance: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/myth-busting-css-animations-vs-javascript/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    performance_budgets: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.travis-ci.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
             privacy: {
               children: {
                 guides: {
@@ -84915,6 +88589,13 @@ doIt(); // returns "finally"
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
                   ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://support.google.com/youtube/answer/171780",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -84922,6 +88603,32 @@ doIt(); // returns "finally"
               children: {
                 how_to: {
                   children: {
+                    customize_your_app_colors: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Customize_your_app_colors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/meta-theme-color-and-trickery/",
+                            415
+                          ]
+                        }
+                      ]
+                    },
+                    define_app_icons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://maskable.app/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     localize_an_app_manifest: {
                       children: {},
                       slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Localize_an_app_manifest",
@@ -85542,6 +89249,23 @@ doIt(); // returns "finally"
             },
             svg: {
               children: {
+                guides: {
+                  children: {
+                    linking: {
+                      children: {},
+                      slug: "/en-US/docs/Web/SVG/Guides/Linking",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codedread.com/",
+                            415
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     attribute: {
@@ -86307,6 +90031,23 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       ]
+                    },
+                    element: {
+                      children: {
+                        animate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/introduction-reduced-motion-media-query/",
+                                415
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 }
@@ -88772,13 +92513,96 @@ svg.elements.feSpotLight.z`
             xml: {
               children: {
                 guides: {
-                  children: {},
+                  children: {
+                    xml_introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/XML/Guides/XML_introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.xml.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
                       message: "Broken anchor",
                       data: [
                         "#reference_material"
+                      ]
+                    }
+                  ]
+                },
+                xpath: {
+                  children: {
+                    guides: {
+                      children: {
+                        introduction_to_using_xpath_in_javascript: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XPath/Guides/Introduction_to_using_XPath_in_JavaScript",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xml.com/pub/a/2000/08/holman/index.html?page=2",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xml.com/pub/a/2000/08/holman/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  slug: "/en-US/docs/Web/XML/XPath",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.xml.com/pub/a/2000/08/holman/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                xslt: {
+                  children: {
+                    guides: {
+                      children: {
+                        transforming_xml_with_xslt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.xml.com/pub/a/2000/08/holman/index.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  slug: "/en-US/docs/Web/XML/XSLT",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.xml.com/pub/a/2000/08/holman/",
+                        "The operation timed out."
                       ]
                     }
                   ]
