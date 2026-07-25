@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-j72nrk89.js";
+} from "./chunk-5eawg5g2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -293,19 +293,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            adobe_flash: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Adobe_Flash",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webkit.org/blog/7839/adobe-announces-flash-distribution-and-updates-to-end/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             algorithm: {
               children: {},
               slug: "/en-US/docs/Glossary/Algorithm",
@@ -315,19 +302,6 @@ var warnings_processed_default = {
                   data: [
                     "https://www.bigocheatsheet.com/",
                     415
-                  ]
-                }
-              ]
-            },
-            apple_safari: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Apple_Safari",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webkit.org/build-archives/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -359,19 +333,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            camel_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Camel_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1097,19 +1058,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kebab_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Kebab_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1443,6 +1391,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            screen_reader: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Screen_reader",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://support.google.com/accessibility/answer/7031755",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             scroll_container: {
               children: {},
               slug: "/en-US/docs/Glossary/Scroll_container",
@@ -1536,19 +1497,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            snake_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snake_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1736,13 +1684,6 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
-                    "https://kubernetes.io/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
                     "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
                     404
                   ]
@@ -1760,6 +1701,19 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
+                    mobile: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Mobile",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/accessibility/android/answer/6151827",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         "wai-aria": {
@@ -1908,10 +1862,44 @@ var warnings_processed_default = {
                         }
                       }
                     },
+                    tooling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chromebook/answer/7031755",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chromebook/answer/7031755",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     what_is_accessibility: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chromebook/answer/7031755",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chromebook/answer/7031755",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -3019,13 +3007,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -3036,27 +3017,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -3077,19 +3037,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/services/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -4073,6 +4020,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/chromebook/answer/7031755",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -7201,6 +7155,13 @@ button:active {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -13112,19 +13073,6 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://report-uri.com/home/generate/",
-                            "https://report-uri.com/home/generate"
-                          ]
-                        }
-                      ]
-                    },
                     django: {
                       children: {
                         deployment: {
@@ -13706,6 +13654,32 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.google.com/analytics/answer/9304153",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14456,6 +14430,20 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -14476,10 +14464,34 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -15399,18 +15411,6 @@ webextensions.manifest.options_ui`,
                       data: [
                         "security.restrict_to_adults.respect_platform"
                       ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/link-parameters"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/param"
-                      ]
                     }
                   ]
                 },
@@ -15766,18 +15766,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference/Statements/import/source"
                           ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/link-parameters"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/param"
-                          ]
                         }
                       ]
                     },
@@ -15951,6 +15939,19 @@ webextensions.manifest.options_ui`,
                   children: {
                     guides: {
                       children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://pauljadam.com/demos/aria-atomic-relevant.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         multipart_labels: {
                           children: {},
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Multipart_labels",
@@ -16319,13 +16320,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -16348,13 +16342,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
                             "https://www.cedars-sinai.org/health-topics"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://epilepsyontario.org/musicogenic-seizures/",
-                            415
                           ]
                         },
                         {
@@ -16710,6 +16697,13 @@ body {
                   },
                   slug: "/en-US/docs/Web/API/Canvas_API",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://konvajs.org/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "Broken external link",
                       data: [
@@ -22924,6 +22918,23 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                webgl_api: {
+                  children: {
+                    using_extensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/Using_Extensions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web3dsurvey.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -22994,6 +23005,19 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://zeromq.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -24946,6 +24970,19 @@ body {
                     },
                     cascade: {
                       children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         specificity: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Cascade/Specificity",
@@ -43015,19 +43052,6 @@ p {
                             }
                           ]
                         },
-                        "@document": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@document",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.userchrome.org/",
-                                415
-                              ]
-                            }
-                          ]
-                        },
                         "@font-face": {
                           children: {
                             "ascent-override": {
@@ -43845,13 +43869,6 @@ div {
                                 {
                                   message: "Broken external link",
                                   data: [
-                                    "https://www.a11yproject.com/posts/understanding-vestibular-disorders/",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
                                     "https://css-tricks.com/introduction-reduced-motion-media-query/",
                                     415
                                   ]
@@ -44022,6 +44039,19 @@ div {
                               ]
                             }
                           }
+                        },
+                        "@scope": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css.oddbird.net/scope/parent-selector/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "@starting-style": {
                           children: {},
@@ -48145,12 +48175,6 @@ p {
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Web/CSS/rule"
                               ]
                             },
@@ -49694,31 +49718,7 @@ li {
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/line-width"
                               ]
                             },
                             {
@@ -52536,6 +52536,111 @@ button {
                             }
                           ]
                         },
+                        "link-parameters": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/link-parameters",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color1, red),",
+                                "13:5 - 13:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/link-parameters
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.updated {
+  link-parameters:
+    param(--color1, red),
+    param(--color2, tomato);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color2, tomato);",
+                                "14:5 - 14:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/link-parameters
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.updated {
+  link-parameters:
+    param(--color1, red),
+    param(--color2, tomato);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "  link-parameters:",
+                                "12:3 - 12:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/link-parameters
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.updated {
+  link-parameters:
+    param(--color1, red),
+    param(--color2, tomato);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.properties.link-parameters"
+                              ]
+                            }
+                          ]
+                        },
                         "list-style": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style",
@@ -54261,12 +54366,6 @@ body {
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Web/CSS/rule"
                               ]
                             },
@@ -54518,25 +54617,7 @@ li {
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/line-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/line-width"
                               ]
                             },
                             {
@@ -56983,16 +57064,6 @@ p:has(~ form > input:checked) {
                             }
                           ]
                         },
-                        "writing-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "z-index": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/z-index",
@@ -57030,6 +57101,12 @@ p:has(~ form > input:checked) {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/link-parameters"
                           ]
                         },
                         {
@@ -59683,6 +59760,258 @@ div {
                         },
                         "basic-shape": {
                           children: {
+                            circle: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/circle",
+                              messages: [
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-property-value-no-unknown",
+                                    'Unexpected unknown value "circle(closest-corner at 70% 70%)" for property "clip-path" (declaration-property-value-no-unknown)',
+                                    "clip-path: circle(closest-corner at 70% 70%);",
+                                    "1:12 - 1:45",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/circle
+[declaration-property-value-no-unknown] Unexpected unknown value "circle(closest-corner at 70% 70%)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+clip-path: circle(closest-corner at 70% 70%);
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "color-hex-length",
+                                    'Expected "#888" to be "#888888" (color-hex-length)',
+                                    "  border: 1px solid #888;",
+                                    "6:21 - 6:25",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/circle
+[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
+~~~
+.canvas {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  overflow: hidden;
+  border: 1px solid #888;
+}
+
+.refbox {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  width: 200px;
+  height: 120px;
+  box-sizing: border-box;
+}
+
+.fill {
+  position: absolute;
+  inset: -240px;
+  background: linear-gradient(to bottom right, #ff5522, #0055ff);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.outline {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  width: 200px;
+  height: 120px;
+  box-sizing: border-box;
+}
+
+.outline {
+  border: 3px dashed #e6007a;
+  pointer-events: none;
+}
+
+.center-marker {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid black;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#declaration {
+  margin: 0;
+}
+
+#support-note {
+  margin: 0;
+  color: #b3001b;
+}
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            ellipse: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse",
+                              messages: [
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-property-value-no-unknown",
+                                    'Unexpected unknown value "ellipse(closest-corner closest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)',
+                                    "clip-path: ellipse(closest-corner closest-corner at 25% 25%);",
+                                    "1:12 - 1:61",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse
+[declaration-property-value-no-unknown] Unexpected unknown value "ellipse(closest-corner closest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+clip-path: ellipse(closest-corner closest-corner at 25% 25%);
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-property-value-no-unknown",
+                                    'Unexpected unknown value "ellipse(closest-side closest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)',
+                                    "clip-path: ellipse(closest-side closest-corner at 25% 25%);",
+                                    "1:12 - 1:59",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse
+[declaration-property-value-no-unknown] Unexpected unknown value "ellipse(closest-side closest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+clip-path: ellipse(closest-side closest-corner at 25% 25%);
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-property-value-no-unknown",
+                                    'Unexpected unknown value "ellipse(closest-side farthest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)',
+                                    "clip-path: ellipse(closest-side farthest-corner at 25% 25%);",
+                                    "1:12 - 1:60",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse
+[declaration-property-value-no-unknown] Unexpected unknown value "ellipse(closest-side farthest-corner at 25% 25%)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+clip-path: ellipse(closest-side farthest-corner at 25% 25%);
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "color-hex-length",
+                                    'Expected "#888" to be "#888888" (color-hex-length)',
+                                    "  border: 1px solid #888;",
+                                    "6:21 - 6:25",
+                                    `/en-US/docs/Web/CSS/Reference/Values/basic-shape/ellipse
+[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
+~~~
+.canvas {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  overflow: hidden;
+  border: 1px solid #888;
+}
+
+.refbox {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  width: 200px;
+  height: 120px;
+  box-sizing: border-box;
+}
+
+.fill {
+  position: absolute;
+  inset: -240px;
+  background: linear-gradient(to bottom right, #ff5522, #0055ff);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.outline {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  width: 200px;
+  height: 120px;
+  box-sizing: border-box;
+}
+
+.outline {
+  border: 3px dashed #e6007a;
+  pointer-events: none;
+}
+
+.center-marker {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid black;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#declaration {
+  margin: 0;
+}
+
+#support-note {
+  margin: 0;
+  color: #b3001b;
+}
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
                             path: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/basic-shape/path",
@@ -72287,6 +72616,40 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "  link-parameters: param(--color, tomato);",
+                                "2:20 - 2:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/dashed-ident
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+path:hover {
+  link-parameters: param(--color, tomato);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "  link-parameters: param(--color, tomato);",
+                                "2:3 - 2:18",
+                                `/en-US/docs/Web/CSS/Reference/Values/dashed-ident
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+path:hover {
+  link-parameters: param(--color, tomato);
+}
+~~~
+`
+                              ]
                             }
                           ]
                         },
@@ -72731,6 +73094,32 @@ li {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/env",
                           messages: [
                             {
+                              message: "Bad DL",
+                              data: [
+                                ": A <custom-ident> specifying the name of the envi"
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": A fallback value to be inserted if the environme"
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": A <declaration_value> is the default value of th"
+                              ]
+                            },
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "<dashed-ident>",
+                                "Text after code:",
+                                "is a user defined variable that can be used as an "
+                              ]
+                            },
+                            {
                               message: "Stylelint backlog",
                               data: [
                                 "CssSyntaxError",
@@ -73023,6 +73412,12 @@ css.properties.width.fit-content_function`
                               data: [
                                 "/en-US/docs/Web/CSS/Reference/Properties/corner-shape",
                                 "#properties_that_follow_corner_shape"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/CSS/Reference/Values/param"
                               ]
                             },
                             {
@@ -77398,6 +77793,84 @@ label {
                             }
                           ]
                         },
+                        "line-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/line-width",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hairline" for property "border-width" (declaration-property-value-no-unknown)',
+                                "  border-width: hairline;",
+                                "12:17 - 12:25",
+                                `/en-US/docs/Web/CSS/Reference/Values/line-width
+[declaration-property-value-no-unknown] Unexpected unknown value "hairline" for property "border-width" (declaration-property-value-no-unknown)
+~~~
+section {
+  display: flex;
+  gap: 10px;
+}
+div {
+  flex: 0 0 15%;
+  border-style: solid;
+  border-color: purple;
+  text-align: center;
+}
+[data-width="hairline"] {
+  border-width: hairline;
+}
+
+[data-width="thin"] {
+  border-width: thin;
+}
+
+[data-width="medium"] {
+  border-width: medium;
+}
+
+[data-width="thick"] {
+  border-width: thick;
+}
+
+[data-width="10px"] {
+  border-width: 10px;
+}
+
+@supports not (border-width: hairline) {
+  body::before {
+    content: "Your browser does not support the 'hairline' value.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.types.line-width"
+                              ]
+                            }
+                          ]
+                        },
                         max: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/max",
@@ -77430,6 +77903,659 @@ label {
                                 "Expected:",
                                 `css.properties.grid-template-columns.minmax
 css.properties.grid-template-rows.minmax`
+                              ]
+                            }
+                          ]
+                        },
+                        param: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Values/param",
+                          messages: [
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": A <declaration_value> is the value of the attrib"
+                              ]
+                            },
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "<dashed-ident>",
+                                "Text after code:",
+                                "is a user defined variable that is used as an iden"
+                              ]
+                            },
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "unrecognized-char-ref",
+                                'Unrecognized character reference "&param"',
+                                "&param",
+                                "2:45",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[unrecognized-char-ref] Unrecognized character reference "&param"
+~~~
+<img
+  src="square.svg#param(--color1, slategrey)&param(--color2, lightgrey)"
+  alt="A square with a slate grey border and a light grey fill."
+/>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                `Cannot parse property value "url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  )" for property "background-image" (declaration-property-value-no-unknown)`,
+                                `  background-image: url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  );`,
+                                "2:21 - 6:4",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[declaration-property-value-no-unknown] Cannot parse property value "url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  )" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.foo {
+  background-image: url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color1, slategrey),",
+                                "4:5 - 4:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.foo {
+  background-image: url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color2, lightgrey)",
+                                "5:5 - 5:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.foo {
+  background-image: url(
+    "square.svg"
+    param(--color1, slategrey),
+    param(--color2, lightgrey)
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color1, slategrey),",
+                                "13:5 - 13:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color2, lightgrey);",
+                                "14:5 - 14:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "      param(--color1, lightgrey),",
+                                "17:7 - 17:12",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "      param(--color2, slategrey);",
+                                "18:7 - 18:12",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color1, fuchsia),",
+                                "23:5 - 23:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "    param(--color2, yellow);",
+                                "24:5 - 24:10",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "      param(--color1, yellow),",
+                                "27:7 - 27:12",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "param" (function-no-unknown)',
+                                "      param(--color2, fuchsia);",
+                                "28:7 - 28:12",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[function-no-unknown] Unexpected unknown function "param" (function-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "  link-parameters:",
+                                "12:3 - 12:18",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "    link-parameters:",
+                                "16:5 - 16:20",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "  link-parameters:",
+                                "22:3 - 22:18",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "property-no-unknown",
+                                'Unexpected unknown property "link-parameters" (property-no-unknown)',
+                                "    link-parameters:",
+                                "26:5 - 26:20",
+                                `/en-US/docs/Web/CSS/Reference/Values/param
+[property-no-unknown] Unexpected unknown property "link-parameters" (property-no-unknown)
+~~~
+.squares {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 100%;
+}
+
+.greyscale {
+  link-parameters:
+    param(--color1, slategrey),
+    param(--color2, lightgrey);
+  &:hover {
+    link-parameters:
+      param(--color1, lightgrey),
+      param(--color2, slategrey);
+  }
+}
+.high-contrast {
+  link-parameters:
+    param(--color1, fuchsia),
+    param(--color2, yellow);
+  &:hover {
+    link-parameters:
+      param(--color1, yellow),
+      param(--color2, fuchsia);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.types.param"
                               ]
                             }
                           ]
@@ -79171,10 +80297,229 @@ pre {
                               data: []
                             },
                             {
+                              message: "Bad DL",
+                              data: [
+                                `
+The <track-size> values set the track size. A <tr`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+Each <track-size> is optionally preceded by <line`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+An ending <line-names> is optional.
+`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The <fixed-size> sets the track size. A <fixed-si`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+Each <fixed-size> is optionally preceded by <line`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The ending <line-names> is optional.
+`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The <line-names> are one or more space-separated `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+These line names (rather than track sizes) are re`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The <value> is one or more comma-separated valid `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+Multiple repeat() functions of the <repeat-value-`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The <value> is one or more comma-separated valid `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+At most one repeat() in a given list of values ma`
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#repeat-count-values"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#repeated-values-list"
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word repeat (CssSyntaxError)",
+                                "repeat( <repeat-count>, <values-list> )",
+                                "1:1 - 1:7",
+                                `/en-US/docs/Web/CSS/Reference/Values/repeat
+[CssSyntaxError] Unknown word repeat (CssSyntaxError)
+~~~
+repeat( <repeat-count>, <values-list> )
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                `Unexpected unknown value "repeat(
+    2,
+    minmax(min-content, max-content),
+    repeat(3, 10px)
+  )" for property "grid-template-columns" (declaration-property-value-no-unknown)`,
+                                `  grid-template-columns: repeat(
+    2,
+    minmax(min-content, max-content),
+    repeat(3, 10px)
+  );`,
+                                "2:26 - 6:4",
+                                `/en-US/docs/Web/CSS/Reference/Values/repeat
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(
+    2,
+    minmax(min-content, max-content),
+    repeat(3, 10px)
+  )" for property "grid-template-columns" (declaration-property-value-no-unknown)
+~~~
+.wrapper {
+  grid-template-columns: repeat(
+    2,
+    minmax(min-content, max-content),
+    repeat(3, 10px)
+  );
+  column-rule: repeat(
+    auto,
+    yellow 3px solid,
+    repeat(5, green 5px dotted),
+    red 1px dashed
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                `Unexpected unknown value "repeat(
+    auto,
+    yellow 3px solid,
+    repeat(5, green 5px dotted),
+    red 1px dashed
+  )" for property "column-rule" (declaration-property-value-no-unknown)`,
+                                `  column-rule: repeat(
+    auto,
+    yellow 3px solid,
+    repeat(5, green 5px dotted),
+    red 1px dashed
+  );`,
+                                "7:16 - 12:4",
+                                `/en-US/docs/Web/CSS/Reference/Values/repeat
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(
+    auto,
+    yellow 3px solid,
+    repeat(5, green 5px dotted),
+    red 1px dashed
+  )" for property "column-rule" (declaration-property-value-no-unknown)
+~~~
+.wrapper {
+  grid-template-columns: repeat(
+    2,
+    minmax(min-content, max-content),
+    repeat(3, 10px)
+  );
+  column-rule: repeat(
+    auto,
+    yellow 3px solid,
+    repeat(5, green 5px dotted),
+    red 1px dashed
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "css.properties.grid-template-columns.repeat",
+                                `css.properties.grid-template-columns.repeat
+css.properties.row-rule.repeat`,
                                 "Expected:",
                                 `css.properties.background.repeat
 css.properties.background-repeat.repeat
@@ -83449,6 +84794,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "<line-width> CSS type"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "linear() CSS function"
                       ]
                     },
@@ -83462,6 +84813,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         ":link CSS pseudo-class"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "link-parameters CSS property"
                       ]
                     },
                     {
@@ -84266,6 +85623,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                       message: "Code with space",
                       data: [
                         "palette-mix() CSS function"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "param() CSS function"
                       ]
                     },
                     {
@@ -87466,26 +88829,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    cookies: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/cookies/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cors: {
                       children: {
                         errors: {
@@ -87905,8 +89248,28 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
+                            "https://babeljs.io/docs/options",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://exploringjs.com/es6/ch_modules.html",
                             404
+                          ]
+                        }
+                      ]
+                    },
+                    resource_management: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Resource_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://typescript-eslint.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -88504,26 +89867,6 @@ doIt(); // returns "finally"
                             }
                           ]
                         },
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -88595,19 +89938,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    referer_header_colon__privacy_and_security_concerns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -88703,17 +90033,7 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -88736,14 +90056,7 @@ doIt(); // returns "finally"
                 {
                   message: "Broken external link",
                   data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
+                    "https://support.google.com/youtube/answer/171780",
                     "The operation timed out."
                   ]
                 }
@@ -89351,19 +90664,6 @@ doIt(); // returns "finally"
                 },
                 threat_modeling: {
                   children: {
-                    frameworks: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Threat_modeling/Frameworks",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://linddun.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     pwa_threat_model: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Threat_modeling/PWA_threat_model",
@@ -92753,6 +94053,10 @@ svg.elements.feSpotLight.z`
                   slug: "/en-US/docs/WebAssembly/Reference/Definitions",
                   messages: [
                     {
+                      message: "Missing specifications macro",
+                      data: []
+                    },
+                    {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/WebAssembly/Reference/Definitions/types"
@@ -92762,89 +94066,10 @@ svg.elements.feSpotLight.z`
                 },
                 exception_handling: {
                   children: {
-                    throw: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/throw",
-                      messages: [
-                        {
-                          message: "Missing BCD table",
-                          data: [
-                            "(key invalid)"
-                          ]
-                        }
-                      ]
-                    },
-                    throw_ref: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/throw_ref",
-                      messages: [
-                        {
-                          message: "Missing BCD table",
-                          data: [
-                            "(key invalid)"
-                          ]
-                        }
-                      ]
-                    },
                     try_table: {
-                      children: {
-                        catch: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch",
-                          messages: [
-                            {
-                              message: "Missing BCD table",
-                              data: [
-                                "(key invalid)"
-                              ]
-                            }
-                          ]
-                        },
-                        catch_all: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all",
-                          messages: [
-                            {
-                              message: "Missing BCD table",
-                              data: [
-                                "(key invalid)"
-                              ]
-                            }
-                          ]
-                        },
-                        catch_all_ref: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_all_ref",
-                          messages: [
-                            {
-                              message: "Missing BCD table",
-                              data: [
-                                "(key invalid)"
-                              ]
-                            }
-                          ]
-                        },
-                        catch_ref: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table/catch_ref",
-                          messages: [
-                            {
-                              message: "Missing BCD table",
-                              data: [
-                                "(key invalid)"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table",
                       messages: [
-                        {
-                          message: "Missing BCD table",
-                          data: [
-                            "(key invalid)"
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [

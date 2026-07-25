@@ -38850,6 +38850,7 @@ Some are aimed at complete beginners, while others present complex features to b
         "using_with_css_custom_properties",
         "using_with_color-profile",
         "using_with_font-palette-values",
+        "using_with_env_and_param",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -40696,6 +40697,57 @@ As an <easing-function>, it can be used to smooth out the start and end of the i
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Values/line-width",
+    links: {},
+    data: {
+      metadata: {
+        title: "<line-width> CSS type",
+        pageType: "css-type",
+        browserCompat: [
+          "css.types.line-width"
+        ],
+        summary: "The <line-width> enumerated value type represents the length or keyword value that defines the width of a line, or the lack of a line. The <line-width> keyword values are used in the following longhand and shorthand properties:",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/values/line-width",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "<line-width>",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-backgrounds/#typedef-line-width",
+          title: "CSS Backgrounds and Borders Module Level 3"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "length",
+        "hairline",
+        "thin",
+        "medium",
+        "thick",
+        "formal_syntax",
+        "<line-width>",
+        "examples",
+        "defining_a_line_width",
+        "html",
+        "css",
+        "result",
+        "frame_defining_a_line_width",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Values/initial",
     links: {},
     data: {
@@ -42334,7 +42386,7 @@ As an <easing-function>, it can be used to smooth out the start and end of the i
         browserCompat: [
           "css.types.env"
         ],
-        summary: "The env() CSS function can be used to insert the value of a user-agent defined environment variable into your CSS.",
+        summary: "The env() CSS function can be used to insert the value of a user-agent defined environment variable into your CSS. Alternatively env() can be used to make dynamic values in external SVG files which updated using the link-parameters CSS property.",
         popularity: 0.014769806770949011,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -42369,14 +42421,12 @@ As an <easing-function>, it can be used to smooth out the start and end of the i
       ids: [
         "syntax",
         "parameters",
-        "environment-variable",
         "safe-area-inset-top",
         "safe-area-max-inset-top",
         "titlebar-area-x",
         "keyboard-inset-top",
         "preferred-text-scale",
         "viewport-segment-width",
-        "fallback",
         "description",
         "use_cases",
         "names_followed_by_integers",
@@ -43400,6 +43450,45 @@ It can be used for many basic image manipulations, such as tinting an image with
         "css",
         "result",
         "frame_rotate_elements",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Values/param",
+    links: {},
+    data: {
+      metadata: {
+        title: "param() CSS function",
+        pageType: "css-function",
+        browserCompat: [
+          "css.types.param"
+        ],
+        summary: "The param() CSS function is used to set link parameters. This can be done using the link-parameters CSS function, in the fragment URL of an external resource, or in the <url-modifier> of the url() CSS function.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/values/param",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "param()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "formal_definition",
+        "examples",
+        "using_link-parameters_property",
+        "frame_using_link-parameters_property",
+        "passing_param_into_url_modifier",
+        "using_param_with_background-image_property",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -44583,6 +44672,8 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "shape-radius",
         "closest-side",
         "farthest-side",
+        "closest-corner",
+        "farthest-corner",
         "position",
         "formal_syntax",
         "<ellipse()>",
@@ -44598,6 +44689,12 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "frame_ellipse",
         "using_closest-side_farthest-side_values",
         "frame_ellipse-keywords",
+        "radius_keyword_interactive_example",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_ellipse-keywords-interactive",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -44914,6 +45011,8 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "shape-radius",
         "closest-side",
         "farthest-side",
+        "closest-corner",
+        "farthest-corner",
         "position",
         "formal_syntax",
         "<circle()>",
@@ -44927,6 +45026,12 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "examples",
         "basic_circle",
         "frame_circle",
+        "radius_keyword_interactive_example",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_circle-keywords-interactive",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -47130,9 +47235,10 @@ A <color> may also include an alpha-channel transparency value, indicating how t
         title: "repeat() CSS function",
         pageType: "css-function",
         browserCompat: [
-          "css.properties.grid-template-columns.repeat"
+          "css.properties.grid-template-columns.repeat",
+          "css.properties.row-rule.repeat"
         ],
-        summary: "The repeat() CSS function represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.",
+        summary: "The repeat() CSS function represents a repeated fragment of the track list or rule-line list. It allows repeated patterns of columns, rows, and their gap decorations, to be written in a compact form.",
         popularity: 0.016742287231229707,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -47159,17 +47265,28 @@ A <color> may also include an alpha-channel transparency value, indicating how t
         "try_it",
         "syntax",
         "values",
-        "fixed-size",
-        "flex",
-        "length",
-        "line-names",
-        "percentage",
-        "track-size",
-        "auto",
+        "repeat_count_values",
+        "integer",
         "auto-fill",
         "auto-fit",
-        "max-content",
-        "min-content",
+        "auto",
+        "repeated_values_list",
+        "line-names",
+        "track-size",
+        "fixed-size",
+        "value",
+        "description",
+        "tracks",
+        "rule_feature",
+        "syntax_forms",
+        "track-repeat",
+        "auto-repeat",
+        "fixed-repeat",
+        "name-repeat",
+        "repeat-value-type",
+        "auto-repeat-value-type",
+        "auto-fit_versus_auto-fill",
+        "use_exceptions_and_rules",
         "formal_syntax",
         "<track-repeat>",
         "<auto-repeat>",
@@ -47191,6 +47308,8 @@ A <color> may also include an alpha-channel transparency value, indicating how t
         "frame_specifying_grid_columns_using_repeat",
         "specifications",
         "browser_compatibility",
+        "css.properties.grid-template-columns.repeat",
+        "css.properties.row-rule.repeat",
         "see_also"
       ]
     }
@@ -57426,7 +57545,7 @@ An @import rule must be defined at the top of the stylesheet, before any other a
         }
       ],
       links: [
-        "https://drafts.csswg.org/css-animations-1/"
+        "https://drafts.csswg.org/css-animations-2/"
       ],
       imgs: [],
       ids: [
@@ -57437,6 +57556,8 @@ An @import rule must be defined at the top of the stylesheet, before any other a
         "formal_definition",
         "formal_syntax",
         "animation-delay",
+        "<animation-delay-start>",
+        "<animation-delay-end>",
         "examples",
         "setting_an_animation_delay",
         "html",
@@ -61023,7 +61144,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.writing-mode"
         ],
-        summary: "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress. When set for an entire document, it should be set on the root element (html element for HTML documents).",
+        summary: "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which text flows.",
         popularity: 0.012099290330086408,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -61065,6 +61186,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "tb",
         "tb-lr",
         "tb-rl",
+        "description",
         "formal_definition",
         "formal_syntax",
         "writing-mode",
@@ -61721,8 +61843,8 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "formal_definition",
         "formal_syntax",
@@ -63325,7 +63447,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-inline-start-width",
@@ -63808,6 +63930,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         "add",
         "accumulate",
         "description",
+        "multiple_values",
         "formal_definition",
         "formal_syntax",
         "animation-composition",
@@ -64601,19 +64724,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64621,7 +64732,19 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64629,15 +64752,15 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -66284,7 +66407,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-block-end-style",
@@ -66707,7 +66830,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-block-start-style",
@@ -67786,7 +67909,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-inline-style",
@@ -67906,7 +68029,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-inline-end-style",
@@ -68222,7 +68345,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-block-style",
@@ -68297,6 +68420,50 @@ This default is used by position-area and position-try, and by anchor functions 
         "css",
         "result",
         "frame_complete_border-color_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/link-parameters",
+    links: {},
+    data: {
+      metadata: {
+        title: "link-parameters CSS property",
+        pageType: "css-property",
+        browserCompat: [
+          "css.properties.link-parameters"
+        ],
+        summary: "The link-parameters CSS property sets values of external resources, such as SVGs, whose attributes have been set with the env() CSS function",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/link-parameters",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "link-parameters",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-link-params/#propdef-link-parameters",
+          title: "CSS Linked Parameters Module Level 1"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "values",
+        "none",
+        "param",
+        "formal_definition",
+        "example",
+        "updating_the_colors_of_an_external_svg_file",
+        "frame_updating_the_colors_of_an_external_svg_file",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -68846,7 +69013,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "<single-animation>",
         "<animation-duration>",
         "<easing-function>",
-        "<animation-delay>",
+        "<animation-delay-start>",
         "<single-animation-iteration-count>",
         "<single-animation-direction>",
         "<single-animation-fill-mode>",
@@ -71544,8 +71711,8 @@ transform: scale() can be used as an alternative to this property.`,
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "description",
         "formal_definition",
@@ -71958,8 +72125,8 @@ transform: scale() can be used as an alternative to this property.`,
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "description",
         "formal_definition",
@@ -72359,8 +72526,8 @@ transform: scale() can be used as an alternative to this property.`,
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "formal_definition",
         "formal_syntax",
@@ -72953,8 +73120,8 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "formal_definition",
         "formal_syntax",
@@ -74533,7 +74700,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         browserCompat: [
           "css.properties.background-position"
         ],
-        summary: "The background-position CSS property sets the initial position for each background image. The position is relative to the position layer set by background-origin.",
+        summary: "The background-position CSS property sets the initial position for each background image.",
         popularity: 0.03751414580490952,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -74561,6 +74728,11 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "syntax",
         "values",
         "position",
+        "description",
+        "1-value_syntax",
+        "2-value_syntax",
+        "3-value_syntax",
+        "4-value_syntax",
         "regarding_percentages",
         "formal_definition",
         "formal_syntax",
@@ -78161,7 +78333,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-inline-width",
@@ -81391,7 +81563,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "try_it",
         "syntax",
         "values",
-        "border-style",
+        "line-style",
         "formal_definition",
         "formal_syntax",
         "border-inline-start-style",
@@ -81490,7 +81662,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-block-start-width",
@@ -81907,8 +82079,8 @@ It modifies the coordinate space of the CSS visual formatting model.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-animations/#animation-duration",
-          title: "CSS Animations Level 1"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-animations-2/#animation-duration",
+          title: "CSS Animations Level 2"
         }
       ],
       links: [
@@ -85603,8 +85775,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "constituent_properties",
         "syntax",
         "values",
-        "border-width",
-        "border-style",
+        "line-width",
+        "line-style",
         "color",
         "formal_definition",
         "formal_syntax",
@@ -85847,7 +86019,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-block-end-width",
@@ -86155,7 +86327,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-inline-end-width",
@@ -86208,10 +86380,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "try_it",
         "syntax",
         "values",
-        "length",
-        "thin",
-        "medium",
-        "thick",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "outline-width",
@@ -87932,7 +88101,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         "try_it",
         "syntax",
         "values",
-        "border-width",
+        "line-width",
         "formal_definition",
         "formal_syntax",
         "border-block-width",
@@ -116272,19 +116441,7 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116292,27 +116449,15 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116320,7 +116465,31 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -168789,23 +168958,7 @@ be different.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168813,67 +168966,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168881,31 +168974,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168913,31 +168982,11 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168945,35 +168994,19 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168981,31 +169014,15 @@ be different.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169013,7 +169030,159 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -176137,7 +176306,7 @@ The recommended modern approach is to use CSS, in much the same way as you would
       metadata: {
         title: "Positions",
         pageType: "tutorial-chapter",
-        summary: 'In this article, we examine how Scalable Vector Graphics (SVG) represents the positions and sizes of objects within a drawing context, including coordinate system and what a "pixel" measurement means in a scalable context.',
+        summary: 'In this article, we examine how Scalable Vector Graphics (SVG) represents the positions and sizes of objects within a drawing context, including the SVG coordinate system and what a "pixel" measurement means in a scalable context.',
         popularity: 0.005568423390551131,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -176154,8 +176323,8 @@ The recommended modern approach is to use CSS, in much the same way as you would
       ],
       ids: [
         "the_grid",
-        "example",
-        "what_are_pixels"
+        "pixels_user_units_and_the_svg_user_coordinate_system",
+        "frame_svg-user-units"
       ]
     }
   },
@@ -193529,19 +193698,7 @@ and Legendre symbols.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         },
         {
@@ -193553,7 +193710,19 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
           title: "MathML Core"
         }
       ],
@@ -201586,11 +201755,23 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -201599,18 +201780,6 @@ Each request method has its own semantics, but some characteristics are shared a
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
@@ -516095,12 +516264,11 @@ earlier, even before that page's content has finished loading.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "error",
         "description",
         "dtls-failure",
         "fingerprint-failure",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -581606,63 +581774,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
@@ -581670,23 +581782,11 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
           title: "VirtualKeyboard API"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
           title: "HTML"
         },
         {
@@ -581698,12 +581798,24 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
@@ -581714,11 +581826,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
@@ -581726,7 +581834,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
           title: "HTML"
         },
         {
@@ -581734,11 +581842,71 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         }
       ],
@@ -586756,7 +586924,12 @@ This text helps users understand your app's purpose when viewing it in an app st
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://www.w3.org/TR/appmanifest/#x_localized-members",
+          title: "Web Application Manifest"
+        }
+      ],
       links: [
         "https://microsoftedge.github.io/Demos/pwa-manifest-localization/",
         "https://github.com/MicrosoftEdge/Demos/tree/main/pwa-manifest-localization/",
@@ -587762,9 +587935,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "local: Wasm text instruction",
+        title: "local: Wasm variable instruction",
         pageType: "webassembly-instruction",
-        summary: "The local instruction declares a new local variable.",
+        browserCompat: [
+          "webassembly.instructions.local"
+        ],
+        summary: "The local variable instruction declares a new local variable.",
         popularity: 0.002057090882169411,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587775,11 +587951,19 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#variable-instructions①",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -587788,9 +587972,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "local.get: Wasm text instruction",
+        title: "local.get: Wasm variable instruction",
         pageType: "webassembly-instruction",
-        summary: "The local.get instruction loads the value of a local variable onto the stack.",
+        browserCompat: [
+          "webassembly.instructions.local_get"
+        ],
+        summary: "The local.get variable instruction loads the value of a local variable onto the stack.",
         popularity: 0.0007932227052067139,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587801,11 +587988,19 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#variable-instructions①",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -587814,9 +588009,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "local.tee: Wasm text instruction",
+        title: "local.tee: Wasm variable instruction",
         pageType: "webassembly-instruction",
-        summary: "The local.tee instruction sets the value of a local variable and loads the value onto the stack.",
+        browserCompat: [
+          "webassembly.instructions.local_tee"
+        ],
+        summary: "The local.tee variable instruction sets the value of a local variable and loads the value onto the stack.",
         popularity: 0.0008461042188871614,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587827,11 +588025,19 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#variable-instructions①",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -587872,12 +588078,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "global.set: Wasm text instruction",
+        title: "global.set: Wasm variable instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.instructions.global_get"
+          "webassembly.instructions.global_set"
         ],
-        summary: "The global.set instruction sets the values of a global variable.",
+        summary: "The global.set variable instruction sets the value of a global variable.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587890,7 +588096,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#variable-instructions①",
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#parametric-instructions①",
           title: "WebAssembly Core Specification"
         }
       ],
@@ -587917,12 +588123,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "global.get: Wasm text instruction",
+        title: "global.get: Wasm variable instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
           "webassembly.instructions.global_get"
         ],
-        summary: "The global.get instruction loads the value of a global variable onto the stack.",
+        summary: "The global.get variable instruction loads the value of a global variable onto the stack.",
         popularity: 0.0007773582511025796,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587962,9 +588168,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "local.set: Wasm text instruction",
+        title: "local.set: Wasm variable instruction",
         pageType: "webassembly-instruction",
-        summary: "The local.set instruction sets the values of a local variable.",
+        browserCompat: [
+          "webassembly.instructions.local_set"
+        ],
+        summary: "The local.set variable instruction sets the value of a local variable.",
         popularity: 0.0019037344924961131,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587975,11 +588184,19 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#variable-instructions①",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -588004,6 +588221,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfthrowx%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588014,6 +588237,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "type",
         "payload",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588039,6 +588264,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfthrow_ref%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588049,6 +588280,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "exception",
         "binary_encoding",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588074,6 +588307,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfcatch_alll",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588084,6 +588323,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "type",
         "binary_encoding",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588109,6 +588350,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfcatch_all_refl",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588120,6 +588367,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "exception_ref",
         "binary_encoding",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588145,6 +588394,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfcatchxl",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588157,6 +588412,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "payload",
         "binary_encoding",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588182,6 +588439,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsftry_tablemathitbthrefsyntax-catchmathitcatchasthrefsyntax-instrmathitinstrast",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588207,6 +588470,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "wasm",
         "result",
         "frame_multiple-exceptions",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588232,6 +588497,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-controlmathsfcatch_refxl",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -588245,6 +588516,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "exception_ref",
         "binary_encoding",
         "description",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -588818,9 +589091,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "get: Wasm table instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.instructions.table_get"
         ],
-        summary: "The table.get Table instruction retrieves the reference stored at a particular table index.",
+        summary: "The table.get table instruction retrieves the reference stored at a particular table index.",
         popularity: 0.000745629342894311,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -588833,8 +589106,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-tablemathsftablegetx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -588872,9 +589145,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "set: Wasm table instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.instructions.table_set"
         ],
-        summary: "The table.set Table instruction changes the value stored in a particular table element.",
+        summary: "The table.set table instruction changes the value stored in a particular table element.",
         popularity: 0.0007297648887901767,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -588887,8 +589160,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-tablemathsftablesetx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -588925,9 +589198,6 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "WebAssembly table instructions",
         pageType: "landing-page",
-        browserCompat: [
-          "webassembly.reference-types"
-        ],
         summary: "This set of pages details the table instructions available in Wasm to create and manipulate tables.",
         popularity: 0.0009095620353036984,
         modified: "1970-01-01T00:00:00.000Z",
@@ -588939,23 +589209,14 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#table-instructions",
-          title: "Unknown specification"
-        }
-      ],
       links: [],
       imgs: [],
       ids: [
-        "instructions",
         "table.fill",
         "table.get",
         "table.grow",
         "table.set",
-        "table.size",
-        "specifications",
-        "browser_compatibility"
+        "table.size"
       ]
     }
   },
@@ -588967,9 +589228,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "size: Wasm table instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.instructions.table_size"
         ],
-        summary: "The table.size Table instruction returns the current size of the table.",
+        summary: "The table.size table instruction returns the current size of the table.",
         popularity: 0.0006610189210055949,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -588982,8 +589243,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-tablemathsftablesizex",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -589019,9 +589280,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "fill: Wasm table instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.instructions.table_fill"
         ],
-        summary: "The table.fill Table instruction sets a range of table elements to the same value.",
+        summary: "The table.fill table instruction sets a range of table elements to the same value.",
         popularity: 0.0009307146407758776,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -589034,8 +589295,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-tablemathsftablefillx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -589073,9 +589334,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "grow: Wasm table instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.reference-types"
+          "webassembly.instructions.table_grow"
         ],
-        summary: "The table.grow Table instruction increases the size of a table by a specified number of elements.",
+        summary: "The table.grow table instruction increases the size of a table by a specified number of elements.",
         popularity: 0.000745629342894311,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -589088,8 +589349,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-tablemathsftablegrowx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -589488,7 +589749,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "shuffle: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.shuffle"
+          "webassembly.instructions.shuffle"
         ],
         summary: "The shuffle SIMD conversion instruction returns a new v128 value with its lane values selected from two input v128 values, determined by provided index values.",
         popularity: 0.0008037990079428033,
@@ -589501,7 +589762,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589516,8 +589782,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589529,7 +589794,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i8x16_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i8x16_u"
+          "webassembly.instructions.extend_low_i8x16_u"
         ],
         summary: "The extend_low_i8x16_u SIMD conversion instruction converts lanes 0–7 of an unsigned v128 i8x16 value interpretation into an i16x8 value interpretation.",
         popularity: 0.0005764084991168787,
@@ -589542,7 +589807,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589554,8 +589824,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589567,7 +589836,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i32x4_u"
+          "webassembly.instructions.extend_high_i32x4_u"
         ],
         summary: "The extend_high_i32x4_u SIMD conversion instruction converts lanes 2–3 of an unsigned v128 i32x4 value interpretation into an i64x2 value interpretation.",
         popularity: 0.0006398663155334158,
@@ -589580,7 +589849,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589592,8 +589866,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589605,7 +589878,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "splat: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.splat"
+          "webassembly.instructions.splat"
         ],
         summary: "The splat SIMD conversion instruction copies the same value to all lanes of a v128 value interpretation.",
         popularity: 0.0007667819483664901,
@@ -589618,7 +589891,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589632,8 +589910,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589645,7 +589922,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "swizzle: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.swizzle"
+          "webassembly.instructions.swizzle"
         ],
         summary: "The swizzle SIMD conversion instruction returns a new v128 value with its lane values selected from an input v128 value, determined by indices provided in a second input v128.",
         popularity: 0.0007350530401582215,
@@ -589658,7 +589935,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589672,8 +589954,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589685,7 +589966,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i16x8_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i16x8_u"
+          "webassembly.instructions.extend_high_i16x8_u"
         ],
         summary: "The extend_high_i16x8_u SIMD conversion instruction converts lanes 4–7 of an unsigned v128 i16x8 value interpretation into an i32x4 value interpretation.",
         popularity: 0.0005869848018529683,
@@ -589698,7 +589979,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589710,8 +589996,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589723,7 +590008,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "trunc_sat_f32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.trunc_sat_f32x4_s"
+          "webassembly.instructions.trunc_sat_f32x4_s"
         ],
         summary: "The trunc_sat_f32x4_s SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f32x4 value interpretation into a signed i32x4 value interpretation, clamping the output to the range allowed by the value type.",
         popularity: 0.0006240018614292815,
@@ -589736,7 +590021,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -589751,8 +590041,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589764,7 +590053,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "demote_f64x2_zero: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.demote_f64x2_zero"
+          "webassembly.instructions.demote_f64x2_zero"
         ],
         summary: "The demote_f64x2_zero SIMD conversion instruction converts the lanes of a v128 f64x2 value interpretation into an f32x4 value interpretation. The two higher lanes of the result are initialized to zero.",
         popularity: 0.0006240018614292815,
@@ -589777,7 +590066,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589790,8 +590084,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589803,7 +590096,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "convert_i32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.convert_i32x4_u"
+          "webassembly.instructions.convert_i32x4_u"
         ],
         summary: "The convert_i32x4_u SIMD conversion instruction converts the lanes of an unsigned v128 i32x4 value interpretation into an f32x4 value interpretation.",
         popularity: 0.0006610189210055949,
@@ -589816,7 +590109,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589829,8 +590127,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589842,7 +590139,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "trunc_sat_f64x2_u_zero: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.trunc_sat_f64x2_u_zero"
+          "webassembly.instructions.trunc_sat_f64x2_u_zero"
         ],
         summary: "The trunc_sat_f64x2_u_zero SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f64x2 value interpretation into an unsigned i32x4 value interpretation, clamping the output to the range allowed by the value type. The two higher lanes of the result are initialized to zero.",
         popularity: 0.0005869848018529683,
@@ -589855,7 +590152,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -589870,8 +590172,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589883,7 +590184,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i8x16_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i8x16_s"
+          "webassembly.instructions.extend_high_i8x16_s"
         ],
         summary: "The extend_high_i8x16_s SIMD conversion instruction converts lanes 8–15 of a signed v128 i8x16 value interpretation into an i16x8 value interpretation.",
         popularity: 0.0005975611045890577,
@@ -589896,7 +590197,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589908,8 +590214,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589921,7 +590226,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "convert_low_i32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.convert_low_i32x4_s"
+          "webassembly.instructions.convert_low_i32x4_s"
         ],
         summary: "The convert_low_i32x4_s SIMD conversion instruction converts the first two lanes of a signed v128 i32x4 value interpretation into an f64x2 value interpretation.",
         popularity: 0.0006345781641653711,
@@ -589934,7 +590239,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589947,8 +590257,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589960,7 +590269,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i16x8_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i16x8_s"
+          "webassembly.instructions.extend_high_i16x8_s"
         ],
         summary: "The extend_high_i16x8_s SIMD conversion instruction converts lanes 4–7 of a signed v128 i16x8 value interpretation into an i32x4 value interpretation.",
         popularity: 0.0005764084991168787,
@@ -589973,7 +590282,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -589985,8 +590299,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -589998,7 +590311,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i8x16_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i8x16_s"
+          "webassembly.instructions.extend_low_i8x16_s"
         ],
         summary: "The extend_low_i8x16_s SIMD conversion instruction converts lanes 0–7 of a signed v128 i8x16 value interpretation into an i16x8 value interpretation.",
         popularity: 0.0006663070723736396,
@@ -590011,7 +590324,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590023,8 +590341,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590036,7 +590353,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "trunc_sat_f32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.trunc_sat_f32x4_u"
+          "webassembly.instructions.trunc_sat_f32x4_u"
         ],
         summary: "The trunc_sat_f32x4_u SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f32x4 value interpretation into an unsigned i32x4 value interpretation, clamping the output to the range allowed by the value type.",
         popularity: 0.0006292900127973264,
@@ -590049,7 +590366,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -590064,8 +590386,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590077,7 +590398,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i32x4_u"
+          "webassembly.instructions.extend_low_i32x4_u"
         ],
         summary: "The extend_low_i32x4_u SIMD conversion instruction converts lanes 0–1 of an unsigned v128 i32x4 value interpretation into an i64x2 value interpretation.",
         popularity: 0.0006081374073251473,
@@ -590090,7 +590411,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590102,8 +590428,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590115,7 +590440,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "promote_low_f32x4: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.promote_low_f32x4"
+          "webassembly.instructions.promote_low_f32x4"
         ],
         summary: "The promote_low_f32x4 SIMD conversion instruction converts the first two lanes of a v128 f32x4 value interpretation into an f64x2 value interpretation.",
         popularity: 0.0007086122833179977,
@@ -590128,7 +590453,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590141,8 +590471,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590154,7 +590483,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "narrow_i32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.narrow_i32x4_s"
+          "webassembly.instructions.narrow_i32x4_s"
         ],
         summary: "The narrow_i32x4_s SIMD conversion instruction converts two signed v128 i32x4 value interpretations into an i16x8 value interpretation.",
         popularity: 0.0006187137100612368,
@@ -590167,7 +590496,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590180,8 +590514,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590193,7 +590526,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i8x16_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i8x16_u"
+          "webassembly.instructions.extend_high_i8x16_u"
         ],
         summary: "The extend_high_i8x16_u SIMD conversion instruction converts lanes 8–15 of an unsigned v128 i8x16 value interpretation into an i16x8 value interpretation.",
         popularity: 0.0006187137100612368,
@@ -590206,7 +590539,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590218,8 +590556,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590231,7 +590568,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "narrow_i16x8_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.narrow_i16x8_s"
+          "webassembly.instructions.narrow_i16x8_s"
         ],
         summary: "The narrow_i16x8_s SIMD conversion instruction converts two signed v128 i16x8 value interpretations into an i8x16 value interpretation.",
         popularity: 0.0006610189210055949,
@@ -590244,7 +590581,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590257,8 +590599,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590270,7 +590611,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "trunc_sat_f64x2_s_zero: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.trunc_sat_f64x2_s_zero"
+          "webassembly.instructions.trunc_sat_f64x2_s_zero"
         ],
         summary: "The trunc_sat_f64x2_s_zero SIMD conversion instruction performs a saturating conversion of the lanes of a v128 f64x2 value interpretation into a signed i32x4 value interpretation, clamping the output to the range allowed by the value type. The two higher lanes of the result are initialized to zero.",
         popularity: 0.0006345781641653711,
@@ -590283,7 +590624,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -590298,8 +590644,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590311,7 +590656,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "narrow_i32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.narrow_i32x4_u"
+          "webassembly.instructions.narrow_i32x4_u"
         ],
         summary: "The narrow_i32x4_u SIMD conversion instruction converts two signed v128 i32x4 value interpretations into an i16x8 value interpretation using unsigned saturation (clamping to the range between 0 to 65,535).",
         popularity: 0.0006028492559571025,
@@ -590324,7 +590669,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590337,8 +590687,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590411,7 +590760,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "convert_low_i32x4_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.convert_low_i32x4_u"
+          "webassembly.instructions.convert_low_i32x4_u"
         ],
         summary: "The convert_low_i32x4_u SIMD conversion instruction converts the first two lanes of an unsigned v128 i32x4 value interpretation into an f64x2 value interpretation.",
         popularity: 0.0006292900127973264,
@@ -590424,7 +590773,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590437,8 +590791,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590450,7 +590803,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i32x4_s"
+          "webassembly.instructions.extend_low_i32x4_s"
         ],
         summary: "The extend_low_i32x4_s SIMD conversion instruction converts lanes 0–1 of a signed v128 i32x4 value interpretation into an i64x2 value interpretation.",
         popularity: 0.0005975611045890577,
@@ -590463,7 +590816,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590475,8 +590833,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590488,7 +590845,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "narrow_i16x8_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.narrow_i16x8_u"
+          "webassembly.instructions.narrow_i16x8_u"
         ],
         summary: "The narrow_i16x8_u SIMD conversion instruction converts two signed v128 i16x8 value interpretations into an i8x16 value interpretation using unsigned saturation (clamping to the range between 0 to 255).",
         popularity: 0.0006345781641653711,
@@ -590501,7 +590858,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590514,8 +590876,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590527,7 +590888,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "replace_lane: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.replace_lane"
+          "webassembly.instructions.replace_lane"
         ],
         summary: "The replace_lane SIMD conversion instruction replaces the specified lane of a v128 value interpretation with a new value and returns the resulting v128 value interpretation.",
         popularity: 0.0007086122833179977,
@@ -590540,7 +590901,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590568,7 +590934,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_high_i32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_high_i32x4_s"
+          "webassembly.instructions.extend_high_i32x4_s"
         ],
         summary: "The extend_high_i32x4_s SIMD conversion instruction converts lanes 2–3 of a signed v128 i32x4 value interpretation into an i64x2 value interpretation.",
         popularity: 0.0006292900127973264,
@@ -590581,7 +590947,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590593,8 +590964,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590606,7 +590976,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i16x8_u: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i16x8_u"
+          "webassembly.instructions.extend_low_i16x8_u"
         ],
         summary: "The extend_low_i16x8_u SIMD conversion instruction converts lanes 0–3 of an unsigned v128 i16x8 value interpretation into an i32x4 value interpretation.",
         popularity: 0.0006451544669014606,
@@ -590619,7 +590989,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590631,8 +591006,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590644,7 +591018,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extend_low_i16x8_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extend_low_i16x8_s"
+          "webassembly.instructions.extend_low_i16x8_s"
         ],
         summary: "The extend_low_i16x8_s SIMD conversion instruction converts lanes 0–3 of a signed v128 i16x8 value interpretation into an i32x4 value interpretation.",
         popularity: 0.0006557307696375501,
@@ -590657,7 +591031,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590669,8 +591048,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590682,7 +591060,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "convert_i32x4_s: Wasm SIMD conversion instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.convert_i32x4_s"
+          "webassembly.instructions.convert_i32x4_s"
         ],
         summary: "The convert_i32x4_s SIMD conversion instruction converts the lanes of a signed v128 i32x4 value interpretation into an f32x4 value interpretation.",
         popularity: 0.0006768833751097292,
@@ -590695,7 +591073,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590708,8 +591091,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590720,6 +591102,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "min_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.min_s"
+        ],
         summary: "The min_s instruction compares two v128 signed integer value interpretations and returns a new interpretation with each lane set to the lower of that lane index's value on the two inputs.",
         popularity: 0.0006927478292138634,
         modified: "1970-01-01T00:00:00.000Z",
@@ -590731,6 +591116,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590743,6 +591134,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -590755,7 +591148,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "sub_sat_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.sub_sat_u"
+          "webassembly.instructions.sub_sat_u"
         ],
         summary: "The sub_sat_u SIMD arithmetic instruction performs a saturating subtraction of two unsigned v128 value interpretations — clamping the output to the range allowed by the value type. Each lane of the output value is the result of subtracting the corresponding lane of the second input from the corresponding lane of the first input.",
         popularity: 0.0007350530401582215,
@@ -590768,7 +591161,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -590797,7 +591195,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extadd_pairwise_i8x16_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extadd_pairwise_i8x16_s"
+          "webassembly.instructions.extadd_pairwise_i8x16_s"
         ],
         summary: "The extadd_pairwise_i8x16_s SIMD arithmetic instruction adds each adjacent pair of lanes of a signed v128 i8x16 value interpretation, outputting the results into an i16x8 value interpretation.",
         popularity: 0.000787934553838669,
@@ -590810,7 +591208,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590822,8 +591225,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590834,6 +591236,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "pmin: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.pmin"
+        ],
         summary: "The pmin instruction compares two v128 floating point value interpretations and returns a new interpretation with each output lane set to the smaller of the corresponding input lanes. It is defined as b < a ? b : a, meaning that NaN in the first operand propagates to the output but NaN in the second operand does not — unlike min, which propagates NaN from either operand.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
@@ -590845,6 +591250,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590857,6 +591268,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -590868,6 +591281,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "max_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.max_u"
+        ],
         summary: "The max_u instruction compares two v128 unsigned integer value interpretations and returns a new interpretation with each lane set to the greater of that lane index's value on the two inputs.",
         popularity: 0.0006768833751097292,
         modified: "1970-01-01T00:00:00.000Z",
@@ -590879,6 +591295,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590891,6 +591313,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -590903,7 +591327,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "add_sat_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.add_sat_u"
+          "webassembly.instructions.add_sat_u"
         ],
         summary: "The add_sat_u SIMD arithmetic instruction performs a saturating addition of two unsigned v128 value interpretations — clamping the output to the range allowed by the value type. Each lane of the output value is the result of adding the corresponding lanes of the input value.",
         popularity: 0.0008302397647830271,
@@ -590916,7 +591340,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -590945,7 +591374,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i32x4_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i32x4_s"
+          "webassembly.instructions.extmul_high_i32x4_s"
         ],
         summary: "The extmul_high_i32x4_s SIMD arithmetic instruction takes lanes 2–3 of two signed v128 i32x4 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i64x2 value interpretation.",
         popularity: 0.0005764084991168787,
@@ -590958,7 +591387,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -590971,8 +591405,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -590984,7 +591417,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "dot_i16x8_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.dot_i16x8_s"
+          "webassembly.instructions.dot_i16x8_s"
         ],
         summary: "The dot_i16x8_s SIMD arithmetic instruction performs a dot product calculation on two signed v128 i16x8 value interpretations. The corresponding lanes of the input values are multiplied together, then each adjacent pair of products are added together. The four results of these additions are output as an i32x4 value interpretation.",
         popularity: 0.001972480460280695,
@@ -590997,7 +591430,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Dot_product"
       ],
@@ -591012,8 +591450,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591025,7 +591462,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i8x16_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i8x16_u"
+          "webassembly.instructions.extmul_high_i8x16_u"
         ],
         summary: "The extmul_high_i8x16_u SIMD arithmetic instruction takes lanes 8–15 of two unsigned v128 i8x16 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i16x8 value interpretation.",
         popularity: 0.0006028492559571025,
@@ -591038,7 +591475,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591051,8 +591493,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591063,6 +591504,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "pmax: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.pmax"
+        ],
         summary: "The pmax instruction compares two v128 floating point value interpretations and returns a new interpretation with each output lane set to the larger of the corresponding input lanes. It is defined as a < b ? b : a, meaning that NaN in the first operand propagates to the output but NaN in the second operand does not — unlike max, which propagates NaN from either operand.",
         popularity: 0.0006292900127973264,
         modified: "1970-01-01T00:00:00.000Z",
@@ -591074,6 +591518,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591086,6 +591536,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -591098,7 +591550,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i16x8_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i16x8_u"
+          "webassembly.instructions.extmul_low_i16x8_u"
         ],
         summary: "The extmul_low_i16x8_u SIMD arithmetic instruction takes lanes 0–3 of two unsigned v128 i16x8 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i32x4 value interpretation.",
         popularity: 0.0005869848018529683,
@@ -591111,7 +591563,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591124,8 +591581,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591137,7 +591593,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "add_sat_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.add_sat_s"
+          "webassembly.instructions.add_sat_s"
         ],
         summary: "The add_sat_s SIMD arithmetic instruction performs a saturating addition of two signed v128 value interpretations — clamping the output to the range allowed by the value type. Each lane of the output value is the result of adding the corresponding lanes of the input value.",
         popularity: 0.0006768833751097292,
@@ -591150,7 +591606,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -591179,7 +591640,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i16x8_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i16x8_s"
+          "webassembly.instructions.extmul_high_i16x8_s"
         ],
         summary: "The extmul_high_i16x8_s SIMD arithmetic instruction takes lanes 4–7 of two signed v128 i16x8 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i32x4 value interpretation.",
         popularity: 0.0006187137100612368,
@@ -591192,7 +591653,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591205,8 +591671,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591218,7 +591683,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "sub_sat_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.sub_sat_s"
+          "webassembly.instructions.sub_sat_s"
         ],
         summary: "The sub_sat_s SIMD arithmetic instruction performs a saturating subtraction of two signed v128 value interpretations — clamping the output to the range allowed by the value type. Each lane of the output value is the result of subtracting the corresponding lane of the second input from the corresponding lane of the first input.",
         popularity: 0.0007826464024706243,
@@ -591231,7 +591696,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -591260,7 +591730,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "avgr_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.avgr_u"
+          "webassembly.instructions.avgr_u"
         ],
         summary: "The avgr_u SIMD arithmetic instruction performs a rounding average of two unsigned v128 value interpretations. Each lane of the output value is (a + b + 1) / 2, i.e., the mean average of the corresponding lanes of the input values, rounded up to the nearest integer.",
         popularity: 0.0006451544669014606,
@@ -591273,7 +591743,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591287,8 +591762,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591300,7 +591774,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i8x16_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i8x16_s"
+          "webassembly.instructions.extmul_low_i8x16_s"
         ],
         summary: "The extmul_low_i8x16_s SIMD arithmetic instruction takes lanes 0–7 of two signed v128 i8x16 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i16x8 value interpretation.",
         popularity: 0.0006504426182695054,
@@ -591313,7 +591787,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591326,8 +591805,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591403,7 +591881,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "q15mulr_sat_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.q15mulr_sat_s"
+          "webassembly.instructions.q15mulr_sat_s"
         ],
         summary: "The q15mulr_sat_s SIMD arithmetic instruction performs a lane-wise saturating rounding multiplication in Q15 format on two signed v128 i16x8 value interpretations — clamping the output to the range allowed by the value type (a single i16x8 value interpretation).",
         popularity: 0.0006557307696375501,
@@ -591416,7 +591894,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Saturation_arithmetic"
       ],
@@ -591431,8 +591914,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591444,7 +591926,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extadd_pairwise_i8x16_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extadd_pairwise_i8x16_u"
+          "webassembly.instructions.extadd_pairwise_i8x16_u"
         ],
         summary: "The extadd_pairwise_i8x16_u SIMD arithmetic instruction adds each adjacent pair of lanes of an unsigned v128 i8x16 value interpretation, outputting the results into an i16x8 value interpretation.",
         popularity: 0.0006240018614292815,
@@ -591457,7 +591939,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591469,8 +591956,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591482,7 +591968,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extadd_pairwise_i16x8_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extadd_pairwise_i16x8_u"
+          "webassembly.instructions.extadd_pairwise_i16x8_u"
         ],
         summary: "The extadd_pairwise_i16x8_u SIMD arithmetic instruction adds each adjacent pair of lanes of an unsigned v128 i16x8 value interpretation, outputting the results into an i32x4 value interpretation.",
         popularity: 0.0006028492559571025,
@@ -591495,7 +591981,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591507,8 +591998,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591520,7 +592010,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i8x16_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i8x16_u"
+          "webassembly.instructions.extmul_low_i8x16_u"
         ],
         summary: "The extmul_low_i8x16_u SIMD arithmetic instruction takes lanes 0–7 of two unsigned v128 i8x16 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i16x8 value interpretation.",
         popularity: 0.0009518672462480566,
@@ -591533,7 +592023,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591546,8 +592041,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591559,7 +592053,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i32x4_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i32x4_u"
+          "webassembly.instructions.extmul_high_i32x4_u"
         ],
         summary: "The extmul_high_i32x4_u SIMD arithmetic instruction takes lanes 2–3 of two unsigned v128 i32x4 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i64x2 value interpretation.",
         popularity: 0.0006292900127973264,
@@ -591572,7 +592066,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591585,8 +592084,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591598,7 +592096,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i32x4_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i32x4_s"
+          "webassembly.instructions.extmul_low_i32x4_s"
         ],
         summary: "The extmul_low_i32x4_s SIMD arithmetic instruction takes lanes 0–1 of two signed v128 i32x4 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i64x2 value interpretation.",
         popularity: 0.0006028492559571025,
@@ -591611,7 +592109,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591624,8 +592127,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591637,7 +592139,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i8x16_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i8x16_s"
+          "webassembly.instructions.extmul_high_i8x16_s"
         ],
         summary: "The extmul_high_i8x16_s SIMD arithmetic instruction takes lanes 8–15 of two signed v128 i8x16 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i16x8 value interpretation.",
         popularity: 0.0006451544669014606,
@@ -591650,7 +592152,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591663,8 +592170,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591676,7 +592182,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_high_i16x8_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_high_i16x8_u"
+          "webassembly.instructions.extmul_high_i16x8_u"
         ],
         summary: "The extmul_high_i16x8_u SIMD arithmetic instruction takes lanes 4–7 of two unsigned v128 i16x8 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i32x4 value interpretation.",
         popularity: 0.0006081374073251473,
@@ -591689,7 +592195,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591702,8 +592213,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591715,7 +592225,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i16x8_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i16x8_s"
+          "webassembly.instructions.extmul_low_i16x8_s"
         ],
         summary: "The extmul_low_i16x8_s SIMD arithmetic instruction takes lanes 0–3 of two signed v128 i16x8 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i32x4 value interpretation.",
         popularity: 0.0006451544669014606,
@@ -591728,7 +592238,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591741,8 +592256,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591753,6 +592267,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "min_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.min_u"
+        ],
         summary: "The min_u instruction compares two v128 unsigned integer value interpretations and returns a new interpretation with each lane set to the lower of that lane index's value on the two inputs.",
         popularity: 0.0006557307696375501,
         modified: "1970-01-01T00:00:00.000Z",
@@ -591764,6 +592281,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591776,6 +592299,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -591788,7 +592313,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extmul_low_i32x4_u: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extmul_low_i32x4_u"
+          "webassembly.instructions.extmul_low_i32x4_u"
         ],
         summary: "The extmul_low_i32x4_u SIMD arithmetic instruction takes lanes 0–1 of two unsigned v128 i32x4 value interpretations, multiplies the values in the corresponding lanes, and outputs the result of those operations into an i64x2 value interpretation.",
         popularity: 0.000613425558693192,
@@ -591801,7 +592326,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591814,8 +592344,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -591826,6 +592355,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "max_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.instructions.max_s"
+        ],
         summary: "The max_s instruction compares two v128 signed integer value interpretations and returns a new interpretation with each lane set to the greater of that lane index's value on the two inputs.",
         popularity: 0.0006081374073251473,
         modified: "1970-01-01T00:00:00.000Z",
@@ -591837,6 +592369,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591849,6 +592387,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input2",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -591861,7 +592401,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extadd_pairwise_i16x8_s: Wasm SIMD arithmetic instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extadd_pairwise_i16x8_s"
+          "webassembly.instructions.extadd_pairwise_i16x8_s"
         ],
         summary: "The extadd_pairwise_i16x8_s SIMD arithmetic instruction adds each adjacent pair of lanes of a signed v128 i16x8 value interpretation, outputting the results into an i32x4 value interpretation.",
         popularity: 0.0006292900127973264,
@@ -591874,7 +592414,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -591886,8 +592431,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593041,7 +593585,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "any_true: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.any_true"
+          "webassembly.instructions.any_true"
         ],
         summary: "The any_true SIMD bitwise instruction tests whether an v128 input value contains any non-zero bits.",
         popularity: 0.0006504426182695054,
@@ -593054,7 +593598,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593066,8 +593615,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593079,7 +593627,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "andnot: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.andnot"
+          "webassembly.instructions.andnot"
         ],
         summary: "The andnot SIMD bitwise instruction takes two v128 input values. It performs a bitwise AND on the first value and a second value equal to the result of performing a bitwise NOT on each byte of the second original value. It returns a new v128 value containing the result.",
         popularity: 0.0007086122833179977,
@@ -593092,7 +593640,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593105,8 +593658,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593118,7 +593670,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "bitmask: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.bitmask"
+          "webassembly.instructions.bitmask"
         ],
         summary: "The bitmask SIMD bitwise instruction inspects the most significant bit (MSB) of each lane of a v128 value interpretation. This is the sign bit if the lane is treated as signed. The instruction's output value is equal to all of those bits collected into a single i32, with lane 0's MSB in bit 0 of the result, lane 1's MSB in bit 1, and so on.",
         popularity: 0.0006980359805819082,
@@ -593131,7 +593683,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593144,8 +593701,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593157,7 +593713,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "bitselect: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.bitselect"
+          "webassembly.instructions.bitselect"
         ],
         summary: "The bitselect SIMD bitwise instruction takes three v128 values as inputs — two inputs and a mask value — and returns a new v128 value with each byte calculated using the formula output = (input1 AND mask) OR (input2 AND NOT mask).",
         popularity: 0.0007614937969984452,
@@ -593170,7 +593726,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593184,8 +593745,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593229,7 +593789,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "not: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.not"
+          "webassembly.instructions.not"
         ],
         summary: "The not SIMD bitwise instruction performs a bitwise NOT on each byte of a v128 value and returns a new v128 value containing the result.",
         popularity: 0.0006345781641653711,
@@ -593242,7 +593802,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593254,8 +593819,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593267,7 +593831,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "all_true: Wasm SIMD bitwise instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.all_true"
+          "webassembly.instructions.all_true"
         ],
         summary: "The all_true SIMD bitwise instruction tests whether all lanes of a v128 input value are non-zero.",
         popularity: 0.0007191885860540873,
@@ -593280,7 +593844,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593293,8 +593862,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593357,12 +593925,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
       links: [],
       imgs: [],
       ids: [
-        "grow",
-        "size",
-        "load",
-        "store",
         "copy",
-        "fill"
+        "fill",
+        "grow",
+        "load",
+        "size",
+        "store"
       ]
     }
   },
@@ -593371,11 +593939,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "size: Wasm text instruction",
+        title: "size: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.api.Memory",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_size"
         ],
         summary: "The memory.size memory instruction is used to get the current number of pages in a memory.",
         popularity: 0.0007667819483664901,
@@ -593390,8 +593957,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-memorymathsfmemorysizex",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593404,9 +593971,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "getting_size_of_the_default_memory",
         "getting_size_of_a_particular_memory",
         "specifications",
-        "browser_compatibility",
-        "webassembly.api.memory",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593415,11 +593980,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "store: Wasm text instruction",
+        title: "store: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.api.Memory",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_store"
         ],
         summary: "The store memory instructions, are used to store a number on the stack in a memory.",
         popularity: 0.0012374274201224736,
@@ -593434,8 +593998,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#memory-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593445,9 +594009,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "syntax",
         "instructions_and_opcodes",
         "specifications",
-        "browser_compatibility",
-        "webassembly.api.memory",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593456,11 +594018,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "fill: Wasm text instruction",
+        title: "fill: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.bulk-memory-operations",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_fill"
         ],
         summary: "The memory.fill memory instruction sets all bytes in a memory region to a given byte.",
         popularity: 0.002654651986758469,
@@ -593475,8 +594036,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-memorymathsfmemoryfillx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593485,9 +594046,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "syntax",
         "instructions_and_opcodes",
         "specifications",
-        "browser_compatibility",
-        "webassembly.bulk-memory-operations",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593496,11 +594055,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "load: Wasm text instruction",
+        title: "load: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.api.Memory",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_load"
         ],
         summary: "The load memory instructions are used to load a number from a memory onto the stack.",
         popularity: 0.0013326141447472792,
@@ -593515,8 +594073,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#memory-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593529,9 +594087,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "loading_items_from_default_memory",
         "loading_items_from_a_specified_memory",
         "specifications",
-        "browser_compatibility",
-        "webassembly.api.memory",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593540,11 +594096,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "copy: Wasm text instruction",
+        title: "copy: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.bulk-memory-operations",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_copy"
         ],
         summary: "The memory.copy memory instruction copies data from one region of a memory to another.",
         popularity: 0.0014383771721081743,
@@ -593559,8 +594114,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-memorymathsfmemorycopyx_1x_2",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593569,9 +594124,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "syntax",
         "instructions_and_opcodes",
         "specifications",
-        "browser_compatibility",
-        "webassembly.bulk-memory-operations",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593580,11 +594133,10 @@ It is a low-level assembly-like language with a compact binary format that runs 
     links: {},
     data: {
       metadata: {
-        title: "grow: Wasm text instruction",
+        title: "grow: Wasm memory instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.api.Memory.grow",
-          "webassembly.multiMemory"
+          "webassembly.instructions.memory_grow"
         ],
         summary: "The memory.grow memory instruction increases the size of the memory instance by a specified number of pages.",
         popularity: 0.0028185846791678563,
@@ -593599,8 +594151,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#-hrefsyntax-instr-memorymathsfmemorygrowx",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593613,9 +594165,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "growing_default_memory",
         "growing_a_specified_memory",
         "specifications",
-        "browser_compatibility",
-        "webassembly.api.memory.grow",
-        "webassembly.multimemory"
+        "browser_compatibility"
       ]
     }
   },
@@ -593626,6 +594176,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "func: Wasm type definition",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.definitions.func"
+        ],
         summary: "The func type definition declares a function signature: a list of parameter types and a list of result types.",
         popularity: 0.0008196634620469376,
         modified: "1970-01-01T00:00:00.000Z",
@@ -593639,8 +594192,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/types.html#syntax-functype",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#composite-types%E2%91%A2",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [
@@ -593653,6 +594206,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "examples",
         "sharing_a_function_type_across_two_functions_and_a_dispatcher",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -593689,6 +594243,9 @@ It is a low-level assembly-like language with a compact binary format that runs 
       metadata: {
         title: "table: Wasm definition",
         pageType: "webassembly-instruction",
+        browserCompat: [
+          "webassembly.definitions.table"
+        ],
         summary: "The table definition creates a new table.",
         popularity: 0.0009571553976161014,
         modified: "1970-01-01T00:00:00.000Z",
@@ -593702,8 +594259,8 @@ It is a low-level assembly-like language with a compact binary format that runs 
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/modules.html#syntax-table",
-          title: "Unknown specification"
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#table-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
         }
       ],
       links: [],
@@ -593728,6 +594285,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "result",
         "frame_basic-usage",
         "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -593750,12 +594308,6 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/modules.html",
-          title: "Unknown specification"
-        }
-      ],
       links: [],
       imgs: [],
       ids: [
@@ -593764,8 +594316,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "definitions",
         "global",
         "table",
-        "tag",
-        "specifications"
+        "tag"
       ]
     }
   },
@@ -593839,7 +594390,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#tag-types%E2%91%A0",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596178,9 +596734,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "promote_32: Wasm text instruction",
+        title: "promote_32: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The promote_32 instruction is used to convert (promote) numbers of type f32 to type f64.",
+        browserCompat: [
+          "webassembly.instructions.promote_32"
+        ],
+        summary: "The promote_32 numeric instruction is used to convert (promote) numbers of type f32 to type f64.",
         popularity: 0.000787934553838669,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596191,11 +596750,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596204,9 +596771,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "eqz: Wasm text instruction",
+        title: "eqz: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The eqz instruction checks if a number is equal to zero.",
+        browserCompat: [
+          "webassembly.instructions.eqz"
+        ],
+        summary: "The eqz numeric instruction checks if a number is equal to zero.",
         popularity: 0.0007086122833179977,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596217,6 +596787,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596228,6 +596804,8 @@ from the start function).`,
         "input",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596237,9 +596815,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "floor: Wasm text instruction",
+        title: "floor: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The floor instruction is used for getting the value of a number rounded down to the next integer.",
+        browserCompat: [
+          "webassembly.instructions.floor"
+        ],
+        summary: "The floor numeric instruction is used for getting the value of a number rounded down to the next integer.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596250,6 +596831,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596266,7 +596853,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_floor"
+        "frame_simd_floor",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596275,9 +596864,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "wrap_i64: Wasm text instruction",
+        title: "wrap_i64: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The wrap_i64 instruction, is used to convert numbers of type i64 to type i32. If the number is larger than what an i32 can hold this operation will wrap, resulting in a different number.",
+        browserCompat: [
+          "webassembly.instructions.wrap_i64"
+        ],
+        summary: "The wrap_i64 numeric instruction is used to convert numbers of type i64 to type i32. If the number is larger than what an i32 can hold this operation will wrap, resulting in a different number.",
         popularity: 0.0007932227052067139,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596288,13 +596880,21 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [
         "https://en.wikipedia.org/wiki/Modular_arithmetic"
       ],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596303,9 +596903,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ctz: Wasm text instruction",
+        title: "ctz: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ctz instructions, short for count trailing zeros, are used to count the amount of zeros at the end of the numbers binary representation.",
+        browserCompat: [
+          "webassembly.instructions.ctz"
+        ],
+        summary: "The ctz numeric instruction, short for count trailing zeros, is used to count the amount of zeros at the end of the numbers binary representation.",
         popularity: 0.000703324131949953,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596316,11 +596919,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596329,9 +596940,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "shl: Wasm text instruction",
+        title: "shl: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The shl instruction, short for shift-left, is used for performing a bitwise left-shift, similar to the << operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.shl"
+        ],
+        summary: "The shl numeric instruction, short for shift-left, is used for performing a bitwise left-shift, similar to the << operator in other languages.",
         popularity: 0.0007614937969984452,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596342,6 +596956,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596361,6 +596981,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_shl",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596370,9 +596992,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "shr_s: Wasm text instruction",
+        title: "shr_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The shr_s instructions, short for shift-right signed, are used for performing a bitwise right-shift on signed integers, similar to the >>> operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.shr_s"
+        ],
+        summary: "The shr_s numeric instruction, short for shift-right signed, is used for performing a bitwise right-shift on signed integers, similar to the >>> operator in other languages.",
         popularity: 0.0008936975811995642,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596383,6 +597008,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596400,6 +597031,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_shr_s",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596409,9 +597042,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "gt_s: Wasm text instruction",
+        title: "gt_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The gt_s instruction, short for greater than signed, checks if a signed integer is greater than another signed integer.",
+        browserCompat: [
+          "webassembly.instructions.gt_s"
+        ],
+        summary: "The gt_s numeric instruction, short for greater than signed, checks if a signed integer is greater than another signed integer.",
         popularity: 0.0006240018614292815,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596422,6 +597058,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596440,6 +597082,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_gt_s",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596449,9 +597093,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ge_s: Wasm text instruction",
+        title: "ge_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ge_s instruction, short for greater or equal signed, checks if a signed integer is greater than or equal to another signed integer.",
+        browserCompat: [
+          "webassembly.instructions.ge_s"
+        ],
+        summary: "The ge_s numeric instruction, short for greater or equal signed, checks if a signed integer is greater than or equal to another signed integer.",
         popularity: 0.0006292900127973264,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596462,6 +597109,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596480,6 +597133,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_ge_s",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596489,9 +597144,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "trunc_f64_u: Wasm text instruction",
+        title: "trunc_f64_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc_f64_u instruction removes the fractional part of an f64 value and outputs it as an unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.trunc_f64_u"
+        ],
+        summary: "The trunc_f64_u numeric instruction removes the fractional part of an f64 value and outputs it as an unsigned integer.",
         popularity: 0.000592272953221013,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596502,6 +597160,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596513,6 +597177,8 @@ from the start function).`,
         "input",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596522,9 +597188,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "gt: Wasm text instruction",
+        title: "gt: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The gt instruction, short for greater than, checks if a floating point number is greater than another floating point number.",
+        browserCompat: [
+          "webassembly.instructions.gt"
+        ],
+        summary: "The gt numeric instruction, short for greater than, checks if a floating point number is greater than another floating point number.",
         popularity: 0.0006715952237416843,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596535,6 +597204,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596553,6 +597228,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_gt",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596562,9 +597239,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "trunc_f32_u: Wasm text instruction",
+        title: "trunc_f32_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc_f32_u instruction removes the fractional part of an f32 value and outputs it as an unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.trunc_f32_u"
+        ],
+        summary: "The trunc_f32_u numeric instruction removes the fractional part of an f32 value and outputs it as an unsigned integer.",
         popularity: 0.0015494283508371144,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596575,6 +597255,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596586,6 +597272,8 @@ from the start function).`,
         "input",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596595,9 +597283,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "neg: Wasm text instruction",
+        title: "neg: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The neg instruction, short for negate, is used to negate a number. That is, it turns a positive number into a negative number and a negative number into a positive number.",
+        browserCompat: [
+          "webassembly.instructions.neg"
+        ],
+        summary: "The neg numeric instruction, short for negate, is used to negate a number. That is, it turns a positive number into a negative number and a negative number into a positive number.",
         popularity: 0.0019195989466002472,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596608,6 +597299,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596624,7 +597321,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_neg"
+        "frame_simd_neg",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596633,9 +597332,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "clz: Wasm text instruction",
+        title: "clz: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The clz instructions, short for count leading zeros, are used to count the amount of zeros at the start of the numbers binary representation.",
+        browserCompat: [
+          "webassembly.instructions.clz"
+        ],
+        summary: "The clz numeric instructions, short for count leading zeros, are used to count the amount of zeros at the start of the numbers binary representation.",
         popularity: 0.0006768833751097292,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596646,11 +597348,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596659,9 +597369,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "demote: Wasm text instruction",
+        title: "demote: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The demote instructions are used to convert (demote) numbers of type f64 to type f32.",
+        browserCompat: [
+          "webassembly.instructions.demote"
+        ],
+        summary: "The demote numeric instruction is used to convert (demote) numbers of type f64 to type f32.",
         popularity: 0.0008619686729912957,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596672,11 +597385,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596685,9 +597406,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "gt_u: Wasm text instruction",
+        title: "gt_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The gt_u instruction, short for greater than unsigned, checks if an unsigned integer is greater than another unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.gt_u"
+        ],
+        summary: "The gt_u numeric instruction, short for greater than unsigned, checks if an unsigned integer is greater than another unsigned integer.",
         popularity: 0.0006398663155334158,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596698,6 +597422,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596716,6 +597446,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_gt_u",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596725,9 +597457,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "add: Wasm text instruction",
+        title: "add: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The add instruction is used for adding up two numbers, similar to the + operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.add"
+        ],
+        summary: "The add numeric instruction is used for adding up two numbers, similar to the + operator in other languages.",
         popularity: 0.0016340387727258306,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596738,6 +597473,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596755,7 +597496,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_add"
+        "frame_simd_add",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596764,9 +597507,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ge: Wasm text instruction",
+        title: "ge: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ge instruction, short for greater or equal, checks if a floating point number is greater than or equal to another floating point number.",
+        browserCompat: [
+          "webassembly.instructions.ge"
+        ],
+        summary: "The ge numeric instruction, short for greater or equal, checks if a floating point number is greater than or equal to another floating point number.",
         popularity: 0.0006715952237416843,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596777,6 +597523,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596795,6 +597547,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_ge",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596804,9 +597558,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "reinterpret: Wasm text instruction",
+        title: "reinterpret: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The reinterpret instructions are used to reinterpret the bits of a number as a different type.",
+        browserCompat: [
+          "webassembly.instructions.reinterpret"
+        ],
+        summary: "The reinterpret numeric instructions are used to reinterpret the bits of a number as a different type.",
         popularity: 0.000724476737422132,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596817,11 +597574,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596830,9 +597595,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "lt: Wasm text instruction",
+        title: "lt: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The lt instruction, short for less than, checks if a floating point number is less than another floating point number.",
+        browserCompat: [
+          "webassembly.instructions.lt"
+        ],
+        summary: "The lt numeric instruction, short for less than, checks if a floating point number is less than another floating point number.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596843,6 +597611,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596861,6 +597635,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_lt",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -596870,9 +597646,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "popcnt: Wasm text instruction",
+        title: "popcnt: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The popcnt instruction, short for population count, is used to count the amount of 1s in a number's binary representation.",
+        browserCompat: [
+          "webassembly.instructions.popcnt"
+        ],
+        summary: "The popcnt numeric instruction, short for population count, is used to count the amount of 1s in a number's binary representation.",
         popularity: 0.0008936975811995642,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596883,6 +597662,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596899,7 +597684,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_popcnt"
+        "frame_simd_popcnt",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596908,9 +597695,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "abs: Wasm text instruction",
+        title: "abs: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The abs instruction, short for absolute, is used to get the absolute value of a number. That is, it returns x if x is positive, and the negation of x if x is negative.",
+        browserCompat: [
+          "webassembly.instructions.abs"
+        ],
+        summary: "The abs numeric instruction, short for absolute, is used to get the absolute value of a number. That is, it returns x if x is positive, and the negation of x if x is negative.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596921,6 +597711,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -596937,7 +597733,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_abs"
+        "frame_simd_abs",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596946,9 +597744,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "extend: Wasm text instruction",
+        title: "extend: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The extend instructions are used to convert (extend) numbers of type i32 to type i64. There are signed and unsigned versions of this instruction.",
+        browserCompat: [
+          "webassembly.instructions.extend"
+        ],
+        summary: "The extend numeric instructions are used to convert (extend) numbers of type i32 to type i64. There are signed and unsigned versions of this instruction.",
         popularity: 0.0008513923702552062,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596959,11 +597760,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -596972,9 +597781,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "div: Wasm text instruction",
+        title: "div: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The div instruction, short for division, is used for dividing one number by another, similar to the / operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.div"
+        ],
+        summary: "The div numeric instruction, short for division, is used for dividing one number by another, similar to the / operator in other languages.",
         popularity: 0.000787934553838669,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -596985,6 +597797,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597002,7 +597820,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_div"
+        "frame_simd_div",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597011,9 +597831,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "rotl: Wasm text instruction",
+        title: "rotl: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The rotl instructions, short for rotate-left, are used for performing a bitwise left-rotate.",
+        browserCompat: [
+          "webassembly.instructions.rotl"
+        ],
+        summary: "The rotl numeric instruction, short for rotate-left, is used for performing a bitwise left-rotate.",
         popularity: 0.0006768833751097292,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597024,11 +597847,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597037,9 +597868,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "trunc_f32_s: Wasm text instruction",
+        title: "trunc_f32_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc_f32_s instruction removes the fractional part of an f32 value and outputs it as a signed integer.",
+        browserCompat: [
+          "webassembly.instructions.trunc_f32_s"
+        ],
+        summary: "The trunc_f32_s numeric instruction removes the fractional part of an f32 value and outputs it as a signed integer.",
         popularity: 0.0008461042188871614,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597050,6 +597884,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597061,6 +597901,8 @@ from the start function).`,
         "input",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597070,9 +597912,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "and: Wasm text instruction",
+        title: "and: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The and instruction is used for performing a bitwise AND, similar to the & operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.and"
+        ],
+        summary: "The and numeric instruction is used for performing a bitwise AND, similar to the & operator in other languages.",
         popularity: 0.0007350530401582215,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597083,6 +597928,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597100,7 +597951,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_and"
+        "frame_simd_and",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597109,9 +597962,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "trunc_f64_s: Wasm text instruction",
+        title: "trunc_f64_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc_f64_s instruction removes the fractional part of an f64 value and outputs it as a signed integer.",
+        browserCompat: [
+          "webassembly.instructions.trunc_f64_s"
+        ],
+        summary: "The trunc_f64_s numeric instruction removes the fractional part of an f64 value and outputs it as a signed integer.",
         popularity: 0.0005816966504849234,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597122,6 +597978,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597133,6 +597995,8 @@ from the start function).`,
         "input",
         "output",
         "binary_encoding",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597142,9 +598006,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "eq: Wasm text instruction",
+        title: "eq: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The eq instruction, short for equal, checks if two numbers are equal.",
+        browserCompat: [
+          "webassembly.instructions.eq"
+        ],
+        summary: "The eq numeric instruction, short for equal, checks if two numbers are equal.",
         popularity: 0.0007086122833179977,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597155,6 +598022,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597172,7 +598045,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_eq"
+        "frame_simd_eq",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597181,9 +598056,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "lt_u: Wasm text instruction",
+        title: "lt_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The lt_u instruction, short for less than unsigned, checks if an unsigned integer is less than another unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.lt_u"
+        ],
+        summary: "The lt_u numeric instruction, short for less than unsigned, checks if an unsigned integer is less than another unsigned integer.",
         popularity: 0.0015494283508371144,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597194,6 +598072,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597212,6 +598096,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_lt_u",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597221,9 +598107,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "const: Wasm text instruction",
+        title: "const: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The const WebAssembly numeric instruction is used to declare numbers.",
+        browserCompat: [
+          "webassembly.instructions.const"
+        ],
+        summary: "The const numeric instruction is used to declare numbers.",
         popularity: 0.0007826464024706243,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597234,6 +598123,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597243,7 +598138,9 @@ from the start function).`,
         "const",
         "type",
         "output",
-        "binary_encoding"
+        "binary_encoding",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597252,9 +598149,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ne: Wasm text instruction",
+        title: "ne: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ne instruction, short for not equal, checks if two numbers are not equal.",
+        browserCompat: [
+          "webassembly.instructions.ne"
+        ],
+        summary: "The ne numeric instruction, short for not equal, checks if two numbers are not equal.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597265,6 +598165,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597282,7 +598188,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_ne"
+        "frame_simd_ne",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597374,9 +598282,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "shr_u: Wasm text instruction",
+        title: "shr_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The shr_u instructions, short for shift-right unsigned, are used for performing a bitwise right-shift on unsigned integers, similar to the >>> operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.shr_u"
+        ],
+        summary: "The shr_u numeric instruction, short for shift-right unsigned, is used for performing a bitwise right-shift on unsigned integers, similar to the >>> operator in other languages.",
         popularity: 0.0006768833751097292,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597387,6 +598298,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597404,6 +598321,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_shr_u",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597413,9 +598332,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "sqrt: Wasm text instruction",
+        title: "sqrt: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The sqrt instruction, short for square root, is used to get the square root of a number.",
+        browserCompat: [
+          "webassembly.instructions.sqrt"
+        ],
+        summary: "The sqrt numeric instruction, short for square root, is used to get the square root of a number.",
         popularity: 0.0007191885860540873,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597426,6 +598348,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597442,7 +598370,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_sqrt"
+        "frame_simd_sqrt",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597451,9 +598381,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "sub: Wasm text instruction",
+        title: "sub: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The sub instruction, short for subtraction, is used for subtracting one number from another number, similar to the - operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.sub"
+        ],
+        summary: "The sub numeric instruction, short for subtraction, is used for subtracting one number from another number, similar to the - operator in other languages.",
         popularity: 0.002125836849953993,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597464,6 +598397,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597481,7 +598420,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_sub"
+        "frame_simd_sub",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597490,9 +598431,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "rem: Wasm text instruction",
+        title: "rem: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The rem instructions, short for remainder, are used to calculate the remainder left over when one integer is divided by another integer, similar to the % operator in other languages. The rem instructions are only available for the integer types and not for the floating point types.",
+        browserCompat: [
+          "webassembly.instructions.rem"
+        ],
+        summary: "The rem numeric instructions, short for remainder, are used to calculate the remainder left over when one integer is divided by another integer, similar to the % operator in other languages. The rem instructions are only available for the integer types and not for the floating point types.",
         popularity: 0.0009730198517202356,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597503,11 +598447,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597516,9 +598468,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "le_s: Wasm text instruction",
+        title: "le_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The le_s instruction, short for less or equal signed, checks if a signed integer is less than or equal to another signed integer.",
+        browserCompat: [
+          "webassembly.instructions.le_s"
+        ],
+        summary: "The le_s numeric instruction, short for less or equal signed, checks if a signed integer is less than or equal to another signed integer.",
         popularity: 0.0006821715264777739,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597529,6 +598484,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597547,6 +598508,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_le_s",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597556,9 +598519,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ceil: Wasm text instruction",
+        title: "ceil: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ceil instruction is used for getting the value of a number rounded up to the next integer.",
+        browserCompat: [
+          "webassembly.instructions.ceil"
+        ],
+        summary: "The ceil numeric instruction is used for getting the value of a number rounded up to the next integer.",
         popularity: 0.0006610189210055949,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597569,6 +598535,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597585,7 +598557,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_ceil"
+        "frame_simd_ceil",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597594,9 +598568,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "copysign: Wasm text instruction",
+        title: "copysign: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The copysign instructions are used to copy just the sign bit from one number to another.",
+        browserCompat: [
+          "webassembly.instructions.copysign"
+        ],
+        summary: "The copysign numeric instruction is used to copy just the sign bit from one number to another.",
         popularity: 0.000703324131949953,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597607,11 +598584,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597620,9 +598605,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "max: Wasm text instruction",
+        title: "max: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The max instruction is used for getting the higher of two floating point numbers.",
+        browserCompat: [
+          "webassembly.instructions.max"
+        ],
+        summary: "The max numeric instruction is used for getting the higher of two floating point numbers.",
         popularity: 0.0007509174942623558,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597633,6 +598621,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597651,6 +598645,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_max",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597660,9 +598656,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "le: Wasm text instruction",
+        title: "le: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The le instruction, short for less or equal, checks if a floating point number is less than or equal to another floating point number.",
+        browserCompat: [
+          "webassembly.instructions.le"
+        ],
+        summary: "The le numeric instruction, short for less or equal, checks if a floating point number is less than or equal to another floating point number.",
         popularity: 0.0006715952237416843,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597673,6 +598672,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597691,6 +598696,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_le",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597700,9 +598707,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "lt_s: Wasm text instruction",
+        title: "lt_s: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The lt_s instruction, short for less than signed, checks if a signed integer is less than another signed integer.",
+        browserCompat: [
+          "webassembly.instructions.lt_s"
+        ],
+        summary: "The lt_s numeric instruction, short for less than signed, checks if a signed integer is less than another signed integer.",
         popularity: 0.0007667819483664901,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597713,6 +598723,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597731,6 +598747,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_lt_s",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597740,9 +598758,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "ge_u: Wasm text instruction",
+        title: "ge_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The ge_u instruction, short for greater or equal unsigned, checks if an unsigned integer is greater than or equal to another unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.ge_u"
+        ],
+        summary: "The ge_u numeric instruction, short for greater or equal unsigned, checks if an unsigned integer is greater than or equal to another unsigned integer.",
         popularity: 0.0006715952237416843,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597753,6 +598774,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597771,6 +598798,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_ge_u",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597780,9 +598809,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "or: Wasm text instruction",
+        title: "or: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The or instruction is used for performing a bitwise OR, similar to the | operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.or"
+        ],
+        summary: "The or numeric instruction is used for performing a bitwise OR, similar to the | operator in other languages.",
         popularity: 0.0006874596778458186,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597793,6 +598825,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597810,7 +598848,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_or"
+        "frame_simd_or",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597819,9 +598859,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "min: Wasm text instruction",
+        title: "min: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The min instruction is used for getting the lower of two numbers.",
+        browserCompat: [
+          "webassembly.instructions.min"
+        ],
+        summary: "The min numeric instruction is used for getting the lower of two numbers.",
         popularity: 0.0006980359805819082,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597832,6 +598875,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597850,6 +598899,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_min",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597859,9 +598910,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "rotr: Wasm text instruction",
+        title: "rotr: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The rotr instructions, short for rotate-right, are used for performing a bitwise right-rotate.",
+        browserCompat: [
+          "webassembly.instructions.rotr"
+        ],
+        summary: "The rotr numeric instruction, short for rotate-right, is used for performing a bitwise right-rotate.",
         popularity: 0.0010206132140326385,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597872,11 +598926,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597885,9 +598947,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "mul: Wasm text instruction",
+        title: "mul: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The mul instruction, short for multiplication, is used for multiplying one number by another number, similar to the * operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.mul"
+        ],
+        summary: "The mul numeric instruction, short for multiplication, is used for multiplying one number by another number, similar to the * operator in other languages.",
         popularity: 0.0007773582511025796,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597898,6 +598963,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597915,7 +598986,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_mul"
+        "frame_simd_mul",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -597924,9 +598997,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "le_u: Wasm text instruction",
+        title: "le_u: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The le_u instruction, short for less or equal unsigned, checks if an unsigned integer is less than or equal to another unsigned integer.",
+        browserCompat: [
+          "webassembly.instructions.le_u"
+        ],
+        summary: "The le_u numeric instruction, short for less or equal unsigned, checks if an unsigned integer is less than or equal to another unsigned integer.",
         popularity: 0.0006398663155334158,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597937,6 +599013,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597955,6 +599037,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_le_u",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -597964,9 +599048,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "nearest: Wasm text instruction",
+        title: "nearest: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The nearest instruction is used for rounding the value of a floating point number to the nearest whole number.",
+        browserCompat: [
+          "webassembly.instructions.nearest"
+        ],
+        summary: "The nearest numeric instruction is used for rounding the value of a floating point number to the nearest whole number.",
         popularity: 0.0007139004346860424,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -597977,6 +599064,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -597993,7 +599086,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_nearest"
+        "frame_simd_nearest",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -598002,9 +599097,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "trunc: Wasm text instruction",
+        title: "trunc: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The trunc instruction, short for truncate, is used for getting the value of a floating point number without its fractional part.",
+        browserCompat: [
+          "webassembly.instructions.trunc"
+        ],
+        summary: "The trunc numeric instruction, short for truncate, is used for getting the value of a floating point number without its fractional part.",
         popularity: 0.0014648179289483982,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -598015,6 +599113,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -598032,6 +599136,8 @@ from the start function).`,
         "wasm",
         "result",
         "frame_simd_trunc",
+        "specifications",
+        "browser_compatibility",
         "see_also"
       ]
     }
@@ -598041,9 +599147,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "xor: Wasm text instruction",
+        title: "xor: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The xor instruction is used for performing a bitwise XOR, similar to the ^ operator in other languages.",
+        browserCompat: [
+          "webassembly.instructions.xor"
+        ],
+        summary: "The xor numeric instruction is used for performing a bitwise XOR, similar to the ^ operator in other languages.",
         popularity: 0.0006821715264777739,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -598054,6 +599163,12 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -598071,7 +599186,9 @@ from the start function).`,
         "javascript",
         "wasm",
         "result",
-        "frame_simd_xor"
+        "frame_simd_xor",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -598080,9 +599197,12 @@ from the start function).`,
     links: {},
     data: {
       metadata: {
-        title: "convert: Wasm text instruction",
+        title: "convert: Wasm numeric instruction",
         pageType: "webassembly-instruction",
-        summary: "The convert instructions are used for converting integer numbers to floating point numbers. There are signed and unsigned versions of this instruction.",
+        browserCompat: [
+          "webassembly.instructions.convert"
+        ],
+        summary: "The convert numeric instructions are used for converting integer numbers to floating point numbers. There are signed and unsigned versions of this instruction.",
         popularity: 0.0008249516134149824,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -598093,11 +599213,19 @@ from the start function).`,
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
         "try_it",
-        "syntax"
+        "syntax",
+        "specifications",
+        "browser_compatibility"
       ]
     }
   },
@@ -635086,11 +636214,14 @@ Firefox 154 is the current Beta version of Firefox and ships on August 18, 2026.
       flaws: {},
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
-        "https://whattrainisitnow.com/release/?version=154"
+        "https://whattrainisitnow.com/release/?version=154",
+        "https://bugzil.la/1805447"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "apis",
+        "media_webrtc_and_web_audio",
         "changes_for_add-on_developers",
         "experimental_web_features"
       ]
