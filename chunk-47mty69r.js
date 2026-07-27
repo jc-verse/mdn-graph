@@ -44058,6 +44058,7 @@ It is used as a component of the <color-interpolation-method> data type.`,
         "color-mix",
         "contrast-color",
         "device-cmyk",
+        "alpha",
         "light-dark",
         "dynamic-range-limit-mix",
         "image_functions",
@@ -64720,31 +64721,11 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64756,11 +64737,31 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Color Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -116451,19 +116452,11 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116475,7 +116468,7 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116483,15 +116476,19 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116499,7 +116496,11 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -168968,11 +168969,11 @@ be different.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168980,11 +168981,75 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168992,7 +169057,27 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169004,11 +169089,39 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169016,19 +169129,19 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169040,67 +169153,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169108,39 +169161,11 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
-          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169148,51 +169173,27 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -193712,11 +193713,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
@@ -193724,7 +193721,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         },
         {
@@ -193732,7 +193729,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         }
       ],
@@ -201765,15 +201766,11 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -201781,15 +201778,19 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -306855,7 +306856,7 @@ system.`,
         browserCompat: [
           "api.RTCIceCandidatePair.local"
         ],
-        summary: "The local property of the RTCIceCandidatePair dictionary specifies the RTCIceCandidate which describes the configuration of the local end of a viable WebRTC connection.",
+        summary: "The local property of the RTCIceCandidatePair interface specifies the RTCIceCandidate that describes the configuration of the local end of a viable WebRTC connection.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -306872,6 +306873,7 @@ system.`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility"
       ]
@@ -306887,10 +306889,7 @@ system.`,
         browserCompat: [
           "api.RTCIceCandidatePair.remote"
         ],
-        summary: `The remote property of the
-RTCIceCandidatePair dictionary specifies the
-RTCIceCandidate describing the configuration of the remote end of a
-viable WebRTC connection.`,
+        summary: "The remote property of the RTCIceCandidatePair interface specifies the RTCIceCandidate that describes the configuration of the remote end of a viable WebRTC connection.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -306907,6 +306906,7 @@ viable WebRTC connection.`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility"
       ]
@@ -467590,7 +467590,7 @@ you to debug a translated shader.`,
         browserCompat: [
           "api.RTCIceTransport.getSelectedCandidatePair"
         ],
-        summary: "The getSelectedCandidatePair() method of the RTCIceTransport interface returns an RTCIceCandidatePair object containing the current best-choice pair of ICE candidates describing the configuration of the endpoints of the transport.",
+        summary: "The getSelectedCandidatePair() method of the RTCIceTransport interface returns an RTCIceCandidatePair instance containing the current best-choice pair of ICE candidates describing the configuration of the endpoints of the transport.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -467613,7 +467613,7 @@ you to debug a translated shader.`,
         "syntax",
         "parameters",
         "return_value",
-        "usage_notes",
+        "description",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -581784,75 +581784,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
@@ -581860,11 +581792,35 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -581872,7 +581828,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
@@ -581880,11 +581836,27 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -581892,8 +581864,28 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
@@ -581904,20 +581896,28 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
         }
       ],
       links: [
@@ -592455,7 +592455,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load8x8_u: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load8x8_u"
+          "webassembly.instructions.load8x8_u"
         ],
         summary: "The load8x8_u SIMD load/store instruction loads eight 8-bit integers from a given memory address and zero extends each one to a 16-bit lane, outputting a v128 type i16x8 value interpretation.",
         popularity: 0.0006715952237416843,
@@ -592468,7 +592468,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592483,8 +592488,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592496,7 +592500,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load16_splat: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load16_splat"
+          "webassembly.instructions.load16_splat"
         ],
         summary: "The load16_splat SIMD load/store instruction loads a single value from a given memory address into all lanes of a v128 type i16x8 value interpretation.",
         popularity: 0.000613425558693192,
@@ -592509,7 +592513,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592524,8 +592533,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592537,7 +592545,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load64_splat: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load64_splat"
+          "webassembly.instructions.load64_splat"
         ],
         summary: "The load64_splat SIMD load/store instruction loads a single value from a given memory address into all lanes of a v128 type i64x2 value interpretation.",
         popularity: 0.0006451544669014606,
@@ -592550,7 +592558,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592565,8 +592578,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592578,7 +592590,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "store8_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.store8_lane"
+          "webassembly.instructions.store8_lane"
         ],
         summary: "The store8_lane SIMD load/store instruction stores a specified lane of a v128 i8x16 value interpretation at a given memory address.",
         popularity: 0.0006292900127973264,
@@ -592591,7 +592603,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592607,8 +592624,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592620,7 +592636,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load8x8_s: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load8x8_s"
+          "webassembly.instructions.load8x8_s"
         ],
         summary: "The load8x8_s SIMD load/store instruction loads eight 8-bit integers from a given memory address and sign extends each one to a 16-bit lane, outputting a v128 type i16x8 value interpretation.",
         popularity: 0.0006081374073251473,
@@ -592633,7 +592649,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592648,8 +592669,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592661,7 +592681,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load64_zero: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load64_zero"
+          "webassembly.instructions.load64_zero"
         ],
         summary: "The load64_zero SIMD load/store instruction loads a single value from a given memory address into the first lane of a v128 type i64x2 value interpretation, and initializes the other lane to 0.",
         popularity: 0.0013008852365390107,
@@ -592674,7 +592694,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592689,8 +592714,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592702,7 +592726,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load16x4_s: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load16x4_s"
+          "webassembly.instructions.load16x4_s"
         ],
         summary: "The load16x4_s SIMD load/store instruction loads four 16-bit integers from a given memory address and sign extends each one to a 32-bit lane, outputting a v128 type i32x4 value interpretation.",
         popularity: 0.0006715952237416843,
@@ -592715,7 +592739,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592730,8 +592759,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592743,7 +592771,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load16_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load16_lane"
+          "webassembly.instructions.load16_lane"
         ],
         summary: "The load16_lane SIMD load/store instruction loads a single value from a given memory address into the specified lane of a v128 type i16x8 value interpretation.",
         popularity: 0.0008461042188871614,
@@ -592756,7 +592784,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592773,8 +592806,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592786,7 +592818,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load32_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load32_lane"
+          "webassembly.instructions.load32_lane"
         ],
         summary: "The load32_lane SIMD load/store instruction loads a single value from a given memory address into the specified lane of a v128 type i32x4 value interpretation.",
         popularity: 0.0006345781641653711,
@@ -592799,7 +592831,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592816,8 +592853,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592829,7 +592865,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load32_zero: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load32_zero"
+          "webassembly.instructions.load32_zero"
         ],
         summary: "The load32_zero SIMD load/store instruction loads a single value from a given memory address into the first lane of a v128 type i32x4 value interpretation, and initializes the other lanes to 0.",
         popularity: 0.0006345781641653711,
@@ -592842,7 +592878,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592857,8 +592898,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592921,7 +592961,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "store: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.store"
+          "webassembly.instructions.store"
         ],
         summary: "The store SIMD load/store instruction stores all lanes of a v128 value interpretation at a given memory address.",
         popularity: 0.0024589903861408128,
@@ -592934,7 +592974,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592949,8 +592994,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -592962,7 +593006,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load8_splat: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load8_splat"
+          "webassembly.instructions.load8_splat"
         ],
         summary: "The load8_splat SIMD load/store instruction loads a single value from a given memory address into all lanes of a v128 type i8x16 value interpretation.",
         popularity: 0.0006451544669014606,
@@ -592975,7 +593019,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -592990,8 +593039,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593003,7 +593051,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load8_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load8_lane"
+          "webassembly.instructions.load8_lane"
         ],
         summary: "The load8_lane SIMD load/store instruction loads a single value from a given memory address into the specified lane of a v128 type i8x16 value interpretation.",
         popularity: 0.0009360027921439224,
@@ -593016,7 +593064,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593033,8 +593086,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593046,7 +593098,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load32x2_s: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load32x2_s"
+          "webassembly.instructions.load32x2_s"
         ],
         summary: "The load32x2_s SIMD load/store instruction loads two 32-bit integers from a given memory address and sign extends each one to a 64-bit lane, outputting a v128 type i64x2 value interpretation.",
         popularity: 0.0006504426182695054,
@@ -593059,7 +593111,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593074,8 +593131,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593087,7 +593143,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load"
+          "webassembly.instructions.load"
         ],
         summary: "The load SIMD load/store instruction loads all lanes of a v128 value interpretation with values from a given memory address.",
         popularity: 0.0010047487599285042,
@@ -593100,7 +593156,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593115,8 +593176,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593128,7 +593188,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load32x2_u: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load32x2_u"
+          "webassembly.instructions.load32x2_u"
         ],
         summary: "The load32x2_u SIMD load/store instruction loads two 32-bit integers from a given memory address and zero extends each one to a 64-bit lane, outputting a v128 type i64x2 value interpretation.",
         popularity: 0.0007932227052067139,
@@ -593141,7 +593201,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593156,8 +593221,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593169,7 +593233,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "store64_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.store64_lane"
+          "webassembly.instructions.store64_lane"
         ],
         summary: "The store64_lane SIMD load/store instruction stores a specified lane of a v128 i64x2 value interpretation at a given memory address.",
         popularity: 0.0006081374073251473,
@@ -593182,7 +593246,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593198,8 +593267,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593211,7 +593279,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load64_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load64_lane"
+          "webassembly.instructions.load64_lane"
         ],
         summary: "The load64_lane SIMD load/store instruction loads a single value from a given memory address into the specified lane of a v128 type i64x2 value interpretation.",
         popularity: 0.0006345781641653711,
@@ -593224,7 +593292,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593241,8 +593314,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593254,7 +593326,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "store16_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.store16_lane"
+          "webassembly.instructions.store16_lane"
         ],
         summary: "The store16_lane SIMD load/store instruction stores a specified lane of a v128 i16x8 value interpretation at a given memory address.",
         popularity: 0.0005764084991168787,
@@ -593267,7 +593339,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593283,8 +593360,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593296,7 +593372,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load32_splat: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load32_splat"
+          "webassembly.instructions.load32_splat"
         ],
         summary: "The load32_splat SIMD load/store instruction loads a single value from a given memory address into all lanes of a v128 i32x4 type value interpretation.",
         popularity: 0.0015864454104134278,
@@ -593309,7 +593385,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593324,8 +593405,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593337,7 +593417,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "store32_lane: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.store32_lane"
+          "webassembly.instructions.store32_lane"
         ],
         summary: "The store32_lane SIMD load/store instruction stores a specified lane of a v128 i32x4 value interpretation at a given memory address.",
         popularity: 0.0006081374073251473,
@@ -593350,7 +593430,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593366,8 +593451,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "input",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593379,7 +593463,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "load16x4_u: Wasm SIMD load/store instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.load16x4_u"
+          "webassembly.instructions.load16x4_u"
         ],
         summary: "The load16x4_u SIMD load/store instruction loads four 16-bit integers from a given memory address and zero extends each one to a 32-bit lane, outputting a v128 type i32x4 value interpretation.",
         popularity: 0.000613425558693192,
@@ -593392,7 +593476,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593407,8 +593496,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         "output",
         "binary_encoding",
         "specifications",
-        "browser_compatibility",
-        "see_also"
+        "browser_compatibility"
       ]
     }
   },
@@ -593450,7 +593538,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extract_lane_s: Wasm SIMD extract instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extract_lane_s"
+          "webassembly.instructions.extract_lane_s"
         ],
         summary: "The extract_lane_s SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation as a signed integer.",
         popularity: 0.0007350530401582215,
@@ -593463,7 +593551,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593490,7 +593583,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extract_lane_u: Wasm SIMD extract instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extract_lane_u"
+          "webassembly.instructions.extract_lane_u"
         ],
         summary: "The extract_lane_u SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation as an unsigned integer.",
         popularity: 0.0007191885860540873,
@@ -593503,7 +593596,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593530,7 +593628,7 @@ It is a low-level assembly-like language with a compact binary format that runs 
         title: "extract_lane: Wasm SIMD extract instruction",
         pageType: "webassembly-instruction",
         browserCompat: [
-          "webassembly.simd.extract_lane"
+          "webassembly.instructions.extract_lane"
         ],
         summary: "The extract_lane SIMD extract instruction extracts the value contained within the specified lane of a v128 value interpretation.",
         popularity: 0.0008143753106788929,
@@ -593543,7 +593641,12 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions%E2%91%A8",
+          title: "WebAssembly Core Specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -601020,6 +601123,7 @@ In the listeners, you can:`,
         "dom_access",
         "webextension_apis",
         "xhr_and_fetch",
+        "secure_contexts",
         "communicating_with_background_scripts",
         "one-off_messages",
         "connection-based_messaging",
@@ -636227,6 +636331,7 @@ Firefox 154 is the current Beta version of Firefox and ships on August 18, 2026.
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=154",
+        "https://bugzil.la/2019332",
         "https://bugzil.la/1805447"
       ],
       imgs: [],
