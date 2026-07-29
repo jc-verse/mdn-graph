@@ -64721,11 +64721,15 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64733,15 +64737,11 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64749,11 +64749,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
@@ -64761,7 +64757,11 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -74203,11 +74203,11 @@ For example, the opacity property is used to set the opacity of a selected eleme
         "formal_syntax",
         "stop-opacity",
         "examples",
-        "defining_the_opacity_of_a_svg_gradient_color_stop",
+        "defining_the_opacity_of_an_svg_gradient_color_stop",
         "html",
         "css",
         "results",
-        "frame_defining_the_opacity_of_a_svg_gradient_color_stop",
+        "frame_defining_the_opacity_of_an_svg_gradient_color_stop",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -95852,7 +95852,7 @@ This is different from :buffering in that the media element is unexpectedly not 
         "css",
         "result",
         "frame_styling_first_line_of_a_paragraph",
-        "styling_the_first_line_of_a_svg_text_element",
+        "styling_the_first_line_of_an_svg_text_element",
         "html_2",
         "css_2",
         "result_2",
@@ -116452,7 +116452,15 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116460,15 +116468,11 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116476,11 +116480,19 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116489,18 +116501,6 @@ introduces the different iteration statements available to JavaScript.`,
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -122266,7 +122266,7 @@ methods that can be used with any typed array containing elements of any type.`,
         browserCompat: [
           "javascript.builtins.TypedArray.join"
         ],
-        summary: "The join() method of TypedArray instances creates and returns a new string by concatenating all of the elements in this typed array, separated by commas or a specified separator string. If the typed array has only one item, then that item will be returned without using the separator. This method has the same algorithm as Array.prototype.join().",
+        summary: "The join() method of TypedArray instances returns a new string that is the concatenation of all elements in this typed array, separated by commas or a specified separator string. If the typed array has only one item, that item's stringification is returned without using the separator. This method has the same algorithm as Array.prototype.join().",
         popularity: 0.000920138338039788,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -150026,6 +150026,7 @@ or a DataView.`,
         "iterator.prototype.flatmap",
         "iterator.prototype.foreach",
         "iterator.prototype.includes",
+        "iterator.prototype.join",
         "iterator.prototype.map",
         "iterator.prototype.reduce",
         "iterator.prototype.some",
@@ -150334,6 +150335,52 @@ or a DataView.`,
         "examples",
         "using_includes",
         "using_fromindex",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/join",
+    links: {},
+    data: {
+      metadata: {
+        title: "Iterator.prototype.join()",
+        pageType: "javascript-instance-method",
+        browserCompat: [
+          "javascript.builtins.Iterator.join"
+        ],
+        summary: "The join() method of Iterator instances is similar to Array.prototype.join(): it returns a string that is the concatenation of all elements produced by the iterator, separated by commas or a specified separator string. If the iterator has only one item, that item's stringification is returned without using the separator.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/global_objects/iterator/join",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "join()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-iterator-join/#sec-iterator.prototype.join",
+          title: "Proposal Iterator Join"
+        }
+      ],
+      links: [
+        "https://github.com/zloirock/core-js#iterator-join",
+        "https://www.npmjs.com/package/es-iterator-helpers"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "separator",
+        "return_value",
+        "description",
+        "examples",
+        "using_join",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -160250,10 +160297,7 @@ an array and returns the new length of the array.`,
         browserCompat: [
           "javascript.builtins.Array.join"
         ],
-        summary: `The join() method of Array instances creates and
-returns a new string by concatenating all of the elements in this array,
-separated by commas or a specified separator string. If the array has
-only one item, then that item will be returned without using the separator.`,
+        summary: "The join() method of Array instances returns a new string that is the concatenation of all elements in this array, separated by commas or a specified separator string. If the array has only one item, that item's stringification is returned without using the separator.",
         popularity: 0.04007889921841123,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -168969,15 +169013,7 @@ be different.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -168985,63 +169021,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169049,43 +169029,15 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169093,35 +169045,15 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169129,15 +169061,27 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169145,11 +169089,35 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169161,27 +169129,83 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169189,11 +169213,31 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -193709,7 +193753,19 @@ and Legendre symbols.`,
       flaws: {},
       specifications: [
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -193718,18 +193774,6 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         },
         {
@@ -201770,15 +201814,15 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -201790,7 +201834,7 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
           title: "HTTP Semantics"
         }
       ],
@@ -218917,10 +218961,6 @@ a set of GL commands.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "hidinputreportevent.data",
-        "hidinputreportevent.device",
-        "hidinputreportevent.reportid",
         "example",
         "specifications",
         "browser_compatibility"
@@ -223810,8 +223850,6 @@ indicating whether the sensor has a reading.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "error",
         "examples",
         "log_accelerometer_exceptions",
         "specifications",
@@ -230892,8 +230930,6 @@ GPUComputePassEncoder interface sets the GPUBindGroup to use for subsequent comp
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "layer",
         "examples",
         "using_the_redraw_event",
         "specifications",
@@ -238323,8 +238359,6 @@ false.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediastreamtrackevent.track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -238404,8 +238438,6 @@ for the object.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediastreamtrackevent.track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -243330,11 +243362,6 @@ SpeechRecognition object instance.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "speechrecognitionevent.emma",
-        "speechrecognitionevent.interpretation",
-        "speechrecognitionevent.resultindex",
-        "speechrecognitionevent.results",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -243657,9 +243684,6 @@ SpeechRecognition interface sets an array of SpeechRecognitionPhrase objects to 
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "speechrecognitionerrorevent.error",
-        "speechrecognitionerrorevent.message",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -244091,11 +244115,6 @@ returned for each recognition, or only a single result.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "speechrecognitionevent.emma",
-        "speechrecognitionevent.interpretation",
-        "speechrecognitionevent.resultindex",
-        "speechrecognitionevent.results",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -252853,8 +252872,6 @@ This lets you find a specified track if you know its ID string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "description",
         "trigger",
         "use_cases",
@@ -252901,8 +252918,6 @@ This lets you find a specified track if you know its ID string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "description",
         "trigger",
         "use_cases",
@@ -260035,9 +260050,6 @@ WebGLVertexArrayObject object.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "timeevent.detail",
-        "timeevent.view",
         "examples",
         "animated_circle",
         "frame_animated_circle",
@@ -260119,9 +260131,6 @@ WebGLVertexArrayObject object.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "timeevent.detail",
-        "timeevent.view",
         "examples",
         "animated_circle",
         "frame_animated_circle",
@@ -260487,9 +260496,6 @@ WebGLVertexArrayObject object.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "timeevent.detail",
-        "timeevent.view",
         "examples",
         "animated_circle",
         "frame_animated_circle",
@@ -271201,9 +271207,6 @@ The browser will throw an exception if you call send() when the connection is in
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "data",
-        "origin",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -271399,10 +271402,6 @@ current state of the WebSocket connection.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "code",
-        "reason",
-        "wasclean",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -276897,8 +276896,6 @@ If SCTP hasn't been negotiated, this value is null.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "channel",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -276938,11 +276935,6 @@ If SCTP hasn't been negotiated, this value is null.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "receiver",
-        "streams",
-        "track",
-        "transceiver",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -277128,8 +277120,6 @@ You can use the RTCPeerConnection interface's onremovestream property to set a h
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediastreamevent.stream",
         "browser_compatibility",
         "see_also"
       ]
@@ -277253,8 +277243,6 @@ Also included is a list of any ICE candidates that may already have been generat
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "rtcpeerconnectioniceevent.candidate",
         "description",
         "sharing_a_new_candidate",
         "indicating_the_end_of_a_generation_of_candidates",
@@ -277580,8 +277568,6 @@ Instead of using this obsolete method, you should instead use addTrack() once fo
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediastreamevent.stream",
         "examples",
         "browser_compatibility",
         "see_also"
@@ -278525,19 +278511,11 @@ The new ICE connection state is available in the object's iceConnectionState pro
           title: "WebRTC: Real-Time Communication in Browsers"
         }
       ],
-      links: [
-        "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml#stun-parameters-6"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "address",
-        "errorcode",
-        "errortext",
-        "port",
-        "url",
         "examples",
         "basic_usage",
         "specifications",
@@ -279908,8 +279886,6 @@ ReadableStreamDefaultReader interface returns a Promise that resolves when the s
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "taskprioritychangeevent.previouspriority",
         "examples",
         "frame_examples",
         "specifications",
@@ -288085,12 +288061,6 @@ byteLength property.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "textupdateevent.updaterangestart",
-        "textupdateevent.updaterangeend",
-        "textupdateevent.text",
-        "textupdateevent.selectionstart",
-        "textupdateevent.selectionend",
         "examples",
         "rendering_the_updated_text_on_textupdate",
         "specifications",
@@ -288402,8 +288372,6 @@ byteLength property.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "textformatupdateevent.gettextformats",
         "examples",
         "rendering_ime_composition_text_formatting",
         "specifications",
@@ -288445,9 +288413,6 @@ byteLength property.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "characterboundsupdateevent.rangestart",
-        "characterboundsupdateevent.rangeend",
         "examples",
         "updating_the_character_bounds_when_needed",
         "specifications",
@@ -300486,12 +300451,6 @@ transfers ownership of objects to other browsing contexts.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -300578,12 +300537,6 @@ onmessage.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "attempting_to_share_memory",
         "specifications",
@@ -319548,8 +319501,6 @@ See Orientation and motion data explained for details.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "layer",
         "examples",
         "using_the_redraw_event",
         "specifications",
@@ -328117,8 +328068,6 @@ of the HTMLElement interface provides read/write access to custom data attribute
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "resetting_drop_zone_styles_on_dragleave",
         "html",
@@ -328338,8 +328287,6 @@ of the HTMLElement interface provides read/write access to custom data attribute
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "drag_and_drop_example",
         "html",
@@ -328389,8 +328336,6 @@ of the HTMLElement interface provides read/write access to custom data attribute
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "resetting_opacity_on_dragend",
         "html",
@@ -328830,8 +328775,6 @@ are editable; otherwise it returns false.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "styling_drop_zones_on_dragenter",
         "html",
@@ -329191,8 +329134,6 @@ when the mouse is over the node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "setting_opacity_on_drag_start",
         "html",
@@ -329362,8 +329303,6 @@ when the mouse is over the node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "a_minimal_drag-and-drop_example",
         "html",
@@ -329808,8 +329747,6 @@ This method allows a custom element to participate in HTML forms. The ElementInt
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "dragevent.datatransfer",
         "examples",
         "a_minimal_drag-and-drop_example",
         "html",
@@ -343255,9 +343192,6 @@ for playback to begin at the beginning.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediaencryptedevent.initdatatype",
-        "mediaencryptedevent.initdata",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -343750,7 +343684,7 @@ asynchronously advances the current play position to the next frame in the media
       ids: [
         "description",
         "examples",
-        "getting_an_uniform_location",
+        "getting_a_uniform_location",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -347926,9 +347860,6 @@ GPURenderPassEncoder interface sets the GPUBindGroup to use for subsequent rende
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "addedranges",
-        "removedranges",
         "examples",
         "tracking_buffered_range_changes",
         "specifications",
@@ -350579,8 +350510,6 @@ GPURenderBundleEncoder interface sets the GPUBindGroup to use for subsequent ren
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "webglcontextevent.statusmessage",
         "example",
         "specifications",
         "browser_compatibility",
@@ -351043,8 +350972,6 @@ default value of 150 is used.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "webglcontextevent.statusmessage",
         "example",
         "specifications",
         "browser_compatibility",
@@ -351129,8 +351056,6 @@ which includes a CanvasCaptureMediaStreamTrack containing a real-time video capt
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "webglcontextevent.statusmessage",
         "example",
         "specifications",
         "browser_compatibility",
@@ -353546,9 +353471,6 @@ animation to finish up.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationplaybackevent.currenttime",
-        "animationplaybackevent.timelinetime",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -353758,9 +353680,6 @@ animation to finish up.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationplaybackevent.currenttime",
-        "animationplaybackevent.timelinetime",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -354398,9 +354317,6 @@ synchronizing its playback position.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationplaybackevent.currenttime",
-        "animationplaybackevent.timelinetime",
         "examples",
         "removing_replaced_animations",
         "html",
@@ -366684,9 +366600,6 @@ new PresentationRequest.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "titlebararearect",
-        "visible",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -368178,8 +368091,6 @@ You can also, optionally, specify an error handling callback function.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "session",
         "description",
         "trigger",
         "use_cases",
@@ -368227,9 +368138,6 @@ You can also, optionally, specify an error handling callback function.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -368318,12 +368226,6 @@ XRSession describes which depth-sensing usage is used.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "eye",
-        "index",
-        "indices",
-        "session",
-        "vertices",
         "examples",
         "three.js_example",
         "specifications",
@@ -368369,10 +368271,6 @@ XRSession describes which depth-sensing usage is used.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "added",
-        "removed",
-        "session",
         "description",
         "trigger",
         "use_cases",
@@ -368420,9 +368318,6 @@ XRSession describes which depth-sensing usage is used.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -368610,9 +368505,6 @@ Keyboards, gamepads, and mice are not considered WebXR input sources.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -368807,9 +368699,6 @@ space requested.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -368970,9 +368859,6 @@ describes the best space (according to the user agent) for the application to dr
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -369104,9 +368990,6 @@ XRSession describes which depth sensing data format is used.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "frame",
-        "inputsource",
         "description",
         "trigger",
         "use_cases",
@@ -369333,8 +369216,6 @@ mode, and the XRWebGLLayer to render into for inline composition.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "session",
         "description",
         "trigger",
         "use_cases",
@@ -375296,9 +375177,6 @@ This will be a URL or null.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "merchantvalidationevent.methodname",
-        "merchantvalidationevent.validationurl",
         "examples",
         "browser_compatibility",
         "see_also"
@@ -375575,7 +375453,6 @@ interface that might be shown.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "browser_compatibility"
       ]
@@ -375690,7 +375567,6 @@ user. It is null by default.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "usage_notes",
         "example",
         "browser_compatibility"
@@ -375875,9 +375751,6 @@ provided by the constructor.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "methoddetails",
-        "methodname",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -377821,8 +377694,6 @@ or buffering done by the operating system or network hardware.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "channel",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -378051,8 +377922,6 @@ the connection is closing or closed.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "error",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -378203,12 +378072,6 @@ up.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379148,18 +379011,11 @@ GPUCanvasContext interface configures the context to use for rendering with a gi
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379198,18 +379054,11 @@ GPUCanvasContext interface configures the context to use for rendering with a gi
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379372,19 +379221,11 @@ SpeechSynthesisUtterance interface gets and sets the text that will be synthesiz
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "error",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379480,18 +379321,11 @@ It contains the content the speech service should read and information about how
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379571,18 +379405,11 @@ It contains the content the speech service should read and information about how
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379621,18 +379448,11 @@ It contains the content the speech service should read and information about how
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -379709,18 +379529,11 @@ It contains the content the speech service should read and information about how
           title: "Web Speech API"
         }
       ],
-      links: [
-        "https://www.w3.org/TR/speech-synthesis/#S3.3.2"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "charindex",
-        "elapsedtime",
-        "name",
-        "utterance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -380978,9 +380791,6 @@ serialized media query.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediaquerylistevent.matches",
-        "mediaquerylistevent.media",
         "example",
         "specifications",
         "browser_compatibility",
@@ -382858,8 +382668,6 @@ call insertDTMF().`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "rtcdtmftonechangeevent.tone",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -386421,10 +386229,6 @@ error that occurred while reading the file.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "live_example",
         "html",
@@ -386518,10 +386322,6 @@ contains an ArrayBuffer representing the file's data.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "live_example",
         "html",
@@ -386570,10 +386370,6 @@ contains an ArrayBuffer representing the file's data.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "live_example",
         "html",
@@ -386813,10 +386609,6 @@ the file.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -387002,10 +386794,6 @@ operation.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "live_example",
         "html",
@@ -387054,10 +386842,6 @@ operation.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "progressevent.lengthcomputable",
-        "progressevent.loaded",
-        "progressevent.total",
         "examples",
         "live_example",
         "html",
@@ -402309,8 +402093,6 @@ string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -402354,8 +402136,6 @@ string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403074,8 +402854,6 @@ If the stream queues are empty, the request may be supplied as a zero-copy trans
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "id",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403163,8 +402941,6 @@ If the stream queues are empty, the request may be supplied as a zero-copy trans
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "backgroundfetchevent.registration",
         "description",
         "examples",
         "opening_a_window_with_more_details",
@@ -403295,8 +403071,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pushevent.data",
         "example",
         "specifications",
         "browser_compatibility",
@@ -403344,8 +403118,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "periodicsyncevent.tag",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403387,8 +403159,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "backgroundfetchupdateuievent.updateui",
         "description",
         "examples",
         "updating_ui",
@@ -403430,7 +403200,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403644,9 +403413,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "notificationevent.notification",
-        "notificationevent.action",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403688,8 +403454,6 @@ object associated with the service worker.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "backgroundfetchevent.registration",
         "description",
         "examples",
         "cleaning_up",
@@ -403879,12 +403643,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "extendablemessageevent.data",
-        "extendablemessageevent.origin",
-        "extendablemessageevent.lasteventid",
-        "extendablemessageevent.source",
-        "extendablemessageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403930,12 +403688,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "extendablemessageevent.data",
-        "extendablemessageevent.origin",
-        "extendablemessageevent.lasteventid",
-        "extendablemessageevent.source",
-        "extendablemessageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -403977,9 +403729,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "syncevent.tag",
-        "syncevent.lastchance",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -404021,8 +403770,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "backgroundfetchupdateuievent.updateui",
         "description",
         "examples",
         "storing_responses_and_updating_ui",
@@ -404068,7 +403815,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -404145,9 +403891,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "notificationevent.notification",
-        "notificationevent.action",
         "example",
         "specifications",
         "browser_compatibility"
@@ -407085,12 +406828,6 @@ the DedicatedWorkerGlobalScope.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "example",
         "specifications",
         "browser_compatibility",
@@ -407134,12 +406871,6 @@ the DedicatedWorkerGlobalScope.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -407179,8 +406910,6 @@ the DedicatedWorkerGlobalScope.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "rtctransformevent.transformer",
         "example",
         "specifications",
         "browser_compatibility",
@@ -415930,7 +415659,6 @@ to some user action.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "specifications",
         "browser_compatibility"
       ]
@@ -416172,9 +415900,6 @@ content decryption module.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mediakeymessageevent.message",
-        "mediakeymessageevent.messagetype",
         "specifications",
         "browser_compatibility"
       ]
@@ -418670,12 +418395,6 @@ tone that is produced.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "addeventlistener_equivalent",
         "specifications",
@@ -438506,10 +438225,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -438562,10 +438277,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -438618,10 +438329,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -438674,10 +438381,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -438774,10 +438477,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "usage_with_xmlhttprequestupload",
@@ -438826,10 +438525,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -438882,10 +438577,6 @@ FileSystemSyncAccessHandle interface returns the size of the file associated wit
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "lengthcomputable",
-        "loaded",
-        "total",
         "examples",
         "usage_with_xmlhttprequest",
         "html",
@@ -442101,8 +441792,6 @@ Highlight object which can hold a collection of AbstractRange objects to be styl
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "layer",
         "examples",
         "using_the_redraw_event",
         "specifications",
@@ -442873,8 +442562,6 @@ in the form of a CSSStyleSheet object.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "midiconnectionevent.port",
         "example",
         "specifications",
         "browser_compatibility"
@@ -444921,10 +444608,6 @@ Chunks written to this stream must be instances of ArrayBuffer, TypedArray, or D
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "playbacktime",
-        "inputbuffer",
-        "outputbuffer",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -451415,16 +451098,6 @@ containing the result of processing an OfflineAudioContext.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "keyboardevent.altkey",
-        "keyboardevent.code",
-        "keyboardevent.ctrlkey",
-        "keyboardevent.iscomposing",
-        "keyboardevent.key",
-        "keyboardevent.location",
-        "keyboardevent.metakey",
-        "keyboardevent.repeat",
-        "keyboardevent.shiftkey",
         "examples",
         "addeventlistener_keyup_example",
         "frame_addeventlistener_keyup_example",
@@ -451666,11 +451339,6 @@ Strings are inserted as equivalent Text nodes.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "inputevent.data",
-        "inputevent.datatransfer",
-        "inputevent.inputtype",
-        "inputevent.iscomposing",
         "examples",
         "feature_detection",
         "simple_logger",
@@ -451720,16 +451388,6 @@ Strings are inserted as equivalent Text nodes.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "touchevent.altkey",
-        "touchevent.changedtouches",
-        "touchevent.ctrlkey",
-        "touchevent.metakey",
-        "touchevent.shiftkey",
-        "touchevent.targettouches",
-        "touchevent.touches",
-        "touchevent.rotation",
-        "touchevent.scale",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -452023,14 +451681,6 @@ can be string or Node objects.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "wheelevent.deltax",
-        "wheelevent.deltay",
-        "wheelevent.deltaz",
-        "wheelevent.deltamode",
-        "wheelevent.wheeldelta",
-        "wheelevent.wheeldeltax",
-        "wheelevent.wheeldeltay",
         "the_detail_property",
         "wheeldelta_wheeldeltax_and_wheeldeltay_value",
         "chrome",
@@ -452124,30 +451774,6 @@ The accessible description is similar to the accessible label (see ariaLabelledB
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "mouseout_and_mouseleave",
         "html",
@@ -452382,27 +452008,11 @@ The accessible description is similar to the accessible label (see ariaLabelledB
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -452823,30 +452433,6 @@ specified name from the element.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -452889,30 +452475,6 @@ specified name from the element.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -452999,10 +452561,6 @@ specified name from the element.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "transitionevent.propertyname",
-        "transitionevent.elapsedtime",
-        "transitionevent.pseudoelement",
         "examples",
         "live_example",
         "frame_live_example",
@@ -453467,30 +453025,6 @@ the method was called.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -453608,8 +453142,6 @@ the method was called.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "session",
         "event_availability",
         "examples",
         "specifications",
@@ -453742,9 +453274,6 @@ returns the name of the shadow DOM slot the element is inserted in.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "compositionevent.data",
-        "compositionevent.locale",
         "examples",
         "live_example",
         "html",
@@ -453880,27 +453409,12 @@ local part of the qualified name of an element.`,
       ],
       links: [
         "https://w3c.github.io/pointerevents/#dfn-direct-manipulation",
-        "https://w3c.github.io/pointerevents/#dfn-implicit-pointer-capture",
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
+        "https://w3c.github.io/pointerevents/#dfn-implicit-pointer-capture"
       ],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -454022,9 +453536,6 @@ details.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "gestureevent.rotation",
-        "gestureevent.scale",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -454070,30 +453581,6 @@ details.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "usage_notes",
         "behavior_of_mouseenter_events",
         "behavior_of_mouseover_events",
@@ -454375,10 +453862,6 @@ Node objects or strings. Strings are inserted as equivalent Text nodes.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "transitionevent.propertyname",
-        "transitionevent.elapsedtime",
-        "transitionevent.pseudoelement",
         "examples",
         "live_example",
         "frame_live_example",
@@ -454642,8 +454125,6 @@ it's called.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "simple_example",
         "html",
@@ -454787,16 +454268,6 @@ to this element until the mouse button is released or document.releaseCapture() 
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "touchevent.altkey",
-        "touchevent.changedtouches",
-        "touchevent.ctrlkey",
-        "touchevent.metakey",
-        "touchevent.shiftkey",
-        "touchevent.targettouches",
-        "touchevent.touches",
-        "touchevent.rotation",
-        "touchevent.scale",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -454983,16 +454454,6 @@ are inserted as equivalent Text nodes.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "keyboardevent.altkey",
-        "keyboardevent.code",
-        "keyboardevent.ctrlkey",
-        "keyboardevent.iscomposing",
-        "keyboardevent.key",
-        "keyboardevent.location",
-        "keyboardevent.metakey",
-        "keyboardevent.repeat",
-        "keyboardevent.shiftkey",
         "examples",
         "addeventlistener_keypress_example",
         "frame_addeventlistener_keypress_example",
@@ -455312,10 +454773,6 @@ attributes or not.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationevent.animationname",
-        "animationevent.elapsedtime",
-        "animationevent.pseudoelement",
         "examples",
         "live_example",
         "html",
@@ -455943,16 +455400,6 @@ specified.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "touchevent.altkey",
-        "touchevent.changedtouches",
-        "touchevent.ctrlkey",
-        "touchevent.metakey",
-        "touchevent.shiftkey",
-        "touchevent.targettouches",
-        "touchevent.touches",
-        "touchevent.rotation",
-        "touchevent.scale",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -456561,16 +456008,6 @@ array.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "keyboardevent.altkey",
-        "keyboardevent.code",
-        "keyboardevent.ctrlkey",
-        "keyboardevent.iscomposing",
-        "keyboardevent.key",
-        "keyboardevent.location",
-        "keyboardevent.metakey",
-        "keyboardevent.repeat",
-        "keyboardevent.shiftkey",
         "examples",
         "addeventlistener_keydown_example",
         "frame_addeventlistener_keydown_example",
@@ -456612,26 +456049,11 @@ array.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "usage_notes",
         "examples",
         "html",
@@ -457180,30 +456602,6 @@ This is used when the DOM hierarchy cannot be used to represent the relationship
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -457281,27 +456679,11 @@ children list, or null if the specified element is the last one in the list.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -457381,9 +456763,6 @@ children list, or null if the specified element is the last one in the list.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "compositionevent.data",
-        "compositionevent.locale",
         "examples",
         "live_example",
         "html",
@@ -457423,26 +456802,11 @@ children list, or null if the specified element is the last one in the list.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "canceling_the_contextmenu_event",
         "html",
@@ -457531,16 +456895,6 @@ children list, or null if the specified element is the last one in the list.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "touchevent.altkey",
-        "touchevent.changedtouches",
-        "touchevent.ctrlkey",
-        "touchevent.metakey",
-        "touchevent.shiftkey",
-        "touchevent.targettouches",
-        "touchevent.touches",
-        "touchevent.rotation",
-        "touchevent.scale",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -457624,8 +456978,6 @@ children list, or null if the specified element is the last one in the list.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "simple_example",
         "html",
@@ -457679,30 +457031,6 @@ children list, or null if the specified element is the last one in the list.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -457924,9 +457252,6 @@ specified class name or names.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "gestureevent.rotation",
-        "gestureevent.scale",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -457964,27 +457289,11 @@ specified class name or names.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -458089,27 +457398,11 @@ See pointermove for a list of these properties.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "example",
         "specifications",
         "browser_compatibility",
@@ -458601,27 +457894,11 @@ pointerup event is fired).`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -458660,27 +457937,11 @@ pointerup event is fired).`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -458766,9 +458027,6 @@ pointerup event is fired).`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "gestureevent.rotation",
-        "gestureevent.scale",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -458811,30 +458069,6 @@ pointerup event is fired).`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "javascript",
         "html",
@@ -458954,27 +458188,11 @@ pointerup event is fired).`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -459057,7 +458275,6 @@ pointerup event is fired).`,
         }
       ],
       links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress",
         "https://mdn.github.io/dom-examples/auxclick/",
         "https://github.com/mdn/dom-examples/blob/main/auxclick/index.html"
       ],
@@ -459065,19 +458282,6 @@ pointerup event is fired).`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "preventing_default_actions",
         "examples",
         "javascript",
@@ -459120,27 +458324,11 @@ pointerup event is fired).`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -459186,11 +458374,6 @@ pointerup event is fired).`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "inputevent.data",
-        "inputevent.datatransfer",
-        "inputevent.inputtype",
-        "inputevent.iscomposing",
         "examples",
         "html",
         "javascript",
@@ -459349,10 +458532,6 @@ which contains all of the child elements of the element upon which it was called
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationevent.animationname",
-        "animationevent.elapsedtime",
-        "animationevent.pseudoelement",
         "examples",
         "live_example",
         "html",
@@ -459768,14 +458947,6 @@ The accessible details are similar to the accessible description (see ariaDescri
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "wheelevent.deltax",
-        "wheelevent.deltay",
-        "wheelevent.deltaz",
-        "wheelevent.deltamode",
-        "wheelevent.wheeldelta",
-        "wheelevent.wheeldeltax",
-        "wheelevent.wheeldeltay",
         "examples",
         "scaling_an_element_via_the_wheel",
         "frame_scaling_an_element_via_the_wheel",
@@ -459820,9 +458991,6 @@ The accessible details are similar to the accessible description (see ariaDescri
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "compositionevent.data",
-        "compositionevent.locale",
         "examples",
         "live_example",
         "html",
@@ -459867,10 +459035,6 @@ The accessible details are similar to the accessible description (see ariaDescri
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationevent.animationname",
-        "animationevent.elapsedtime",
-        "animationevent.pseudoelement",
         "examples",
         "live_example",
         "html",
@@ -459995,30 +459159,6 @@ element.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "html",
         "javascript",
@@ -460062,39 +459202,10 @@ element.`,
         }
       ],
       links: [],
-      imgs: [
-        "/en-US/docs/Web/API/Element/mouseleave_event/mouseleave.png",
-        "/en-US/docs/Web/API/Element/mouseleave_event/mouseout.png"
-      ],
+      imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
-        "behavior_of_mouseleave_events",
-        "behavior_of_mouseout_events",
         "examples",
         "mouseleave",
         "html",
@@ -460260,27 +459371,11 @@ element.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -460496,8 +459591,6 @@ For example, this might be set on a combobox to indicate the element that it pop
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "live_example",
         "html",
@@ -460666,27 +459759,11 @@ pointer capture for the pointer identified by the given pointer ID.`,
           title: "Pointer Events"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Cylinder_stress"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pointerevent.altitudeangle",
-        "pointerevent.azimuthangle",
-        "pointerevent.persistentdeviceid",
-        "pointerevent.pointerid",
-        "pointerevent.width",
-        "pointerevent.height",
-        "pointerevent.pressure",
-        "pointerevent.tangentialpressure",
-        "pointerevent.tiltx",
-        "pointerevent.tilty",
-        "pointerevent.twist",
-        "pointerevent.pointertype",
-        "pointerevent.isprimary",
         "usage_notes",
         "examples",
         "specifications",
@@ -460954,10 +460031,6 @@ Scrolling is considered completed when the scroll position has no more pending u
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "transitionevent.propertyname",
-        "transitionevent.elapsedtime",
-        "transitionevent.pseudoelement",
         "examples",
         "live_example",
         "frame_live_example",
@@ -461039,10 +460112,6 @@ Scrolling is considered completed when the scroll position has no more pending u
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "animationevent.animationname",
-        "animationevent.elapsedtime",
-        "animationevent.pseudoelement",
         "examples",
         "live_example",
         "html",
@@ -461090,8 +460159,6 @@ Scrolling is considered completed when the scroll position has no more pending u
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "live_example",
         "html",
@@ -461175,8 +460242,6 @@ Scrolling is considered completed when the scroll position has no more pending u
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "detail",
         "browser_compatibility",
         "see_also"
       ]
@@ -461342,10 +460407,6 @@ one in its parent's children list, or null if the specified element is the first
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "transitionevent.propertyname",
-        "transitionevent.elapsedtime",
-        "transitionevent.pseudoelement",
         "examples",
         "live_example",
         "frame_live_example",
@@ -461611,30 +460672,6 @@ invoked that matches the specified group of selectors.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -461728,30 +460765,6 @@ invoked that matches the specified group of selectors.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "mouseevent.altkey",
-        "mouseevent.button",
-        "mouseevent.buttons",
-        "mouseevent.clientx",
-        "mouseevent.clienty",
-        "mouseevent.ctrlkey",
-        "mouseevent.layerx",
-        "mouseevent.layery",
-        "mouseevent.metakey",
-        "mouseevent.movementx",
-        "mouseevent.movementy",
-        "mouseevent.offsetx",
-        "mouseevent.offsety",
-        "mouseevent.pagex",
-        "mouseevent.pagey",
-        "mouseevent.relatedtarget",
-        "mouseevent.screenx",
-        "mouseevent.screeny",
-        "mouseevent.shiftkey",
-        "mouseevent.mozinputsource",
-        "mouseevent.webkitforce",
-        "mouseevent.x",
-        "mouseevent.y",
         "examples",
         "html",
         "css",
@@ -464715,8 +463728,6 @@ that the form be submitted using a specific submit button.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "submitter",
         "examples",
         "html",
         "javascript",
@@ -465448,8 +464459,6 @@ of the <form> element.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "formdataevent.formdata",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -469523,9 +468532,6 @@ in which the window is embedded.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "vrdisplayevent.display",
-        "vrdisplayevent.reason",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -469818,9 +468824,6 @@ the specified number of lines.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "vrdisplayevent.display",
-        "vrdisplayevent.reason",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -470116,19 +469119,11 @@ previously scheduled with window.requestIdleCallback().`,
           title: "Device Orientation and Motion"
         }
       ],
-      links: [
-        "https://en.wikipedia.org/wiki/Meter_per_second_squared",
-        "https://en.wikipedia.org/wiki/Meter_per_second_squared"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "devicemotionevent.acceleration",
-        "devicemotionevent.accelerationincludinggravity",
-        "devicemotionevent.rotationrate",
-        "devicemotionevent.interval",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -470410,8 +469405,6 @@ previously scheduled with window.requestIdleCallback().`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pagetransitionevent.persisted",
         "event_handler_aliases",
         "usage_notes",
         "examples",
@@ -471269,9 +470262,6 @@ the referenced window is closed or not.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "vrdisplayevent.display",
-        "vrdisplayevent.reason",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -471587,8 +470577,6 @@ system of the specified DOM Node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "live_example",
         "html",
@@ -471771,9 +470759,6 @@ system of the specified DOM Node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "vrdisplayevent.display",
-        "vrdisplayevent.reason",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -471944,8 +470929,6 @@ window.requestAnimationFrame().`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pagerevealevent.viewtransition",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -472149,8 +471132,6 @@ The data is then included in CrashReport objects that are sent to a reporting en
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pagetransitionevent.persisted",
         "event_handler_aliases",
         "examples",
         "javascript",
@@ -472673,9 +471654,6 @@ the left side of the screen.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "hashchangeevent.newurl",
-        "hashchangeevent.oldurl",
         "event_handler_aliases",
         "examples",
         "specifications",
@@ -472720,13 +471698,6 @@ the left side of the screen.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "deviceorientationevent.absolute",
-        "deviceorientationevent.alpha",
-        "deviceorientationevent.beta",
-        "deviceorientationevent.gamma",
-        "deviceorientationevent.webkitcompassheading",
-        "deviceorientationevent.webkitcompassaccuracy",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -472862,9 +471833,6 @@ gets/sets the name of the window's browsing context.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "vrdisplayevent.display",
-        "vrdisplayevent.reason",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -473712,12 +472680,6 @@ gets/sets the name of the window's browsing context.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -473831,9 +472793,6 @@ gets/sets the name of the window's browsing context.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "beforeinstallpromptevent.platforms",
-        "beforeinstallpromptevent.userchoice",
         "event_methods",
         "beforeinstallpromptevent.prompt",
         "examples",
@@ -473977,8 +472936,6 @@ It accepts a variety of different image sources, and returns a Promise which res
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "focusevent.relatedtarget",
         "examples",
         "live_example",
         "html",
@@ -474467,9 +473424,6 @@ timeout elapses.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pageswapevent.activation",
-        "pageswapevent.viewtransition",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -474771,12 +473725,6 @@ This is in contrast to DOMContentLoaded, which is fired as soon as the page DOM 
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -475038,12 +473986,6 @@ asynchronously access the capabilities of indexed databases.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "key",
-        "newvalue",
-        "oldvalue",
-        "storagearea",
-        "url",
         "event_handler_aliases",
         "examples",
         "specifications",
@@ -475413,8 +474355,6 @@ transmit, and decode control characters such as ASCII values 0 through 31.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "popstateevent.state",
         "event_handler_aliases",
         "the_history_stack",
         "when_popstate_is_sent",
@@ -475845,13 +474785,6 @@ coordinates.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "deviceorientationevent.absolute",
-        "deviceorientationevent.alpha",
-        "deviceorientationevent.beta",
-        "deviceorientationevent.gamma",
-        "deviceorientationevent.webkitcompassheading",
-        "deviceorientationevent.webkitcompassaccuracy",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -476288,9 +475221,6 @@ maximum number of pixels that the document can be scrolled vertically.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "promiserejectionevent.promise",
-        "promiserejectionevent.reason",
         "event_handler_aliases",
         "usage_notes",
         "examples",
@@ -476378,9 +475308,6 @@ browsing context, equivalent to the stop button in the browser.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "promiserejectionevent.promise",
-        "promiserejectionevent.reason",
         "event_handler_aliases",
         "example",
         "specifications",
@@ -479023,15 +477950,11 @@ PageSwapEvent object instance.`,
           title: "Web MIDI API"
         }
       ],
-      links: [
-        "https://midi.org/summary-of-midi-1-0-messages"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "midimessageevent.data",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -490979,12 +489902,6 @@ targeted at each BroadcastChannel bound to the channel.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "data",
-        "origin",
-        "lasteventid",
-        "source",
-        "ports",
         "examples",
         "sender",
         "receiver_1",
@@ -491035,12 +489952,6 @@ targeted at each BroadcastChannel bound to the channel.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "data",
-        "origin",
-        "lasteventid",
-        "source",
-        "ports",
         "examples",
         "listening_for_messageerror_events",
         "attempting_to_share_memory",
@@ -492971,9 +491882,6 @@ NavigationPrecommitController interface redirects the browser to a specified URL
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "referencespace",
-        "transform",
         "description",
         "manual_resets",
         "handling_discontinuities",
@@ -503193,12 +502101,6 @@ inserts a node before a reference node as a child of a specified parent node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -503238,12 +502140,6 @@ inserts a node before a reference node as a child of a specified parent node.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -505442,9 +504338,6 @@ browser's event loop.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "promiserejectionevent.promise",
-        "promiserejectionevent.reason",
         "examples",
         "basic_error_logging",
         "preventing_default_handling",
@@ -505486,9 +504379,6 @@ browser's event loop.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "promiserejectionevent.promise",
-        "promiserejectionevent.reason",
         "example",
         "specifications",
         "browser_compatibility",
@@ -510458,7 +509348,6 @@ containing the shipping address provided by the user.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "addeventlistener_equivalent",
         "specifications",
@@ -511050,8 +509939,6 @@ characters are deleted.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "pictureinpictureevent.pictureinpicturewindow",
         "examples",
         "window_size_logger",
         "specifications",
@@ -515615,12 +514502,6 @@ a ServiceWorkerRegistration or undefined.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -515662,12 +514543,6 @@ a ServiceWorkerRegistration or undefined.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -519242,8 +518117,6 @@ This article looks at the basics of using this API in your own apps.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "device",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -519284,8 +518157,6 @@ This article looks at the basics of using this API in your own apps.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "device",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -526109,8 +524980,6 @@ called. This can then be grabbed and manipulated as you wish.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "error",
         "description",
         "trigger",
         "securityerror",
@@ -534449,9 +533318,6 @@ deprecated and modern browsers return true in all cases.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "idbversionchangeevent.oldversion",
-        "idbversionchangeevent.newversion",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -534538,9 +533404,6 @@ deprecated and modern browsers return true in all cases.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "idbversionchangeevent.oldversion",
-        "idbversionchangeevent.newversion",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -543751,8 +542614,6 @@ Messages vary by key system.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "layer",
         "examples",
         "using_the_redraw_event",
         "specifications",
@@ -545429,8 +544290,6 @@ GPUCommandEncoder interface ends a debug group, which is begun with a pushDebugG
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "midiconnectionevent.port",
         "example",
         "specifications",
         "browser_compatibility"
@@ -547301,7 +546160,6 @@ In simple terms, this is the height of the media in its natural size.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -547568,7 +546426,6 @@ frames have been lost.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -548536,8 +547393,6 @@ by the MediaStream Recording API.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "device",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -548582,8 +547437,6 @@ by the MediaStream Recording API.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "device",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -551110,12 +549963,6 @@ URL of the source.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "messageevent.data",
-        "messageevent.origin",
-        "messageevent.lasteventid",
-        "messageevent.source",
-        "messageevent.ports",
         "examples",
         "onmessage_equivalent",
         "specifications",
@@ -560303,8 +559150,6 @@ individual transform property in CSS.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "offlineaudiocompletionevent.renderedbuffer",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -560848,8 +559693,6 @@ VideoTrack object from the track list whose id matches the specified string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -560893,8 +559736,6 @@ VideoTrack object from the track list whose id matches the specified string.`,
       ids: [
         "syntax",
         "event_type",
-        "event_properties",
-        "track",
         "examples",
         "specifications",
         "browser_compatibility",
@@ -581817,43 +580658,11 @@ This allows a browser to display an appropriate virtual keyboard.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -581861,19 +580670,11 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -581881,7 +580682,43 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
@@ -581893,56 +580730,20 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "DOM"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
-          title: "HTML"
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
@@ -581951,6 +580752,46 @@ This allows a browser to display an appropriate virtual keyboard.`,
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
           title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
         }
       ],
       links: [
@@ -587828,24 +586669,7 @@ When users navigate to pages outside the app's scope, they still experience the 
       metadata: {
         title: "WebAssembly",
         pageType: "landing-page",
-        browserCompat: [
-          "webassembly.api",
-          "webassembly.BigInt-to-i64-integration",
-          "webassembly.bulk-memory-operations",
-          "webassembly.exception-handling",
-          "webassembly.extended-constant-expressions",
-          "webassembly.fixed-width-SIMD",
-          "webassembly.garbage-collection",
-          "webassembly.multiMemory",
-          "webassembly.multi-value",
-          "webassembly.non-trapping-float-to-int-conversions",
-          "webassembly.reference-types",
-          "webassembly.sign-extension-operations",
-          "webassembly.tail-calls",
-          "webassembly.threads-and-atomics"
-        ],
-        summary: `WebAssembly is a type of code that can be run in modern web browsers.
-It is a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++, C# and Rust with a compilation target so that they can run on the web.`,
+        summary: "WebAssembly (Wasm) is a low-level assembly-like language that brings near-native performance to the web. It serves as a compilation target for languages like C/C++, C#, and Rust, allowing high-performance code to run directly in the browser.",
         popularity: 0.032775962179141416,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -587856,121 +586680,21 @@ It is a low-level assembly-like language with a compact binary format that runs 
         status: []
       },
       flaws: {},
-      specifications: [
-        {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/js-api/#webassembly-namespace",
-          title: "WebAssembly JavaScript Interface"
-        },
-        {
-          bcdSpecificationURL: "https://webassembly.github.io/spec/js-api/#changes-bigint",
-          title: "WebAssembly JavaScript Interface"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/bulk-memory-operations/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/exception-handling/blob/main/proposals/exception-handling/legacy/Exceptions.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/extended-const/blob/main/proposals/extended-const/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/simd/SIMD.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://webassembly.github.io/gc/core/bikeshed/#garbage-collection①",
-          title: "WebAssembly Core: Garbage Collection"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/multi-memory/blob/main/proposals/multi-memory/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/multi-value/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/nontrapping-float-to-int-conversion/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/reference-types/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/spec/blob/main/proposals/sign-extension-ops/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/tail-call/blob/main/proposals/tail-call/Overview.md",
-          title: "Unknown specification"
-        },
-        {
-          bcdSpecificationURL: "https://github.com/WebAssembly/threads/blob/main/proposals/threads/Overview.md",
-          title: "Unknown specification"
-        }
-      ],
       links: [
-        "https://emscripten.org/",
-        "https://github.com/JasonWeathersby/WASMSobel",
         "https://github.com/mdn/webassembly-examples/",
-        "https://research.mozilla.org/",
         "https://webassembly.org/",
-        "https://hacks.mozilla.org/category/webassembly/",
-        "https://www.w3.org/community/webassembly/",
-        "https://web.dev/articles/emscripting-a-c-library"
+        "https://webassembly.org/features/?categories=browsers",
+        "https://www.w3.org/community/webassembly/"
       ],
       imgs: [],
       ids: [
         "guides",
-        "webassembly_concepts",
-        "compiling_a_new_cc_module_to_webassembly",
-        "compiling_an_existing_c_module_to_webassembly",
-        "compiling_from_rust_to_webassembly",
-        "loading_and_running_webassembly_code",
-        "using_the_webassembly_javascript_api",
-        "exported_webassembly_functions",
-        "understanding_webassembly_text_format",
-        "converting_webassembly_text_format_to_wasm",
         "api_reference",
-        "webassembly_instruction_reference",
-        "webassembly_javascript_interface",
-        "webassembly.global",
-        "webassembly.module",
-        "webassembly.instance",
-        "webassembly.compile",
-        "webassembly.compilestreaming",
-        "webassembly.instantiate",
-        "webassembly.instantiatestreaming",
-        "webassembly.validate",
-        "webassembly.memory",
-        "webassembly.table",
-        "webassembly.tag",
-        "webassembly.exception",
-        "webassembly.compileerror",
-        "webassembly.linkerror",
-        "webassembly.runtimeerror",
-        "example_projects",
-        "specifications",
-        "browser_compatibility",
-        "webassembly.api",
-        "webassembly.bigint-to-i64-integration",
-        "webassembly.bulk-memory-operations",
-        "webassembly.exception-handling",
-        "webassembly.extended-constant-expressions",
-        "webassembly.fixed-width-simd",
-        "webassembly.garbage-collection",
-        "webassembly.multimemory",
-        "webassembly.multi-value",
-        "webassembly.non-trapping-float-to-int-conversions",
-        "webassembly.reference-types",
-        "webassembly.sign-extension-operations",
-        "webassembly.tail-calls",
-        "webassembly.threads-and-atomics",
+        "webassembly_javascript_api",
+        "webassembly_value_types",
+        "webassembly_definitions",
+        "webassembly_instructions",
+        "examples",
         "see_also"
       ]
     }
