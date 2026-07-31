@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-w42p7qf0.js";
+} from "./chunk-qe8kecg0.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -293,6 +293,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            camel_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Camel_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             certified: {
               children: {},
               slug: "/en-US/docs/Glossary/Certified",
@@ -380,19 +393,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            developer_tools: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Developer_Tools",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://getfirebug.com/",
-                    "unknown certificate verification error"
-                  ]
                 }
               ]
             },
@@ -969,6 +969,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            kebab_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Kebab_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1382,6 +1395,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            snake_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Snake_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2579,7 +2605,7 @@ body {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://designingfortheweb.co.uk/",
+                        "https://www.adhamdannaway.com/blog/ui-design/ui-design-tips",
                         "The operation timed out."
                       ]
                     }
@@ -2820,7 +2846,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "https://api.emberjs.com/ember/release/",
                             "The operation timed out."
                           ]
                         }
@@ -2833,13 +2859,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2850,19 +2869,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5696,6 +5702,19 @@ caption {
                         }
                       ]
                     },
+                    table_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsbin.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         links: {
@@ -6327,7 +6346,7 @@ span {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/guide/",
+                            "https://sass-lang.com/documentation/at-rules/use/",
                             "The operation timed out."
                           ]
                         }
@@ -6893,23 +6912,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/docs/latest/rules/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12769,6 +12771,13 @@ textarea:focus {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://imageengine.io/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12776,19 +12785,6 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    configuring_server_mime_types: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Configuring_server_MIME_types",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.file-extensions.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     django: {
                       children: {
                         deployment: {
@@ -13386,6 +13382,19 @@ body {
                 },
                 your_first_website: {
                   children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsbin.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13611,6 +13620,19 @@ padding-left: 20px;
                           data: [
                             "https://github.com/signup",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cyberduck.de/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15378,19 +15400,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "12": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://getfirebug.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15400,19 +15409,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "30": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=30",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15667,6 +15663,49 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            menu_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://primer.style/accessibility/design-guidance/focus-management/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            presentation_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/presentation_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html",
+                                    503
+                                  ]
+                                }
+                              ]
+                            },
+                            radiogroup_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/radiogroup_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://primer.style/accessibility/design-guidance/focus-management/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -15927,6 +15966,20 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smartoptometry.app/red-desaturation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -15974,6 +16027,20 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smartoptometry.app/red-desaturation/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -16213,6 +16280,32 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
+                      ]
+                    }
+                  ]
+                },
+                barcode_detection_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Barcode_Detection_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.barcodefaq.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                barcodedetector: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/BarcodeDetector",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.barcodefaq.com/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -26639,12 +26732,6 @@ css.at-rules.font-face.WOFF_2`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/row-rule-inset-start"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/rule"
                           ]
                         },
                         {
@@ -38192,21 +38279,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       }
                     },
                     scroll_snap: {
-                      children: {
-                        basic_concepts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://12daysofweb.dev/2022/css-scroll-snap/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap",
                       messages: [
                         {
@@ -38299,13 +38372,6 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://12daysofweb.dev/2022/css-scroll-snap/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -41686,19 +41752,6 @@ input[type="range"] {
                   children: {
                     layout_cookbook: {
                       children: {
-                        grid_wrapper: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Grid_wrapper",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-irl.info/more-flexibility-with-minmax/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -41758,6 +41811,19 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        pagination: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Pagination",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html",
+                                503
                               ]
                             }
                           ]
@@ -43118,19 +43184,6 @@ div {
                               ]
                             }
                           }
-                        },
-                        "@scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css.oddbird.net/scope/parent-selector/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         "@starting-style": {
                           children: {},
@@ -46595,18 +46648,6 @@ p {
                             }
                           ]
                         },
-                        "column-gap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-gap",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            }
-                          ]
-                        },
                         "column-height": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-height",
@@ -47180,18 +47221,6 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -47524,12 +47553,6 @@ ul {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -47993,12 +48016,6 @@ ul {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -48609,12 +48626,6 @@ ul {
                               ]
                             },
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -48732,12 +48743,6 @@ li {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -50146,18 +50151,6 @@ iframe {
                               message: "Not in BCD",
                               data: [
                                 "css.properties.frame-sizing"
-                              ]
-                            }
-                          ]
-                        },
-                        gap: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/gap",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             }
                           ]
@@ -53283,18 +53276,6 @@ body {
                             }
                           ]
                         },
-                        "row-gap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/row-gap",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            }
-                          ]
-                        },
                         "row-rule": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/row-rule",
@@ -53309,18 +53290,6 @@ body {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             }
                           ]
@@ -53345,12 +53314,6 @@ body {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -53423,12 +53386,6 @@ ul {
                               data: [
                                 "/en-US/docs/Web/CSS/rule-style"
                               ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
                             }
                           ]
                         },
@@ -53440,12 +53397,6 @@ ul {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -53573,11 +53524,89 @@ li {
                               data: [
                                 "/en-US/docs/Web/CSS/rule-width"
                               ]
+                            }
+                          ]
+                        },
+                        rule: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rule",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
                             },
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/rule"
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/rule-style"
                               ]
                             }
                           ]
@@ -53590,12 +53619,6 @@ li {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -56028,6 +56051,12 @@ p:has(~ form > input:checked) {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/link-parameters"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule"
                           ]
                         },
                         {
@@ -76617,12 +76646,6 @@ label {
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/CSS/rule"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Web/CSS/rule-width"
                               ]
                             },
@@ -79208,12 +79231,6 @@ At most one repeat() in a given list of values ma`
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule"
                               ]
                             },
                             {
@@ -84918,6 +84935,12 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "rule CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "<rule-list> CSS type"
                       ]
                     },
@@ -88237,6 +88260,19 @@ let z = 1;
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsbin.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -88259,19 +88295,6 @@ let z = 1;
                     },
                     operators: {
                       children: {
-                        await: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://typescript-eslint.io/rules/return-await/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -88408,19 +88431,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     fonts: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Fonts",
@@ -88533,7 +88543,7 @@ doIt(); // returns "finally"
                               message: "Broken external link",
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
-                                "certificate has expired"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -88560,7 +88570,7 @@ doIt(); // returns "finally"
                               message: "Broken external link",
                               data: [
                                 "https://archive.flossmanuals.net/ogg-theora/",
-                                "certificate has expired"
+                                "The operation timed out."
                               ]
                             }
                           ]
