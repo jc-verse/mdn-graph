@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-a510rz4a.js";
+} from "./chunk-myf0f6n4.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -293,6 +293,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            camel_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Camel_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             certified: {
               children: {},
               slug: "/en-US/docs/Glossary/Certified",
@@ -470,6 +483,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            exif: {
+              children: {},
+              slug: "/en-US/docs/Glossary/EXIF",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.cipa.jp/e/std/std-sec.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             firewall: {
               children: {},
               slug: "/en-US/docs/Glossary/Firewall",
@@ -477,19 +503,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            fork: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Fork",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo",
-                    "https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo"
-                  ]
                 }
               ]
             },
@@ -982,6 +995,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            kebab_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Kebab_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1193,19 +1219,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            progressive_enhancement: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://archive.hankchizljaw.com/wrote/the-power-of-progressive-enhancement/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             promise: {
               children: {},
               slug: "/en-US/docs/Glossary/Promise",
@@ -1269,19 +1282,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            "robots.txt": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Robots.txt",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.robotstxt.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1411,6 +1411,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            snake_case: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Snake_case",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://typescript-eslint.io/rules/naming-convention/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             soap: {
               children: {},
               slug: "/en-US/docs/Glossary/SOAP",
@@ -1418,19 +1431,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            spa: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SPA",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://vuejs.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1585,13 +1585,6 @@ var warnings_processed_default = {
               children: {},
               slug: "/en-US/docs/Learn_web_development/About",
               messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://cloud.google.com/products/datastore",
-                    "https://cloud.google.com/products/firestore"
-                  ]
-                },
                 {
                   message: "Broken external link",
                   data: [
@@ -1776,13 +1769,6 @@ var warnings_processed_default = {
                           data: [
                             "https://www.performancehealth.com/adjustable-headpointer",
                             404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2836,13 +2822,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2853,13 +2832,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2870,19 +2842,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4901,13 +4860,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/lifecycle.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4928,13 +4880,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5726,19 +5671,6 @@ caption {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    table_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsbin.com/",
-                            503
                           ]
                         }
                       ]
@@ -6565,34 +6497,6 @@ li {
                         "https://github.com/signup",
                         403
                       ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
-                        "https://docs.github.com/en/get-started/start-your-journey/what-is-github"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/get-started/start-your-journey/hello-world",
-                        "https://docs.github.com/en/get-started/using-github/hello-world"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
-                        "https://docs.github.com/en/pull-requests/reference/pull-requests"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts",
-                        "https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests"
-                      ]
                     }
                   ]
                 }
@@ -6602,19 +6506,6 @@ li {
               children: {
                 "client-side_apis": {
                   children: {
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developers.google.com/maps/documentation/javascript",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     video_and_audio_apis: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
@@ -6940,23 +6831,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12746,19 +12620,6 @@ button:active {
                         }
                       ]
                     },
-                    html_forms_in_legacy_browsers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.uxforthemasses.com/forms-usability/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     styling_web_forms: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
@@ -12829,13 +12690,6 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://imageengine.io/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -12881,19 +12735,6 @@ textarea:focus {
                 },
                 testing: {
                   children: {
-                    automated_testing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gruntjs.com/getting-started",
-                            "The response redirected too many times. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -13468,21 +13309,21 @@ body {
                     }
                   }
                 },
+                web_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://resilientwebdesign.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 your_first_website: {
                   children: {
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsbin.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13745,19 +13586,6 @@ padding-left: 20px;
                           ]
                         }
                       ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cyberduck.de/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -13769,21 +13597,7 @@ padding-left: 20px;
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.icann.org/en/contracted-parties/registry-operators/resources/list-of-top-level-domains",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -13852,13 +13666,6 @@ padding-left: 20px;
                         "https://github.com/signup",
                         403
                       ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests",
-                        "https://docs.github.com/en/pull-requests"
-                      ]
                     }
                   ]
                 },
@@ -13891,31 +13698,31 @@ padding-left: 20px;
                   slug: "/en-US/docs/MDN/Community/Pull_requests",
                   messages: [
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch",
-                        "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch"
+                        "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch",
+                        404
                       ]
                     },
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review",
-                        "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/requesting-a-pull-request-review"
+                        "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review",
+                        404
                       ]
                     },
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork",
-                        "https://docs.github.com/en/pull-requests/how-tos/work-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork"
+                        "https://docs.github.com/en/pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork",
+                        404
                       ]
                     },
                     {
-                      message: "Redirected external link",
+                      message: "Broken external link",
                       data: [
-                        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request",
-                        "https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/commenting-on-a-pull-request"
+                        "https://docs.github.com/en/pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request",
+                        404
                       ]
                     }
                   ]
@@ -13996,10 +13803,10 @@ color: rgb(31 41 59 / 26%);
                       slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
-                            "https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request"
+                            "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
+                            404
                           ]
                         }
                       ]
@@ -15073,20 +14880,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        theme: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "theme_frame",
-                                "Text after code:",
-                                "item, if "
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -15140,26 +14933,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            415
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -15663,27 +15436,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.color.org/index.xalter",
-                                "https://www.color.org/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.color.org/version4html.xalter",
-                                "https://www.color.org/version4html/"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.color.org/index.xalter",
-                                "https://www.color.org/"
-                              ]
                             }
                           ]
                         },
@@ -15834,6 +15586,23 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            alert_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://vispero.com/resources/aria-alert-support/",
+                                    "https://vispero.com/resources/hub/digital-accessibility-and-compliance/"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -16078,7 +15847,7 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "Broken external link",
                           data: [
                             "https://colortutorial.design/microColorsC.html",
-                            415
+                            404
                           ]
                         },
                         {
@@ -16093,13 +15862,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smartoptometry.app/red-desaturation/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16153,29 +15915,8 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smartoptometry.app/red-desaturation/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://colortutorial.design/hsb.html",
-                            415
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://colortutorial.design/",
-                            415
                           ]
                         },
                         {
@@ -18239,74 +17980,6 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
-                element: {
-                  children: {
-                    getanimations: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/getAnimations",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "4:15 - 4:19",
-                            `/en-US/docs/Web/API/Element/getAnimations
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-.progress-bar {
-  width: 100%;
-  height: 20px;
-  background: #eee;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.progress-bar::after {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 0%;
-  background: #4f46e5;
-  border-radius: 4px;
-  animation: fill-progress 3s ease-in-out forwards paused;
-}
-
-@keyframes fill-progress {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    mouseleave_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/mouseleave_event",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "mouseout.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "mouseleave.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -18926,6 +18599,437 @@ article h2 {
                       ]
                     }
                   ]
+                },
+                languagemodel: {
+                  children: {
+                    availability_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageModel/availability_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.rfc-editor.org/rfc/rfc5646",
+                            "https://www.rfc-editor.org/info/rfc5646/"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.rfc-editor.org/rfc/rfc5646",
+                            "https://www.rfc-editor.org/info/rfc5646/"
+                          ]
+                        }
+                      ]
+                    },
+                    contextusage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageModel/contextUsage",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "4:21 - 4:28",
+                            `/en-US/docs/Web/API/LanguageModel/contextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "4:45 - 4:52",
+                            `/en-US/docs/Web/API/LanguageModel/contextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const needed = await session.measureContextUsage(promptText);",
+                            "5:24 - 5:31",
+                            `/en-US/docs/Web/API/LanguageModel/contextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    contextwindow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageModel/contextWindow",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  if (session.contextWindow === Infinity) {",
+                            "4:7 - 4:14",
+                            `/en-US/docs/Web/API/LanguageModel/contextWindow
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  if (session.contextWindow === Infinity) {
+    return true;
+  }
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "7:21 - 7:28",
+                            `/en-US/docs/Web/API/LanguageModel/contextWindow
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  if (session.contextWindow === Infinity) {
+    return true;
+  }
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "7:45 - 7:52",
+                            `/en-US/docs/Web/API/LanguageModel/contextWindow
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  if (session.contextWindow === Infinity) {
+    return true;
+  }
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const needed = await session.measureContextUsage(promptText);",
+                            "8:24 - 8:31",
+                            `/en-US/docs/Web/API/LanguageModel/contextWindow
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  if (session.contextWindow === Infinity) {
+    return true;
+  }
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    create_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageModel/create_static",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `      execute: async (...args) => {
+        const location = args[0];
+        return await getWeatherData(location);
+      },`,
+                            "21:7 - 24:8",
+                            `/en-US/docs/Web/API/LanguageModel/create_static
+[object-shorthand] Expected method shorthand.
+~~~
+async function getWeatherData(location) {
+  const response = await fetch(
+    \`https://api.example.com/weather?city=\${location}\`,
+  );
+  const data = await response.json();
+  return \`\${data.temp}°C, \${data.description}\`;
+}
+
+const session = await LanguageModel.create({
+  tools: [
+    {
+      name: "getWeather",
+      description: "Returns the current weather for a given city.",
+      inputSchema: {
+        type: "object",
+        properties: {
+          location: { type: "string", description: "The city name." },
+        },
+        required: ["location"],
+      },
+      execute: async (...args) => {
+        const location = args[0];
+        return await getWeatherData(location);
+      },
+    },
+  ],
+});
+
+const response = await session.prompt("What's the weather like in Tokyo?");
+console.log(response);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.rfc-editor.org/rfc/rfc5646",
+                            "https://www.rfc-editor.org/info/rfc5646/"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.rfc-editor.org/rfc/rfc5646",
+                            "https://www.rfc-editor.org/info/rfc5646/"
+                          ]
+                        }
+                      ]
+                    },
+                    measurecontextusage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageModel/measureContextUsage",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "4:21 - 4:28",
+                            `/en-US/docs/Web/API/LanguageModel/measureContextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const remaining = session.contextWindow - session.contextUsage;",
+                            "4:45 - 4:52",
+                            `/en-US/docs/Web/API/LanguageModel/measureContextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-use-before-define",
+                            "'session' was used before it was defined.",
+                            "  const needed = await session.measureContextUsage(promptText);",
+                            "5:24 - 5:31",
+                            `/en-US/docs/Web/API/LanguageModel/measureContextUsage
+[no-use-before-define] 'session' was used before it was defined.
+~~~
+const promptText = "Let me ask you an interesting question...";
+
+async function contextAvailable(promptText) {
+  const remaining = session.contextWindow - session.contextUsage;
+  const needed = await session.measureContextUsage(promptText);
+
+  return needed <= remaining;
+}
+
+const session = await LanguageModel.create();
+
+if (await contextAvailable(promptText)) {
+  const response = await session.prompt(promptText);
+  console.log(response);
+} else {
+  console.warn("Prompt skipped: Not enough context window remaining.");
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 location: {
                   children: {},
@@ -20366,6 +20470,1075 @@ button:interest-source {
                     }
                   }
                 },
+                prompt_api: {
+                  children: {
+                    adding_context: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Prompt_API/Adding_context",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      initialPrompts: [
+        {
+          role: "system",
+          content:
+            "In each case, respond with a short paragraph that pokes fun at the person's name in a sarcastic manner. Include a rating out of 10 at the end of the paragraph. The response should be cheeky, but not rude or offensive.",
+        },
+      ],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "95:10 - 112:4",
+                            `/en-US/docs/Web/API/Prompt_API/Adding_context
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const inputElem = document.querySelector("input");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+
+let session;
+inputElem.addEventListener("focus", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+    return;
+  }
+
+  if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  promptOutput.textContent = \`Session created.\`;
+  submitBtn.disabled = false;
+}
+
+form.addEventListener("submit", handleSubmission);
+
+async function handleSubmission(e) {
+  e.preventDefault();
+
+  if (inputElem.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No text entered!</span>\`;
+    return;
+  }
+
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const response = await session.prompt(
+      [
+        {
+          role: "user",
+          content: "What do you think of my name?",
+        },
+        {
+          role: "user",
+          content: inputElem.value,
+        },
+      ],
+      {
+        signal: controller.signal,
+      },
+    );
+
+    promptOutput.textContent = response;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      initialPrompts: [
+        {
+          role: "system",
+          content:
+            "In each case, respond with a short paragraph that pokes fun at the person's name in a sarcastic manner. Include a rating out of 10 at the end of the paragraph. The response should be cheeky, but not rude or offensive.",
+        },
+      ],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      initialPrompts: [
+        {
+          role: "system",
+          content:
+            "In each case, respond with a short paragraph that pokes fun at the person's name in a sarcastic manner. Include a rating out of 10 at the end of the paragraph. The response should be cheeky, but not rude or offensive.",
+        },
+      ],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "104:10 - 114:4",
+                            `/en-US/docs/Web/API/Prompt_API/Adding_context
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const textarea = document.querySelector("textarea");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+
+let session;
+textarea.addEventListener("focus", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+    return;
+  }
+
+  if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  promptOutput.textContent = \`Session created.\`;
+  submitBtn.disabled = false;
+}
+
+form.addEventListener("submit", handleSubmission);
+
+async function handleSubmission(e) {
+  e.preventDefault();
+
+  if (textarea.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No text entered!</span>\`;
+    return;
+  }
+
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const schema = {
+      $schema: "https://json-schema.org/draft/2020-12/schema",
+      title: "Description with Three Bullets",
+      type: "object",
+      properties: {
+        description: {
+          type: "string",
+          description: "A descriptive sentence summarizing the content.",
+          minLength: 1,
+        },
+        bullets: {
+          type: "array",
+          description: "Exactly three supporting bullet points.",
+          items: {
+            type: "string",
+            minLength: 1,
+          },
+          minItems: 3,
+          maxItems: 3,
+        },
+      },
+      required: ["description", "bullets"],
+      additionalProperties: false,
+    };
+
+    const response = await session.prompt(textarea.value, {
+      signal: controller.signal,
+      responseConstraint: schema,
+    });
+
+    const structuredOutput = JSON.parse(response);
+
+    promptOutput.innerHTML = \`\${structuredOutput.description}<br><br>- \${structuredOutput.bullets[0]}<br>- \${structuredOutput.bullets[1]}<br>- \${structuredOutput.bullets[2]}\`;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "98:10 - 108:4",
+                            `/en-US/docs/Web/API/Prompt_API/Adding_context
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const textareaElem = document.querySelector("textarea");
+const inputElem = document.querySelector("input");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+
+let session;
+textareaElem.addEventListener("focus", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+    return;
+  }
+
+  if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  promptOutput.textContent = \`Session created.\`;
+}
+
+textareaElem.addEventListener("change", appendExcerpt);
+form.addEventListener("submit", handleSubmission);
+
+async function appendExcerpt() {
+  if (textareaElem.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No passage entered!</span>\`;
+    return;
+  }
+  session.append(textareaElem.value);
+  submitBtn.disabled = false;
+}
+
+async function handleSubmission(e) {
+  e.preventDefault();
+
+  if (inputElem.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No question entered!</span>\`;
+    return;
+  }
+
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const response = await session.prompt(
+      [
+        {
+          role: "user",
+          content: "I have a question for you about the provided text.",
+        },
+        {
+          role: "user",
+          content: inputElem.value,
+        },
+      ],
+      {
+        signal: controller.signal,
+      },
+    );
+
+    promptOutput.textContent = response;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    multimodal: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Prompt_API/Multimodal",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/Prompt_API/Using",
+                            "#complete_example:~:text=Now%20we%20define%20the%20getSession%28%29%20function"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/Prompt_API/Using",
+                            "#complete_example:~:text=Next%2C%20inside%20a%20try%20block%2C%20we"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            "    return;",
+                            "38:5 - 38:12",
+                            `/en-US/docs/Web/API/Prompt_API/Multimodal
+[no-useless-return] Unnecessary return statement.
+~~~
+const form = document.querySelector("form");
+const inputElem = document.querySelector("input");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+inputElem.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+const imgElem = document.querySelector("img");
+
+let session;
+window.addEventListener("keydown", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+  } else if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  if (!session) return;
+  promptOutput.textContent = \`Session created.\`;
+  inputElem.disabled = false;
+  inputElem.addEventListener("change", getImage);
+  form.addEventListener("submit", handleSubmission);
+}
+
+function getImage() {
+  const file = inputElem.files[0];
+  if (!file) {
+    promptOutput.innerHTML = \`<span class="error">No file selected!</span>\`;
+    return;
+  }
+
+  imgElem.addEventListener("error", () => {
+    promptOutput.innerHTML = \`<span class="error">Image not loaded!</span>\`;
+    return;
+  });
+
+  imgElem.addEventListener("load", () => {
+    promptOutput.innerHTML = "Image query ready to submit!";
+    submitBtn.disabled = false;
+  });
+
+  imgElem.src = URL.createObjectURL(file);
+}
+
+async function handleSubmission(e) {
+  e.preventDefault();
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const response = await session.prompt(
+      [
+        {
+          role: "user",
+          content: [
+            { type: "text", value: "Please describe the following image:" },
+            { type: "image", value: imgElem },
+          ],
+        },
+      ],
+      {
+        signal: controller.signal,
+      },
+    );
+
+    promptOutput.textContent = response;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "103:10 - 113:4",
+                            `/en-US/docs/Web/API/Prompt_API/Multimodal
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const inputElem = document.querySelector("input");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+inputElem.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+const imgElem = document.querySelector("img");
+
+let session;
+window.addEventListener("keydown", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+  } else if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  if (!session) return;
+  promptOutput.textContent = \`Session created.\`;
+  inputElem.disabled = false;
+  inputElem.addEventListener("change", getImage);
+  form.addEventListener("submit", handleSubmission);
+}
+
+function getImage() {
+  const file = inputElem.files[0];
+  if (!file) {
+    promptOutput.innerHTML = \`<span class="error">No file selected!</span>\`;
+    return;
+  }
+
+  imgElem.addEventListener("error", () => {
+    promptOutput.innerHTML = \`<span class="error">Image not loaded!</span>\`;
+    return;
+  });
+
+  imgElem.addEventListener("load", () => {
+    promptOutput.innerHTML = "Image query ready to submit!";
+    submitBtn.disabled = false;
+  });
+
+  imgElem.src = URL.createObjectURL(file);
+}
+
+async function handleSubmission(e) {
+  e.preventDefault();
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const response = await session.prompt(
+      [
+        {
+          role: "user",
+          content: [
+            { type: "text", value: "Please describe the following image:" },
+            { type: "image", value: imgElem },
+          ],
+        },
+      ],
+      {
+        signal: controller.signal,
+      },
+    );
+
+    promptOutput.textContent = response;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }, { type: "image" }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "19:4",
+                            `/en-US/docs/Web/API/Prompt_API/Multimodal
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<h1>Prompt API demo</h1>
+<p>
+  <strong>Focus the demo window, then press a key to start the app</strong>.
+  This demo loads an image from your local filesystem, and then uses the Prompt
+  API to describe it. First released in Chrome 148.
+</p>
+
+<h2>Input</h2>
+
+<section>
+  <form>
+    <div>
+      <label for="url">Choose image from your local files:</label>
+      <input type="file" id="inputElem" accept="image/*" />
+    </div>
+    <button type="submit" id="submit">Submit query</button
+    ><button type="button" id="abort">Abort query</button>
+  </form>
+  <img />
+</section>
+
+<h2>Output</h2>
+
+<p class="prompt-output"></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    preserving_sessions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Prompt_API/Preserving_sessions",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      initialPrompts: history,
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "15:10 - 26:4",
+                            `/en-US/docs/Web/API/Prompt_API/Preserving_sessions
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+async function getSession(history) {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    console.log(\`Language model not available.\`);
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      initialPrompts: history,
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      initialPrompts: history,
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Prompt_API/Using",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/LanguageModel/create_static",
+                            "#expectedOutputs"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "76:10 - 86:4",
+                            `/en-US/docs/Web/API/Prompt_API/Using
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const textarea = document.querySelector("textarea");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+
+let session;
+textarea.addEventListener("focus", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+    return;
+  }
+
+  if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  promptOutput.textContent = \`Session created.\`;
+  submitBtn.disabled = false;
+}
+
+form.addEventListener("submit", handleSubmission);
+
+async function handleSubmission(e) {
+  e.preventDefault();
+
+  if (textarea.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No text entered!</span>\`;
+    return;
+  }
+
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const response = await session.prompt(textarea.value, {
+      signal: controller.signal,
+    });
+
+    promptOutput.textContent = response;
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }`,
+                            "81:10 - 91:4",
+                            `/en-US/docs/Web/API/Prompt_API/Using
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+const form = document.querySelector("form");
+const textarea = document.querySelector("textarea");
+const submitBtn = document.querySelector("#submit");
+const abortBtn = document.querySelector("#abort");
+abortBtn.disabled = true;
+submitBtn.disabled = true;
+const promptOutput = document.querySelector(".prompt-output");
+
+let session;
+textarea.addEventListener("focus", () => {
+  if (!("LanguageModel" in window)) {
+    promptOutput.innerHTML = \`<span class="error">Your browser doesn't support the Prompt API!</span>\`;
+    return;
+  }
+
+  if (!session) {
+    init();
+  }
+});
+
+async function init() {
+  session = await getSession();
+  promptOutput.textContent = \`Session created.\`;
+  submitBtn.disabled = false;
+}
+
+form.addEventListener("submit", handleSubmission);
+
+async function handleSubmission(e) {
+  e.preventDefault();
+
+  if (textarea.value === "") {
+    promptOutput.innerHTML = \`<span class="error">No text entered!</span>\`;
+    return;
+  }
+
+  try {
+    promptOutput.textContent = "...generating response...";
+    submitBtn.disabled = true;
+    abortBtn.disabled = false;
+
+    const controller = new AbortController();
+    abortBtn.addEventListener("click", () => {
+      controller.abort("Query aborted by user.");
+      submitBtn.disabled = false;
+      abortBtn.disabled = true;
+    });
+
+    const stream = await session.promptStreaming(textarea.value, {
+      signal: controller.signal,
+    });
+
+    const chunks = [];
+
+    promptOutput.textContent = "";
+    for await (const chunk of stream) {
+      promptOutput.textContent += chunk;
+    }
+
+    submitBtn.disabled = false;
+    abortBtn.disabled = true;
+    console.log(\`\${session.contextUsage}/\${session.contextWindow}\`);
+  } catch (e) {
+    promptOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+
+async function getSession() {
+  const availability = await LanguageModel.availability({
+    expectedInputs: [{ type: "text", languages: ["en"] }],
+    expectedOutputs: [{ type: "text", languages: ["en"] }],
+  });
+  if (availability === "unavailable") {
+    promptOutput.textContent = "Language model not available.";
+    return undefined;
+  } else if (availability === "available") {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+    });
+  } else {
+    return await LanguageModel.create({
+      expectedInputs: [{ type: "text", languages: ["en"] }],
+      expectedOutputs: [{ type: "text", languages: ["en"] }],
+      monitor(monitor) {
+        monitor.addEventListener("downloadprogress", (e) => {
+          promptOutput.textContent = \`Downloading model data \${Math.floor(e.loaded * 100)}%\`;
+        });
+      },
+    });
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Prompt_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Prompt_API/Preserving_sessions"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Prompt_API/Multimodal"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Prompt_API/Adding_context"
+                      ]
+                    }
+                  ]
+                },
                 publickeycredential: {
                   children: {
                     id: {
@@ -20451,16 +21624,7 @@ button:interest-source {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCCertificateStats",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/RTCCertificateStats"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 rtcicecandidatepair: {
                   children: {
@@ -20601,72 +21765,6 @@ button:interest-source {
                           message: "Not in BCD",
                           data: [
                             "api.RTCIceTransport.component"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcrtpreceiver: {
-                  children: {
-                    getcapabilities_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getCapabilities_static",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `  return capabilities.codecs.some((codec) => {
-    return codec.mimeType === "video/H264";
-  });`,
-                            "4:46 - 6:4",
-                            `/en-US/docs/Web/API/RTCRtpReceiver/getCapabilities_static
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-function canReceiveH264() {
-  let capabilities = RTCRtpReceiver.getCapabilities("video");
-
-  return capabilities.codecs.some((codec) => {
-    return codec.mimeType === "video/H264";
-  });
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcrtpsender: {
-                  children: {
-                    getcapabilities_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpSender/getCapabilities_static",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `  return capabilities.codecs.some((codec) => {
-    return codec.mimeType === "video/H264";
-  });`,
-                            "4:46 - 6:4",
-                            `/en-US/docs/Web/API/RTCRtpSender/getCapabilities_static
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-function canSendH264() {
-  let capabilities = RTCRtpSender.getCapabilities("video");
-
-  return capabilities.codecs.some((codec) => {
-    return codec.mimeType === "video/H264";
-  });
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -21035,868 +22133,7 @@ function canSendH264() {
                   ]
                 },
                 view_transition_api: {
-                  children: {
-                    "using_element-scoped": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/View_Transition_API/Using_element-scoped",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#css:~:text=%40keyframes%20rotate%2Dout"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 2px solid #999;",
-                            "25:21 - 25:25",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  outline: none;
-}
-
-ul {
-  border: 2px solid #999;
-  background: #ccc;
-  position: relative;
-}
-
-a {
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-ul::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  width: 100px;
-  background-image: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(255 255 255) 25%,
-    rgb(255 255 255 / 0)
-  );
-  z-index: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background: #ccc;",
-                            "26:15 - 26:19",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  outline: none;
-}
-
-ul {
-  border: 2px solid #999;
-  background: #ccc;
-  position: relative;
-}
-
-a {
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-ul::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  width: 100px;
-  background-image: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(255 255 255) 25%,
-    rgb(255 255 255 / 0)
-  );
-  z-index: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  border: 2px solid #aaa;",
-                            "31:21 - 31:25",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  outline: none;
-}
-
-ul {
-  border: 2px solid #999;
-  background: #ccc;
-  position: relative;
-}
-
-a {
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-ul::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  width: 100px;
-  background-image: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(255 255 255) 25%,
-    rgb(255 255 255 / 0)
-  );
-  z-index: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 255 255)" to be "white" (color-named)',
-                            "    rgb(255 255 255),",
-                            "77:5 - 77:21",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-named] Expected "rgb(255 255 255)" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  outline: none;
-}
-
-ul {
-  border: 2px solid #999;
-  background: #ccc;
-  position: relative;
-}
-
-a {
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-ul::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  width: 100px;
-  background-image: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(255 255 255) 25%,
-    rgb(255 255 255 / 0)
-  );
-  z-index: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 255 255)" to be "white" (color-named)',
-                            "    rgb(255 255 255) 25%,",
-                            "78:5 - 78:21",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-named] Expected "rgb(255 255 255)" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  outline: none;
-}
-
-ul {
-  border: 2px solid #999;
-  background: #ccc;
-  position: relative;
-}
-
-a {
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-ul::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -5px;
-  width: 100px;
-  background-image: linear-gradient(
-    to right,
-    rgb(255 255 255),
-    rgb(255 255 255) 25%,
-    rgb(255 255 255 / 0)
-  );
-  z-index: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 2px solid #999;",
-                            "9:21 - 9:25",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-section {
-  border: 2px solid #999;
-  background: #ddd;
-  margin: 0 auto;
-}
-
-section p {
-  margin: 1rem 5rem;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg y;
-  }
-
-  to {
-    rotate: 90deg y;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg y;
-  }
-
-  to {
-    rotate: 0deg y;
-  }
-}
-
-section {
-  height: 150px;
-  overflow-y: scroll;
-}
-
-section p {
-  view-transition-name: content;
-}
-
-::view-transition-old(content) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(content) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "10:15 - 10:19",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-section {
-  border: 2px solid #999;
-  background: #ddd;
-  margin: 0 auto;
-}
-
-section p {
-  margin: 1rem 5rem;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg y;
-  }
-
-  to {
-    rotate: 90deg y;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg y;
-  }
-
-  to {
-    rotate: 0deg y;
-  }
-}
-
-section {
-  height: 150px;
-  overflow-y: scroll;
-}
-
-section p {
-  view-transition-name: content;
-}
-
-::view-transition-old(content) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(content) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 2px solid #999;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  border: 2px solid #999;
-  margin: 0 auto;
-  position: relative;
-  flex: 1;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-  outline: none;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.wrapper {
-  display: flex;
-  gap: 20px;
-  view-transition-name: wrapper;
-}
-
-.one {
-  background-color: orange;
-}
-
-.two {
-  background-color: green;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-::view-transition-old(wrapper) {
-  animation: fade-out 0.3s 1 both linear;
-}
-
-::view-transition-new(wrapper) {
-  animation: fade-in 0.3s 0.3s 1 both linear;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  border: 2px solid #aaa;",
-                            "25:21 - 25:25",
-                            `/en-US/docs/Web/API/View_Transition_API/Using_element-scoped
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  width: 50%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  border: 2px solid #999;
-  margin: 0 auto;
-  position: relative;
-  flex: 1;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  background: white;
-  margin: 10px;
-  border: 2px solid #aaa;
-  transition: border 0.6s;
-}
-
-a:hover,
-a:focus {
-  border-color: black;
-  outline: none;
-}
-
-@keyframes rotate-out {
-  from {
-    rotate: 0deg x;
-  }
-
-  to {
-    rotate: 90deg x;
-  }
-}
-
-@keyframes rotate-in {
-  from {
-    rotate: -90deg x;
-  }
-
-  to {
-    rotate: 0deg x;
-  }
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.wrapper {
-  display: flex;
-  gap: 20px;
-  view-transition-name: wrapper;
-}
-
-.one {
-  background-color: orange;
-}
-
-.two {
-  background-color: green;
-}
-
-::view-transition-old(*) {
-  animation: rotate-out 0.3s 1 both linear;
-}
-
-::view-transition-new(*) {
-  animation: rotate-in 0.3s 0.3s 1 both linear;
-}
-
-::view-transition-old(wrapper) {
-  animation: fade-out 0.3s 1 both linear;
-}
-
-::view-transition-new(wrapper) {
-  animation: fade-in 0.3s 0.3s 1 both linear;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/View_Transition_API",
                   messages: [
                     {
@@ -21932,114 +22169,6 @@ env(viewport-segment-width 1 0)
 
 /* Return the width of the bottom segment */
 env(viewport-segment-width 0 1)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                viewtransition: {
-                  children: {
-                    waituntil: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ViewTransition/waitUntil",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "16:16 - 16:21",
-                            `/en-US/docs/Web/API/ViewTransition/waitUntil
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.page {
-  view-transition-name: page;
-}
-
-::view-transition-new(page) {
-  animation-delay: 0.25s;
-}
-
-::view-transition-old(page),
-::view-transition-new(page) {
-  animation-duration: 0.5s;
-  opacity: 0.5;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-.content {
-  font-size: 2.5rem;
-  font-weight: bold;
-  letter-spacing: -1px;
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "16:23 - 16:32",
-                            `/en-US/docs/Web/API/ViewTransition/waitUntil
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.page {
-  view-transition-name: page;
-}
-
-::view-transition-new(page) {
-  animation-delay: 0.25s;
-}
-
-::view-transition-old(page),
-::view-transition-new(page) {
-  animation-duration: 0.5s;
-  opacity: 0.5;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-.content {
-  font-size: 2.5rem;
-  font-weight: bold;
-  letter-spacing: -1px;
-  text-align: center;
-}
 ~~~
 `
                           ]
@@ -22420,7 +22549,7 @@ api.Window.sessionStorage`,
                       message: "Broken external link",
                       data: [
                         "https://webtransport.day/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                        "unknown certificate verification error"
                       ]
                     }
                   ]
@@ -22499,12 +22628,6 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/Window/requestResize",
                       messages: [
                         {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/Window/requestResize"
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "property-no-unknown",
@@ -22523,54 +22646,23 @@ iframe {
                           ]
                         },
                         {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "    ...",
-                            "2:16",
-                            `/en-US/docs/Web/API/Window/requestResize
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-<head>
-  ...
-
-  <meta name="responsive-embedded-sizing" />
-
-  ...
-</head>
-<body>
-  <div tabindex="0">
-    <h1>This is my frame</h1>
-    <p>This is the content of my discontent.</p>
-    <p>This is some more content.</p>
-  </div>
-  <script>
-    ...
-  </script>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "HTML code issue",
                           data: [
                             "no-inline-script",
                             "Do not write JS within the <script> element; use separate JS blocks instead.",
                             `  <script>
-    ...
+    /* ... */
   </script>`,
                             "13:2 - 15:11",
                             `/en-US/docs/Web/API/Window/requestResize
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <head>
-  ...
+  <!-- ... -->
 
   <meta name="responsive-embedded-sizing" />
 
-  ...
+  <!-- ... -->
 </head>
 <body>
   <div tabindex="0">
@@ -22579,7 +22671,7 @@ iframe {
     <p>This is some more content.</p>
   </div>
   <script>
-    ...
+    /* ... */
   </script>
 </body>
 ~~~
@@ -23670,316 +23762,6 @@ p {
                             {
                               message: "CSS code issue",
                               data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "7:16 - 7:21",
-                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  gap: 0;
-  transition: gap 0.6s;
-}
-
-li {
-  width: 160px;
-  height: 160px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-shadow:
-    2px 0px 2px rgb(0 0 0 / 0.5),
-    inset 3px 3px 3px rgb(255 255 255 / 0.5);
-  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
-  transition: all 0.6s;
-}
-
-li:nth-child(1) a {
-  background-color: #2de1fc;
-}
-
-li:nth-child(2) a {
-  background-color: #2afc98;
-}
-
-li:nth-child(3) a {
-  background-color: #09e85e;
-}
-
-li:nth-child(4) a {
-  background-color: #16c172;
-}
-
-li:nth-child(even) a {
-  border-shape: shape(
-      from 0% 0%,
-      hline to 33%,
-      arc by 33% 0% of 16% 20% small cw,
-      hline to 100%,
-      line to 100% 33%,
-      arc by 0% 33% of 20% 16% small cw,
-      line to 100% 100%,
-      hline to 66%,
-      arc by -33% 0% of 16% 20% small ccw,
-      hline to 0%,
-      line to 0% 66%,
-      arc by 0% -33% of 20% 16% small ccw,
-      close
-    )
-    content-box;
-}
-
-li:nth-child(odd) a {
-  border-shape: shape(
-      from 0% 0%,
-      hline to 33%,
-      arc by 33% 0% of 16% 20% small ccw,
-      hline to 100%,
-      line to 100% 33%,
-      arc by 0% 33% of 20% 16% small cw,
-      line to 100% 100%,
-      hline to 66%,
-      arc by -33% 0% of 16% 20% small cw,
-      hline to 0%,
-      line to 0% 66%,
-      arc by 0% -33% of 20% 16% small ccw,
-      close
-    )
-    content-box;
-}
-
-a {
-  padding: 24px;
-}
-
-li {
-  margin-right: -47px;
-}
-
-ul {
-  position: relative;
-  right: 23.5px;
-}
-
-ul:hover,
-ul:has(a:focus) {
-  gap: 30px;
-}
-
-a:hover,
-a:focus {
-  filter: brightness(1.2);
-  scale: 1.1;
-  box-shadow:
-    5px 0px 10px rgb(0 0 0 / 0.5),
-    inset 3px 3px 3px rgb(255 255 255 / 0.5);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "7:23 - 7:32",
-                                `/en-US/docs/Web/CSS/Guides/Borders_and_box_decorations/Border_shape_nav_menu
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  gap: 0;
-  transition: gap 0.6s;
-}
-
-li {
-  width: 160px;
-  height: 160px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-shadow:
-    2px 0px 2px rgb(0 0 0 / 0.5),
-    inset 3px 3px 3px rgb(255 255 255 / 0.5);
-  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
-  transition: all 0.6s;
-}
-
-li:nth-child(1) a {
-  background-color: #2de1fc;
-}
-
-li:nth-child(2) a {
-  background-color: #2afc98;
-}
-
-li:nth-child(3) a {
-  background-color: #09e85e;
-}
-
-li:nth-child(4) a {
-  background-color: #16c172;
-}
-
-li:nth-child(even) a {
-  border-shape: shape(
-      from 0% 0%,
-      hline to 33%,
-      arc by 33% 0% of 16% 20% small cw,
-      hline to 100%,
-      line to 100% 33%,
-      arc by 0% 33% of 20% 16% small cw,
-      line to 100% 100%,
-      hline to 66%,
-      arc by -33% 0% of 16% 20% small ccw,
-      hline to 0%,
-      line to 0% 66%,
-      arc by 0% -33% of 20% 16% small ccw,
-      close
-    )
-    content-box;
-}
-
-li:nth-child(odd) a {
-  border-shape: shape(
-      from 0% 0%,
-      hline to 33%,
-      arc by 33% 0% of 16% 20% small ccw,
-      hline to 100%,
-      line to 100% 33%,
-      arc by 0% 33% of 20% 16% small cw,
-      line to 100% 100%,
-      hline to 66%,
-      arc by -33% 0% of 16% 20% small cw,
-      hline to 0%,
-      line to 0% 66%,
-      arc by 0% -33% of 20% 16% small ccw,
-      close
-    )
-    content-box;
-}
-
-a {
-  padding: 24px;
-}
-
-li {
-  margin-right: -47px;
-}
-
-ul {
-  position: relative;
-  right: 23.5px;
-}
-
-ul:hover,
-ul:has(a:focus) {
-  gap: 30px;
-}
-
-a:hover,
-a:focus {
-  filter: brightness(1.2);
-  scale: 1.1;
-  box-shadow:
-    5px 0px 10px rgb(0 0 0 / 0.5),
-    inset 3px 3px 3px rgb(255 255 255 / 0.5);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "property-no-unknown",
                                 'Unexpected unknown property "border-shape" (property-no-unknown)',
                                 "  border-shape: shape(",
@@ -23993,7 +23775,7 @@ a:focus {
 
 html {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.2rem;
 }
 
@@ -24148,7 +23930,7 @@ a:focus {
 
 html {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.2rem;
 }
 
@@ -26702,26 +26484,6 @@ p {
                     },
                     fonts: {
                       children: {
-                        opentype_fonts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Fonts/OpenType_fonts",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://helpx.adobe.com/fonts/using/use-open-type-features.html",
-                                "https://helpx.adobe.com/fonts/web/language-support-and-opentype-features/use-open-type-features.html"
-                              ]
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://helpx.adobe.com/fonts/using/open-type-syntax.html",
-                                "https://helpx.adobe.com/fonts/web/language-support-and-opentype-features/open-type-syntax.html"
-                              ]
-                            }
-                          ]
-                        },
                         woff: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Fonts/WOFF",
@@ -26873,12 +26635,6 @@ css.at-rules.font-face.WOFF_2`,
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/CSS/rule-color"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
                             "/en-US/docs/Web/CSS/rule-inset"
                           ]
                         },
@@ -26910,178 +26666,6 @@ css.at-rules.font-face.WOFF_2`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/rule-overlap"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/rule-style"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/rule-width"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "monospace" for property "font-style" (declaration-property-value-no-unknown)',
-                            "  font-style: monospace;",
-                            "18:15 - 18:24",
-                            `/en-US/docs/Web/CSS/Guides/Gaps
-[declaration-property-value-no-unknown] Unexpected unknown value "monospace" for property "font-style" (declaration-property-value-no-unknown)
-~~~
-article {
-  column-count: 5;
-  gap: 1em;
-  column-rule: 0.25em dashed currentcolor;
-}
-.title {
-  column-span: all;
-  display: flex;
-  align-items: baseline;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-p {
-  margin: 0 0 1em 0;
-  line-height: 1.4;
-}
-.code {
-  font-style: monospace;
-}
-.breakInside * {
-  break-inside: avoid;
-}
-#options {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: white;
-  display: none;
-}
-fieldset p {
-  margin-bottom: 0.25em;
-}
-legend {
-  position: relative;
-  top: 0;
-  transition: 200ms;
-}
-legend.closed {
-  top: 0.75em;
-}
-legend.closed + #controls {
-  display: none;
-}
-legend {
-  background-color: #dedede;
-  padding: 0.5em;
-}
-legend > button {
-  all: unset;
-  cursor: pointer;
-}
-legend.closed {
-  margin: -1em;
-  display: inline-block;
-}
-blockquote {
-  font-weight: bold;
-  font-style: italic;
-  margin: 0 0 0.25em 0;
-}
-blockquote p::before,
-blockquote p::after {
-  content: '"';
-  vertical-align: baseline;
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "value-keyword-case",
-                            'Expected "currentcolor" to be "currentColor" (value-keyword-case)',
-                            "  column-rule: 0.25em dashed currentcolor;",
-                            "4:30 - 4:42",
-                            `/en-US/docs/Web/CSS/Guides/Gaps
-[value-keyword-case] Expected "currentcolor" to be "currentColor" (value-keyword-case)
-~~~
-article {
-  column-count: 5;
-  gap: 1em;
-  column-rule: 0.25em dashed currentcolor;
-}
-.title {
-  column-span: all;
-  display: flex;
-  align-items: baseline;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-p {
-  margin: 0 0 1em 0;
-  line-height: 1.4;
-}
-.code {
-  font-style: monospace;
-}
-.breakInside * {
-  break-inside: avoid;
-}
-#options {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: white;
-  display: none;
-}
-fieldset p {
-  margin-bottom: 0.25em;
-}
-legend {
-  position: relative;
-  top: 0;
-  transition: 200ms;
-}
-legend.closed {
-  top: 0.75em;
-}
-legend.closed + #controls {
-  display: none;
-}
-legend {
-  background-color: #dedede;
-  padding: 0.5em;
-}
-legend > button {
-  all: unset;
-  cursor: pointer;
-}
-legend.closed {
-  margin: -1em;
-  display: inline-block;
-}
-blockquote {
-  font-weight: bold;
-  font-style: italic;
-  margin: 0 0 0.25em 0;
-}
-blockquote p::before,
-blockquote p::after {
-  content: '"';
-  vertical-align: baseline;
-  color: red;
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -30760,13 +30344,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
-                                "unknown certificate verification error"
                               ]
                             },
                             {
@@ -38522,1418 +38099,6 @@ article.snapDisabled ul {
                             {
                               message: "CSS code issue",
                               data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),",
-                                "15:5 - 15:9",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 1em;
-  animation-range-end: 125px;
-}
-
-:root {
-  --start: 1em;
-  --end: 125px;
-}
-
-article {
-  background-image: linear-gradient(
-    to top,
-    transparent calc(var(--start) - 1px),
-    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),
-    transparent calc(var(--start) + 1px) calc(var(--end) - 1px),
-    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),
-    transparent calc(var(--end) + 1px)
-  );
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),",
-                                "17:5 - 17:9",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 1em;
-  animation-range-end: 125px;
-}
-
-:root {
-  --start: 1em;
-  --end: 125px;
-}
-
-article {
-  background-image: linear-gradient(
-    to top,
-    transparent calc(var(--start) - 1px),
-    #ccc calc(var(--start) - 1px) calc(var(--start) + 1px),
-    transparent calc(var(--start) + 1px) calc(var(--end) - 1px),
-    #ccc calc(var(--end) - 1px) calc(var(--end) + 1px),
-    transparent calc(var(--end) + 1px)
-  );
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 49.5px 50.5px,",
-                                "35:7 - 35:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 50px;
-  animation-range-end: entry 100px;
-}
-
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 99.5px 100.5px,",
-                                "37:7 - 37:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 50px;
-  animation-range-end: entry 100px;
-}
-
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 49.5px 50.5px,",
-                                "51:7 - 51:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: entry 60px;
-  animation-range-end: exit 75px;
-}
-
-article {
-  background-image: linear-gradient(
-    to top,
-    transparent 59.5px,
-    blue 59.5px 60.5px,
-    transparent 60.5px 74.5px,
-    red 74.5px 75.5px,
-    transparent 75.5px /* 174.5px,
-    green 174.5px 154.5px,
-    transparent 175.5px*/
-  );
-}
-.animated_element {
-  align-self: flex-end;
-}
-
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 99.5px 100.5px,",
-                                "53:7 - 53:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: entry 60px;
-  animation-range-end: exit 75px;
-}
-
-article {
-  background-image: linear-gradient(
-    to top,
-    transparent 59.5px,
-    blue 59.5px 60.5px,
-    transparent 60.5px 74.5px,
-    red 74.5px 75.5px,
-    transparent 75.5px /* 174.5px,
-    green 174.5px 154.5px,
-    transparent 175.5px*/
-  );
-}
-.animated_element {
-  align-self: flex-end;
-}
-
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#3333" to be "#33333333" (color-hex-length)',
-                                "    #3333 calc(20% - 1px) calc(20% + 1px),",
-                                "10:5 - 10:10",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 20%;
-  animation-range-end: 60%;
-}
-
-i {
-  background-image: linear-gradient(
-    to bottom,
-    transparent calc(20% - 1px),
-    #3333 calc(20% - 1px) calc(20% + 1px),
-    transparent calc(20% + 1px) calc(60% - 1px),
-    #3333 calc(60% - 1px) calc(60% + 1px),
-    transparent calc(60% + 1px)
-  );
-}
-article {
-  --total: calc(var(--animElHeight) + 250px);
-  background-image:
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.2 - 1px),
-      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
-      transparent calc(var(--total) * 0.2 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.6 - 1px),
-      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
-      transparent calc(var(--total) * 0.6 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
-        calc(var(--containerHeight) * 0.2 + 0.5px),
-      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
-        calc(var(--containerHeight) * 0.6 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
-        calc(var(--containerHeight) * 0.6 + 0.5px),
-      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
-    );
-  background-position: local, local, fixed;
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#3333" to be "#33333333" (color-hex-length)',
-                                "    #3333 calc(60% - 1px) calc(60% + 1px),",
-                                "12:5 - 12:10",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 20%;
-  animation-range-end: 60%;
-}
-
-i {
-  background-image: linear-gradient(
-    to bottom,
-    transparent calc(20% - 1px),
-    #3333 calc(20% - 1px) calc(20% + 1px),
-    transparent calc(20% + 1px) calc(60% - 1px),
-    #3333 calc(60% - 1px) calc(60% + 1px),
-    transparent calc(60% + 1px)
-  );
-}
-article {
-  --total: calc(var(--animElHeight) + 250px);
-  background-image:
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.2 - 1px),
-      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
-      transparent calc(var(--total) * 0.2 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.6 - 1px),
-      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
-      transparent calc(var(--total) * 0.6 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
-        calc(var(--containerHeight) * 0.2 + 0.5px),
-      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
-        calc(var(--containerHeight) * 0.6 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
-        calc(var(--containerHeight) * 0.6 + 0.5px),
-      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
-    );
-  background-position: local, local, fixed;
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#3333" to be "#33333333" (color-hex-length)',
-                                "      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)",
-                                "34:7 - 34:12",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 20%;
-  animation-range-end: 60%;
-}
-
-i {
-  background-image: linear-gradient(
-    to bottom,
-    transparent calc(20% - 1px),
-    #3333 calc(20% - 1px) calc(20% + 1px),
-    transparent calc(20% + 1px) calc(60% - 1px),
-    #3333 calc(60% - 1px) calc(60% + 1px),
-    transparent calc(60% + 1px)
-  );
-}
-article {
-  --total: calc(var(--animElHeight) + 250px);
-  background-image:
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.2 - 1px),
-      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
-      transparent calc(var(--total) * 0.2 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.6 - 1px),
-      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
-      transparent calc(var(--total) * 0.6 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
-        calc(var(--containerHeight) * 0.2 + 0.5px),
-      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
-        calc(var(--containerHeight) * 0.6 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
-        calc(var(--containerHeight) * 0.6 + 0.5px),
-      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
-    );
-  background-position: local, local, fixed;
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#3333" to be "#33333333" (color-hex-length)',
-                                "      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)",
-                                "38:7 - 38:12",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#3333" to be "#33333333" (color-hex-length)
-~~~
-.animated_element {
-  animation-range-start: 20%;
-  animation-range-end: 60%;
-}
-
-i {
-  background-image: linear-gradient(
-    to bottom,
-    transparent calc(20% - 1px),
-    #3333 calc(20% - 1px) calc(20% + 1px),
-    transparent calc(20% + 1px) calc(60% - 1px),
-    #3333 calc(60% - 1px) calc(60% + 1px),
-    transparent calc(60% + 1px)
-  );
-}
-article {
-  --total: calc(var(--animElHeight) + 250px);
-  background-image:
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.2 - 1px),
-      green calc(var(--total) * 0.2 - 1px) calc((var(--total) * 0.2) + 1px),
-      transparent calc(var(--total) * 0.2 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--total) * 0.6 - 1px),
-      red calc(var(--total) * 0.6 - 1px) calc((var(--total) * 0.6) + 1px),
-      transparent calc(var(--total) * 0.6 + 1px)
-    ),
-    linear-gradient(
-      to top,
-      transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
-        calc(var(--containerHeight) * 0.2 + 0.5px),
-      transparent calc(var(--containerHeight) * 0.2 + 0.5px)
-        calc(var(--containerHeight) * 0.6 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
-        calc(var(--containerHeight) * 0.6 + 0.5px),
-      transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
-    );
-  background-position: local, local, fixed;
-}
-
-@layer {
-  :root {
-    --animElHeight: 50px;
-    --animElHeightWord: "50px";
-    --barColor: black;
-    padding-top: 20px;
-    --containerHeight: 250px;
-  }
-  body:has(input[value="250"]:checked) {
-    --animElHeight: 250px;
-    --animElHeightWord: "250px";
-  }
-  body:has(input[value="500"]:checked) {
-    --animElHeight: 500px;
-    --animElHeightWord: "500px";
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: var(--containerHeight);
-    box-sizing: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  section {
-    --clr: yellow;
-    --words: "Animation not started";
-    position: relative;
-    margin: 20px;
-    text-align: center;
-  }
-  .one,
-  .double i {
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-  }
-  i,
-  .animated_element {
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    height: var(--animElHeight);
-    line-height: var(--animElHeight);
-  }
-  span {
-    background-color: hsl(from var(--clr) h s 90%);
-    border: 5px solid hsl(from var(--clr) h s 20%);
-    min-width: 250px;
-    height: 30px;
-    line-height: 30px;
-  }
-  span,
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-  span::before {
-    content: var(--words);
-  }
-  span {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: 10px;
-  }
-  i::after {
-    content: " ( " var(--animElHeightWord) " )";
-  }
-  label {
-    padding-right: 2em;
-  }
-  legend {
-    margin-top: 2em;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-      --words: "Currently animating";
-    }
-    to {
-      --clr: red;
-      --words: "Animation complete";
-    }
-  }
-  body::before {
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.double {
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "declaration-property-value-no-unknown",
                                 'Unexpected unknown value "local" for property "background-position" (declaration-property-value-no-unknown)',
                                 "  background-position: local, local, fixed;",
@@ -39950,9 +38115,9 @@ i {
   background-image: linear-gradient(
     to bottom,
     transparent calc(20% - 1px),
-    #3333 calc(20% - 1px) calc(20% + 1px),
+    #33333333 calc(20% - 1px) calc(20% + 1px),
     transparent calc(20% + 1px) calc(60% - 1px),
-    #3333 calc(60% - 1px) calc(60% + 1px),
+    #33333333 calc(60% - 1px) calc(60% + 1px),
     transparent calc(60% + 1px)
   );
 }
@@ -39974,11 +38139,11 @@ article {
     linear-gradient(
       to top,
       transparent 0 calc(var(--containerHeight) * 0.2 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.2 - 0.5px)
+      #33333333 calc(var(--containerHeight) * 0.2 - 0.5px)
         calc(var(--containerHeight) * 0.2 + 0.5px),
       transparent calc(var(--containerHeight) * 0.2 + 0.5px)
         calc(var(--containerHeight) * 0.6 - 0.5px),
-      #3333 calc(var(--containerHeight) * 0.6 - 0.5px)
+      #33333333 calc(var(--containerHeight) * 0.6 - 0.5px)
         calc(var(--containerHeight) * 0.6 + 0.5px),
       transparent 0 calc(var(--containerHeight) * 0.6 + 0.5px)
     );
@@ -40101,208 +38266,6 @@ article {
 
 .double {
   display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 49.5px 50.5px,",
-                                "30:7 - 30:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.animated_element {
-  animation-range-start: exit-crossing -20%;
-  animation-range-end: exit-crossing 20%;
-}
-
-article {
-  background-image: none;
-}
-body .animated_element {
-  align-self: start;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "      #666 99.5px 100.5px,",
-                                "32:7 - 32:11",
-                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timeline_insets
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-@layer setup {
-  #A {
-    height: 50px;
-  }
-  #B {
-    height: 250px;
-  }
-  #C {
-    height: 500px;
-  }
-  div {
-    display: flex;
-    gap: 1em;
-  }
-  main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 2em;
-  }
-  article {
-    outline: 3px dashed;
-    width: 475px;
-    margin: auto;
-    overflow: scroll;
-    position: relative;
-    height: 250px;
-    box-sizing: content-box;
-    background-image: linear-gradient(
-      to top,
-      transparent 49.5px,
-      #666 49.5px 50.5px,
-      transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
-      transparent 100.5px
-    );
-    background-origin: content-box;
-  }
-
-  p {
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .animated_element {
-    --clr: yellow;
-    background-color: hsl(from var(--clr) h s calc(l * 1.4));
-    display: block;
-    animation: showAnim step-end 1 forwards;
-    animation-timeline: view();
-    flex: 1 0 auto;
-  }
-
-  i {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-  }
-
-  @keyframes showAnim {
-    from {
-      --clr: green;
-    }
-    to {
-      --clr: red;
-    }
-  }
-  @layer no-support {
-    @supports not (animation-timeline: view()) {
-      body::before {
-        content: "Your browser doesn't support view progress scrolling.";
-        background-color: wheat;
-        display: block;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.animated_element {
-  animation-range-start: exit-crossing -20%;
-  animation-range-end: exit-crossing 20%;
-}
-
-article {
-  background-image: none;
-}
-body .animated_element {
-  align-self: start;
 }
 ~~~
 `
@@ -40347,9 +38310,9 @@ body .animated_element {
     background-image: linear-gradient(
       to top,
       transparent 49.5px,
-      #666 49.5px 50.5px,
+      #666666 49.5px 50.5px,
       transparent 50.5px 99.5px,
-      #666 99.5px 100.5px,
+      #666666 99.5px 100.5px,
       transparent 100.5px
     );
     background-origin: content-box;
@@ -41795,18 +39758,6 @@ p {
                         }
                       }
                     },
-                    will_change: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Guides/Will_change",
-                      messages: [
-                        {
-                          message: "Code with space",
-                          data: [
-                            "The CSS filter functions"
-                          ]
-                        }
-                      ]
-                    },
                     writing_modes: {
                       children: {
                         vertical_controls: {
@@ -43104,13 +41055,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode",
-                                    "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode/"
-                                  ]
                                 }
                               ]
                             },
@@ -43308,19 +41252,6 @@ div {
                               ]
                             }
                           }
-                        },
-                        "@scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css.oddbird.net/scope/parent-selector/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         "@starting-style": {
                           children: {},
@@ -44308,12 +42239,6 @@ div {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-shape",
                           messages: [
                             {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -44365,170 +42290,6 @@ padding: 24px;
                             {
                               message: "CSS code issue",
                               data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "22:16 - 22:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  display: block;
-  width: 300px;
-  anchor-name: --leopard;
-  position: relative;
-  top: 45px;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-  padding: 15px 0;
-  margin: 0 0 -30px -110px;
-  background-color: chartreuse;
-  border: 7px solid rgb(50 50 50);
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.75);
-
-  width: 250px;
-  height: 100px;
-  border-shape: shape(
-      from 50.08% 0%,
-      curve to 97.71% 25.55% with 72.95% 0%/93.9% 8.76%,
-      curve to 97.71% 62.04% with 100.76% 37.96%/100.76% 49.64%,
-      curve to 50.08% 83.94% with 93.9% 75.18%/72.95% 83.94%,
-      curve to 23.41% 82.48% with 36.75% 83.94%/27.22% 83.21%,
-      curve to 17.7% 100% with 21.51% 87.59%/19.22% 94.16%,
-      curve to 11.98% 82.48% with 16.17% 94.16%/13.89% 87.59%,
-      curve to 1.31% 62.04% with 13.5% 81.75%/3.98% 76.64%,
-      curve to 2.45% 25.55% with -0.59% 49.64%/-0.59% 37.96%,
-      curve to 50.08% 0% with 6.26% 8.76%/27.22% 0%,
-      close
-    )
-    content-box;
-
-  text-align: center;
-  line-height: 4;
-
-  position: absolute;
-  position-anchor: --leopard;
-  bottom: anchor(top);
-  left: anchor(right);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "22:23 - 22:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  display: block;
-  width: 300px;
-  anchor-name: --leopard;
-  position: relative;
-  top: 45px;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-  padding: 15px 0;
-  margin: 0 0 -30px -110px;
-  background-color: chartreuse;
-  border: 7px solid rgb(50 50 50);
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.75);
-
-  width: 250px;
-  height: 100px;
-  border-shape: shape(
-      from 50.08% 0%,
-      curve to 97.71% 25.55% with 72.95% 0%/93.9% 8.76%,
-      curve to 97.71% 62.04% with 100.76% 37.96%/100.76% 49.64%,
-      curve to 50.08% 83.94% with 93.9% 75.18%/72.95% 83.94%,
-      curve to 23.41% 82.48% with 36.75% 83.94%/27.22% 83.21%,
-      curve to 17.7% 100% with 21.51% 87.59%/19.22% 94.16%,
-      curve to 11.98% 82.48% with 16.17% 94.16%/13.89% 87.59%,
-      curve to 1.31% 62.04% with 13.5% 81.75%/3.98% 76.64%,
-      curve to 2.45% 25.55% with -0.59% 49.64%/-0.59% 37.96%,
-      curve to 50.08% 0% with 6.26% 8.76%/27.22% 0%,
-      close
-    )
-    content-box;
-
-  text-align: center;
-  line-height: 4;
-
-  position: absolute;
-  position-anchor: --leopard;
-  bottom: anchor(top);
-  left: anchor(right);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "property-no-unknown",
                                 'Unexpected unknown property "border-shape" (property-no-unknown)',
                                 "  border-shape: shape(",
@@ -44557,7 +42318,7 @@ img {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.3rem;
   padding: 15px 0;
   margin: 0 0 -30px -110px;
@@ -44589,120 +42350,6 @@ p {
   position-anchor: --leopard;
   bottom: anchor(top);
   left: anchor(right);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:16 - 15:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: fit-content;
-  aspect-ratio: 1/1;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: circle(50%);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:23 - 15:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: fit-content;
-  aspect-ratio: 1/1;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: circle(50%);
 }
 
 @supports not (border-shape: circle(50%)) {
@@ -44746,7 +42393,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -44760,120 +42407,6 @@ p {
   border: 15px solid black;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
   border-shape: circle(50%);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:16 - 15:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: fit-content;
-  aspect-ratio: 1/1;
-  border: 15px solid hotpink;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:23 - 15:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: fit-content;
-  aspect-ratio: 1/1;
-  border: 15px solid hotpink;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
 }
 
 @supports not (border-shape: circle(50%)) {
@@ -44917,7 +42450,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -44931,252 +42464,6 @@ p {
   border: 15px solid hotpink;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
   border-shape: rect(0% 100% 100% 0% round 20px) circle(50%);
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:16 - 15:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: 550px;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-}
-
-.circle {
-  border-shape: circle(60%);
-}
-
-.ellipse {
-  border-shape: ellipse(50% 40%);
-}
-
-.inset {
-  border-shape: inset(10px 20px 10px 20px round 20px);
-}
-
-.path {
-  border-shape: path(
-      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
-    )
-    view-box;
-}
-
-.polygon {
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-}
-
-.rect {
-  border-shape: rect(10px 500px 130px 20px round 20px);
-}
-
-.shape {
-  border-shape: shape(
-    from 0% 64.5%,
-    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
-    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
-    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
-    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
-    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
-    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
-    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
-    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
-    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
-    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
-    close
-  );
-}
-
-.two-polygons {
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
-    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
-}
-
-.xywh {
-  border-shape: xywh(5% 5% 90% 90% round 20px);
-}
-
-form {
-  position: absolute;
-  border: 2px solid black;
-  background: white;
-  padding: 5px;
-  bottom: 0;
-  right: 0;
-}
-
-form select {
-  width: 100%;
-  padding: 2px 5px;
-  margin-top: 10px;
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:23 - 15:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: 550px;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-}
-
-.circle {
-  border-shape: circle(60%);
-}
-
-.ellipse {
-  border-shape: ellipse(50% 40%);
-}
-
-.inset {
-  border-shape: inset(10px 20px 10px 20px round 20px);
-}
-
-.path {
-  border-shape: path(
-      "M 35,95 C 35,50 60,15 100,20 C 120,5 160,5 180,22 C 200,5 250,5 270,22 C 295,5 340,5 360,22 C 460,10 477,35 496,75 C 515,157 450,120 430,128 C 400,145 360,145 330,130 C 300,145 260,145 230,130 C 200,145 160,145 130,130 C 80,142 35,120 35,95 Z"
-    )
-    view-box;
-}
-
-.polygon {
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-}
-
-.rect {
-  border-shape: rect(10px 500px 130px 20px round 20px);
-}
-
-.shape {
-  border-shape: shape(
-    from 0% 64.5%,
-    curve to 15.71% 8.26% with 0% 30.76%/6.04% 4.51%,
-    curve to 35.05% 9.76% with 20.55% -2.99%/30.21% -2.99%,
-    curve to 56.8% 9.76% with 39.88% -2.99%/51.97% -2.99%,
-    curve to 78.56% 9.76% with 62.84% -2.99%/73.72% -2.99%,
-    curve to 97.89% 49.5% with 87.02% 0.76%/97.89% 19.51%,
-    curve to 95.47% 89.25% with 101.52% 60.75%/100.31% 83.25%,
-    curve to 71.3% 90.75% with 88.22% 102%/78.56% 102%,
-    curve to 47.13% 90.75% with 64.05% 102%/54.38% 102%,
-    curve to 22.96% 90.75% with 39.88% 102%/30.21% 102%,
-    curve to 0% 64.5% with 10.88% 99.75%/0% 83.25%,
-    close
-  );
-}
-
-.two-polygons {
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 105%, 86% 88%, 91% 75%, 101% 60%, 93% 30%, 86% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%)
-    polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%);
-}
-
-.xywh {
-  border-shape: xywh(5% 5% 90% 90% round 20px);
-}
-
-form {
-  position: absolute;
-  border: 2px solid black;
-  background: white;
-  padding: 5px;
-  bottom: 0;
-  right: 0;
-}
-
-form select {
-  width: 100%;
-  padding: 2px 5px;
-  margin-top: 10px;
 }
 
 @supports not (border-shape: circle(50%)) {
@@ -45220,7 +42507,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45343,7 +42630,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45466,7 +42753,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45589,7 +42876,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45712,7 +42999,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45835,7 +43122,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -45958,7 +43245,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -46081,7 +43368,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -46204,7 +43491,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -46306,146 +43593,6 @@ form select {
                             {
                               message: "CSS code issue",
                               data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:16 - 15:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: 550px;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-}
-
-p:hover,
-p:focus {
-  animation: morph 1s ease-in-out infinite alternate;
-}
-
-@keyframes morph {
-  from {
-    border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-  }
-  to {
-    border-shape: polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%) view-box;
-  }
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "15:23 - 15:32",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  padding: 40px 50px;
-  background-color: chartreuse;
-  display: flex;
-  align-items: center;
-}
-
-p {
-  width: 550px;
-  border: 15px solid black;
-  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
-  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-}
-
-p:hover,
-p:focus {
-  animation: morph 1s ease-in-out infinite alternate;
-}
-
-@keyframes morph {
-  from {
-    border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;
-  }
-  to {
-    border-shape: polygon(0% 55%, 0% 90%, 6% 104%, 17% 93%, 30% 100%, 43% 93%, 56% 102%, 69% 93%, 81% 102%, 88% 93%, 94% 78%, 100% 58%, 94% 24%, 88% -2%, 76% 13%, 64% -4%, 51% 11%, 39% -4%, 26% 11%, 13% -4%, 3% 13%) view-box;
-  }
-}
-
-@supports not (border-shape: circle(50%)) {
-  body::before {
-    content: "Your browser does not support the 'border-shape' property.";
-    font-family: sans-serif;
-    background-color: wheat;
-    padding: 1rem 0;
-    text-align: center;
-
-    z-index: 1;
-    position: fixed;
-    inset: 40% 0 auto;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
                                 "property-no-unknown",
                                 'Unexpected unknown property "border-shape" (property-no-unknown)',
                                 "  border-shape: polygon(0% 60%, 0% 85%, 8% 100%, 18% 88%, 30% 100%, 42% 88%, 55% 100%, 68% 88%, 80% 100%, 86% 88%, 90% 75%, 100% 60%, 90% 30%, 85% 5%, 75% 18%, 65% 3%, 52% 16%, 40% 3%, 27% 16%, 15% 3%, 5% 18%) view-box;",
@@ -46467,7 +43614,7 @@ body {
 
 p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial";
   font-size: 1.6rem;
   padding: 40px 50px;
   background-color: chartreuse;
@@ -47681,18 +44828,6 @@ ul {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-color",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -47858,50 +44993,6 @@ p {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                                "  border: 1px solid #ddd;",
-                                "17:21 - 17:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-ul {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 7px;
-  list-style-type: none;
-  column-rule-style: dashed;
-  column-rule-width: 3px;
-
-  --base: yellow;
-  --mixin: blue;
-  column-rule-color:
-    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
-    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
-    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
-}
-li {
-  border: 1px solid #ddd;
-}
-
-@layer no-support {
-  @supports not (column-rule-color: repeat(3, red)) {
-    body::before {
-      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1rem 0;
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -47927,55 +45018,7 @@ ul {
     color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
 }
 li {
-  border: 1px solid #ddd;
-}
-
-@layer no-support {
-  @supports not (column-rule-color: repeat(3, red)) {
-    body::before {
-      content: "Your browser doesn't support \`repeat()\` functions within a column-rule-color property value";
-      background-color: wheat;
-      display: block;
-      text-align: center;
-      padding: 1rem 0;
-    }
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                                "  border: 1px solid #ddd;",
-                                "17:21 - 17:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-rule-color
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-ul {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 7px;
-  list-style-type: none;
-  column-rule-style: dashed;
-  column-rule-width: 3px;
-
-  --base: yellow;
-  --mixin: blue;
-  column-rule-color:
-    color-mix(in lch decreasing hue, var(--base) 0%, var(--mixin)),
-    repeat(3, color-mix(in lch decreasing hue, var(--base) 100%, var(--mixin))),
-    color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
-}
-li {
-  border: 1px solid #ddd;
-}
-
-ul {
-  column-rule-color: black, repeat(auto, #0003), black;
+  border: 1px solid #dddddd;
 }
 
 @layer no-support {
@@ -48019,7 +45062,7 @@ ul {
     color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
 }
 li {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 
 ul {
@@ -48067,7 +45110,7 @@ ul {
     color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
 }
 li {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 
 ul {
@@ -48115,7 +45158,7 @@ ul {
     color-mix(in lch decreasing hue, var(--base) 58%, var(--mixin));
 }
 li {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 
 ul {
@@ -48143,18 +45186,6 @@ ul {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-style",
                           messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -48871,18 +45902,6 @@ li {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-width",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -49569,19 +46588,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        content: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://webflow.com/glossary/accessibility-tree",
-                                "https://university.webflow.com/glossary/accessibility-tree"
                               ]
                             }
                           ]
@@ -51632,12 +48638,6 @@ button {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/link-parameters",
                           messages: [
                             {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "function-no-unknown",
@@ -53176,12 +50176,6 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/path-length",
                           messages: [
                             {
-                              message: "Missing data",
-                              data: [
-                                "CSS info"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -53418,12 +50412,6 @@ body {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/row-rule",
                           messages: [
                             {
-                              message: "Possibly unrendered Markdown",
-                              data: [
-                                ". The default value is `medium. See "
-                              ]
-                            },
-                            {
                               message: "Missing data",
                               data: [
                                 "CSS info"
@@ -53439,18 +50427,6 @@ body {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
                               ]
                             },
                             {
@@ -53510,18 +50486,6 @@ ul {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
                               ]
                             }
                           ]
@@ -53649,18 +50613,6 @@ li {
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
                             }
                           ]
                         },
@@ -53673,77 +50625,83 @@ li {
                               data: [
                                 "CSS info"
                               ]
-                            },
+                            }
+                          ]
+                        },
+                        "rule-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rule-color",
+                          messages: [
                             {
-                              message: "Broken link",
+                              message: "Missing data",
                               data: [
-                                "/en-US/docs/Web/CSS/rule-color"
+                                "CSS info"
                               ]
                             },
                             {
-                              message: "Broken link",
+                              message: "CSS code issue",
                               data: [
-                                "/en-US/docs/Web/CSS/rule-style"
+                                "color-hex-length",
+                                'Expected "#0003" to be "#00000033" (color-hex-length)',
+                                "  rule-color: black, repeat(auto, #0003), black;",
+                                "17:35 - 17:40",
+                                `/en-US/docs/Web/CSS/Reference/Properties/rule-color
+[color-hex-length] Expected "#0003" to be "#00000033" (color-hex-length)
+~~~
+ul {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  list-style-type: none;
+  gap: 5px;
+  rule-style: dashed;
+  rule-width: medium;
+
+  rule-color: #22bb22;
+}
+li {
+  text-align: center;
+  aspect-ratio: 1;
+}
+
+ul {
+  rule-color: black, repeat(auto, #0003), black;
+}
+
+@layer no-support {
+  @supports not (rule-color: repeat(3, red)) {
+    body::before {
+      content: "Your browser doesn't support \`repeat()\` functions within a rule-color property value";
+      background-color: wheat;
+      text-align: center;
+      padding: 1rem 0;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "rule-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rule-style",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
                               ]
                             },
                             {
-                              message: "Broken link",
+                              message: "Self link",
                               data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
+                                "/en-US/docs/Web/CSS/Reference/Properties/rule-style"
                               ]
                             }
                           ]
@@ -53860,6 +50818,18 @@ li {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        "rule-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rule-width",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
                               ]
                             }
                           ]
@@ -56076,29 +53046,6 @@ body {
                             }
                           ]
                         },
-                        "will-change": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/will-change",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "property-no-unknown",
-                                'Unexpected unknown property "willchange" (property-no-unknown)',
-                                "  willchange: transform, opacity;",
-                                "2:3 - 2:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/will-change
-[property-no-unknown] Unexpected unknown property "willchange" (property-no-unknown)
-~~~
-#element {
-  willchange: transform, opacity;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "word-spacing": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/word-spacing",
@@ -56181,6 +53128,12 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-style"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
                           ]
                         },
@@ -56235,6 +53188,12 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-width"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
                           ]
                         },
@@ -56248,6 +53207,12 @@ p:has(~ form > input:checked) {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/frame-sizing"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-color"
                           ]
                         }
                       ]
@@ -72083,32 +69048,6 @@ li {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/env",
                           messages: [
                             {
-                              message: "Bad DL",
-                              data: [
-                                ": A <custom-ident> specifying the name of the envi"
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": A fallback value to be inserted if the environme"
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": A <declaration_value> is the default value of th"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<dashed-ident>",
-                                "Text after code:",
-                                "is a user defined variable that can be used as an "
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "CssSyntaxError",
@@ -72396,13 +69335,6 @@ css.properties.width.fit-content_function`
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/Functions",
                           messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Properties/corner-shape",
-                                "#properties_that_follow_corner_shape"
-                              ]
-                            },
                             {
                               message: "No link to child page",
                               data: [
@@ -76781,12 +73713,6 @@ label {
                           slug: "/en-US/docs/Web/CSS/Reference/Values/line-width",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -76888,20 +73814,6 @@ css.properties.grid-template-rows.minmax`
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Values/param",
                           messages: [
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": A <declaration_value> is the value of the attrib"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<dashed-ident>",
-                                "Text after code:",
-                                "is a user defined variable that is used as an iden"
-                              ]
-                            },
                             {
                               message: "Missing data",
                               data: [
@@ -79267,122 +76179,6 @@ pre {
                               data: []
                             },
                             {
-                              message: "Bad DL",
-                              data: [
-                                `
-The <track-size> values set the track size. A <tr`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-Each <track-size> is optionally preceded by <line`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-An ending <line-names> is optional.
-`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The <fixed-size> sets the track size. A <fixed-si`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-Each <fixed-size> is optionally preceded by <line`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The ending <line-names> is optional.
-`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The <line-names> are one or more space-separated `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-These line names (rather than track sizes) are re`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The <value> is one or more comma-separated valid `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-Multiple repeat() functions of the <repeat-value-`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The <value> is one or more comma-separated valid `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-At most one repeat() in a given list of values ma`
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-color"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-style"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/rule-width"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#repeat-count-values"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#repeated-values-list"
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "CssSyntaxError",
@@ -79530,44 +76326,7 @@ p {
 
 p.special {
   color: revert-rule;
-  border: 1px solid currentcolor;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "value-keyword-case",
-                                'Expected "currentcolor" to be "currentColor" (value-keyword-case)',
-                                "  border: 1px solid currentcolor;",
-                                "22:21 - 22:33",
-                                `/en-US/docs/Web/CSS/Reference/Values/revert-rule
-[value-keyword-case] Expected "currentcolor" to be "currentColor" (value-keyword-case)
-~~~
-body {
-  font-family: system-ui;
-}
-
-@supports not (color: revert-rule) {
-  body::before {
-    content: "Your browser doesn't support the revert-rule keyword yet.";
-    background-color: wheat;
-    display: block;
-    text-align: center;
-    padding: 1em;
-  }
-}
-
-p {
-  color: blue;
-  font-weight: bold;
-}
-
-p.special {
-  color: revert-rule;
-  border: 1px solid currentcolor;
+  border: 1px solid currentColor;
 }
 ~~~
 `
@@ -85078,13 +81837,31 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                     {
                       message: "Code with space",
                       data: [
+                        "rule-color CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "<rule-list> CSS type"
                       ]
                     },
                     {
                       message: "Code with space",
                       data: [
+                        "rule-style CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
                         "rule-visibility-items CSS property"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "rule-width CSS property"
                       ]
                     },
                     {
@@ -86386,21 +83163,7 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                   ]
                 },
                 how_to: {
-                  children: {
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.websiteoptimization.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/HTML/How_to",
                   messages: [
                     {
@@ -86864,6 +83627,13 @@ function onclick(event) {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/hub/digital-accessibility-and-compliance/"
+                              ]
                             }
                           ]
                         },
@@ -87006,18 +83776,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Elements/iframe"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Elements/iframe"
-                              ]
                             }
                           ]
                         },
@@ -87465,6 +84223,19 @@ html.elements.input.switch`,
                             }
                           ]
                         },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/hub/digital-accessibility-and-compliance/"
+                              ]
+                            }
+                          ]
+                        },
                         kbd: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
@@ -87492,6 +84263,19 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/hub/digital-accessibility-and-compliance/"
+                              ]
                             }
                           ]
                         },
@@ -87545,6 +84329,19 @@ html.elements.input.switch`,
                             }
                           ]
                         },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://vispero.com/resources/short-note-on-making-your-mark-more-accessible/",
+                                "https://vispero.com/resources/hub/digital-accessibility-and-compliance/"
+                              ]
+                            }
+                          ]
+                        },
                         select: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/select",
@@ -87562,33 +84359,6 @@ html.elements.input.switch`,
                             {
                               message: "Try it should not have content",
                               data: []
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "      border: 1px solid #ccc;",
-                                "3:25 - 3:29",
-                                `/en-US/docs/Web/HTML/Reference/Elements/style
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-<template id="card-template">
-  <style>
-    .card {
-      border: 1px solid #ccc;
-      padding: 1rem;
-      border-radius: 0.5rem;
-    }
-  </style>
-
-  <div class="card">
-    Template content
-  </div>
-</template>
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -88057,6 +84827,18 @@ http.headers.Use-As-Dictionary`,
                                 }
                               ]
                             },
+                            "language-model": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/language-model",
+                              messages: [
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "http.headers.Permissions-Policy.language-model"
+                                  ]
+                                }
+                              ]
+                            },
                             "speaker-selection": {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/speaker-selection",
@@ -88213,19 +84995,6 @@ http.headers.Use-As-Dictionary`,
                           data: [
                             "https://exploringjs.com/es6/ch_modules.html",
                             404
-                          ]
-                        }
-                      ]
-                    },
-                    resource_management: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Resource_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://typescript-eslint.io/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -88470,19 +85239,6 @@ let z = 1;
                           ]
                         }
                       }
-                    },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsbin.com/",
-                            503
-                          ]
-                        }
-                      ]
                     },
                     lexical_grammar: {
                       children: {},
@@ -88769,11 +85525,24 @@ doIt(); // returns "finally"
                                 "https://archive.flossmanuals.net/ogg-theora/",
                                 "certificate has expired"
                               ]
+                            }
+                          ]
+                        },
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.csail.mit.edu/",
+                                "The operation timed out."
+                              ]
                             },
                             {
                               message: "Broken external link",
                               data: [
-                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
+                                "https://www.csail.mit.edu/",
                                 "The operation timed out."
                               ]
                             }
@@ -88958,18 +85727,6 @@ doIt(); // returns "finally"
                       data: []
                     },
                     {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/privacy-principles/"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/privacy-principles/#dfn-context"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://gdpr.eu/",
@@ -89020,19 +85777,6 @@ doIt(); // returns "finally"
               children: {
                 how_to: {
                   children: {
-                    display_badge_on_app_icon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/patterns/web-apps/badges/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     localize_an_app_manifest: {
                       children: {},
                       slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Localize_an_app_manifest",
@@ -89626,23 +86370,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       }
-                    }
-                  }
-                },
-                practical_implementation_guides: {
-                  children: {
-                    robots_txt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Robots_txt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.robotstxt.org/robotstxt.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -93101,10 +89828,6 @@ svg.elements.feSpotLight.z`
                   slug: "/en-US/docs/WebAssembly/Reference/Definitions",
                   messages: [
                     {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
-                    {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/WebAssembly/Reference/Definitions/types"
@@ -93121,55 +89844,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Try it should not have content",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                exception_handling: {
-                  children: {
-                    try_table: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Exception_handling/try_table",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            "        log: (code) => {\n          output.textContent += `Error code: ${code} | `;\n        },",
-                            "13:9 - 15:10",
-                            `/en-US/docs/WebAssembly/Reference/Exception_handling/try_table
-[object-shorthand] Expected method shorthand.
-~~~
-const output = document.querySelector("p");
-
-const typeErrorTag = new WebAssembly.Tag({ parameters: ["i32"] });
-const rangeErrorTag = new WebAssembly.Tag({ parameters: ["i32", "i32"] });
-
-async function init() {
-  const { instance } = await WebAssembly.instantiateStreaming(
-    fetch("{%wasm-url%}"),
-    {
-      env: {
-        type_error: typeErrorTag,
-        range_error: rangeErrorTag,
-        log: (code) => {
-          output.textContent += \`Error code: \${code} | \`;
-        },
-      },
-    },
-  );
-
-  instance.exports.try_multiple(-1); // Throws type_error, logs 10
-  instance.exports.try_multiple(101); // Throws range_error, logs 99
-  instance.exports.try_multiple(50); // Doesn't throw
-}
-
-init();
-~~~
-`
-                          ]
                         }
                       ]
                     }

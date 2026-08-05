@@ -6798,7 +6798,7 @@ characters used by computers and other devices for encoding letters, numbers, pu
       flaws: {},
       links: [
         "https://en.wikipedia.org/wiki/Fork_(software_development)",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo",
+        "https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo",
         "https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg",
         "https://nodejs.org/en/blog/announcements/foundation-v4-announce/",
         "https://www.libreoffice.org/who-are-we/"
@@ -17386,7 +17386,7 @@ JSON does not support all data types allowed by JavaScript, which means that Jav
         "https://dev.mysql.com/doc/",
         "https://www.postgresql.org/",
         "https://www.mongodb.com/",
-        "https://cloud.google.com/products/datastore",
+        "https://cloud.google.com/products/firestore",
         "https://aws.amazon.com/",
         "https://console.cloud.google.com/",
         "https://azure.microsoft.com/",
@@ -32892,17 +32892,17 @@ This article shows the syntax required to make a link, and discusses link best p
         "https://www.sourcetreeapp.com/",
         "https://www.gitkraken.com/",
         "https://github.com/signup",
-        "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
-        "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+        "https://docs.github.com/en/get-started/start-your-journey/what-is-github",
+        "https://docs.github.com/en/get-started/using-github/hello-world",
         "https://docs.github.com/en/get-started/using-git",
         "https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+        "https://docs.github.com/en/pull-requests/reference/pull-requests",
         "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues",
         "https://github.com/k88hudson/git-flight-rules",
         "https://dangitgit.com/",
         "https://scrimba.com/intro-to-git-c0l4grs2sa",
         "https://docs.github.com/en/get-started/using-github/github-flow",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts",
+        "https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests",
         "https://docs.github.com/en/get-started/git-basics/ignoring-files",
         "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github",
         "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
@@ -32916,7 +32916,7 @@ This article shows the syntax required to make a link, and discusses link best p
       ids: [
         "prerequisites",
         "guides",
-        "about_github_and_git_from_github",
+        "what_is_github_from_github",
         "hello_world_from_github",
         "using_git_from_github",
         "contributing_to_a_project_from_github",
@@ -37513,7 +37513,7 @@ We have chosen GitHub-Flavored Markdown (GFM) as a baseline and added extensions
         "https://github.com/mdn/shared-assets/tree/main/images/diagrams/http",
         "https://github.com/mdn/shared-assets?tab=readme-ov-file#using-shared-assets-in-documentation",
         "https://github.github.com/gfm/#images",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
+        "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
         "https://www.w3.org/WAI/tutorials/images/decision-tree/",
         "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/work_with_animations/index.html#animation-inspector",
         "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
@@ -38065,10 +38065,10 @@ Content changes to MDN Web Docs include:`,
         "https://github.com/mdn/mdn/issues/new/choose",
         "/discord",
         "https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch#about-keeping-your-pull-request-in-sync",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request",
+        "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/keeping-your-pull-request-in-sync-with-the-base-branch#about-keeping-your-pull-request-in-sync",
+        "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review",
+        "https://docs.github.com/en/pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork",
+        "https://docs.github.com/en/pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request",
         "https://blog.jessfraz.com/post/the-art-of-closing/",
         "https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer",
         "https://google.github.io/eng-practices/review/reviewer/"
@@ -38193,7 +38193,7 @@ Learn how to contribute and drive innovation on the Open Web.`,
         "https://docs.github.com/en/get-started/git-basics/set-up-git",
         "https://docs.github.com/en/get-started/using-github/github-flow",
         "https://github.com/skills/communicate-using-markdown",
-        "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests",
+        "https://docs.github.com/en/pull-requests",
         "https://github.com/orgs/mdn/projects/25/views/1",
         "https://github.com/orgs/mdn/projects/25/views/1",
         "https://github.com/mdn/rari/issues",
@@ -42421,12 +42421,16 @@ As an <easing-function>, it can be used to smooth out the start and end of the i
       ids: [
         "syntax",
         "parameters",
+        "environment-variable",
         "safe-area-inset-top",
         "safe-area-max-inset-top",
         "titlebar-area-x",
         "keyboard-inset-top",
         "preferred-text-scale",
         "viewport-segment-width",
+        "dashed-ident",
+        "fallback",
+        "declaration_value",
         "description",
         "use_cases",
         "names_followed_by_integers",
@@ -43474,7 +43478,9 @@ It can be used for many basic image manipulations, such as tinting an image with
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "param()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -43488,6 +43494,8 @@ It can be used for many basic image manipulations, such as tinting an image with
       ids: [
         "syntax",
         "values",
+        "dashed-ident",
+        "declaration_value",
         "formal_definition",
         "examples",
         "using_link-parameters_property",
@@ -51124,7 +51132,7 @@ A user indicates their preference through an operating system setting (e.g., lig
       links: [
         "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#view-media-rules-for-prefers-color-scheme",
         "https://www.youtube.com/watch?v=jmepqJ5UbuM",
-        "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode",
+        "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode/",
         "https://blogs.windows.com/windowsexperience/2019/04/01/windows-10-tip-dark-theme-in-file-explorer/",
         "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
         "https://www.theverge.com/2019/5/7/18530599/google-android-q-features-hands-on-dark-mode-gestures-accessibility-io-2019",
@@ -55426,6 +55434,82 @@ An @import rule must be defined at the top of the stylesheet, before any other a
         "css",
         "result",
         "frame_showing_and_hiding_empty_table_cells",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/rule-style",
+    links: {},
+    data: {
+      metadata: {
+        title: "rule-style CSS property",
+        pageType: "css-property",
+        browserCompat: [
+          "css.properties.rule-style"
+        ],
+        summary: "The rule-style CSS property defines the line style of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the styles of the column and row rules to the same value.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/rule-style",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rule-style",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-gaps-1/#propdef-rule-style",
+          title: "CSS Gaps Module Level 1"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-borders-4/",
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
+      ],
+      imgs: [],
+      ids: [
+        "try_it",
+        "constituent_properties",
+        "syntax",
+        "values",
+        "line-style",
+        "repeat-line-style",
+        "auto-repeat-line-style",
+        "description",
+        "repeated_line_styles",
+        "auto-repeating_line_styles",
+        "formal_definition",
+        "formal_syntax",
+        "rule-style",
+        "<column-rule-style>",
+        "<line-style-list>",
+        "<auto-line-style-list>",
+        "<line-style-or-repeat>",
+        "<auto-repeat-line-style>",
+        "<line-style>",
+        "<repeat-line-style>",
+        "<integer>",
+        "examples",
+        "basic_usage",
+        "html",
+        "css",
+        "result",
+        "frame_basic",
+        "multiple_values",
+        "result_2",
+        "frame_multiple",
+        "repeating_values",
+        "frame_repeat",
+        "using_the_repeat_function",
+        "frame_func",
+        "using_auto_within_repeat",
+        "frame_auto",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -64726,19 +64810,11 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64746,19 +64822,15 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64766,8 +64838,20 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -67115,7 +67199,7 @@ This default is used by position-area and position-try, and by anchor functions 
         "syntax",
         "values",
         "auto",
-        "animateable-feature",
+        "animatable-feature",
         "scroll-position",
         "contents",
         "custom-ident",
@@ -76676,6 +76760,79 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         "css",
         "result",
         "frame_examples",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/rule-width",
+    links: {},
+    data: {
+      metadata: {
+        title: "rule-width CSS property",
+        pageType: "css-property",
+        browserCompat: [
+          "css.properties.rule-width"
+        ],
+        summary: "The rule-width CSS property defines the widths of any lines drawn in the gutters of multi-row grid, flex, and multi-col layouts, setting the widths of the column and row rules to the same value.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/rule-width",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rule-width",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-gaps-1/#propdef-rule-width",
+          title: "CSS Gaps Module Level 1"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-borders-4/",
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
+      ],
+      imgs: [],
+      ids: [
+        "try_it",
+        "constituent_properties",
+        "syntax",
+        "values",
+        "line-width",
+        "repeat-line-width",
+        "auto-repeat-line-width",
+        "description",
+        "repeated_line_widths",
+        "auto-repeating_line_widths",
+        "formal_definition",
+        "formal_syntax",
+        "rule-width",
+        "<column-rule-width>",
+        "<line-width-list>",
+        "<auto-line-width-list>",
+        "<line-width-or-repeat>",
+        "<auto-repeat-line-width>",
+        "<line-width>",
+        "<repeat-line-width>",
+        "<integer>",
+        "examples",
+        "basic_example",
+        "html",
+        "css",
+        "result",
+        "frame_basic",
+        "repeating_values",
+        "frame_repeat",
+        "using_the_repeat_function",
+        "frame_func",
+        "using_auto_within_repeat",
+        "frame_auto",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -86741,6 +86898,82 @@ By default, the browser is allowed to make any adjustments to the element's appe
     }
   },
   {
+    id: "/en-US/docs/Web/CSS/Reference/Properties/rule-color",
+    links: {},
+    data: {
+      metadata: {
+        title: "rule-color CSS property",
+        pageType: "css-property",
+        browserCompat: [
+          "css.properties.rule-color"
+        ],
+        summary: "The rule-color CSS property defines the colors of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the colors of the column and row rules to the same value.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/css/reference/properties/rule-color",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "rule-color",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-gaps-1/#propdef-rule-color",
+          title: "CSS Gaps Module Level 1"
+        }
+      ],
+      links: [
+        "https://drafts.csswg.org/css-gaps-1/",
+        "https://drafts.csswg.org/css-values-4/"
+      ],
+      imgs: [],
+      ids: [
+        "try_it",
+        "constituent_properties",
+        "syntax",
+        "values",
+        "line-color",
+        "repeat-line-color",
+        "auto-repeat-line-color",
+        "description",
+        "line_colors",
+        "repeated_line_colors",
+        "auto-repeating_line_colors",
+        "formal_definition",
+        "formal_syntax",
+        "rule-color",
+        "<column-rule-color>",
+        "<line-color-list>",
+        "<auto-line-color-list>",
+        "<line-color-or-repeat>",
+        "<auto-repeat-line-color>",
+        "<repeat-line-color>",
+        "<integer>",
+        "examples",
+        "basic_example",
+        "html",
+        "css",
+        "result",
+        "frame_basic",
+        "multiple_color_values",
+        "result_2",
+        "frame_multiple",
+        "using_the_repeat_function",
+        "css_2",
+        "result_3",
+        "frame_repeat",
+        "using_auto_within_repeat",
+        "result_4",
+        "frame_auto",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/CSS/Reference/Properties/content",
     links: {},
     data: {
@@ -86781,7 +87014,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         "https://www.w3.org/TR/WCAG20-TECHS/F87",
         "https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/",
         "https://developer.chrome.com/docs/devtools/accessibility/reference#pane",
-        "https://webflow.com/glossary/accessibility-tree#:~:text=To%20view%20a%20website%E2%80%99s%20accessibility%20tree%20in%20Safari"
+        "https://university.webflow.com/glossary/accessibility-tree#:~:text=To%20view%20a%20website%E2%80%99s%20accessibility%20tree%20in%20Safari"
       ],
       imgs: [],
       ids: [
@@ -101447,8 +101680,8 @@ The CSS properties and values API is part of the CSS Houdini umbrella of APIs.`,
         "https://www.axis-praxis.org/",
         "https://drafts.csswg.org/css-fonts-3/#font-rend-props",
         "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-alternates",
-        "https://helpx.adobe.com/fonts/using/use-open-type-features.html",
-        "https://helpx.adobe.com/fonts/using/open-type-syntax.html"
+        "https://helpx.adobe.com/fonts/web/language-support-and-opentype-features/use-open-type-features.html",
+        "https://helpx.adobe.com/fonts/web/language-support-and-opentype-features/open-type-syntax.html"
       ],
       imgs: [],
       ids: [
@@ -116537,7 +116770,11 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116553,23 +116790,15 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116577,15 +116806,19 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -150444,7 +150677,9 @@ or a DataView.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "join()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -169098,31 +169333,19 @@ be different.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169134,55 +169357,7 @@ be different.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169190,19 +169365,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169210,75 +169373,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169286,23 +169381,23 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169310,11 +169405,27 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169322,7 +169433,131 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -189845,12 +190080,12 @@ Understanding how tracking protection works will help ensure your site functions
       },
       flaws: {},
       links: [
-        "https://www.w3.org/TR/privacy-principles/",
+        "https://w3ctag.github.io/privacy-principles/",
         "https://gdpr.eu/",
         "https://www.oag.ca.gov/privacy/ccpa",
         "https://gdpr.eu/article-4-definitions/",
         "https://www.w3.org/2001/tag/doc/unsanctioned-tracking/",
-        "https://www.w3.org/TR/privacy-principles/#dfn-context",
+        "https://w3ctag.github.io/privacy-principles/#dfn-context",
         "https://web.dev/learn/privacy"
       ],
       imgs: [],
@@ -193882,15 +194117,7 @@ and Legendre symbols.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -193903,6 +194130,14 @@ and Legendre symbols.`,
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -201939,15 +202174,11 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
@@ -201960,6 +202191,10 @@ Each request method has its own semantics, but some characteristics are shared a
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
           title: "HTTP Semantics"
         },
         {
@@ -209786,6 +210021,7 @@ autoplay media requested through the HTMLMediaElement interface.`,
         "identity-credentials-get",
         "idle-detection",
         "language-detector",
+        "language-model",
         "local-fonts",
         "local-network",
         "local-network-access",
@@ -210510,6 +210746,50 @@ video input devices.`,
         {
           bcdSpecificationURL: "https://wicg.github.io/local-network-access/#permissiondef-loopback-network",
           title: "Local Network Access"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "allowlist",
+        "default_policy",
+        "examples",
+        "basic_usage",
+        "using_the_default_policy",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/language-model",
+    links: {},
+    data: {
+      metadata: {
+        title: "Permissions-Policy: language-model directive",
+        pageType: "http-permissions-policy-directive",
+        browserCompat: [
+          "http.headers.Permissions-Policy.language-model"
+        ],
+        summary: "The HTTP Permissions-Policy header language-model directive controls access to the Prompt API.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/http/reference/headers/permissions-policy/language-model",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "language-model",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#permissions-policy",
+          title: "Prompt API"
         }
       ],
       links: [],
@@ -229063,8 +229343,7 @@ recognition results for the current session.`,
         browserCompat: [
           "api.CSSSkewY"
         ],
-        summary: `The CSSSkewY interface of the CSS Typed Object Model API represents the skewY() value of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSSkewY interface of the CSS Typed Object Model API represents the skewY() value of the individual transform property in CSS.",
         popularity: 0.0009401844162973084,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -229786,7 +230065,7 @@ WindowSharedStorage interface executes a URL Selection operation that is registe
         browserCompat: [
           "api.CSSPerspective"
         ],
-        summary: "The CSSPerspective interface of the CSS Typed Object Model API represents the perspective() value of the individual transform property in CSS. It inherits properties and methods from its parent CSSTransformValue.",
+        summary: "The CSSPerspective interface of the CSS Typed Object Model API represents the perspective() value of the individual transform property in CSS.",
         popularity: 0.0013197619756719983,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -229810,6 +230089,7 @@ WindowSharedStorage interface executes a URL Selection operation that is registe
         "cssperspective",
         "instance_properties",
         "length",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -229826,7 +230106,7 @@ WindowSharedStorage interface executes a URL Selection operation that is registe
         browserCompat: [
           "api.CSSPerspective.length"
         ],
-        summary: "The length property of the CSSPerspective interface sets the distance from z=0.",
+        summary: "The length property of the CSSPerspective interface represents the distance from z=0.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -245941,7 +246221,7 @@ resource.`,
         browserCompat: [
           "api.CSSMathProduct.values"
         ],
-        summary: "The CSSMathProduct.values read-only property of the CSSMathProduct interface returns a CSSNumericArray object which contains one or more CSSNumericValue objects.",
+        summary: "The values read-only property of the CSSMathProduct interface returns a CSSNumericArray containing the CSSNumericValue objects being multiplied together.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -246017,7 +246297,7 @@ resource.`,
         browserCompat: [
           "api.CSSMathProduct"
         ],
-        summary: "The CSSMathProduct interface of the CSS Typed Object Model API represents the result obtained by calling add(), sub(), or toSum() on CSSNumericValue. It inherits properties and methods from its parent CSSNumericValue.",
+        summary: "The CSSMathProduct interface of the CSS Typed Object Model API represents the result obtained by calling mul() or div() on a CSSNumericValue.",
         popularity: 0.0009460240710569192,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -251649,7 +251929,8 @@ property of the NetworkInformation interface returns true if the user has set a 
         browserCompat: [
           "api.CSSImageValue"
         ],
-        summary: "The CSSImageValue interface of the CSS Typed Object Model API represents values for properties that take an image, for example background-image, list-style-image, or border-image-source.",
+        summary: `The CSSImageValue interface of the CSS Typed Object Model API represents values for CSS properties that take an <image> value, such as
+background-image, list-style-image, or border-image-source.`,
         popularity: 0.0011212137138452375,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -251671,7 +251952,13 @@ property of the NetworkInformation interface returns true if the user has set a 
       ids: [
         "instance_properties",
         "instance_methods",
+        "description",
         "examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "result",
         "frame_examples",
         "specifications",
         "browser_compatibility",
@@ -267549,7 +267836,7 @@ changed.`,
         browserCompat: [
           "api.CSSKeywordValue.value"
         ],
-        summary: "The value property of the CSSKeywordValue interface returns or sets the value of the CSSKeywordValue.",
+        summary: "The value property of the CSSKeywordValue interface represents the keyword as a string.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -267589,9 +267876,7 @@ changed.`,
         browserCompat: [
           "api.CSSKeywordValue.CSSKeywordValue"
         ],
-        summary: `The CSSKeywordValue() constructor
-creates a new CSSKeywordValue object which represents CSS keywords and
-other identifiers.`,
+        summary: "The CSSKeywordValue() constructor creates a new CSSKeywordValue object which represents a CSS keyword or other identifier.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -267619,7 +267904,12 @@ other identifiers.`,
         "exceptions",
         "typeerror",
         "examples",
-        "frame_examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_basic_usage",
         "specifications",
         "browser_compatibility"
       ]
@@ -267635,7 +267925,7 @@ other identifiers.`,
         browserCompat: [
           "api.CSSKeywordValue"
         ],
-        summary: "The CSSKeywordValue interface of the CSS Typed Object Model API creates an object to represent CSS keywords and other identifiers.",
+        summary: "The CSSKeywordValue interface of the CSS Typed Object Model API represents the value of a CSS keyword or other identifier.",
         popularity: 0.0010277792376914678,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -267663,7 +267953,12 @@ other identifiers.`,
         "csskeywordvalue.value",
         "instance_methods",
         "examples",
-        "frame_examples",
+        "basic_usage",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -269903,7 +270198,7 @@ an iterable list of content index entries.`,
         browserCompat: [
           "api.CSSScale.z"
         ],
-        summary: `The z property of the CSSScale interface representing the z-component of the translating vector.
+        summary: `The z property of the CSSScale interface represents the z-component of the translating vector.
 A positive value moves the element towards the viewer, and a negative value farther away.`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -269941,8 +270236,7 @@ A positive value moves the element towards the viewer, and a negative value fart
         browserCompat: [
           "api.CSSScale"
         ],
-        summary: `The CSSScale interface of the CSS Typed Object Model API represents the scale() and scale3d() values of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSScale interface of the CSS Typed Object Model API represents the scale() and scale3d() values of the individual transform property in CSS.",
         popularity: 0.0008934671782204236,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -269968,6 +270262,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "x",
         "y",
         "z",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -272681,7 +272976,7 @@ returns a new XRWebGLBinding object.`,
         browserCompat: [
           "api.CSSUnitValue.value"
         ],
-        summary: "The CSSUnitValue.value property of the CSSUnitValue interface returns a double indicating the number of units.",
+        summary: "The value property of the CSSUnitValue interface represents the number of units.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -272808,7 +273103,7 @@ For example, "42px" would be represented by a CSSNumericValue.`,
         browserCompat: [
           "api.CSSUnitValue.unit"
         ],
-        summary: "The CSSUnitValue.unit read-only property of the CSSUnitValue interface returns a string indicating the unit type.",
+        summary: "The unit read-only property of the CSSUnitValue interface returns a string indicating the unit type.",
         popularity: 0.0006949189163936628,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -300153,12 +300448,12 @@ An instance of this class may be used anywhere a string is expected.`,
       links: [],
       imgs: [],
       ids: [
-        "interfaces_based_on_cssstylevalue",
         "static_methods",
         "cssstylevalue.parse",
         "cssstylevalue.parseall",
         "instance_methods",
         "cssstylevalue.tostring",
+        "interfaces_based_on_cssstylevalue",
         "specifications",
         "browser_compatibility"
       ]
@@ -305286,8 +305581,7 @@ If there are multiple container conditions, the value is set to the empty string
         browserCompat: [
           "api.CSSSkew"
         ],
-        summary: `The CSSSkew interface of the CSS Typed Object Model API is part of the CSSTransformValue interface.
-It represents the skew() value of the individual transform property in CSS.`,
+        summary: "The CSSSkew interface of the CSS Typed Object Model API represents the skew() value of the individual transform property in CSS.",
         popularity: 0.0009343447615376978,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -305312,6 +305606,7 @@ It represents the skew() value of the individual transform property in CSS.`,
         "instance_properties",
         "ax",
         "ay",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -306960,7 +307255,9 @@ system.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "local",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -306998,7 +307295,9 @@ system.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "remote",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -307036,7 +307335,9 @@ system.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "RTCIceCandidatePair",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -313858,6 +314159,217 @@ gamepadconnected and gamepaddisconnected events.`,
     }
   },
   {
+    id: "/en-US/docs/Web/API/Prompt_API/Preserving_sessions",
+    links: {},
+    data: {
+      metadata: {
+        title: "Preserving sessions across reloads",
+        pageType: "guide",
+        summary: "One issue with the Prompt API is that the browser doesn't store session information across browser reloads — this is not a surprise, as the web is stateless by default, but it is an issue nonetheless. To restore session context after a reload or browser restart, you will have to implement a mechanism to save the conversation and restore it using a server- or client-side solution.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/prompt_api/preserving_sessions",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Preserving sessions",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://github.com/mdn/dom-examples/tree/main/prompt-api-web-storage",
+        "https://mdn.github.io/dom-examples/prompt-api-web-storage/",
+        "https://github.com/mdn/dom-examples/tree/main/prompt-api-web-storage"
+      ],
+      imgs: [],
+      ids: [
+        "the_user_interface",
+        "retrieving_the_prompt_history",
+        "adding_the_prompt_history_to_the_session",
+        "updating_the_history_after_each_prompt",
+        "wiring_up_the_delete_button",
+        "result"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Prompt_API",
+    links: {},
+    data: {
+      metadata: {
+        title: "Prompt API",
+        pageType: "web-api-overview",
+        browserCompat: [
+          "api.LanguageModel"
+        ],
+        summary: "The Prompt API allows web pages to directly prompt a language model provided by the user agent via a JavaScript interface, without needing to manage implementation-specific details of the AI model being used.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/prompt_api",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Prompt API",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://chrome.dev/web-ai-demos/prompt-api-playground/",
+        "https://chrome.dev/web-ai-demos/mediarecorder-audio-prompt/",
+        "https://chrome.dev/web-ai-demos/canvas-image-prompt/",
+        "https://github.com/mozilla/standards-positions/issues/1213",
+        "https://github.com/WebKit/standards-positions/issues/495",
+        "https://developer.chrome.com/docs/ai/prompt-api"
+      ],
+      imgs: [],
+      ids: [
+        "concepts_and_usage",
+        "interfaces",
+        "createmonitor",
+        "languagemodel",
+        "http_headers",
+        "permissions-policy",
+        "security_considerations",
+        "examples",
+        "specifications",
+        "standards_positions",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Prompt_API/Multimodal",
+    links: {},
+    data: {
+      metadata: {
+        title: "Multimodal prompts",
+        pageType: "guide",
+        summary: "The Prompt API accepts multimodal inputs, including image and audio content. This article looks at how to handle multimodal inputs in your app.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/prompt_api/multimodal",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Multimodal prompts",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://chrome.dev/web-ai-demos/mediarecorder-audio-prompt/",
+        "https://chrome.dev/web-ai-demos/canvas-image-prompt/"
+      ],
+      imgs: [],
+      ids: [
+        "specifying_expected_input_types",
+        "providing_multimodal_input_data",
+        "what_data_types_are_accepted",
+        "complete_example",
+        "html",
+        "javascript",
+        "result",
+        "frame_multimodal",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Prompt_API/Using",
+    links: {},
+    data: {
+      metadata: {
+        title: "Using the Prompt API",
+        pageType: "guide",
+        summary: "The Prompt API provides an asynchronous (Promise-based) mechanism for a website to directly prompt a language model provided by the user agent, without needing to manage implementation-specific details of the AI model being used. Having an on-device model is useful and efficient because sensitive data can stay on the user's device, the model is available offline, and developers can avoid the cost and latency of API calls to external services.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/prompt_api/using",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Using the Prompt API",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://chrome.dev/web-ai-demos/prompt-api-playground/"
+      ],
+      imgs: [],
+      ids: [
+        "checking_configuration_support",
+        "monitoring_download_progress",
+        "creating_a_languagemodel_session",
+        "prompting_the_model",
+        "passing_multiple_messages",
+        "streaming_responses",
+        "the_context_window",
+        "cloning_a_session",
+        "cancelling_operations_and_destroying_instances",
+        "complete_example",
+        "html",
+        "javascript",
+        "result",
+        "frame_prompt-example",
+        "complete_streaming_example",
+        "frame_prompt-streaming-example",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/Prompt_API/Adding_context",
+    links: {},
+    data: {
+      metadata: {
+        title: "Adding context with initial and ongoing prompt inputs",
+        pageType: "guide",
+        summary: "In our basic Prompt API guide, we covered everything you need to get up and running with the Prompt API. However, this only really covers creating a generic AI prompt app. To give your app different personalities, get it to respond in different ways, and remember past conversations, you need to provide additional context. The Prompt API has a few different mechanisms to allow you to do this, which are covered in this article.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/prompt_api/adding_context",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Adding context",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "prompt_input_syntax",
+        "user",
+        "assistant",
+        "system",
+        "multiple_inputs",
+        "specifying_input_type",
+        "providing_initial_prompts_during_session_creation",
+        "few-shot_prompts",
+        "initial_and_multiple_inputs_example",
+        "javascript",
+        "result",
+        "frame_rate-my-name",
+        "adding_response_constraints",
+        "a_more_complex_constraint_example",
+        "frame_constraint-example",
+        "appending_extra_messages_to_the_context",
+        "an_append_example",
+        "javascript_2",
+        "result_2",
+        "frame_excerpt-question"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/HkdfParams",
     links: {},
     data: {
@@ -316517,7 +317029,7 @@ This contains the three boolean properties supported, smooth, and powerefficient
         browserCompat: [
           "api.CSSTransformValue.is2D"
         ],
-        summary: "The read-only is2D property of the CSSTransformValue interface returns whether the transform is 2D or 3D.",
+        summary: "The is2D read-only property of the CSSTransformValue interface returns whether the transform is 2D or 3D.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -316701,7 +317213,6 @@ properties in the prototype chain as well).`,
       links: [],
       imgs: [],
       ids: [
-        "interfaces_based_on_csstransformvalue",
         "constructor",
         "csstransformvalue",
         "instance_properties",
@@ -316713,6 +317224,7 @@ properties in the prototype chain as well).`,
         "csstransformvalue.foreach",
         "csstransformvalue.keys",
         "csstransformvalue.values",
+        "interfaces_based_on_csstransformvalue",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -316729,7 +317241,7 @@ properties in the prototype chain as well).`,
         browserCompat: [
           "api.CSSTransformValue.length"
         ],
-        summary: "The read-only length property of the CSSTransformValue interface returns the number of transform components in the list.",
+        summary: "The length read-only property of the CSSTransformValue interface returns the number of transform components in the list.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -319283,7 +319795,7 @@ the idle detector.`,
         browserCompat: [
           "api.CreateMonitor"
         ],
-        summary: "The CreateMonitor interface provides information on the progress of an AI model download or some fine-tuning data for the model.",
+        summary: "The CreateMonitor interface provides information on the progress of an AI model download, for example a language pack or some fine-tuning data.",
         popularity: 0.0010044206186530253,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -319459,9 +319971,7 @@ See Orientation and motion data explained for details.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "requestPermission()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -323374,7 +323884,7 @@ ScrollTimeline interface returns an enumerated value representing the scroll axi
         browserCompat: [
           "api.CSSMathValue.operator"
         ],
-        summary: `The CSSMathValue.operator read-only property of the CSSMathValue interface indicates the operator that the current subtype represents.
+        summary: `The operator read-only property of the CSSMathValue interface indicates the operator that the current subtype represents.
 For example, if the current CSSMathValue subtype is CSSMathSum, this property will return the string "sum".`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -323434,11 +323944,11 @@ For example, if the current CSSMathValue subtype is CSSMathSum, this property wi
       links: [],
       imgs: [],
       ids: [
-        "interfaces_based_on_cssmathvalue",
         "instance_properties",
         "cssmathvalue.operator",
         "static_methods",
         "instance_methods",
+        "interfaces_based_on_cssmathvalue",
         "examples",
         "frame_examples",
         "specifications",
@@ -330537,7 +331047,7 @@ as a string:`,
         browserCompat: [
           "api.CSSMathMin.values"
         ],
-        summary: "The CSSMathMin.values read-only property of the CSSMathMin interface returns a CSSNumericArray object which contains one or more CSSNumericValue objects.",
+        summary: "The values read-only property of the CSSMathMin interface returns a CSSNumericArray containing the CSSNumericValue objects being compared to find the minimum.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -330617,8 +331127,7 @@ as a string:`,
         browserCompat: [
           "api.CSSMathMin"
         ],
-        summary: `The CSSMathMin interface of the CSS Typed Object Model API represents the CSS min() function.
-It inherits properties and methods from its parent CSSNumericValue.`,
+        summary: "The CSSMathMin interface of the CSS Typed Object Model API represents the CSS min() function.",
         popularity: 0.0008934671782204236,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -372506,7 +373015,7 @@ reference to the cell.`,
         browserCompat: [
           "api.CSSMathMax.values"
         ],
-        summary: "The CSSMathMax.values read-only property of the CSSMathMax interface returns a CSSNumericArray object which contains one or more CSSNumericValue objects.",
+        summary: "The values read-only property of the CSSMathMax interface returns a CSSNumericArray containing the CSSNumericValue objects being compared to find the maximum.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -372586,8 +373095,7 @@ reference to the cell.`,
         browserCompat: [
           "api.CSSMathMax"
         ],
-        summary: `The CSSMathMax interface of the CSS Typed Object Model API represents the CSS max() function.
-It inherits properties and methods from its parent CSSNumericValue.`,
+        summary: "The CSSMathMax interface of the CSS Typed Object Model API represents the CSS max() function.",
         popularity: 0.0009051464877396448,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -385734,9 +386242,7 @@ This object can be used to get and set the inline styles of an element.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "packetsSent",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -385990,9 +386496,7 @@ This object can be used to get and set the inline styles of an element.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "packetsReceived",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -389327,8 +389831,7 @@ This is able to abort fetch requests, the consumption of any response bodies, or
         browserCompat: [
           "api.CSSSkewX"
         ],
-        summary: `The CSSSkewX interface of the CSS Typed Object Model API represents the skewX() value of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSSkewX interface of the CSS Typed Object Model API represents the skewX() value of the individual transform property in CSS.",
         popularity: 0.0009109861424992556,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -389352,6 +389855,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "cssskewx",
         "instance_properties",
         "ax",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -412839,7 +413343,9 @@ accessible because of user's permissions.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "issuerCertificateId",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -427117,6 +427623,728 @@ creating the Bézier curve.`,
         "javascript_2",
         "result_2",
         "frame_a_simple_bézier_curve",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/prompt",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: prompt() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.prompt"
+        ],
+        summary: "The prompt() method of the LanguageModel interface sends input to the language model and returns a Promise that resolves with the model's complete response as a string.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/prompt",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "prompt()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-prompt",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "input",
+        "role",
+        "system",
+        "user",
+        "assistant",
+        "content",
+        "type",
+        "audio",
+        "image",
+        "text",
+        "tool-call",
+        "tool-response",
+        "value",
+        "prefix",
+        "options",
+        "responseconstraint",
+        "omitresponseconstraintinput",
+        "signal",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "notallowederror",
+        "notsupportederror",
+        "operationerror",
+        "quotaexceedederror",
+        "syntaxerror",
+        "typeerror",
+        "description",
+        "examples",
+        "basic_text_prompt",
+        "multi-turn_conversation",
+        "constrained_json_output",
+        "cancelling_a_prompt",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/create_static",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: create() static method",
+        pageType: "web-api-static-method",
+        browserCompat: [
+          "api.LanguageModel.create_static"
+        ],
+        summary: "The create() static method of the LanguageModel interface constructs a new LanguageModel instance, automatically downloading the corresponding model data if it is not already available.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/create_static",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "create()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-create",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://www.rfc-editor.org/rfc/rfc5646",
+        "https://www.rfc-editor.org/rfc/rfc5646",
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "options",
+        "expectedinputs",
+        "type",
+        "text",
+        "image",
+        "audio",
+        "tool-call",
+        "tool-response",
+        "languages",
+        "expectedoutputs",
+        "type_2",
+        "text_2",
+        "image_2",
+        "audio_2",
+        "tool-call_2",
+        "tool-response_2",
+        "languages_2",
+        "initialprompts",
+        "role",
+        "system",
+        "user",
+        "assistant",
+        "content",
+        "type_3",
+        "audio_3",
+        "image_3",
+        "text_3",
+        "tool-call_3",
+        "tool-response_3",
+        "value",
+        "prefix",
+        "monitor",
+        "signal",
+        "tools",
+        "name",
+        "description_2",
+        "inputschema",
+        "execute",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "invalidstateerror",
+        "notallowederror",
+        "notsupportederror",
+        "operationerror",
+        "quotaexceedederror",
+        "syntaxerror",
+        "typeerror",
+        "description",
+        "security",
+        "examples",
+        "creating_a_basic_session",
+        "creating_a_session_with_a_system_prompt",
+        "monitoring_download_progress",
+        "providing_few-shot_prompts",
+        "defining_a_tool_with_a_callback",
+        "cancelling_a_session",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/measureContextUsage",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: measureContextUsage() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.measureContextUsage"
+        ],
+        summary: "The measureContextUsage() method of the LanguageModel interface estimates how many context window tokens the given input would consume without sending it to the model or modifying the session's state.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/measurecontextusage",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "measureContextUsage()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-measurecontextusage",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "input",
+        "role",
+        "system",
+        "user",
+        "assistant",
+        "content",
+        "type",
+        "audio",
+        "image",
+        "text",
+        "tool-call",
+        "tool-response",
+        "value",
+        "prefix",
+        "options",
+        "responseconstraint",
+        "omitresponseconstraintinput",
+        "signal",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "notallowederror",
+        "notsupportederror",
+        "syntaxerror",
+        "typeerror",
+        "examples",
+        "warning_when_the_context_is_nearly_full",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/append",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: append() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.append"
+        ],
+        summary: "The append() method of the LanguageModel interface adds content to the session's context window without generating a model response. It returns a Promise that resolves when the content has been successfully loaded into context. Use this method to preload a context before asking the model a question.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/append",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "append()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-append",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "input",
+        "role",
+        "system",
+        "user",
+        "assistant",
+        "content",
+        "type",
+        "audio",
+        "image",
+        "text",
+        "tool-call",
+        "tool-response",
+        "value",
+        "prefix",
+        "options",
+        "signal",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "notallowederror",
+        "notsupportederror",
+        "operationerror",
+        "quotaexceedederror",
+        "syntaxerror",
+        "typeerror",
+        "examples",
+        "append_context_before_prompting",
+        "appending_context_with_an_abort_signal",
+        "checking_context_usage_after_appending",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.LanguageModel"
+        ],
+        summary: "The LanguageModel interface of the Prompt API represents a session with a browser-provided language model. It exposes static methods for creating sessions and checking availability, as well as instance methods for prompting the model, appending context, and managing the context window.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "LanguageModel",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#the-languagemodel-class",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "static_methods",
+        "languagemodel.availability",
+        "languagemodel.create",
+        "instance_methods",
+        "languagemodel.append",
+        "languagemodel.clone",
+        "languagemodel.destroy",
+        "languagemodel.measurecontextusage",
+        "languagemodel.prompt",
+        "languagemodel.promptstreaming",
+        "instance_properties",
+        "languagemodel.contextusage",
+        "languagemodel.contextwindow",
+        "events",
+        "contextoverflow",
+        "examples",
+        "creating_a_session_and_prompting_the_model",
+        "streaming_a_response",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/contextoverflow_event",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: contextoverflow event",
+        pageType: "web-api-event",
+        browserCompat: [
+          "api.LanguageModel.contextoverflow_event"
+        ],
+        summary: "The contextoverflow event fires on a LanguageModel instance when a call to prompt(), promptStreaming(), or append() causes the session's contextUsage to exceed the contextWindow.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/contextoverflow_event",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "contextoverflow",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-oncontextoverflow",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "event_type",
+        "examples",
+        "reacting_to_a_context_overflow",
+        "resetting_the_session_on_overflow",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/promptStreaming",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: promptStreaming() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.promptStreaming"
+        ],
+        summary: "The promptStreaming() method of the LanguageModel interface sends input to the language model and returns a ReadableStream that delivers the model's response incrementally as it is generated.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/promptstreaming",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "promptStreaming()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-promptstreaming",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "input",
+        "role",
+        "system",
+        "user",
+        "assistant",
+        "content",
+        "type",
+        "audio",
+        "image",
+        "text",
+        "tool-call",
+        "tool-response",
+        "value",
+        "prefix",
+        "options",
+        "responseconstraint",
+        "omitresponseconstraintinput",
+        "signal",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "notallowederror",
+        "notsupportederror",
+        "operationerror",
+        "quotaexceedederror",
+        "syntaxerror",
+        "typeerror",
+        "description",
+        "examples",
+        "streaming_a_response_to_the_page",
+        "streaming_with_an_abort_signal",
+        "collecting_streamed_chunks_into_a_single_string",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/availability_static",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: availability() static method",
+        pageType: "web-api-static-method",
+        browserCompat: [
+          "api.LanguageModel.availability_static"
+        ],
+        summary: "The availability() static method of the LanguageModel interface returns a status identifier indicating whether the browser's language model supports a given set of configuration options, without creating a session or triggering a download.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/availability_static",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "availability()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-availability",
+          title: "Prompt API"
+        }
+      ],
+      links: [
+        "https://www.rfc-editor.org/rfc/rfc5646",
+        "https://www.rfc-editor.org/rfc/rfc5646",
+        "https://json-schema.org/"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "options",
+        "expectedinputs",
+        "type",
+        "text",
+        "image",
+        "audio",
+        "tool-call",
+        "tool-response",
+        "languages",
+        "expectedoutputs",
+        "type_2",
+        "text_2",
+        "image_2",
+        "audio_2",
+        "tool-call_2",
+        "tool-response_2",
+        "languages_2",
+        "tools",
+        "name",
+        "description",
+        "inputschema",
+        "execute",
+        "return_value",
+        "available",
+        "downloadable",
+        "downloading",
+        "unavailable",
+        "exceptions",
+        "invalidstateerror",
+        "notallowederror",
+        "examples",
+        "requesting_input_support",
+        "checking_availability_for_a_specific_language",
+        "checking_availability_for_multimodal_input",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/contextUsage",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: contextUsage property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.LanguageModel.contextUsage"
+        ],
+        summary: "The contextUsage read-only property of the LanguageModel interface returns the number of context window tokens currently consumed by the session that calls it, including initial prompts and all subsequent turns.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/contextusage",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "contextUsage",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-contextusage",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "monitoring_context_usage_during_a_conversation",
+        "warning_when_the_context_is_nearly_full",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/clone",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: clone() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.clone"
+        ],
+        summary: "The clone() method of the LanguageModel interface creates a copy of the LanguageModel it is called on, including its full context window state. The cloned session can be used independently without affecting the original.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/clone",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "clone()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-clone",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "options",
+        "signal",
+        "return_value",
+        "exceptions",
+        "aborterror",
+        "notallowederror",
+        "operationerror",
+        "examples",
+        "exploring_multiple_response_paths",
+        "cloning_to_retry_after_a_context_overflow",
+        "cloning_a_session_with_an_abort_signal",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/destroy",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: destroy() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.LanguageModel.destroy"
+        ],
+        summary: "The destroy() method of the LanguageModel interface releases the resources assigned to the LanguageModel instance it is called on and stops any further activity on it. Any ongoing and subsequent method calls made on the LanguageModel will reject with an AbortError.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/destroy",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "destroy()",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/writing-assistance-apis/#dom-destroyablemodel-destroy",
+          title: "Writing Assistance APIs"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "exceptions",
+        "notallowederror",
+        "examples",
+        "basic_destroy_usage",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/LanguageModel/contextWindow",
+    links: {},
+    data: {
+      metadata: {
+        title: "LanguageModel: contextWindow property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.LanguageModel.contextWindow"
+        ],
+        summary: "The contextWindow read-only property of the LanguageModel interface returns the total number of context window tokens available for this session. It is set when the session is created and does not change during the session's lifetime.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/languagemodel/contextwindow",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "contextWindow",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-contextwindow",
+          title: "Prompt API"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "warning_when_the_context_is_nearly_full",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -450461,6 +451689,7 @@ you by the WebXR system.`,
       ids: [
         "concepts_and_usage",
         "interfaces",
+        "createmonitor",
         "languagedetector",
         "translator",
         "http_headers",
@@ -459329,10 +460558,16 @@ element.`,
         }
       ],
       links: [],
-      imgs: [],
+      imgs: [
+        "/en-US/docs/Web/API/Element/mouseleave_event/mouseleave.png",
+        "/en-US/docs/Web/API/Element/mouseleave_event/mouseout.png"
+      ],
       ids: [
         "syntax",
         "event_type",
+        "description",
+        "behavior_of_mouseleave_events",
+        "behavior_of_mouseout_events",
         "examples",
         "mouseleave",
         "html",
@@ -466019,7 +467254,6 @@ This allows structural equality to be tested quickly.`,
       links: [],
       imgs: [],
       ids: [
-        "interfaces_based_on_cssnumericvalue",
         "instance_properties",
         "static_methods",
         "cssnumericvalue.parse",
@@ -466034,6 +467268,7 @@ This allows structural equality to be tested quickly.`,
         "cssnumericvalue.to",
         "cssnumericvalue.tosum",
         "cssnumericvalue.type",
+        "interfaces_based_on_cssnumericvalue",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -478126,7 +479361,7 @@ PageSwapEvent object instance.`,
         browserCompat: [
           "api.CSSNumericArray.length"
         ],
-        summary: "The read-only length property of the CSSNumericArray interface returns the number of CSSNumericValue objects in the list.",
+        summary: "The length read-only property of the CSSNumericArray interface returns the number of CSSNumericValue objects in the list.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -484923,7 +486158,7 @@ This indicates that the MediaSource is ready to receive data from SourceBuffer o
         browserCompat: [
           "api.CSSTranslate.z"
         ],
-        summary: `The z property of the CSSTranslate interface representing the z-component of the translating vector.
+        summary: `The z property of the CSSTranslate interface represents the z-component of the translating vector.
 A positive value moves the element towards the viewer, and a negative value farther away.`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -484961,8 +486196,7 @@ A positive value moves the element towards the viewer, and a negative value fart
         browserCompat: [
           "api.CSSTranslate"
         ],
-        summary: `The CSSTranslate interface of the CSS Typed Object Model API represents the translate() value of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSTranslate interface of the CSS Typed Object Model API represents the translate() value of the individual transform property in CSS.",
         popularity: 0.0008701085591819812,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -484988,6 +486222,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "x",
         "y",
         "z",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -485206,7 +486441,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         browserCompat: [
           "api.CSSMathClamp.value"
         ],
-        summary: "The value read-only property of the CSSMathClamp interface returns a CSSNumericValue object containing the preferred value of a CSSMathClamp object.",
+        summary: "The value read-only property of the CSSMathClamp interface returns a CSSNumericValue instance representing its preferred value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -485228,6 +486463,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -485244,7 +486480,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         browserCompat: [
           "api.CSSMathClamp.lower"
         ],
-        summary: "The lower read-only property of the CSSMathClamp interface returns a CSSNumericValue object containing the minimum value of a CSSMathClamp object.",
+        summary: "The lower read-only property of the CSSMathClamp interface returns a CSSNumericValue object representing its minimum value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -485266,6 +486502,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -485282,7 +486519,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         browserCompat: [
           "api.CSSMathClamp"
         ],
-        summary: "The CSSMathClamp interface of the CSS Typed Object Model API represents the CSS clamp() function. It inherits properties and methods from its parent CSSNumericValue.",
+        summary: "The CSSMathClamp interface of the CSS Typed Object Model API represents the CSS clamp() function.",
         popularity: 0.0008993068329800342,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -485311,6 +486548,12 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "static_methods",
         "instance_methods",
         "examples",
+        "inspecting_a_clamped_value",
+        "html",
+        "css",
+        "javascript",
+        "result",
+        "frame_inspecting_a_clamped_value",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -485355,6 +486598,8 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "exceptions",
         "typeerror",
         "examples",
+        "basic_usage",
+        "handling_incompatible_types",
         "specifications",
         "browser_compatibility"
       ]
@@ -485370,7 +486615,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         browserCompat: [
           "api.CSSMathClamp.upper"
         ],
-        summary: "The upper read-only property of the CSSMathClamp interface returns a CSSNumericValue object containing the maximum value of a CSSMathClamp object.",
+        summary: "The upper read-only property of the CSSMathClamp interface returns a CSSNumericValue object representing its maximum value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -485392,6 +486637,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
       ids: [
         "value",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -490155,7 +491401,7 @@ BroadcastChannel and connects it to the underlying channel.`,
         browserCompat: [
           "api.CSSTransformComponent.is2D"
         ],
-        summary: "The is2D read-only property of the CSSTransformComponent interface indicates where the transform is 2D or 3D.",
+        summary: "The is2D read-only property of the CSSTransformComponent interface indicates whether the transform is 2D or 3D.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -490258,6 +491504,7 @@ BroadcastChannel and connects it to the underlying channel.`,
         "instance_methods",
         "csstransformcomponent.tomatrix",
         "csstransformcomponent.tostring",
+        "interfaces_based_on_csstransformcomponent",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -503028,6 +504275,7 @@ landscape-secondary.`,
       ids: [
         "concepts_and_usage",
         "interfaces",
+        "createmonitor",
         "summarizer",
         "http_headers",
         "permissions-policy",
@@ -504585,7 +505833,7 @@ browser's event loop.`,
         browserCompat: [
           "api.CSSRotate.z"
         ],
-        summary: `The z property of the CSSRotate interface representing the z-component of the translating vector.
+        summary: `The z property of the CSSRotate interface represents the z-component of the translating vector.
 A positive value moves the element towards the viewer and a negative value farther away.`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
@@ -504623,8 +505871,7 @@ A positive value moves the element towards the viewer and a negative value farth
         browserCompat: [
           "api.CSSRotate"
         ],
-        summary: `The CSSRotate interface of the CSS Typed Object Model API represents the rotate value of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSRotate interface of the CSS Typed Object Model API represents the rotate value of the individual transform property in CSS.",
         popularity: 0.0009401844162973084,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -504651,6 +505898,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "y",
         "z",
         "angle",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -510052,7 +511300,7 @@ characters are deleted.`,
         browserCompat: [
           "api.CSSMathSum.values"
         ],
-        summary: "The CSSMathSum.values read-only property of the CSSMathSum interface returns a CSSNumericArray object that contains one or more CSSNumericValue objects.",
+        summary: "The values read-only property of the CSSMathSum interface returns a CSSNumericArray containing the CSSNumericValue objects being summed together.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -529909,7 +531157,7 @@ GPUPipelineError object instance.`,
         browserCompat: [
           "api.CSSMathNegate.value"
         ],
-        summary: "The CSSMathNegate.value read-only property of the CSSMathNegate interface returns a CSSNumericValue object.",
+        summary: "The value read-only property of the CSSMathNegate interface returns the CSSNumericValue that is being negated.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -529946,7 +531194,7 @@ GPUPipelineError object instance.`,
         browserCompat: [
           "api.CSSMathNegate"
         ],
-        summary: "The CSSMathNegate interface of the CSS Typed Object Model API negates the value passed into it. It inherits properties and methods from its parent CSSNumericValue.",
+        summary: "The CSSMathNegate interface of the CSS Typed Object Model API negates the value passed into it.",
         popularity: 0.0008701085591819812,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -542931,7 +544179,9 @@ Messages vary by key system.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "totalFrames",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -543007,7 +544257,9 @@ Messages vary by key system.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "discardedFrames",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -544552,9 +545804,7 @@ the gravitational force, in contrast to DeviceMotionEvent.accelerationIncludingG
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "requestPermission()",
-        status: [
-          "experimental"
-        ]
+        status: []
       },
       flaws: {},
       specifications: [
@@ -559160,7 +560410,7 @@ updateWith() method.`,
         browserCompat: [
           "api.CSSMatrixComponent.matrix"
         ],
-        summary: "The matrix property of the CSSMatrixComponent interface gets and sets a 2D or 3D matrix.",
+        summary: "The matrix property of the CSSMatrixComponent interface represents a DOMMatrix object containing a 2D or 3D matrix.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -559197,8 +560447,7 @@ updateWith() method.`,
         browserCompat: [
           "api.CSSMatrixComponent"
         ],
-        summary: `The CSSMatrixComponent interface of the CSS Typed Object Model API represents the matrix() and matrix3d() values of the individual transform property in CSS.
-It inherits properties and methods from its parent CSSTransformValue.`,
+        summary: "The CSSMatrixComponent interface of the CSS Typed Object Model API represents the matrix() and matrix3d() values of the individual transform property in CSS.",
         popularity: 0.0008817878687012024,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -559222,6 +560471,7 @@ It inherits properties and methods from its parent CSSTransformValue.`,
         "cssmatrixcomponent",
         "instance_properties",
         "matrix",
+        "instance_methods",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -563454,7 +564704,7 @@ directory handle contains a file or directory called the name specified.`,
         browserCompat: [
           "api.CSSMathInvert.value"
         ],
-        summary: "The CSSMathInvert.value read-only property of the CSSMathInvert interface returns a CSSNumericValue object.",
+        summary: "The value read-only property of the CSSMathInvert interface returns the CSSNumericValue that is being inverted.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -563491,8 +564741,7 @@ directory handle contains a file or directory called the name specified.`,
         browserCompat: [
           "api.CSSMathInvert"
         ],
-        summary: `The CSSMathInvert interface of the CSS Typed Object Model API represents a CSS calc() used as calc(1 / <value>).
-It inherits properties and methods from its parent CSSNumericValue.`,
+        summary: "The CSSMathInvert interface of the CSS Typed Object Model API represents a CSS calc() used as calc(1 / <value>).",
         popularity: 0.0009109861424992556,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -580810,31 +582059,15 @@ This allows a browser to display an appropriate virtual keyboard.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -580842,19 +582075,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
           title: "HTML"
         },
         {
@@ -580866,15 +582087,39 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
@@ -580886,31 +582131,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
@@ -580918,23 +582139,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -580942,7 +582147,51 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
         }
       ],
@@ -584994,7 +586243,7 @@ They also commonly use APIs that are restricted to secure contexts.`,
       flaws: {},
       links: [
         "https://w3c.github.io/badging/",
-        "https://web.dev/patterns/web-apps/badges/",
+        "https://web.dev/articles/web-apps/badges",
         "https://developer.chrome.com/docs/capabilities/web-apis/badging-api",
         "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/notifications-badges",
         "https://web.dev/articles/push-notifications-server-codelab"
@@ -593521,6 +594770,12 @@ When users navigate to pages outside the app's scope, they still experience the 
         status: []
       },
       flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://webassembly.github.io/spec/core/syntax/modules.html",
+          title: "Unknown specification"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -593532,7 +594787,8 @@ When users navigate to pages outside the app's scope, they still experience the 
         "global",
         "memory",
         "table",
-        "tag"
+        "tag",
+        "specifications"
       ]
     }
   },
@@ -634133,12 +635389,12 @@ Firefox 150 was released on April 21, 2026.`,
       },
       flaws: {},
       links: [
-        "https://www.color.org/index.xalter",
+        "https://www.color.org/",
         "https://bugzil.la/488800",
-        "https://www.color.org/version4html.xalter",
+        "https://www.color.org/version4html/",
         "https://bholley.wordpress.com/2008/09/12/so-many-colors/",
         "https://johnresig.com/blog/color-profiles/",
-        "https://www.color.org/index.xalter"
+        "https://www.color.org/"
       ],
       imgs: [
         "/en-US/docs/Mozilla/Firefox/Releases/3.5/ICC_color_correction_in_Firefox/iccsample.jpg"
