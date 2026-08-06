@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-myf0f6n4.js";
+} from "./chunk-bqv2sj3h.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -25,6 +25,225 @@ var warnings_processed_default = {
               children: {
                 "3d_on_the_web": {
                   children: {
+                    "building_up_a_basic_demo_with_three.js": {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+</script>`,
+                            "0:0 - 2:9",
+                            `/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+</script>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+
+  const WIDTH = window.innerWidth;
+  const HEIGHT = window.innerHeight;
+
+  const renderer = new THREE.WebGPURenderer({ antialias: true });
+  renderer.setSize(WIDTH, HEIGHT);
+  renderer.setClearColor(0xdddddd, 1);
+  document.body.appendChild(renderer.domElement);
+
+  await renderer.init();
+
+  const scene = new THREE.Scene();
+
+  const camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT);
+  camera.position.z = 50;
+  scene.add(camera);
+
+  const boxGeometry = new THREE.BoxGeometry(10, 10, 10);
+  const basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });
+  const cube = new THREE.Mesh(boxGeometry, basicMaterial);
+  scene.add(cube);
+  cube.rotation.set(0.4, 0.2, 0);
+
+  function render() {
+    requestAnimationFrame(render);
+    renderer.render(scene, camera);
+  }
+  render();
+</script>`,
+                            "0:0 - 30:9",
+                            `/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+
+  const WIDTH = window.innerWidth;
+  const HEIGHT = window.innerHeight;
+
+  const renderer = new THREE.WebGPURenderer({ antialias: true });
+  renderer.setSize(WIDTH, HEIGHT);
+  renderer.setClearColor(0xdddddd, 1);
+  document.body.appendChild(renderer.domElement);
+
+  await renderer.init();
+
+  const scene = new THREE.Scene();
+
+  const camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT);
+  camera.position.z = 50;
+  scene.add(camera);
+
+  const boxGeometry = new THREE.BoxGeometry(10, 10, 10);
+  const basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });
+  const cube = new THREE.Mesh(boxGeometry, basicMaterial);
+  scene.add(cube);
+  cube.rotation.set(0.4, 0.2, 0);
+
+  function render() {
+    requestAnimationFrame(render);
+    renderer.render(scene, camera);
+  }
+  render();
+</script>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+
+  const WIDTH = window.innerWidth;
+  const HEIGHT = window.innerHeight;
+
+  const renderer = new THREE.WebGPURenderer({ antialias: true });
+  renderer.setSize(WIDTH, HEIGHT);
+  renderer.setClearColor(0xdddddd, 1);
+  document.body.appendChild(renderer.domElement);
+
+  await renderer.init();
+
+  const scene = new THREE.Scene();
+
+  const camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT, 0.1, 10000);
+  camera.position.z = 50;
+  scene.add(camera);
+
+  const boxGeometry = new THREE.BoxGeometry(10, 10, 10);
+  const basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });
+  const cube = new THREE.Mesh(boxGeometry, basicMaterial);
+  cube.position.x = -25;
+  cube.rotation.set(0.4, 0.2, 0);
+  scene.add(cube);
+
+  const torusGeometry = new THREE.TorusGeometry(7, 1, 16, 32);
+  const phongMaterial = new THREE.MeshPhongMaterial({ color: 0xff9500 });
+  const torus = new THREE.Mesh(torusGeometry, phongMaterial);
+  torus.rotation.set(0.5, 0.5, 0);
+  scene.add(torus);
+
+  const strangeGeometry = new THREE.DodecahedronGeometry(7);
+  const lambertMaterial = new THREE.MeshLambertMaterial({ color: 0xeaeff2 });
+  const dodecahedron = new THREE.Mesh(strangeGeometry, lambertMaterial);
+  dodecahedron.position.x = 25;
+  scene.add(dodecahedron);
+
+  const light = new THREE.PointLight(0xffffff, 5000);
+  light.position.set(-10, 15, 50);
+  scene.add(light);
+
+  let t = 0;
+  function render() {
+    t += 0.01;
+    requestAnimationFrame(render);
+    cube.rotation.y += 0.01;
+    torus.scale.y = Math.abs(Math.sin(t));
+    dodecahedron.position.y = -7 * Math.sin(t * 2);
+    renderer.render(scene, camera);
+  }
+  render();
+</script>`,
+                            "0:0 - 52:9",
+                            `/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.185.0/three.webgpu.js";
+
+  const WIDTH = window.innerWidth;
+  const HEIGHT = window.innerHeight;
+
+  const renderer = new THREE.WebGPURenderer({ antialias: true });
+  renderer.setSize(WIDTH, HEIGHT);
+  renderer.setClearColor(0xdddddd, 1);
+  document.body.appendChild(renderer.domElement);
+
+  await renderer.init();
+
+  const scene = new THREE.Scene();
+
+  const camera = new THREE.PerspectiveCamera(70, WIDTH / HEIGHT, 0.1, 10000);
+  camera.position.z = 50;
+  scene.add(camera);
+
+  const boxGeometry = new THREE.BoxGeometry(10, 10, 10);
+  const basicMaterial = new THREE.MeshBasicMaterial({ color: 0x0095dd });
+  const cube = new THREE.Mesh(boxGeometry, basicMaterial);
+  cube.position.x = -25;
+  cube.rotation.set(0.4, 0.2, 0);
+  scene.add(cube);
+
+  const torusGeometry = new THREE.TorusGeometry(7, 1, 16, 32);
+  const phongMaterial = new THREE.MeshPhongMaterial({ color: 0xff9500 });
+  const torus = new THREE.Mesh(torusGeometry, phongMaterial);
+  torus.rotation.set(0.5, 0.5, 0);
+  scene.add(torus);
+
+  const strangeGeometry = new THREE.DodecahedronGeometry(7);
+  const lambertMaterial = new THREE.MeshLambertMaterial({ color: 0xeaeff2 });
+  const dodecahedron = new THREE.Mesh(strangeGeometry, lambertMaterial);
+  dodecahedron.position.x = 25;
+  scene.add(dodecahedron);
+
+  const light = new THREE.PointLight(0xffffff, 5000);
+  light.position.set(-10, 15, 50);
+  scene.add(light);
+
+  let t = 0;
+  function render() {
+    t += 0.01;
+    requestAnimationFrame(render);
+    cube.rotation.y += 0.01;
+    torus.scale.y = Math.abs(Math.sin(t));
+    dodecahedron.position.y = -7 * Math.sin(t * 2);
+    renderer.render(scene, camera);
+  }
+  render();
+</script>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     glsl_shaders: {
                       children: {},
                       slug: "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
@@ -293,19 +512,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            camel_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Camel_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             certified: {
               children: {},
               slug: "/en-US/docs/Glossary/Certified",
@@ -386,6 +592,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -480,19 +699,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            exif: {
-              children: {},
-              slug: "/en-US/docs/Glossary/EXIF",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.cipa.jp/e/std/std-sec.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -995,19 +1201,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kebab_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Kebab_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1411,19 +1604,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            snake_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snake_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             soap: {
               children: {},
               slug: "/en-US/docs/Glossary/SOAP",
@@ -1762,6 +1942,13 @@ var warnings_processed_default = {
                           data: [
                             "https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions/",
                             404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://epicspecialeducationstaffing.com/language-deprivation/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -2822,6 +3009,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/controllers/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -2842,6 +3036,19 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4840,6 +5047,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6486,6 +6700,23 @@ li {
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 version_control: {
                   children: {},
@@ -12728,6 +12959,19 @@ textarea:focus {
                               ]
                             }
                           ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -13309,19 +13553,6 @@ body {
                     }
                   }
                 },
-                web_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://resilientwebdesign.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -13790,6 +14021,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15523,42 +15761,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        418
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        418
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                    418
-                  ]
-                }
-              ]
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -15619,6 +15822,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://www.sciencedirect.com/science/article/pii/S0960982217304062?via%3Dihub",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    browsing_safely: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Browsing_safely",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://knowbility.org/",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -15863,6 +16079,27 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pubmed.ncbi.nlm.nih.gov/29374198/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pubmed.ncbi.nlm.nih.gov/31244627/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pubmed.ncbi.nlm.nih.gov/20649469/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -15910,6 +16147,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pubmed.ncbi.nlm.nih.gov/20649469/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -22540,6 +22784,19 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -84555,26 +84812,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    cookies: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/cookies/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cors: {
                       children: {
                         errors: {
@@ -84998,6 +85235,19 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
+                    },
+                    resource_management: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Resource_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://typescript-eslint.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -85101,6 +85351,27 @@ const filteredNumbers = numbers.map((num, index) => {
                                   ]
                                 }
                               ]
+                            }
+                          }
+                        },
+                        intl: {
+                          children: {
+                            displaynames: {
+                              children: {
+                                of: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://unstats.un.org/unsd/methodology/m49/",
+                                        "The operation timed out."
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
                             }
                           }
                         },
@@ -85299,6 +85570,13 @@ let z = 1;
                             {
                               message: "Broken external link",
                               data: [
+                                "https://en.wikipedia.org/wiki/Unicode_character_property",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://2ality.com/2017/07/regexp-unicode-property-escapes.html",
                                 404
                               ]
@@ -85398,19 +85676,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     fonts: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Fonts",
@@ -85528,26 +85793,6 @@ doIt(); // returns "finally"
                             }
                           ]
                         },
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.csail.mit.edu/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -85585,19 +85830,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    referer_header_colon__privacy_and_security_concerns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -85693,17 +85925,7 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -85725,20 +85947,6 @@ doIt(); // returns "finally"
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://gdpr.eu/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://gdpr.eu/article-4-definitions/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 }
@@ -85755,20 +85963,6 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Privacy_primer"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -89074,6 +89268,102 @@ svg.elements.feSpotLight.z`
                                 }
                               ]
                             },
+                            createvirtualpressuresource: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/CreateVirtualPressureSource",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            createvirtualsensor: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/CreateVirtualSensor",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            deletevirtualpressuresource: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/DeleteVirtualPressureSource",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            deletevirtualsensor: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/DeleteVirtualSensor",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
                             forward: {
                               children: {},
                               slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/Forward",
@@ -89226,6 +89516,30 @@ svg.elements.feSpotLight.z`
                                   message: "Code with space",
                                   data: [
                                     "no such window"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            getvirtualsensorinformation: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/GetVirtualSensorInformation",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
                                   ]
                                 },
                                 {
@@ -89424,6 +89738,60 @@ svg.elements.feSpotLight.z`
                                   message: "Code with space",
                                   data: [
                                     "unsupported operation"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            updatevirtualpressuresource: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/UpdateVirtualPressureSource",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "unsupported operation"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "webdriver-command"
+                                  ]
+                                }
+                              ]
+                            },
+                            updatevirtualsensorreading: {
+                              children: {},
+                              slug: "/en-US/docs/Web/WebDriver/Reference/Classic/Commands/UpdateVirtualSensorReading",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid session id"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "invalid argument"
                                   ]
                                 },
                                 {
