@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-g8bs3y8b.js";
+} from "./chunk-tswqbtnn.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -520,7 +520,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 }
               ]
@@ -575,19 +575,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            color_space: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Color_space",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webstore.iec.ch/en/publication/6168",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             color_wheel: {
               children: {},
               slug: "/en-US/docs/Glossary/Color_wheel",
@@ -608,6 +595,36 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            contentful_paint: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Contentful_paint",
+              messages: [
+                {
+                  message: "Code with space",
+                  data: [
+                    "Interaction Contentful Paint"
+                  ]
+                },
+                {
+                  message: "Code with space",
+                  data: [
+                    "soft navigations"
+                  ]
+                },
+                {
+                  message: "Code with space",
+                  data: [
+                    "Element Timing"
+                  ]
+                },
+                {
+                  message: "Broken link",
+                  data: [
+                    "/en-US/docs/Web/HTML/Reference/Elements/svg"
+                  ]
                 }
               ]
             },
@@ -699,32 +716,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            exif: {
-              children: {},
-              slug: "/en-US/docs/Glossary/EXIF",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.cipa.jp/e/std/std-sec.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            favicon: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Favicon",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://favicon.io/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1235,7 +1226,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 }
               ]
@@ -1530,19 +1521,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            "robots.txt": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Robots.txt",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.robotstxt.org/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             router: {
               children: {},
               slug: "/en-US/docs/Glossary/Router",
@@ -1677,7 +1655,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                   ]
                 }
               ]
@@ -2046,7 +2024,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://www.performancehealth.com/adjustable-headpointer",
-                            503
+                            404
                           ]
                         }
                       ]
@@ -3123,6 +3101,27 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4098,10 +4097,10 @@ body {
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://jscamp.tech/2019/",
-                            "The operation timed out."
+                            "https://frontendmasters.com/courses/svelte/",
+                            "https://master.dev/courses/svelte/"
                           ]
                         }
                       ]
@@ -5188,13 +5187,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5306,19 +5298,6 @@ for (let i = 0; i <= 1; i++) {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    loops: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/learning-area/javascript/building-blocks/loops/integer-squares.html",
-                            503
                           ]
                         }
                       ]
@@ -5999,19 +5978,6 @@ caption {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    table_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsbin.com/",
-                            503
                           ]
                         }
                       ]
@@ -6847,19 +6813,6 @@ li {
               children: {
                 "client-side_apis": {
                   children: {
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.flickr.com/photos/easy-pics/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     video_and_audio_apis: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
@@ -12987,26 +12940,6 @@ button:active {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://getlaminas.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://symfony.com/",
-                            520
-                          ]
-                        }
-                      ]
-                    },
                     styling_web_forms: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
@@ -13338,27 +13271,6 @@ button:focus {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://squoosh.app/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://imageengine.io/",
                             "The operation timed out."
                           ]
@@ -13397,6 +13309,19 @@ button:focus {
                               data: [
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html",
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/"
+                              ]
+                            }
+                          ]
+                        },
+                        mongoose: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.rackspace.com/data/rackspace-dbaas",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -13966,19 +13891,6 @@ body {
                 },
                 your_first_website: {
                   children: {
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsbin.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -14185,6 +14097,47 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nova.app/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.panic.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nova.app/help/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.panic.com/nova/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://extensions.panic.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -14442,6 +14395,13 @@ color: rgb(31 41 59 / 26%);
                             "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
                             404
                           ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
+                            "https://photography.tutsplus.com/video/c/production-recording/s/screen-recording"
+                          ]
                         }
                       ]
                     },
@@ -14574,19 +14534,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.chicagomanualofstyle.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -14605,10 +14552,137 @@ color: rgb(31 41 59 / 26%);
           children: {
             "add-ons": {
               children: {
+                contact_us: {
+                  children: {},
+                  slug: "/en-US/docs/Mozilla/Add-ons/Contact_us",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mozilla/addons/issues/new/choose",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
+                },
                 webextensions: {
                   children: {
+                    add_a_button_to_the_toolbar: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     api: {
                       children: {
+                        action: {
+                          children: {
+                            onclicked: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        alarms: {
+                          children: {
+                            clearall: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            onalarm: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        browseraction: {
+                          children: {
+                            onclicked: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -15022,6 +15096,126 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
+                        management: {
+                          children: {
+                            getall: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getAll",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            onenabled: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onEnabled",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            setenabled: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/setEnabled",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        pageaction: {
+                          children: {
+                            hide: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            onclicked: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            show: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         permissions: {
                           children: {
                             remove: {
@@ -15140,6 +15334,32 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             },
+                            geturl: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getURL",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            openoptionspage: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
                             platformnaclarch: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch",
@@ -15152,7 +15372,24 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
                         },
                         scripting: {
                           children: {
@@ -15175,6 +15412,26 @@ color: rgb(31 41 59 / 26%);
                         },
                         storage: {
                           children: {
+                            managed: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -15272,8 +15529,144 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               }
+                            },
+                            sync: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        tabs: {
+                          children: {
+                            create: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            get: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/get",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            onactivated: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            onupdated: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            query: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
+                            update: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
                         },
                         types: {
                           children: {
@@ -15471,6 +15864,26 @@ color: rgb(31 41 59 / 26%);
                         }
                       }
                     },
+                    build_a_cross_browser_extension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mozilla/webextension-polyfill/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mozilla/webextension-polyfill/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     content_scripts: {
                       children: {
                         cloneinto: {
@@ -15509,6 +15922,46 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
+                    examples: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
+                    implement_a_settings_page: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -15527,6 +15980,45 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        action: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        browser_action: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        icons: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         incognito: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito",
@@ -15535,6 +16027,19 @@ webextensions.api.clipboard`,
                               message: "Code with space",
                               data: [
                                 'cache: "no-cache"'
+                              ]
+                            }
+                          ]
+                        },
+                        page_action: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -15603,6 +16108,19 @@ window.addEventListener("message", (event) => {
                         }
                       ]
                     },
+                    native_manifests: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     user_interface: {
                       children: {
                         browser_styles: {
@@ -15620,6 +16138,66 @@ webextensions.manifest.sidebar_action
 webextensions.manifest.options_ui`,
                                 "Expected:",
                                 "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        options_pages: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Options_pages",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        page_actions: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
+                        toolbar_button: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Toolbar_button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -16027,6 +16605,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "67": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.videolan.org/videolan/dav1d",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
                     "107": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/107",
@@ -16036,149 +16627,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://firefox-source-docs.mozilla.org/testing/marionette/SeleniumAtoms.html",
                             "https://firefox-source-docs.mozilla.org/remote/marionette/SeleniumAtoms.html"
-                          ]
-                        }
-                      ]
-                    },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=120",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "122": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=122",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "126": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/126",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=126",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "127": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=127",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "129": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=129",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=130",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "132": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/132",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=132",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "134": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/134",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=134",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=137",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=139",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16203,84 +16651,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "143": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=143",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "144": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=144",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "145": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "146": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/146",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=146",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "147": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/147",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=147",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=148",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -16289,39 +16659,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=149",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "150": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=150",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "151": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/151",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=151",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16515,7 +16852,25 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {},
+          children: {
+            imsc: {
+              children: {
+                imsc_and_other_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
+                        418
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -16810,13 +17165,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.verywellhealth.com/eye-cones-5088699",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
                             403
                           ]
@@ -16826,6 +17174,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           data: [
                             "https://www.smartoptometry.app/red-desaturation/",
                             "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    information_for_web_authors: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Information_for_Web_authors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/GoogleChrome/lighthouse/blob/main/docs/readme.md",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -17124,28 +17485,59 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     }
                   ]
                 },
-                barcode_detection_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Barcode_Detection_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.barcodefaq.com/",
-                        "The operation timed out."
+                cache: {
+                  children: {
+                    put: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Cache/put",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bncb2v.csb.app/",
+                            500
+                          ]
+                        }
                       ]
                     }
-                  ]
+                  }
                 },
-                barcodedetector: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/BarcodeDetector",
+                cachestorage: {
+                  children: {
+                    match: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CacheStorage/match",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bncb2v.csb.app/",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    open: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CacheStorage/open",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bncb2v.csb.app/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CacheStorage",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.barcodefaq.com/",
-                        "The operation timed out."
+                        "https://bncb2v.csb.app/",
+                        500
                       ]
                     }
                   ]
@@ -17186,24 +17578,7 @@ body {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Canvas_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://bucephalus.org/text/CanvasHandbook/CanvasHandbook.html",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 canvasrenderingcontext2d: {
                   children: {
@@ -19160,70 +19535,8 @@ geolocation {
                           ]
                         }
                       ]
-                    },
-                    location_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLGeolocationElement/location_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    permissionstatus: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLGeolocationElement/permissionStatus",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    promptaction_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLGeolocationElement/promptaction_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    promptdismiss_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLGeolocationElement/promptdismiss_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
-                            503
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLGeolocationElement",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mdn.github.io/dom-examples/geolocation-element/embedded-map/",
-                        503
-                      ]
-                    }
-                  ]
+                  }
                 },
                 htmlimageelement: {
                   children: {
@@ -19326,6 +19639,165 @@ output {
                         "api.ReportingObserver.ReportingObserver.options_parameter.types_property.integrity-violation",
                         "Expected:",
                         "api.IntegrityViolationReport"
+                      ]
+                    }
+                  ]
+                },
+                interactioncontentfulpaint: {
+                  children: {
+                    interactionid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/interactionId",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.interactionId"
+                          ]
+                        }
+                      ]
+                    },
+                    largestcontentfulpaint: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/largestContentfulPaint",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.largestContentfulPaint"
+                          ]
+                        }
+                      ]
+                    },
+                    navigationid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/navigationId",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.navigationId"
+                          ]
+                        }
+                      ]
+                    },
+                    painttime: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/paintTime",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Invalid character.",
+                            "## Specifications",
+                            "8:16",
+                            `/en-US/docs/Web/API/InteractionContentfulPaint/paintTime
+[syntax] Parsing error: Invalid character.
+~~~
+const observer = new PerformanceObserver((list) => {
+  for (const entry of list.getEntries()) {
+    console.log('Interaction Contentful Paint:', entry.startTime, entry.paintTime);
+  }
+});
+observer.observe({ type: "interaction-contentful-paint", buffered: true });
+
+## Specifications
+
+If you're able to see this, something went wrong on this page.
+
+## Browser compatibility
+
+If you're able to see this, something went wrong on this page.
+
+## See also
+
+- LargestContentfulPaint.presentationTime~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.paintTime"
+                          ]
+                        }
+                      ]
+                    },
+                    presentationtime: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/presentationTime",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Invalid character.",
+                            "## Specifications",
+                            "8:16",
+                            `/en-US/docs/Web/API/InteractionContentfulPaint/presentationTime
+[syntax] Parsing error: Invalid character.
+~~~
+const observer = new PerformanceObserver((list) => {
+  for (const entry of list.getEntries()) {
+    console.log('Interaction Contentful Paint:', entry.startTime, entry.paintTime);
+  }
+});
+observer.observe({ type: "interaction-contentful-paint", buffered: true });
+
+## Specifications
+
+If you're able to see this, something went wrong on this page.
+
+## Browser compatibility
+
+If you're able to see this, something went wrong on this page.
+
+## See also
+
+- LargestContentfulPaint.presentationTime~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.presentationTime"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/InteractionContentfulPaint",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "Event Timing API"
+                      ]
+                    },
+                    {
+                      message: "Code with space",
+                      data: [
+                        "soft navigation"
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.InteractionContentfulPaint"
                       ]
                     }
                   ]
@@ -20835,6 +21307,165 @@ aside {
                       ]
                     }
                   }
+                },
+                performancesoftnavigation: {
+                  children: {
+                    getlargestinteractioncontentfulpaint: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/getLargestInteractionContentfulPaint",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.getLargestInteractionContentfulPaint"
+                          ]
+                        }
+                      ]
+                    },
+                    interactionid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/interactionId",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.interactionId"
+                          ]
+                        }
+                      ]
+                    },
+                    navigationid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationId",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.navigationId"
+                          ]
+                        }
+                      ]
+                    },
+                    navigationtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationType",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.navigationType"
+                          ]
+                        }
+                      ]
+                    },
+                    painttime: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/paintTime",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Invalid character.",
+                            "## Specifications",
+                            "8:16",
+                            `/en-US/docs/Web/API/PerformanceSoftNavigation/paintTime
+[syntax] Parsing error: Invalid character.
+~~~
+const observer = new PerformanceObserver((list) => {
+  for (const entry of list.getEntries()) {
+    console.log('Soft Nav:', entry.startTime, entry.paintTime);
+  }
+});
+observer.observe({ type: "soft-navigation", buffered: true });
+
+## Specifications
+
+If you're able to see this, something went wrong on this page.
+
+## Browser compatibility
+
+If you're able to see this, something went wrong on this page.
+
+## See also
+
+- LargestContentfulPaint.presentationTime~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.paintTime"
+                          ]
+                        }
+                      ]
+                    },
+                    presentationtime: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/presentationTime",
+                      messages: [
+                        {
+                          message: "Missing BCD table",
+                          data: [
+                            "(key invalid)"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Invalid character.",
+                            "## Specifications",
+                            "8:16",
+                            `/en-US/docs/Web/API/PerformanceSoftNavigation/presentationTime
+[syntax] Parsing error: Invalid character.
+~~~
+const observer = new PerformanceObserver((list) => {
+  for (const entry of list.getEntries()) {
+    console.log('Soft Nav:', entry.startTime, entry.paintTime);
+  }
+});
+observer.observe({ type: "soft-navigation", buffered: true });
+
+## Specifications
+
+If you're able to see this, something went wrong on this page.
+
+## Browser compatibility
+
+If you're able to see this, something went wrong on this page.
+
+## See also
+
+- LargestContentfulPaint.presentationTime~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.presentationTime"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PerformanceSoftNavigation",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.PerformanceSoftNavigation"
+                      ]
+                    }
+                  ]
                 },
                 permissionspolicyviolationreport: {
                   children: {},
@@ -22904,6 +23535,23 @@ async function getSession() {
                     }
                   }
                 },
+                service_worker_api: {
+                  children: {
+                    using_service_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bncb2v.csb.app/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -23208,73 +23856,6 @@ async function getSession() {
                     }
                   ]
                 },
-                usbconfiguration: {
-                  children: {
-                    configurationname: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/USBConfiguration/configurationName",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    configurationvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/USBConfiguration/configurationValue",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    usbconfiguration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/USBConfiguration/USBConfiguration",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/USBConfiguration",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.beyondlogic.org/usbnutshell/usb5.shtml",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 view_transition_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/View_Transition_API",
@@ -23319,26 +23900,6 @@ env(viewport-segment-width 0 1)
                       ]
                     }
                   }
-                },
-                visualviewport: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/VisualViewport",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wicg.github.io/visual-viewport/examples/hide-on-zoom.html",
-                        404
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wicg.github.io/visual-viewport/examples/fixed-to-viewport.html",
-                        404
-                      ]
-                    }
-                  ]
                 },
                 web_animations_api: {
                   children: {
@@ -23526,17 +24087,7 @@ env(viewport-segment-width 0 1)
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -25268,8 +25819,8 @@ body {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
+                                "https://github.com/necolas/normalize.css",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -41103,110 +41654,6 @@ p {
                             }
                           ]
                         },
-                        "@counter-style": {
-                          children: {
-                            "additive-symbols": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/additive-symbols",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            fallback: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/fallback",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            negative: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/negative",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pad: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/pad",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            prefix: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/prefix",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            range: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/range",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "speak-as": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/speak-as",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            suffix: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/suffix",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            symbols: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/symbols",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            system: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style/system",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         "@custom-media": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@custom-media",
@@ -41428,96 +41875,6 @@ p {
                         },
                         "@font-face": {
                           children: {
-                            "ascent-override": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/ascent-override",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "descent-override": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/descent-override",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-display": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-display",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-family": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-family",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-feature-settings": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-feature-settings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-stretch": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-style": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-style",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-variation-settings": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-variation-settings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-weight": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             "font-width": {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-width",
@@ -41527,10 +41884,6 @@ p {
                                   data: [
                                     "CSS info"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 },
                                 {
                                   message: "CSS code issue",
@@ -41682,46 +42035,6 @@ p:nth-child(3) {
                                   ]
                                 }
                               ]
-                            },
-                            "line-gap-override": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/line-gap-override",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "size-adjust": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/size-adjust",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            src: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "unicode-range": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
                             }
                           },
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face",
@@ -41741,48 +42054,10 @@ p:nth-child(3) {
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values/font-display",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "css.at-rules.font-feature-values.font-display"
                                   ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        "@font-palette-values": {
-                          children: {
-                            "base-palette": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/base-palette",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "font-family": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/font-family",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "override-colors": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values/override-colors",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -41898,364 +42173,10 @@ div {
                         },
                         "@media": {
                           children: {
-                            "-moz-device-pixel-ratio": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "-webkit-animation": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-animation",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "-webkit-device-pixel-ratio": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "-webkit-transform-2d": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-2d",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "-webkit-transform-3d": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transform-3d",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "-webkit-transition": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-transition",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "any-hover": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/any-hover",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "any-pointer": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/any-pointer",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "aspect-ratio": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            color: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "color-gamut": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color-gamut",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "color-index": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/color-index",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "device-aspect-ratio": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "device-height": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-height",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "device-posture": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-posture",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "device-width": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/device-width",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "display-mode": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/display-mode",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "dynamic-range": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/dynamic-range",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "forced-colors": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/forced-colors",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            grid: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/grid",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            height: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/height",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "horizontal-viewport-segments": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/horizontal-viewport-segments",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            hover: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/hover",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "inverted-colors": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/inverted-colors",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            monochrome: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/monochrome",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            orientation: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/orientation",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "overflow-block": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/overflow-block",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "overflow-inline": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/overflow-inline",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pointer: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "prefers-color-scheme": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "prefers-contrast": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "prefers-reduced-data": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "prefers-reduced-motion": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "prefers-reduced-transparency": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-transparency",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resolution: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/resolution",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             scan: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scan",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Unexpected BCD keys",
                                   data: [
@@ -42267,127 +42188,15 @@ div {
                                 }
                               ]
                             },
-                            scripting: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scripting",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             shape: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/shape",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "css.at-rules.media.shape"
                                   ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "vertical-viewport-segments": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/vertical-viewport-segments",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "video-dynamic-range": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/video-dynamic-range",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            width: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/width",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        "@page": {
-                          children: {
-                            "page-orientation": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page/page-orientation",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            size: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page/size",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        "@property": {
-                          children: {
-                            inherits: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/inherits",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "initial-value": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/initial-value",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            syntax: {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property/syntax",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -84326,6 +84135,19 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
+                            modulepreload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/modulepreload",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/mdn/js-examples/tree/main/module-examples/basic-modules",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                }
+                              ]
+                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -85356,16 +85178,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        kbd: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         link: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/link",
@@ -85661,26 +85473,6 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    cookies: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/cookies/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -86096,10 +85888,65 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
+                    equality_comparisons_and_sameness: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/dorey",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     modules: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/js-examples/tree/main/module-examples",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/js-examples/tree/main/module-examples/basic-modules",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/docs/options",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/js-examples/tree/main/module-examples/module-aggregation",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/js-examples/tree/main/module-examples/top-level-await",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/js-examples/blob/main/module-examples/top-level-await/modules/canvas.js",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -86182,19 +86029,6 @@ const filteredNumbers = numbers.map((num, index) => {
                             }
                           }
                         },
-                        bigint: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://timing.attacks.cr.yp.to/programming.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         function: {
                           children: {
                             prototype: {
@@ -86221,6 +86055,47 @@ const filteredNumbers = numbers.map((num, index) => {
                                   message: "Not in BCD",
                                   data: [
                                     "javascript.builtins.GeneratorFunction.prototype"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        intl: {
+                          children: {
+                            locale: {
+                              children: {
+                                casefirst: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/caseFirst",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://github.com/unicode-org/cldr/blob/main/common/bcp47/collation.xml",
+                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            supportedvaluesof: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/unicode-org/cldr/blob/main/common/bcp47/calendar.xml",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/unicode-org/cldr/blob/main/common/bcp47/collation.xml",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                                   ]
                                 }
                               ]
@@ -86475,8 +86350,8 @@ let z = 1;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://jsbin.com/",
-                            503
+                            "https://github.com/shelljs/shelljs",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -86537,13 +86412,6 @@ let z = 1;
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://en.wikipedia.org/wiki/Unicode_character_property",
-                                "The operation timed out."
-                              ]
-                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -86644,100 +86512,6 @@ doIt(); // returns "finally"
             },
             mathml: {
               children: {
-                guides: {
-                  children: {
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     global_attributes: {
@@ -86863,19 +86637,6 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
-                    referer_header_colon__privacy_and_security_concerns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -86971,17 +86732,7 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gdpr.eu/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -87003,20 +86754,6 @@ doIt(); // returns "finally"
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://gdpr.eu/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://gdpr.eu/article-4-definitions/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 }
@@ -87033,20 +86770,6 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Privacy_primer"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://gdpr.eu/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -87622,6 +87345,19 @@ doIt(); // returns "finally"
                         }
                       ]
                     },
+                    operational_security: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Defenses/Operational_security",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     secure_contexts: {
                       children: {
                         features_restricted_to_secure_contexts: {
@@ -87635,23 +87371,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       }
-                    }
-                  }
-                },
-                practical_implementation_guides: {
-                  children: {
-                    robots_txt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Robots_txt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.robotstxt.org/robotstxt.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -91316,6 +91035,20 @@ svg.elements.feSpotLight.z`
                       data: [
                         "/en-US/docs/WebAssembly",
                         "#webassembly.threads-and-atomics"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/WebAssembly/bulk-memory-operations/blob/master/proposals/bulk-memory-operations/Overview.md",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/WebAssembly/reference-types/blob/master/proposals/reference-types/Overview.md",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]

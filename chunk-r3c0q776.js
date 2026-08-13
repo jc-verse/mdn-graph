@@ -187,6 +187,35 @@ var nodes_default = [
     }
   },
   {
+    id: "/en-US/docs/Glossary/Contentful_paint",
+    links: {},
+    data: {
+      metadata: {
+        title: "Contentful paint",
+        pageType: "glossary-definition",
+        summary: 'Several performance metrics such as First Contentful Paint (FCP) and Largest Contentful Paint (LCP) use the concept of a "contentful paint".',
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/glossary/contentful_paint",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Contentful paint",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://w3c.github.io/paint-timing/#contentful",
+        "https://w3c.github.io/paint-timing/#timing-eligible",
+        "https://github.com/WICG/container-timing"
+      ],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Glossary/CIA",
     links: null,
     data: {
@@ -2391,7 +2420,7 @@ In modern browsers, it usually is a tab, but it can be a window, a popup, a web 
       metadata: {
         title: "Texel",
         pageType: "glossary-definition",
-        summary: "In 3D graphics, a texel is a single pixel within a texture. Textures are images presented on a polygon's surface within a 3D rendered image. A texture is characterized by a collection of texels, similar to how an image is characterized by a collection of pixels.",
+        summary: 'In 3D graphics, a texel (short for "texture pixel") is an individual element of a texture. A texture consists of a grid of texels, much as a raster image consists of a grid of pixels. Textures are rendered onto 3D surfaces to convey qualities such as color, depth, and reflectivity. Multiple textures may be layered to create complex surface overlays.',
         popularity: 0.0017635757374024048,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -14445,6 +14474,36 @@ This approach is used to improve application performance, especially on initial 
     }
   },
   {
+    id: "/en-US/docs/Glossary/Soft_navigation",
+    links: {},
+    data: {
+      metadata: {
+        title: "Soft navigation",
+        pageType: "glossary-definition",
+        summary: "A soft navigation is a client-side routing navigation used by Single Page Applications (SPAs) to load new content.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/glossary/soft_navigation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Soft navigation",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://en.wikipedia.org/wiki/Single-page_application",
+        "https://react.dev/",
+        "https://angular.dev/",
+        "https://vuejs.org/"
+      ],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Glossary/SRI",
     links: {},
     data: {
@@ -16649,7 +16708,7 @@ JSON does not support all data types allowed by JavaScript, which means that Jav
       metadata: {
         title: "First Contentful Paint (FCP)",
         pageType: "glossary-definition",
-        summary: 'First Contentful Paint (FCP) is when the browser renders the first content from the DOM, providing feedback to the user that the page is loading. Completing the first contentful paint answers the question "Is it happening?"',
+        summary: 'First Contentful Paint (FCP) is a measure of when the browser renders its first DOM content, providing user feedback that the page is loading. Completing the first Contentful paint answers the question "Is anything happening?"',
         popularity: 0.0025928067132671116,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -64814,39 +64873,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -64854,8 +64881,40 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
           title: "CSS Basic User Interface Module Level 4"
         },
         {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
           title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
         }
       ],
       links: [
@@ -94815,6 +94874,8 @@ This can be used to style captions and other cues in media with VTT tracks.`,
         "focus-visible",
         "focus-within",
         "target-current",
+        "top-layer_ancestor_matching_boundary",
+        "frame_matching-boundary",
         "functional_pseudo-classes",
         "is",
         "not",
@@ -116775,35 +116836,7 @@ introduces the different iteration statements available to JavaScript.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116811,7 +116844,11 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -116819,11 +116856,35 @@ introduces the different iteration statements available to JavaScript.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -169440,59 +169501,7 @@ be different.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169500,19 +169509,15 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169520,7 +169525,71 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169528,15 +169597,55 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169552,63 +169661,11 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169616,15 +169673,11 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169632,15 +169685,7 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169648,15 +169693,11 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -169664,8 +169705,28 @@ be different.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
         }
       ],
       links: [],
@@ -194241,6 +194302,14 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
@@ -194249,15 +194318,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
@@ -194591,11 +194652,11 @@ This page describes how users can install such math fonts to properly display Ma
       links: [
         "https://en.wikipedia.org/wiki/Computer_Modern",
         "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-        "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
+        "https://raw.githubusercontent.com/stipub/stixfonts/v2.13b171/zipfiles/static_otf.zip",
         "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-        "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
+        "https://raw.githubusercontent.com/stipub/stixfonts/v2.13b171/zipfiles/static_otf.zip",
         "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-        "https://raw.githubusercontent.com/stipub/stixfonts/master/zipfiles/static_otf.zip",
+        "https://raw.githubusercontent.com/stipub/stixfonts/v2.13b171/zipfiles/static_otf.zip",
         "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
         "https://github.com/notofonts/math/blob/main/documentation/building-math-fonts/index.md",
         "https://www.tug.org/texlive/",
@@ -195996,7 +196057,7 @@ This page describes how users can install such math fonts to properly display Ma
       metadata: {
         title: "Common XSLT Errors",
         pageType: "guide",
-        summary: "Your server needs to send both the source and the stylesheet with a XML mime type, text/xml or application/xml. To find out the current type, load the file in Mozilla and look at the page info. Or use a download tool, those usually tell the mime type.",
+        summary: "Your server needs to send both the source and the stylesheet with an XML mime type, text/xml or application/xml. To find out the current type, load the file in Mozilla and look at the page info. Or use a download tool, those usually tell the mime type.",
         popularity: 0.0010336188924510784,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -203026,6 +203087,14 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
           title: "HTTP Semantics"
         },
@@ -203035,14 +203104,6 @@ Each request method has its own semantics, but some characteristics are shared a
         },
         {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         }
       ],
@@ -214911,6 +214972,7 @@ The header is part of the Device Memory API.`,
         "max-age",
         "s-maxage",
         "no-cache",
+        "must-revalidate",
         "proxy-revalidate",
         "no-store",
         "private",
@@ -230858,6 +230920,251 @@ WindowSharedStorage interface executes a URL Selection operation that is registe
     }
   },
   {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/presentationTime",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: presentationTime property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.presentationTime"
+        ],
+        summary: "The presentationTime read-only property of the PerformanceSoftNavigation interface returns the timestamp of when the painted pixels were actually drawn on the screen.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/presentationtime",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "presentationTime",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.PerformanceSoftNavigation"
+        ],
+        summary: "The PerformanceSoftNavigation interface provides timing information about soft navigations as used by client-side routing on single-page application (SPA) sites. It is emitted when a browser observes a soft navigation to have taken place.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "PerformanceSoftNavigation",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://developer.chrome.com/docs/web-platform/soft-navigations"
+      ],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "performancesoftnavigation.interactionid",
+        "performancesoftnavigation.navigationid",
+        "performancesoftnavigation.navigationtype",
+        "performancesoftnavigation.painttime",
+        "performancesoftnavigation.presentationtime",
+        "performanceentry.entrytype",
+        "performanceentry.duration",
+        "performanceentry.name",
+        "performanceentry.starttime",
+        "instance_methods",
+        "performancesoftnavigation.getlargestinteractioncontentfulpaint",
+        "description",
+        "examples",
+        "observing_soft_navigations",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/getLargestInteractionContentfulPaint",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: getLargestInteractionContentfulPaint() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.getLargestInteractionContentfulPaint"
+        ],
+        summary: "The getLargestInteractionContentfulPaint() method of the PerformanceSoftNavigation interface returns the current largest InteractionContentfulPaint relevant to this soft navigation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/getlargestinteractioncontentfulpaint",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "getLargestInteractionContentfulPaint()",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "using_the_getlargestinteractioncontentfulpaint_method",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/paintTime",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: paintTime property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.paintTime"
+        ],
+        summary: "The paintTime read-only property of the PerformanceSoftNavigation interface returns the timestamp of when the rendering phase ended and the paint phase started.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/painttime",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "paintTime",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationId",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: navigationId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.navigationId"
+        ],
+        summary: "The navigationId read-only property of the PerformanceSoftNavigation interface returns an increasing integer id unique to this page load.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/navigationid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "navigationId",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_navigationid_of_the_soft_navigation",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationType",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: navigationType property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.navigationType"
+        ],
+        summary: "The navigationType read-only property of the PerformanceSoftNavigation interface returns the type of the soft navigation — push, reload, replace, or traverse.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/navigationtype",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "navigationType",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "push",
+        "reload",
+        "replace",
+        "traverse",
+        "examples",
+        "logging_the_navigation_type_of_the_soft_navigation",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/interactionId",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: interactionId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.interactionId"
+        ],
+        summary: "The interactionId read-only property of the PerformanceSoftNavigation interface returns the interactionId of the PerformanceEventTiming entry representing the interaction that resulted in the soft navigation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/interactionid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interactionId",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_interactionid_of_the_soft_navigation",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/CSSPerspective/CSSPerspective",
     links: {},
     data: {
@@ -231359,9 +231666,9 @@ Each window on a page will have a unique VisualViewport representing the propert
       links: [
         "https://mdn.github.io/dom-examples/visual-viewport-api/",
         "https://github.com/WICG/visual-viewport",
-        "https://wicg.github.io/visual-viewport/examples/hide-on-zoom.html",
+        "https://github.com/WICG/visual-viewport/blob/gh-pages/examples/hide-on-zoom.html",
         "https://github.com/WICG/visual-viewport",
-        "https://wicg.github.io/visual-viewport/examples/fixed-to-viewport.html",
+        "https://github.com/WICG/visual-viewport/blob/gh-pages/examples/fixed-to-viewport.html",
         "https://github.com/bokand/bokand.github.io/blob/master/web_viewports_explainer.md"
       ],
       imgs: [],
@@ -290513,7 +290820,6 @@ WheelEvent.deltaMode unit.`,
       links: [],
       imgs: [],
       ids: [
-        "description",
         "instance_properties",
         "largestcontentfulpaint.element",
         "largestcontentfulpaint.rendertime",
@@ -290529,6 +290835,7 @@ WheelEvent.deltaMode unit.`,
         "performanceentry.duration",
         "instance_methods",
         "largestcontentfulpaint.tojson",
+        "description",
         "examples",
         "observing_the_largest_contentful_paint",
         "observing_separate_paint_and_presentation_timings",
@@ -306743,6 +307050,212 @@ If there are multiple container conditions, the value is set to the empty string
     }
   },
   {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/presentationTime",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: presentationTime property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InteractionContentfulPaint.presentationTime"
+        ],
+        summary: "The presentationTime read-only property of the InteractionContentfulPaint interface returns the timestamp of when the painted pixels were actually drawn on the screen.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/presentationtime",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "presentationTime",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/largestContentfulPaint",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: largestContentfulPaint property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InteractionContentfulPaint.largestContentfulPaint"
+        ],
+        summary: "The largestContentfulPaint read-only property of the PerformanceSoftNavigation interface returns the current largest LargestContentfulPaint relevant to this soft navigation.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/largestcontentfulpaint",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "largestContentfulPaint",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_largest_contentful_paint_of_interactioncontentfulpaint",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint",
+        pageType: "web-api-interface",
+        browserCompat: [
+          "api.InteractionContentfulPaint"
+        ],
+        summary: "The InteractionContentfulPaint interface provides timing information about contentful paints attributable to an interaction.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "InteractionContentfulPaint",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [
+        "https://developer.chrome.com/docs/web-platform/soft-navigations"
+      ],
+      imgs: [],
+      ids: [
+        "instance_properties",
+        "interactioncontentfulpaint.interactionid",
+        "interactioncontentfulpaint.largestcontentfulpaint",
+        "interactioncontentfulpaint.navigationid",
+        "interactioncontentfulpaint.painttime",
+        "interactioncontentfulpaint.presentationtime",
+        "performanceentry.entrytype",
+        "performanceentry.duration",
+        "performanceentry.name",
+        "performanceentry.starttime",
+        "description",
+        "relationship_with_event_timing_and_inp",
+        "examples",
+        "observing_interaction_contentful_paints",
+        "observing_interaction_contentful_paints_specific_to_a_soft_navigation",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/paintTime",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: paintTime property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InteractionContentfulPaint.paintTime"
+        ],
+        summary: "The paintTime read-only property of the InteractionContentfulPaint interface returns the timestamp of when the rendering phase ended and the paint phase started.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/painttime",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "paintTime",
+        status: []
+      },
+      flaws: {},
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/navigationId",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: navigationId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InteractionContentfulPaint.navigationId"
+        ],
+        summary: "The navigationId read-only property of the InteractionContentfulPaint interface returns the id of the navigation that this paint is happened under.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/navigationid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "navigationId",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_navigationid_of_interactioncontentfulpaint",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/interactionId",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: interactionId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.InteractionContentfulPaint.interactionId"
+        ],
+        summary: "The interactionId read-only property of the InteractionContentfulPaint interface returns the interactionId of the PerformanceEventTiming entry representing the interaction that resulted in the paint.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/interactionid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "interactionId",
+        status: []
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "examples",
+        "logging_the_interactionid_of_interactioncontentfulpaint",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Web/API/BarProp/visible",
     links: {},
     data: {
@@ -311866,7 +312379,7 @@ of the navigator interface returns a reference to the VirtualKeyboard instance o
       ],
       ids: [
         "value",
-        "example",
+        "examples",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -312418,7 +312931,7 @@ of the navigator interface returns a reference to the VirtualKeyboard instance o
       ],
       ids: [
         "value",
-        "example",
+        "examples",
         "html",
         "javascript",
         "css",
@@ -341200,6 +341713,7 @@ as they normally do.`,
         "create_highlights",
         "register_highlights",
         "style_highlights",
+        "accessibility",
         "interfaces",
         "highlight",
         "highlightregistry",
@@ -355655,12 +356169,7 @@ synchronizing its playback position.`,
           title: "Web Animations"
         }
       ],
-      links: [
-        "https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/",
-        "https://css-tricks.com/introduction-reduced-motion-media-query/",
-        "https://webkit.org/blog/7551/responsive-design-for-motion/",
-        "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "constructor",
@@ -355691,7 +356200,6 @@ synchronizing its playback position.`,
         "cancel",
         "finish",
         "remove",
-        "accessibility_concerns",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -409638,6 +410146,7 @@ interface verifies a digital signature.`,
         "element",
         "event",
         "first-input",
+        "interaction-contentful-paint",
         "largest-contentful-paint",
         "layout-shift",
         "long-animation-frame",
@@ -409647,6 +410156,7 @@ interface verifies a digital signature.`,
         "navigation",
         "paint",
         "resource",
+        "soft-navigation",
         "taskattribution",
         "visibility-state",
         "examples",
@@ -429778,8 +430288,7 @@ creating the Bézier curve.`,
         "a_textbaseline_example",
         "frame_textbaseline",
         "advanced_text_measurements",
-        "measuretext",
-        "accessibility_concerns"
+        "measuretext"
       ]
     }
   },
@@ -429939,6 +430448,7 @@ creating the Bézier curve.`,
       ],
       imgs: [],
       ids: [
+        "accessibility_concerns",
         "basic_example",
         "html",
         "javascript",
@@ -510289,10 +510799,16 @@ return the size of the payload body before removing any applied content encoding
           title: "Web Animations"
         }
       ],
-      links: [],
+      links: [
+        "https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/",
+        "https://css-tricks.com/introduction-reduced-motion-media-query/",
+        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+        "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
+      ],
       imgs: [],
       ids: [
         "concepts_and_usage",
+        "accessibility",
         "web_animations_interfaces",
         "animation",
         "keyframeeffect",
@@ -532846,7 +533362,7 @@ getAll() method instead.`,
         "notfounderror",
         "examples",
         "creating_an_empty_formdata",
-        "prepopulating_from_a_html_form_element",
+        "prepopulating_from_an_html_form_element",
         "html",
         "javascript",
         "result",
@@ -576769,7 +577285,7 @@ This element is most commonly used to link to stylesheets, but is also used to e
         browserCompat: [
           "html.elements.kbd"
         ],
-        summary: "The <kbd> HTML element represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device. By convention, the user agent defaults to rendering the contents of a <kbd> element using its default monospace font, although this is not mandated by the HTML standard.",
+        summary: "The <kbd> HTML element represents user input (typically keyboard input). By default, the content text is displayed using the user agent's default monospace font.",
         popularity: 0.015772907505708263,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -583014,55 +583530,23 @@ This allows a browser to display an appropriate virtual keyboard.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
           title: "HTML"
         },
         {
@@ -583070,7 +583554,15 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
           title: "HTML"
         },
         {
@@ -583082,7 +583574,15 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
           title: "HTML"
         },
         {
@@ -583090,19 +583590,27 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
@@ -583110,11 +583618,23 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
         },
         {
@@ -583122,15 +583642,19 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
           title: "HTML"
         },
         {
@@ -583138,15 +583662,7 @@ This allows a browser to display an appropriate virtual keyboard.`,
           title: "VirtualKeyboard API"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         }
       ],
@@ -594917,7 +595433,7 @@ When users navigate to pages outside the app's scope, they still experience the 
         browserCompat: [
           "webassembly.instructions.any_true"
         ],
-        summary: "The any_true SIMD bitwise instruction tests whether an v128 input value contains any non-zero bits.",
+        summary: "The any_true SIMD bitwise instruction tests whether a v128 input value contains any non-zero bits.",
         popularity: 0.001202968880479786,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
