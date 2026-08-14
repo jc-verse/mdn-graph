@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tswqbtnn.js";
+} from "./chunk-y6hdpjxx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -512,19 +512,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            camel_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Camel_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             certified: {
               children: {},
               slug: "/en-US/docs/Glossary/Certified",
@@ -619,12 +606,6 @@ var warnings_processed_default = {
                   data: [
                     "Element Timing"
                   ]
-                },
-                {
-                  message: "Broken link",
-                  data: [
-                    "/en-US/docs/Web/HTML/Reference/Elements/svg"
-                  ]
                 }
               ]
             },
@@ -635,6 +616,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vuejs.org/svelte",
+                    404
+                  ]
                 }
               ]
             },
@@ -1218,19 +1206,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kebab_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Kebab_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1442,19 +1417,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            progressive_enhancement: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://archive.hankchizljaw.com/wrote/the-power-of-progressive-enhancement/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             promise: {
               children: {},
               slug: "/en-US/docs/Glossary/Promise",
@@ -1644,19 +1606,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            snake_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snake_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
                 }
               ]
             },
@@ -1989,26 +1938,6 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://dequeuniversity.com/library/",
-                            "unable to verify the first certificate"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://dequeuniversity.com/library/",
-                            "unable to verify the first certificate"
-                          ]
-                        }
-                      ]
-                    },
                     what_is_accessibility: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
@@ -2026,20 +1955,17 @@ var warnings_processed_default = {
                             "https://www.performancehealth.com/adjustable-headpointer",
                             404
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.legislation.gov.uk/uksi/2018/952/introduction/made",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dequeuniversity.com/resources/",
-                        "unable to verify the first certificate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 css_layout: {
                   children: {
@@ -2857,291 +2783,18 @@ body {
                     }
                   ]
                 },
-                design_for_developers: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.adhamdannaway.com/blog/ui-design/ui-design-tips",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 frameworks_libraries: {
                   children: {
-                    angular_building: {
+                    react_getting_started: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_building",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    angular_filtering: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_filtering",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    angular_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_getting_started",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    angular_item_component: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_item_component",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    angular_styling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "20%" to be "0.2" (alpha-value-notation)',
-                            "    0 2px 4px 0 rgb(0 0 0 / 20%),",
-                            "8:29 - 8:32",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-.main {
-  max-width: 500px;
-  width: 85%;
-  margin: 2rem auto;
-  padding: 1rem;
-  text-align: center;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-
-@media screen and (width >= 600px) {
-  .main {
-    width: 70%;
-  }
-}
-
-label {
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: block;
-  padding-bottom: 1rem;
-}
-
-.lg-text-input {
-  width: 100%;
-  padding: 1rem;
-  border: 2px solid black;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1rem;
-}
-
-.btn-wrapper {
-  margin-bottom: 2rem;
-}
-
-.btn-menu {
-  flex-basis: 32%;
-}
-
-.active {
-  color: green;
-}
-
-ul {
-  padding-inline-start: 0;
-}
-
-ul li {
-  list-style: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "10%" to be "0.1" (alpha-value-notation)',
-                            "    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);",
-                            "9:33 - 9:36",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
-[alpha-value-notation] Expected "10%" to be "0.1" (alpha-value-notation)
-~~~
-.main {
-  max-width: 500px;
-  width: 85%;
-  margin: 2rem auto;
-  padding: 1rem;
-  text-align: center;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-
-@media screen and (width >= 600px) {
-  .main {
-    width: 70%;
-  }
-}
-
-label {
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: block;
-  padding-bottom: 1rem;
-}
-
-.lg-text-input {
-  width: 100%;
-  padding: 1rem;
-  border: 2px solid black;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1rem;
-}
-
-.btn-wrapper {
-  margin-bottom: 2rem;
-}
-
-.btn-menu {
-  flex-basis: 32%;
-}
-
-.active {
-  color: green;
-}
-
-ul {
-  padding-inline-start: 0;
-}
-
-ul li {
-  list-style: none;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    angular_todo_list_beginning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_todo_list_beginning",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ember_conditional_footer: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_conditional_footer",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ember_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_getting_started",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ember_interactivity_events_state: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_interactivity_events_state",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ember_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_resources",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "https://babeljs.io/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    ember_routing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_routing",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ember_structure_componentization: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_structure_componentization",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -4077,1128 +3730,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    svelte_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_components",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    svelte_deployment_next: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_deployment_next",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://frontendmasters.com/courses/svelte/",
-                            "https://master.dev/courses/svelte/"
-                          ]
-                        }
-                      ]
-                    },
-                    svelte_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    svelte_reactivity_lifecycle_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_reactivity_lifecycle_accessibility",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    svelte_stores: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    svelte_todo_list_beginning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "20%" to be "0.2" (alpha-value-notation)',
-                            "    0 2px 4px 0 rgb(0 0 0 / 20%),",
-                            "161:29 - 161:32",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-/* RESETS */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  appearance: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  font:
-    1.6rem/1.25 "Arial",
-    sans-serif;
-  background-color: whitesmoke;
-  color: #4d4d4d;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* END RESETS */
-
-/* GLOBAL STYLES */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-width: 1px;
-  border-color: lightgray;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  text-decoration: underline;
-  border-color: #4d4d4d;
-}
-.btn__danger {
-  color: white;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  color: white;
-  background-color: black;
-}
-.btn__primary:disabled {
-  color: darkgrey;
-  background-color: #565656;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  margin: 0;
-  flex: 0 0 100%;
-  text-align: center;
-}
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-[class*="stack"] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* END GLOBAL STYLES */
-
-.todoapp {
-  background: white;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.input__lg {
-  padding: 2rem;
-  border: 2px solid black;
-}
-.input__lg:focus {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  width: 100%;
-  font-size: 1.9rem;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-.filters {
-  width: 100%;
-  margin: unset;
-}
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  width: 100%;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 2px solid #565656;
-}
-.todo-text:focus {
-  box-shadow: inset 0 0 0 2px;
-}
-/* CHECKBOX STYLES */
-.c-cb {
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 44px;
-  padding-left: 40px;
-  clear: left;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  opacity: 0;
-}
-.c-cb > label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  content: "";
-  position: absolute;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "10%" to be "0.1" (alpha-value-notation)',
-                            "    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);",
-                            "162:33 - 162:36",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
-[alpha-value-notation] Expected "10%" to be "0.1" (alpha-value-notation)
-~~~
-/* RESETS */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  appearance: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  font:
-    1.6rem/1.25 "Arial",
-    sans-serif;
-  background-color: whitesmoke;
-  color: #4d4d4d;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* END RESETS */
-
-/* GLOBAL STYLES */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-width: 1px;
-  border-color: lightgray;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  text-decoration: underline;
-  border-color: #4d4d4d;
-}
-.btn__danger {
-  color: white;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  color: white;
-  background-color: black;
-}
-.btn__primary:disabled {
-  color: darkgrey;
-  background-color: #565656;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  margin: 0;
-  flex: 0 0 100%;
-  text-align: center;
-}
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-[class*="stack"] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* END GLOBAL STYLES */
-
-.todoapp {
-  background: white;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.input__lg {
-  padding: 2rem;
-  border: 2px solid black;
-}
-.input__lg:focus {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  width: 100%;
-  font-size: 1.9rem;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-.filters {
-  width: 100%;
-  margin: unset;
-}
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  width: 100%;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 2px solid #565656;
-}
-.todo-text:focus {
-  box-shadow: inset 0 0 0 2px;
-}
-/* CHECKBOX STYLES */
-.c-cb {
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 44px;
-  padding-left: 40px;
-  clear: left;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  opacity: 0;
-}
-.c-cb > label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  content: "";
-  position: absolute;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                            "  flex-wrap: wrap;",
-                            "220:3 - 220:12",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
-~~~
-/* RESETS */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  appearance: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  font:
-    1.6rem/1.25 "Arial",
-    sans-serif;
-  background-color: whitesmoke;
-  color: #4d4d4d;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* END RESETS */
-
-/* GLOBAL STYLES */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-width: 1px;
-  border-color: lightgray;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  text-decoration: underline;
-  border-color: #4d4d4d;
-}
-.btn__danger {
-  color: white;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  color: white;
-  background-color: black;
-}
-.btn__primary:disabled {
-  color: darkgrey;
-  background-color: #565656;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  margin: 0;
-  flex: 0 0 100%;
-  text-align: center;
-}
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-[class*="stack"] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* END GLOBAL STYLES */
-
-.todoapp {
-  background: white;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.input__lg {
-  padding: 2rem;
-  border: 2px solid black;
-}
-.input__lg:focus {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  width: 100%;
-  font-size: 1.9rem;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-.filters {
-  width: 100%;
-  margin: unset;
-}
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  width: 100%;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 2px solid #565656;
-}
-.todo-text:focus {
-  box-shadow: inset 0 0 0 2px;
-}
-/* CHECKBOX STYLES */
-.c-cb {
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 44px;
-  padding-left: 40px;
-  clear: left;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  opacity: 0;
-}
-.c-cb > label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  content: "";
-  position: absolute;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    svelte_typescript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_TypeScript",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    svelte_variables_props: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_variables_props",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_computed_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_computed_properties",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_conditional_rendering: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_conditional_rendering",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_first_component: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_first_component",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_getting_started",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_methods_events_models: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_refs_focus_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_refs_focus_management",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_rendering_lists: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_resources",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    vue_styling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -5632,6 +4163,13 @@ button {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://docs.bsky.app/",
+                            "https://bsky.network/"
                           ]
                         }
                       ]
@@ -7138,6 +5676,23 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12927,19 +11482,6 @@ button:active {
                         }
                       ]
                     },
-                    html_forms_in_legacy_browsers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.uxforthemasses.com/forms-usability/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     styling_web_forms: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
@@ -13267,13 +11809,6 @@ button:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://imageengine.io/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -13309,19 +11844,6 @@ button:focus {
                               data: [
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html",
                                 "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/"
-                              ]
-                            }
-                          ]
-                        },
-                        mongoose: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.rackspace.com/data/rackspace-dbaas",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -14060,13 +12582,13 @@ padding-left: 20px;
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
                       ]
                     },
                     {
@@ -14097,47 +12619,6 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nova.app/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.panic.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nova.app/help/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.panic.com/nova/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensions.panic.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -14157,19 +12638,6 @@ padding-left: 20px;
                           data: [
                             "https://github.com/signup",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cyberduck.de/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14214,13 +12682,13 @@ padding-left: 20px;
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Learn_web_development/About"
+                "/en-US/docs/Learn_web_development/Howto"
               ]
             },
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Learn_web_development/Howto"
+                "/en-US/docs/Learn_web_development/About"
               ]
             }
           ]
@@ -14395,13 +12863,6 @@ color: rgb(31 41 59 / 26%);
                             "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
                             404
                           ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
-                            "https://photography.tutsplus.com/video/c/production-recording/s/screen-recording"
-                          ]
                         }
                       ]
                     },
@@ -14552,137 +13013,10 @@ color: rgb(31 41 59 / 26%);
           children: {
             "add-ons": {
               children: {
-                contact_us: {
-                  children: {},
-                  slug: "/en-US/docs/Mozilla/Add-ons/Contact_us",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mozilla/addons/issues/new/choose",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 webextensions: {
                   children: {
-                    add_a_button_to_the_toolbar: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     api: {
                       children: {
-                        action: {
-                          children: {
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        alarms: {
-                          children: {
-                            clearall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onalarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        browseraction: {
-                          children: {
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -14793,20 +13127,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 },
@@ -14827,34 +13147,10 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
-                              messages: [
-                                {
-                                  message: "HTTP link",
-                                  data: [
-                                    "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             panels: {
                               children: {
@@ -15096,126 +13392,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        management: {
-                          children: {
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onEnabled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            setenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/setEnabled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        pageaction: {
-                          children: {
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         permissions: {
                           children: {
                             remove: {
@@ -15334,32 +13510,6 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             },
-                            geturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getURL",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            openoptionspage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
                             platformnaclarch: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch",
@@ -15372,24 +13522,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         scripting: {
                           children: {
@@ -15412,26 +13545,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         storage: {
                           children: {
-                            managed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -15529,144 +13642,8 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               }
-                            },
-                            sync: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        tabs: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/get",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onactivated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         types: {
                           children: {
@@ -15864,26 +13841,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       }
                     },
-                    build_a_cross_browser_extension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mozilla/webextension-polyfill/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mozilla/webextension-polyfill/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     content_scripts: {
                       children: {
                         cloneinto: {
@@ -15922,46 +13879,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    implement_a_settings_page: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -15980,45 +13897,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        browser_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        icons: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         incognito: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito",
@@ -16027,19 +13905,6 @@ webextensions.api.clipboard`,
                               message: "Code with space",
                               data: [
                                 'cache: "no-cache"'
-                              ]
-                            }
-                          ]
-                        },
-                        page_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -16108,19 +13973,6 @@ window.addEventListener("message", (event) => {
                         }
                       ]
                     },
-                    native_manifests: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     user_interface: {
                       children: {
                         browser_styles: {
@@ -16138,66 +13990,6 @@ webextensions.manifest.sidebar_action
 webextensions.manifest.options_ui`,
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        options_pages: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Options_pages",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        page_actions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/chill-out",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        toolbar_button: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Toolbar_button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/themed-icons",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -16460,13 +14252,13 @@ webextensions.manifest.options_ui`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
                           ]
                         }
                       ]
@@ -16601,19 +14393,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://firefox-source-docs.mozilla.org/testing/marionette/index.html",
                             "https://firefox-source-docs.mozilla.org/remote/marionette/index.html"
-                          ]
-                        }
-                      ]
-                    },
-                    "67": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://code.videolan.org/videolan/dav1d",
-                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -16852,25 +14631,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
-                        418
-                      ]
-                    }
-                  ]
-                }
-              }
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -17159,7 +14920,14 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "Broken external link",
                           data: [
                             "https://colortutorial.design/microColorsC.html",
-                            404
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.verywellhealth.com/eye-cones-5088699",
+                            403
                           ]
                         },
                         {
@@ -17172,21 +14940,15 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smartoptometry.app/red-desaturation/",
-                            "The operation timed out."
+                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
+                            403
                           ]
-                        }
-                      ]
-                    },
-                    information_for_web_authors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Information_for_Web_authors",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/GoogleChrome/lighthouse/blob/main/docs/readme.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
+                            403
                           ]
                         }
                       ]
@@ -17240,7 +15002,7 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smartoptometry.app/red-desaturation/",
+                            "https://colortutorial.design/hsb.html",
                             "The operation timed out."
                           ]
                         },
@@ -17248,6 +15010,20 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "Broken external link",
                           data: [
                             "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://colortutorial.design/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
                             403
                           ]
                         },
@@ -17481,63 +15257,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
-                      ]
-                    }
-                  ]
-                },
-                cache: {
-                  children: {
-                    put: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Cache/put",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bncb2v.csb.app/",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                cachestorage: {
-                  children: {
-                    match: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CacheStorage/match",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bncb2v.csb.app/",
-                            500
-                          ]
-                        }
-                      ]
-                    },
-                    open: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CacheStorage/open",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bncb2v.csb.app/",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CacheStorage",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://bncb2v.csb.app/",
-                        500
                       ]
                     }
                   ]
@@ -19167,13 +16886,13 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
+                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
+                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
                       ]
                     }
                   ]
@@ -19340,7 +17059,19 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Events"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Anatomy_of_the_DOM"
                       ]
                     },
                     {
@@ -19353,18 +17084,6 @@ api.DeviceOrientationEvent`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Building_and_updating_the_DOM_tree"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Anatomy_of_the_DOM"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Events"
                       ]
                     }
                   ]
@@ -21619,7 +19338,7 @@ If you're able to see this, something went wrong on this page.
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
+                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
                       ]
                     },
                     {
@@ -21631,7 +19350,7 @@ If you're able to see this, something went wrong on this page.
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
+                        "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
                       ]
                     }
                   ]
@@ -22122,18 +19841,6 @@ button:interest-source {
                 },
                 preferenceobject: {
                   children: {
-                    clearoverride: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceObject/clearOverride",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/PreferenceObject/colorScheme"
-                          ]
-                        }
-                      ]
-                    },
                     requestoverride: {
                       children: {},
                       slug: "/en-US/docs/Web/API/PreferenceObject/requestOverride",
@@ -22155,6 +19862,141 @@ button:interest-source {
                     {
                       message: "Page status not backed by BCD",
                       data: []
+                    }
+                  ]
+                },
+                processinginstruction: {
+                  children: {
+                    getattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/getAttribute",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.getAttribute"
+                          ]
+                        }
+                      ]
+                    },
+                    getattributenames: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/getAttributeNames",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.getAttributeNames"
+                          ]
+                        }
+                      ]
+                    },
+                    hasattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/hasAttribute",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.hasAttribute"
+                          ]
+                        }
+                      ]
+                    },
+                    hasattributes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/hasAttributes",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.hasAttributes"
+                          ]
+                        }
+                      ]
+                    },
+                    processinginstruction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/ProcessingInstruction",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.ProcessingInstruction"
+                          ]
+                        }
+                      ]
+                    },
+                    removeattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/removeAttribute",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.removeAttribute"
+                          ]
+                        }
+                      ]
+                    },
+                    setattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/setAttribute",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.setAttribute"
+                          ]
+                        }
+                      ]
+                    },
+                    toggleattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ProcessingInstruction/toggleAttribute",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.ProcessingInstruction.toggleAttribute"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/ProcessingInstruction",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "Document Object Model (DOM)"
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "parser-error",
+                        'failed to tokenize "<?start na...", state TEXT failed to consume data or change state.',
+                        "<",
+                        "3:5",
+                        `/en-US/docs/Web/API/ProcessingInstruction
+[parser-error] failed to tokenize "<?start na...", state TEXT failed to consume data or change state.
+~~~
+<body>
+  <div>
+    <?start name="placeholder">
+    Loading...
+    <?end>
+  </div>
+  ...
+  <template for="placeholder">
+    Lorem Ipsum...
+  </template>
+  ...
+</body>
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -23229,13 +21071,13 @@ async function getSession() {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Prompt_API/Preserving_sessions"
+                        "/en-US/docs/Web/API/Prompt_API/Multimodal"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Prompt_API/Multimodal"
+                        "/en-US/docs/Web/API/Prompt_API/Preserving_sessions"
                       ]
                     },
                     {
@@ -23535,23 +21377,6 @@ async function getSession() {
                     }
                   }
                 },
-                service_worker_api: {
-                  children: {
-                    using_service_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bncb2v.csb.app/",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -23833,13 +21658,13 @@ async function getSession() {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
                       ]
                     }
                   ]
@@ -23929,6 +21754,12 @@ env(viewport-segment-width 0 1)
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/Web_Animations_API/Tips"
                       ]
                     },
@@ -23936,12 +21767,6 @@ env(viewport-segment-width 0 1)
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts"
                       ]
                     }
                   ]
@@ -24107,7 +21932,7 @@ env(viewport-segment-width 0 1)
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
+                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
                       ]
                     },
                     {
@@ -24119,7 +21944,7 @@ env(viewport-segment-width 0 1)
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
+                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
                       ]
                     }
                   ]
@@ -24163,13 +21988,13 @@ api.Window.sessionStorage`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
+                        "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
+                        "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
                       ]
                     }
                   ]
@@ -24182,6 +22007,18 @@ api.Window.sessionStorage`,
                           children: {},
                           slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers",
                           messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
+                              ]
+                            },
                             {
                               message: "No link to child page",
                               data: [
@@ -24198,18 +22035,6 @@ api.Window.sessionStorage`,
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
                               ]
                             }
                           ]
@@ -24643,13 +22468,13 @@ setTimeout(function () {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
                       ]
                     },
                     {
@@ -24661,7 +22486,7 @@ setTimeout(function () {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
                       ]
                     }
                   ]
@@ -25819,8 +23644,8 @@ body {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://github.com/necolas/normalize.css",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
                               ]
                             }
                           ]
@@ -28107,6 +25932,19 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        relationship_with_other_layout_methods: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ericwbailey.design/published/display-contents-considered-harmful/",
+                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://ericwbailey.design/published/display-contents-considered-harmful/". For more information, pass `verbose: true` in the second argument to fetch()'
                               ]
                             }
                           ]
@@ -42173,6 +40011,19 @@ div {
                         },
                         "@media": {
                           children: {
+                            "prefers-color-scheme": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             scan: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scan",
@@ -54057,43 +51908,7 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/rule-style"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/link-parameters"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/rule"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items"
+                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule"
                           ]
                         },
                         {
@@ -54105,7 +51920,13 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-width"
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-color"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/view-transition-scope"
                           ]
                         },
                         {
@@ -54117,19 +51938,13 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/rule-width"
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-visibility-items"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule"
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule"
                           ]
                         },
                         {
@@ -54141,7 +51956,43 @@ p:has(~ form > input:checked) {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/CSS/Reference/Properties/rule-color"
+                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-color"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-style"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/border-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/rule-width"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/column-rule-visibility-items"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/link-parameters"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/row-rule-width"
                           ]
                         }
                       ]
@@ -55286,6 +53137,13 @@ input[type="submit"]::-moz-focus-inner {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ericwbailey.website/published/dont-use-custom-css-scrollbars/",
+                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://ericwbailey.website/published/dont-use-custom-css-scrollbars/". For more information, pass `verbose: true` in the second argument to fetch()'
+                              ]
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -84135,19 +81993,6 @@ html.elements.textarea.disabled`
                         },
                         rel: {
                           children: {
-                            modulepreload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/modulepreload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/js-examples/tree/main/module-examples/basic-modules",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
                             preload: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
@@ -85477,6 +83322,26 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/cookies/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cors: {
                       children: {
                         errors: {
@@ -85540,7 +83405,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://infocondb.org/con/locomocosec/locomocosec-2019/content-security-policy-a-successful-mess-between-hardening-and-mitigation",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
                     },
                     iframe_credentialless: {
                       children: {},
@@ -85839,6 +83714,24 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "No link to child page",
                           data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Lifetime"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy-Report-Only"
                           ]
                         },
@@ -85851,25 +83744,7 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token-Lifetime"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy-Report-Only"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Private-State-Token"
                           ]
                         },
                         {
@@ -85888,19 +83763,6 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    equality_comparisons_and_sameness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/dorey",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     modules: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
@@ -85908,43 +83770,8 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/js-examples/tree/main/module-examples",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/tree/main/module-examples/basic-modules",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/options",
+                            "https://babeljs.io/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/tree/main/module-examples/module-aggregation",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/tree/main/module-examples/top-level-await",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/js-examples/blob/main/module-examples/top-level-await/modules/canvas.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
@@ -85962,6 +83789,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     classes: {
                       children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         static_initialization_blocks: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks",
@@ -86055,47 +83895,6 @@ const filteredNumbers = numbers.map((num, index) => {
                                   message: "Not in BCD",
                                   data: [
                                     "javascript.builtins.GeneratorFunction.prototype"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        intl: {
-                          children: {
-                            locale: {
-                              children: {
-                                casefirst: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/caseFirst",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://github.com/unicode-org/cldr/blob/main/common/bcp47/collation.xml",
-                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            supportedvaluesof: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/unicode-org/cldr/blob/main/common/bcp47/calendar.xml",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/unicode-org/cldr/blob/main/common/bcp47/collation.xml",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                                   ]
                                 }
                               ]
@@ -86350,8 +84149,8 @@ let z = 1;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/shelljs/shelljs",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://babeljs.io/repl",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -86378,6 +84177,19 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        await: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://typescript-eslint.io/rules/return-await/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -86408,6 +84220,19 @@ let z = 1;
                     },
                     regular_expressions: {
                       children: {
+                        named_capturing_group: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         unicode_character_class_escape: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
@@ -86500,6 +84325,19 @@ function doIt() {
 doIt(); // returns "finally"
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        while: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/docs/latest/rules/no-cond-assign",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -86637,6 +84475,19 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -86732,7 +84583,17 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -86754,6 +84615,20 @@ doIt(); // returns "finally"
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://gdpr.eu/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://gdpr.eu/article-4-definitions/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -86763,13 +84638,27 @@ doIt(); // returns "finally"
                 {
                   message: "No link to child page",
                   data: [
-                    "/en-US/docs/Web/Privacy/Guides"
+                    "/en-US/docs/Web/Privacy/Privacy_primer"
                   ]
                 },
                 {
                   message: "No link to child page",
                   data: [
-                    "/en-US/docs/Web/Privacy/Privacy_primer"
+                    "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -87341,19 +85230,6 @@ doIt(); // returns "finally"
                             "http.mixed-content",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    operational_security: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Operational_security",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/openjs-foundation/security-wg/blob/main/docs/OpenJS_Security_Compliance_Guidelines/v1/readme.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -89274,6 +87150,12 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "No link to child page",
                                   data: [
+                                    "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/traverseHistory"
+                                  ]
+                                },
+                                {
+                                  message: "No link to child page",
+                                  data: [
                                     "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/navigate"
                                   ]
                                 },
@@ -89281,12 +87163,6 @@ svg.elements.feSpotLight.z`
                                   message: "No link to child page",
                                   data: [
                                     "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/reload"
-                                  ]
-                                },
-                                {
-                                  message: "No link to child page",
-                                  data: [
-                                    "/en-US/docs/Web/WebDriver/Reference/BiDi/Modules/browsingContext/traverseHistory"
                                   ]
                                 },
                                 {
@@ -90973,6 +88849,12 @@ svg.elements.feSpotLight.z`
             {
               message: "No link to child page",
               data: [
+                "/en-US/docs/Related"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
                 "/en-US/docs/Mozilla"
               ]
             },
@@ -90980,12 +88862,6 @@ svg.elements.feSpotLight.z`
               message: "No link to child page",
               data: [
                 "/en-US/docs/Games"
-              ]
-            },
-            {
-              message: "No link to child page",
-              data: [
-                "/en-US/docs/Related"
               ]
             },
             {
@@ -91035,20 +88911,6 @@ svg.elements.feSpotLight.z`
                       data: [
                         "/en-US/docs/WebAssembly",
                         "#webassembly.threads-and-atomics"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/bulk-memory-operations/blob/master/proposals/bulk-memory-operations/Overview.md",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WebAssembly/reference-types/blob/master/proposals/reference-types/Overview.md",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -92255,13 +90117,13 @@ svg.elements.feSpotLight.z`
                 {
                   message: "No link to child page",
                   data: [
-                    "/en-US/docs/WebAssembly/Reference/Elem"
+                    "/en-US/docs/WebAssembly/Reference/Data"
                   ]
                 },
                 {
                   message: "No link to child page",
                   data: [
-                    "/en-US/docs/WebAssembly/Reference/Data"
+                    "/en-US/docs/WebAssembly/Reference/Elem"
                   ]
                 }
               ]
