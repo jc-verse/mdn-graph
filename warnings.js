@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-eff4373a.js";
+} from "./chunk-t1gfx0d5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -341,23 +341,6 @@ var warnings_processed_default = {
             },
             tutorials: {
               children: {
-                "2d_breakout_game_phaser": {
-                  children: {
-                    initialize_the_framework: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://phaser.io/download/stable",
-                            "https://phaser.io/download/release/v4.2.1"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 html5_gamedev_phaser_device_orientation: {
                   children: {},
                   slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
@@ -482,19 +465,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            accessibility: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Accessibility",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             blink_element: {
               children: {},
               slug: "/en-US/docs/Glossary/blink_element",
@@ -575,19 +545,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            cls: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CLS",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/vitals",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             color_wheel: {
               children: {},
               slug: "/en-US/docs/Glossary/Color_wheel",
@@ -618,19 +575,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -738,46 +682,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            first_contentful_paint: {
-              children: {},
-              slug: "/en-US/docs/Glossary/First_contentful_paint",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/fcp",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            first_input_delay: {
-              children: {},
-              slug: "/en-US/docs/Glossary/First_input_delay",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/vitals",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/blog/inp-cwv-launch",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/blog/inp-cwv-launch",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             ftu: {
               children: {},
               slug: "/en-US/docs/Glossary/FTU",
@@ -805,19 +709,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            google_chrome: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Google_Chrome",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developer.chrome.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1280,33 +1171,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            interaction_to_next_paint: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Interaction_to_next_paint",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/vitals",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/optimize-inp",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/blog/inp-cwv-launch",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1314,6 +1178,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            leading: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Leading",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://en.wikipedia.org/wiki/Lead",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1720,19 +1597,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -2052,19 +1916,6 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    tooling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     what_is_accessibility: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
@@ -2129,13 +1980,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2912,34 +2756,14 @@ body {
                 },
                 frameworks_libraries: {
                   children: {
-                    introduction: {
+                    react_components: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/v3.3.0/templates/handlebars-basics/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
+                            "https://eslint.org/",
                             "The operation timed out."
                           ]
                         }
@@ -3878,17 +3702,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://emberjs.com/",
-                        "unknown certificate verification error"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 scripting: {
                   children: {
@@ -5294,32 +5108,6 @@ span {
                         }
                       ]
                     },
-                    debugging_css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Debugging_CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/devtools/css/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5867,7 +5655,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://eslint.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/",
                             "The operation timed out."
                           ]
                         }
@@ -5880,15 +5675,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://eslint.org/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://emberjs.com/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -6196,19 +5984,6 @@ button:active {
 </p>
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/learn/forms/form-fields",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11720,45 +11495,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/crux/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/preload-critical-assets",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/preload-critical-assets",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11809,14 +11545,14 @@ textarea:focus {
                   children: {
                     express_nodejs: {
                       children: {
-                        skeleton_website: {
+                        development_environment: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://sass-lang.com/",
+                                "https://eslint.org/",
                                 "The operation timed out."
                               ]
                             }
@@ -12370,10 +12106,63 @@ body {
               children: {
                 environment_setup: {
                   children: {
+                    code_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    command_line: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    dealing_with_files: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/docs/configure/keybindings",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     installing_software: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Redirected external link",
                           data: [
@@ -12391,13 +12180,6 @@ body {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -12627,6 +12409,19 @@ padding-left: 20px;
                         }
                       ]
                     },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     using_github_pages: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Using_GitHub_pages",
@@ -12640,21 +12435,28 @@ padding-left: 20px;
                         }
                       ]
                     },
-                    what_are_browser_developer_tools: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://developer.chrome.com/docs/devtools/dom/",
+                            "https://code.visualstudio.com/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://developer.chrome.com/docs/devtools/console/",
+                            "https://code.visualstudio.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.visualstudio.com/",
                             "The operation timed out."
                           ]
                         }
@@ -12799,19 +12601,6 @@ padding-left: 20px;
                       ]
                     }
                   ]
-                },
-                translated_content: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Translated_content",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mozillajp.slack.com/",
-                        403
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12876,13 +12665,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13055,334 +12837,6 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
-                        alarms: {
-                          children: {
-                            alarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/Alarm",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            clear: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clear",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            clearall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/create",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/get",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onalarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/alarms",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        browsingdata: {
-                          children: {
-                            datatypeset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/DataTypeSet",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removaloptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removecache: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCache",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removecookies: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCookies",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removedownloads: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeDownloads",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removeformdata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeFormData",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removehistory: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeHistory",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removelocalstorage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeLocalStorage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removepasswords: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePasswords",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removeplugindata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePluginData",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            settings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/settings",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/browsingData",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        commands: {
-                          children: {
-                            command: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/Command",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/commands",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/commands",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oncommand: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onCommand",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/commands",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/commands",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -13459,13 +12913,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -13476,13 +12923,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -13493,27 +12933,10 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             network: {
                               children: {
@@ -13526,10 +12949,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
-                                        "https://developer.chrome.com/docs/extensions/reference/api/devtools/network",
-                                        "The operation timed out."
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
                                       ]
                                     }
                                   ]
@@ -13541,13 +12971,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -13560,10 +12983,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
                                       ]
                                     }
                                   ]
@@ -13572,10 +13002,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/devtools/network",
-                                    "The operation timed out."
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
                                   ]
                                 }
                               ]
@@ -13611,13 +13041,6 @@ color: rgb(31 41 59 / 26%);
                                         {
                                           message: "Unreachable via sidebar",
                                           data: []
-                                        },
-                                        {
-                                          message: "Broken external link",
-                                          data: [
-                                            "https://developer.chrome.com/docs/devtools/css/",
-                                            "The operation timed out."
-                                          ]
                                         }
                                       ]
                                     },
@@ -13628,13 +13051,6 @@ color: rgb(31 41 59 / 26%);
                                         {
                                           message: "Unreachable via sidebar",
                                           data: []
-                                        },
-                                        {
-                                          message: "Broken external link",
-                                          data: [
-                                            "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                            "The operation timed out."
-                                          ]
                                         }
                                       ]
                                     }
@@ -13644,13 +13060,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -13745,371 +13154,9 @@ color: rgb(31 41 59 / 26%);
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
+                              }
                             }
                           }
-                        },
-                        downloads: {
-                          children: {
-                            acceptdanger: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/acceptDanger",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            booleandelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/BooleanDelta",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            cancel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/cancel",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            dangertype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DangerType",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            doubledelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DoubleDelta",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            download: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            downloaditem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadItem",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            downloadquery: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadQuery",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            downloadtime: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadTime",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            erase: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/erase",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            filenameconflictaction: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/FilenameConflictAction",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getfileicon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/getFileIcon",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            interruptreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/InterruptReason",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onCreated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onerased: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onErased",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            open: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/open",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            pause: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/pause",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removefile: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/removeFile",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            resume: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/resume",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/search",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            setshelfenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/setShelfEnabled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/show",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            showdefaultfolder: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/showDefaultFolder",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            state: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/State",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            stringdelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/StringDelta",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/downloads",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         events: {
                           children: {
@@ -14191,71 +13238,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         i18n: {
                           children: {
-                            detectlanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/detectLanguage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getacceptlanguages: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getAcceptLanguages",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getMessage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getuilanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getUILanguage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            languagecode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             "locale-specific_message_reference": {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/Locale-Specific_Message_reference",
@@ -14266,214 +13248,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        idle: {
-                          children: {
-                            idlestate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/IdleState",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/idle",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onstatechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/onStateChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/idle",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            querystate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/queryState",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/idle",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            setdetectioninterval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/setDetectionInterval",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/idle",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/idle",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        pageaction: {
-                          children: {
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/mv2/reference/pageAction",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         permissions: {
                           children: {
@@ -14581,19 +13356,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         runtime: {
                           children: {
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/develop/migrate/to-service-workers",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             getdocumentid: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getDocumentId",
@@ -14617,19 +13379,6 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               ]
-                            },
-                            port: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/Port",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/develop/concepts/messaging",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
                             }
                           }
                         },
@@ -14640,13 +13389,6 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ContentScriptFilter",
                               messages: [
                                 {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
                                   message: "Unexpected BCD keys",
                                   data: [
                                     "Actual:",
@@ -14656,253 +13398,8 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               ]
-                            },
-                            executescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/executeScript",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            executionworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ExecutionWorld",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getregisteredcontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/getRegisteredContentScripts",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            injectiontarget: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/InjectionTarget",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            insertcss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/insertCSS",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            registercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/registerContentScripts",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            registeredcontentscript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/RegisteredContentScript",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            removecss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/removeCSS",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            unregistercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/unregisterContentScripts",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            updatecontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/updateContentScripts",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/scripting",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        sessions: {
-                          children: {
-                            filter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Filter",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getrecentlyclosed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getRecentlyClosed",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            max_session_results: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/MAX_SESSION_RESULTS",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/onChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            restore: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/restore",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            session: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Session",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/sessions",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        sidebaraction: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/sidePanel",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         storage: {
                           children: {
@@ -15017,13 +13514,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -15034,13 +13524,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -15051,13 +13534,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 },
@@ -15068,59 +13544,12 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                        "The operation timed out."
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types/BrowserSetting",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/types",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        userscripts: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/userScripts",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         userscripts_legacy: {
                           children: {
@@ -15152,201 +13581,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         webrequest: {
                           children: {
-                            blockingresponse: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/BlockingResponse",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            handlerbehaviorchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/handlerBehaviorChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            httpheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/HttpHeaders",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            max_handler_behavior_changed_calls_per_10_minutes: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onauthrequired: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforeredirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforerequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onbeforesendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onheadersreceived: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onresponsestarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onsendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            requestfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/RequestFilter",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            resourcetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/ResourceType",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             streamfilter: {
                               children: {
                                 close: {
@@ -15460,308 +13694,10 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               }
-                            },
-                            uploaddata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/UploadData",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        windows: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/create",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            createtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/CreateType",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/get",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getCurrent",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            getlastfocused: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getLastFocused",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onboundschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onCreated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onfocuschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onFocusChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onRemoved",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/remove",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/update",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            window: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/Window",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            window_id_current: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_CURRENT",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            window_id_none: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_NONE",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            windowstate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowState",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            windowtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowType",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/reference/api/windows",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         }
                       }
-                    },
-                    build_a_cross_browser_extension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/develop/migrate",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    chrome_incompatibilities: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/reference/api/sidePanel",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/reference/api/declarativeContent",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/reference/manifest/key",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     },
                     content_scripts: {
                       children: {
@@ -15801,32 +13737,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
-                    differences_between_api_implementations: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_API_implementations",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/develop/migrate",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    extending_the_developer_tools: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -15839,19 +13749,6 @@ color: rgb(31 41 59 / 26%);
 webextensions.api.clipboard`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    internationalization: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/extensions/reference/api/i18n",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16345,84 +14242,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "127": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=127",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "132": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/132",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=132",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=137",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=139",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "145": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -16443,13 +14262,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             '{ type: "text" }'
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=152",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -17247,6 +15059,36 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     }
                   ]
                 },
+                bluetooth: {
+                  children: {
+                    requestdevice: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Bluetooth/requestDevice",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.bluetooth.com/specifications/assigned-numbers/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                bluetoothuuid: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/BluetoothUUID",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.bluetooth.com/specifications/assigned-numbers/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 canvas_api: {
                   children: {
                     tutorial: {
@@ -17283,7 +15125,17 @@ body {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Canvas_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://konvajs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 canvasrenderingcontext2d: {
                   children: {
@@ -19131,19 +16983,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                geolocation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -20492,19 +18331,6 @@ aside {
                 },
                 performance_api: {
                   children: {
-                    long_animation_frame_timing: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     monitoring_bfcache_blocking_reasons: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Performance_API/Monitoring_bfcache_blocking_reasons",
@@ -20521,33 +18347,6 @@ aside {
                       ]
                     }
                   }
-                },
-                performancescripttiming: {
-                  children: {
-                    forcedstyleandlayoutduration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceScriptTiming/forcedStyleAndLayoutDuration",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PerformanceScriptTiming",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 performancesoftnavigation: {
                   children: {
@@ -22124,21 +19923,7 @@ button:interest-source {
                   ]
                 },
                 view_transition_api: {
-                  children: {
-                    using_types: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/View_Transition_API/Using_types",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/web-platform/view-transitions/cross-document",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/View_Transition_API",
                   messages: [
                     {
@@ -22783,19 +20568,6 @@ setTimeout(function () {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.clearAppBadge"
-                          ]
-                        }
-                      ]
-                    },
-                    online: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerNavigator/onLine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/workbox/service-worker-overview/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -35892,40 +33664,6 @@ blockquote p::after {
                         }
                       ]
                     },
-                    nesting: {
-                      children: {
-                        using: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Nesting/Using",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/CSS/Guides/Nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     overflow: {
                       children: {
                         carousels: {
@@ -40381,6 +38119,13 @@ p:nth-child(3) {
 ~~~
 `
                                   ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://preset-env.cssdb.org/",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             }
@@ -40754,19 +38499,6 @@ text:nth-of-type(8) {
                               ]
                             }
                           }
-                        },
-                        "aspect-ratio": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
                         },
                         "backdrop-filter": {
                           children: {},
@@ -43050,45 +40782,6 @@ blockquote {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        "break-after": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "break-before": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "break-inside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -46547,6 +44240,19 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        "font-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-width",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://preset-env.cssdb.org/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -53419,13 +51125,6 @@ input[type="submit"]::-moz-focus-inner {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ericwbailey.website/published/dont-use-custom-css-scrollbars/",
-                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://ericwbailey.website/published/dont-use-custom-css-scrollbars/". For more information, pass `verbose: true` in the second argument to fetch()'
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -83303,6 +81002,26 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
+                    evolution_of_http: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3techs.com/technologies/details/ce-http2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3techs.com/technologies/details/ce-http3",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     iframe_credentialless: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/IFrame_credentialless",
@@ -83561,6 +81280,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        vary: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2017/11/understanding-vary-header/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "want-content-digest": {
                           children: {},
@@ -84008,19 +81740,6 @@ let z = 1;
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://runjs.app/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -84043,6 +81762,19 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        await: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://typescript-eslint.io/rules/return-await/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -84077,6 +81809,13 @@ let z = 1;
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://en.wikipedia.org/wiki/Unicode_character_property",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -84165,19 +81904,6 @@ function doIt() {
 doIt(); // returns "finally"
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        while: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/docs/latest/rules/no-cond-assign",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -84306,27 +82032,6 @@ doIt(); // returns "finally"
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    lazy_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Lazy_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/critical-rendering-path/render-blocking-css",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -88687,19 +86392,6 @@ svg.elements.feSpotLight.z`
           children: {
             guides: {
               children: {
-                existing_c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/emscripting-a-c-library",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 understanding_the_text_format: {
                   children: {},
                   slug: "/en-US/docs/WebAssembly/Guides/Understanding_the_text_format",
