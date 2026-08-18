@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kjdxxazp.js";
+} from "./chunk-pmdsns66.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -306,7 +306,28 @@ var warnings_processed_default = {
               }
             },
             tools: {
-              children: {},
+              children: {
+                "asm.js": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Tools/asm.js",
+                  messages: [
+                    {
+                      message: "HTTP link",
+                      data: [
+                        "http://asmjs.org/",
+                        ""
+                      ]
+                    },
+                    {
+                      message: "HTTP link",
+                      data: [
+                        "http://asmjs.org/",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              },
               slug: "/en-US/docs/Games/Tools",
               messages: [
                 {
@@ -320,6 +341,23 @@ var warnings_processed_default = {
             },
             tutorials: {
               children: {
+                "2d_breakout_game_phaser": {
+                  children: {
+                    initialize_the_framework: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://phaser.io/download/stable",
+                            "https://phaser.io/download/release/v4.2.1"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 html5_gamedev_phaser_device_orientation: {
                   children: {},
                   slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
@@ -444,6 +482,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            alpn: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ALPN",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml",
+                    "https://www.iana.org/assignments/tls-extensiontype-values"
+                  ]
+                }
+              ]
+            },
             blink_element: {
               children: {},
               slug: "/en-US/docs/Glossary/blink_element",
@@ -471,19 +522,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            camel_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Camel_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -590,22 +628,19 @@ var warnings_processed_default = {
                 }
               ]
             },
-            developer_tools: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Developer_Tools",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://support.apple.com/en-gb/guide/safari-developer/dev073038698/mac",
-                    "https://support.apple.com/verify-human/v2/verify.html?next=/en-gb/guide/safari-developer/dev073038698/mac"
-                  ]
-                }
-              ]
-            },
             dmz: {
               children: {},
               slug: "/en-US/docs/Glossary/DMZ",
+              messages: [
+                {
+                  message: "Unreachable via page",
+                  data: []
+                }
+              ]
+            },
+            dns_over_https: {
+              children: {},
+              slug: "/en-US/docs/Glossary/DNS_over_HTTPS",
               messages: [
                 {
                   message: "Unreachable via page",
@@ -1163,19 +1198,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kebab_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Kebab_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1234,6 +1256,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            mime_type: {
+              children: {},
+              slug: "/en-US/docs/Glossary/MIME_type",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                    "https://www.iana.org/assignments/media-types"
+                  ]
                 }
               ]
             },
@@ -1428,7 +1463,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://www.alphacodingskills.com/python/python-tutorial.php",
-                    "The operation timed out."
+                    520
                   ]
                 }
               ]
@@ -1576,19 +1611,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            snake_case: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snake_case",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://typescript-eslint.io/rules/naming-convention/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2755,6 +2777,19 @@ body {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge"
+                      ]
+                    }
+                  ]
+                },
+                design_for_developers: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.adhamdannaway.com/blog/ui-design/ui-design-tips",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -11503,6 +11538,37 @@ textarea:focus {
                     }
                   }
                 },
+                "server-side": {
+                  children: {
+                    configuring_server_mime_types: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Configuring_server_MIME_types",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -12045,23 +12111,6 @@ body {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    installing_software: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://support.apple.com/en-gb/guide/preview/welcome/mac",
-                            "https://support.apple.com/verify-human/v2/verify.html?next=/en-gb/guide/preview/welcome/mac"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     workflows_and_processes: {
@@ -12462,6 +12511,19 @@ padding-left: 20px;
                       ]
                     }
                   ]
+                },
+                translated_content: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Translated_content",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://mozillajp.slack.com/",
+                        403
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12534,6 +12596,19 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
+                    document_an_http_header: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Document_an_HTTP_header",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "https://www.iana.org/assignments/http-fields"
+                          ]
+                        }
+                      ]
+                    },
                     images_media: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Images_media",
@@ -13616,6 +13691,19 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        chrome_settings_overrides: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                                "https://www.iana.org/assignments/character-sets"
+                              ]
+                            }
+                          ]
+                        },
                         incognito: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito",
@@ -13769,12 +13857,6 @@ webextensions.manifest.options_ui`,
                       message: "Code with underscore",
                       data: [
                         "mathml.href_link_on_non_anchor_element.disabled"
-                      ]
-                    },
-                    {
-                      message: "Code with underscore",
-                      data: [
-                        "javascript.options.experimental.iterator_includes"
                       ]
                     },
                     {
@@ -14103,19 +14185,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "149": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/149",
@@ -14124,26 +14193,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=149",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "150": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=150",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14156,13 +14205,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             '{ type: "text" }'
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=152",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14344,56 +14386,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        418
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                        418
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7289645",
-                        418
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7290363",
-                        418
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7291854",
-                    418
-                  ]
-                }
-              ]
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -14695,21 +14688,14 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
+                            "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144891",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
                             403
                           ]
                         },
@@ -14783,10 +14769,10 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://www.scientificamerican.com/article/how-the-color-red-influences-our-behavior/",
-                            403
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
                           ]
                         },
                         {
@@ -15019,6 +15005,40 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
+                      ]
+                    }
+                  ]
+                },
+                authenticatorattestationresponse: {
+                  children: {
+                    getpublickeyalgorithm: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/cose/cose.xhtml",
+                            "https://www.iana.org/assignments/cose"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/cose/cose.xhtml",
+                            "https://www.iana.org/assignments/cose"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.iana.org/assignments/cose/cose.xhtml",
+                        "https://www.iana.org/assignments/cose"
                       ]
                     }
                   ]
@@ -18064,6 +18084,23 @@ code {
                     }
                   }
                 },
+                mediarecorder: {
+                  children: {
+                    mimetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/mimeType",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
@@ -18266,6 +18303,30 @@ aside {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                performanceresourcetiming: {
+                  children: {
+                    nexthopprotocol: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceResourceTiming/nextHopProtocol",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml",
+                            "https://www.iana.org/assignments/tls-extensiontype-values"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml",
+                            "https://www.iana.org/assignments/tls-extensiontype-values"
                           ]
                         }
                       ]
@@ -19010,22 +19071,6 @@ button:interest-source {
                     }
                   }
                 },
-                preferenceobject: {
-                  children: {
-                    requestoverride: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PreferenceObject/requestOverride",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/PreferenceObject/colorScheme"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 private_state_token_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Private_State_Token_API",
@@ -19253,6 +19298,26 @@ button:interest-source {
                     }
                   ]
                 },
+                publickeycredentialcreationoptions: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/PublicKeyCredentialCreationOptions",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.iana.org/assignments/webauthn/webauthn.xhtml",
+                        "https://www.iana.org/assignments/webauthn"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.iana.org/assignments/cose/cose.xhtml",
+                        "https://www.iana.org/assignments/cose"
+                      ]
+                    }
+                  ]
+                },
                 publickeycredential: {
                   children: {
                     id: {
@@ -19334,6 +19399,23 @@ button:interest-source {
                           message: "Not in BCD",
                           data: [
                             "api.RTCStatsReport.type_certificate.issuerCertificateId"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtccodecstats: {
+                  children: {
+                    mimetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCCodecStats/mimeType",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
                           ]
                         }
                       ]
@@ -19485,6 +19567,220 @@ button:interest-source {
                     }
                   }
                 },
+                rtcpeerconnectioniceerrorevent: {
+                  children: {
+                    errorcode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCPeerConnectionIceErrorEvent/errorCode",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml",
+                            "https://www.iana.org/assignments/stun-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml",
+                            "https://www.iana.org/assignments/stun-parameters"
+                          ]
+                        }
+                      ]
+                    },
+                    rtcpeerconnectioniceerrorevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCPeerConnectionIceErrorEvent/RTCPeerConnectionIceErrorEvent",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml",
+                            "https://www.iana.org/assignments/stun-parameters"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/RTCPeerConnectionIceErrorEvent",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml",
+                        "https://www.iana.org/assignments/stun-parameters"
+                      ]
+                    }
+                  ]
+                },
+                rtcrtpreceiver: {
+                  children: {
+                    getcapabilities_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getCapabilities_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    },
+                    getparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getParameters",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtcrtpsender: {
+                  children: {
+                    getcapabilities_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/getCapabilities_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    },
+                    getparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/getParameters",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    },
+                    setparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/setParameters",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtcrtptransceiver: {
+                  children: {
+                    setcodecpreferences: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "https://www.iana.org/assignments/rtp-parameters"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -19498,6 +19794,36 @@ button:interest-source {
                             "api.RTCStatsReport.@@iterator",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtctransportstats: {
+                  children: {
+                    dtlscipher: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCTransportStats/dtlsCipher",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml",
+                            "https://www.iana.org/assignments/tls-parameters"
+                          ]
+                        }
+                      ]
+                    },
+                    srtpcipher: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCTransportStats/srtpCipher",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml",
+                            "https://www.iana.org/assignments/srtp-protection"
                           ]
                         }
                       ]
@@ -20090,6 +20416,19 @@ env(viewport-segment-width 0 1)
                           data: []
                         }
                       ]
+                    },
+                    webauthn_extensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/webauthn/webauthn.xhtml",
+                            "https://www.iana.org/assignments/webauthn"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Web_Authentication_API",
@@ -20206,6 +20545,19 @@ api.Window.sessionStorage`,
                         }
                       }
                     },
+                    protocols: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Protocols",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/sip-parameters/sip-parameters.xhtml",
+                            "https://www.iana.org/assignments/sip-parameters"
+                          ]
+                        }
+                      ]
+                    },
                     signaling_and_video_calling: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
@@ -20234,6 +20586,19 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.asyncapi.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webtransportdatagramduplexstream: {
                   children: {
@@ -23820,6 +24185,13 @@ p {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.oddbird.net/2025/04/11/custom-functions/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -32783,6 +33155,13 @@ div {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gradient.style/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -33426,19 +33805,6 @@ body {
                                 "api.MediaQueryList",
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        using_for_accessibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/",
-                                "unknown certificate verification error"
                               ]
                             }
                           ]
@@ -36192,36 +36558,6 @@ div::after {
                         }
                       ]
                     },
-                    shapes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Guides/Shapes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sarasoueidan.com/blog/css-shapes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    text: {
-                      children: {
-                        wrapping_breaking_text: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Text/Wrapping_breaking_text",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     transforms: {
                       children: {
                         using: {
@@ -37655,6 +37991,19 @@ p {
                   children: {
                     "at-rules": {
                       children: {
+                        "@charset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@charset",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                                "https://www.iana.org/assignments/character-sets"
+                              ]
+                            }
+                          ]
+                        },
                         "@color-profile": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@color-profile",
@@ -38210,19 +38559,6 @@ div {
                         },
                         "@media": {
                           children: {
-                            "prefers-reduced-motion": {
-                              children: {},
-                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.a11yproject.com/posts/understanding-vestibular-disorders/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             scan: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scan",
@@ -44198,6 +44534,19 @@ p {
                               ]
                             }
                           }
+                        },
+                        "font-smooth": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-smooth",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.zachleat.com/web/font-smooth/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "font-style": {
                           children: {},
@@ -79634,7 +79983,17 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
+                                "https://www.iana.org/assignments/link-relations"
+                              ]
+                            }
+                          ]
                         },
                         size: {
                           children: {},
@@ -80843,6 +81202,19 @@ html.elements.input.switch`,
               children: {
                 guides: {
                   children: {
+                    authentication: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Authentication",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml",
+                            "https://www.iana.org/assignments/http-authschemes"
+                          ]
+                        }
+                      ]
+                    },
                     browser_detection_using_the_user_agent: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent",
@@ -80886,6 +81258,26 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/cookies/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -80970,6 +81362,103 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    mime_types: {
+                      children: {
+                        common_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                                "https://www.iana.org/assignments/media-types"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/MIME_types",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/media-types/media-types.xhtml",
+                            "https://www.iana.org/assignments/media-types"
+                          ]
+                        }
+                      ]
+                    },
                     network_error_logging: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Network_Error_Logging",
@@ -81006,6 +81495,65 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        "accept-encoding": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Encoding",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            }
+                          ]
+                        },
+                        "accept-patch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            }
+                          ]
+                        },
+                        "accept-post": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Post",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            }
+                          ]
+                        },
+                        "accept-ranges": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Ranges",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            }
+                          ]
+                        },
                         "content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
@@ -81072,6 +81620,19 @@ http.headers.Use-As-Dictionary`,
                                 [
                                   "experimental"
                                 ]
+                              ]
+                            }
+                          ]
+                        },
+                        link: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Link",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
+                                "https://www.iana.org/assignments/link-relations"
                               ]
                             }
                           ]
@@ -81180,17 +81741,49 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        "repr-digest": {
+                        "proxy-authenticate": {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Repr-Digest",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authenticate",
                           messages: [
                             {
                               message: "Redirected external link",
                               data: [
-                                "https://www.rfc-editor.org/rfc/rfc9110",
-                                "https://www.rfc-editor.org/info/rfc9110/"
+                                "https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml",
+                                "https://www.iana.org/assignments/http-authschemes"
                               ]
-                            },
+                            }
+                          ]
+                        },
+                        "proxy-authorization": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authorization",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml",
+                                "https://www.iana.org/assignments/http-authschemes"
+                              ]
+                            }
+                          ]
+                        },
+                        range: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Range",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml",
+                                "https://www.iana.org/assignments/http-parameters"
+                              ]
+                            }
+                          ]
+                        },
+                        "repr-digest": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Repr-Digest",
+                          messages: [
                             {
                               message: "Broken external link",
                               data: [
@@ -81236,6 +81829,32 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://developer.ebay.com/develop/guides/digital-signatures-for-apis",
                                 403
+                              ]
+                            }
+                          ]
+                        },
+                        warning: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Warning",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-warn-codes/http-warn-codes.xhtml",
+                                "https://www.iana.org/assignments/http-warn-codes"
+                              ]
+                            }
+                          ]
+                        },
+                        "www-authenticate": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/WWW-Authenticate",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml",
+                                "https://www.iana.org/assignments/http-authschemes"
                               ]
                             }
                           ]
@@ -81296,6 +81915,33 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Redemption-Record"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "https://www.iana.org/assignments/http-fields"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "https://www.iana.org/assignments/http-fields"
+                          ]
+                        }
+                      ]
+                    },
+                    status: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Reference/Status",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+                            "https://www.iana.org/assignments/http-status-codes"
                           ]
                         }
                       ]
@@ -81667,7 +82313,7 @@ let z = 1;
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/repl",
+                            "https://runjs.app/",
                             "The operation timed out."
                           ]
                         }
@@ -81725,19 +82371,6 @@ let z = 1;
                     },
                     regular_expressions: {
                       children: {
-                        named_capturing_group: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         unicode_character_class_escape: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
@@ -81905,13 +82538,6 @@ doIt(); // returns "finally"
                         {
                           message: "Broken external link",
                           data: [
-                            "https://archive.org/",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://jplayer.org/",
                             "The operation timed out."
                           ]
@@ -81974,6 +82600,19 @@ doIt(); // returns "finally"
               children: {
                 guides: {
                   children: {
+                    referer_header_colon__privacy_and_security_concerns: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -82069,7 +82708,17 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gdpr.eu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -82091,6 +82740,20 @@ doIt(); // returns "finally"
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://gdpr.eu/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://gdpr.eu/article-4-definitions/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -82107,6 +82770,20 @@ doIt(); // returns "finally"
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://gdpr.eu/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -82667,19 +83344,6 @@ doIt(); // returns "finally"
                 },
                 defenses: {
                   children: {
-                    certificate_transparency: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Defenses/Certificate_Transparency",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://support.apple.com/en-gb/103214",
-                            "https://support.apple.com/verify-human/v2/verify.html?next=/en-gb/103214"
-                          ]
-                        }
-                      ]
-                    },
                     mixed_content: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Defenses/Mixed_content",
@@ -82734,17 +83398,7 @@ doIt(); // returns "finally"
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/Security",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://cheatsheetseries.owasp.org/index.html",
-                    503
-                  ]
-                }
-              ]
+              }
             },
             svg: {
               children: {
@@ -83476,6 +84130,108 @@ svg.elements.feSpotLight.z`
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/download"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                tutorials: {
+                  children: {
+                    svg_from_scratch: {
+                      children: {
+                        tools_for_svg: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsxgraph.uni-bayreuth.de/home/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            uri: {
+              children: {
+                reference: {
+                  children: {
+                    schemes: {
+                      children: {
+                        blob: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/blob",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
+                                "https://www.iana.org/assignments/uri-schemes"
+                              ]
+                            }
+                          ]
+                        },
+                        javascript: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/javascript",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
+                                "https://www.iana.org/assignments/uri-schemes"
+                              ]
+                            }
+                          ]
+                        },
+                        resource: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/resource",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
+                                "https://www.iana.org/assignments/uri-schemes"
+                              ]
+                            }
+                          ]
+                        },
+                        urn: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/urn",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml",
+                                "https://www.iana.org/assignments/urn-namespaces"
+                              ]
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
+                                "https://www.iana.org/assignments/uri-schemes"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/URI/Reference/Schemes",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml",
+                            "https://www.iana.org/assignments/uri-schemes"
                           ]
                         }
                       ]
