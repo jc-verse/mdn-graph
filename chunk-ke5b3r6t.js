@@ -18,12 +18,14 @@ var __toESM = (mod, isNodeMode, target) => {
   }
   target = mod != null ? __create(__getProtoOf(mod)) : {};
   const to = isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target;
-  for (let key of __getOwnPropNames(mod))
-    if (!__hasOwnProp.call(to, key))
-      __defProp(to, key, {
-        get: __accessProp.bind(mod, key),
-        enumerable: true
-      });
+  if (mod && typeof mod === "object" || typeof mod === "function") {
+    for (let key of __getOwnPropNames(mod))
+      if (!__hasOwnProp.call(to, key))
+        __defProp(to, key, {
+          get: __accessProp.bind(mod, key),
+          enumerable: true
+        });
+  }
   if (canCache)
     cache.set(mod, to);
   return to;
@@ -31,9 +33,9 @@ var __toESM = (mod, isNodeMode, target) => {
 var __commonJS = (cb, mod) => () => (mod || cb((mod = { exports: {} }).exports, mod), mod.exports);
 // data/last-update.json
 var last_update_default = {
-  commitHash: "dc76065583fc9803bbff63cf3431c36f5419f8f0",
-  commitTimestamp: 1787177332000,
-  buildTimestamp: 1787186296480
+  commitHash: "69010c9e951c5f70694282f5f4980db31d4bcb08",
+  commitTimestamp: 1787269506000,
+  buildTimestamp: 1787272814394
 };
 
 export { __toESM, __commonJS, last_update_default };
