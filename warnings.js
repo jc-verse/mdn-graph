@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-0htwsdmc.js";
+} from "./chunk-9v6q7943.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -696,19 +696,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            favicon: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Favicon",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://favicon.io/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1734,6 +1721,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            web_standards: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Web_standards",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/standards-positions/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -5517,30 +5517,10 @@ button {
                         }
                       ]
                     },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     html_images: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/CC0",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -7378,6 +7358,30 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13164,18 +13168,12 @@ button:active {
 ~~~
 `
                           ]
-                        }
-                      ]
-                    },
-                    html_forms_in_legacy_browsers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.uxforthemasses.com/forms-usability/",
-                            "unknown certificate verification error"
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13911,6 +13909,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -14245,13 +14256,6 @@ padding-left: 20px;
                         "https://github.com/signup",
                         403
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/CC0",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -14359,19 +14363,6 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -14572,19 +14563,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/CC0",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15708,6 +15686,18 @@ webextensions.manifest.options_ui`,
                     {
                       message: "Code with underscore",
                       data: [
+                        "javascript.options.experimental.regexp_buffer_boundaries"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.audio_session.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
                         "security.restrict_to_adults.always"
                       ]
                     },
@@ -16076,6 +16066,18 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference/Statements/import/source"
+                          ]
+                        }
+                      ]
+                    },
+                    "155": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/155",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/WebTransport/draining"
                           ]
                         }
                       ]
@@ -16545,13 +16547,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://linkinghub.elsevier.com/retrieve/pii/S0960982217304062",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -18768,6 +18763,127 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                fence: {
+                  children: {
+                    getnestedconfigs: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/getNestedConfigs",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    reportevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/reportEvent",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    setreporteventdataforautomaticbeacons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Fence",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "experimental"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                fenced_frame_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "experimental"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                fencedframeconfig: {
+                  children: {
+                    setsharedstoragecontext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FencedFrameConfig/setSharedStorageContext",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FencedFrameConfig",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "experimental"
+                        ]
+                      ]
+                    }
+                  ]
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -18868,6 +18984,92 @@ api.DeviceOrientationEvent`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API"
+                      ]
+                    }
+                  ]
+                },
+                htmlfencedframeelement: {
+                  children: {
+                    allow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/allow",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    config: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/config",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    height: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/height",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    width: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/width",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/HTMLFencedFrameElement",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        [
+                          "experimental"
+                        ]
                       ]
                     }
                   ]
@@ -19021,6 +19223,22 @@ output {
                     }
                   ]
                 },
+                htmltemplateelement: {
+                  children: {
+                    htmlfor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTemplateElement/htmlFor",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.HTMLTemplateElement.htmlFor"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 integrityviolationreport: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IntegrityViolationReport",
@@ -19068,18 +19286,6 @@ output {
                         }
                       ]
                     },
-                    navigationid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/navigationId",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.InteractionContentfulPaint.navigationId"
-                          ]
-                        }
-                      ]
-                    },
                     painttime: {
                       children: {},
                       slug: "/en-US/docs/Web/API/InteractionContentfulPaint/paintTime",
@@ -19100,6 +19306,52 @@ output {
                           message: "Not in BCD",
                           data: [
                             "api.InteractionContentfulPaint.presentationTime"
+                          ]
+                        }
+                      ]
+                    },
+                    tojson: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InteractionContentfulPaint/toJSON",
+                      messages: [
+                        {
+                          message: "JSON code issue",
+                          data: [
+                            "syntax",
+                            "JSON Parse error: Unrecognized token '<'",
+                            `{
+  "entryType": "interaction-contentful-paint",
+  "interactionId": 1704,
+  "largestContentfulPaint": <not shown>,
+  "name": "",
+  "navigationId": 2463,
+  "paintTime": 2589.3,
+  "presentationTime": 2616,
+  "startTime": 2226.6,
+}
+`,
+                            null,
+                            `/en-US/docs/Web/API/InteractionContentfulPaint/toJSON
+[syntax] JSON Parse error: Unrecognized token '<'
+~~~
+{
+  "entryType": "interaction-contentful-paint",
+  "interactionId": 1704,
+  "largestContentfulPaint": <not shown>,
+  "name": "",
+  "navigationId": 2463,
+  "paintTime": 2589.3,
+  "presentationTime": 2616,
+  "startTime": 2226.6,
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.InteractionContentfulPaint.toJSON"
                           ]
                         }
                       ]
@@ -20176,6 +20428,23 @@ aside {
                     }
                   }
                 },
+                navigator: {
+                  children: {
+                    getinstalledrelatedapps: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://f-droid.org/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -20201,6 +20470,22 @@ aside {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                performanceentry: {
+                  children: {
+                    navigationid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceEntry/navigationId",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceEntry.navigationId"
                           ]
                         }
                       ]
@@ -20257,18 +20542,6 @@ aside {
                         }
                       ]
                     },
-                    navigationid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationId",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.PerformanceSoftNavigation.navigationId"
-                          ]
-                        }
-                      ]
-                    },
                     navigationtype: {
                       children: {},
                       slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationType",
@@ -20301,6 +20574,18 @@ aside {
                           message: "Not in BCD",
                           data: [
                             "api.PerformanceSoftNavigation.presentationTime"
+                          ]
+                        }
+                      ]
+                    },
+                    tojson: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceSoftNavigation/toJSON",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.PerformanceSoftNavigation.toJSON"
                           ]
                         }
                       ]
@@ -22091,6 +22376,19 @@ const fingerprintsFromServer = [/* … */];
                     }
                   ]
                 },
+                topics_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Topics_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/standards-positions/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -22246,13 +22544,6 @@ env(viewport-segment-width 0 1)
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -22498,6 +22789,27 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        getting_started_with_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -22582,19 +22894,6 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.asyncapi.com/blog/websocket-part2",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 webtransport_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/WebTransport_API",
@@ -22677,6 +22976,23 @@ api.Window.sessionStorage`,
                 },
                 window: {
                   children: {
+                    fence: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/fence",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
                     requestresize: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/requestResize",
@@ -24167,23 +24483,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    cascade: {
-                      children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.thoughtco.com/user-style-sheet-3469931",
-                                403
                               ]
                             }
                           ]
@@ -27496,19 +27795,10 @@ blockquote p::after {
                                 "declaration-block-no-redundant-longhand-properties",
                                 'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
                                 "  grid-column-end: 4;",
-                                "3:3 - 3:18",
+                                "24:3 - 24:18",
                                 `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -27531,7 +27821,12 @@ blockquote p::after {
 }
 
 .box1 {
-  grid-column: 1 / 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nested {
@@ -27550,19 +27845,10 @@ blockquote p::after {
                                 "declaration-block-no-redundant-longhand-properties",
                                 'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
                                 "  grid-row-end: 3;",
-                                "5:3 - 5:15",
+                                "26:3 - 26:15",
                                 `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -27585,7 +27871,12 @@ blockquote p::after {
 }
 
 .box1 {
-  grid-column: 1 / 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nested {
@@ -27604,19 +27895,10 @@ blockquote p::after {
                                 "declaration-block-no-redundant-longhand-properties",
                                 'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
                                 "  grid-row-end: 3;",
-                                "5:3 - 5:15",
+                                "26:3 - 26:15",
                                 `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -27639,7 +27921,12 @@ blockquote p::after {
 }
 
 .box1 {
-  grid-column: 1 / 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nested {
@@ -40065,6 +40352,13 @@ section {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -40840,13 +41134,6 @@ p:nth-child(3) {
 ~~~
 `
                                   ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://preset-env.cssdb.org/",
-                                    "The operation timed out."
-                                  ]
                                 }
                               ]
                             }
@@ -40985,7 +41272,7 @@ div {
                                 {
                                   message: "Broken external link",
                                   data: [
-                                    "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                                    "https://www.a11yproject.com/posts/understanding-vestibular-disorders/",
                                     "The operation timed out."
                                   ]
                                 }
@@ -41210,15 +41497,24 @@ text:nth-of-type(8) {
                             }
                           ]
                         },
-                        animation: {
+                        all: {
                           children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/all",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Text stuck to code/link",
                               data: [
-                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                                "The operation timed out."
+                                "CSS",
+                                "Text after link:",
+                                "shorthand"
+                              ]
+                            },
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "shorthand",
+                                "Text before link:",
+                                "CSS"
                               ]
                             }
                           ]
@@ -47283,14 +47579,6 @@ div > div {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-line-count",
                           messages: [
                             {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "column",
-                                "Text after code:",
-                                "and a "
-                              ]
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "property-no-unknown",
@@ -48168,19 +48456,6 @@ p {
                             {
                               message: "Try it should not have content",
                               data: []
-                            }
-                          ]
-                        },
-                        "font-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-width",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://preset-env.cssdb.org/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -53617,6 +53892,19 @@ div {
                             }
                           ]
                         },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-transform.moro.es/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "transform-origin": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
@@ -55566,12 +55854,6 @@ input[type="submit"]::-moz-focus-inner {
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
                           messages: [
                             {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -55687,6 +55969,13 @@ dialog::backdrop {
                             {
                               message: "Try it should not have content",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2022/06/guide-windows-high-contrast-mode/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -58199,6 +58488,13 @@ div.legacyHSLA {
 }
 ~~~
 `
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://apps.colorjs.io/picker/",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                                   ]
                                 }
                               ]
@@ -79678,6 +79974,23 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
+                        fencedframe: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/fencedframe",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "deprecated"
+                                ],
+                                [
+                                  "experimental"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
                         fieldset: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/fieldset",
@@ -80357,6 +80670,155 @@ button {
                             {
                               message: "Try it should not have content",
                               data: []
+                            }
+                          ]
+                        },
+                        template: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/template",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<?marker n...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "3:5",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[parser-error] failed to tokenize "<?marker n...", state TEXT failed to consume data or change state.
+~~~
+<body>
+  <div>
+    <?marker name="placeholder">
+  </div>
+  ...
+  <template for="placeholder">Lorem Ipsum...</template>
+  ...
+</body>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<?start na...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "3:5",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[parser-error] failed to tokenize "<?start na...", state TEXT failed to consume data or change state.
+~~~
+<body>
+  <div>
+    <?start name="placeholder">
+    Loading...
+    <?end>
+  </div>
+  ...
+  <template for="placeholder">Lorem Ipsum...</template>
+  ...
+</body>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<?start na...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "3:3",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[parser-error] failed to tokenize "<?start na...", state TEXT failed to consume data or change state.
+~~~
+<head>
+  ...
+  <?start name="title"><title>Loading...</title><?end>
+  <?start name="meta-description"><meta name="description" contents="Loading..."><?end>
+  ...
+</head>
+<body>
+  ...
+  <template for="title"><title>The actual title of the page</title></template>
+  <template for="meta-description"><meta name="description" contents="This is a meaningful description..."></template>
+  ...
+</body>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "void-style",
+                                "Expected self-closing element <meta/> instead of omitted end-tag <meta>",
+                                ">",
+                                "4:74",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[void-style] Expected self-closing element <meta/> instead of omitted end-tag <meta>
+~~~
+<head>
+  ...
+  <title>The actual title of the page</title>
+  <meta name="description" contents="This is a meaningful description...">
+  ...
+</head>
+<body>
+  ...
+</body>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<?start na...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "3:3",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[parser-error] failed to tokenize "<?start na...", state TEXT failed to consume data or change state.
+~~~
+<head>
+  ...
+  <?start name="title">
+  <title>Loading...</title>
+  <?end>
+  ...
+</head>
+<body>
+  ...
+  <template for="title"><?start name="title"><title>The actual title of the page</title><?end></template>
+  ...
+</body>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<?start na...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "3:3",
+                                `/en-US/docs/Web/HTML/Reference/Elements/template
+[parser-error] failed to tokenize "<?start na...", state TEXT failed to consume data or change state.
+~~~
+<head>
+  ...
+  <?start name="title"><title>The actual title of the page</title><?end>
+  ...
+</head>
+<body>
+  ...
+</body>
+~~~
+`
+                              ]
                             }
                           ]
                         },
@@ -81261,6 +81723,19 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
+                    },
+                    using_promises: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.izs.me/2013/08/designing-apis-for-asynchrony/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -81434,6 +81909,114 @@ const filteredNumbers = numbers.map((num, index) => {
                         },
                         object: {
                           children: {}
+                        },
+                        promise: {
+                          children: {
+                            allkeyed: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allKeyed",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "symbol-description",
+                                    "Expected Symbol to have a description.",
+                                    "const sym = Symbol();",
+                                    "5:13 - 5:21",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allKeyed
+[symbol-description] Expected Symbol to have a description.
+~~~
+function delayed(value, timeout) {
+  return new Promise((res) => setTimeout(() => res(value), timeout));
+}
+
+const sym = Symbol();
+
+const promises = {
+  a: delayed("a", 500),
+  // Symbol properties are processed
+  [sym]: delayed("symbol", 300),
+  // Nested properties are not processed; this whole object is treated as
+  // an already-resolved value and returned as-is
+  nested: {
+    b: delayed("b", 100),
+  },
+};
+
+const result = await Promise.allKeyed(promises);
+console.log(result);
+// {
+//   a: "a",
+//   [sym]: "symbol",
+//   nested: {
+//     b: <Promise>,
+//   },
+// }
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "javascript.builtins.Promise.allKeyed"
+                                  ]
+                                }
+                              ]
+                            },
+                            allsettledkeyed: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettledKeyed",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "symbol-description",
+                                    "Expected Symbol to have a description.",
+                                    "const sym = Symbol();",
+                                    "5:13 - 5:21",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettledKeyed
+[symbol-description] Expected Symbol to have a description.
+~~~
+function delayed(value, timeout) {
+  return new Promise((res) => setTimeout(() => res(value), timeout));
+}
+
+const sym = Symbol();
+
+const promises = {
+  a: delayed("a", 500),
+  // Symbol properties are processed
+  [sym]: delayed("symbol", 300),
+  // Nested properties are not processed; this whole object is treated as
+  // an already-resolved value and returned as-is
+  nested: {
+    b: delayed("b", 100),
+  },
+};
+
+const result = await Promise.allSettledKeyed(promises);
+console.log(result);
+// {
+//   a: { status: "fulfilled", value: "a" },
+//   [sym]: { status: "fulfilled", value: "symbol" },
+//   nested: {
+//     b: <Promise>,
+//   },
+// }
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "javascript.builtins.Promise.allSettledKeyed"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         regexp: {
                           children: {
@@ -81659,6 +82242,19 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        grouping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://standardjs.com/rules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -83433,23 +84029,6 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       ]
-                    },
-                    element: {
-                      children: {
-                        animate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 }

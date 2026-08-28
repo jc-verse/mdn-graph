@@ -951,7 +951,7 @@ var nodes_default = [
         browserCompat: [
           "svg.elements.script"
         ],
-        summary: "The <script> SVG element allows to add scripts to an SVG document.",
+        summary: "The <script> SVG element allows you to add scripts to an SVG document.",
         popularity: 0.0033110842486992168,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -2559,7 +2559,7 @@ The text must be enclosed in the <textPath> element and its href attribute is us
         browserCompat: [
           "svg.elements.fePointLight"
         ],
-        summary: "The <fePointLight> SVG element defines a light source which allows to create a point light effect. It can be used within a lighting filter primitive: <feDiffuseLighting> or <feSpecularLighting>.",
+        summary: "The <fePointLight> SVG element defines a light source which allows you to create a point light effect. It can be used within a lighting filter primitive: <feDiffuseLighting> or <feSpecularLighting>.",
         popularity: 0.0017226981540851304,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -2823,7 +2823,7 @@ The text must be enclosed in the <textPath> element and its href attribute is us
         browserCompat: [
           "svg.elements.feTile"
         ],
-        summary: "The <feTile> SVG filter primitive allows to fill a target rectangle with a repeated, tiled pattern of an input image. The effect is similar to the one of a <pattern>.",
+        summary: "The <feTile> SVG filter primitive allows you to fill a target rectangle with a repeated, tiled pattern of an input image. The effect is similar to the one of a <pattern>.",
         popularity: 0.0025344101656710055,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -3328,7 +3328,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
         browserCompat: [
           "svg.global_attributes.style"
         ],
-        summary: "The style attribute allows to style an element using CSS declarations. It functions identically to the style attribute in HTML.",
+        summary: "The style attribute allows you to style an element using CSS declarations. It functions identically to the style attribute in HTML.",
         popularity: 0.002090596403940599,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -6759,7 +6759,7 @@ The effect is the same as if the nodes were deeply cloned into a non-exposed DOM
         browserCompat: [
           "svg.global_attributes.unicode-bidi"
         ],
-        summary: "The unicode-bidi attribute specifies how the accumulation of the background image is managed.",
+        summary: "The unicode-bidi attribute, together with the direction attribute, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the browser uses the Unicode bidirectional algorithm to decide how to display the text. The unicode-bidi attribute allows the developer to override this algorithm and control the text embedding.",
         popularity: 0.001284724047114335,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -19469,7 +19469,9 @@ of a BigInt object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "chunks()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -20222,7 +20224,9 @@ of a BigInt object.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "windows()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -35419,7 +35423,7 @@ as a function.`,
         browserCompat: [
           "javascript.builtins.Reflect.construct"
         ],
-        summary: "The Reflect.construct() static method is like the new operator, but as a function. It is equivalent to calling new target(...args). It additionally allows to specify a different new.target value.",
+        summary: "The Reflect.construct() static method is like the new operator, but as a function. It is equivalent to calling new target(...args). It additionally allows you to specify a different new.target value.",
         popularity: 0.001833651594517732,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -40068,7 +40072,9 @@ as a function.`,
         "promisesymbol.species",
         "static_methods",
         "promise.all_2",
+        "promise.allkeyed",
         "promise.allsettled_2",
+        "promise.allsettledkeyed",
         "promise.any_2",
         "promise.race_2",
         "promise.reject",
@@ -40141,6 +40147,52 @@ as a function.`,
         "examples",
         "turning_a_callback-based_api_into_a_promise-based_one",
         "effect_of_calling_resolvefunc",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allKeyed",
+    links: {},
+    data: {
+      metadata: {
+        title: "Promise.allKeyed()",
+        pageType: "javascript-static-method",
+        browserCompat: [
+          "javascript.builtins.Promise.allKeyed"
+        ],
+        summary: "The Promise.allKeyed() static method is like Promise.all(), except that instead of using arrays/iterables as input/output, it uses objects. It takes an object where each own key is associated with a promise, and returns a single Promise. This returned promise fulfills when all of the input's promises fulfill, with an object of the same keys mapped to the corresponding fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/global_objects/promise/allkeyed",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "allKeyed()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-await-dictionary/#sec-promise.allkeyed",
+          title: "Await Dictionary"
+        }
+      ],
+      links: [
+        "https://core-js.io/docs/features/proposals/await-dictionary",
+        "https://www.npmjs.com/package/promise.allkeyed"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "object",
+        "return_value",
+        "description",
+        "examples",
+        "using_promise.allkeyed",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -40480,6 +40532,55 @@ as a function.`,
         "using_the_static_promise.reject_method",
         "rejecting_with_a_promise",
         "calling_reject_on_a_non-promise_constructor",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettledKeyed",
+    links: {},
+    data: {
+      metadata: {
+        title: "Promise.allSettledKeyed()",
+        pageType: "javascript-static-method",
+        browserCompat: [
+          "javascript.builtins.Promise.allSettledKeyed"
+        ],
+        summary: "The Promise.allSettledKeyed() static method is like Promise.allSettled(), except that instead of using arrays/iterables as input/output, it uses objects. It takes an object where each own key is associated with a promise, and returns a single Promise. This returned promise fulfills when all of the input's promises settle, with an object of the same keys mapped to objects that describe the outcome of the corresponding promise.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/global_objects/promise/allsettledkeyed",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "allSettledKeyed()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-await-dictionary/#sec-promise.allsettledkeyed",
+          title: "Await Dictionary"
+        }
+      ],
+      links: [
+        "https://core-js.io/docs/features/proposals/await-dictionary",
+        "https://www.npmjs.com/package/promise.allsettledkeyed"
+      ],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "object",
+        "return_value",
+        "status",
+        "value",
+        "reason",
+        "description",
+        "examples",
+        "using_promise.allsettledkeyed",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -72293,27 +72394,7 @@ expression and then returns undefined.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72321,163 +72402,7 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72485,7 +72410,47 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-assignment-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72493,11 +72458,7 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72505,11 +72466,99 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-super-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-MethodDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72517,7 +72566,59 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-comma-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/overview.html#sec-null-value",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-property-accessors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unsigned-right-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -75430,7 +75531,7 @@ it attempts to convert and compare operands that are of different types.`,
         browserCompat: [
           "javascript.regular_expressions.named_capturing_group"
         ],
-        summary: "A named capturing group is a particular kind of capturing group that allows to give a name to the group. The group's matching result can later be identified by this name instead of by its index in the pattern.",
+        summary: "A named capturing group is a particular kind of capturing group that allows you to give a name to the group. The group's matching result can later be identified by this name instead of by its index in the pattern.",
         popularity: 0.009501118293886463,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -75665,19 +75766,15 @@ it attempts to convert and compare operands that are of different types.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          bcdSpecificationURL: "https://tc39.es/proposal-regexp-buffer-boundaries/#sec-patterns",
+          title: "Regular Expression Buffer Boundaries for ECMAScript"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -75685,23 +75782,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegExpUnicodeEscapeSequence",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -75713,7 +75798,27 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#sec-patterns-static-semantics-early-errors",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -75727,6 +75832,7 @@ it attempts to convert and compare operands that are of different types.`,
         "creating_regular_expressions",
         "regex_flags",
         "assertions",
+        "buffer_boundary_assertion_a_z_z",
         "input_boundary_assertion",
         "lookahead_assertion_..._!...",
         "lookbehind_assertion_..._!...",
@@ -76069,6 +76175,47 @@ it attempts to convert and compare operands that are of different types.`,
         "description",
         "examples",
         "pairing_quotes",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Buffer_boundary_assertion",
+    links: {},
+    data: {
+      metadata: {
+        title: "Buffer boundary assertion: \\A, \\z, \\Z",
+        pageType: "javascript-language-feature",
+        browserCompat: [
+          "javascript.regular_expressions.buffer_boundary_assertion"
+        ],
+        summary: "A buffer boundary assertion checks if the current position in the string is strictly at the start or end of the entire string (\\Z also allows a trailing newline), regardless of the presence of the m flag (which changes the meanings of the ^ and $ input boundary assertions). It's only supported in Unicode-aware mode.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/javascript/reference/regular_expressions/buffer_boundary_assertion",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Buffer boundary assertion: \\A, \\z, \\Z",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://tc39.es/proposal-regexp-buffer-boundaries/#sec-patterns",
+          title: "Regular Expression Buffer Boundaries for ECMAScript"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "description",
+        "examples",
+        "mixing_buffer_and_input_boundary_assertions",
+        "matching_the_end-of-file_but_allowing_an_optional_trailing_newline",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -77649,7 +77796,7 @@ introduces the different iteration statements available to JavaScript.`,
         "error_handling",
         "examples",
         "automatically_releasing_object_urls",
-        "automatically_cancelling_in-progress_requests",
+        "automatically_canceling_in-progress_requests",
         "pitfalls",
         "conclusion"
       ]
@@ -90155,19 +90302,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         },
         {
@@ -90175,11 +90310,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#OPTIONS",
           title: "HTTP Semantics"
         }
       ],
@@ -107772,7 +107919,7 @@ A resource is considered to be seeking if the user has requested playback of a s
         browserCompat: [
           "css.selectors.valid"
         ],
-        summary: "The :valid CSS pseudo-class represents any <input> or other <form> element whose contents validate successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly.",
+        summary: "The :valid CSS pseudo-class represents any <input> or other <form> element whose contents validate successfully. This allows you to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly.",
         popularity: 0.0045958082958135514,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -124209,7 +124356,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         browserCompat: [
           "css.properties.all"
         ],
-        summary: "The all shorthand CSS property resets all of an element's properties except unicode-bidi, direction, and CSS Custom Properties. It can set properties to their initial or inherited values, or to the values specified in another cascade layer or stylesheet origin.",
+        summary: "The all CSSshorthand property resets all of an element's properties except unicode-bidi, direction, and CSS Custom Properties. It can set properties to their initial or inherited values, or to the values specified in another cascade layer or stylesheet origin.",
         popularity: 0.009086502805954112,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -124325,7 +124472,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         browserCompat: [
           "css.properties.border-width"
         ],
-        summary: "The border-width shorthand CSS property sets the width of an element's border.",
+        summary: "The border-width CSS shorthand property sets the width of an element's border.",
         popularity: 0.01325017664955648,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -124379,7 +124526,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         browserCompat: [
           "css.properties.scroll-padding-block"
         ],
-        summary: "The scroll-padding-block shorthand property sets the scroll padding of an element in the block dimension.",
+        summary: "The scroll-padding-block CSS shorthand property sets the scroll padding of an element in the block dimension.",
         popularity: 0.004601647950573162,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -124807,7 +124954,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         browserCompat: [
           "css.properties.row-rule"
         ],
-        summary: "The row-rule shorthand CSS property sets the width, style, and color of the line drawn between rows in multi-row grid, flex, and multi-col layouts.",
+        summary: "The row-rule CSS shorthand property sets the width, style, and color of the line drawn between rows in multi-row grid, flex, and multi-col layouts.",
         popularity: 0.0014657533446622636,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -125050,7 +125197,7 @@ For text content, this keyword does not wrap the content at all, even if it caus
         browserCompat: [
           "css.properties.background-repeat"
         ],
-        summary: "The background-repeat CSS property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.",
+        summary: "The background-repeat CSS shorthand property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.",
         popularity: 0.018500026278446415,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -125870,7 +126017,7 @@ This default is used by position-area and position-try, and by anchor functions 
         browserCompat: [
           "css.properties.border-left"
         ],
-        summary: "The border-left shorthand CSS property sets all the properties of an element's left border.",
+        summary: "The border-left CSS shorthand property sets all the properties of an element's left border.",
         popularity: 0.0053024065217264355,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -126676,7 +126823,7 @@ This default is used by position-area and position-try, and by anchor functions 
         browserCompat: [
           "css.properties.border-image"
         ],
-        summary: "The border-image CSS property draws an image around a given element. It replaces the element's regular border.",
+        summary: "The border-image CSS shorthand property draws an image around a given element. It replaces the element's regular border.",
         popularity: 0.01698755569570727,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -127054,7 +127201,7 @@ This default is used by position-area and position-try, and by anchor functions 
         browserCompat: [
           "css.properties.text-box"
         ],
-        summary: "The text-box CSS property is a shorthand that corresponds to the text-box-trim and text-box-edge properties, which together specify the amount of space to trim from the block-start edge and block-end edge of a text element's block container.",
+        summary: "The text-box CSS shorthand property corresponds to the text-box-trim and text-box-edge properties, which together specify the amount of space to trim from the block-start edge and block-end edge of a text element's block container.",
         popularity: 0.009909894127059208,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -127770,7 +127917,7 @@ This default is used by position-area and position-try, and by anchor functions 
         browserCompat: [
           "css.properties.inset-inline"
         ],
-        summary: "The inset-inline CSS property defines the logical start and end offsets of an element in the inline direction, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
+        summary: "The inset-inline CSS shorthand property defines the logical start and end offsets of an element in the inline direction, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
         popularity: 0.004035201438890933,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -128168,7 +128315,7 @@ This default is used by position-area and position-try, and by anchor functions 
         browserCompat: [
           "css.properties.border-inline"
         ],
-        summary: "The border-inline CSS property is a shorthand property for setting the individual logical inline border property values in a single place in the style sheet.",
+        summary: "The border-inline CSS shorthand property sets the individual logical inline border property values in a single place in the style sheet.",
         popularity: 0.00639442196177362,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -129303,7 +129450,7 @@ transform: scale() can be used as an alternative to this property.`,
         browserCompat: [
           "css.properties.scroll-padding-inline"
         ],
-        summary: "The scroll-padding-inline shorthand property sets the scroll padding of an element in the inline dimension.",
+        summary: "The scroll-padding-inline CSS shorthand property sets the scroll padding of an element in the inline dimension.",
         popularity: 0.003731539391391181,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -130175,7 +130322,7 @@ transform: scale() can be used as an alternative to this property.`,
         browserCompat: [
           "css.properties.rule-color"
         ],
-        summary: "The rule-color CSS property defines the colors of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the colors of the column and row rules to the same value.",
+        summary: "The rule-color CSS shorthand property defines the colors of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the colors of the column and row rules to the same value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -130716,7 +130863,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         browserCompat: [
           "css.properties.border-block-end"
         ],
-        summary: "The border-block-end CSS property is a shorthand property for setting the individual logical block-end border property values in a single place in the style sheet.",
+        summary: "The border-block-end CSS shorthand property sets the individual logical block-end border property values in a single place in the style sheet.",
         popularity: 0.004525732438698224,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -131525,7 +131672,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         browserCompat: [
           "css.properties.border-inline-start"
         ],
-        summary: "The border-inline-start CSS property is a shorthand property for setting the individual logical inline-start border property values in a single place in the style sheet.",
+        summary: "The border-inline-start CSS shorthand property sets the individual logical inline-start border property values in a single place in the style sheet.",
         popularity: 0.006336025414177514,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -131579,7 +131726,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         browserCompat: [
           "css.properties.scroll-margin-block"
         ],
-        summary: "The scroll-margin-block shorthand property sets the scroll margins of an element in the block dimension.",
+        summary: "The scroll-margin-block CSS shorthand property sets the scroll margins of an element in the block dimension.",
         popularity: 0.003965125581775605,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -132305,7 +132452,7 @@ For example, the opacity property is used to set the opacity of a selected eleme
         browserCompat: [
           "css.properties.font-synthesis"
         ],
-        summary: "The font-synthesis shorthand CSS property lets you specify whether or not the browser may synthesize the bold, italic, small-caps, and/or subscript and superscript typefaces when they are missing in the specified font-family.",
+        summary: "The font-synthesis CSS shorthand property lets you specify whether or not the browser may synthesize the bold, italic, small-caps, and/or subscript and superscript typefaces when they are missing in the specified font-family.",
         popularity: 0.005863013378649054,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -133223,7 +133370,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         browserCompat: [
           "css.properties.caret"
         ],
-        summary: "The caret shorthand CSS property sets the appearance and behavior of the insertion caret in a single declaration.",
+        summary: "The caret CSS shorthand property sets the appearance and behavior of the insertion caret in a single declaration.",
         popularity: 0.004741799664803817,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -133238,7 +133385,11 @@ By default, the browser is allowed to make any adjustments to the element's appe
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -133246,8 +133397,8 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
-          title: "CSS Basic User Interface Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-block",
@@ -133255,18 +133406,6 @@ By default, the browser is allowed to make any adjustments to the element's appe
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#caret-color",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -133278,7 +133417,15 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         }
       ],
@@ -133598,7 +133745,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         browserCompat: [
           "css.properties.border-right"
         ],
-        summary: "The border-right shorthand CSS property sets all the properties of an element's right border.",
+        summary: "The border-right CSS shorthand property sets all the properties of an element's right border.",
         popularity: 0.005232330664611108,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -134845,7 +134992,7 @@ By default, the browser is allowed to make any adjustments to the element's appe
         browserCompat: [
           "css.properties.scroll-margin"
         ],
-        summary: "The scroll-margin shorthand property sets all of the scroll margins of an element at once, assigning values much like the margin property does for margins of an element.",
+        summary: "The scroll-margin CSS shorthand property sets all of the scroll margins of an element at once, assigning values much like the margin property does for margins of an element.",
         popularity: 0.009010587294079176,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -135760,7 +135907,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         browserCompat: [
           "css.properties.border-inline-end"
         ],
-        summary: "The border-inline-end CSS property is a shorthand property for setting the individual logical inline-end border property values in a single place in the style sheet.",
+        summary: "The border-inline-end CSS shorthand property sets the individual logical inline-end border property values in a single place in the style sheet.",
         popularity: 0.004035201438890933,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -135873,7 +136020,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         browserCompat: [
           "css.properties.rule"
         ],
-        summary: "The rule shorthand CSS property sets the width, style, and color of the line drawn between rows and columns in multi-row grid, flex, and multi-col layouts, setting both the column and row rules to the same values.",
+        summary: "The rule CSS shorthand property sets the width, style, and color of the line drawn between rows and columns in multi-row grid, flex, and multi-col layouts, setting both the column and row rules to the same values.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -136134,7 +136281,9 @@ The values allow for choosing between aligning to the box's first baseline, last
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "flex-line-count",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -136736,7 +136885,7 @@ The values allow for choosing between aligning to the box's first baseline, last
         browserCompat: [
           "css.properties.-webkit-mask-box-image"
         ],
-        summary: "The non-standard prefixed -webkit-mask-box-image shorthand property sets the mask image for an element's border box.",
+        summary: "The non-standard prefixed -webkit-mask-box-image CSS shorthand property sets the mask image for an element's border box.",
         popularity: 0.0023125032848058022,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -140204,7 +140353,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         browserCompat: [
           "css.properties.corner-shape"
         ],
-        summary: "The corner-shape shorthand CSS property specifies the shape of a box's corners, within the area specified by its border-radius property value.",
+        summary: "The corner-shape CSS shorthand property specifies the shape of a box's corners, within the area specified by its border-radius property value.",
         popularity: 0.020403753730079476,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -140401,7 +140550,7 @@ Containment enables isolating a subsection of the DOM, providing performance ben
         browserCompat: [
           "css.properties.transition"
         ],
-        summary: "The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, transition-delay, and transition-behavior.",
+        summary: "The transition CSS shorthand property for transition-property, transition-duration, transition-timing-function, transition-delay, and transition-behavior.",
         popularity: 0.06761736246153127,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -140779,7 +140928,7 @@ It modifies the coordinate space of the CSS visual formatting model.`,
         browserCompat: [
           "css.properties.rule-break"
         ],
-        summary: "The rule-break CSS property sets the behavior for breaking column and row rules into segments where rows and column gaps intersect, setting column-rule-break and row-rule-break to the same value.",
+        summary: "The rule-break CSS shorthand property sets the behavior for breaking column and row rules into segments where rows and column gaps intersect, setting column-rule-break and row-rule-break to the same value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -143009,7 +143158,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-block-start"
         ],
-        summary: "The border-block-start CSS property is a shorthand property for setting the individual logical block-start border property values in a single place in the style sheet.",
+        summary: "The border-block-start CSS shorthand property sets the individual logical block-start border property values in a single place in the style sheet.",
         popularity: 0.004064399712688986,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -144225,7 +144374,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.inset"
         ],
-        summary: "The inset CSS property is a shorthand that corresponds to the top, right, bottom, and/or left properties. It has the same multi-value syntax of the margin shorthand.",
+        summary: "The inset CSS shorthand property corresponds to the top, right, bottom, and/or left properties. It has the same multi-value syntax of the margin shorthand.",
         popularity: 0.020987719206040537,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -144591,7 +144740,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.text-emphasis"
         ],
-        summary: "The text-emphasis CSS property applies emphasis marks to text (except spaces and control characters). It is a shorthand for text-emphasis-style and text-emphasis-color.",
+        summary: "The text-emphasis CSS shorthand property applies emphasis marks to text (except spaces and control characters).",
         popularity: 0.006832396068744416,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -145323,7 +145472,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-bottom"
         ],
-        summary: "The border-bottom shorthand CSS property sets an element's bottom border. It sets the values of border-bottom-width, border-bottom-style and border-bottom-color.",
+        summary: "The border-bottom CSS shorthand property sets an element's bottom border. It sets the values of border-bottom-width, border-bottom-style and border-bottom-color.",
         popularity: 0.011206297483692763,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -145974,7 +146123,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.inset-block"
         ],
-        summary: "The inset-block CSS property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
+        summary: "The inset-block CSS shorthand property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and bottom, or right and left properties depending on the values defined for writing-mode, direction, and text-orientation.",
         popularity: 0.004064399712688986,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -146942,7 +147091,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.rule-style"
         ],
-        summary: "The rule-style CSS property defines the line style of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the styles of the column and row rules to the same value.",
+        summary: "The rule-style CSS shorthand property defines the line style of the lines drawn between columns and rows in multi-column grid, flex, and multi-col layouts, setting the styles of the column and row rules to the same value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -147079,7 +147228,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.background"
         ],
-        summary: "The background shorthand CSS property sets all background style properties at once, such as color, image, origin, size, and repeat method.",
+        summary: "The background CSS shorthand property sets all background style properties at once, such as color, image, origin, size, and repeat method.",
         popularity: 0.0661983263549459,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -147227,7 +147376,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.grid"
         ],
-        summary: "The grid CSS property is a shorthand property that sets all of the explicit and implicit grid properties in a single declaration.",
+        summary: "The grid CSS shorthand property sets all of the explicit and implicit grid properties in a single declaration.",
         popularity: 0.03458827514117365,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -147304,7 +147453,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-style"
         ],
-        summary: "The border-style shorthand CSS property sets the line style for all four sides of an element's border.",
+        summary: "The border-style CSS shorthand property sets the line style for all four sides of an element's border.",
         popularity: 0.03436052860554884,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -147420,7 +147569,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.text-decoration"
         ],
-        summary: "The text-decoration shorthand CSS property sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, text-decoration-style, and the newer text-decoration-thickness property.",
+        summary: "The text-decoration CSS shorthand property sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, text-decoration-style, and the newer text-decoration-thickness property.",
         popularity: 0.0697254778297507,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -147725,7 +147874,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-radius"
         ],
-        summary: "The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.",
+        summary: "The border-radius CSS shorthand property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.",
         popularity: 0.05458909269284,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -148664,7 +148813,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.rule-width"
         ],
-        summary: "The rule-width CSS property defines the widths of any lines drawn in the gutters of multi-row grid, flex, and multi-col layouts, setting the widths of the column and row rules to the same value.",
+        summary: "The rule-width CSS shorthand property defines the widths of any lines drawn in the gutters of multi-row grid, flex, and multi-col layouts, setting the widths of the column and row rules to the same value.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -149081,7 +149230,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.column-rule"
         ],
-        summary: "The column-rule shorthand CSS property sets the width, style, and color of the lines drawn between columns in multi-column grid, flex, and multi-col layouts.",
+        summary: "The column-rule CSS shorthand property sets the width, style, and color of the lines drawn between columns in multi-column grid, flex, and multi-col layouts.",
         popularity: 0.007025104675811566,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -149158,7 +149307,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.animation"
         ],
-        summary: "The animation shorthand CSS property applies an animation between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state, and animation-timeline.",
+        summary: "The animation CSS shorthand property applies an animation between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state, and animation-timeline.",
         popularity: 0.0661983263549459,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -150684,7 +150833,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-color"
         ],
-        summary: "The border-color shorthand CSS property sets the color of an element's border.",
+        summary: "The border-color CSS shorthand property sets the color of an element's border.",
         popularity: 0.014009331768305858,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -151206,7 +151355,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.place-items"
         ],
-        summary: "The CSS place-items shorthand property aligns items along both the block and inline directions at once. It sets the values of the align-items and justify-items properties. If the second value is not set, the first value is also used for it.",
+        summary: "The place-items CSS shorthand property aligns items along both the block and inline directions at once. It sets the values of the align-items and justify-items properties. If the second value is not set, the first value is also used for it.",
         popularity: 0.006791518485427142,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -151385,7 +151534,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.position-try"
         ],
-        summary: "The position-try CSS property is a shorthand that corresponds to the position-try-order and position-try-fallbacks properties.",
+        summary: "The position-try CSS shorthand property corresponds to the position-try-order and position-try-fallbacks properties.",
         popularity: 0.004321344522111852,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -152305,7 +152454,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.-webkit-text-stroke"
         ],
-        summary: "The -webkit-text-stroke CSS property specifies the width and color of strokes for text characters. This is a shorthand property for the longhand properties -webkit-text-stroke-width and -webkit-text-stroke-color.",
+        summary: "The -webkit-text-stroke CSS shorthand property specifies the width and color of strokes for text characters.",
         popularity: 0.014143643827776902,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -152419,7 +152568,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border"
         ],
-        summary: "The border shorthand CSS property sets an element's border. It sets the values of border-width, border-style, and border-color.",
+        summary: "The border CSS shorthand property sets an element's border. It sets the values of border-width, border-style, and border-color.",
         popularity: 0.07107443807922076,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -152577,7 +152726,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.border-block"
         ],
-        summary: "The border-block CSS property is a shorthand property for setting the individual logical block border property values in a single place in the style sheet.",
+        summary: "The border-block CSS shorthand property sets the individual logical block border property values in a single place in the style sheet.",
         popularity: 0.010966871638548727,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -152685,7 +152834,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.white-space"
         ],
-        summary: "The white-space CSS property sets how white space inside an element is handled.",
+        summary: "The white-space CSS shorthand property sets how white space inside an element is handled.",
         popularity: 0.04137395397184118,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -153852,7 +154001,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.scroll-margin-inline"
         ],
-        summary: "The scroll-margin-inline shorthand property sets the scroll margins of an element in the inline dimension.",
+        summary: "The scroll-margin-inline CSS shorthand property sets the scroll margins of an element in the inline dimension.",
         popularity: 0.003130054951151288,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -155925,7 +156074,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.border-top"
         ],
-        summary: "The border-top shorthand CSS property sets all the properties of an element's top border.",
+        summary: "The border-top CSS shorthand property sets all the properties of an element's top border.",
         popularity: 0.007258690866195991,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -156053,7 +156202,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.scroll-padding"
         ],
-        summary: "The scroll-padding shorthand property sets scroll padding on all sides of an element at once. It specifies offsets that define the optimal viewing region of a scrollport within a scroll container.",
+        summary: "The scroll-padding CSS shorthand property sets scroll padding on all sides of an element at once. It specifies offsets that define the optimal viewing region of a scrollport within a scroll container.",
         popularity: 0.008560933877589157,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -156283,7 +156432,7 @@ For elements rendered as multiple boxes, such as a <span> of text that spans mor
         browserCompat: [
           "css.properties.grid-template"
         ],
-        summary: "The grid-template CSS property is a shorthand property for defining grid columns, grid rows, and grid areas.",
+        summary: "The grid-template CSS shorthand property specifies the grid columns, grid rows, and grid areas.",
         popularity: 0.025063798228248745,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -156650,7 +156799,7 @@ The image can be left to its natural size, stretched, or constrained to fit the 
         browserCompat: [
           "css.properties.-webkit-border-before"
         ],
-        summary: "The -webkit-border-before CSS property is a shorthand property for setting the individual logical block start border property values in a single place in the style sheet.",
+        summary: "The -webkit-border-before CSS shorthand property sets the individual logical block start border property values in a single place in the style sheet.",
         popularity: 0.003603066986679748,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -174140,7 +174289,7 @@ This lets you create separate DOM trees and present them together.`,
         browserCompat: [
           "html.elements.template"
         ],
-        summary: "The <template> HTML element serves as a mechanism for holding HTML fragments, which can either be used later via JavaScript or generated immediately into shadow DOM.",
+        summary: 'The <template> HTML element serves as a mechanism for holding HTML fragments, which can either be used later via JavaScript, generated immediately and inserted into a shadow DOM, or used as part of out-of-order patching with <template for="...">.',
         popularity: 0.05559351331149302,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -174167,6 +174316,7 @@ This lets you create separate DOM trees and present them together.`,
       ],
       ids: [
         "attributes",
+        "for",
         "shadowrootmode",
         "open",
         "closed",
@@ -174181,6 +174331,7 @@ This lets you create separate DOM trees and present them together.`,
         "usage_notes",
         "template_document_fragment",
         "declarative_shadow_dom",
+        "out-of-order_patching",
         "examples",
         "generating_table_rows",
         "frame_generating_table_rows",
@@ -174200,6 +174351,10 @@ This lets you create separate DOM trees and present them together.`,
         "javascript_2",
         "result",
         "frame_data_on_the_documentfragment_is_not_cloned",
+        "using_template_for_for_patching",
+        "using_template_for_for_range_patching",
+        "using_template_for_for_patching_head_elements",
+        "including_markers_in_template_for_to_allow_contents_to_be_repatched_later",
         "technical_summary",
         "specifications",
         "browser_compatibility",
@@ -178188,7 +178343,7 @@ The value is a string whose value is in the format YYYY-MM, where YYYY is the fo
         },
         short_title: "<fencedframe>",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -182325,51 +182480,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
-          title: "DOM"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
           title: "HTML"
         },
         {
@@ -182377,27 +182488,83 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/element-timing/#dom-element-elementtiming",
+          title: "Element Timing API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
+          title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
           title: "HTML"
         },
         {
@@ -182409,7 +182576,47 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①",
+          title: "DOM"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertimingignore",
+          title: "Container Timing API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
           title: "HTML"
         },
         {
@@ -182417,48 +182624,8 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
+          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertiming",
+          title: "Container Timing API"
         }
       ],
       links: [
@@ -185659,7 +185826,7 @@ and Legendre symbols.`,
         browserCompat: [
           "mathml.elements.maction"
         ],
-        summary: "The <maction> MathML element allows to bind actions to mathematical expressions. By default, only the first child is rendered but some browsers may take into account actiontype and selection attributes to implement custom behaviors.",
+        summary: "The <maction> MathML element allows you to bind actions to mathematical expressions. By default, only the first child is rendered but some browsers may take into account actiontype and selection attributes to implement custom behaviors.",
         popularity: 0.0012905637018739452,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -186161,18 +186328,6 @@ and Legendre symbols.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
-          title: "MathML Core"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
@@ -186181,11 +186336,23 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#layout-of-operators",
           title: "MathML Core"
         },
         {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-displaystyle",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
           title: "MathML Core"
         }
       ],
@@ -201553,7 +201720,7 @@ string, or clears and sets the list to the given value.`,
           "api.DOMTokenList.keys"
         ],
         summary: `The keys() method of the DOMTokenList interface
-returns an iterator allowing to go through all keys contained in this object.
+returns an iterator allowing you to go through all keys contained in this object.
 The keys are unsigned integers.`,
         popularity: 0.0006890792616340522,
         modified: "1970-01-01T00:00:00.000Z",
@@ -211750,7 +211917,7 @@ no node matches.`,
         "streaming_responses",
         "the_context_window",
         "cloning_a_session",
-        "cancelling_operations_and_destroying_instances",
+        "canceling_operations_and_destroying_instances",
         "complete_example",
         "html",
         "javascript",
@@ -215859,7 +216026,7 @@ JSON form of the point object.`,
           "api.NodeList.entries"
         ],
         summary: `The NodeList.entries() method returns an
-iterator allowing to go through all key/value pairs
+iterator allowing you to go through all key/value pairs
 contained in this object. The values are Node objects.`,
         popularity: 0.0013489602494700511,
         modified: "1970-01-01T00:00:00.000Z",
@@ -216033,7 +216200,7 @@ argument is provided.`,
           "api.NodeList.keys"
         ],
         summary: `The NodeList.keys() method returns an
-iterator allowing to go through all keys contained
+iterator allowing you to go through all keys contained
 in this object. The keys are unsigned integer.`,
         popularity: 0.0008584292496627599,
         modified: "1970-01-01T00:00:00.000Z",
@@ -216077,7 +216244,7 @@ in this object. The keys are unsigned integer.`,
           "api.NodeList.values"
         ],
         summary: `The NodeList.values() method returns an
-iterator allowing to go through all values contained
+iterator allowing you to go through all values contained
 in this object. The values are Node objects.`,
         popularity: 0.0012496861185566708,
         modified: "1970-01-01T00:00:00.000Z",
@@ -231097,7 +231264,7 @@ It's based upon the standard DOMException interface that describes general DOM e
         },
         short_title: "FencedFrameConfig",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -231151,7 +231318,7 @@ FencedFrameConfig interface passes in contextual data from the embedding documen
         },
         short_title: "setSharedStorageContext()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -235165,7 +235332,7 @@ GPUPipelineLayout interface provides a label that can be used to identify the ob
         },
         short_title: "Fenced Frame API",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -255019,7 +255186,7 @@ object, it returns null.`,
           "api.Headers.entries"
         ],
         summary: `The Headers.entries() method returns an
-iterator allowing to go through all key/value pairs
+iterator allowing you to go through all key/value pairs
 contained in this object. Both the key and value of each pair are
 String objects.`,
         popularity: 0.0013197619756719983,
@@ -255373,7 +255540,7 @@ object, or adds the header if it does not already exist.`,
           "api.Headers.keys"
         ],
         summary: `The Headers.keys() method returns an
-iterator allowing to go through all keys contained
+iterator allowing you to go through all keys contained
 in this object. The keys are String objects.`,
         popularity: 0.0008701085591819812,
         modified: "1970-01-01T00:00:00.000Z",
@@ -255415,7 +255582,7 @@ in this object. The keys are String objects.`,
           "api.Headers.values"
         ],
         summary: `The Headers.values() method returns an
-iterator allowing to go through all values contained
+iterator allowing you to go through all values contained
 in this object. The values are String objects.`,
         popularity: 0.0009285051067780872,
         modified: "1970-01-01T00:00:00.000Z",
@@ -279799,7 +279966,7 @@ NavigateEvent interface returns true if the navigation can be intercepted and ha
           "api.NavigateEvent.signal"
         ],
         summary: `The signal read-only property of the
-NavigateEvent interface returns an AbortSignal, which will become aborted if the navigation is cancelled (e.g., by the user pressing the browser's "Stop" button, or another navigation starting and thus cancelling the ongoing one).`,
+NavigateEvent interface returns an AbortSignal, which will become aborted if the navigation is canceled (e.g., by the user pressing the browser's "Stop" button, or another navigation starting and thus canceling the ongoing one).`,
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -284278,10 +284445,7 @@ or null if the label isn't associated with a control.`,
         browserCompat: [
           "api.HTMLLabelElement.htmlFor"
         ],
-        summary: `The HTMLLabelElement.htmlFor property reflects the value
-of the for content property. That means that this
-script-accessible property is used to set and read the value of the content property
-for, which is the ID of the label's associated control element.`,
+        summary: "The htmlFor property of the HTMLLabelElement interface is the ID of the associated label's control element. It reflects the value of, and is used to set and get the for content attribute.",
         popularity: 0.0031650928797089515,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -284298,10 +284462,15 @@ for, which is the ID of the label's associated control element.`,
           title: "HTML"
         }
       ],
-      links: [],
+      links: [
+        "https://github.com/whatwg/html/issues/9379"
+      ],
       imgs: [],
       ids: [
         "value",
+        "description",
+        "example",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -285345,7 +285514,7 @@ or not.`,
         browserCompat: [
           "api.ANGLE_instanced_arrays"
         ],
-        summary: "The ANGLE_instanced_arrays extension is part of the WebGL API and allows to draw the same object, or groups of similar objects multiple times, if they share the same vertex data, primitive count and type.",
+        summary: "The ANGLE_instanced_arrays extension is part of the WebGL API and allows you to draw the same object, or groups of similar objects multiple times, if they share the same vertex data, primitive count and type.",
         popularity: 0.001535829201777591,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -290572,7 +290741,7 @@ They are intended for use cases where data might be supplied or requested in arb
         "mocked_underlying_socket_source",
         "creating_a_readable_socket_push_byte_stream",
         "consuming_the_push_byte_stream",
-        "cancelling_the_stream_using_the_reader",
+        "canceling_the_stream_using_the_reader",
         "monitoring_for_stream_for_closeerror",
         "result",
         "frame_underlying_push_source_with_default_reader",
@@ -290675,7 +290844,7 @@ They are intended for use cases where data might be supplied or requested in arb
         "the_readablestream_constructor",
         "readablestream_controllers",
         "reading_from_custom_streams",
-        "closing_and_cancelling_streams",
+        "closing_and_canceling_streams",
         "teeing_a_stream",
         "pipe_chains",
         "summary"
@@ -295133,7 +295302,7 @@ deleteRule().`,
         browserCompat: [
           "api.HTMLLegendElement"
         ],
-        summary: "The HTMLLegendElement is an interface allowing to access properties of the <legend> elements. It inherits properties and methods from the HTMLElement interface.",
+        summary: "The HTMLLegendElement is an interface allowing you to access properties of the <legend> elements. It inherits properties and methods from the HTMLElement interface.",
         popularity: 0.00219571018961359,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -295604,7 +295773,9 @@ processing instruction.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getAttribute()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -295752,7 +295923,9 @@ array.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getAttributeNames()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -295834,7 +296007,9 @@ If the attribute already exists, the value is updated; otherwise, a new attribut
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "setAttribute()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -295882,7 +296057,9 @@ If the attribute already exists, the value is updated; otherwise, a new attribut
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "toggleAttribute()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -295927,7 +296104,9 @@ If the attribute already exists, the value is updated; otherwise, a new attribut
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "removeAttribute()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -295972,7 +296151,9 @@ attributes or not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hasAttributes()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -296015,7 +296196,9 @@ specified attribute or not.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hasAttribute()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -312731,7 +312914,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
         browserCompat: [
           "api.WebGLTransformFeedback"
         ],
-        summary: "The WebGLTransformFeedback interface is part of the WebGL 2 API and enables transform feedback, which is the process of capturing primitives generated by vertex processing. It allows to preserve the post-transform rendering state of an object and resubmit this data multiple times.",
+        summary: "The WebGLTransformFeedback interface is part of the WebGL 2 API and enables transform feedback, which is the process of capturing primitives generated by vertex processing. It allows you to preserve the post-transform rendering state of an object and resubmit this data multiple times.",
         popularity: 0.0013022430113931664,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -324748,6 +324931,7 @@ Encoded data (EncodedVideoChunk) or an error will eventually be returned via the
       ids: [
         "instance_properties",
         "content",
+        "htmlfor",
         "shadowrootmode",
         "shadowrootdelegatesfocus",
         "shadowrootclonable",
@@ -324907,6 +325091,48 @@ Encoded data (EncodedVideoChunk) or an error will eventually be returned via the
       imgs: [],
       ids: [
         "value",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/HTMLTemplateElement/htmlFor",
+    links: {},
+    data: {
+      metadata: {
+        title: "HTMLTemplateElement: htmlFor property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.HTMLTemplateElement.htmlFor"
+        ],
+        summary: "The htmlFor property of the HTMLTemplateElement interface is the ID of the Processing Instruction marker to replace with the contents of the associated <template> element. It reflects the value of, and is used to set and get the for content attribute.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/htmltemplateelement/htmlfor",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "content",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/scripting.html#dom-template-htmlfor",
+          title: "HTML"
+        }
+      ],
+      links: [
+        "https://github.com/whatwg/html/issues/9379"
+      ],
+      imgs: [],
+      ids: [
+        "value",
+        "description",
+        "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -339348,7 +339574,7 @@ See pointermove for a list of these properties.`,
         browserCompat: [
           "api.Element.beforescriptexecute_event"
         ],
-        summary: "The beforescriptexecute event is fired when a script is about to be executed. Cancelling the event prevents the script from executing.",
+        summary: "The beforescriptexecute event is fired when a script is about to be executed. Canceling the event prevents the script from executing.",
         popularity: 0.001115374059085627,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -343689,7 +343915,7 @@ method.`,
           "api.WEBGL_multi_draw"
         ],
         summary: `The WEBGL_multi_draw extension is part of the
-WebGL API and allows to render more
+WebGL API and allows you to render more
 than one primitive with a single function call. This can improve a WebGL application's performance
 as it reduces binding costs in the renderer and speeds up GPU thread time with uniform data.`,
         popularity: 0.0010628171662491314,
@@ -360691,7 +360917,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "username",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -360728,7 +360956,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hash",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -360974,7 +361204,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "search",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361050,7 +361282,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "origin",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361087,7 +361321,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "pathname",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361124,7 +361360,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "port",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361237,7 +361475,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "protocol",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361311,7 +361551,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "host",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361385,7 +361627,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "password",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -361422,7 +361666,9 @@ containing the properties of this characteristic.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "hostname",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
       specifications: [
@@ -363264,13 +363510,60 @@ REDIRECTs done before reaching the page.`,
       ids: [
         "instance_properties",
         "performanceentry.name",
-        "performanceentry.entrytype",
-        "performanceentry.starttime",
         "performanceentry.duration",
+        "performanceentry.entrytype",
+        "performanceentry.navigationid",
+        "performanceentry.starttime",
         "instance_methods",
         "performanceentry.tojson",
         "example",
         "working_with_performance_entries",
+        "specifications",
+        "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceEntry/navigationId",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceEntry: navigationId property",
+        pageType: "web-api-instance-property",
+        browserCompat: [
+          "api.PerformanceEntry.navigationId"
+        ],
+        summary: "The navigationId read-only property of the PerformanceEntry interface returns the ID of the navigation that this paint happened under.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performanceentry/navigationid",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "navigationId",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/performance-timeline/#dom-performanceentry-navigationid",
+          title: "Performance Timeline"
+        },
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-performanceentry-navigationid",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "value",
+        "description",
+        "navigationid_and_measuring_soft_navigation_largest_contentful_paints",
+        "examples",
+        "logging_the_navigationid_of_the_soft_navigation",
         "specifications",
         "browser_compatibility"
       ]
@@ -375903,7 +376196,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         },
         short_title: "allow",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -375946,7 +376239,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         },
         short_title: "HTMLFencedFrameElement",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -375996,7 +376289,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         },
         short_title: "config",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -376042,7 +376335,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         },
         short_title: "height",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -376085,7 +376378,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         },
         short_title: "width",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -376371,7 +376664,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         "monitoring_download_progress",
         "providing_few-shot_prompts",
         "defining_a_tool_with_a_callback",
-        "cancelling_a_session",
+        "canceling_a_session",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -376592,7 +376885,7 @@ Together with a timestamp, given as Unix time in milliseconds, indicating a time
         "basic_text_prompt",
         "multi-turn_conversation",
         "constrained_json_output",
-        "cancelling_a_prompt",
+        "canceling_a_prompt",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -395317,7 +395610,7 @@ Fence interface triggers the submission of report data via a beacon to one or mo
         },
         short_title: "reportEvent()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -395369,7 +395662,7 @@ Fence interface triggers the submission of report data via a beacon to one or mo
         },
         short_title: "Fence",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -395418,7 +395711,7 @@ Fence interface specifies event data that will be sent when a navigation occurs 
         },
         short_title: "setReportEventDataForAutomaticBeacons()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -395471,7 +395764,7 @@ Fence interface returns the FencedFrameConfigs loaded into <fencedframe>s embedd
         },
         short_title: "getNestedConfigs()",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -458676,7 +458969,7 @@ the left side of the screen.`,
         },
         short_title: "fence",
         status: [
-          "experimental"
+          "deprecated"
         ]
       },
       flaws: {},
@@ -465977,7 +466270,7 @@ it includes the upper endpoint value and is closed.`,
         "creating_a_summarizer",
         "checking_configuration_support",
         "generating_a_summary",
-        "cancelling_operations_and_destroying_instances",
+        "canceling_operations_and_destroying_instances",
         "monitoring_download_progress",
         "usage_quotas",
         "complete_example",
@@ -468498,6 +468791,10 @@ item() returns the DOMRect at the specified index within the list, or null if th
           title: "Server Timing"
         },
         {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        },
+        {
           bcdSpecificationURL: "https://w3c.github.io/user-timing/",
           title: "User Timing"
         },
@@ -468526,12 +468823,14 @@ item() returns the DOMRect at the specified index within the list, or null if th
         "concepts_and_usage",
         "reference",
         "eventcounts",
+        "interactioncontentfulpaint",
         "largestcontentfulpaint",
         "layoutshift",
         "layoutshiftattribution",
         "notrestoredreasondetails",
         "notrestoredreasons",
         "performance",
+        "performancecontainertiming",
         "performanceelementtiming",
         "performanceentry",
         "performanceeventtiming",
@@ -468546,6 +468845,7 @@ item() returns the DOMRect at the specified index within the list, or null if th
         "performanceresourcetiming",
         "performancescripttiming",
         "performanceservertiming",
+        "performancesoftnavigation",
         "taskattributiontiming",
         "visibilitystateentry",
         "guides",
@@ -484721,10 +485021,17 @@ it's simulated or computed based on other sources.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "paintTime",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/paint-timing/#dom-painttimingmixin-painttime",
+          title: "Paint Timing"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -484754,10 +485061,17 @@ it's simulated or computed based on other sources.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "InteractionContentfulPaint",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [
         "https://developer.chrome.com/docs/web-platform/soft-navigations"
       ],
@@ -484766,14 +485080,16 @@ it's simulated or computed based on other sources.`,
         "instance_properties",
         "interactioncontentfulpaint.interactionid",
         "interactioncontentfulpaint.largestcontentfulpaint",
-        "interactioncontentfulpaint.navigationid",
         "interactioncontentfulpaint.painttime",
         "interactioncontentfulpaint.presentationtime",
         "performanceentry.entrytype",
         "performanceentry.duration",
         "performanceentry.name",
         "performanceentry.starttime",
+        "instance_methods",
+        "interactioncontentfulpaint.tojson",
         "description",
+        "using_navigationid_and_interactionid",
         "relationship_with_event_timing_and_inp",
         "examples",
         "observing_interaction_contentful_paints",
@@ -484802,10 +485118,17 @@ it's simulated or computed based on other sources.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "largestContentfulPaint",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-largestcontentfulpaint",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -484815,39 +485138,6 @@ it's simulated or computed based on other sources.`,
         "specifications",
         "browser_compatibility",
         "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/InteractionContentfulPaint/navigationId",
-    links: {},
-    data: {
-      metadata: {
-        title: "InteractionContentfulPaint: navigationId property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.InteractionContentfulPaint.navigationId"
-        ],
-        summary: "The navigationId read-only property of the InteractionContentfulPaint interface returns the id of the navigation that this paint is happened under.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/interactioncontentfulpaint/navigationid",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "navigationId",
-        status: []
-      },
-      flaws: {},
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "logging_the_navigationid_of_interactioncontentfulpaint",
-        "specifications",
-        "browser_compatibility"
       ]
     }
   },
@@ -484869,10 +485159,17 @@ it's simulated or computed based on other sources.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "interactionId",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-interactionid",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -484881,6 +485178,44 @@ it's simulated or computed based on other sources.`,
         "logging_the_interactionid_of_interactioncontentfulpaint",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/InteractionContentfulPaint/toJSON",
+    links: {},
+    data: {
+      metadata: {
+        title: "InteractionContentfulPaint: toJSON() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.InteractionContentfulPaint.toJSON"
+        ],
+        summary: "The toJSON() method of the InteractionContentfulPaint interface is a serializer; it returns a JSON representation of the InteractionContentfulPaint object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/interactioncontentfulpaint/tojson",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "toJSON()",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "using_the_tojson_method",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -484902,10 +485237,17 @@ it's simulated or computed based on other sources.`,
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "presentationTime",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime",
+          title: "Paint Timing"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -486014,10 +486356,17 @@ The service worker can optionally send a response back via the Client.postMessag
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "getLargestInteractionContentfulPaint()",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-getlargestinteractioncontentfulpaint",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -486050,10 +486399,17 @@ The service worker can optionally send a response back via the Client.postMessag
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "paintTime",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/paint-timing/#dom-painttimingmixin-painttime",
+          title: "Paint Timing"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -486083,10 +486439,17 @@ The service worker can optionally send a response back via the Client.postMessag
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "PerformanceSoftNavigation",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#sec-interface",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [
         "https://developer.chrome.com/docs/web-platform/soft-navigations"
       ],
@@ -486094,7 +486457,6 @@ The service worker can optionally send a response back via the Client.postMessag
       ids: [
         "instance_properties",
         "performancesoftnavigation.interactionid",
-        "performancesoftnavigation.navigationid",
         "performancesoftnavigation.navigationtype",
         "performancesoftnavigation.painttime",
         "performancesoftnavigation.presentationtime",
@@ -486104,45 +486466,13 @@ The service worker can optionally send a response back via the Client.postMessag
         "performanceentry.starttime",
         "instance_methods",
         "performancesoftnavigation.getlargestinteractioncontentfulpaint",
+        "performancesoftnavigation.tojson",
         "description",
         "examples",
         "observing_soft_navigations",
         "specifications",
         "browser_compatibility",
         "see_also"
-      ]
-    }
-  },
-  {
-    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/navigationId",
-    links: {},
-    data: {
-      metadata: {
-        title: "PerformanceSoftNavigation: navigationId property",
-        pageType: "web-api-instance-property",
-        browserCompat: [
-          "api.PerformanceSoftNavigation.navigationId"
-        ],
-        summary: "The navigationId read-only property of the PerformanceSoftNavigation interface returns an increasing integer id unique to this page load.",
-        popularity: null,
-        modified: "1970-01-01T00:00:00.000Z",
-        source: {
-          folder: "en-us/web/api/performancesoftnavigation/navigationid",
-          last_commit_url: "https://github.com/mdn/content/commit/"
-        },
-        short_title: "navigationId",
-        status: []
-      },
-      flaws: {},
-      specifications: [],
-      links: [],
-      imgs: [],
-      ids: [
-        "value",
-        "examples",
-        "logging_the_navigationid_of_the_soft_navigation",
-        "specifications",
-        "browser_compatibility"
       ]
     }
   },
@@ -486167,7 +486497,12 @@ The service worker can optionally send a response back via the Client.postMessag
         status: []
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-interactionid",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -486197,10 +486532,17 @@ The service worker can optionally send a response back via the Client.postMessag
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "navigationType",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-navigationtype",
+          title: "Soft Navigations and Interaction Contentful Paint"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -486213,6 +486555,44 @@ The service worker can optionally send a response back via the Client.postMessag
         "logging_the_navigation_type_of_the_soft_navigation",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/PerformanceSoftNavigation/toJSON",
+    links: {},
+    data: {
+      metadata: {
+        title: "PerformanceSoftNavigation: toJSON() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.PerformanceSoftNavigation.toJSON"
+        ],
+        summary: "The toJSON() method of the PerformanceSoftNavigation interface is a serializer; it returns a JSON representation of the PerformanceSoftNavigation object.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/performancesoftnavigation/tojson",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "toJSON()",
+        status: [
+          "experimental"
+        ]
+      },
+      flaws: {},
+      specifications: [],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "return_value",
+        "examples",
+        "using_the_tojson_method",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -486234,10 +486614,17 @@ The service worker can optionally send a response back via the Client.postMessag
           last_commit_url: "https://github.com/mdn/content/commit/"
         },
         short_title: "presentationTime",
-        status: []
+        status: [
+          "experimental"
+        ]
       },
       flaws: {},
-      specifications: [],
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime",
+          title: "Paint Timing"
+        }
+      ],
       links: [],
       imgs: [],
       ids: [
@@ -497220,7 +497607,7 @@ errors thrown by any of the interfaces based on Sensor.`,
         browserCompat: [
           "api.FileReaderSync"
         ],
-        summary: "The FileReaderSync interface allows to read File or Blob objects synchronously. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
+        summary: "The FileReaderSync interface allows you to read File or Blob objects synchronously. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
         popularity: 0.001594225749373697,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -497264,7 +497651,7 @@ errors thrown by any of the interfaces based on Sensor.`,
         browserCompat: [
           "api.FileReaderSync.readAsDataURL"
         ],
-        summary: "The readAsDataURL() method of the FileReaderSync interface allows to read File or Blob objects in a synchronous way into a string representing a data URL. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
+        summary: "The readAsDataURL() method of the FileReaderSync interface allows you to read File or Blob objects in a synchronous way into a string representing a data URL. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -497309,7 +497696,7 @@ errors thrown by any of the interfaces based on Sensor.`,
         browserCompat: [
           "api.FileReaderSync.readAsText"
         ],
-        summary: "The readAsText() method of the FileReaderSync interface allows to read File or Blob objects in a synchronous way into a string. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
+        summary: "The readAsText() method of the FileReaderSync interface allows you to read File or Blob objects in a synchronous way into a string. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -497355,7 +497742,7 @@ errors thrown by any of the interfaces based on Sensor.`,
         browserCompat: [
           "api.FileReaderSync.readAsArrayBuffer"
         ],
-        summary: "The readAsArrayBuffer() method of the FileReaderSync interface allows to read File or Blob objects in a synchronous way into an ArrayBuffer. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
+        summary: "The readAsArrayBuffer() method of the FileReaderSync interface allows you to read File or Blob objects in a synchronous way into an ArrayBuffer. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
         popularity: 0.0006598809878359991,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -497400,7 +497787,7 @@ errors thrown by any of the interfaces based on Sensor.`,
         browserCompat: [
           "api.FileReaderSync.readAsBinaryString"
         ],
-        summary: "The readAsBinaryString() method of the FileReaderSync interface allows to read File or Blob objects in a synchronous way into a string. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
+        summary: "The readAsBinaryString() method of the FileReaderSync interface allows you to read File or Blob objects in a synchronous way into a string. This interface is only available in workers as it enables synchronous I/O that could potentially block.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -507937,7 +508324,7 @@ This article explains how to use these APIs.`,
         "detecting_a_language",
         "creating_a_translation",
         "checking_configuration_support",
-        "cancelling_operations_and_destroying_instances",
+        "canceling_operations_and_destroying_instances",
         "monitoring_download_progress",
         "usage_quotas",
         "complete_example",
@@ -526617,6 +527004,20 @@ whether the given Node has child nodes or not.`,
         "pointertype",
         "isprimary",
         "event_types_and_global_event_handlers",
+        "pointerover",
+        "pointerenter",
+        "pointerdown",
+        "pointermove",
+        "pointerup",
+        "pointercancel",
+        "pointerout",
+        "pointerleave",
+        "pointerrawupdate",
+        "gotpointercapture",
+        "lostpointercapture",
+        "click",
+        "auxclick",
+        "contextmenu",
         "element_extensions",
         "haspointercapture",
         "releasepointercapture",
@@ -531211,7 +531612,7 @@ ScrollTimeline interface returns an enumerated value representing the scroll axi
         browserCompat: [
           "api.MediaCapabilities.decodingInfo"
         ],
-        summary: "The decodingInfo() method of the MediaCapabilities interface returns a promise that fulfils with information about how well the user agent can decode/display media with a given configuration.",
+        summary: "The decodingInfo() method of the MediaCapabilities interface returns a promise that fulfills with information about how well the user agent can decode/display media with a given configuration.",
         popularity: 0.0011562516424029011,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -532549,7 +532950,7 @@ The most graceful way of doing this is to close the connection using the close()
       metadata: {
         title: "Building an Internet-Connected Phone with PeerJS",
         pageType: "guide",
-        summary: "One of WebRTC's main issues is that it is pretty complicated to use and develop with — handling the signalling service and knowing when to call the right endpoint can get confusing. But there is some good news; PeerJS is a WebRTC framework that abstracts away all of the ice and signalling logic so that you can focus on the functionality of your application. There are two parts to PeerJS, the client-side framework and the server.",
+        summary: "One of WebRTC's main issues is that it is pretty complicated to use and develop with — handling the signaling service and knowing when to call the right endpoint can get confusing. But there is some good news; PeerJS is a WebRTC framework that abstracts away all of the ice and signaling logic so that you can focus on the functionality of your application. There are two parts to PeerJS, the client-side framework and the server.",
         popularity: 0.0015299895470179802,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -537316,7 +537717,7 @@ XPathResult.`,
         browserCompat: [
           "api.XPathEvaluator"
         ],
-        summary: "The XPathEvaluator interface allows to compile and evaluate XPath expressions.",
+        summary: "The XPathEvaluator interface allows you to compile and evaluate XPath expressions.",
         popularity: 0.003953446272256384,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -539237,14 +539638,14 @@ JSON representation of the DOMQuad object.`,
         "name_2",
         "url",
         "return_value",
+        "name_3",
+        "value",
         "domain",
         "expires",
-        "name_3",
         "partitioned",
         "path",
         "samesite",
         "secure",
-        "value",
         "exceptions",
         "securityerror",
         "typeerror",
@@ -539391,14 +539792,14 @@ Passing no parameters will return all cookies for the current context.`,
         "name_2",
         "url",
         "return_value",
+        "name_3",
+        "value",
         "domain",
         "expires",
-        "name_3",
         "partitioned",
         "path",
         "samesite",
         "secure",
-        "value",
         "exceptions",
         "securityerror",
         "typeerror",
@@ -551648,7 +552049,7 @@ These articles provide guidance on selecting and configuring image types.`,
       metadata: {
         title: "Livestreaming web audio and video",
         pageType: "guide",
-        summary: "Livestreaming technology is often employed to relay live events such as sports, concerts and more generally TV and Radio programmes that are output live. Often shortened to just streaming, livestreaming is the process of transmitting media 'live' to computers and devices. This is a fairly complex and nascent subject with a lot of variables, so in this article, we'll introduce you to the subject and let you know how you can get started.",
+        summary: "Livestreaming technology is often employed to relay live events such as sports, concerts and more generally TV and Radio programs that are output live. Often shortened to just streaming, livestreaming is the process of transmitting media 'live' to computers and devices. This is a fairly complex and nascent subject with a lot of variables, so in this article, we'll introduce you to the subject and let you know how you can get started.",
         popularity: 0.0034512359629298717,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -552013,6 +552414,8 @@ They're intended to help you understand what kinds of things are possible using 
         "https://w3c.github.io/png/#11PLTE",
         "https://jpeg.org/jpeg/",
         "https://en.wikipedia.org/wiki/Discrete_cosine_transform",
+        "https://jpeg.org/jpegxl/workplan.html",
+        "https://jpeg.org/items/20190803_press.html",
         "https://w3c.github.io/png/",
         "https://w3c.github.io/png/#11PLTE",
         "https://www.w3.org/",
@@ -552050,6 +552453,7 @@ They're intended to help you understand what kinds of things are possible using 
         "gif_graphics_interchange_format",
         "ico_microsoft_windows_icon",
         "jpeg_joint_photographic_experts_group_image",
+        "jpeg_xl_image",
         "png_portable_network_graphics",
         "svg_scalable_vector_graphics",
         "tiff_tagged_image_file_format",
@@ -571632,7 +572036,7 @@ A restrictive robots.txt file can prevent bandwidth consumption by crawlers.`,
       metadata: {
         title: "Snap positions",
         pageType: "glossary-definition",
-        summary: "Snap positions are points where the scrollport stops moving after the scrolling operation completes. Setting up snap positions allows to create a scrolling experience of paging through content instead of needing to drag content into view.",
+        summary: "Snap positions are points where the scrollport stops moving after the scrolling operation completes. Setting up snap positions allows you to create a scrolling experience of paging through content instead of needing to drag content into view.",
         popularity: 0.0012730447375951131,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -582360,6 +582764,33 @@ characters used by computers and other devices for encoding letters, numbers, pu
     }
   },
   {
+    id: "/en-US/docs/Glossary/out_of_order_patching",
+    links: {},
+    data: {
+      metadata: {
+        title: "Out-of-order patching",
+        pageType: "glossary-definition",
+        summary: "Out-of-order patching refers to delivering HTML content in an order different from the sequential, top-to-bottom flow of a single document.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/glossary/out_of_order_patching",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "Out-of-order patching",
+        status: []
+      },
+      flaws: {},
+      links: [
+        "https://jasonformat.com/islands-architecture/"
+      ],
+      imgs: [],
+      ids: [
+        "see_also"
+      ]
+    }
+  },
+  {
     id: "/en-US/docs/Glossary/Lazy_load",
     links: {},
     data: {
@@ -589799,12 +590230,13 @@ In this article we will look at JavaScript from a high level, answering question
         "frame_inline-overflow",
         "the_overflow_property",
         "hiding_overflowing_content",
-        "frame_hidden",
+        "frame_clip",
         "scrolling_overflowing_content",
-        "frame_scroll",
-        "frame_scroll-x",
-        "only_displaying_scrollbars_when_needed",
         "frame_auto",
+        "controlling_overflow_on_each_axis",
+        "frame_scroll-x",
+        "always_displaying_scrollbars",
+        "the_hidden_value",
         "unwanted_overflow_in_web_design",
         "summary"
       ]
@@ -595274,7 +595706,7 @@ You'll find out what the tutorial covers, how to get started, how to ask for hel
         "installing_node",
         "windows",
         "ubuntu_and_macos",
-        "testing_your_nodejs_and_npm_installation",
+        "testing_your_node.js_and_npm_installation",
         "using_npm",
         "adding_dependencies",
         "development_dependencies",
@@ -614948,22 +615380,79 @@ Firefox 155 is the current Beta version of Firefox and ships on September 1, 202
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
         "https://whattrainisitnow.com/release/?version=155",
+        "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html",
+        "https://bugzil.la/1692434",
+        "https://bugzil.la/1477920",
+        "https://firefox-source-docs.mozilla.org/devtools-user/json_viewer/index.html",
+        "https://jsonlines.org/",
+        "https://bugzil.la/2055774",
+        "https://bugzil.la/2060972",
+        "https://bugzil.la/2060529",
+        "https://firefox-source-docs.mozilla.org/devtools-user/debugger/index.html",
+        "https://bugzil.la/1642578",
+        "https://bugzil.la/2038940",
+        "https://bugzil.la/2047345",
+        "https://bugzil.la/2059738",
+        "https://bugzil.la/2059988",
+        "https://bugzil.la/1911075",
+        "https://github.com/tc39/proposal-await-dictionary",
+        "https://bugzil.la/2057270",
+        "https://bugzil.la/2055211",
+        "https://bugzil.la/2052949",
+        "https://datatracker.ietf.org/doc/html/draft-ietf-happy-happyeyeballs-v3",
+        "https://bugzil.la/2062892",
+        "https://bugzil.la/2059947",
+        "https://bugzil.la/2007165",
+        "https://bugzil.la/2007200",
+        "https://bugzil.la/2007174",
+        "https://bugzil.la/2007150",
+        "https://bugzil.la/2007160",
+        "https://bugzil.la/1924328",
         "https://html.spec.whatwg.org/multipage/links.html#hyperlinkelementutils",
         "https://bugzil.la/2058578",
         "https://bugzil.la/2059426",
+        "https://bugzil.la/2060873",
+        "https://bugzil.la/2061646",
         "https://bugzil.la/1814460",
+        "https://bugzil.la/2019361",
+        "https://bugzil.la/2056412",
+        "https://bugzil.la/2014357",
+        "https://bugzil.la/2055911",
+        "https://bugzil.la/2053296",
+        "https://bugzil.la/2053297",
+        "https://github.com/WebAssembly/compact-import-section",
+        "https://bugzil.la/2062344",
+        "https://github.com/WebAssembly/wide-arithmetic",
+        "https://bugzil.la/2062374",
         "https://bugzil.la/2035439",
         "https://bugzil.la/2058556",
         "https://bugzil.la/2041335",
         "https://bugzil.la/2030909",
-        "https://bugzil.la/1988723"
+        "https://bugzil.la/1988723",
+        "https://bugzil.la/2046602",
+        "https://bugzil.la/1278697",
+        "https://bugzil.la/2060754",
+        "https://bugzil.la/2055710",
+        "https://bugzil.la/2037673",
+        "https://bugzil.la/2042999",
+        "https://bugzil.la/2043000",
+        "https://bugzil.la/2018900",
+        "https://bugzil.la/2029965",
+        "https://github.com/tc39/proposal-regexp-buffer-boundaries",
+        "https://bugzil.la/2047706",
+        "https://bugzil.la/2045230"
       ],
       imgs: [],
       ids: [
         "changes_for_web_developers",
+        "developer_tools",
+        "css",
+        "javascript",
+        "http",
         "apis",
         "dom",
         "media_webrtc_and_web_audio",
+        "webassembly",
         "webdriver_conformance_webdriver_bidi_marionette",
         "general",
         "webdriver_bidi",
@@ -615601,7 +616090,7 @@ Firefox 155 is the current Beta version of Firefox and ships on September 1, 202
         "array_extras",
         "document.opentextplain",
         "xml_events",
-        "cancelling_keydown",
+        "canceling_keydown",
         "accessibility_apis_for_dhtml",
         "dhtml_performance_fixes",
         "graphics",
@@ -616106,11 +616595,13 @@ This information allows you to try out experimental features and provide feedbac
         "https://github.com/tc39/proposal-intl-locale-info",
         "https://bugzil.la/1693576",
         "https://bugzil.la/1916277",
+        "https://bugzil.la/2047706",
         "https://bugzil.la/2036160",
         "https://bugzil.la/2018900",
         "https://bugzil.la/1278697",
         "https://en.wikipedia.org/wiki/Graphics_Processing_Unit",
         "https://bugzil.la/1602129",
+        "https://bugzil.la/2055710",
         "https://bugzil.la/1057233",
         "https://bugzil.la/1280613",
         "https://bugzil.la/778617",
@@ -616213,6 +616704,8 @@ This information allows you to try out experimental features and provide feedbac
         "javascript.options.experimental.intl_locale_info",
         "multiple_import_maps",
         "dom.multiple_import_maps.enabled",
+        "buffer_boundary_assertions_in_regular_expressions",
+        "javascript.options.experimental.regexp_buffer_boundaries",
         "apis",
         "crash_reporting",
         "dom.reporting.crash.enabled",
@@ -616226,6 +616719,8 @@ This information allows you to try out experimental features and provide feedbac
         "dom.webgpu.enabled",
         "dom.webgpu.service-workers.enabled",
         "webrtc_and_media",
+        "audio_session_api",
+        "dom.audio_session.enabled",
         "htmlmediaelement_properties_audiotracks_and_videotracks",
         "media.track.enabled",
         "asynchronous_sourcebuffer_add_and_remove",
@@ -637457,7 +637952,7 @@ A suggestion can be deleted when the property deletable of a SuggestResult is se
         browserCompat: [
           "webextensions.api.omnibox.onInputCancelled"
         ],
-        summary: "Fired when the user has cancelled their interaction with your extension (for example, by clicking outside the address bar).",
+        summary: "Fired when the user has canceled their interaction with your extension (for example, by clicking outside the address bar).",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
