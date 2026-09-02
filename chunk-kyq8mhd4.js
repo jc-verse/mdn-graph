@@ -72403,7 +72403,35 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72411,31 +72439,11 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72447,75 +72455,7 @@ expression and then returns undefined.`,
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-exp-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-generator-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-equality-operators",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-new-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72523,15 +72463,7 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-bitwise-not-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-this-keyword",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72539,11 +72471,47 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-signed-right-shift-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-logical-not-operator",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-left-shift-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-addition-operator-plus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-decrement-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72551,7 +72519,35 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-YieldExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FormalParameters",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestElement",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72559,15 +72555,7 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72575,11 +72563,15 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-multiplicative-operators",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-void-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72591,7 +72583,23 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CoalesceExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-delete-operator",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-conditional-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -72599,31 +72607,23 @@ expression and then returns undefined.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AssignmentRestProperty",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-subtraction-operator-minus",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ComputedPropertyName",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-minus-operator",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-unary-plus-operator",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -75771,15 +75771,7 @@ it attempts to convert and compare operands that are of different types.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -75787,19 +75779,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
-          title: "ECMAScript® 2027 Language Specification"
-        },
-        {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Assertion",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -75811,7 +75795,11 @@ it attempts to convert and compare operands that are of different types.`,
           title: "Regular Expression Buffer Boundaries for ECMAScript"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-AtomEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-RegularExpressionModifiers",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClass",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
@@ -75819,11 +75807,23 @@ it attempts to convert and compare operands that are of different types.`,
           title: "ECMAScript® 2027 Language Specification"
         },
         {
-          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-DecimalEscape",
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-PatternCharacter",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction",
           title: "ECMAScript® 2027 Language Specification"
         },
         {
           bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterEscape",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier",
+          title: "ECMAScript® 2027 Language Specification"
+        },
+        {
+          bcdSpecificationURL: "https://tc39.es/ecma262/multipage/text-processing.html#prod-CharacterClassEscape",
           title: "ECMAScript® 2027 Language Specification"
         }
       ],
@@ -86267,6 +86267,7 @@ To send multiple cookies, multiple Set-Cookie headers should be sent in the same
       links: [
         "https://fetch.spec.whatwg.org/#forbidden-response-header-name",
         "https://fetch.spec.whatwg.org/#ref-for-forbidden-response-header-name%E2%91%A0",
+        "https://publicsuffix.org/",
         "https://datatracker.ietf.org/doc/html/rfc6265#section-4.1.2.3",
         "https://web.dev/articles/samesite-cookies-explained"
       ],
@@ -90311,23 +90312,7 @@ Each request method has its own semantics, but some characteristics are shared a
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
-          title: "HTTP Semantics"
-        },
-        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#CONNECT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
-          title: "HTTP Semantics"
-        },
-        {
-          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
           title: "HTTP Semantics"
         },
         {
@@ -90335,7 +90320,23 @@ Each request method has its own semantics, but some characteristics are shared a
           title: "HTTP Semantics"
         },
         {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#PUT",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#POST",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#DELETE",
+          title: "HTTP Semantics"
+        },
+        {
           bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#GET",
+          title: "HTTP Semantics"
+        },
+        {
+          bcdSpecificationURL: "https://httpwg.org/specs/rfc9110.html#HEAD",
           title: "HTTP Semantics"
         }
       ],
@@ -114952,11 +114953,13 @@ It is used as a component of the <color-interpolation-method> data type.`,
       ids: [
         "syntax",
         "parameters",
+        "no-clamp",
         "progress",
         "progress_start",
         "progress_end",
         "return_value",
         "description",
+        "clamping_the_return_value",
         "permitted_unit_types",
         "creating_unitless_values",
         "combining_progress_with_other_functions_and_custom_properties",
@@ -133397,23 +133400,11 @@ By default, the browser is allowed to make any adjustments to the element's appe
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
-          title: "CSS Basic User Interface Module Level 4"
-        },
-        {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-animation",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
-          title: "CSS Color Module Level 4"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -133421,7 +133412,11 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-bar",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-animation-manual",
+          title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-underscore",
           title: "CSS Basic User Interface Module Level 4"
         },
         {
@@ -133433,12 +133428,20 @@ By default, the browser is allowed to make any adjustments to the element's appe
           title: "CSS Basic User Interface Module Level 4"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
-          title: "CSS Color Module Level 4"
+          bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#valdef-caret-shape-auto",
+          title: "CSS Basic User Interface Module Level 4"
         },
         {
           bcdSpecificationURL: "https://drafts.csswg.org/css-ui/#propdef-caret-shape",
           title: "CSS Basic User Interface Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-transparent",
+          title: "CSS Color Module Level 4"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor",
+          title: "CSS Color Module Level 4"
         }
       ],
       links: [
@@ -153336,7 +153339,7 @@ It only has an effect on the <circle>, <ellipse>, <line>, <path>, <polygon>, <po
         browserCompat: [
           "css.properties.font-size-adjust"
         ],
-        summary: "The font-size-adjust CSS property provides a way to modify the size of lowercase letters relative to the size of uppercase letters, which defines the overall font-size. This property is useful for situations where font fallback can occur.",
+        summary: "The font-size-adjust CSS property adjusts the size of a font to match a chosen font metric, such as the height of lowercase letters, to a specified proportion of the font-size. This property is intended for adjusting fallback fonts to have similar metrics as the first-choice font.",
         popularity: 0.01243937631496984,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -182491,27 +182494,7 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
-          title: "VirtualKeyboard API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
           title: "HTML"
         },
         {
@@ -182519,39 +182502,51 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertimingignore",
-          title: "Container Timing API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
+          title: "CSS Style Attributes"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
+          bcdSpecificationURL: "https://w3c.github.io/element-timing/#dom-element-elementtiming",
+          title: "Element Timing API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
-          title: "CSS Shadow Module Level 1"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
           title: "HTML"
         },
         {
@@ -182559,19 +182554,19 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertiming",
-          title: "Container Timing API"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-title-attribute",
           title: "HTML"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
           title: "HTML"
         },
         {
@@ -182583,7 +182578,19 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "DOM"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-dir-attribute",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/virtual-keyboard/#dom-elementcontenteditable-virtualkeyboardpolicy",
+          title: "VirtualKeyboard API"
+        },
+        {
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          title: "CSS Shadow Module Level 1"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-&-offsets",
           title: "HTML"
         },
         {
@@ -182591,52 +182598,48 @@ before browsers' main rendering machinery kicks in. This ensures they are availa
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable-plaintextonly",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
           title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://w3c.github.io/element-timing/#dom-element-elementtiming",
-          title: "Element Timing API"
         },
         {
           bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce",
+          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertimingignore",
+          title: "Container Timing API"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-data-*",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#classes",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dnd.html#the-draggable-attribute",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect",
-          title: "HTML"
-        },
-        {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#part-attr",
+          bcdSpecificationURL: "https://drafts.csswg.org/css-shadow/#element-attrdef-html-global-exportparts",
           title: "CSS Shadow Module Level 1"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-lang",
           title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://drafts.csswg.org/css-style-attr/#style-attribute",
-          title: "CSS Style Attributes"
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize",
+          title: "HTML"
         },
         {
-          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/interaction.html#writing-suggestions",
           title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is",
+          title: "HTML"
+        },
+        {
+          bcdSpecificationURL: "https://wicg.github.io/container-timing/#dom-htmlelement-containertiming",
+          title: "Container Timing API"
         }
       ],
       links: [
@@ -186347,7 +186350,11 @@ and Legendre symbols.`,
       flaws: {},
       specifications: [
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          title: "MathML Core"
+        },
+        {
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
           title: "MathML Core"
         },
         {
@@ -186355,7 +186362,7 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathcolor",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
           title: "MathML Core"
         },
         {
@@ -186363,15 +186370,11 @@ and Legendre symbols.`,
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathsize",
-          title: "MathML Core"
-        },
-        {
           bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-mathbackground",
           title: "MathML Core"
         },
         {
-          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-dir",
+          bcdSpecificationURL: "https://w3c.github.io/mathml-core/#dfn-scriptlevel",
           title: "MathML Core"
         }
       ],
@@ -224748,11 +224751,15 @@ HTTP method used to submit the <form>.`,
           title: "HTML"
         }
       ],
-      links: [],
+      links: [
+        "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#implicit-submission"
+      ],
       imgs: [],
       ids: [
         "syntax",
         "event_type",
+        "description",
+        "implicit_submission",
         "examples",
         "html",
         "javascript",
@@ -290973,6 +290980,7 @@ They are intended for use cases where data might be supplied or requested in arb
         "init",
         "priority",
         "return_value",
+        "description",
         "examples",
         "using_tasksignal.any",
         "specifications",
@@ -313003,10 +313011,7 @@ DocumentPictureInPictureEvent interface returns a Window instance representing t
         browserCompat: [
           "api.IDBFactory.deleteDatabase"
         ],
-        summary: `The deleteDatabase() method of the
-IDBFactory interface requests the deletion of a database. The method
-returns an IDBOpenDBRequest object immediately, and performs the deletion
-operation asynchronously.`,
+        summary: "The deleteDatabase() method of the IDBFactory interface requests the deletion of a database. The method returns an IDBOpenDBRequest object immediately, and performs the deletion operation asynchronously.",
         popularity: 0.0013793278795853118,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -313034,7 +313039,9 @@ operation asynchronously.`,
         "name",
         "options",
         "return_value",
+        "description",
         "examples",
+        "basic_usage",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -351278,7 +351285,7 @@ This includes both changes in the selected range of characters, or if the caret 
         browserCompat: [
           "api.HTMLTextAreaElement.selectionEnd"
         ],
-        summary: "The selectionEnd property of the HTMLTextAreaElement interface specifies the end position of the current text selection in a <textarea> element. It is a number representing the last index of the selected text. It can be used to both retrieve and set the index of the end of a <textarea>s selected text.",
+        summary: "The selectionEnd property of the HTMLTextAreaElement interface specifies the end position of the current text selection in a <textarea> element.",
         popularity: null,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -351299,7 +351306,13 @@ This includes both changes in the selected range of characters, or if the caret 
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
+        "basic_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_examples",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -351781,7 +351794,7 @@ a NodeList of the <label> elements associated with the
         browserCompat: [
           "api.HTMLTextAreaElement.selectionStart"
         ],
-        summary: "The selectionStart property of the HTMLTextAreaElement interface specifies the start position of the current text selection in a <textarea> element. It is a number representing the beginning index of the selected text. It can be used to both retrieve and set the start of the index of the beginning of a <textarea>s selected text.",
+        summary: "The selectionStart property of the HTMLTextAreaElement interface specifies the start position of the current text selection in a <textarea> element.",
         popularity: 0.0010106595984058274,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -351802,7 +351815,13 @@ a NodeList of the <label> elements associated with the
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
+        "basic_usage",
+        "html",
+        "javascript",
+        "result",
+        "frame_examples",
         "specifications",
         "browser_compatibility",
         "see_also"
@@ -447464,6 +447483,7 @@ language used in the video track.`,
         "createbidirectionalstream",
         "createsendgroup",
         "createunidirectionalstream",
+        "exportkeyingmaterial",
         "getstats",
         "examples",
         "specifications",
@@ -447645,6 +447665,54 @@ language used in the video track.`,
         "examples",
         "specifications",
         "browser_compatibility"
+      ]
+    }
+  },
+  {
+    id: "/en-US/docs/Web/API/WebTransport/exportKeyingMaterial",
+    links: {},
+    data: {
+      metadata: {
+        title: "WebTransport: exportKeyingMaterial() method",
+        pageType: "web-api-instance-method",
+        browserCompat: [
+          "api.WebTransport.exportKeyingMaterial"
+        ],
+        summary: "The exportKeyingMaterial() method of the WebTransport interface returns a Promise that fulfills with keying material derived from the TLS session underlying the transport's connection.",
+        popularity: null,
+        modified: "1970-01-01T00:00:00.000Z",
+        source: {
+          folder: "en-us/web/api/webtransport/exportkeyingmaterial",
+          last_commit_url: "https://github.com/mdn/content/commit/"
+        },
+        short_title: "exportKeyingMaterial()",
+        status: []
+      },
+      flaws: {},
+      specifications: [
+        {
+          bcdSpecificationURL: "https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial",
+          title: "WebTransport"
+        }
+      ],
+      links: [],
+      imgs: [],
+      ids: [
+        "syntax",
+        "parameters",
+        "label",
+        "context",
+        "outputlength",
+        "return_value",
+        "exceptions",
+        "rangeerror",
+        "invalidstateerror",
+        "description",
+        "examples",
+        "binding_a_token_to_the_connection",
+        "specifications",
+        "browser_compatibility",
+        "see_also"
       ]
     }
   },
@@ -455921,9 +455989,7 @@ browser's event loop.`,
         browserCompat: [
           "api.Window.screenTop"
         ],
-        summary: `The Window.screenTop read-only property returns the
-vertical distance, in CSS pixels, from the top border of the user's browser viewport to
-the top side of the screen.`,
+        summary: "The screenTop read-only property of the Window interface returns the vertical distance, in CSS pixels, from the top border of the user's browser window to the top side of the screen.",
         popularity: 0.001506454873095479,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -458938,9 +459004,7 @@ Either by selecting an existing file, or entering a name for a new file.`,
         browserCompat: [
           "api.Window.screenX"
         ],
-        summary: `The Window.screenX read-only property returns the
-horizontal distance, in CSS pixels, of the left border of the user's browser viewport to
-the left side of the screen.`,
+        summary: "The screenX read-only property of the Window interface returns the horizontal distance, in CSS pixels, from the left border of the user's browser window to the left side of the screen.",
         popularity: 0.0034387851744500167,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -458958,8 +459022,7 @@ the left side of the screen.`,
         }
       ],
       links: [
-        "https://mdn.github.io/dom-examples/screenleft-screentop/",
-        "https://github.com/mdn/dom-examples/blob/main/screenleft-screentop/index.html"
+        "https://mdn.github.io/dom-examples/screenleft-screentop/"
       ],
       imgs: [],
       ids: [
@@ -460275,7 +460338,7 @@ select a directory.`,
         browserCompat: [
           "api.Window.screenY"
         ],
-        summary: "The Window.screenY read-only property returns the vertical distance, in CSS pixels, of the top border of the user's browser viewport to the top edge of the screen.",
+        summary: "The screenY read-only property of the Window interface returns the vertical distance, in CSS pixels, from the top border of the user's browser window to the top side of the screen.",
         popularity: 0.001970468399407588,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -460366,9 +460429,7 @@ transmit, and decode control characters such as ASCII values 0 through 31.`,
         browserCompat: [
           "api.Window.screenLeft"
         ],
-        summary: `The Window.screenLeft read-only property returns the
-horizontal distance, in CSS pixels, from the left border of the user's browser viewport
-to the left side of the screen.`,
+        summary: "The screenLeft read-only property of the Window interface returns the horizontal distance, in CSS pixels, from the left border of the user's browser window to the left side of the screen.",
         popularity: 0.0013602588305587867,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -528607,7 +528668,7 @@ parameter.`,
         browserCompat: [
           "api.HTMLInputElement.selectionEnd"
         ],
-        summary: "The selectionEnd property of the HTMLInputElement interface is a number that represents the end index of the selected text. That is, it represents the index of the character immediately following the selection. Likewise, when there is no selection, this returns the offset of the character immediately following the current text input cursor position.",
+        summary: "The selectionEnd property of the HTMLInputElement interface specifies the end position of the current text selection in an <input> element.",
         popularity: 0.0013411897815322617,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -528624,13 +528685,13 @@ parameter.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://html.spec.whatwg.org/multipage/forms.html#concept-input-apply"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
+        "basic_usage",
         "html",
         "javascript",
         "result",
@@ -529860,7 +529921,7 @@ type hidden, the property returns null.`,
         browserCompat: [
           "api.HTMLInputElement.selectionStart"
         ],
-        summary: "The selectionStart property of the HTMLInputElement interface is a number that represents the beginning index of the selected text. When nothing is selected, it returns the position of the text input cursor (caret) inside of the <input> element.",
+        summary: "The selectionStart property of the HTMLInputElement interface specifies the start position of the current text selection in an <input> element.",
         popularity: 0.002072169994215722,
         modified: "1970-01-01T00:00:00.000Z",
         source: {
@@ -529877,13 +529938,13 @@ type hidden, the property returns null.`,
           title: "HTML"
         }
       ],
-      links: [
-        "https://html.spec.whatwg.org/multipage/forms.html#concept-input-apply"
-      ],
+      links: [],
       imgs: [],
       ids: [
         "value",
+        "description",
         "examples",
+        "basic_usage",
         "html",
         "javascript",
         "result",
@@ -533659,6 +533720,7 @@ The most graceful way of doing this is to close the connection using the close()
         "aborting_a_fetch_operation_using_an_explicit_signal",
         "aborting_a_fetch_operation_with_a_timeout",
         "aborting_a_fetch_with_timeout_or_explicit_abort",
+        "removing_the_abort_event_listener",
         "implementing_an_abortable_api",
         "specifications",
         "browser_compatibility",
@@ -533780,6 +533842,7 @@ The most graceful way of doing this is to close the connection using the close()
         "parameters",
         "iterable",
         "return_value",
+        "description",
         "examples",
         "using_abortsignal.any",
         "specifications",
@@ -533823,6 +533886,7 @@ The most graceful way of doing this is to close the connection using the close()
         "parameters",
         "time",
         "return_value",
+        "description",
         "examples",
         "specifications",
         "browser_compatibility"
@@ -588605,9 +588669,7 @@ This article shows the syntax required to make a link, and discusses link best p
         "https://github.com/mdn/learning-area/blob/main/javascript/building-blocks/functions/function-scope.html",
         "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn"
       ],
-      imgs: [
-        "/en-US/docs/Learn_web_development/Core/Scripting/Functions/mdn-mozilla-zoo.png"
-      ],
+      imgs: [],
       ids: [
         "where_do_i_find_functions",
         "built-in_browser_functions",
@@ -607373,7 +607435,8 @@ Firefox 156 is the current Beta version of Firefox and ships on September 15, 20
       flaws: {},
       links: [
         "https://www.firefox.com/en-US/channel/desktop/#beta",
-        "https://whattrainisitnow.com/release/?version=156"
+        "https://whattrainisitnow.com/release/?version=156",
+        "https://bugzil.la/2059526"
       ],
       imgs: [],
       ids: [
@@ -616496,6 +616559,7 @@ Firefox 154 was released on August 18, 2026.`,
         "https://bugzil.la/2034104",
         "https://bugzil.la/2047995",
         "https://bugzil.la/2047997",
+        "https://bugzil.la/2038013",
         "https://bugzil.la/2019332",
         "https://bugzil.la/1805447",
         "https://bugzil.la/1584318",
@@ -616513,6 +616577,7 @@ Firefox 154 was released on August 18, 2026.`,
         "https://bugzil.la/2042986",
         "https://bugzil.la/2044602",
         "https://bugzil.la/2047015",
+        "https://bugzil.la/2047437",
         "https://bugzil.la/2051047"
       ],
       imgs: [],
@@ -616522,6 +616587,7 @@ Firefox 154 was released on August 18, 2026.`,
         "html",
         "css",
         "javascript",
+        "http",
         "apis",
         "media_webrtc_and_web_audio",
         "webdriver_conformance_webdriver_bidi_marionette",
@@ -616785,10 +616851,7 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/1974386",
         "https://bugzil.la/1984310",
         "https://bugzil.la/1744292",
-        "https://bugzil.la/1986631",
-        "https://bugzil.la/1998245",
         "https://bugzil.la/1974787",
-        "https://bugzil.la/2014060",
         "https://bugzil.la/2018797",
         "https://bugzil.la/2024601",
         "https://bugzil.la/1804775",
@@ -616796,7 +616859,6 @@ This information allows you to try out experimental features and provide feedbac
         "https://bugzil.la/2046153",
         "https://bugzil.la/2042986",
         "https://bugzil.la/2044602",
-        "https://bugzil.la/2047015",
         "https://w3c.github.io/mathml-core/#the-a-element",
         "https://bugzil.la/2026848",
         "https://github.com/tc39/proposal-intl-locale-info",
@@ -616879,17 +616941,13 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.heading-selector.enabled",
         "custom-media_at-rule",
         "layout.css.custom-media.enabled",
-        "attr-type_values_in_attr_css_function",
-        "layout.css.attr.enabled",
         "base-select_value_for_appearance_css_property",
         "dom.select.customizable_select.enabled",
         "layout.css.appearance-base.enabled",
-        "namespaced_attributes_in_attr_css_function",
-        "layout.css.attr.enabled_2",
         "absolutely_positioned_elements_in_multi-column_containers_and_printing",
         "layout.abspos.fragmentainer-aware-positioning.enabled",
         "container_style_range_syntax_queries",
-        "layout.css.attr.enabled_3",
+        "layout.css.attr.enabled",
         "timeline-range-name_values",
         "layout.css.scroll-driven-animations.enabled_4",
         "timeline-range-name_values_in_keyframes_selectors",
@@ -616900,8 +616958,6 @@ This information allows you to try out experimental features and provide feedbac
         "layout.css.line-clamp.enabled",
         "percentage_values_for_text-decoration-inset",
         "layout.css.text-decoration-inset-percentage.enabled",
-        "calculating_a_value_based_upon_progress",
-        "layout.css.progress-function.enabled",
         "svg",
         "mathml",
         "disable_href_on_non-a_mathml_elements",
