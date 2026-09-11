@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-s7m65h2r.js";
+} from "./chunk-tmycfy5m.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -598,6 +598,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            "cross-site_scripting": {
+              children: {},
+              slug: "/en-US/docs/Glossary/Cross-site_scripting",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://owasp.org/www-community/attacks/xss/",
+                    404
+                  ]
+                }
+              ]
+            },
             csr: {
               children: {},
               slug: "/en-US/docs/Glossary/CSR",
@@ -615,6 +628,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            denial_of_service: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Denial_of_Service",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://owasp.org/www-community/attacks/Denial_of_Service",
+                    404
+                  ]
                 }
               ]
             },
@@ -696,19 +722,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            exif: {
-              children: {},
-              slug: "/en-US/docs/Glossary/EXIF",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.cipa.jp/e/std/std-sec.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1203,7 +1216,7 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://people.eecs.berkeley.edu/~messer/netappc/Supplements/10-idl.pdf",
-                    404
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1292,6 +1305,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            mitm: {
+              children: {},
+              slug: "/en-US/docs/Glossary/MitM",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack",
+                    404
+                  ]
+                }
+              ]
+            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1339,6 +1365,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            opera_browser: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Opera_Browser",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974",
+                    "https://apps.apple.com/us/app/opera-browser-with-vpn/id1411869974"
+                  ]
                 }
               ]
             },
@@ -1483,19 +1522,6 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://www.alphacodingskills.com/python/python-tutorial.php",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            reflow: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Reflow",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developers.google.com/speed/docs/insights/browser-reflow",
                     "The operation timed out."
                   ]
                 }
@@ -1677,6 +1703,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://owasp.org/www-community/attacks/SQL_Injection",
+                    404
+                  ]
                 }
               ]
             },
@@ -3639,19 +3672,6 @@ body {
                         }
                       ]
                     },
-                    responsive_design: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         grid: {
@@ -4107,6 +4127,19 @@ body {
                 },
                 frameworks_libraries: {
                   children: {
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     react_todo_list_beginning: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
@@ -6869,26 +6902,6 @@ article pre {
                             "https://getbem.com/naming/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    pseudo_classes_and_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cssarrowplease.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -7080,23 +7093,6 @@ li {
                     }
                   ]
                 },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 version_control: {
                   children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Version_control",
@@ -7117,37 +7113,7 @@ li {
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Learn_web_development/Core",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            educators: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/Educators",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://scrimba.com/teams?via=mdn-edu",
-                    "The operation timed out."
-                  ]
-                }
-              ]
+              }
             },
             extensions: {
               children: {
@@ -7163,20 +7129,14 @@ li {
                             "alpha-value-notation",
                             'Expected "20%" to be "0.2" (alpha-value-notation)',
                             "  background-color: rgb(255 255 255 / 20%);",
-                            "101:39 - 101:42",
+                            "95:39 - 95:42",
                             `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
 [alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
 ~~~
 @font-face {
   font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -7342,7 +7302,7 @@ button:active {
                             "alpha-value-notation",
                             'Expected "20%" to be "0.2" (alpha-value-notation)',
                             "  background-color: rgb(255 255 255 / 20%);",
-                            "105:39 - 105:42",
+                            "99:39 - 99:42",
                             `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
 [alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
 ~~~
@@ -7352,14 +7312,8 @@ body {
 
 @font-face {
   font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -7478,23 +7432,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13368,6 +13305,26 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
+                    apache_configuration_htaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/Cross_Site_Tracing",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods",
+                            "https://owasp.github.io/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods"
+                          ]
+                        }
+                      ]
+                    },
                     configuring_server_mime_types: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Configuring_server_MIME_types",
@@ -13394,51 +13351,6 @@ textarea:focus {
                           ]
                         }
                       ]
-                    },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.pythonanywhere.com/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.pythonanywhere.com/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.pythonanywhere.com/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.pythonanywhere.com/pricing/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.pythonanywhere.com/pricing/",
-                                500
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     express_nodejs: {
                       children: {
@@ -13585,6 +13497,40 @@ function startServer() {
                               data: [
                                 "https://laravel.com/docs/broadcasting",
                                 "https://laravel.com/framework/docs/broadcasting"
+                              ]
+                            }
+                          ]
+                        },
+                        website_security: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://owasp.org/www-community/attacks/Command_Injection",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://owasp.org/www-community/attacks/",
+                                404
+                              ]
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://owasp.org/www-project-top-ten/",
+                                "https://owasp.github.io/www-project-top-ten/"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://owasp.org/www-community/Vulnerability_Scanning_Tools",
+                                404
                               ]
                             }
                           ]
@@ -14128,19 +14074,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    your_own_automation_environment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mochajs.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -14215,29 +14148,9 @@ padding-left: 20px;
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 }
-              },
-              slug: "/en-US/docs/Learn_web_development/Getting_started",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "The operation timed out."
-                  ]
-                }
-              ]
+              }
             },
             howto: {
               children: {
@@ -14521,20 +14434,6 @@ padding-left: 20px;
               data: [
                 "/en-US/docs/Learn_web_development/Howto"
               ]
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "The operation timed out."
-              ]
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "The operation timed out."
-              ]
             }
           ]
         },
@@ -14748,13 +14647,6 @@ color: rgb(31 41 59 / 26%);
                             "https://docs.github.com/en/pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request",
                             404
                           ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://photography.tutsplus.com/tutorials/how-to-add-custom-callouts-to-screencast-videos-in-screenflow--cms-27122",
-                            "https://photography.tutsplus.com/video/c/production-recording/s/screen-recording"
-                          ]
                         }
                       ]
                     },
@@ -14887,19 +14779,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.chicagomanualofstyle.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -15929,6 +15808,19 @@ window.addEventListener("message", (event) => {
                         }
                       ]
                     },
+                    safely_inserting_external_content_into_a_page: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/xss-filter-evasion-cheatsheet",
+                            404
+                          ]
+                        }
+                      ]
+                    },
                     user_interface: {
                       children: {
                         browser_styles: {
@@ -15946,71 +15838,6 @@ webextensions.manifest.sidebar_action
 webextensions.manifest.options_ui`,
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        context_menu_items: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        devtools_panels: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/devtools_panels",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        notifications: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Notifications",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        page_actions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        toolbar_button: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Toolbar_button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://acorn.firefox.com/latest/foundations/styles/iconography-QEDMXQqj",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -16411,19 +16238,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "30": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=30",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "51": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
@@ -16433,6 +16247,32 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://nvd.nist.gov/vuln/detail/CVE-2017-5384",
                             "https://nvd.nist.gov/vuln/detail/cve-2017-5384"
+                          ]
+                        }
+                      ]
+                    },
+                    "121": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=121",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "122": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=122",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16476,14 +16316,27 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "130": {
+                    "129": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=130",
+                            "https://whattrainisitnow.com/release/?version=129",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "131": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/131",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=131",
                             "The operation timed out."
                           ]
                         }
@@ -16502,19 +16355,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "135": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=135",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "136": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
@@ -16528,19 +16368,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=137",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "138": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
@@ -16549,45 +16376,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://whattrainisitnow.com/release/?version=138",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=139",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=140",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
                             "The operation timed out."
                           ]
                         }
@@ -16619,27 +16407,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "146": {
+                    "144": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/146",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=146",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "148": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/148",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=148",
+                            "https://whattrainisitnow.com/release/?version=144",
                             "The operation timed out."
                           ]
                         }
@@ -16653,26 +16428,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with space",
                           data: [
                             "windows.update(windowId, { focused: true })"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=149",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "150": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/150",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=150",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16717,12 +16472,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "import source"
                           ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Reference/Statements/import/source"
-                          ]
                         }
                       ]
                     },
@@ -16740,12 +16489,6 @@ webextensions.manifest.options_ui`,
                           message: "Code with underscore",
                           data: [
                             "i64.mul_wide_u"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/WebTransport/draining"
                           ]
                         }
                       ]
@@ -16883,17 +16626,7 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/themes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 }
@@ -17616,17 +17349,7 @@ body {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Canvas_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://konvajs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 canvasrenderingcontext2d: {
                   children: {
@@ -19141,6 +18864,65 @@ li:nth-of-type(3n + 1) {
                       ]
                     }
                   }
+                },
+                cssrotate: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSRotate",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#66d" to be "#6666dd" (color-hex-length)',
+                        "  background-color: #66d;",
+                        "5:21 - 5:25",
+                        `/en-US/docs/Web/API/CSSRotate
+[color-hex-length] Expected "#66d" to be "#6666dd" (color-hex-length)
+~~~
+#increment-box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  background-color: #66d;
+  transform: rotate(15deg);
+  transition: transform 0.3s ease;
+}
+
+#log {
+  height: 80px;
+  overflow: scroll;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                csstransformcomponent: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSTransformComponent",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform functions"
+                      ]
+                    }
+                  ]
+                },
+                csstransformvalue: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSTransformValue",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "transform function"
+                      ]
+                    }
+                  ]
                 },
                 customelementregistry: {
                   children: {
@@ -23642,10 +23424,69 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://socketcluster.io/",
+                        530
+                      ]
+                    }
+                  ]
+                },
                 webtransport_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/WebTransport_API",
                   messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "syntax",
+                        "Parsing error: Invalid character.",
+                        "### Negotiating an application protocol",
+                        "7:16",
+                        `/en-US/docs/Web/API/WebTransport_API
+[syntax] Parsing error: Invalid character.
+~~~
+async function watchForDraining(transport) {
+  // Fulfills when the server signals that the session is draining
+  await transport.draining;
+
+  console.log("The session is draining: avoid opening new streams.");
+
+### Negotiating an application protocol
+
+A WebTransport server can support multiple applications, each using its own "custom" communication protocol.
+To support this, the client can offer a list of candidate protocol names in preference order via the [\`protocols\`](/en-US/docs/Web/API/WebTransport/WebTransport#protocols) option of the \`WebTransport()\` constructor.
+The server can then choose to select one of these during connection establishment.
+
+Once the WebTransport.ready promise fulfills, the negotiated protocol (if any) is available via the WebTransport.protocol property.
+This is the empty string if \`protocols\` was not used, or if the server did not select any of the offered protocols.
+A server that supports none of the offered protocols may instead reject the connection outright, causing \`ready\` to reject.
+
+\`\`\`js
+const url = "https://example.com:4999/wt";
+
+async function initTransport(url) {
+  const transport = new WebTransport(url, {
+    protocols: ["chat", "file-transfer"],
+  });
+
+  try {
+    await transport.ready;
+    console.log(transport.protocol); // e.g. "chat", or "" if none was selected
+    return transport;
+  } catch (error) {
+    console.error(\`Connection failed: \${error}\`);
+  }
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Broken external link",
                       data: [
@@ -25421,6 +25262,23 @@ body {
                         }
                       }
                     },
+                    cascade: {
+                      children: {
+                        introduction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Cascade/Introduction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.thoughtco.com/user-style-sheet-3469931",
+                                403
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     colors: {
                       children: {
                         applying_color: {
@@ -26965,6 +26823,19 @@ div {
                             }
                           ]
                         },
+                        using_color_wisely: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://medlineplus.gov/colorblindness.html",
+                                "https://www.medlineplus.gov/colorblindness.html"
+                              ]
+                            }
+                          ]
+                        },
                         using_relative_colors: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors",
@@ -27701,6 +27572,13 @@ p {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://alastairc.uk/2017/06/the-responsive-order-conflict/",
+                                "https://alastairc.uk/blog/2017/06/the-responsive-order-conflict/"
                               ]
                             }
                           ]
@@ -42027,6 +41905,19 @@ div {
                         },
                         "@media": {
                           children: {
+                            "prefers-color-scheme": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             scan: {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media/scan",
@@ -44735,6 +44626,42 @@ p {
                             }
                           ]
                         },
+                        "column-gap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-gap",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "thin" for property "column-gap" (declaration-property-value-no-unknown)',
+                                "  column-gap: thin;",
+                                "3:15 - 3:19",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-gap
+[declaration-property-value-no-unknown] Unexpected unknown value "thin" for property "column-gap" (declaration-property-value-no-unknown)
+~~~
+.content-box {
+  column-count: 3;
+  column-gap: thin;
+}
+
+@layer no-support {
+  @supports not (column-gap: thick) {
+    body::before {
+      content: "Your browser doesn't support the <line-width> keyword values";
+      background-color: wheat;
+      display: block;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "column-height": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/column-height",
@@ -44745,7 +44672,7 @@ p {
                                 "multiple-labeled-controls",
                                 "<label> is associated with multiple controls",
                                 "label",
-                                "256:6",
+                                "257:6",
                                 `/en-US/docs/Web/CSS/Reference/Properties/column-height
 [multiple-labeled-controls] <label> is associated with multiple controls
 ~~~
@@ -44757,10 +44684,11 @@ p {
   appearance (CSS) or behavior (JavaScript).
 </p>
 <p>
-  "Hypertext" refers to links that connect web pages to one another, either
-  within a single website or between websites. Links are a fundamental aspect of
-  the Web. By uploading content to the Internet and linking it to pages created
-  by other people, you become an active participant in the World Wide Web.
+  "Hypertext" refers to text containing links that connect web pages to one
+  another, either within a single website or between websites. Links are a
+  fundamental aspect of the Web. By uploading content to the Internet and
+  linking it to pages created by other people, you become an active participant
+  in the World Wide Web.
 </p>
 <p>
   HTML uses "markup" to annotate text, images, and other content for display in
@@ -45026,7 +44954,7 @@ p {
                                 "multiple-labeled-controls",
                                 "<label> is associated with multiple controls",
                                 "label",
-                                "262:6",
+                                "263:6",
                                 `/en-US/docs/Web/CSS/Reference/Properties/column-height
 [multiple-labeled-controls] <label> is associated with multiple controls
 ~~~
@@ -45038,10 +44966,11 @@ p {
   appearance (CSS) or behavior (JavaScript).
 </p>
 <p>
-  "Hypertext" refers to links that connect web pages to one another, either
-  within a single website or between websites. Links are a fundamental aspect of
-  the Web. By uploading content to the Internet and linking it to pages created
-  by other people, you become an active participant in the World Wide Web.
+  "Hypertext" refers to text containing links that connect web pages to one
+  another, either within a single website or between websites. Links are a
+  fundamental aspect of the Web. By uploading content to the Internet and
+  linking it to pages created by other people, you become an active participant
+  in the World Wide Web.
 </p>
 <p>
   HTML uses "markup" to annotate text, images, and other content for display in
@@ -49843,10 +49772,6 @@ body {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-wrap",
                           messages: [
                             {
-                              message: "Try it should not have content",
-                              data: []
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "declaration-property-value-no-unknown",
@@ -50140,16 +50065,6 @@ p {
                             }
                           }
                         },
-                        "font-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-style",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "frame-sizing": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/frame-sizing",
@@ -50233,26 +50148,6 @@ iframe {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        "grid-auto-columns": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-columns",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "grid-auto-rows": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-rows",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -51197,10 +51092,6 @@ iframe {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas",
                           messages: [
                             {
-                              message: "Try it should not have content",
-                              data: []
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -51267,16 +51158,6 @@ iframe {
                             }
                           ]
                         },
-                        "image-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-rendering",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "image-resolution": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/image-resolution",
@@ -51286,16 +51167,6 @@ iframe {
                               data: [
                                 "css.properties.image-resolution"
                               ]
-                            }
-                          ]
-                        },
-                        inset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -51463,16 +51334,6 @@ button {
                             }
                           ]
                         },
-                        isolation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/isolation",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "justify-items": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-items",
@@ -51604,29 +51465,9 @@ img {
                             }
                           ]
                         },
-                        "list-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "list-style-image": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-image",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "list-style-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-type",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -52017,10 +51858,6 @@ img {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-right",
                           messages: [
                             {
-                              message: "Try it should not have content",
-                              data: []
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "declaration-block-no-redundant-longhand-properties",
@@ -52059,10 +51896,6 @@ img {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-top",
                           messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -52176,46 +52009,6 @@ mask-composite: add;
                               data: [
                                 "css.properties.mask-border-mode"
                               ]
-                            }
-                          ]
-                        },
-                        "max-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-height",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "max-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-width",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "min-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-height",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "min-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-width",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -52523,26 +52316,6 @@ img.opacity:hover {
                         order: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/order",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "outline-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-style",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "outline-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-width",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -53112,16 +52885,6 @@ div {
                             }
                           ]
                         },
-                        "perspective-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective-origin",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "position-anchor": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/position-anchor",
@@ -53256,16 +53019,6 @@ body {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        quotes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/quotes",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -54259,26 +54012,6 @@ li {
                             }
                           ]
                         },
-                        "scroll-padding-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "scroll-padding-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "scroll-snap-align": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-align",
@@ -54901,26 +54634,6 @@ ol a:focus,
                             }
                           ]
                         },
-                        "shape-image-threshold": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-image-threshold",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "shape-margin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-margin",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "stop-color": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/stop-color",
@@ -55076,26 +54789,6 @@ polygon:nth-of-type(3) {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        "text-decoration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "text-decoration-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -55394,26 +55087,6 @@ u {
                             }
                           ]
                         },
-                        "text-decoration-line": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "text-decoration-skip-ink": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "text-decoration-style": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style",
@@ -55529,16 +55202,6 @@ em {
                         "text-transform": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-transform",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "text-underline-offset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-offset",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -56066,39 +55729,9 @@ div {
                             }
                           ]
                         },
-                        transition: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         "transition-delay": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-delay",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "transition-duration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-duration",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "transition-property": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-property",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -56179,16 +55812,6 @@ section {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        visibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -56650,26 +56273,6 @@ p:has(~ form > input:checked) {
                             }
                           ]
                         },
-                        "_colon_focus-visible": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        "_colon_focus-within": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:focus-within",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         _colon_hover: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:hover",
@@ -56843,16 +56446,6 @@ p:interest-target {
                             }
                           ]
                         },
-                        _colon_invalid: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:invalid",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         _colon_lang: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Selectors/:lang",
@@ -56907,16 +56500,6 @@ p:interest-target {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        _colon_not: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:not",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -57387,26 +56970,6 @@ a:target-after {
 ~~~
 `
                               ]
-                            }
-                          ]
-                        },
-                        _colon_valid: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:valid",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        _colon_visited: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:visited",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         },
@@ -59889,10 +59452,6 @@ li:nth-child(3) {
                               children: {},
                               slug: "/en-US/docs/Web/CSS/Reference/Values/color_value/hsl",
                               messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                },
                                 {
                                   message: "Stylelint backlog",
                                   data: [
@@ -72807,14 +72366,7 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/gradient",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         hue: {
                           children: {},
@@ -80999,7 +80551,7 @@ url("assets/icon.svg")
 url("../assets/image.png")
 
 /* Absolute URL */
-url("http://example.com/fonts/myFont.ttf")
+url("http://example.com/fonts/myFont.woff2")
 url("https://example.com/images/background.jpg")
 
 /* Data URL */
@@ -81017,16 +80569,6 @@ url("data:image/png;base64,iVBORw0KGgoAAA...")
                                 "Expected:",
                                 "css.types.url"
                               ]
-                            }
-                          ]
-                        },
-                        var: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Values/var",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
                             }
                           ]
                         }
@@ -81495,29 +81037,9 @@ function onclick(event) {
                             }
                           ]
                         },
-                        article: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/article",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         audio: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/audio",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        bdo: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/bdo",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -81549,10 +81071,6 @@ function onclick(event) {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
                           messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            },
                             {
                               message: "Redirected external link",
                               data: [
@@ -81644,16 +81162,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        div: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/div",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         embed: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/embed",
@@ -81691,16 +81199,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        form: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/form",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         hr: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/hr",
@@ -81725,10 +81223,6 @@ because the nesting selector cannot represent pseudo-elements. */
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/img",
                           messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -82042,39 +81536,9 @@ html.elements.input.switch`,
                                 }
                               ]
                             },
-                            "datetime-local": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local",
-                              messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                }
-                              ]
-                            },
-                            email: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/email",
-                              messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                }
-                              ]
-                            },
                             month: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/month",
-                              messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                }
-                              ]
-                            },
-                            number: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/number",
                               messages: [
                                 {
                                   message: "Try it should not have content",
@@ -82102,16 +81566,6 @@ html.elements.input.switch`,
                                 }
                               ]
                             },
-                            range: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/range",
-                              messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                }
-                              ]
-                            },
                             reset: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/reset",
@@ -82125,16 +81579,6 @@ html.elements.input.switch`,
                             tel: {
                               children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/tel",
-                              messages: [
-                                {
-                                  message: "Try it should not have content",
-                                  data: []
-                                }
-                              ]
-                            },
-                            url: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/url",
                               messages: [
                                 {
                                   message: "Try it should not have content",
@@ -82188,16 +81632,6 @@ html.elements.input.switch`,
                             }
                           ]
                         },
-                        main: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/main",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
                         mark: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
@@ -82244,16 +81678,6 @@ html.elements.input.switch`,
                         picture: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/picture",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        rt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rt",
                           messages: [
                             {
                               message: "Try it should not have content",
@@ -82626,6 +82050,33 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/Session_fixation",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/Session_fixation",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/Session_fixation",
+                            404
                           ]
                         }
                       ]
@@ -83141,6 +82592,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        server: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Server",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://owasp.org/www-project-secure-headers/index.html",
+                                "https://owasp.github.io/www-project-secure-headers/index.html"
+                              ]
+                            }
+                          ]
+                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -83300,6 +82764,36 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    methods: {
+                      children: {
+                        connect: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/CONNECT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.dimoulis.net/posts/ssh-over-proxy/",
+                                "getaddrinfo ENOTFOUND www.dimoulis.net"
+                              ]
+                            }
+                          ]
+                        },
+                        trace: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/TRACE",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://owasp.org/www-community/attacks/Cross_Site_Tracing",
+                                404
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     status: {
                       children: {
                         "226": {
@@ -83371,6 +82865,19 @@ http.headers.Use-As-Dictionary`,
                     },
                     errors: {
                       children: {
+                        deprecated_source_map_pragma: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://bugs.jquery.com/ticket/13274/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         regex_invalid_group: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_group",
@@ -83398,6 +82905,48 @@ http.headers.Use-As-Dictionary`,
                     },
                     global_objects: {
                       children: {
+                        abstractmodulesource: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/AbstractModuleSource",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "import source"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "import source"
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "syntax",
+                                "Parsing error: '=' expected.",
+                                'import source modSource from "./module.wasm";',
+                                "1:16",
+                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/AbstractModuleSource
+[syntax] Parsing error: '=' expected.
+~~~
+import source modSource from "./module.wasm";
+
+new (Object.getPrototypeOf(modSource.constructor))();
+// TypeError: Abstract class AbstractModuleSource not directly constructable
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "javascript.builtins.AbstractModuleSource"
+                              ]
+                            }
+                          ]
+                        },
                         array: {
                           children: {
                             map: {
@@ -83842,6 +83391,37 @@ let z = 1;
                     },
                     operators: {
                       children: {
+                        import: {
+                          children: {
+                            source: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import/source",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "import source"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "import source"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Operators/import/defer"
+                              ]
+                            }
+                          ]
+                        },
                         remainder: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
@@ -83899,6 +83479,18 @@ let z = 1;
                     },
                     statements: {
                       children: {
+                        export: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "import source"
+                              ]
+                            }
+                          ]
+                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -83912,9 +83504,188 @@ let z = 1;
                           ]
                         },
                         import: {
-                          children: {},
+                          children: {
+                            source: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import/source",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "import defer"
+                                  ]
+                                },
+                                {
+                                  message: "Broken link",
+                                  data: [
+                                    "/en-US/docs/Web/JavaScript/Reference/Statements/import/defer"
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source myModuleSource from "./my-module.wasm";',
+                                    "1:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+import source myModuleSource from "./my-module.wasm";
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source myModuleSource from "./my-module.wasm";',
+                                    "1:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+import source myModuleSource from "./my-module.wasm";
+
+const instance = await WebAssembly.instantiate(myModuleSource, {
+  env: { log: console.log },
+});
+const { exports } = instance;
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source myModuleSource from "./my-module.js";',
+                                    "5:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+import * as namespace from "./my-module.js";
+
+// Is equivalent to:
+
+import source myModuleSource from "./my-module.js";
+
+const namespace = await import(myModuleSource);
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source xSource from "foo";',
+                                    "2:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+import * as x from "foo";
+import source xSource from "foo";
+
+console.log((await import(xSource)) === x); // true
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source counterSource from "./counter.wasm";',
+                                    "1:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+import source counterSource from "./counter.wasm";
+
+const first = await WebAssembly.instantiate(counterSource, {
+  env: { initial: 0 },
+});
+const second = await WebAssembly.instantiate(counterSource, {
+  env: { initial: 100 },
+});
+
+console.log(first.exports.increment()); // 1
+console.log(first.exports.increment()); // 2
+console.log(second.exports.increment()); // 101
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "syntax",
+                                    "Parsing error: '=' expected.",
+                                    'import source counterSource from "./counter.wasm";',
+                                    "1:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Statements/import/source
+[syntax] Parsing error: '=' expected.
+~~~
+// -- sources.js --
+import source counterSource from "./counter.wasm";
+
+export { counterSource };
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            with: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import/with",
+                              messages: [
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "import source"
+                                  ]
+                                },
+                                {
+                                  message: "Code with space",
+                                  data: [
+                                    "import defer"
+                                  ]
+                                },
+                                {
+                                  message: "Broken link",
+                                  data: [
+                                    "/en-US/docs/Web/JavaScript/Reference/Statements/import/defer"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import",
                           messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "import defer"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "import source"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/JavaScript/Reference/Statements/import/defer"
+                              ]
+                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -83978,87 +83749,32 @@ doIt(); // returns "finally"
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Statements",
+                      messages: [
+                        {
+                          message: "Code with space",
+                          data: [
+                            "import source"
+                          ]
+                        }
+                      ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/JavaScript/Reference",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "import source"
+                      ]
+                    }
+                  ]
                 }
               }
             },
             mathml: {
               children: {
-                guides: {
-                  children: {
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/lm-math",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gust.org.pl/projects/e-foundry/tg-math/download/index_html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     global_attributes: {
@@ -84108,6 +83824,19 @@ doIt(); // returns "finally"
                               ]
                             }
                           ]
+                        },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
@@ -84151,6 +83880,12 @@ doIt(); // returns "finally"
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
                           messages: [
+                            {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/Web/Media/Guides/Formats/Image_types#jpeg_xl_image"
+                              ]
+                            },
                             {
                               message: "Redirected external link",
                               data: [
@@ -84942,6 +84677,19 @@ doIt(); // returns "finally"
                 },
                 defenses: {
                   children: {
+                    input_validation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Defenses/Input_validation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS",
+                            404
+                          ]
+                        }
+                      ]
+                    },
                     mixed_content: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Defenses/Mixed_content",
@@ -84953,6 +84701,19 @@ doIt(); // returns "finally"
                             "http.mixed-content",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    "same-origin_policy": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Defenses/Same-origin_policy",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://owasp.org/www-community/attacks/csrf",
+                            404
                           ]
                         }
                       ]
@@ -84973,8 +84734,34 @@ doIt(); // returns "finally"
                     }
                   }
                 },
+                practical_implementation_guides: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Practical_implementation_guides",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://owasp.org/www-community/attacks/",
+                        404
+                      ]
+                    }
+                  ]
+                },
                 threat_modeling: {
                   children: {
+                    frameworks: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Threat_modeling/Frameworks",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://owasp.org/www-project-threat-dragon/",
+                            "https://owasp.github.io/www-project-threat-dragon/"
+                          ]
+                        }
+                      ]
+                    },
                     pwa_threat_model: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Threat_modeling/PWA_threat_model",
@@ -84992,6 +84779,13 @@ doIt(); // returns "finally"
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/Security/Threat_modeling/PWA_threat_model"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://owasp.org/Top10/2025/",
+                        "https://top10.owasp.org/2025/"
                       ]
                     }
                   ]
@@ -89407,6 +89201,36 @@ svg.elements.feSpotLight.z`
                         }
                       ]
                     },
+                    module: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module",
+                      messages: [
+                        {
+                          message: "Code with space",
+                          data: [
+                            "import source"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: '=' expected.",
+                            'import source modSource from "./simple.wasm";',
+                            "1:16",
+                            `/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module
+[syntax] Parsing error: '=' expected.
+~~~
+import source modSource from "./simple.wasm";
+
+const worker = new Worker("wasm_worker.js");
+worker.postMessage(modSource);
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     promising_static: {
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/promising_static",
@@ -89516,6 +89340,16 @@ svg.elements.feSpotLight.z`
                 },
                 numeric: {
                   children: {
+                    add128: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/add128",
+                      messages: [
+                        {
+                          message: "Page status not backed by BCD",
+                          data: []
+                        }
+                      ]
+                    },
                     extend16_s: {
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/extend16_s",
@@ -89561,6 +89395,10 @@ svg.elements.feSpotLight.z`
                           data: [
                             "i64.mul_wide_s"
                           ]
+                        },
+                        {
+                          message: "Page status not backed by BCD",
+                          data: []
                         }
                       ]
                     },
@@ -89573,6 +89411,20 @@ svg.elements.feSpotLight.z`
                           data: [
                             "i64.mul_wide_u"
                           ]
+                        },
+                        {
+                          message: "Page status not backed by BCD",
+                          data: []
+                        }
+                      ]
+                    },
+                    sub128: {
+                      children: {},
+                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/sub128",
+                      messages: [
+                        {
+                          message: "Page status not backed by BCD",
+                          data: []
                         }
                       ]
                     }
@@ -90175,46 +90027,6 @@ svg.elements.feSpotLight.z`
                         swizzle: {
                           children: {},
                           slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/swizzle",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        trunc_sat_f32x4_s: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_s",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        trunc_sat_f32x4_u: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f32x4_u",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        trunc_sat_f64x2_s_zero: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_s_zero",
-                          messages: [
-                            {
-                              message: "Try it should not have content",
-                              data: []
-                            }
-                          ]
-                        },
-                        trunc_sat_f64x2_u_zero: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/SIMD/conversion/trunc_sat_f64x2_u_zero",
                           messages: [
                             {
                               message: "Try it should not have content",
