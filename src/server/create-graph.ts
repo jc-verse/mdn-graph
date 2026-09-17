@@ -38,6 +38,10 @@ const brokenImages = new Map(
   (await readConfig("broken-images.txt")).map((x) => [x, false]),
 );
 
+const allowedDtLinks = new Map(
+  (await readConfig("allowed-dt-links.txt")).map((x) => [x, false]),
+);
+
 function globToRegex(str: string) {
   return new RegExp(
     `^${str
@@ -459,7 +463,11 @@ export default async function createContentGraph() {
               .get(url.pathname)
               ?.get(url.hash.slice(1));
             // Only report if the link to be replaced with is a subpage
-            if (targetDtLink && targetDtLink.href.startsWith(url.pathname)) {
+            if (
+              targetDtLink &&
+              targetDtLink.href.startsWith(url.pathname) &&
+              !configHas(allowedDtLinks, `${node.id}\t${linkTarget}`)
+            ) {
               report(
                 node,
                 "Replace DT link with real target",
@@ -489,7 +497,11 @@ export default async function createContentGraph() {
           const targetDtLink = dtIdToLink
             .get(node.id)
             ?.get(linkTarget.slice(1));
-          if (targetDtLink && targetDtLink.href.startsWith(node.id)) {
+          if (
+            targetDtLink &&
+            targetDtLink.href.startsWith(node.id) &&
+            !configHas(allowedDtLinks, `${node.id}\t${linkTarget}`)
+          ) {
             report(
               node,
               "Replace DT link with real target",
@@ -518,7 +530,22 @@ export default async function createContentGraph() {
     }
   });
 
+  for (const [path, used] of allowedDtLinks) {
+    if (!used) console.warn(path, "no longer needs a DT link exception");
+  }
+
   const allImgs = new Map<string, boolean>();
+  const imagePathsByNormalizedSlug = new Map<string, string>();
+  function imageLookupKey(path: string) {
+    // Page slugs are case-insensitive; asset filenames are not.
+    return `${Path.dirname(path).toLowerCase()}/${Path.basename(path)}`;
+  }
+  function markImageUsed(path: string) {
+    const canonicalPath = imagePathsByNormalizedSlug.get(imageLookupKey(path));
+    if (canonicalPath === undefined) return false;
+    allImgs.set(canonicalPath, true);
+    return true;
+  }
   for await (const file of listdir(Path.join(CONTENT_SOURCE_ROOT, "en-us"))) {
     // Hack to exclude files at the root of the content source
     if (
@@ -542,7 +569,9 @@ export default async function createContentGraph() {
     if (
       [".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(Path.extname(file))
     ) {
-      allImgs.set(`${nodeId}/${Path.basename(file)}`, false);
+      const imagePath = `${nodeId}/${Path.basename(file)}`;
+      allImgs.set(imagePath, false);
+      imagePathsByNormalizedSlug.set(imageLookupKey(imagePath), imagePath);
     } else {
       report(graph.getNode(nodeId)!, "Unknown asset type", Path.basename(file));
     }
@@ -553,14 +582,12 @@ export default async function createContentGraph() {
         if (!img.startsWith("https://mdn.github.io/shared-assets/"))
           report(node, "External image", img);
       } else if (!img.startsWith("/shared-assets/")) {
-        if (!allImgs.has(img)) {
+        if (!markImageUsed(img)) {
           if (brokenImages.has(`${node.id}\t${img}`)) {
             brokenImages.set(`${node.id}\t${img}`, true);
           } else {
             report(node, "Missing image", img);
           }
-        } else {
-          allImgs.set(img, true);
         }
       }
     }
@@ -630,14 +657,12 @@ export default async function createContentGraph() {
               Path.extname(resolvedSrc),
             )
           ) {
-            if (!allImgs.has(resolvedSrc)) {
+            if (!markImageUsed(resolvedSrc)) {
               if (brokenImages.has(`${node.id}\t${src}`)) {
                 brokenImages.set(`${node.id}\t${src}`, true);
               } else {
                 report(node, "Missing image", src);
               }
-            } else {
-              allImgs.set(resolvedSrc, true);
             }
           }
         }

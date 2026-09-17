@@ -2,19 +2,22 @@
   Use two-space indent for comments.
 
   CSS syntax:
+/ <alpha-value>
 :is(td, tr):nth-child(n)
 <'grid-template-rows'> / <'grid-template-columns'>
 <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>?
+<calc-sum>, <calc-sum>
 <geometry-box> | no-clip
 <integer> && <custom-ident>?
 <length-percentage [0,∞]>
 <list of numbers>
-<number> <number> <number>
 <number> <number>
+<number> <number> <number>
 <number> [; <number>] ;?
 <offset-x> <offset-y>
 <string> <number>
 <timeline-range-name> <length-percentage>
+<timeline-range-name> <percentage>
 [ <integer [0,∞]> <absolute-color-base> ]
 [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?
 [ [ <integer> | infinite ]{2} ]#
@@ -29,6 +32,7 @@ auto [<length> | none]
 color(srgb ...)
 cubic-bezier(<number [0,1]> , <number> , <number [0,1]> , <number>)
 fit-content( [ <length> | <percentage> ] )
+fixed <number>
 from <color>
 from <coordinate-pair>
 linear(<number> <percentage>{1,2}, …)
@@ -43,7 +47,10 @@ steps(n, <jump-term>)
 "display": "browser"
 "target_hint": "_blank"
 "target_hint": "_self"
+"worker initialization"
 "x" in obj
+<audio loading>
+<video loading>
 FileSystemHandle.requestPermission({mode: 'readwrite'})
 Math.floor(x + 0.5)
 MediaStream.addEventListener('addtrack', ...)
@@ -51,21 +58,37 @@ Object.defineProperty(obj, prop, { get: func, configurable: true, enumerable: tr
 Object.defineProperty(obj, prop, { set: func, configurable: true, enumerable: true })
 Object.getOwnPropertyDescriptor(obj, prop)?.enumerable ?? false
 Object.hasOwn(element.dataset, 'keyname')
+PlatformArch.x86_32
 Promise.try(() => value)
 ReadableStream.getReader({mode: 'byob'})
-String.prototype.split(" ")
 SVG_FECOMPONENTTRANSFER_TYPE_*
+String.prototype.split(" ")
+TEXTPATH_METHODTYPE_*
+TEXTPATH_SIDETYPE_*
+TEXTPATH_SPACINGTYPE_*
 arr.concat([element0, element1, /* ... ,*/ elementN])
 arr.slice(0, -1)
+cache: "no-cache"
 canvas.getContext('2d', { alpha: false })
 canvas.toDataURL('image/jpeg', quality)
 concat([v1, v2])
 contain-intrinsic-size: auto none
 cubic-bezier(p1, p2, p3, p4)
+delegatesFocus: true
 delete obj.x
 for each...in
+getRootNode({ composed: true })
+gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
+gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
 import ... with { type: "css" }
+import defer
+import defer * as ns
+import source
+import with { type: "css" }
+import with { type: "json" }
+import with { type: "text" }
 minmax(auto, max-content)
+mode: "no-cors"
 navigation.entries().length - 1
 navigator.credentials.create({publicKey: ..., ...})
 navigator.credentials.get({otp: ..., ...})
@@ -76,56 +99,174 @@ slice(0, -1)
 tabs.query({active: true})
 tabs.query({currentWindow: true})
 try { ... }
+windows.update(windowId, { focused: true })
+with { type: "text" }
+{ type: "text" }
 
 JS_DoubleToInt32()
 JS_DoubleToUint32()
 NPN_GetValue()
+NPP_ClearSiteData
 NPP_GetValue()
 
+i16x8.extadd_pairwise_i8x16_s
+i16x8.extadd_pairwise_i8x16_u
+i16x8.extend_high_i8x16_s
+i16x8.extend_high_i8x16_u
+i16x8.extend_low_i8x16_s
+i16x8.extend_low_i8x16_u
+i16x8.extmul_high_i8x16_s
+i16x8.extmul_high_i8x16_u
+i16x8.extmul_low_i8x16_s
+i16x8.extmul_low_i8x16_u
+i16x8.narrow_i32x4_s
+i16x8.narrow_i32x4_u
+i16x8.q15mulr_sat_s
+i32.div_s
+i32x4.dot_i16x8_s
+i32x4.extadd_pairwise_i16x8_s
+i32x4.extadd_pairwise_i16x8_u
+i32x4.extend_high_i16x8_s
+i32x4.extend_high_i16x8_u
+i32x4.extend_low_i16x8_s
+i32x4.extend_low_i16x8_u
+i32x4.extmul_high_i16x8_s
+i32x4.extmul_high_i16x8_u
+i32x4.extmul_low_i16x8_s
+i32x4.extmul_low_i16x8_u
+i64.extend32_s
+i64.mul_wide_s
+i64.mul_wide_u
+i64x2.extend_high_i32x4_s
+i64x2.extend_high_i32x4_u
+i64x2.extend_low_i32x4_s
+i64x2.extend_low_i32x4_u
+i64x2.extmul_high_i32x4_s
+i64x2.extmul_high_i32x4_u
+i64x2.extmul_low_i32x4_s
+i64x2.extmul_low_i32x4_u
+i8x16.narrow_i16x8_s
+i8x16.narrow_i16x8_u
+v128.any_true
+v128.load16_lane
+v128.load16_splat
+v128.load16x4_s
+v128.load16x4_u
+v128.load32_lane
+v128.load32_splat
+v128.load32_zero
+v128.load32x2_s
+v128.load32x2_u
+v128.load64_lane
+v128.load64_splat
+v128.load64_zero
+v128.load8_lane
+v128.load8_splat
+v128.load8x8_s
+v128.load8x8_u
+v128.store16_lane
+v128.store32_lane
+v128.store64_lane
+v128.store8_lane
+
   Other stuff:
+'<hash_algorithm>-<hash_value>'
+'nonce-<nonce_value>'
+1; mode=block
 <all_urls>
+<etag_value>
 <full version>
 <hashed key>
 <module specifier map>
 <significant version>
-<etag_value>
-'nonce-<nonce_value>'
-'<hash_algorithm>-<hash_value>'
+Accept-Language: en
 [time_zone_id]
-max-snippet: <number>
 max-image-preview: <setting>
+max-snippet: <number>
 max-video-preview: <number>
 unavailable_after: <date/time>
-1; mode=block
 
-NPP_ClearSiteData
+  WebDriver errors:
+Invalid argument
+Invalid cookie domain
+Invalid session id
+No such cookie
+No such window
+Unable to set cookie
+Unexpected alert open
+element click intercepted
 element id
+element not interactable
+insecure certificate
+invalid argument
+invalid cookie domain
+invalid element state
+invalid selector
+invalid session id
+javascript error
+move target out of bounds
+no such alert
+no such cookie
+no such element
+no such frame
+no such handle
+no such history entry
+no such user context
+no such window
+script timeout
+script timeout error
 session id
+session not created
+stale element reference
+unable to capture screen
+unable to close browser
+unable to set cookie
+unable to set file input
+unexpected alert open
+unknown command
+unknown error
+unknown method
+unsupported operation
 
 gl.COLOR_ATTACHMENT{0-15}
-gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
-gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
 
-Non-standard_Header
-SecureContext_Header
+  Macros:
 Deprecated_Inline
 Experimental_Inline
+Non-standard_Header
 Non-standard_Inline
 Optional_Inline
+SecureContext_Header
 block_ID
 
-declarative_net_request.rule_resources
+*_localized
+browser_specific_settings.gecko.data_collection_permissions
+browser_specific_settings.gecko.data_collection_permissions.optional
 browser_specific_settings.gecko.id
+declarative_net_request.rule_resources
+gecko.data_collection_permissions.optional
 storage.managed_schema
 
-browser_specific_settings.gecko.data_collection_permissions
+dom.audio_session.enabled
+dom.enable_container_timing
+dom.forms.html_color_picker.enabled
+dom.multiple_import_maps.enabled
+dom.select.customizable_select.enabled
 image.avif.compliance_strictness
+javascript.options.experimental.intl_locale_info
+javascript.options.experimental.regexp_buffer_boundaries
+mathml.href_link_on_non_anchor_element.disabled
 network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled
 security.insecure_connection_text.pbmode.enabled
 security.integrity_policy.stylesheet.enabled
+security.restrict_to_adults.always
+security.restrict_to_adults.respect_platform
 
+JavaScript arrays	/en-US/docs/MDN/Writing_guidelines/Page_structures/Links
+first baseline	/en-US/docs/Web/CSS/Reference/Properties/baseline-source
 first baseline	/en-US/docs/Web/CSS/Reference/Values/baseline-position
+last baseline	/en-US/docs/Web/CSS/Reference/Properties/baseline-source
 last baseline	/en-US/docs/Web/CSS/Reference/Values/baseline-position
 string text	/en-US/docs/Web/JavaScript/Reference/Template_literals
   Comes from the WebExtAllExamples macro; not easily fixable

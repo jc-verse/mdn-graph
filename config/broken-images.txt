@@ -6,3 +6,11 @@
 /en-US/docs/Web/CSS/Reference/Selectors/:-moz-broken	broken.jpg
 /en-US/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon	/broken/image/link.png
 /en-US/docs/Web/HTML/Reference/Elements/a	missing-icon.svg
+
+  Illustrative links, not actually supposed to work
+/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links	../narwhal/narwhal.jpg
+/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links	blue/blue-whale.jpg
+
+  Only used in @supports conditions, not actual images
+/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark	dark.png
+/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark	light.png

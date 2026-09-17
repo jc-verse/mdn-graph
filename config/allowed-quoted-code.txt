@@ -6,6 +6,7 @@
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML	<title>
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input/range>
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input type="range">
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<select>
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	background-color
 
   The HTML spec typesets it like this
