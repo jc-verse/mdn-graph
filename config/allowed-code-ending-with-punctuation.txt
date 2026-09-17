@@ -12,7 +12,6 @@ a b c . . .y z aa ab . . .
 A B C . . . Y Z AA AB . . .
 i ii iii iv v . . .
 I II III IV V . . .
-code .
 data:*/*;base64,
 document.execCommand('cut'/'copy') was denied because it was not called from inside a short running user-generated event handler.
 git add .

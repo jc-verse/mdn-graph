@@ -2,8 +2,6 @@
   Use two-space indent for comments.
 
   CSS syntax:
-/ <counter>
-/ <string>
 :is(td, tr):nth-child(n)
 <'grid-template-rows'> / <'grid-template-columns'>
 <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>?
@@ -108,7 +106,6 @@ gl.COLOR_ATTACHMENT{0-15}
 gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
 gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
 
-Deprecated_Header
 Non-standard_Header
 SecureContext_Header
 Deprecated_Inline
@@ -122,9 +119,6 @@ browser_specific_settings.gecko.id
 storage.managed_schema
 
 browser_specific_settings.gecko.data_collection_permissions
-dom.events.script_execute.enable
-dom.security.trusted_types.enabled
-dom.storage_access.headers.enabled
 image.avif.compliance_strictness
 network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled

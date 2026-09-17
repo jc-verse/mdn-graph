@@ -162,33 +162,6 @@ the last one.
 </div>
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Accessibility/HTML
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>Name</td>
-    <td>Age</td>
-    <td>Pronouns</td>
-  </tr>
-  <tr>
-    <td>Gabriel</td>
-    <td>13</td>
-    <td>he/him</td>
-  </tr>
-  <tr>
-    <td>Elva</td>
-    <td>8</td>
-    <td>she/her</td>
-  </tr>
-  <tr>
-    <td>Freida</td>
-    <td>5</td>
-    <td>she/her</td>
-  </tr>
-</table>
-~~~
-
 /en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
 [deprecated] <font> is deprecated: use CSS instead
 ~~~
@@ -215,36 +188,6 @@ asked questions, and you can always ask a new question if you can't find the
 answer you're looking for.
 <br /><br />
 <div class="button">Access Forums</div>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
-[wcag/h37] <img> is missing required "alt" attribute
-~~~
-<header>
-  <img
-    src="https://mdn.github.io/shared-assets/images/examples/star-pink_32x32.png"
-    alt="A star that I use to decorate my page" />
-  <h1>Groovy images</h1>
-</header>
-<main>
-  <img
-    src="https://mdn.github.io/shared-assets/images/examples/ballon-portrait.jpg" />
-  <img
-    src="https://mdn.github.io/shared-assets/images/examples/grapefruit-slice.jpg" />
-</main>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
-[prefer-native-element] Prefer to use the native <ul> element
-[prefer-native-element] Prefer to use the native <li> element
-~~~
-<div role="list">
-  <div role="listitem">Pig</div>
-  <div role="listitem">Gazelle</div>
-  <div role="listitem">Llama</div>
-  <div role="listitem">Majestic moose</div>
-  <div role="listitem">Hedgehog</div>
-</div>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
@@ -289,23 +232,6 @@ flex-wrap: wrap;
 }
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_routing
-[array-callback-return] Array.prototype.map() expects a return value from function.
-~~~
-import EmberRouter from "@ember/routing/router";
-import config from "./config/environment";
-
-export default class Router extends EmberRouter {
-  location = config.locationType;
-  rootURL = config.rootURL;
-}
-
-Router.map(function () {
-  this.route("completed");
-  this.route("active");
-});
-~~~
-
 /en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features
 [syntax] Parsing error: '...' expected.
 ~~~
@@ -316,21 +242,6 @@ Router.map(function () {
     </Article>
   </Home>
 </App>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_reactivity_lifecycle_accessibility
-[no-self-assign] 'todos' is assigned to itself.
-~~~
-const checkAllTodos = (completed) => {
-  todos.forEach((t) => (t.completed = completed));
-  todos = todos;
-};
-~~~
-
-/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_TypeScript
-[@typescript-eslint/no-inferrable-types] Type boolean trivially inferred from a boolean literal, remove type annotation.
-~~~
-export let autofocus: boolean = false;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
@@ -628,18 +539,6 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[attribute-boolean-style] Attribute "disabled" should omit value
-~~~
-<input type="text" disabled="disabled" />
-
-<!-- using the disabled attribute prevents the end user from entering text into the input box -->
-<input type="text" disabled />
-
-<!-- text input is allowed, as it doesn't contain the disabled attribute -->
-<input type="text" />
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
 [element-required-attributes] <img> is missing required "src" attribute
 ~~~
 <img />
@@ -657,15 +556,6 @@ function checkGuess( {
 [syntax] Opening tag "a" not terminated.
 ~~~
 <a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[syntax] Opening tag "a" not terminated.
-[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href=https://www.mozilla.org/>favorite website</a>
-
-<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
@@ -758,170 +648,6 @@ function checkGuess( {
 [element-required-attributes] <img> is missing required "src" attribute
 ~~~
 <img />
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Dr. Eleanor Gaye" />
-    <title>Awesome science application correspondence</title>
-    <style>
-      body {
-        font: 1.2em / 1.5 system-ui;
-      }
-
-      .sender-column {
-        text-align: right;
-      }
-
-      h1 {
-        font-size: 1.5em;
-      }
-
-      h2 {
-        font-size: 1.3em;
-      }
-    </style>
-  </head>
-  <body>
-    <address class="sender-column">
-      <strong>Dr. Eleanor Gaye</strong><br />
-      Awesome Science faculty<br />
-      University of Awesome<br />
-      Bobtown, CA 99999,<br />
-      USA<br />
-      <strong>Tel</strong>: 123-456-7890<br />
-      <strong>Email</strong>: no_reply@example.com
-    </address>
-
-    <p class="sender-column">
-      <time datetime="2016-01-20">20 January 2016</time>
-    </p>
-
-    <address>
-      <strong>Miss Eileen Dover</strong><br />
-      4321 Cliff Top Edge<br />
-      Dover, CT9 XXX<br />
-      UK
-    </address>
-
-    <h1>Re: Eileen Dover university application</h1>
-
-    <p>Dear Eileen,</p>
-
-    <p>
-      Thank you for your recent application to join us at the University of
-      Awesome's science faculty to study as part of your
-      <abbr>PhD</abbr> (Doctor of Philosophy) next year. I will answer your
-      questions one by one, in the following sections.
-    </p>
-
-    <h2>Starting dates</h2>
-
-    <p>
-      We are happy to accommodate you starting your study with us at any time,
-      however it would suit us better if you could start at the beginning of a
-      semester; the start dates for each one are as follows:
-    </p>
-
-    <ul>
-      <li>
-        First semester: <time datetime="2016-09-09">9 September 2016</time>
-      </li>
-      <li>
-        Second semester: <time datetime="2017-01-15">15 January 2017</time>
-      </li>
-      <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
-    </ul>
-
-    <p>
-      Please let me know if this is ok, and if so which start date you would
-      prefer.
-    </p>
-
-    <h2>Subjects of study</h2>
-
-    <p>
-      At the Awesome Science Faculty, we have a pretty open-minded research
-      facility — as long as the subjects fall somewhere in the realm of science
-      and technology. You seem like an intelligent, dedicated researcher, and
-      just the kind of person we'd like to have on our team. Saying that, of the
-      ideas you submitted we were most intrigued by are as follows, in order of
-      priority:
-    </p>
-
-    <ol>
-      <li>
-        Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
-        (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)
-      </li>
-      <li>
-        Measuring the effect on performance of funk bass players at temperatures
-        exceeding 30°C (86°F), when the audience size exponentially increases
-        (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)
-      </li>
-      <li>
-        <abbr>HTML</abbr>, Hypertext Markup Language, and <abbr>CSS</abbr>,
-        Cascading Style Sheets, constructs for representing musical scores.
-      </li>
-    </ol>
-
-    <p>
-      So please can you provide more information on each of these subjects,
-      including how long you'd expect the research to take, required staff and
-      other resources, and anything else you think we'd need to know? Thanks.
-    </p>
-
-    <h2>Exotic dance moves</h2>
-
-    <p>
-      Yes, you are right! As part of my post-doctorate work, I
-      <em>did</em> study exotic tribal dances. To answer your question, my
-      favorite dances are as follows, with definitions:
-    </p>
-
-    <dl>
-      <dt>Polynesian chicken dance</dt>
-      <dd>
-        A little known but <em>very</em> influential dance dating back as far as
-        300 <abbr title="Before Common Era">BCE</abbr>, a whole village would
-        dance around in a circle like chickens, to encourage their livestock to
-        be "fruitful".
-      </dd>
-      <dt>Icelandic brownian shuffle</dt>
-      <dd>
-        Before the Icelanders developed fire as a means of getting warm, they
-        used to practice this dance, which involved huddling close together in a
-        circle on the floor, and shuffling their bodies around in imperceptibly
-        tiny, very rapid movements. One of my fellow students used to say that
-        he thought this dance inspired modern styles such as Twerking.
-      </dd>
-      <dt>Arctic robot dance</dt>
-      <dd>
-        An interesting example of historic misinformation, English explorers in
-        the 1960s believed to have discovered a new dance style characterized by
-        "robotic", stilted movements, being practiced by inhabitants of Northern
-        Alaska and Canada. Later on however it was discovered that they were
-        just moving like this because they were really cold.
-      </dd>
-    </dl>
-
-    <p>Yours sincerely,</p>
-
-    <p>Dr Eleanor Gaye</p>
-
-    <p>
-      University of Awesome motto: <q>Be awesome to each other.</q> --
-      <cite
-        >The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite
-      >
-    </p>
-  </body>
-</html>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
@@ -1125,36 +851,6 @@ ul {
 [syntax] Parsing error: Expression expected.
 ~~~
 layers: L.mapquest.tileLayer("map"),
-~~~
-
-/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
-[prefer-button] Prefer to use <button> instead of <input type="button"> when adding buttons
-~~~
-<button type="button">This is an <strong>anonymous button</strong></button>
-
-<input type="button" value="This is an anonymous button" />
-~~~
-
-/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
-[prefer-button] Prefer to use <button> instead of <input type="image"> when adding buttons
-~~~
-<input type="image" alt="Click me!" src="my-img.png" width="80" height="30" />
-~~~
-
-/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
-[prefer-button] Prefer to use <button> instead of <input type="reset"> when adding buttons
-~~~
-<button type="reset">This is a <strong>reset button</strong></button>
-
-<input type="reset" value="This is a reset button" />
-~~~
-
-/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
-[prefer-button] Prefer to use <button> instead of <input type="submit"> when adding buttons
-~~~
-<button type="submit">This is a <strong>submit button</strong></button>
-
-<input type="submit" value="This is a submit button" />
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
@@ -1903,20 +1599,6 @@ div#header {
 </div>
 ~~~
 
-/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role
-[unique-landmark] Landmarks must have a non-empty and unique accessible name (aria-label or aria-labelledby)
-~~~
-<main>
-  <h1>Active `main` element</h1>
-  <!-- content -->
-</main>
-
-<main hidden>
-  <h1>Hidden `main` element</h1>
-  <!-- content -->
-</main>
-~~~
-
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role
 [no-inline-style] Inline style is not allowed
 ~~~
@@ -1968,24 +1650,6 @@ div#header {
     <rect x="0" y="0" width="100%" height="100%" fill="currentColor"></rect>
   </svg>
 </div>
-~~~
-
-/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role
-[unique-landmark] Landmarks must have a non-empty and unique accessible name (aria-label or aria-labelledby)
-~~~
-<header>
-  <nav id="main-nav" aria-label="Main">
-    <!-- list of links to main website locations -->
-  </nav>
-</header>
-
-…
-
-<footer>
-  <nav id="footer-nav" aria-label="Main">
-    <!-- list of links to main website locations -->
-  </nav>
-</footer>
 ~~~
 
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role
@@ -2540,7 +2204,6 @@ window.requestFileSystem(
 /en-US/docs/Web/API/HTMLElement/innerText
 [element-permitted-content] <style> element is not permitted as content under <p>
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-[no-inline-style] Inline style is not allowed
 ~~~
 <h3>Source element:</h3>
 <p id="source">
@@ -3154,17 +2817,6 @@ window.addEventListener("message", (event) => {
 ~~~
 const untrustedCode = "alert('Potentially evil code!');";
 const id = setInterval(untrustedCode, 1000);
-~~~
-
-/en-US/docs/Web/API/Window/setTimeout
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-setTimeout(function () {
-  myArray.myMethod();
-}, 2.0 * 1000); // prints "zero,one,two" after 2 seconds
-setTimeout(function () {
-  myArray.myMethod("1");
-}, 2.5 * 1000); // prints "one" after 2.5 seconds
 ~~~
 
 /en-US/docs/Web/API/Window/unload_event
@@ -3811,45 +3463,6 @@ p:last-of-type {
 }
 ~~~
 
-/en-US/docs/Web/CSS/Reference/At-rules/@property
-[declaration-property-value-no-unknown] Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
-~~~
-@property --item-size {
-  syntax: "<percentage>";
-  inherits: true;
-  initial-value: 40%;
-}
-
-.container {
-  display: flex;
-  height: 200px;
-  border: 1px dashed black;
-
-  /* set custom property values on parent */
-  --item-size: 20%;
-  --item-color: orange;
-}
-
-/* use custom properties to set item size and background color */
-.item {
-  width: var(--item-size);
-  height: var(--item-size);
-  background-color: var(--item-color);
-}
-
-/* set custom property values on element itself */
-.two {
-  --item-size: initial;
-  --item-color: inherit;
-}
-
-.three {
-  /* invalid values */
-  --item-size: 1000px;
-  --item-color: xyz;
-}
-~~~
-
 /en-US/docs/Web/CSS/Reference/At-rules/@scope
 [element-permitted-content] <style> element is not permitted as content under <section>
 ~~~
@@ -4065,38 +3678,6 @@ font-family:
   sans-serif;
 ~~~
 
-/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-inline-style] Inline style is not allowed
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-
 /en-US/docs/Web/CSS/Reference/Properties/order
 [no-inline-style] Inline style is not allowed
 ~~~
@@ -4155,15 +3736,6 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
 20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
 -100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
 </p>
-~~~
-
-/en-US/docs/Web/CSS/Reference/Selectors/:autofill
-[declaration-property-value-no-unknown] Unexpected unknown value "-internal-light-dark(black, white)" for property "color" (declaration-property-value-no-unknown)
-[function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
-~~~
-background-color: rgb(232 240 254) !important;
-background-image: none !important;
-color: -internal-light-dark(black, white) !important;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Selectors/:not
@@ -5587,14 +5159,6 @@ const tokenPattern = new RegExp(
 /\x01/u;
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_group
-[regexp/prefer-character-class] Unexpected the disjunction of single element alternatives. Use character class '[...]' instead.
-~~~
-/Hello(\?|!)/;
-// This is JavaScript syntax for character set operations
-/[\p{Thai}&&\p{Digit}]/v;
-~~~
-
 /en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token
 [syntax] Parsing error: ',' expected.
 ~~~
@@ -5791,21 +5355,6 @@ const products = [
 products.map((product) => {
   product.price = 100;
 });
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-[array-callback-return] Array.prototype.map() expects a value to be returned at the end of arrow function.
-~~~
-const numbers = [1, 2, 3, 4];
-const filteredNumbers = numbers.map((num, index) => {
-  if (index < 3) {
-    return num;
-  }
-});
-
-// index goes from 0, so the filterNumbers are 1,2,3 and undefined.
-// filteredNumbers is [1, 2, 3, undefined]
-// numbers is still [1, 2, 3, 4]
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
@@ -8218,42 +7767,6 @@ console.log(withDefaults.test); // "value"
     alert("hello!");
   </script>
 </div>
-~~~
-
-/en-US/docs/Web/SVG/Reference/Attribute/fill-opacity
-[no-inline-style] Inline style is not allowed
-~~~
-<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Default fill opacity: 1 -->
-  <circle cx="50" cy="50" r="40" />
-
-  <!-- Fill opacity as a number -->
-  <circle cx="150" cy="50" r="40" fill-opacity="0.7" />
-
-  <!-- Fill opacity as a percentage -->
-  <circle cx="250" cy="50" r="40" fill-opacity="50%" />
-
-  <!-- Fill opacity as a CSS property -->
-  <circle cx="350" cy="50" r="40" style="fill-opacity: .25;" />
-</svg>
-~~~
-
-/en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity
-[no-inline-style] Inline style is not allowed
-~~~
-<svg viewBox="0 0 40 10" xmlns="http://www.w3.org/2000/svg">
-  <!-- Default stroke opacity: 1 -->
-  <circle cx="5" cy="5" r="4" stroke="green" />
-
-  <!-- Stroke opacity as a number -->
-  <circle cx="15" cy="5" r="4" stroke="green" stroke-opacity="0.7" />
-
-  <!-- Stroke opacity as a percentage -->
-  <circle cx="25" cy="5" r="4" stroke="green" stroke-opacity="50%" />
-
-  <!-- Stroke opacity as a CSS property -->
-  <circle cx="35" cy="5" r="4" stroke="green" style="stroke-opacity: .3;" />
-</svg>
 ~~~
 
 /en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/SVG_and_CSS

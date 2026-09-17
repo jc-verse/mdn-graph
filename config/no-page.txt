@@ -3,19 +3,10 @@
   it should be removed from this file so the broken link can be fixed.
   Use two-space indent for comments.
 
-/en-US/docs/Glossary/IP
-/en-US/docs/Glossary/SMIL
-/en-US/docs/Glossary/binary
-/en-US/docs/Glossary/contextual_forms
-/en-US/docs/Glossary/dictionary_attack
-/en-US/docs/Glossary/ideographic
-/en-US/docs/Glossary/interface
-
 /en-US/docs/Web/API/AnimationWorklet
 /en-US/docs/Web/API/BluetoothDevice/forget
 /en-US/docs/Web/API/BluetoothDevice/watchAdvertisements
 /en-US/docs/Web/API/EXT_disjoint_timer_query_webgl2
-/en-US/docs/Web/API/Element/pseudo
 /en-US/docs/Web/API/FileWriter
 
 /en-US/docs/Web/API/InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon
@@ -35,16 +26,12 @@
 /en-US/docs/Web/API/RTCIdentityProviderRegistrar
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
-/en-US/docs/Web/API/RTCRtcpParameters
 /en-US/docs/Web/API/RTCSentRtpStreamStats/bytesSent
 /en-US/docs/Web/API/RTCSentRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCSentRtpStreamStats/packetsSent
 
 /en-US/docs/Web/API/SVGAnimatedPathData/pathSegList
 /en-US/docs/Web/API/SVGElement/abort_event
-/en-US/docs/Web/API/SVGElement/createSVGAngle
-/en-US/docs/Web/API/SVGElement/resize_event
-/en-US/docs/Web/API/SVGElement/scroll_event
 /en-US/docs/Web/API/SVGElement/unload_event
 /en-US/docs/Web/API/SVGFECompositeElement/type
 /en-US/docs/Web/API/SVGFECompositeElement/values
@@ -78,7 +65,6 @@
 
 /en-US/docs/Web/API/TouchEvent/rotation
 /en-US/docs/Web/API/TouchEvent/scale
-/en-US/docs/Web/API/WebXR_Device_API/Gamepads
 /en-US/docs/Web/API/Window/abort_event
 /en-US/docs/Web/API/window/scroll_event
 /en-US/docs/Web/API/XRPermissionStatus
@@ -90,15 +76,10 @@
 /en-US/docs/Web/CSS/calc-product
 /en-US/docs/Web/CSS/calc-value
 /en-US/docs/Web/CSS/glyph-orientation-horizontal
-/en-US/docs/Web/CSS/ruby-merge
 
 /en-US/docs/Web/HTTP/Reference/Headers/Accept-Signature
 /en-US/docs/Web/HTTP/Reference/Headers/Signature
-/en-US/docs/Web/HTTP/Reference/Headers/Signed-Headers
 /en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery
-/en-US/docs/Web/HTTP/Reference/Methods/TRACK
-
-/en-US/docs/Web/JavaScript/Reference/AsyncIterator%2FAsyncIterator
 
 /en-US/docs/Web/MathML/Reference/Global_attributes/autofocus
 /en-US/docs/Web/MathML/Reference/Global_attributes/class
@@ -106,11 +87,6 @@
 /en-US/docs/Web/MathML/Reference/Global_attributes/nonce
 /en-US/docs/Web/MathML/Reference/Global_attributes/style
 /en-US/docs/Web/MathML/Reference/Global_attributes/tabindex
-
-/en-US/docs/Glossary/JWT
-/en-US/docs/Web/Security/Authentication/Federated_identity
-/en-US/docs/Web/Security/Authentication/Passkeys
-/en-US/docs/Web/Security/Authentication/Session_management
 
   These are defined in https://svgwg.org/svg2-draft/attindex.html
 /en-US/docs/Web/SVG/Reference/Attribute/hreflang
@@ -146,7 +122,6 @@
 /en-US/docs/Web/WebDriver/Reference/Errors/NoSuchElement
 /en-US/docs/Web/WebDriver/Reference/Errors/NoSuchFrame
 /en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow
-/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeoutError
 /en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated
 /en-US/docs/Web/WebDriver/Reference/Errors/Timeout
 /en-US/docs/Web/WebDriver/Reference/Errors/UnableToCaptureScreen
@@ -154,9 +129,6 @@
 /en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen
 /en-US/docs/Web/WebDriver/Reference/Errors/UnsupportedOperation
 /en-US/docs/Web/WebDriver/Reference/Response
-/en-US/docs/Web/WebDriver/Reference/SetWindowRect
 /en-US/docs/Web/WebDriver/Reference/WebElement
 /en-US/docs/Web/WebDriver/Reference/WebWindow
 /en-US/docs/Web/WebDriver/Reference/WindowRect
-
-/en-US/docs/Web/XSLT/Element/for-each-group

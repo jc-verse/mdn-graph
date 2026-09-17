@@ -85,6 +85,9 @@ const languageOptions = {
       "box-orient": "horizontal | vertical | inline-axis | block-axis",
       "box-pack": "start | center | end | stretch",
       // csstree bugs?
+      // Match image-only layers first to avoid backtracking through the full
+      // shorthand grammar for long lists of gradients.
+      background: "<bg-image># | [ <bg-layer> , ]* <final-bg-layer>",
       "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
       "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
       "-webkit-text-stroke-width": "| thin | medium | thick",
@@ -317,6 +320,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             // NEW
             "target-within",
             "target-current",
+            "interest-target",
           ],
         },
       ],

@@ -460,7 +460,6 @@ async function checkCSS(
       fix: false,
       validate: false,
     });
-    console.warn = origConsoleWarn;
     for (const result of results.results) {
       result.warnings.forEach((msg) => {
         const reportRegion = content
@@ -534,6 +533,8 @@ async function checkCSS(
     }
   } catch (e) {
     console.error(content, e);
+  } finally {
+    console.warn = origConsoleWarn;
   }
 }
 
