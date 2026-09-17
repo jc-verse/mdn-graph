@@ -35,7 +35,6 @@
 /en-US/docs/Web/API/SVGElement/unload_event
 /en-US/docs/Web/API/SVGFECompositeElement/type
 /en-US/docs/Web/API/SVGFECompositeElement/values
-/en-US/docs/Web/API/SVGFEImageElement/crossOrigin
 /en-US/docs/Web/API/SVGPathSegArcAbs
 /en-US/docs/Web/API/SVGPathSegArcRel
 /en-US/docs/Web/API/SVGPathSegClosePath

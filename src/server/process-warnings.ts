@@ -33,10 +33,18 @@ const webDocsBacklog = new Set(
         if (interfac === "elements") {
           return `/en-US/docs/Web/HTML/Reference/Elements/${member}`;
         }
+        if (interfac === "global_attributes") {
+          return `/en-US/docs/Web/HTML/Reference/Global_attributes/${member}`;
+        }
         break;
       case "http":
         if (interfac === "headers") {
           return `/en-US/docs/Web/HTTP/Headers/${member}`;
+        }
+        break;
+      case "mathml":
+        if (interfac === "elements") {
+          return `/en-US/docs/Web/MathML/Reference/Element/${member}`;
         }
         break;
       case "svg":
@@ -45,8 +53,8 @@ const webDocsBacklog = new Set(
         }
         break;
       case "webdriver":
-        if (interfac === "bidi" || interfac === "classic") {
-          return `/en-US/docs/Web/WebDriver/Reference/Commands/${member}`;
+        if (interfac === "classic") {
+          return `/en-US/docs/Web/WebDriver/Reference/Classic/Commands/${member}`;
         }
         break;
       case "webassembly":

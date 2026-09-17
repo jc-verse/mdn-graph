@@ -7,6 +7,7 @@
 
   TODO: update phaser docs
 https://phaser.io/docs/{.*}	https://docs.phaser.io/{.*}
+https://phaser.io/download/stable	https://phaser.io/download/release/v{[\d.]+}
   TODO: update Svelte docs
 https://{[^/]*}svelte.dev/{.*}	https://svelte.dev/{.*}
 https://docs.djangoproject.com/en/stable/{(.*)}	https://docs.djangoproject.com/en/{[\d.]+}/$1
@@ -29,4 +30,5 @@ https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf	ht
 https://github.com/{([^/]+)}/{([^/]+)}/archive/{(\w+)}.zip	https://codeload.github.com/$1/$2/zip/refs/heads/$3
 
 https://mdn.dev/discord	https://discord.com/invite/{[A-Za-z0-9]+}
-https://www.thunderbird.net/download/{(.*)}	https://www.thunderbird.net/en-US/download/$1
+
+https://www.rfc-editor.org/standards	https://www.rfc-editor.org/search/?status=Internet+Standard

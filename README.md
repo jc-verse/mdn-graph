@@ -14,7 +14,7 @@ For the data source, you need to have the [mdn/content](https://github.com/mdn/c
 
 ```sh
 cd content
-npm run build
+npm run build -- --json-issues --json-live-samples
 ```
 
 Then, build the graph:

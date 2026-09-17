@@ -76,8 +76,19 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "landing-page":
       // Generic pages may or may not actually be a reference
       return "ignore";
+    case "listing-page": {
+      const bidiMatch = node.id.match(
+        /^\/en-US\/docs\/Web\/WebDriver\/Reference\/BiDi\/Modules(?:\/([^/]+))?$/,
+      );
+      if (bidiMatch) {
+        if (!bidiMatch[1]) return ["webdriver.bidi"];
+        const moduleName =
+          bidiMatch[1] === "permissions" ? "permission" : bidiMatch[1];
+        return [`webdriver.bidi.${moduleName}`];
+      }
+      return [];
+    }
     case "guide":
-    case "listing-page":
     case "how-to":
     case "tutorial":
     case "tutorial-chapter":
@@ -467,6 +478,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webassembly-constructor":
     case "webassembly-instance-property":
     case "webassembly-instance-method":
+    case "webassembly-static-property":
     case "webassembly-static-method": {
       const match = node.id.match(
         /^\/en-US\/docs\/WebAssembly\/Reference\/JavaScript_interface\/(.+)$/,
@@ -480,11 +492,21 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // Web/WebDriver/
     case "webdriver-command": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/WebDriver\/Reference\/Commands\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/WebDriver\/Reference\/Classic\/Commands\/([^/]+)$/,
+      );
+      if (match) return [`webdriver.classic.${match[1]}`];
+      // Fallthrough
+    }
+    case "webdriver-event": {
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/WebDriver\/Reference\/BiDi\/Modules\/([^/]+)\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
-      const commandName = match[1];
-      return [`webdriver.classic.${commandName}`];
+      const moduleName = match[1];
+      const memberName = match[2];
+      const suffix =
+        node.data.metadata.pageType === "webdriver-event" ? "_event" : "";
+      return [`webdriver.bidi.${moduleName}.${memberName}${suffix}`];
     }
     case "webdriver-capability": {
       return [];
