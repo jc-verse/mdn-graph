@@ -111,7 +111,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: mdn-graph
-          command: pages deploy docs --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }} --commit-message="${{ env.message }}"
+          command: pages deploy docs --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }} --commit-message="${{ env.message }}" --commit-dirty=true
 
       - name: Report publication status
         env:
