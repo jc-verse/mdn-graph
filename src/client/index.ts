@@ -4,10 +4,21 @@ import createGraph from "ngraph.graph";
 import renderGraph from "./ngraph.pixel";
 
 const graph = createGraph();
-for await (const node of loadGraphData("nodes")) {
+const loading = document.getElementById("loading")!;
+
+function showLoadingError(error: unknown): never {
+  loading.textContent = "Unable to load the graph. Please reload to try again.";
+  throw error;
+}
+
+const [nodes, links] = await Promise.all([
+  loadGraphData("nodes"),
+  loadGraphData("links"),
+]).catch(showLoadingError);
+for (const node of nodes) {
   graph.addNode(node.id, node.data);
 }
-for await (const link of loadGraphData("links")) {
+for (const link of links) {
   graph.addLink(link.fromId, link.toId);
 }
 
@@ -127,41 +138,51 @@ const colorMap = {
   "Content:WebExt": "442be5",
 };
 
-renderGraph(graph, {
-  node(n) {
-    const label =
-      pathToLabel.find(([path]) =>
-        `files/${n.data.metadata.source.folder}`.startsWith(path),
-      )?.[1] ?? "Content:Other";
-    return {
-      color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
-      size: 5,
-      label,
-    };
-  },
-  link(l) {
-    const fromNode = graph.getNode(l.fromId)!;
-    const toNode = graph.getNode(l.toId)!;
-    const sourceLabel =
-      pathToLabel.find(([path]) =>
-        `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
-          path,
+try {
+  renderGraph(graph, {
+    node(n) {
+      const label =
+        pathToLabel.find(([path]) =>
+          `files/${n.data.metadata.source.folder}`.startsWith(path),
+        )?.[1] ?? "Content:Other";
+      return {
+        color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
+        size: 5,
+        label,
+      };
+    },
+    link(l) {
+      const fromNode = graph.getNode(l.fromId)!;
+      const toNode = graph.getNode(l.toId)!;
+      const sourceLabel =
+        pathToLabel.find(([path]) =>
+          `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
+            path,
+          ),
+        )?.[1] ?? "Content:Other";
+      const targetLabel =
+        pathToLabel.find(([path]) =>
+          `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(
+            path,
+          ),
+        )?.[1] ?? "Content:Other";
+      return {
+        fromColor: parseInt(
+          colorMap[sourceLabel] ?? colorMap["Content:Other"],
+          16,
         ),
-      )?.[1] ?? "Content:Other";
-    const targetLabel =
-      pathToLabel.find(([path]) =>
-        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path),
-      )?.[1] ?? "Content:Other";
-    return {
-      fromColor: parseInt(
-        colorMap[sourceLabel] ?? colorMap["Content:Other"],
-        16,
-      ),
-      toColor: parseInt(colorMap[targetLabel] ?? colorMap["Content:Other"], 16),
-    };
-  },
-  ...layoutSettings,
-});
+        toColor: parseInt(
+          colorMap[targetLabel] ?? colorMap["Content:Other"],
+          16,
+        ),
+      };
+    },
+    ...layoutSettings,
+  });
+  loading.remove();
+} catch (error) {
+  showLoadingError(error);
+}
 
 const note = document.getElementById("note");
 const buildTime = new Date(lastUpdate.buildTimestamp);

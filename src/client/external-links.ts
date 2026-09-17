@@ -23,7 +23,7 @@ const linksByTLDp1 = new Map<
   { links: Map<string, { page: string; link: string }[]>; total: number }
 >();
 const linksByPage = new Map<string, string[]>();
-for await (const node of loadGraphData("nodes")) {
+for (const node of await loadGraphData("nodes")) {
   for (const link of node.data.links) {
     if (!link.startsWith("http")) continue;
     const linkURL = new URL(link);

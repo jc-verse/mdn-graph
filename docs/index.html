@@ -38,9 +38,46 @@
         padding: 3px;
         background: rgba(0, 0, 0, 0.6);
       }
+
+      #loading {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        background-color: black;
+        color: white;
+      }
+
+      .spinner {
+        width: 24px;
+        height: 24px;
+        border: 3px solid darkslategray;
+        border-top-color: white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .spinner {
+          animation: none;
+        }
+      }
     </style>
   </head>
   <body>
+    <div id="loading" role="status">
+      <span class="spinner" aria-hidden="true"></span>
+      Loading graph…
+    </div>
     <div id="help">
       <table>
         <thead>
