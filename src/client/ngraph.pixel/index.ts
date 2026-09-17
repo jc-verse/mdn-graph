@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import type { Graph, Node, Link } from "ngraph.graph";
 import createLayout, { type PhysicsSettings } from "ngraph.forcelayout";
 

@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import FlyControls from "three.fly";
 import type { Graph } from "ngraph.graph";
 import eventify from "ngraph.events";

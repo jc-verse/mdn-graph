@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import type { EdgeModel } from "..";
 
 export default function createEdgeView(scene: THREE.Scene, edges: EdgeModel[]) {
@@ -18,7 +18,7 @@ export default function createEdgeView(scene: THREE.Scene, edges: EdgeModel[]) {
 
   const geometry = new THREE.BufferGeometry();
   const material = new THREE.LineBasicMaterial({
-    vertexColors: THREE.VertexColors,
+    vertexColors: true,
   });
 
   geometry.addAttribute("position", new THREE.BufferAttribute(points, 3));

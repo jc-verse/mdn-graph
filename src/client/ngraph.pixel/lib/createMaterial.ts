@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 
 const fragmentShader = `
 uniform vec3 color;

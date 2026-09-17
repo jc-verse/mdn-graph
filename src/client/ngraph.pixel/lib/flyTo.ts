@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import intersect from "./intersect.js";
 import type { Coord } from "..";
 

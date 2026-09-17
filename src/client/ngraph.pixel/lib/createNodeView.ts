@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import createMaterial from "./createMaterial.js";
 import type { NodeModel } from "../index.js";
 

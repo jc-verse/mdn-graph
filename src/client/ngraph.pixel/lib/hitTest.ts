@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 import eventify from "ngraph.events";
 import type { Coord } from "..";
 
