@@ -224,7 +224,7 @@ flex-wrap: wrap;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "display" (declaration-block-no-duplicate-properties)
 ~~~
 .container {
   display: inline-flex;
@@ -384,6 +384,20 @@ condition ? run this code : run this code instead
 <script>
   greeting();
 </script>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Functions
+[no-var] Unexpected var, use let or const instead.
+~~~
+if (x === 1) {
+  var c = 4;
+  var d = 5;
+}
+
+for (let i = 0; i <= 1; i++) {
+  var e = 6;
+  var f = 7;
+}
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Loops
@@ -583,16 +597,9 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 [syntax] Unexpected character "EOF"
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
 <h1>HTML debugging examples</h1>
 
@@ -613,9 +620,9 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 [syntax] Unexpected character "EOF"
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -634,6 +641,13 @@ function checkGuess( {
     </ul>
   </body>
 </html>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
@@ -744,8 +758,8 @@ tfoot {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata
-[element-required-content] <html> element must have <head> as content
 [element-required-content] <html> element must have <body> as content
+[element-required-content] <html> element must have <head> as content
 ~~~
 <html lang="en-US">
   …
@@ -991,7 +1005,7 @@ if (author === null) {
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "background-color" (declaration-block-no-duplicate-properties)
 ~~~
 html {
   font-family: sans-serif;
@@ -1036,7 +1050,7 @@ body {
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "background-color" (declaration-block-no-duplicate-properties)
 ~~~
 button {
   /* … */
@@ -1091,7 +1105,7 @@ console.log(helloChris;
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "font-weight" by shorthand "font" (declaration-block-no-shorthand-property-overrides)
 ~~~
 #stockTicker {
   font-weight: bold;
@@ -1156,7 +1170,7 @@ margin-left: 2em;
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "margin" after "margin-top" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "margin-top" by shorthand "margin" (declaration-block-no-shorthand-property-overrides)
 ~~~
 margin-top: 1em;
 margin: 2em; /* Oops, margin-top is ignored */
@@ -1166,8 +1180,8 @@ border-bottom-width: 5px; /* Overrides one border's width *only* */
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
 [font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
 [function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
 [selector-attribute-quotes] Expected quotes around "liquid" (selector-attribute-quotes)
 ~~~
@@ -1178,7 +1192,7 @@ border-bottom-width: 5px; /* Overrides one border's width *only* */
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+[font-family-no-missing-generic-family-keyword] Missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 body {
   font-family: "Helvetica";
@@ -1211,8 +1225,8 @@ input:not(:checked):not(:disabled) {
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
-[shorthand-property-no-redundant-values] Expected "1em 1em" to be "1em" (shorthand-property-no-redundant-values)
 [shorthand-property-no-redundant-values] Expected "1em 1em 1em 1em" to be "1em" (shorthand-property-no-redundant-values)
+[shorthand-property-no-redundant-values] Expected "1em 1em" to be "1em" (shorthand-property-no-redundant-values)
 ~~~
 margin: 1em 1em;
 margin: 1em 1em 1em 1em;
@@ -1232,8 +1246,8 @@ margin: 1em 1em 1em 1em;
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
-[element-required-content] <html> element must have <head> as content
 [element-required-content] <html> element must have <body> as content
+[element-required-content] <html> element must have <head> as content
 ~~~
 <html lang="en-US"></html>
 ~~~
@@ -1262,8 +1276,8 @@ arr.map((e) => {
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
-[eqeqeq] Expected '===' and instead saw '=='.
 [eqeqeq] Expected '!==' and instead saw '!='.
+[eqeqeq] Expected '===' and instead saw '=='.
 ~~~
 name == "Shilpa";
 age != 25;
@@ -1300,8 +1314,8 @@ if (test) {
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
-[no-implicit-coercion] Unexpected implicit coercion encountered. Use `String(name)` instead.
 [no-implicit-coercion] Unexpected implicit coercion encountered. Use `Number(year)` instead.
+[no-implicit-coercion] Unexpected implicit coercion encountered. Use `String(name)` instead.
 [prefer-template] Unexpected string concatenation.
 ~~~
 class Person {
@@ -1419,6 +1433,23 @@ var(--custom-prop, red)
 var(--my-background, linear-gradient(transparent, aqua), pink)
 var(--custom-prop, var(--default-value))
 var(--custom-prop, var(--default-value, red))
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/JavaScript_operator_page_template
+[syntax] Parsing error: Unexpected keyword or identifier.
+~~~
+x operator y
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/JavaScript_statement_page_template
+[no-constant-condition] Unexpected constant condition.
+~~~
+let result = "negative";
+if (3 > 0) {
+  result = "positive";
+}
+console.log(result);
+// Expected output: "positive"
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections
@@ -1575,6 +1606,18 @@ div#header {
 }
 ~~~
 
+/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sandbox
+[no-eval] `eval` can be harmful.
+~~~
+window.addEventListener("message", (event) => {
+  if (event.origin !== location.origin) {
+    // Reject messages not coming from the extension.
+    return;
+  }
+  event.source.postMessage(eval(event.data), event.origin);
+});
+~~~
+
 /en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
 [attr-case] Attribute "…" should be camelCase
 [empty-script] Script element should have non-empty text.
@@ -1675,24 +1718,24 @@ div#header {
 ~~~
 
 /en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-function-notation] Expected modern color-function notation (color-function-notation)
 [color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+[color-function-notation] Expected modern color-function notation (color-function-notation)
 [color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
 [color-hex-length] Expected "#f0ff" to be "#ff00ffff" (color-hex-length)
-[color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
-[color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
-[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
-[color-named] Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)
-[color-named] Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)
-[color-named] Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)
 [color-named] Expected "#f0f" to be "fuchsia" (color-named)
-[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
 [color-named] Expected "#f0ff" to be "fuchsia" (color-named)
+[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
 [color-named] Expected "#ff00ffff" to be "fuchsia" (color-named)
 [color-named] Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)
 [color-named] Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)
-[color-named] Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)
 [color-named] Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)
+[color-named] Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)
+[color-named] Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)
 ~~~
 /* named color */
 color: magenta;
@@ -1793,8 +1836,8 @@ function play() {
 ~~~
 
 /en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -2005,8 +2048,8 @@ worker.postMessage({ cmd: "list" });
 ~~~
 
 /en-US/docs/Web/API/DocumentFragment/querySelector
-[valid-id] element id "foo\bar" must only contain letters, digits, dash and underscore characters
 [valid-id] element id "foo:bar" must only contain letters, digits, dash and underscore characters
+[valid-id] element id "foo\bar" must only contain letters, digits, dash and underscore characters
 ~~~
 <div id="foo\bar"></div>
 <div id="foo:bar"></div>
@@ -2099,8 +2142,8 @@ eventTarget.addEventListener("keyup", (event) => {
 ~~~
 
 /en-US/docs/Web/API/EventTarget/addEventListener
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 [no-inline-event-handlers] Do not use inline event handler "onclick".
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <script>
   function logID() {
@@ -2184,21 +2227,6 @@ window.requestFileSystem(
   },
   onError,
 );
-~~~
-
-/en-US/docs/Web/API/FormData/FormData
-[form-dup-name] Duplicate form control name "intent"
-~~~
-<form id="form">
-  <input type="text" name="text1" value="foo" />
-  <input type="text" name="text2" value="bar" />
-  <input type="text" name="text3" value="baz" />
-  <input type="checkbox" name="check" checked disabled />
-  <button name="intent" value="save">Save</button>
-  <button name="intent" value="saveAsCopy">Save As Copy</button>
-</form>
-
-<output id="output"></output>
 ~~~
 
 /en-US/docs/Web/API/HTMLElement/innerText
@@ -2500,7 +2528,7 @@ for (let i = 0; i < myNodeList.length; i++) {
 ~~~
 
 /en-US/docs/Web/API/PaintWorkletGlobalScope
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "background-image" (declaration-block-no-duplicate-properties)
 ~~~
 textarea {
   background-image: url("checkerboard.png"); /* Fallback */
@@ -2564,6 +2592,27 @@ for await (const chunk of stream.values({ preventCancel: true })) {
   break;
 }
 // Acquire a reader for the stream and continue reading ...
+~~~
+
+/en-US/docs/Web/API/RTCCertificate/getFingerprints
+[no-unreachable-loop] Invalid loop. Its body allows only one iteration.
+~~~
+// Get the certificate fingerprints from the local peer.
+const rtcPeerConnection = new RTCPeerConnection();
+const configuration = rtcPeerConnection.getConfiguration();
+const certificates = configuration.certificates;
+let fingerprintsFromClient;
+
+if (certificates && certificates.length > 0) {
+  for (const cert of certificates) {
+    // For purpose of demonstration, just get first certificate
+    fingerprintsFromClient = cert.getFingerprints();
+    break;
+  }
+}
+
+// Get the certificate fingerprints from the remote peer for particular certificate (pseudo code)
+const fingerprintsFromServer = [/* … */];
 ~~~
 
 /en-US/docs/Web/API/Sensor_APIs
@@ -2813,10 +2862,21 @@ window.addEventListener("message", (event) => {
 ~~~
 
 /en-US/docs/Web/API/Window/setInterval
-[no-implied-eval] Implied eval. Consider passing a function instead of a string.
+[prefer-arrow-callback] Unexpected function expression.
 ~~~
-const untrustedCode = "alert('Potentially evil code!');";
-const id = setInterval(untrustedCode, 1000);
+setInterval(() => counter.count("bar"), 1000);
+setInterval(function () {
+  counter.count("bar");
+}, 1000);
+~~~
+
+/en-US/docs/Web/API/Window/setTimeout
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+setTimeout(() => counter.count("bar"), 1000);
+setTimeout(function () {
+  counter.count("bar");
+}, 1000);
 ~~~
 
 /en-US/docs/Web/API/Window/unload_event
@@ -2872,6 +2932,80 @@ var global = { data: 0 };
 alert(global === window.global); // displays "true"
 ~~~
 
+/en-US/docs/Web/API/XRSession/visibilitymaskchange_event
+[camelcase] Identifier '_visibility_mask_fragment' is not in camel case.
+[camelcase] Identifier '_visibility_mask_vertex' is not in camel case.
+~~~
+session.addEventListener("visibilitymaskchange", onVisibilityMaskChange);
+
+function onVisibilityMaskChange(event) {
+  const geometry = new BufferGeometry();
+  geometry.setIndex(new BufferAttribute(event.indices, 1));
+  const vertices = new Float32Array((event.vertices.length / 2) * 3);
+  let x = 0,
+    y = 0;
+  while (x < event.vertices.length) {
+    vertices[y++] = event.vertices[x++];
+    vertices[y++] = event.vertices[x++];
+    vertices[y++] = -1;
+  }
+
+  geometry.setAttribute("position", new BufferAttribute(vertices, 3));
+
+  const mask = event.eye === "left" ? leftEyeMask : rightEyeMask;
+  const matrix = cameras[event.eye === "left" ? 0 : 1].projectionMatrix;
+  mask.geometry = geometry;
+  mask.material = new ShaderMaterial({
+    vertexShader: _visibility_mask_vertex,
+    fragmentShader: _visibility_mask_fragment,
+    uniforms: {
+      clipMatrix: { value: matrix },
+    },
+  });
+
+  maskScene = new Scene();
+  maskScene.add(leftEyeMask);
+  maskScene.add(rightEyeMask);
+}
+~~~
+
+/en-US/docs/Web/API/XRVisibilityMaskChangeEvent
+[camelcase] Identifier '_visibility_mask_fragment' is not in camel case.
+[camelcase] Identifier '_visibility_mask_vertex' is not in camel case.
+~~~
+session.addEventListener("visibilitymaskchange", onVisibilityMaskChange);
+
+function onVisibilityMaskChange(event) {
+  const geometry = new BufferGeometry();
+  geometry.setIndex(new BufferAttribute(event.indices, 1));
+  const vertices = new Float32Array((event.vertices.length / 2) * 3);
+  let x = 0,
+    y = 0;
+  while (x < event.vertices.length) {
+    vertices[y++] = event.vertices[x++];
+    vertices[y++] = event.vertices[x++];
+    vertices[y++] = -1;
+  }
+
+  geometry.setAttribute("position", new BufferAttribute(vertices, 3));
+
+  const mask = event.eye === "left" ? leftEyeMask : rightEyeMask;
+  const matrix = cameras[event.eye === "left" ? 0 : 1].projectionMatrix;
+  mask.geometry = geometry;
+  mask.material = new ShaderMaterial({
+    vertexShader: _visibility_mask_vertex,
+    fragmentShader: _visibility_mask_fragment,
+    uniforms: {
+      clipMatrix: { value: matrix },
+    },
+  });
+
+  maskScene = new Scene();
+  maskScene.add(leftEyeMask);
+  maskScene.add(rightEyeMask);
+}
+~~~
+
 /en-US/docs/Web/CSS/Guides/Cascade/Introduction
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
@@ -2895,7 +3029,7 @@ alert(global === window.global); // displays "true"
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing
-[property-no-unknown] Unexpected unknown property "colr" (property-no-unknown)
+[property-no-unknown] Unknown property "colr" (property-no-unknown)
 ~~~
 p {
   font-size: 1.25em;
@@ -2923,7 +3057,7 @@ margin-left: 5px;
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "background-color" by shorthand "background" (declaration-block-no-shorthand-property-overrides)
 ~~~
 p {
   background-color: red;
@@ -2950,7 +3084,7 @@ margin: 10px 5px 10px 5px;
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
-[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)
 ~~~
 @property --text-color {
   syntax: "<color>";
@@ -2973,7 +3107,7 @@ p {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
-[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "16px" for property "color" (declaration-property-value-no-unknown)
 ~~~
 p {
   font-weight: bold;
@@ -2987,8 +3121,8 @@ p {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
-[declaration-property-value-no-unknown] Unexpected unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)
 ~~~
 @property --box-color {
   syntax: "<color>";
@@ -3066,9 +3200,9 @@ div {
 
 /en-US/docs/Web/CSS/Guides/Colors/Applying_color
 [color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "text-decoration-color" by shorthand "text-decoration" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "text-decoration-line" by shorthand "text-decoration" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "text-decoration-style" by shorthand "text-decoration" (declaration-block-no-shorthand-property-overrides)
 ~~~
 .wrapper {
   height: 110px;
@@ -3106,8 +3240,8 @@ div {
 
 /en-US/docs/Web/CSS/Guides/Colors/Color_values
 [color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-[color-named] Expected "#ff0000" to be "red" (color-named)
 [color-named] Expected "#f00" to be "red" (color-named)
+[color-named] Expected "#ff0000" to be "red" (color-named)
 ~~~
 color: #ff0000;
 color: #f00;
@@ -3168,7 +3302,7 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+[no-invalid-position-at-import-rule] Invalid position for @import rule (no-invalid-position-at-import-rule)
 ~~~
 /* `@supports` at-rule */
 @supports (color: red) {
@@ -3180,7 +3314,7 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+[no-invalid-position-at-import-rule] Invalid position for @import rule (no-invalid-position-at-import-rule)
 ~~~
 /* `@supports` at-rule */
 @supports (color: AccentColor) {
@@ -3209,9 +3343,9 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Masking/Multiple_masks
-[declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
 ~~~
 mask: url("star.svg") contain;
 mask: url("star.svg") 10px 10px cover;
@@ -3243,7 +3377,7 @@ mask: url("star.svg") top right 100px 100px;
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Nesting/Using
-[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
+[selector-type-no-unknown] Unknown type selector "element" (selector-type-no-unknown)
 ~~~
 .my-class {
   element& {
@@ -3294,7 +3428,7 @@ p {
 ~~~
 
 /en-US/docs/Web/CSS/Guides/Syntax/Error_handling
-[declaration-property-value-no-unknown] Unexpected unknown value "-ms-flexbox" for property "display" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "-ms-flexbox" for property "display" (declaration-property-value-no-unknown)
 ~~~
 /* Prefixed values */
 .wrapper {
@@ -3316,11 +3450,11 @@ p {
 
 /en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows
 [color-named] Expected "#0000cd" to be "mediumblue" (color-named)
-[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
 [color-named] Expected "#663399" to be "rebeccapurple" (color-named)
+[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
 [color-named] Expected "rgb(0 0 205)" to be "mediumblue" (color-named)
-[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
 [color-named] Expected "rgb(102 51 153)" to be "rebeccapurple" (color-named)
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
 ~~~
 .shadow-color {
   text-shadow:
@@ -3433,7 +3567,7 @@ p:last-of-type {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/At-rules/@import
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+[no-invalid-position-at-import-rule] Invalid position for @import rule (no-invalid-position-at-import-rule)
 ~~~
 * {
   margin: 0;
@@ -3444,7 +3578,7 @@ p:last-of-type {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/At-rules/@keyframes
-[keyframe-block-no-duplicate-selectors] Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "50%" (keyframe-block-no-duplicate-selectors)
 ~~~
 @keyframes identifier {
   0% {
@@ -3510,28 +3644,28 @@ p:last-of-type {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-bottom-style" by shorthand "border-bottom" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-bottom-style: dotted;
 border-bottom: thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-bottom-style" by shorthand "border-bottom" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-bottom-style: dotted;
 border-bottom: none thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-left-style" by shorthand "border-left" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-left-style: dotted;
 border-left: thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-left-style" by shorthand "border-left" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-left-style: dotted;
 border-left: none thick green;
@@ -3562,28 +3696,28 @@ border-bottom-left-radius: 3px 4px;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-right-style" by shorthand "border-right" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-right-style: dotted;
 border-right: thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-right-style" by shorthand "border-right" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-right-style: dotted;
 border-right: none thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-top-style" by shorthand "border-top" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-top-style: dotted;
 border-top: thick green;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Overridden property "border-top-style" by shorthand "border-top" (declaration-block-no-shorthand-property-overrides)
 ~~~
 border-top-style: dotted;
 border-top: none thick green;
@@ -3593,9 +3727,9 @@ border-top: none thick green;
 [color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
 [color-named] Expected "#f00" to be "red" (color-named)
 [color-named] Expected "#ff0000" to be "red" (color-named)
-[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
-[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
 [color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
+[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
+[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
 ~~~
 p {
   color: red;
@@ -3636,7 +3770,7 @@ column-width: 8rem;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/display
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "display" (declaration-block-no-duplicate-properties)
 ~~~
 .container {
   display: inline-flex;
@@ -3645,21 +3779,21 @@ column-width: 8rem;
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/font-family
-[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
-[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+[color-no-invalid-hex] Invalid hex color "#POUND" (color-no-invalid-hex)
 [declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
-[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
+[declaration-property-value-no-unknown] Unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
 [font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
 [font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 font-family: Goudy Bookletter 1911, sans-serif;
 font-family: Red/Black, sans-serif;
@@ -3704,7 +3838,7 @@ font-family:
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/transition-behavior
-[declaration-block-no-duplicate-properties] Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "transition" (declaration-block-no-duplicate-properties)
 ~~~
 .card {
   transition: all 0.25s;
@@ -3772,8 +3906,8 @@ h2 :not(span.foo) {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Selectors/ID_selectors
-[valid-id] element id "item?one" must only contain letters, digits, dash and underscore characters
 [valid-id] element id "123item" must begin with a letter
+[valid-id] element id "item?one" must only contain letters, digits, dash and underscore characters
 ~~~
 <p id="blue">This paragraph has a blue background.</p>
 <p>This is just a regular paragraph.</p>
@@ -3786,16 +3920,7 @@ that contain characters which must be escaped in CSS -->
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/attr
-[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-span[data-icon] {
-  background-image: url(attr(data-icon));
-}
-~~~
-
-/en-US/docs/Web/CSS/Reference/Values/attr
-[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "1px" for property "content" (declaration-property-value-no-unknown)
 ~~~
 div::before {
   content: attr(text) " World";
@@ -3805,27 +3930,17 @@ div::before {
 }
 ~~~
 
-/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
+/en-US/docs/Web/CSS/Reference/Values/attr
+[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
 ~~~
-div {
-  width: 100px;
-  height: 50px;
-  margin: 1rem;
-}
-
-div.space-separated {
-  background-color: hsl(0 100% 50% / 50%);
-}
-
-div.comma-separated {
-  background-color: hsl(0, 100%, 50%, 0.5);
+span[data-icon] {
+  background-image: url(attr(data-icon));
 }
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/color_value/hsl
-[color-function-notation] Expected modern color-function notation (color-function-notation)
 [color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
+[color-function-notation] Expected modern color-function notation (color-function-notation)
 ~~~
 div {
   width: 100px;
@@ -3861,6 +3976,24 @@ div.legacyHSLA {
 }
 ~~~
 
+/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  height: 50px;
+  margin: 1rem;
+}
+
+div.space-separated {
+  background-color: hsl(0 100% 50% / 50%);
+}
+
+div.comma-separated {
+  background-color: hsl(0, 100%, 50%, 0.5);
+}
+~~~
+
 /en-US/docs/Web/CSS/Reference/Values/color_value/rgb
 [color-function-notation] Expected modern color-function notation (color-function-notation)
 ~~~
@@ -3880,7 +4013,7 @@ div.comma-separated {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/element
-[color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
+[color-no-invalid-hex] Invalid hex color "#css" (color-no-invalid-hex)
 ~~~
 #css-result {
   background: -moz-element(#css-source) no-repeat;
@@ -3892,7 +4025,7 @@ div.comma-separated {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/element
-[color-no-invalid-hex] Unexpected invalid hex color "#my" (color-no-invalid-hex)
+[color-no-invalid-hex] Invalid hex color "#my" (color-no-invalid-hex)
 ~~~
 #target-box {
   width: 400px;
@@ -3963,18 +4096,9 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/Reference/Values/if
-[no-inline-style] Inline style is not allowed
-~~~
-<section style="--show-apple:true">
-  <article><h2>First article</h2></article>
-  <article><h2>Second article</h2></article>
-</section>
-~~~
-
 /en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)
-[declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-custom-properties] Duplicate custom property "--my-color" (declaration-block-no-duplicate-custom-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "color" (declaration-block-no-duplicate-properties)
 ~~~
 :root {
   --my-color: red !important;
@@ -3990,7 +4114,7 @@ blockquote {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/important
-[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
+[declaration-block-no-duplicate-properties] Duplicate property "property" (declaration-block-no-duplicate-properties)
 ~~~
 selector {
   property: value; /* normal declaration */
@@ -3999,18 +4123,8 @@ selector {
 }
 ~~~
 
-/en-US/docs/Web/CSS/Reference/Values/log
-[no-inline-style] Inline style is not allowed
-~~~
-<div class="bar" style="--value: 50">50</div>
-<div class="bar" style="--value: 100">100</div>
-<div class="bar" style="--value: 500">500</div>
-<div class="bar" style="--value: 10000">10,000</div>
-<div class="bar" style="--value: 2000000">2,000,000</div>
-~~~
-
 /en-US/docs/Web/CSS/Reference/Values/repeat
-[declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)
 ~~~
 .wrapper {
   grid-template-columns:
@@ -4042,7 +4156,7 @@ selector {
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/var
-[declaration-property-value-no-unknown] Unexpected unknown value "20px" for property "color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unknown value "20px" for property "color" (declaration-property-value-no-unknown)
 ~~~
 p {
   color: red;
@@ -4084,6 +4198,19 @@ p {
 <div itemscope="itemscope">
   This is also valid HTML and XML, but perhaps a bit verbose.
 </div>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Attributes
+[no-with] Unexpected use of 'with' statement.
+~~~
+function onclick(event) {
+  with (this.ownerDocument) {
+    with (this) {
+      console.log(new URL(location)); // 'URL' now resolves to document.URL instead of window.URL
+      // TypeError: URL is not a constructor
+    }
+  }
+}
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Attributes/pattern
@@ -4427,7 +4554,7 @@ console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
 ~~~
 
 /en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/font-src
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+[font-family-no-missing-generic-family-keyword] Missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 <style>
   @font-face {
@@ -4467,7 +4594,7 @@ if (b == true) {
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
-[no-cond-assign] Expected a conditional expression and instead saw an assignment.
+[no-cond-assign] Unexpected assignment within an 'if' statement.
 ~~~
 if (x = y) {
   // statements here
@@ -4622,7 +4749,7 @@ console.log(df.formatRange(springBreak.start, springBreak.end));
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Introduction
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 console.log(eval("3 + 5"));
 ~~~
@@ -4676,8 +4803,8 @@ foo(1, true);
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Modules
-[import/first] Import in body of module; reorder to top.
-[import/newline-after-import] Expected 1 empty line after import statement not followed by another import.
+[import-x/first] Import in body of module; reorder to top.
+[import-x/newline-after-import] Expected 1 empty line after import statement not followed by another import.
 [no-use-before-define] 'Canvas' was used before it was defined.
 ~~~
 // …
@@ -4689,7 +4816,7 @@ myCanvas.createReportList();
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Modules
-[import/no-named-default] Use default import syntax to import 'randomSquare'.
+[import-x/no-named-default] Use default import syntax to import 'randomSquare'.
 ~~~
 import { default as randomSquare } from "./modules/square.js";
 ~~~
@@ -4870,6 +4997,42 @@ fruit === anotherFruit; // return true
 
 fruit.name = "grape";
 console.log(anotherFruit); // { name: "grape" }; not { name: "apple" }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+[no-constructor-return] Unexpected return statement in constructor.
+~~~
+class ParentClass {
+  constructor() {
+    return 1;
+  }
+}
+
+console.log(new ParentClass()); // ParentClass {}
+// The return value is ignored because it's not an object
+// This is consistent with function constructors
+
+class ChildClass extends ParentClass {
+  constructor() {
+    return 1;
+  }
+}
+
+console.log(new ChildClass()); // TypeError: Derived constructors may only return object or undefined
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+[syntax] Parsing error: ';' expected.
+~~~
+constructor() {}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+[syntax] Parsing error: ';' expected.
+~~~
+constructor(...args) {
+  super(...args);
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
@@ -5159,6 +5322,14 @@ const tokenPattern = new RegExp(
 /\x01/u;
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_group
+[regexp/prefer-character-class] Unexpected the disjunction of single element alternatives. Use character class '[...]' instead.
+~~~
+/Hello(\?|!)/;
+// This is JavaScript syntax for character set operations
+/[\p{Script=Thai}&&\p{Nd}]/v;
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token
 [syntax] Parsing error: ',' expected.
 ~~~
@@ -5358,6 +5529,21 @@ products.map((product) => {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+[array-callback-return] Array.prototype.map() expects a value to be returned at the end of arrow function.
+~~~
+const numbers = [1, 2, 3, 4];
+const filteredNumbers = numbers.map((num, index) => {
+  if (index < 3) {
+    return num;
+  }
+});
+
+// index goes from 0, so the filteredNumbers are 1,2,3 and undefined.
+// filteredNumbers is [1, 2, 3, undefined]
+// numbers is still [1, 2, 3, 4]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [prefer-numeric-literals] Use binary literals instead of parseInt().
 [radix] Invalid radix parameter, must be an integer between 2 and 36.
 ~~~
@@ -5492,7 +5678,7 @@ try {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 [no-new-func] The Function constructor is eval.
 ~~~
 console.log(new Function("return new Error('Function failed')")().stack);
@@ -5864,8 +6050,8 @@ const { ctrz, ctron } = countTrailsMethods;
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32
-[operator-assignment] Assignment (=) can be replaced with operator assignment (|=).
 [operator-assignment] Assignment (=) can be replaced with operator assignment (&=).
+[operator-assignment] Assignment (=) can be replaced with operator assignment (|=).
 ~~~
 const countTrailsMethods = (function (stdlib, foreign, heap) {
   "use asm";
@@ -5999,6 +6185,26 @@ o.__defineGetter__("gimmeFive", function () {
   return 5;
 });
 console.log(o.gimmeFive); // 5
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
+[no-array-constructor] The array literal notation [] is preferable.
+[no-object-constructor] The object literal notation {} is preferable.
+~~~
+const o1 = {};
+o1.constructor === Object; // true
+
+const o2 = new Object();
+o2.constructor === Object; // true
+
+const a1 = [];
+a1.constructor === Array; // true
+
+const a2 = new Array();
+a2.constructor === Array; // true
+
+const n = 3;
+n.constructor === Number; // true
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
@@ -6185,16 +6391,8 @@ new RegExp("\n").source === "\\n"; // true, starting with ES5
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
-[regexp/letter-case] 'B' is not in lowercase
-~~~
-const regex = /fooBar/gi;
-
-console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
-[regexp/letter-case] 'B' is not in lowercase
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+[regexp/letter-case] 'B' is not in lowercase
 ~~~
 const regex = /fooBar/gi;
 
@@ -6207,6 +6405,22 @@ console.log(new RegExp().source);
 console.log(new RegExp("\n").source === "\\n");
 // Expected output: true (starting with ES5)
 // Due to escaping
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[regexp/letter-case] 'B' is not in lowercase
+~~~
+const regex = /fooBar/gi;
+
+console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.split
+[regexp/no-empty-group] Unexpected empty group.
+[regexp/no-useless-flag] The 'g' flag is unnecessary because 'String.prototype.split' ignores the 'g' flag.
+~~~
+console.log("😄".split(/(?:)/g)); // [ '\ud83d', '\ude04' ]
+console.log("😄".split(/(?:)/gu)); // [ '😄' ]
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
@@ -6232,31 +6446,8 @@ const regex = /\u{61}/u;
 console.log(regex.unicode); // true
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/strict] Invalid property escape sequence '\p'. Either use a valid property escape sequence or remove the useless escaping.
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '&' (U+0026).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '\p' (U+0070).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '{' (U+007b).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'c' (U+0063).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate. 'p' (U+0070) is a duplicate of '\p' (U+0070).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '}' (U+007d).
-[regexp/no-useless-escape] Unnecessary escape character: \p.
-~~~
-const regex1 = /[\p{Lowercase}&&\p{Script=Greek}]/;
-const regex2 = /[\p{Lowercase}&&\p{Script=Greek}]/v;
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 const s1 = "2 + 2"; // creates a string primitive
 const s2 = new String("2 + 2"); // creates a String object
@@ -6265,7 +6456,7 @@ console.log(eval(s2)); // returns the string "2 + 2"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 console.log(eval(s2.valueOf())); // returns the number 4
 ~~~
@@ -6307,8 +6498,8 @@ const newString = propertyName.replace(/[A-Z]/g, "-" + "$&".toLowerCase());
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
 [regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
-[regexp/no-useless-dollar-replacements] '$2' replacement will insert '$2' because there are less than 2 capturing groups. Use '$$' if you want to escape '$'.
 [regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
+[regexp/no-useless-dollar-replacements] '$2' replacement will insert '$2' because there are less than 2 capturing groups. Use '$$' if you want to escape '$'.
 ~~~
 "foo".replace(/(f)/, "$2");
 // "$2oo"; the regex doesn't have the second group
@@ -6421,7 +6612,7 @@ with (character) {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 try {
   eval("hoo bar");
@@ -6434,7 +6625,7 @@ try {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError/SyntaxError
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 try {
   eval("hoo bar");
@@ -6467,6 +6658,25 @@ new Int8Array(8)[-1]; // undefined
 // Named properties are allowed, though (Fx 30)
 Int8Array.prototype.foo = "bar";
 new Int8Array(32).foo; // "bar"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-use-before-define] 'x' was used before it was defined.
+[no-var] Unexpected var, use let or const instead.
+~~~
+if (typeof x === "undefined") {
+  // these statements execute
+}
+var x = 1;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-use-before-define] 'z' was used before it was defined.
+~~~
+if (typeof z === "undefined") {
+  // Uncaught ReferenceError: Cannot access 'z' before initialization
+}
+let z = 1;
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Iteration_protocols
@@ -6714,7 +6924,7 @@ console.log(a) // ReferenceError: Invalid left-hand side expression in prefix op
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 globalThis.isDirectEval = false;
 
@@ -6941,7 +7151,7 @@ async function* foo() {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 const x = eval(`document.forms.form_name.elements.${strFormControl}.value`);
 ~~~
@@ -6982,7 +7192,7 @@ new Bad(); // ReferenceError: Must call super constructor in derived class befor
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/this
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 function test() {
   // Direct eval
@@ -7077,9 +7287,9 @@ typeof func; // "function"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/typeof
-[no-use-before-define] 'newLetVariable' was used before it was defined.
-[no-use-before-define] 'newConstVariable' was used before it was defined.
 [no-use-before-define] 'newClass' was used before it was defined.
+[no-use-before-define] 'newConstVariable' was used before it was defined.
+[no-use-before-define] 'newLetVariable' was used before it was defined.
 ~~~
 typeof newLetVariable; // ReferenceError
 typeof newConstVariable; // ReferenceError
@@ -7238,8 +7448,8 @@ for await (using of of []); // SyntaxError
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/for...of
-[no-extend-native] Object prototype is read only, properties should not be added.
 [no-extend-native] Array prototype is read only, properties should not be added.
+[no-extend-native] Object prototype is read only, properties should not be added.
 ~~~
 Object.prototype.objCustom = function () {};
 Array.prototype.arrCustom = function () {};
@@ -7368,7 +7578,7 @@ console.log(gen.next()); // { value: undefined, done: true }
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/import
-[import/first] Import in body of module; reorder to top.
+[import-x/first] Import in body of module; reorder to top.
 [no-use-before-define] 'myModule' was used before it was defined.
 ~~~
 myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line
@@ -7487,6 +7697,21 @@ try {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+[no-throw-literal] Expected an error object to be thrown.
+~~~
+function doIt() {
+  try {
+    throw "try"; // makes control flow enter the `catch` block
+  } catch {
+    throw "catch"; // makes control flow enter the `finally` block
+  } finally {
+    return "finally"; // returns "finally" instead of throwing "catch"
+  }
+}
+doIt(); // returns "finally"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 [syntax] Parsing error: '{' expected.
 ~~~
 try doSomething(); // SyntaxError
@@ -7532,7 +7757,7 @@ console.log(x, y); // undefined A
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/while
-[no-cond-assign] Expected a conditional expression and instead saw an assignment.
+[no-cond-assign] Unexpected assignment within a 'while' statement.
 ~~~
 const iterator = document.createNodeIterator(document, NodeFilter.SHOW_COMMENT);
 let currentNode;
@@ -7579,7 +7804,7 @@ const f = new Function("arguments", "'use strict'; return 17;");
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
-[no-eval] eval can be harmful.
+[no-eval] `eval` can be harmful.
 ~~~
 var x = 17;
 var evalX = eval("'use strict'; var x = 42; x;");
@@ -7664,15 +7889,6 @@ console.log(callHistory[0] === callHistory[1]); // true; all evaluations of the 
 [no-template-curly-in-string] Unexpected template string expression.
 ~~~
 `\${1}` === "${1}"; // true
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Template_literals
-[no-unsafe-optional-chaining] Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.
-[no-unexpected-multiline] Unexpected newline between template tag and template literal.
-~~~
-// Still a syntax error
-const a = console?.log
-`Hello`
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Template_literals

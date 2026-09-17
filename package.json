@@ -7,26 +7,26 @@
     "format": "prettier -w . && bun config/sort-lint-errors.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "prettier": "^3.3.3"
+    "@types/bun": "^1.4.2",
+    "prettier": "^3.9.7"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "^7.3.17",
-    "@types/three": "^0.167.1",
-    "@webref/css": "^7.0.11",
-    "angular-html-parser": "^9.2.0",
-    "cheerio": "^1.1.2",
-    "eslint": "^9.31.0",
-    "eslint-config-jc": "^6.0.1",
+    "@mdn/browser-compat-data": "^8.1.1",
+    "@types/three": "^0.186.0",
+    "@webref/css": "^8.7.4",
+    "angular-html-parser": "^10.12.0",
+    "cheerio": "^1.2.0",
+    "eslint": "^10.10.0",
+    "eslint-config-jc": "^7.2.0",
     "gray-matter": "^4.0.3",
-    "html-validate": "^10.4.0",
-    "leven": "^4.0.0",
-    "ngraph.events": "0.0.3",
+    "html-validate": "^11.16.0",
+    "leven": "^4.1.0",
+    "ngraph.events": "1.4.0",
     "ngraph.forcelayout": "^3.3.1",
-    "ngraph.graph": "^20.0.1",
-    "stylelint": "^16.26.0",
-    "three": "^0.73.0",
+    "ngraph.graph": "^20.1.2",
+    "stylelint": "^17.15.0",
+    "three": "^0.186.0",
     "three.fly": "0.1.6",
-    "typescript-eslint": "^8.38.0"
+    "typescript-eslint": "^8.70.0"
   }
 }

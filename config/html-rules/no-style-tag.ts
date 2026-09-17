@@ -3,8 +3,7 @@
 import {
   DOMReadyEvent,
   Rule,
-  RuleDocumentation,
-  NodeType,
+  Node,
 } from "html-validate";
 
 export default class NoStyleTagRule extends Rule {
@@ -18,7 +17,7 @@ export default class NoStyleTagRule extends Rule {
         if (el.attributes.some((x) => x.key === "id")) continue;
         if (
           el.childNodes.length === 1 &&
-          el.childNodes[0]!.nodeType === NodeType.TEXT_NODE &&
+          el.childNodes[0]!.nodeType === Node.TEXT_NODE &&
           el.childNodes[0]!.textContent.trim().match(
             /^\/\* (?:…|Add styles here|Insert your CSS here|CSS goes here) \*\/$/,
           )

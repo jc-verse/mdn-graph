@@ -28,6 +28,7 @@ export default [
       "no-multi-str": "off",
       "no-promise-executor-return": "off",
       "no-undef": "off",
+      "no-unused-expressions": "off",
       "no-unused-private-class-members": "off",
       "no-use-before-define": ["error", "nofunc"],
       "no-useless-assignment": "off",
@@ -43,10 +44,10 @@ export default [
       "@typescript-eslint/no-shadow": "off",
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-useless-constructor": "off",
-      "import/export": "off",
-      "import/newline-after-import": ["error", { considerComments: false }],
-      "import/no-absolute-path": "off",
-      "import/no-extraneous-dependencies": "off",
+      "import-x/export": "off",
+      "import-x/newline-after-import": ["error", { considerComments: false }],
+      "import-x/no-absolute-path": "off",
+      "import-x/no-extraneous-dependencies": "off",
       "regexp/no-control-character": "off",
       "regexp/no-super-linear-move": "off",
       "regexp/unicode-property": "off",
@@ -58,6 +59,8 @@ export default [
       "prefer-destructuring": "off", // 769
       "no-restricted-globals": "off", // 642
       "max-len": "off", // 576
+      "init-declarations": "off", // 481
+      "no-shadow": "off", // 436
       "regexp/require-unicode-regexp": "off", // 404
       "no-restricted-syntax": "off", // 321
       "no-alert": "off", // 185
@@ -66,6 +69,7 @@ export default [
       "regexp/prefer-named-capture-group": "off", // 122
       "@typescript-eslint/no-redeclare": "off", // 105
       "consistent-return": "off", // 85
+      "no-useless-constructor": "off", // 35
       "no-return-assign": "off", // TODO
     },
   },
@@ -161,6 +165,7 @@ export default [
   {
     files: [
       "Mozilla/Add-ons/WebExtensions/Content_Security_Policy/*",
+      "Web/API/Window/setInterval/*",
       "Web/API/Window/setTimeout/*",
       "Web/HTTP/Guides/CSP/*",
     ],
@@ -676,7 +681,7 @@ export default [
       "Web/JavaScript/Reference/Statements/export/*",
       "Web/JavaScript/Reference/Statements/import/*",
     ],
-    rules: { "import/no-named-default": "off" },
+    rules: { "import-x/no-named-default": "off" },
   },
   {
     files: ["Web/JavaScript/Reference/Statements/switch/*"],

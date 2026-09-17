@@ -126,7 +126,7 @@ const htmlVisitor: Visitor = {
       if (
         !(
           el.children.length === 1 &&
-          el.children[0]!.type === "text" &&
+          el.children[0]!.kind === "text" &&
           el.children[0]!.value.trim().match(
             /^\/\/ (?:…|Code goes below this line|Your JavaScript goes here|JavaScript goes here|JavaScript code goes here|scene setup goes here|Inline JavaScript code)$|\/\* (?:All of our JavaScript code goes here|all our JavaScript code goes here) \*\/$/,
           )
@@ -142,7 +142,7 @@ const htmlVisitor: Visitor = {
           span: el.sourceSpan,
         });
       }
-      if (el.children.length === 1 && el.children[0]!.type === "text") {
+      if (el.children.length === 1 && el.children[0]!.kind === "text") {
         ctx.otherPromises.push(
           checkJS(
             el.children[0]!.value,
@@ -161,7 +161,7 @@ const htmlVisitor: Visitor = {
         });
       }
     } else if (el.name === "style") {
-      if (el.children.length === 1 && el.children[0]!.type === "text") {
+      if (el.children.length === 1 && el.children[0]!.kind === "text") {
         ctx.otherPromises.push(
           checkCSS(
             el.children[0]!.value,
@@ -182,7 +182,7 @@ const htmlVisitor: Visitor = {
     }
     if (
       el.children.length > 0 &&
-      el.children[0].type === "text" &&
+      el.children[0].kind === "text" &&
       el.children[0].value.match(/\s*<\!\[CDATA\[/) &&
       !ctx.isSVG &&
       !ctx.isMathML
