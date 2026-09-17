@@ -21,8 +21,8 @@ export default function createEdgeView(scene: THREE.Scene, edges: EdgeModel[]) {
     vertexColors: true,
   });
 
-  geometry.addAttribute("position", new THREE.BufferAttribute(points, 3));
-  geometry.addAttribute("color", new THREE.BufferAttribute(colors, 3));
+  geometry.setAttribute("position", new THREE.BufferAttribute(points, 3));
+  geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
 
   const edgeMesh = new THREE.LineSegments(geometry, material);
   edgeMesh.frustumCulled = false;

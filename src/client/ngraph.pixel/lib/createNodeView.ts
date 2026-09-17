@@ -11,9 +11,9 @@ export default function createNodeView(scene: THREE.Scene, nodes: NodeModel[]) {
   let colorDirty: boolean, sizeDirty: boolean, positionDirty: boolean;
   const geometry = new THREE.BufferGeometry();
 
-  geometry.addAttribute("position", new THREE.BufferAttribute(points, 3));
-  geometry.addAttribute("customColor", new THREE.BufferAttribute(colors, 3));
-  geometry.addAttribute("size", new THREE.BufferAttribute(sizes, 1));
+  geometry.setAttribute("position", new THREE.BufferAttribute(points, 3));
+  geometry.setAttribute("customColor", new THREE.BufferAttribute(colors, 3));
+  geometry.setAttribute("size", new THREE.BufferAttribute(sizes, 1));
 
   const particleSystem = new THREE.Points(geometry, particleMaterial);
   particleSystem.name = "nodes";
