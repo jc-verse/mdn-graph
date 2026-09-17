@@ -1,14 +1,13 @@
-import nodes from "../../data/nodes.json" with { type: "json" };
-import links from "../../data/links.json" with { type: "json" };
+import { loadGraphData } from "./graph-data";
 import lastUpdate from "../../data/last-update.json" with { type: "json" };
 import createGraph from "ngraph.graph";
 import renderGraph from "./ngraph.pixel";
 
 const graph = createGraph();
-for (const node of nodes) {
+for await (const node of loadGraphData("nodes")) {
   graph.addNode(node.id, node.data);
 }
-for (const link of links) {
+for await (const link of loadGraphData("links")) {
   graph.addLink(link.fromId, link.toId);
 }
 

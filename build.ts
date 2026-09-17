@@ -2,6 +2,7 @@ import createContentGraph from "./src/server/create-graph.ts";
 import processWarnings from "./src/server/process-warnings.ts";
 import checkCode from "./src/server/lint.ts";
 import buildWarningDocs from "./src/server/build-warning-docs.ts";
+import buildGraphData from "./src/server/build-graph-data.ts";
 
 const dataOnly = Bun.argv.includes("--data-only");
 const bundleOnly = Bun.argv.includes("--bundle-only");
@@ -26,8 +27,9 @@ if (!bundleOnly) {
 }
 
 if (!dataOnly) {
+  if (buildGraph || buildExternalLinks) await buildGraphData();
   await buildWarningDocs();
-  await Bun.build({
+  const result = await Bun.build({
     entrypoints: [
       buildGraph && "./src/client/index.ts",
       (buildWarnings || buildWarningsFast) && "./src/client/warnings.ts",
@@ -36,6 +38,9 @@ if (!dataOnly) {
     outdir: "./docs",
     splitting: true,
   });
+  if (!result.success) {
+    throw new AggregateError(result.logs, "Site build failed");
+  }
 }
 
 // TODO: not sure why I need this

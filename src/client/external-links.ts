@@ -1,4 +1,4 @@
-import nodes from "../../data/nodes.json" with { type: "json" };
+import { loadGraphData } from "./graph-data";
 import lastUpdate from "../../data/last-update.json" with { type: "json" };
 
 const noteBox = document.getElementById("note") as HTMLDivElement;
@@ -22,7 +22,8 @@ const linksByTLDp1 = new Map<
   string,
   { links: Map<string, { page: string; link: string }[]>; total: number }
 >();
-for (const node of nodes) {
+const linksByPage = new Map<string, string[]>();
+for await (const node of loadGraphData("nodes")) {
   for (const link of node.data.links) {
     if (!link.startsWith("http")) continue;
     const linkURL = new URL(link);
@@ -44,13 +45,6 @@ for (const node of nodes) {
     }
     linksByTLDp1.get(tldp1)!.links.get(domain)!.push({ page: node.id, link });
     linksByTLDp1.get(tldp1)!.total++;
-  }
-}
-
-const linksByPage = new Map<string, string[]>();
-for (const node of nodes) {
-  for (const link of node.data.links) {
-    if (!link.startsWith("http")) continue;
     if (!linksByPage.has(node.id)) {
       linksByPage.set(node.id, []);
     }

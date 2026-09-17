@@ -3,6 +3,7 @@ data/*
 !data/.keep
 sidebars
 docs/*.js
+docs/graph-data/
 docs/warning-info.html
 .wrangler
 *.txt
