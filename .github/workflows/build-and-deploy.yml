@@ -8,6 +8,13 @@ on:
   schedule:
     - cron: "0 0 * * *" # Runs at midnight UTC every day
 
+permissions:
+  contents: read
+
+concurrency:
+  group: mdn-graph-deploy
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,12 +24,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: mdn-graph
+          persist-credentials: false
 
       - name: Checkout mdn/content repo
         uses: actions/checkout@v4
         with:
           repository: mdn/content
           path: content
+          persist-credentials: false
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -67,6 +76,14 @@ jobs:
         run: bun build.ts graph warnings external-links --bundle-only
         working-directory: ./mdn-graph
 
+      - name: Upload generated site
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: mdn-graph-site
+          path: mdn-graph/docs/
+          if-no-files-found: error
+          retention-days: 7
+
       - name: Determine commit message
         id: commit-message
         run: |
@@ -78,13 +95,31 @@ jobs:
             echo "message=Update based on ${{ github.sha }}" >> $GITHUB_ENV
           fi
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Validate Cloudflare Pages credentials
+        if: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          : "${CLOUDFLARE_API_TOKEN:?Set the CLOUDFLARE_API_TOKEN Actions secret}"
+          : "${CLOUDFLARE_ACCOUNT_ID:?Set the CLOUDFLARE_ACCOUNT_ID Actions secret}"
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME != '' }}
+        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./mdn-graph/docs
-          publish_branch: gh-pages
-          commit_message: ${{ env.message }}
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          enable_jekyll: true
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: mdn-graph
+          command: pages deploy docs --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }} --commit-message="${{ env.message }}"
+
+      - name: Report publication status
+        env:
+          PAGES_PROJECT_NAME: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+        run: |
+          if [ -n "$PAGES_PROJECT_NAME" ]; then
+            echo 'Built MDN graph and deployed the site to Cloudflare Pages.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Built MDN graph. Download mdn-graph-site from this run.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Cloudflare Pages deployment is not configured.' >> "$GITHUB_STEP_SUMMARY"
+          fi

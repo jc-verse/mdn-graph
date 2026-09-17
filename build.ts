@@ -1,6 +1,7 @@
 import createContentGraph from "./src/server/create-graph.ts";
 import processWarnings from "./src/server/process-warnings.ts";
 import checkCode from "./src/server/lint.ts";
+import buildWarningDocs from "./src/server/build-warning-docs.ts";
 
 const dataOnly = Bun.argv.includes("--data-only");
 const bundleOnly = Bun.argv.includes("--bundle-only");
@@ -25,6 +26,7 @@ if (!bundleOnly) {
 }
 
 if (!dataOnly) {
+  await buildWarningDocs();
   await Bun.build({
     entrypoints: [
       buildGraph && "./src/client/index.ts",

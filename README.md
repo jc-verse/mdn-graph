@@ -1,6 +1,6 @@
 # mdn-graph
 
-Visualize the MDN Web Docs link structure! [Live website](https://jc-verse.github.io/mdn-graph/)
+Visualize the MDN Web Docs link structure! [Live website](https://mdn-graph.joshcena.com/)
 
 ## Building
 

@@ -3,6 +3,8 @@ data/*
 !data/.keep
 sidebars
 docs/*.js
+docs/warning-info.html
+.wrangler
 *.txt
 !config/*.txt
 .env
