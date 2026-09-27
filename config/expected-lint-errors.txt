@@ -112,6 +112,14 @@ const x = 1;
 <span style="font-size: 32px; margin: 21px 0;">Not a top-level heading!</span>
 ~~~
 
+/en-US/docs/Glossary/Undefined
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+let x; // create a variable but assign it no value
+
+console.log(`x's value is ${x}`); // logs "x's value is undefined"
+~~~
+
 /en-US/docs/Glossary/Vendor_Prefix
 [logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
 ~~~
@@ -444,6 +452,139 @@ const badQuotes = "She said "I think so!"";
 const badQuotes = 'This is not allowed!";
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals
+[no-unassigned-vars] 'machineResult' is always 'undefined' because it's never assigned.
+[no-unassigned-vars] 'pwdResult' is always 'undefined' because it's never assigned.
+~~~
+let machineActive = true;
+let pwd = "cheese";
+
+let machineResult;
+let pwdResult;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = machineResult;
+para2.textContent = pwdResult;
+section.appendChild(para1);
+section.appendChild(para2);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals
+[no-unassigned-vars] 'response' is always 'undefined' because it's never assigned.
+~~~
+let season = "summer";
+let response;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+para1.textContent = response;
+section.appendChild(para1);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals
+[no-unassigned-vars] 'response' is always 'undefined' because it's never assigned.
+~~~
+let response;
+let score = 75;
+let machineActive = false;
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = `Your score is ${score}`;
+para2.textContent = response;
+section.appendChild(para1);
+section.appendChild(para2);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/JSON
+[no-unassigned-vars] 'kittenInfo' is always 'undefined' because it's never assigned.
+~~~
+const para1 = document.querySelector(".one");
+const para2 = document.querySelector(".two");
+let motherInfo = "The mother cats are called ";
+let kittenInfo;
+const requestURL =
+  "https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json";
+
+fetch(requestURL)
+  .then((response) => response.text())
+  .then((text) => displayCatInfo(text));
+
+// Don't edit the code above here!
+
+function displayCatInfo(catString) {
+  let total = 0;
+  let male = 0;
+
+  // Add your code here
+
+  // Don't edit the code below here!
+
+  para1.textContent = motherInfo;
+  para2.textContent = kittenInfo;
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Math
+[no-unassigned-vars] 'evenOddResult' is always 'undefined' because it's never assigned.
+[no-unassigned-vars] 'finalResult' is always 'undefined' because it's never assigned.
+~~~
+let finalResult;
+let evenOddResult;
+
+// Don't edit the code above here!
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const finalResultCheck =
+  finalResult === 48 ? `Yes, well done!` : `No, it is ${finalResult}`;
+para1.textContent = `Is the finalResult 48? ${finalResultCheck}`;
+const para2 = document.createElement("p");
+const evenOddResultCheck =
+  evenOddResult === 0
+    ? "The final result is even!"
+    : "The final result is odd. Hrm.";
+para2.textContent = evenOddResultCheck;
+section.appendChild(para1);
+section.appendChild(para2);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Object_basics
+[no-unassigned-vars] 'bandInfo' is always 'undefined' because it's never assigned.
+~~~
+let bandInfo;
+
+// Don't edit the code above here!
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+let para1 = document.createElement("p");
+para1.textContent = bandInfo;
+section.appendChild(para1);
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Strings
 [syntax] Parsing error: ',' expected.
 ~~~
@@ -485,6 +626,12 @@ section.appendChild(para2);
 ~~~
 const count = 1;
 count = 2;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Variables
+[no-constant-binary-expression] Unexpected constant relational comparison. Both sides of the `<` are literal values.
+~~~
+let test = 6 < 3;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Variables
@@ -1439,6 +1586,17 @@ var(--custom-prop, var(--default-value, red))
 [syntax] Parsing error: Unexpected keyword or identifier.
 ~~~
 x operator y
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/JavaScript_statement_page_template
+[no-constant-binary-expression] Unexpected constant relational comparison. Both sides of the `>` are literal values.
+~~~
+let result = "negative";
+if (3 > 0) {
+  result = "positive";
+}
+console.log(result);
+// Expected output: "positive"
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/JavaScript_statement_page_template
@@ -2581,6 +2739,18 @@ async function initPaymentRequest() {
 ~~~
 setTimeout(function libFunc() {
   slowFunction();
+});
+~~~
+
+/en-US/docs/Web/API/PointerEvent/pointerId
+[no-unassigned-vars] 'id' is always 'undefined' because it's never assigned.
+~~~
+let id; // Let's assume that this is a previously saved pointerId
+
+target.addEventListener("pointerdown", (event) => {
+  // Compare previous event's ID that was cached
+  // to current event's ID and handle accordingly
+  if (id === event.pointerId) process_event(event);
 });
 ~~~
 
@@ -4963,7 +5133,7 @@ if (b == true) {
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
-[no-cond-assign] Unexpected assignment within an 'if' statement.
+[no-cond-assign] Expected a conditional expression and instead saw an assignment.
 ~~~
 if (x = y) {
   // statements here
@@ -5011,6 +5181,13 @@ if (true) {
   var x = 5;
 }
 console.log(x); // x is 5
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+let x;
+console.log(x); // logs "undefined"
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Grammar_and_types
@@ -5490,6 +5667,14 @@ new Intl?.DateTimeFormat();
 Number?.[parseMethod]`Hello, world!`;
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_optional_template
+[syntax] Parsing error: Tagged template expressions are not permitted in an optional chain.
+~~~
+String?.raw`Hello, world!`;
+console.log?.()`Hello, world!`;
+Number?.[parseMethod]`Hello, world!`;
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
@@ -5524,6 +5709,12 @@ class Test {
   static set #foo(_) {}
   static get #foo() {}
 }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Hash_outside_class
+[syntax] Parsing error: Private identifiers cannot appear on the right-hand-side of an 'in' expression.
+~~~
+document.querySelector(#some-element)
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character
@@ -6557,6 +6748,71 @@ console.log(o.gimmeFive); // 5
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+function Parent() {
+  // …
+}
+function CreatedConstructor() {
+  Parent.call(this);
+}
+
+CreatedConstructor.prototype = Object.create(Parent.prototype);
+
+CreatedConstructor.prototype.create = function () {
+  return new this.constructor();
+};
+
+new CreatedConstructor().create().create(); // TypeError: new CreatedConstructor().create().create is undefined, since constructor === Parent
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+function Parent() {
+  // …
+}
+function CreatedConstructor() {
+  // …
+}
+
+CreatedConstructor.prototype = Object.create(Parent.prototype, {
+  // Return original constructor to Child
+  constructor: {
+    value: CreatedConstructor,
+    enumerable: false, // Make it non-enumerable, so it won't appear in `for...in` loop
+    writable: true,
+    configurable: true,
+  },
+});
+
+CreatedConstructor.prototype.create = function () {
+  return new this.constructor();
+};
+
+new CreatedConstructor().create().create(); // it's pretty fine
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+function Parent() {
+  // …
+}
+function CreatedConstructor() {
+  // …
+}
+
+Object.setPrototypeOf(CreatedConstructor.prototype, Parent.prototype);
+
+CreatedConstructor.prototype.create = function () {
+  return new this.constructor();
+};
+
+new CreatedConstructor().create().create(); // still works without re-creating constructor property
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
 [no-array-constructor] The array literal notation [] is preferable.
 [no-object-constructor] The object literal notation {} is preferable.
 ~~~
@@ -7030,6 +7286,56 @@ new Int8Array(32).foo; // "bar"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+function test(t) {
+  if (t === undefined) {
+    return "Undefined value!";
+  }
+  return t;
+}
+
+let x;
+
+console.log(test(x));
+// Expected output: "Undefined value!"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+let x;
+if (x === undefined) {
+  // these statements execute
+} else {
+  // these statements do not execute
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+let x;
+if (typeof x === "undefined") {
+  // these statements execute
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+let x;
+if (x === void 0) {
+  // these statements execute
+}
+
+// y has not been declared before
+if (y === void 0) {
+  // throws Uncaught ReferenceError: y is not defined
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
 [no-use-before-define] 'x' was used before it was defined.
 [no-var] Unexpected var, use let or const instead.
 ~~~
@@ -7488,6 +7794,15 @@ x ||= console.log("y evaluated");
 // Logs nothing
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing
+[no-unassigned-vars] 'foo' is always 'undefined' because it's never assigned.
+~~~
+let foo;
+
+// foo is never assigned any value so it is still undefined
+const someDummyText = foo || "Hello!";
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment
 [no-const-assign] 'x' is constant.
 ~~~
@@ -7653,6 +7968,18 @@ typeof num; // "object"
 const func = new Function();
 
 typeof func; // "function"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+[no-unassigned-vars] 'newLetVariable' is always 'undefined' because it's never assigned.
+~~~
+typeof newLetVariable; // ReferenceError
+typeof newConstVariable; // ReferenceError
+typeof newClass; // ReferenceError
+
+let newLetVariable;
+const newConstVariable = "hello";
+class newClass {}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/typeof
@@ -8101,6 +8428,15 @@ useResource(); // Error: Resource is disposed
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-unassigned-vars] 'a' is always 'undefined' because it's never assigned.
+~~~
+console.log(typeof a); // "function"
+function a() {}
+var a;
+console.log(typeof a); // "function"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
 [no-use-before-define] 'bar' was used before it was defined.
 ~~~
 function doSomething() {
@@ -8126,7 +8462,7 @@ console.log(x, y); // undefined A
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/while
-[no-cond-assign] Unexpected assignment within a 'while' statement.
+[no-cond-assign] Expected a conditional expression and instead saw an assignment.
 ~~~
 const iterator = document.createNodeIterator(document, NodeFilter.SHOW_COMMENT);
 let currentNode;
@@ -8210,6 +8546,15 @@ fixed.newProp = "ohai"; // TypeError
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
+[no-unassigned-vars] 'x' is always 'undefined' because it's never assigned.
+~~~
+"use strict";
+
+var x;
+delete x; // syntax error
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Strict_mode
 [syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o15'.
 ~~~
 "use strict";
@@ -8264,6 +8609,14 @@ console.log(callHistory[0] === callHistory[1]); // true; all evaluations of the 
 [syntax] Parsing error: Hexadecimal digit expected.
 ~~~
 const bad = `bad escape sequence: \unicode`;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[syntax] Parsing error: Tagged template expressions are not permitted in an optional chain.
+~~~
+// Still a syntax error
+const a = console?.log
+`Hello`
 ~~~
 
 /en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file
