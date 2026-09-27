@@ -24,6 +24,7 @@ function gatherTypes(...types: string[]) {
 
 const languageOptions = {
   syntax: {
+    cssWideKeywords: ["revert-rule"],
     atRules: {
       // csstree has nearly everything except position-anchor & position-area
       "position-try": {
@@ -45,7 +46,6 @@ const languageOptions = {
         ...Object.keys(features.properties).filter((p) =>
           p.startsWith("corner"),
         ),
-        "appearance",
         "caret",
         "caret-animation",
         "alignment-baseline",
@@ -54,11 +54,12 @@ const languageOptions = {
         "word-break",
         "font-synthesis-style",
         "font-variant",
-        "margin-trim",
         "image-rendering",
         "image-orientation",
-        "container-type",
         "fill-opacity",
+        // Gap decorations
+        "row-rule",
+        "column-rule",
         // Anchor sizing/positioning
         "justify-self",
         "align-self",
@@ -73,10 +74,22 @@ const languageOptions = {
         "margin-top",
         // Why does csstree say <length> instead of <length>{1,2}?
         "border-inline-width",
-        // Another csstree bug
-        "mix-blend-mode",
       ),
+      // Syntax not yet represented by the installed webref/csstree data.
+      "container-type":
+        "normal | [ [ size | inline-size ] || scroll-state || anchored ]",
+      "margin-trim":
+        "none | block | inline | [ block-start || block-end || inline-start || inline-end ]",
+      "mix-blend-mode": "<blend-mode> | plus-lighter | plus-darker",
+      "ruby-overhang": "auto | none | spaces",
+      "min-inline-size": "| <anchor-size()>",
+      "-webkit-mask-box-image": "| <'mask-border'>",
+      "path-length": "none | <length [0,∞]>",
+      // Optional image cursors from CSS UI 4.
+      cursor: "[ [ <image> <number>{2}? ] , ]* <cursor-predefined>",
       // LEGACY
+      appearance: `${features.properties.appearance.syntax} | slider-vertical`,
+      "text-decoration-skip": "| objects | spaces | edges | box-decoration",
       display: "| box | -moz-box",
       "box-align": "start | center | end | baseline | stretch",
       "box-direction": "normal | reverse",
@@ -154,7 +167,20 @@ const languageOptions = {
         // shape()
         "shape()",
         "shape-command",
+        // Gap decorations
+        "gap-rule-list",
+        "gap-rule-or-repeat",
+        "gap-auto-rule-list",
+        "gap-auto-repeat-rule",
+        "gap-repeat-rule",
+        "gap-rule",
       ),
+      // Browsers retain two independent radii, including corner keywords.
+      // https://github.com/w3c/csswg-drafts/issues/13814
+      "ellipse()":
+        "ellipse( [ <radial-size> | <shape-radius>{2} ]? [ at <position> ]? )",
+      "shape-radius":
+        "<length-percentage [0,∞]> | closest-side | farthest-side | closest-corner | farthest-corner",
       "basic-shape": " | <shape()>",
       // TODO why are these missing from webref?
       "coordinate-pair": "<length-percentage>{2}",
@@ -218,7 +244,8 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "block-no-empty": null,
       "comment-no-empty": true,
       "no-empty-source": null,
-      "at-rule-prelude-no-invalid": true,
+      // csstree cannot parse typed custom-function parameters yet.
+      "at-rule-prelude-no-invalid": [true, { ignoreAtRules: ["function"] }],
       "color-no-invalid-hex": true,
       "function-calc-no-unspaced-operator": true,
       "keyframe-declaration-no-important": true,
@@ -265,12 +292,31 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           ],
         },
       ],
-      "declaration-property-value-no-unknown": true,
+      "declaration-property-value-no-unknown": [
+        true,
+        {
+          ignoreProperties: {
+            // These numeric functions are not yet recognized in these contexts.
+            opacity: [/^progress\(/, /--[\w-]+\(/],
+            scale: [/^progress\(/, /--[\w-]+\(/],
+            rotate: [/^attr\(/, /\brandom\(/, /--[\w-]+\(/],
+            // Substitution functions and URL modifiers are not understood by
+            // the value parser yet.
+            "/.*/": [
+              /--[\w-]+\(/,
+              /\brandom\(/,
+              /\burl\([\s\S]*\bparam\(/,
+            ],
+          },
+        },
+      ],
       "function-no-unknown": [
         true,
         {
           ignoreFunctions: [
             // NEW
+            "alpha",
+            "param",
             "contrast-color",
             "dynamic-range-limit-mix",
             "if",
@@ -321,6 +367,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             "target-within",
             "target-current",
             "interest-target",
+            "interest-source",
+            "target-before",
+            "target-after",
+            "xr-overlay",
           ],
         },
       ],
@@ -398,6 +448,17 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "comment-whitespace-inside": "always",
     },
     overrides: [
+      {
+        files: [
+          "Web/CSS/Reference/At-rules/@function/*",
+          "Web/API/CSSFunctionDeclarations/*",
+        ],
+        rules: {
+          // @function accepts arbitrary local variables; descriptor names cannot
+          // be expressed as a pattern in languageOptions.syntax.atRules.
+          "at-rule-descriptor-no-unknown": null,
+        },
+      },
       {
         files: [
           "Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles/*",
@@ -517,8 +578,9 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/::scroll-button/*",
-          "Web/CSS/Guides/Overflow/CSS_carousels/*",
+          "Web/CSS/Reference/Selectors/::scroll-button/*",
+          "Web/CSS/Reference/Properties/scroll-target-group/*",
+          "Web/CSS/Guides/Overflow/Carousels/*",
         ],
         rules: {
           "selector-type-no-unknown": [

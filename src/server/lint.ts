@@ -60,7 +60,7 @@ const expectedErrors = (
     ),
   ).text()
 ).matchAll(
-  /(?<file>\/en-US\/docs\/[^\n]+)\n(?<reports>(?:\[[^\]]+\] .*\n)+)~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
+  /(?<file>\/en-US\/docs\/[^\n]+)\n(?<reports>\[[^\]]+\] [\s\S]+?)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
 );
 const expectedErrorsMap = new Map<string, Map<string, Map<string, boolean>>>();
 for (const match of expectedErrors) {
@@ -71,7 +71,7 @@ for (const match of expectedErrors) {
   if (!expectedErrorsMap.get(file)!.has(code)) {
     expectedErrorsMap.get(file)!.set(code, new Map());
   }
-  for (const report of reports.trim().split("\n")) {
+  for (const report of reports.trim().split(/\n(?=\[)/)) {
     expectedErrorsMap.get(file)!.get(code)!.set(report, false);
   }
 }

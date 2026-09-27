@@ -3,7 +3,7 @@ const expectedErrors = (
     Bun.fileURLToPath(import.meta.resolve(`./expected-lint-errors.txt`)),
   ).text()
 ).matchAll(
-  /(?<file>\/en-US\/docs\/[^\n]+)\n(?<reports>(?:\[[^\]]+\] .*\n)+)~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
+  /(?<file>\/en-US\/docs\/[^\n]+)\n(?<reports>\[[^\]]+\] [\s\S]+?)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
 );
 
 const newExpectedErrors = [...expectedErrors]
@@ -11,7 +11,7 @@ const newExpectedErrors = [...expectedErrors]
     ...groups,
     reports: `${groups.reports
       .trimEnd()
-      .split("\n")
+      .split(/\n(?=\[)/)
       .sort((a, b) => {
         const aRuleEnd = a.indexOf("]");
         const bRuleEnd = b.indexOf("]");

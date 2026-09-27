@@ -3391,6 +3391,41 @@ element.my-class {
 }
 ~~~
 
+/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties
+[declaration-property-value-no-unknown] Unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
+~~~
+@property --item-size {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 40%;
+}
+
+.container {
+  --item-size: 20%;
+  --item-color: orange;
+}
+.two {
+  --item-size: initial;
+  --item-color: inherit;
+}
+.three {
+  --item-size: 1000px;
+  --item-color: xyz;
+}
+
+.item {
+  width: var(--item-size);
+  height: var(--item-size);
+  background-color: var(--item-color);
+}
+
+.container {
+  display: flex;
+  height: 200px;
+  border: 1px dashed black;
+}
+~~~
+
 /en-US/docs/Web/CSS/Guides/Syntax/Error_handling
 [CssSyntaxError] Missed semicolon (CssSyntaxError)
 ~~~
@@ -3475,6 +3510,87 @@ p {
     5px 5px rgb(0 0 205),
     10px 10px rgb(255 0 255),
     15px 15px rgb(102 51 153);
+}
+~~~
+
+/en-US/docs/Web/CSS/Guides/Text_decoration/Text_shadows
+[declaration-property-value-no-unknown] Unknown value "-5px" for property "text-shadow" (declaration-property-value-no-unknown)
+~~~
+p {
+  border: 1px solid;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+
+.negative {
+  /* invalid */
+  text-shadow: 30px 30px -5px red;
+}
+
+.positive {
+  text-shadow: 30px 30px 5px red;
+}
+
+.zero {
+  text-shadow: 30px 30px 0 red;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unknown custom media query "--laptop-screen" (no-unknown-custom-media)
+[no-unknown-custom-media] Unknown custom media query "--mobile-screen" (no-unknown-custom-media)
+[no-unknown-custom-media] Unknown custom media query "--widescreen" (no-unknown-custom-media)
+~~~
+/* layout.css */
+
+.container {
+  padding: 1rem;
+}
+
+@media (--mobile-screen) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    max-width: 1400px;
+    padding: 2rem;
+  }
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@custom-media
+[no-unknown-custom-media] Unknown custom media query "--laptop-screen" (no-unknown-custom-media)
+[no-unknown-custom-media] Unknown custom media query "--tablet-screen" (no-unknown-custom-media)
+[no-unknown-custom-media] Unknown custom media query "--widescreen" (no-unknown-custom-media)
+~~~
+/* typography.css */
+
+@media (--tablet-screen) {
+  .container {
+    font-size: 0.9rem;
+  }
+}
+
+@media (--laptop-screen) {
+  .container {
+    font-size: 1rem;
+  }
+}
+
+@media (--widescreen) {
+  .container {
+    font-size: 1.1rem;
+  }
 }
 ~~~
 
@@ -3812,6 +3928,18 @@ font-family:
   sans-serif;
 ~~~
 
+/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-no-duplicate-names] Duplicate font-family name "monospace" (font-family-no-duplicate-names)
+~~~
+.mono-only {
+  font-family: monospace;
+}
+
+.mono-list {
+  font-family: monospace, monospace;
+}
+~~~
+
 /en-US/docs/Web/CSS/Reference/Properties/order
 [no-inline-style] Inline style is not allowed
 ~~~
@@ -3917,6 +4045,93 @@ that contain characters which must be escaped in CSS -->
 
 <p id="item?one">This paragraph has a pink background.</p>
 <p id="123item">This paragraph has a yellow background.</p>
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "0%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "100%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "50%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "75%" (keyframe-block-no-duplicate-selectors)
+~~~
+@keyframes makeItPurpleOnly {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    transform: translateX(50vw);
+  }
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    background-color: purple;
+  }
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "100%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "50%" (keyframe-block-no-duplicate-selectors)
+[keyframe-block-no-duplicate-selectors] Duplicate keyframe selector "75%" (keyframe-block-no-duplicate-selectors)
+~~~
+@keyframes uglyAnimation {
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+    background-color: purple;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    transform: translateX(50vw);
+  }
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/Keyframe_selectors
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+div {
+  background-color: rebeccapurple;
+  color: white;
+  width: min-content;
+  padding: 10px;
+  font: 2rem sans-serif;
+}
+
+@keyframes slide-and-fade {
+  from {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(50vw);
+    opacity: 0;
+  }
+}
+
+div {
+  animation: slide-and-fade 4s ease-in infinite;
+}
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Values/attr
@@ -4062,6 +4277,25 @@ p {
 }
 ~~~
 
+/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient
+[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
+[color-named] Expected "hsl(360 100% 50%)" to be "red" (color-named)
+~~~
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+div {
+  background-image: conic-gradient(
+    in hsl longer hue,
+    hsl(360 100% 50%),
+    hsl(0 100% 50%)
+  );
+}
+~~~
+
 /en-US/docs/Web/CSS/Reference/Values/hex-color
 [color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
 [color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
@@ -4096,6 +4330,121 @@ div {
 }
 ~~~
 
+/en-US/docs/Web/CSS/Reference/Values/hue-interpolation-method
+[color-named] Expected "hsl(180deg 100% 50%)" to be "cyan" (color-named)
+[color-named] Expected "hsl(540 100% 50%)" to be "cyan" (color-named)
+[color-named] Expected "hsl(60 100% 50%)" to be "yellow" (color-named)
+[color-named] Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/if
+[declaration-property-value-no-unknown] Unknown value "if()" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+background-color: if(else: yellow);
+background-image: if();
+~~~
+
 /en-US/docs/Web/CSS/Reference/Values/important
 [declaration-block-no-duplicate-custom-properties] Duplicate custom property "--my-color" (declaration-block-no-duplicate-custom-properties)
 [declaration-block-no-duplicate-properties] Duplicate property "color" (declaration-block-no-duplicate-properties)
@@ -4120,6 +4469,26 @@ selector {
   property: value; /* normal declaration */
   property: value !important; /* important declaration (preferred) */
   property: value ! important; /* important declaration (not preferred) */
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Values/random
+[shorthand-property-no-redundant-values] Expected "random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)
+[shorthand-property-no-redundant-values] Expected "random(1px, 100px) random(1px, 100px)" to be "random(1px, 100px)" (shorthand-property-no-redundant-values)
+~~~
+.foo {
+  width: random(100px, 200px);
+}
+.foo:hover {
+  width: random(100px, 200px);
+}
+.bar {
+  margin: random(1px, 100px) random(1px, 100px);
+}
+.bar:hover {
+  margin: random(1px, 100px) random(1px, 100px) random(1px, 100px)
+    random(1px, 100px);
 }
 ~~~
 
