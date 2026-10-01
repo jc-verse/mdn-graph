@@ -5,7 +5,7 @@
 /en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/*
 /en-US/docs/Games/Techniques/Tilemaps/*
 /en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/*
-/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/*
+/en-US/docs/Games/Tutorials/2D_breakout_game_pure_JavaScript/*
 /en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_*
 /en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example
 /en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/*/*

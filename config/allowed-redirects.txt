@@ -8,13 +8,9 @@
   TODO: update phaser docs
 https://phaser.io/docs/{.*}	https://docs.phaser.io/{.*}
 https://phaser.io/download/stable	https://phaser.io/download/release/v{[\d.]+}
-  TODO: update Svelte docs
-https://{[^/]*}svelte.dev/{.*}	https://svelte.dev/{.*}
 https://docs.djangoproject.com/en/stable/{(.*)}	https://docs.djangoproject.com/en/{[\d.]+}/$1
-https://laravel.com/docs/{(.*)}	https://laravel.com/docs/{[\d.x]+}/$1
 
 https://sqlite.org/wasm	https://sqlite.org/wasm/doc/trunk/index.md
-https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2F$1
 https://scrimba.com/{([^?]+)}?via={([a-z-]+)}	https://scrimba.com/$1?via=$2{&.*}
 
   This is weird—the HTTPS URL is redirecting to HTTP in the action runner

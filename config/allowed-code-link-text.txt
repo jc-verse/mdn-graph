@@ -11,8 +11,6 @@
 <integer> && <custom-ident>?
 <length-percentage [0,∞]>
 <list of numbers>
-<number> <number>
-<number> <number> <number>
 <number> [; <number>] ;?
 <offset-x> <offset-y>
 <string> <number>
@@ -76,6 +74,8 @@ contain-intrinsic-size: auto none
 cubic-bezier(p1, p2, p3, p4)
 delegatesFocus: true
 delete obj.x
+export * from
+export * from "mod"
 for each...in
 getRootNode({ composed: true })
 gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
@@ -253,6 +253,7 @@ dom.forms.html_color_picker.enabled
 dom.multiple_import_maps.enabled
 dom.select.customizable_select.enabled
 image.avif.compliance_strictness
+javascript.options.experimental.export_star_default
 javascript.options.experimental.intl_locale_info
 javascript.options.experimental.regexp_buffer_boundaries
 mathml.href_link_on_non_anchor_element.disabled

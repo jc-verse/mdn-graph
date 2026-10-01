@@ -6,7 +6,6 @@
   Custom firewalls:
 https://www.canva.com/{.*}
 https://www.openwebanalytics.com{/?}
-https://www.reddit.com/r/{.*}
 https://www.intel.com/content/www/us/en/{.*}
 https://www.shutterstock.com/
 https://www.upwork.com/

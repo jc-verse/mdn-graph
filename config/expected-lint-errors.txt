@@ -19,32 +19,45 @@
 </html>
 ~~~
 
-/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
+/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
+    <title>Breakout game</title>
     <style>
       * {
         padding: 0;
         margin: 0;
       }
-      canvas {
-        background: #eeeeee;
-        display: block;
-        margin: 0 auto;
+    </style>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body></body>
+</html>
+~~~
+
+/en-US/docs/Games/Tutorials/2D_breakout_game_pure_JavaScript/Initialize_the_canvas
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Breakout game</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
       }
     </style>
+    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
-
-    <script>
-      // JavaScript code goes here
-    </script>
+    <canvas id="game-canvas" width="480" height="320"></canvas>
   </body>
 </html>
 ~~~
@@ -1008,12 +1021,6 @@ ul {
 }
 ~~~
 
-/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs
-[syntax] Parsing error: Expression expected.
-~~~
-layers: L.mapquest.tileLayer("map"),
-~~~
-
 /en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
@@ -1646,7 +1653,7 @@ browser.menus.onHidden.addListener(() => {
 ~~~
 browser.action.onClicked.addListener(async (tab) => {
   try {
-    await browser.scripting.executeScript({
+    const results = await browser.scripting.executeScript({
       target: {
         tabId: tab.id,
       },
@@ -1654,6 +1661,11 @@ browser.action.onClicked.addListener(async (tab) => {
         document.body.style.border = "5px solid green";
       },
     });
+    for (const { frameId, error } of results) {
+      if (error) {
+        console.error(`script failed in frame ${frameId}: ${error}`);
+      }
+    }
   } catch (err) {
     console.error(`failed to execute script: ${err}`);
   }

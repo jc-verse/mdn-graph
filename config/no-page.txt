@@ -12,8 +12,6 @@
 /en-US/docs/Web/API/InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon
 /en-US/docs/Web/API/LayoutWorklet
 /en-US/docs/Web/API/MediaTrackConstraints/resizeMode
-/en-US/docs/Web/API/MediaTrackSettings/resizeMode
-/en-US/docs/Web/API/MediaTrackSupportedConstraints/resizeMode
 /en-US/docs/Web/API/Navigator/standalone
 /en-US/docs/Web/API/PrivateAggregation/contributeToHistogramOnEvent
 
@@ -33,8 +31,6 @@
 /en-US/docs/Web/API/SVGAnimatedPathData/pathSegList
 /en-US/docs/Web/API/SVGElement/abort_event
 /en-US/docs/Web/API/SVGElement/unload_event
-/en-US/docs/Web/API/SVGFECompositeElement/type
-/en-US/docs/Web/API/SVGFECompositeElement/values
 /en-US/docs/Web/API/SVGPathSegArcAbs
 /en-US/docs/Web/API/SVGPathSegArcRel
 /en-US/docs/Web/API/SVGPathSegClosePath
