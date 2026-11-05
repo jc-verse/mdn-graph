@@ -1,5 +1,6 @@
 import jcRules from "eslint-config-jc";
 import pluginRegexp from "eslint-plugin-regexp";
+import noTypeScriptSyntax from "./eslint-rules/no-typescript-syntax.ts";
 
 export default [
   ...jcRules(),
@@ -75,6 +76,15 @@ export default [
     },
   },
   {
+    files: ["**/*.{js,mjs,cjs,jsx}"],
+    plugins: {
+      "mdn-graph": {
+        rules: { "no-typescript-syntax": noTypeScriptSyntax },
+      },
+    },
+    rules: { "mdn-graph/no-typescript-syntax": "error" },
+  },
+  {
     files: [
       "Glossary/Falsy/*",
       "Glossary/Truthy/*",
@@ -117,6 +127,7 @@ export default [
       "Web/JavaScript/Guide/Grammar_and_types/*",
       "Web/JavaScript/Reference/Deprecated_and_obsolete_features/*",
       "Web/JavaScript/Reference/Errors/Delete_in_strict_mode/*",
+      "Web/JavaScript/Reference/Magic_comments/*",
       "Web/JavaScript/Reference/Operators/delete/*",
       "Web/JavaScript/Reference/Operators/function/*",
       "Web/JavaScript/Reference/Operators/this/*",
@@ -138,8 +149,13 @@ export default [
       "Web/API/TrustedTypePolicyFactory/emptyScript/*",
       "Web/HTTP/Guides/CSP/*",
       "Web/JavaScript/Reference/Global_Objects/eval/*",
+      "Web/JavaScript/Reference/Magic_comments/*",
     ],
     rules: { "no-eval": "off" },
+  },
+  {
+    files: ["Web/JavaScript/Reference/Magic_comments/*"],
+    rules: { "spaced-comment": "off" },
   },
   {
     files: [

@@ -567,7 +567,14 @@ export default async function createContentGraph() {
       continue;
     }
     if (
-      [".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(Path.extname(file))
+      nodeId === "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme" &&
+      Path.basename(file) === "Themes_components_annotations_nova.snagx"
+    ) {
+      // Allows editing the corresponding themes_components_annotations-nova.webp.
+      continue;
+    }
+    if (
+      [".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"].includes(Path.extname(file))
     ) {
       const imagePath = `${nodeId}/${Path.basename(file)}`;
       allImgs.set(imagePath, false);
@@ -604,6 +611,7 @@ export default async function createContentGraph() {
         /(?:runXHR|loadImage)\(["']([^"']+)["']\)/g,
       );
       const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
+      const jsCssUrlReferences = js.matchAll(/url\(["']?([^"')]+)["']?\)/g);
       const htmlSrcReferences = html.matchAll(/ src=["']([^"']+)["']/g);
       const htmlSrcsetReferences = [
         // Exclude imagesrcset
@@ -634,6 +642,7 @@ export default async function createContentGraph() {
         ...jsSrcReferences,
         ...jsFuncReferences,
         ...jsHrefReferences,
+        ...jsCssUrlReferences,
         ...htmlSrcReferences,
         ...htmlSrcsetReferences,
         ...htmlHrefReferences,
@@ -653,7 +662,7 @@ export default async function createContentGraph() {
             `https://developer.mozilla.org${node.id}/`,
           ).pathname;
           if (
-            [".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(
+            [".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"].includes(
               Path.extname(resolvedSrc),
             )
           ) {

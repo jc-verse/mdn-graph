@@ -28,6 +28,8 @@ auto <angle>
 auto <length>
 auto [<length> | none]
 color(srgb ...)
+cover 0%
+cover 100%
 cubic-bezier(<number [0,1]> , <number> , <number [0,1]> , <number>)
 fit-content( [ <length> | <percentage> ] )
 fixed <number>
@@ -37,6 +39,8 @@ linear(<number> <percentage>{1,2}, …)
 only light
 repeat( [ <positive-integer> | auto-fill | auto-fit ] , <track-list> )
 round <'border-radius'>
+scroll 0%
+scroll 100%
 span && [ <integer> || <custom-ident> ]
 steps(<integer>, <step-position>)
 steps(n, <jump-term>)
@@ -45,8 +49,13 @@ steps(n, <jump-term>)
 "display": "browser"
 "target_hint": "_blank"
 "target_hint": "_self"
+"use client"
+"use server"
 "worker initialization"
 "x" in obj
+// @flow
+// @ts-expect-error
+// prettier-ignore
 <audio loading>
 <video loading>
 FileSystemHandle.requestPermission({mode: 'readwrite'})
@@ -102,6 +111,7 @@ try { ... }
 windows.update(windowId, { focused: true })
 with { type: "text" }
 { type: "text" }
+{{ form.renewal_date.as_field_group }}
 
 JS_DoubleToInt32()
 JS_DoubleToUint32()
@@ -147,6 +157,8 @@ i64x2.extmul_low_i32x4_s
 i64x2.extmul_low_i32x4_u
 i8x16.narrow_i16x8_s
 i8x16.narrow_i16x8_u
+ref.as_non_null
+ref.is_null
 v128.any_true
 v128.load16_lane
 v128.load16_splat
@@ -180,6 +192,7 @@ v128.store8_lane
 <module specifier map>
 <significant version>
 Accept-Language: en
+X-Content-Type-Options: nosniff
 [time_zone_id]
 max-image-preview: <setting>
 max-snippet: <number>
@@ -211,6 +224,9 @@ no such element
 no such frame
 no such handle
 no such history entry
+no such node
+no such screencast
+no such script
 no such user context
 no such window
 script timeout
@@ -249,10 +265,13 @@ storage.managed_schema
 
 dom.audio_session.enabled
 dom.enable_container_timing
+dom.fetch.streaming_upload
 dom.forms.html_color_picker.enabled
 dom.multiple_import_maps.enabled
 dom.select.customizable_select.enabled
+dom.speculation_rules.enabled
 image.avif.compliance_strictness
+javascript.options.experimental.defer_import_eval
 javascript.options.experimental.export_star_default
 javascript.options.experimental.intl_locale_info
 javascript.options.experimental.regexp_buffer_boundaries

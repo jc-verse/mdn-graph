@@ -83,17 +83,6 @@
 /en-US/docs/Web/MathML/Reference/Global_attributes/style
 /en-US/docs/Web/MathML/Reference/Global_attributes/tabindex
 
-  These are defined in https://svgwg.org/svg2-draft/attindex.html
-/en-US/docs/Web/SVG/Reference/Attribute/hreflang
-/en-US/docs/Web/SVG/Reference/Attribute/offset
-/en-US/docs/Web/SVG/Reference/Attribute/ping
-/en-US/docs/Web/SVG/Reference/Attribute/referrerPolicy
-/en-US/docs/Web/SVG/Reference/Attribute/rel
-/en-US/docs/Web/SVG/Reference/Attribute/title
-
-/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate
-/en-US/docs/Web/SVG/Reference/Attribute/xlink:role
-
 /en-US/docs/Web/WebDriver/Reference/Capabilities/browserName
 /en-US/docs/Web/WebDriver/Reference/Capabilities/browserVersion
 /en-US/docs/Web/WebDriver/Reference/Capabilities/goog/chromeOptions
