@@ -401,6 +401,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       ],
       "unit-no-unknown": true,
+      "value-no-invalid": true,
       "color-named": "always-where-possible",
       "function-name-case": "lower",
       "selector-type-case": "lower",

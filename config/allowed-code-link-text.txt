@@ -276,6 +276,7 @@ javascript.options.experimental.export_star_default
 javascript.options.experimental.intl_locale_info
 javascript.options.experimental.regexp_buffer_boundaries
 mathml.href_link_on_non_anchor_element.disabled
+media.lazy_loading.enabled
 network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled
 security.insecure_connection_text.pbmode.enabled

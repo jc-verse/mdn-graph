@@ -5,27 +5,6 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>Gamedev Phaser Workshop - lesson 01: Initialize the framework</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-    </style>
-    <script src="js/phaser.min.js"></script>
-    <script src="js/script.js" defer></script>
-  </head>
-  <body></body>
-</html>
-~~~
-
-/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
     <title>Breakout game</title>
     <style>
       * {
@@ -183,6 +162,33 @@ the last one.
 </div>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Accessibility/HTML
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Pronouns</td>
+  </tr>
+  <tr>
+    <td>Xavier</td>
+    <td>23</td>
+    <td>he/him</td>
+  </tr>
+  <tr>
+    <td>Tina</td>
+    <td>8</td>
+    <td>she/her</td>
+  </tr>
+  <tr>
+    <td>Sam</td>
+    <td>17</td>
+    <td>she/her</td>
+  </tr>
+</table>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
 [deprecated] <font> is deprecated: use CSS instead
 ~~~
@@ -209,6 +215,21 @@ asked questions, and you can always ask a new question if you can't find the
 answer you're looking for.
 <br /><br />
 <div class="button">Access Forums</div>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
+[prefer-native-element] Prefer to use the native <li> element
+[prefer-native-element] Prefer to use the native <ul> element
+~~~
+<p>My favorite animals:</p>
+
+<div role="list">
+  <div role="listitem">Pig</div>
+  <div role="listitem">Gazelle</div>
+  <div role="listitem">Llama</div>
+  <div role="listitem">Majestic moose</div>
+  <div role="listitem">Hedgehog</div>
+</div>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
@@ -713,6 +734,21 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[attribute-boolean-style] Attribute "disabled" should omit value
+~~~
+<label for="first-input">This input is disabled</label>
+<input id="first-input" type="text" disabled="disabled" />
+<br />
+
+<label for="second-input">This input is also disabled</label>
+<input id="second-input" type="text" disabled />
+<br />
+
+<label for="third-input">This input isn't disabled; you can type into it</label>
+<input id="third-input" type="text" />
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
 [element-required-attributes] <img> is missing required "src" attribute
 ~~~
 <img />
@@ -730,6 +766,48 @@ function checkGuess( {
 [syntax] Opening tag "a" not terminated.
 ~~~
 <a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href=https://www.mozilla.org/>favorite website</a>
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  /* JavaScript module code here */
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script>
+  import mod from "./mod.js"; // SyntaxError: import declarations may only appear at top level of a module
+  // ...
+</script>
+<script src="a-module-using-import-statements.js"></script>
+<!-- SyntaxError: import declarations may only appear at top level of a module -->
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules
+[no-var] Unexpected var, use let or const instead.
+~~~
+<script>
+  var text = "Hello";
+</script>
+<script type="module" src="render.js"></script>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
@@ -4898,35 +4976,33 @@ function onclick(event) {
 /en-US/docs/Web/HTML/Reference/Elements/input/week
 [form-dup-name] Duplicate form control name "week"
 ~~~
-<form>
-  <div class="nativeWeekPicker">
-    <label for="week">What week would you like to start?</label>
-    <input
-      id="week"
-      type="week"
-      name="week"
-      min="2017-W01"
-      max="2018-W52"
-      required />
-    <span class="validity"></span>
+<div class="nativeWeekPicker">
+  <label for="week">What week would you like to start?</label>
+  <input
+    id="week"
+    type="week"
+    name="week"
+    min="2017-W01"
+    max="2018-W52"
+    required />
+  <span class="validity"></span>
+</div>
+<p class="fallbackLabel">What week would you like to start?</p>
+<div class="fallbackWeekPicker">
+  <div>
+    <span>
+      <label for="week">Week:</label>
+      <select id="fallbackWeek" name="week"></select>
+    </span>
+    <span>
+      <label for="year">Year:</label>
+      <select id="year" name="year">
+        <option value="2017" selected>2017</option>
+        <option value="2018">2018</option>
+      </select>
+    </span>
   </div>
-  <p class="fallbackLabel">What week would you like to start?</p>
-  <div class="fallbackWeekPicker">
-    <div>
-      <span>
-        <label for="week">Week:</label>
-        <select id="fallbackWeek" name="week"></select>
-      </span>
-      <span>
-        <label for="year">Year:</label>
-        <select id="year" name="year">
-          <option value="2017" selected>2017</option>
-          <option value="2018">2018</option>
-        </select>
-      </span>
-    </div>
-  </div>
-</form>
+</div>
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Elements/label
@@ -5377,6 +5453,116 @@ myCanvas.createReportList();
 [import-x/no-named-default] Use default import syntax to import 'randomSquare'.
 ~~~
 import { default as randomSquare } from "./modules/square.js";
+
+export { randomSquare as default };
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[import-x/no-amd] Expected imports instead of AMD define().
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// -- rectangle.js --
+define([], function () {
+  return {
+    area: (a, b) => a * b,
+  };
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[import-x/no-amd] Expected imports instead of AMD define().
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// -- square.js --
+define(["./rectangle"], function (rectangle) {
+  // `rectangle` contains the value returned by rectangle.js's factory
+  return {
+    area: (side) => rectangle.area(side, side),
+  };
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// -- rectangle.js --
+(function (root, factory) {
+  if (typeof define === "function" && define.amd) {
+    define([], factory);
+  } else if (typeof module === "object" && module.exports) {
+    module.exports = factory();
+  } else {
+    root.rectangle = factory();
+  }
+})(globalThis, function () {
+  return {
+    area: (a, b) => a * b,
+  };
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// -- square.js --
+(function (root, factory) {
+  if (typeof define === "function" && define.amd) {
+    define(["./rectangle"], factory);
+  } else if (typeof module === "object" && module.exports) {
+    module.exports = factory(require("./rectangle.js"));
+  } else {
+    root.square = factory(root.rectangle);
+  }
+})(globalThis, function (rectangle) {
+  return {
+    area: (side) => rectangle.area(side, side),
+  };
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[object-shorthand] Expected method shorthand.
+[spaced-comment] Expected space or tab after '/*' in comment.
+[spaced-comment] Expected space or tab before '*/' in comment.
+~~~
+// -- dist/square.js --
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+  value: true,
+});
+Object.defineProperty(exports, "area", {
+  enumerable: true,
+  get: function () {
+    return area;
+  },
+});
+const _rectangle = /*#__PURE__*/ _interop_require_wildcard(
+  require("./rectangle"),
+);
+// ... definition for _interop_require_wildcard ...
+function area(side) {
+  return _rectangle.area(side, side);
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms
+[@typescript-eslint/no-require-imports] A `require()` style import is forbidden.
+~~~
+import x = require("mod");
+// Compiled to: const x = require("mod");
+
+export = x;
+// Compiled to: module.exports = x;
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web
+[import-x/first] Absolute imports should come before relative imports.
+~~~
+// -- https://example.com/main.js --
+import * as config1 from "./config.js";
+import * as config2 from "https://example.com/config.js";
+
+console.log(config1 === config2); // true
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Modules
@@ -5390,27 +5576,6 @@ import { default as randomSquare } from "./modules/square.js";
   // ready to be refactored into modules yet.
   var btn = document.querySelector(".square");
 </script>
-~~~
-
-/en-US/docs/Web/JavaScript/Guide/Modules
-[no-var] Unexpected var, use let or const instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Example page</title>
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <div id="main"></div>
-    <script>
-      // A var statement creates a global variable.
-      var text = "Hello";
-    </script>
-    <script type="module" src="./render.js"></script>
-  </body>
-</html>
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Numbers_and_strings

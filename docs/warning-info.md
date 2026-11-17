@@ -191,6 +191,7 @@ This rule reports the style ``"`code`"``. This is an outdated convention and sho
 This rule reports `code` spans that is immediately next to text that is not separated by whitespace. This rule is somewhat smart and:
 
 - Won't report if the preceding text is actually on a separate line, such as via a `<br>` or another paragraph.
+- Won't report links inside `<code>` elements, where adjacent text is part of the code.
 - Will report even if the `code` is not directly adjacent to the text, such as the structure `<a><code>foo</code></a><em>bar</em>`
 
 It also won't report if the text is allowable punctuation, or common conventions such as `foo`s, `n`th, etc.

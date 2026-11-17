@@ -1,3 +1,4 @@
+import { extname } from "node:path";
 import { ESLint } from "eslint";
 import stylelint from "stylelint";
 import { parse as htmlParse } from "angular-html-parser";
@@ -388,7 +389,7 @@ async function checkJS(
           .replaceAll("//@", "// @")
           .replaceAll("//#", "// #"),
         {
-          filePath: `${path.replace("/en-US/docs/", "")}/${fileName}`,
+          filePath: `${path.replace("/en-US/docs/", "")}/${extname(fileName) ? fileName : `${fileName}.js`}`,
         },
       );
       for (const result of results) {

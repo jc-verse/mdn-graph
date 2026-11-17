@@ -204,7 +204,7 @@ export function checkContent(
       }
     }
   });
-  $("code:not(pre code), a:not(pre a)").each((i, code) => {
+  $("code:not(pre code), a:not(pre a):not(code a)").each((i, code) => {
     const textBefore = getSurroundingText(code, $, "previous");
     const textAfter = getSurroundingText(code, $, "next");
     const hasQuoteAfter = /^(?!'s|'th)['"]/.test(textAfter);
